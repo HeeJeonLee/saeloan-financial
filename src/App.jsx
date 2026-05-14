@@ -39,7 +39,7 @@ function App() {
       <header className="w-full bg-blue-900 text-white shadow sticky top-0 z-50">
         <div className="max-w-5xl mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <img src="/새론금융대부중개_logo.jpg" alt="새론금융대부중개 로고"
+            <img src="/logo.png" alt="새론금융대부중개 로고"
               style={{ height: "48px" }}
               onError={(e) => { e.target.style.display = "none"; }} />
             <div>
@@ -185,6 +185,7 @@ function App() {
               ["사업자등록번호", "653-90-02268"],
               ["대표전화", "1555-2137"],
               ["대표휴대폰", "010-5927-9205"],
+              ["이메일", "hejunl@hanmail.net"],
               ["주소", "경기도 수원시 팔달구 권광로 159, 1동 5층 502호(인계동, 수원프라자)"],
             ].map(([k, v]) => (
               <div key={k} className="flex gap-2">
@@ -220,6 +221,8 @@ function App() {
             <a href="#" className="hover:text-white transition">이용약관</a>
             <span>|</span>
             <a href="tel:15552137" className="hover:text-white transition">대표전화 1555-2137</a>
+            <span>|</span>
+            <a href="mailto:hejunl@hanmail.net" className="hover:text-white transition">hejunl@hanmail.net</a>
           </div>
           <p>새론금융대부중개 · 대부중개업 등록: 2026-수원-2324 · 사업자: 653-90-02268</p>
           <p>경기도 수원시 팔달구 권광로 159, 1동 5층 502호 (인계동, 수원프라자)</p>
