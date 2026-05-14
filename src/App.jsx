@@ -42,10 +42,7 @@ function App() {
             <img src="/logo.png" alt="새론금융대부중개 로고"
               style={{ height: "48px" }}
               onError={(e) => { e.target.style.display = "none"; }} />
-            <div>
-              <div className="text-xl font-bold leading-tight">새론금융대부중개</div>
-              <div className="text-xs text-blue-200">Saeloan Financial · 대부중개업</div>
-            </div>
+            <div className="text-sm text-blue-200 font-medium">대부중개업</div>
           </div>
           <a href="tel:15552137"
             className="bg-yellow-400 text-blue-900 font-bold px-4 py-2 rounded-full text-sm hover:bg-yellow-300 transition">
