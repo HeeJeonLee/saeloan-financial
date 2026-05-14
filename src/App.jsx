@@ -28,9 +28,19 @@ function App() {
     e.preventDefault();
     if (!form.name || !form.phone) return alert("이름과 연락처를 입력해 주세요.");
     setSubmitting(true);
-    await new Promise((r) => setTimeout(r, 800));
-    setSubmitting(false);
-    setSubmitted(true);
+    try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(form),
+      });
+      if (!res.ok) throw new Error("서버 오류");
+      setSubmitted(true);
+    } catch {
+      alert("전송 중 오류가 발생했습니다. 전화(1555-2137)로 문의해 주세요.");
+    } finally {
+      setSubmitting(false);
+    }
   };
 
   return (
