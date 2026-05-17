@@ -1,20 +1,27 @@
 import React from "react";
 import "./index.css";
 
-const LOAN_PARTNERS = [
-  { name: "OK저축은행", rate: "연 6.9~19.9%", limit: "최대 3,000만원", feature: "당일승인" },
-  { name: "웰컴저축은행", rate: "연 7.5~19.9%", limit: "최대 2,000만원", feature: "비대면" },
-  { name: "페퍼저축은행", rate: "연 8.0~19.9%", limit: "최대 2,500만원", feature: "빠른실행" },
-  { name: "애큐온저축은행", rate: "연 9.0~19.9%", limit: "최대 2,000만원", feature: "소득무관" },
-  { name: "OSB저축은행", rate: "연 9.5~19.9%", limit: "최대 1,500만원", feature: "주부가능" },
-  { name: "한국투자저축은행", rate: "연 7.0~19.9%", limit: "최대 3,000만원", feature: "신용우대" },
+const SERVICES = [
+  {
+    icon: "🏠",
+    title: "자영업자 추가자금",
+    sub: "은행 생활안정자금 1억 한도 초과",
+    desc: "은행 한도가 초과된 자영업자·법인대표님께 아파트 담보 취급 대부업체를 연결해 드립니다.",
+    badge: "1억~5억",
+  },
 ];
 
 const STEPS = [
-  { num: "01", title: "무료 한도조회", desc: "신용점수 영향 없이 예상 한도·금리 확인" },
-  { num: "02", title: "맞춤 상담", desc: "전담 상담사가 최적 상품 1:1 안내" },
-  { num: "03", title: "서류 접수", desc: "비대면 간편 서류 제출 (앱/카카오)" },
-  { num: "04", title: "당일 실행", desc: "승인 후 당일 입금 처리" },
+  { num: "01", title: "무료 상담", desc: "아파트 주소·시세·기존대출 조건 전화 상담" },
+  { num: "02", title: "대부업체 탐색", desc: "조건에 맞는 대부업체를 찾아 안내" },
+  { num: "03", title: "대부업체 연결", desc: "고객님과 대부업체를 연결 (중개 완료)" },
+  { num: "04", title: "이후 절차", desc: "서류 접수·심사·실행은 대부업체가 진행" },
+];
+
+const LTV_TABLE = [
+  { label: "KB시세 15억 이하", bank: "최대 6억", note: "규제지역 LTV 40%" },
+  { label: "KB시세 15억~25억", bank: "최대 4억", note: "규제지역 LTV 40%" },
+  { label: "KB시세 25억 초과", bank: "최대 2억", note: "규제지역 LTV 40%" },
 ];
 
 function App() {
@@ -28,7 +35,6 @@ function App() {
             <img src="/logo.jpg" alt="새론금융대부중개 로고"
               style={{ height: "64px" }}
               onError={(e) => { e.target.style.display = "none"; }} />
-            <span className="text-xs text-blue-300 tracking-widest uppercase mt-1">대부중개업</span>
           </div>
           <a href="tel:15552137"
             className="bg-yellow-400 text-blue-900 font-bold px-4 py-2 rounded-full text-sm hover:bg-yellow-300 transition">
@@ -39,46 +45,79 @@ function App() {
 
       {/* ── 히어로 ── */}
       <section className="bg-gradient-to-br from-blue-900 to-blue-700 text-white py-16 px-4 text-center">
-        <h1 className="text-3xl md:text-4xl font-extrabold mb-4 leading-tight">
-          합리적 한도, 신속한 상담<br />
-          <span className="text-yellow-300">새론금융대부중개</span>
+        <div className="inline-block bg-yellow-400 text-blue-900 text-xs font-bold px-4 py-1 rounded-full mb-4">
+          서울·수도권 아파트담보 대부중개업
+        </div>
+        <h1 className="text-3xl md:text-5xl font-extrabold mb-4 leading-tight">
+          은행에서 안 된다고요?<br />
+          <span className="text-yellow-300">아파트담보 대부업체 연결해 드립니다</span>
         </h1>
-        <p className="text-blue-100 mb-8 text-lg">
-          전국 대형 저축은행·대부사 비교 · 무료 한도조회 · 당일 승인
+        <p className="text-blue-100 mb-3 text-lg">
+          자영업자 추가자금 · 은행 한도 초과분
+        </p>
+        <p className="text-blue-200 mb-8 text-sm">
+          중개수수료 0원 · 대부중개업 등록업체
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a href="#consult"
             className="bg-yellow-400 text-blue-900 font-bold px-8 py-4 rounded-full text-lg hover:bg-yellow-300 shadow-lg transition">
-            무료 상담신청
+            무료 사전검토 신청
           </a>
-          <a href="tel:15552137"
+          <a href="tel:10059279205"
             className="bg-white text-blue-900 font-bold px-8 py-4 rounded-full text-lg hover:bg-blue-50 shadow-lg transition">
-            ☎ 1555-2137 바로전화
+            📱 010-5927-9205 바로전화
+          </a>
+        </div>
+        <div className="flex justify-center mt-4">
+          <a href="tel:15552137"
+            className="text-blue-200 underline text-sm hover:text-white transition">
+            ☎ 대표전화 1555-2137
           </a>
         </div>
         <p className="mt-6 text-xs text-blue-200">
-          ※ 중개수수료 없음 · 신용점수 영향 없는 사전조회 · 대부업법 준수
+          ※ 중개수수료 없음 · 선입금 요구 없음 · 대부업법 준수 · 등록 2026-수원-2324
         </p>
       </section>
 
-      {/* ── 제휴 금융사 ── */}
-      <section className="max-w-5xl mx-auto w-full px-4 py-12">
-        <h2 className="text-2xl font-bold text-center text-gray-800 mb-2">제휴 금융사</h2>
-        <p className="text-center text-gray-500 mb-8 text-sm">여러 금융사를 한 번에 비교해 가장 유리한 조건을 안내해 드립니다</p>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-          {LOAN_PARTNERS.map((p) => (
-            <div key={p.name} className="bg-white rounded-xl shadow p-5 border border-gray-100 hover:shadow-md transition">
-              <div className="flex items-center justify-between mb-3">
-                <span className="font-bold text-gray-800">{p.name}</span>
-                <span className="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded-full">{p.feature}</span>
+      {/* ── 은행 한도 안내 배너 ── */}
+      <section className="bg-red-50 border-b border-red-100 py-6 px-4">
+        <div className="max-w-4xl mx-auto">
+          <p className="text-center text-red-700 font-bold text-sm mb-4">⚠ 2026년 현재 은행 아파트담보대출 한도 (규제지역 기준)</p>
+          <div className="grid grid-cols-3 gap-3">
+            {LTV_TABLE.map((r) => (
+              <div key={r.label} className="bg-white rounded-lg p-3 text-center shadow-sm border border-red-100">
+                <div className="text-xs text-gray-500 mb-1">{r.label}</div>
+                <div className="font-extrabold text-red-600 text-lg">{r.bank}</div>
+                <div className="text-xs text-gray-400">{r.note}</div>
               </div>
-              <div className="text-sm text-gray-600 mb-1">금리: <span className="font-semibold text-blue-700">{p.rate}</span></div>
-              <div className="text-sm text-gray-600">한도: <span className="font-semibold">{p.limit}</span></div>
+            ))}
+          </div>
+          <p className="text-center text-sm text-red-600 font-semibold mt-4">
+            한도가 부족하다면 → <span className="underline">대부업체 연결 중개를 통해 도움을 드립니다</span>
+          </p>
+        </div>
+      </section>
+
+      {/* ── 핵심 서비스 3가지 ── */}
+      <section className="max-w-5xl mx-auto w-full px-4 py-12">
+        <h2 className="text-2xl font-bold text-center text-gray-800 mb-2">새론금융 중개 서비스</h2>
+        <p className="text-center text-gray-500 mb-8 text-sm">은행 한도가 부족한 고객님께 적합한 대부업체를 찾아 연결해 드립니다</p>
+        <div className="grid grid-cols-1 md:grid-cols-1 gap-6 max-w-md mx-auto">
+          {SERVICES.map((s) => (
+            <div key={s.title} className="bg-white rounded-2xl shadow-md p-6 border border-gray-100 hover:shadow-xl transition">
+              <div className="text-4xl mb-3">{s.icon}</div>
+              <div className="flex items-center gap-2 mb-2">
+                <span className="font-extrabold text-gray-800 text-lg">{s.title}</span>
+                <span className="bg-blue-800 text-white text-xs px-2 py-0.5 rounded-full">{s.badge}</span>
+              </div>
+              <div className="text-blue-700 text-xs font-semibold mb-2">{s.sub}</div>
+              <p className="text-sm text-gray-600 leading-relaxed">{s.desc}</p>
             </div>
           ))}
         </div>
+
         <p className="text-center text-xs text-gray-400 mt-4">
-          ※ 금리·한도는 신용등급·소득 등에 따라 다를 수 있습니다. 실제 조건은 상담 후 확정됩니다.
+          ※ 실제 금리·한도는 대부업체 심사 조건에 따라 결정됩니다. 새론금융은 중개만 합니다.
         </p>
       </section>
 
@@ -162,7 +201,7 @@ function App() {
             <li>중개수수료: 없음 (대부중개업자는 중개수수료를 받을 수 없습니다)</li>
             <li>대출 시 귀하의 신용등급이 하락할 수 있습니다.</li>
             <li>과도한 대출은 개인신용평점 하락 및 금융거래 제한의 원인이 될 수 있습니다.</li>
-            <li>새론금융대부중개는 대부중개업체(개인사업자)로, 직접 대출을 실행하지 않습니다.</li>
+            <li>새론금융대부중개는 대부중개업 등록업체로, 대출을 직접 실행하지 않으며 대부업체를 연결하는 중개 서비스만 제공합니다.</li>
             <li>대부업 관련 문의·신고: 경기도청 금융정책과 또는 금융감독원(1332)</li>
           </ul>
         </div>

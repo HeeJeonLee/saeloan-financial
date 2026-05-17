@@ -1,0 +1,69 @@
+{
+  "name": "새론금융 SNS 자동화 리드관리",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "saeloan-lead",
+        "responseMode": "immediateResponse",
+        "responseData": "allEntries"
+      },
+      "name": "Webhook (홈페이지 폼수신)",
+      "type": "n8n-nodes-base.webhook",
+      "position": [240, 300]
+    },
+    {
+      "parameters": {
+        "operation": "append",
+        "documentId": "YOUR_GOOGLE_SHEET_ID",
+        "sheetName": "상담신청",
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "신청시각": "={{ $now.format('yyyy-MM-dd HH:mm') }}",
+            "이름": "={{ $json.body.name }}",
+            "연락처": "={{ $json.body.phone }}",
+            "희망금액": "={{ $json.body.amount }}",
+            "문의사항": "={{ $json.body.memo }}",
+            "처리상태": "신규"
+          }
+        }
+      },
+      "name": "Google Sheets (CRM 기록)",
+      "type": "n8n-nodes-base.googleSheets",
+      "position": [480, 200]
+    },
+    {
+      "parameters": {
+        "fromEmail": "noreply@saeloan.co.kr",
+        "toEmail": "YOUR_EMAIL@gmail.com",
+        "subject": "=[새론금융 신규상담] {{ $json.body.name }} 님",
+        "text": "=신청시각: {{ $now.format('yyyy-MM-dd HH:mm') }}\n이름: {{ $json.body.name }}\n연락처: {{ $json.body.phone }}\n희망금액: {{ $json.body.amount }}\n문의: {{ $json.body.memo }}\n\n빠른 연락 바랍니다!"
+      },
+      "name": "이메일 알림 (담당자)",
+      "type": "n8n-nodes-base.emailSend",
+      "position": [480, 400]
+    },
+    {
+      "parameters": {
+        "chatId": "YOUR_TELEGRAM_CHAT_ID",
+        "text": "=🔔 새론금융 신규 상담신청!\n\n👤 이름: {{ $json.body.name }}\n📱 연락처: {{ $json.body.phone }}\n💰 희망금액: {{ $json.body.amount }}\n\n⏰ {{ $now.format('HH:mm') }}",
+        "additionalFields": {}
+      },
+      "name": "Telegram 즉시알림 (담당자폰)",
+      "type": "n8n-nodes-base.telegram",
+      "position": [480, 550]
+    }
+  ],
+  "connections": {
+    "Webhook (홈페이지 폼수신)": {
+      "main": [
+        [
+          { "node": "Google Sheets (CRM 기록)", "type": "main", "index": 0 },
+          { "node": "이메일 알림 (담당자)", "type": "main", "index": 0 },
+          { "node": "Telegram 즉시알림 (담당자폰)", "type": "main", "index": 0 }
+        ]
+      ]
+    }
+  }
+}
