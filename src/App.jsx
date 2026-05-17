@@ -74,9 +74,15 @@ function App() {
             className="bg-yellow-400 text-blue-900 font-bold px-8 py-4 rounded-full text-lg hover:bg-yellow-300 shadow-lg transition">
             무료 상담신청
           </a>
-          <a href="tel:15552137"
+          <a href="tel:10059279205"
             className="bg-white text-blue-900 font-bold px-8 py-4 rounded-full text-lg hover:bg-blue-50 shadow-lg transition">
-            ☎ 1555-2137 바로전화
+            📱 010-5927-9205 바로전화
+          </a>
+        </div>
+        <div className="flex justify-center mt-4">
+          <a href="tel:15552137"
+            className="text-blue-200 underline text-sm hover:text-white transition">
+            ☎ 대표전화 1555-2137
           </a>
         </div>
         <p className="mt-6 text-xs text-blue-200">
