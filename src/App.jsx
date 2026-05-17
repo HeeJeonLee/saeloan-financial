@@ -49,7 +49,7 @@ function App() {
       <header className="w-full bg-blue-900 text-white shadow sticky top-0 z-50">
         <div className="max-w-5xl mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <img src="/logo.png" alt="새론금융대부중개 로고"
+            <img src="/logo.jpg" alt="새론금융대부중개 로고"
               style={{ height: "64px" }}
               onError={(e) => { e.target.style.display = "none"; }} />
             <span className="text-xs text-blue-300 tracking-widest uppercase mt-1">대부중개업</span>
