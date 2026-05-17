@@ -6,16 +6,16 @@ const SERVICES = [
     icon: "🏠",
     title: "자영업자 추가자금",
     sub: "은행 생활안정자금 1억 한도 초과",
-    desc: "은행에서 1억 한도가 막힌 자영업자·법인대표를 위해 아파트 담보로 추가 자금을 안내드립니다.",
+    desc: "은행 한도가 초과된 자영업자·법인대표님께 아파트 담보 취급 대부업체를 연결해 드립니다.",
     badge: "1억~5억",
   },
 ];
 
 const STEPS = [
-  { num: "01", title: "무료 사전검토", desc: "아파트 주소·시세·기존대출 조건 확인" },
-  { num: "02", title: "대부업체 안내", desc: "조건에 맞는 대부업체를 찾아 연결해 드립니다" },
-  { num: "03", title: "서류 안내", desc: "필요 서류 목록 및 제출 방법 안내" },
-  { num: "04", title: "대부업체 연결", desc: "대부업체와 고객님을 연결 (중개 완료)" },
+  { num: "01", title: "무료 상담", desc: "아파트 주소·시세·기존대출 조건 전화 상담" },
+  { num: "02", title: "대부업체 탐색", desc: "조건에 맞는 대부업체를 찾아 안내" },
+  { num: "03", title: "대부업체 연결", desc: "고객님과 대부업체를 연결 (중개 완료)" },
+  { num: "04", title: "이후 절차", desc: "서류 접수·심사·실행은 대부업체가 진행" },
 ];
 
 const LTV_TABLE = [
@@ -70,7 +70,7 @@ function App() {
       {/* ── 히어로 ── */}
       <section className="bg-gradient-to-br from-blue-900 to-blue-700 text-white py-16 px-4 text-center">
         <div className="inline-block bg-yellow-400 text-blue-900 text-xs font-bold px-4 py-1 rounded-full mb-4">
-          서울·수도권 아파트담보대출 전문
+          서울·수도권 아파트담보 대부중개업
         </div>
         <h1 className="text-3xl md:text-5xl font-extrabold mb-4 leading-tight">
           은행에서 안 된다고요?<br />
@@ -141,7 +141,7 @@ function App() {
         </div>
 
         <p className="text-center text-xs text-gray-400 mt-4">
-          ※ 실제 금리·한도는 물건 및 개인 조건에 따라 다릅니다. 무료 사전검토 후 확정됩니다.
+          ※ 실제 금리·한도는 대부업체 심사 조건에 따라 결정됩니다. 새론금융은 중개만 합니다.
         </p>
       </section>
 
