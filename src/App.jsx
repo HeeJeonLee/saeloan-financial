@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./index.css";
 
 const LOAN_PARTNERS = [
@@ -18,30 +18,6 @@ const STEPS = [
 ];
 
 function App() {
-  const [form, setForm] = useState({ name: "", phone: "", amount: "", memo: "" });
-  const [submitted, setSubmitted] = useState(false);
-  const [submitting, setSubmitting] = useState(false);
-
-  const handleChange = (e) => setForm({ ...form, [e.target.name]: e.target.value });
-
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    if (!form.name || !form.phone) return alert("이름과 연락처를 입력해 주세요.");
-    setSubmitting(true);
-    try {
-      const res = await fetch("/api/contact", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(form),
-      });
-      if (!res.ok) throw new Error("서버 오류");
-      setSubmitted(true);
-    } catch {
-      alert("전송 중 오류가 발생했습니다. 전화(1555-2137)로 문의해 주세요.");
-    } finally {
-      setSubmitting(false);
-    }
-  };
 
   return (
     <div className="min-h-screen bg-gray-50 flex flex-col">
@@ -49,7 +25,7 @@ function App() {
       <header className="w-full bg-blue-900 text-white shadow sticky top-0 z-50">
         <div className="max-w-5xl mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <img src="/logo.png" alt="새론금융대부중개 로고"
+            <img src="/logo.jpg" alt="새론금융대부중개 로고"
               style={{ height: "64px" }}
               onError={(e) => { e.target.style.display = "none"; }} />
             <span className="text-xs text-blue-300 tracking-widest uppercase mt-1">대부중개업</span>
@@ -122,62 +98,36 @@ function App() {
         </div>
       </section>
 
-      {/* ── 상담 신청 폼 ── */}
+      {/* ── 상담 연결 ── */}
       <section id="consult" className="max-w-2xl mx-auto w-full px-4 py-12">
-        <h2 className="text-2xl font-bold text-center text-gray-800 mb-2">무료 상담신청</h2>
-        <p className="text-center text-gray-500 mb-8 text-sm">신청 즉시 전담 상담사가 연락드립니다 (평일 09:00~18:00)</p>
-        {submitted ? (
-          <div className="bg-green-50 border border-green-200 rounded-xl p-8 text-center">
-            <div className="text-4xl mb-3">✅</div>
-            <div className="font-bold text-green-800 text-lg mb-1">상담 신청이 완료되었습니다!</div>
-            <div className="text-gray-600 text-sm">
-              빠른 시간 내에 연락드리겠습니다.<br />
-              급하신 분은 <a href="tel:15552137" className="text-blue-700 font-bold">1555-2137</a>로 바로 전화주세요.
-            </div>
+        <h2 className="text-2xl font-bold text-center text-gray-800 mb-2">무료 상담 연결</h2>
+        <p className="text-center text-gray-500 mb-8 text-sm">
+          전화 또는 문자로 바로 연결됩니다 · 평일 09:00~18:00
+        </p>
+        <div className="bg-white rounded-2xl shadow p-8 text-center space-y-6">
+          {/* 대표 정보 */}
+          <div>
+            <p className="text-gray-500 text-sm mb-1">대표 상담사</p>
+            <p className="text-xl font-extrabold text-blue-900">김덕진</p>
+            <p className="text-gray-400 text-xs mt-1">새론금융대부중개 대표 · 등록번호 2026-수원-2324</p>
           </div>
-        ) : (
-          <form onSubmit={handleSubmit} className="bg-white rounded-xl shadow p-6 space-y-4">
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              <div>
-                <label className="block text-sm font-medium text-gray-700 mb-1">이름 <span className="text-red-500">*</span></label>
-                <input name="name" value={form.name} onChange={handleChange} required
-                  placeholder="홍길동"
-                  className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400 text-sm" />
-              </div>
-              <div>
-                <label className="block text-sm font-medium text-gray-700 mb-1">연락처 <span className="text-red-500">*</span></label>
-                <input name="phone" value={form.phone} onChange={handleChange} required
-                  placeholder="010-0000-0000" type="tel"
-                  className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400 text-sm" />
-              </div>
-            </div>
-            <div>
-              <label className="block text-sm font-medium text-gray-700 mb-1">희망 대출금액</label>
-              <select name="amount" value={form.amount} onChange={handleChange}
-                className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400 text-sm">
-                <option value="">선택해 주세요</option>
-                <option>500만원 미만</option>
-                <option>500~1,000만원</option>
-                <option>1,000~2,000만원</option>
-                <option>2,000~3,000만원</option>
-                <option>3,000만원 이상</option>
-              </select>
-            </div>
-            <div>
-              <label className="block text-sm font-medium text-gray-700 mb-1">문의사항</label>
-              <textarea name="memo" value={form.memo} onChange={handleChange} rows={3}
-                placeholder="기타 문의사항을 자유롭게 적어주세요."
-                className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400 text-sm resize-none" />
-            </div>
-            <p className="text-xs text-gray-400">
-              ※ 입력하신 개인정보는 상담 목적으로만 사용되며, 상담 완료 후 즉시 파기됩니다.
-            </p>
-            <button type="submit" disabled={submitting}
-              className="w-full bg-blue-800 text-white font-bold py-3 rounded-lg hover:bg-blue-700 transition disabled:opacity-60">
-              {submitting ? "신청 중..." : "무료 상담신청 →"}
-            </button>
-          </form>
-        )}
+          {/* 전화 버튼 */}
+          <a href="tel:15552137"
+            className="flex items-center justify-center gap-3 w-full bg-blue-800 text-white font-bold py-5 rounded-xl text-xl hover:bg-blue-700 active:scale-95 transition shadow-lg">
+            <span className="text-2xl">📞</span>
+            <span>대표번호 1555-2137</span>
+          </a>
+          {/* 문자 버튼 */}
+          <a href="sms:01059279205"
+            className="flex items-center justify-center gap-3 w-full bg-yellow-400 text-blue-900 font-bold py-5 rounded-xl text-xl hover:bg-yellow-300 active:scale-95 transition shadow-lg">
+            <span className="text-2xl">✉️</span>
+            <span>문자 문의 010-5927-9205</span>
+          </a>
+          <p className="text-xs text-gray-400">
+            ※ 개인정보 입력 없이 전화·문자로만 상담합니다.<br />
+            홈페이지에서 어떠한 개인정보도 수집하지 않습니다.
+          </p>
+        </div>
       </section>
 
       {/* ── 회사 소개 ── */}
