@@ -9,27 +9,13 @@ const SERVICES = [
     desc: "은행에서 1억 한도가 막힌 자영업자·법인대표를 위해 아파트 담보로 추가 자금을 안내드립니다.",
     badge: "1억~5억",
   },
-  {
-    icon: "🔑",
-    title: "아파트 구입자금 브릿지",
-    sub: "은행 LTV 한도 초과분 해결",
-    desc: "규제지역 LTV 40% 한도를 초과하는 구입자금을 대부업으로 브릿지 실행합니다.",
-    badge: "3억~10억",
-  },
-  {
-    icon: "🔄",
-    title: "신협·금고 전환",
-    sub: "3개월 후 저금리로 전환",
-    desc: "대부업 실행 3개월 후 신협·새마을금고 개인사업자 담보대출로 전환해 금리를 대폭 낮춥니다.",
-    badge: "연 4~6%대",
-  },
 ];
 
 const STEPS = [
   { num: "01", title: "무료 사전검토", desc: "아파트 주소·시세·기존대출 확인 (5분)" },
   { num: "02", title: "맞춤 상품 안내", desc: "전담 상담사가 최적 대부업체 1:1 안내" },
-  { num: "03", title: "비대면 서류접수", desc: "카카오톡·이메일 간편 제출" },
-  { num: "04", title: "실행 + 전환플랜", desc: "당일~3일 실행 후 3개월 전환 설계" },
+  { num: "03", title: "서류 접수", desc: "등기부등본 등 필요 서류 제출" },
+  { num: "04", title: "대출 실행", desc: "승인 후 신속 처리 (1~3 영업일)" },
 ];
 
 const LTV_TABLE = [
@@ -91,10 +77,10 @@ function App() {
           <span className="text-yellow-300">아파트담보로 해결합니다</span>
         </h1>
         <p className="text-blue-100 mb-3 text-lg">
-          자영업자 추가자금 · 구입자금 브릿지 · 신협·금고 전환까지
+          자영업자 추가자금 · 은행 한도 초과분 해결
         </p>
         <p className="text-blue-200 mb-8 text-sm">
-          중개수수료 0원 · 비대면 처리 · 담보가치 위주 심사
+          중개수수료 0원 · 담보가치 위주 심사
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a href="#consult"
@@ -140,7 +126,7 @@ function App() {
       <section className="max-w-5xl mx-auto w-full px-4 py-12">
         <h2 className="text-2xl font-bold text-center text-gray-800 mb-2">새론금융 핵심 서비스</h2>
         <p className="text-center text-gray-500 mb-8 text-sm">은행에서 해결 못한 아파트담보대출, 새론금융이 처음부터 끝까지 안내합니다</p>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-1 gap-6 max-w-md mx-auto">
           {SERVICES.map((s) => (
             <div key={s.title} className="bg-white rounded-2xl shadow-md p-6 border border-gray-100 hover:shadow-xl transition">
               <div className="text-4xl mb-3">{s.icon}</div>
@@ -153,15 +139,7 @@ function App() {
             </div>
           ))}
         </div>
-        <div className="mt-8 bg-blue-50 rounded-xl p-5 border border-blue-100">
-          <p className="text-center text-blue-800 font-bold text-sm">💡 브릿지 → 전환 원스톱 서비스</p>
-          <p className="text-center text-gray-600 text-sm mt-1">대부업 실행 후 3개월 뒤 신협·새마을금고 개인사업자 담보대출로 전환 → 금리 대폭 절감</p>
-          <div className="flex justify-center items-center gap-4 mt-3 text-sm font-semibold">
-            <span className="text-red-500">대부업 연 12~15%</span>
-            <span className="text-gray-400">→ 3개월 후 →</span>
-            <span className="text-green-600">신협·금고 연 4~6%</span>
-          </div>
-        </div>
+
         <p className="text-center text-xs text-gray-400 mt-4">
           ※ 실제 금리·한도는 물건 및 개인 조건에 따라 다릅니다. 무료 사전검토 후 확정됩니다.
         </p>
@@ -228,7 +206,7 @@ function App() {
             <div>
               <label className="block text-sm font-medium text-gray-700 mb-1">문의사항</label>
               <textarea name="memo" value={form.memo} onChange={handleChange} rows={3}
-                placeholder="예) 서울 강동구 아파트 10억, 기존대출 3억, 추가 2억 필요 / 구입자금 브릿지 / 자영업자 추가자금 등"
+                placeholder="예) 서울 강동구 아파트 10억, 기존대출 3억, 추가 2억 필요 / 자영업자 추가자금 등"
                 className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400 text-sm resize-none" />
             </div>
             <p className="text-xs text-gray-400">
