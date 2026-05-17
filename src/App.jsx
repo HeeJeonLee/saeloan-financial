@@ -12,10 +12,10 @@ const SERVICES = [
 ];
 
 const STEPS = [
-  { num: "01", title: "무료 사전검토", desc: "아파트 주소·시세·기존대출 확인 (5분)" },
-  { num: "02", title: "맞춤 상품 안내", desc: "전담 상담사가 최적 대부업체 1:1 안내" },
-  { num: "03", title: "서류 접수", desc: "등기부등본 등 필요 서류 제출" },
-  { num: "04", title: "대출 실행", desc: "승인 후 신속 처리 (1~3 영업일)" },
+  { num: "01", title: "무료 사전검토", desc: "아파트 주소·시세·기존대출 조건 확인" },
+  { num: "02", title: "대부업체 안내", desc: "조건에 맞는 대부업체를 찾아 연결해 드립니다" },
+  { num: "03", title: "서류 안내", desc: "필요 서류 목록 및 제출 방법 안내" },
+  { num: "04", title: "대부업체 연결", desc: "대부업체와 고객님을 연결 (중개 완료)" },
 ];
 
 const LTV_TABLE = [
@@ -74,13 +74,13 @@ function App() {
         </div>
         <h1 className="text-3xl md:text-5xl font-extrabold mb-4 leading-tight">
           은행에서 안 된다고요?<br />
-          <span className="text-yellow-300">아파트담보로 해결합니다</span>
+          <span className="text-yellow-300">아파트담보 대부업체 연결해 드립니다</span>
         </h1>
         <p className="text-blue-100 mb-3 text-lg">
-          자영업자 추가자금 · 은행 한도 초과분 해결
+          자영업자 추가자금 · 은행 한도 초과분
         </p>
         <p className="text-blue-200 mb-8 text-sm">
-          중개수수료 0원 · 담보가치 위주 심사
+          중개수수료 0원 · 대부중개업 등록업체
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a href="#consult"
@@ -117,15 +117,15 @@ function App() {
             ))}
           </div>
           <p className="text-center text-sm text-red-600 font-semibold mt-4">
-            한도가 부족하다면 → <span className="underline">대부업 아파트담보대출로 해결 가능합니다</span>
+            한도가 부족하다면 → <span className="underline">대부업체 연결 중개를 통해 도움을 드립니다</span>
           </p>
         </div>
       </section>
 
       {/* ── 핵심 서비스 3가지 ── */}
       <section className="max-w-5xl mx-auto w-full px-4 py-12">
-        <h2 className="text-2xl font-bold text-center text-gray-800 mb-2">새론금융 핵심 서비스</h2>
-        <p className="text-center text-gray-500 mb-8 text-sm">은행에서 해결 못한 아파트담보대출, 새론금융이 처음부터 끝까지 안내합니다</p>
+        <h2 className="text-2xl font-bold text-center text-gray-800 mb-2">새론금융 중개 서비스</h2>
+        <p className="text-center text-gray-500 mb-8 text-sm">은행 한도가 부족한 고객님께 적합한 대부업체를 찾아 연결해 드립니다</p>
         <div className="grid grid-cols-1 md:grid-cols-1 gap-6 max-w-md mx-auto">
           {SERVICES.map((s) => (
             <div key={s.title} className="bg-white rounded-2xl shadow-md p-6 border border-gray-100 hover:shadow-xl transition">
@@ -163,9 +163,9 @@ function App() {
 
       {/* ── 상담 신청 폼 ── */}
       <section id="consult" className="max-w-2xl mx-auto w-full px-4 py-12">
-        <h2 className="text-2xl font-bold text-center text-gray-800 mb-2">무료 사전검토 신청</h2>
-        <p className="text-center text-gray-500 mb-2 text-sm">아파트 주소·시세·기존대출만 알려주시면 5분 내 가부 확인</p>
-        <p className="text-center text-gray-500 mb-8 text-sm">신청 즉시 전담 상담사가 연락드립니다 (평일 09:00~18:00)</p>
+        <h2 className="text-2xl font-bold text-center text-gray-800 mb-2">무료 상담 신청</h2>
+        <p className="text-center text-gray-500 mb-2 text-sm">아파트 주소·시세·기존대출 조건을 알려주시면 맞는 대부업체를 안내해 드립니다</p>
+        <p className="text-center text-gray-500 mb-8 text-sm">신청 후 상담사가 연락드립니다 (평일 09:00~18:00)</p>
         {submitted ? (
           <div className="bg-green-50 border border-green-200 rounded-xl p-8 text-center">
             <div className="text-4xl mb-3">✅</div>
@@ -252,7 +252,7 @@ function App() {
             <li>중개수수료: 없음 (대부중개업자는 중개수수료를 받을 수 없습니다)</li>
             <li>대출 시 귀하의 신용등급이 하락할 수 있습니다.</li>
             <li>과도한 대출은 개인신용평점 하락 및 금융거래 제한의 원인이 될 수 있습니다.</li>
-            <li>새론금융대부중개는 대부중개업체(개인사업자)로, 직접 대출을 실행하지 않습니다.</li>
+            <li>새론금융대부중개는 대부중개업 등록업체로, 대출을 직접 실행하지 않으며 대부업체를 연결하는 중개 서비스만 제공합니다.</li>
             <li>대부업 관련 문의·신고: 경기도청 금융정책과 또는 금융감독원(1332)</li>
           </ul>
         </div>
