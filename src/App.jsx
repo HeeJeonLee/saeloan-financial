@@ -52,7 +52,6 @@ function App() {
             <img src="/logo.jpg" alt="새론금융대부중개 로고"
               style={{ height: "64px" }}
               onError={(e) => { e.target.style.display = "none"; }} />
-            <span className="text-xs text-blue-300 tracking-widest uppercase mt-1">대표전화</span>
           </div>
           <a href="tel:15552137"
             className="bg-yellow-400 text-blue-900 font-bold px-4 py-2 rounded-full text-sm hover:bg-yellow-300 transition">
