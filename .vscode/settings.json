@@ -1,0 +1,10 @@
+{
+  "github.copilot.chat.codeGeneration.instructions": [
+    { "file": "PROJECT_CONTEXT_SOURCE.md" },
+    { "file": "SNS_SALES_SYSTEM.md" }
+  ],
+  "github.copilot.chat.reviewSelection.instructions": [
+    { "file": "PROJECT_CONTEXT_SOURCE.md" },
+    { "file": "SNS_SALES_SYSTEM.md" }
+  ]
+}
