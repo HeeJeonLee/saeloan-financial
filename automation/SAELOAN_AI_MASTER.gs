@@ -54,7 +54,7 @@ const STRATEGY = {
 // ★ 채널 및 외부 서비스 연동 (최초 1회 설정) ★
 // ══════════════════════════════════════════════════════════
 const CHANNELS = {
-  TELEGRAM_BOT_TOKEN: "YOUR_BOT_TOKEN", // Telegram @BotFather에서 발급
+  TELEGRAM_BOT_TOKEN: "8930602850:AAHPERIFmvO2WIf7Mjz9A_4dgnBoo3z4qPs", // Telegram @BotFather에서 발급
   TELEGRAM_CHANNEL_ID: "@saeloan_apt",      // 생성한 텔레그램 공개 채널 ID
   GOOGLE_SHEET_ID: "YOUR_GOOGLE_SHEET_ID",  // CRM 및 로그 기록용 구글 시트 ID
   MANAGER_EMAIL: "YOUR_EMAIL@gmail.com",    // 리포트 및 알림 수신용 관리자 이메일
