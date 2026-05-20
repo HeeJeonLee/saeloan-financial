@@ -45,9 +45,9 @@ const STRATEGY = {
     등록번호: "2026-수원-2324",
   },
 
-  // OpenAI API 설정
-  OPENAI_KEY: "YOUR_OPENAI_API_KEY",  // platform.openai.com에서 발급
-  OPENAI_MODEL: "gpt-4o-mini",
+  // Google Gemini API 설정
+  GEMINI_API_KEY: "AIzaSyBSRSAtTFtqXm-_Xn90bjXHPn_0IHqBJI8", // Google AI Studio에서 발급
+  GEMINI_MODEL: "gemini-1.5-flash",
 };
 
 // ══════════════════════════════════════════════════════════
@@ -55,9 +55,9 @@ const STRATEGY = {
 // ══════════════════════════════════════════════════════════
 const CHANNELS = {
   TELEGRAM_BOT_TOKEN: "8930602850:AAHPERIFmvO2WIf7Mjz9A_4dgnBoo3z4qPs", // Telegram @BotFather에서 발급
-  TELEGRAM_CHANNEL_ID: "@saeloan_apt",      // 생성한 텔레그램 공개 채널 ID
-  GOOGLE_SHEET_ID: "YOUR_GOOGLE_SHEET_ID",  // CRM 및 로그 기록용 구글 시트 ID
-  MANAGER_EMAIL: "YOUR_EMAIL@gmail.com",    // 리포트 및 알림 수신용 관리자 이메일
+  TELEGRAM_CHANNEL_ID: "@saeloan-financial",      // 생성한 텔레그램 공개 채널 ID
+  GOOGLE_SHEET_ID: "1gH4xpqVBvpY9wAoI8wB7s4z7LWBOMR1jSnH2gCuKRZ0",  // CRM 및 로그 기록용 구글 시트 ID
+  MANAGER_EMAIL: "sambo003@daum.net",    // 리포트 및 알림 수신용 관리자 이메일
 };
 
 // ══════════════════════════════════════════════════════════
@@ -100,3 +100,83 @@ const BLOG_TOPICS = [
   "법정최고금리 연 20% - 대부업 금리 규제 완전 이해",
   "대부중개업체와 대부업체의 차이점",
 ];
+
+/** OpenAI API 호출을 위한 프롬프트 생성 (블로그용) */
+function buildBlogPostPrompt(topic) {
+  return `자영업자 아파트담보대출: ${topic}`;
+}
+
+/** Google Gemini API 호출 */
+function callGeminiAPI(prompt) {
+  const url = `https://generativelanguage.googleapis.com/v1beta/models/${STRATEGY.GEMINI_MODEL}:generateContent?key=${STRATEGY.GEMINI_API_KEY}`;
+
+  const payload = {
+    contents: [{
+      parts: [{
+        text: prompt
+      }]
+    }],
+    generationConfig: {
+      temperature: 0.7,
+      maxOutputTokens: 1500
+    }
+  };
+
+  const options = {
+    method: "post",
+    contentType: "application/json",
+    payload: JSON.stringify(payload),
+    muteHttpExceptions: true,
+  };
+
+  const response = UrlFetchApp.fetch(url, options);
+  const responseText = response.getContentText();
+  const data = JSON.parse(responseText);
+
+  if (data.error) {
+    throw new Error(`Gemini API Error: ${data.error.message}`);
+  }
+  
+  if (!data.candidates || !data.candidates[0].content || !data.candidates[0].content.parts[0]) {
+    throw new Error("Gemini API Error: Invalid response structure.");
+  }
+
+  return data.candidates[0].content.parts[0].text.trim();
+}
+
+/** 텔레그램 채널에 메시지 발송 */
+function postToTelegram(text) {
+  const url = `https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage`;
+  const payload = {
+    chat_id: TELEGRAM_CHANNEL_ID,
+    text: text,
+    parse_mode: "HTML",
+  };
+  const options = {
+    method: "post",
+    contentType: "application/json",
+    payload: JSON.stringify(payload),
+    muteHttpExceptions: true,
+  };
+  const response = UrlFetchApp.fetch(url, options);
+  const responseText = response.getContentText();
+  const data = JSON.parse(responseText);
+  if (data.error) {
+    throw new Error(`Telegram API Error: ${data.error.message}`);
+  }
+}
+
+/** 테스트 함수 */
+function TEST_텔레그램_미리보기() {
+  try {
+    const today = new Date().getDay();
+    const schedule = CONTENT_SCHEDULE[today];
+    const prompt = buildTelegramPrompt(schedule);
+    const content = callGeminiAPI(prompt);
+    const finalPost = content + LEGAL.FOOTER;
+    Logger.log("✅ 테스트 성공: 오늘 텔레그램에 발행될 게시물 미리보기입니다.");
+  } catch (e) {
+    Logger.log(`❌ 테스트 실패: ${e.toString()}`);
+    Logger.log("Gemini API 키 또는 기타 설정이 올바른지 확인해주세요.");
+  }
+}
