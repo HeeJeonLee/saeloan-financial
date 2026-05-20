@@ -4,249 +4,251 @@
 
 ---
 
-# ?쨼 ?덈줎湲덉쑖 ?꾩쟾 ?먯쑉 AI ?쒖뒪??v2.0
-## ?댄씗????μ? ?꾨왂 蹂寃??쒖뿉留?媛쒖엯?섎㈃ ?⑸땲??
+# 🤖 새론금융 완전 자율 AI 시스템 v2.0
+## 이희전 팀장은 전략 변경 시에만 개입하면 됩니다
 
 ---
 
-## ?쒖뒪???묐룞 媛쒖슂
+## 시스템 작동 개요
 
 ```
-?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺
-??λ떂 ??븷: ??1??由ы룷???뺤씤 + ?꾨왂 蹂寃??쒕쭔 媛쒖엯
-        (?묒뾽 ?쒓컙: ??30遺?
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+팀장님 역할: 월 1회 리포트 확인 + 전략 변경 시만 개입
+        (작업 시간: 월 30분)
 
-AI ??븷: ?섎㉧吏 365??24?쒓컙 紐⑤뱺 寃??먮룞 泥섎━
-?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺
+AI 역할: 나머지 365일 24시간 모든 것 자동 처리
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
 
 ---
 
-## AI媛 ?먮룞?쇰줈 ?섎뒗 ??(???媛쒖엯 ?놁쓬)
+## AI가 자동으로 하는 일 (팀장 개입 없음)
 
-| ?쒓컙 | AI媛 ?섎뒗 ??| ?ъ슜 ?꾧뎄 |
+| 시간 | AI가 하는 일 | 사용 도구 |
 |---|---|---|
-| 留ㅼ씪 ?ㅼ쟾 8:50 | ChatGPT媛 ?ㅻ뒛??寃뚯떆臾??앹꽦 | OpenAI GPT-4o-mini |
-| 留ㅼ씪 ?ㅼ쟾 9:00 | ?붾젅洹몃옩 梨꾨꼸???먮룞 諛쒗뻾 | Google AppScript |
-| ?붋룹닔쨌湲??ㅼ쟾 9:00 | ?ㅼ씠踰?釉붾줈洹??ъ뒪??珥덉븞 ?대찓??諛쒖넚 | OpenAI + Gmail |
-| 怨좉컼 ?곷떞?좎껌 利됱떆 | ????대찓?셋룸Ц???먮룞 ?뚮┝ | Google Forms |
-| 留ㅼ＜ ?붿슂???ㅼ쟾 9??| 二쇨컙 ?ㅼ쟻 + AI ?몄궗?댄듃 由ы룷??諛쒖넚 | OpenAI + Gmail |
-| ?ㅻ쪟 諛쒖깮 ??| 利됱떆 ??μ뿉寃?寃쎄퀬 ?대찓??| Gmail |
+| 매일 오전 8:50 | ChatGPT가 오늘의 게시물 생성 | OpenAI GPT-4o-mini |
+| 매일 오전 9:00 | 텔레그램 채널에 자동 발행 | Google AppScript |
+| 월·수·금 오전 9:00 | 네이버 블로그 포스팅 초안 이메일 발송 | OpenAI + Gmail |
+| 고객 상담신청 즉시 | 팀장 이메일·문자 자동 알림 | Google Forms |
+| 매주 월요일 오전 9시 | 주간 실적 + AI 인사이트 리포트 발송 | OpenAI + Gmail |
+| 오류 발생 시 | 즉시 팀장에게 경고 이메일 | Gmail |
 
 ---
 
-## ?꾩옱 ?ъ슜?섎뒗 AI ??議고빀 (???멸퀎 理쒖쟻 臾대즺 議고빀)
+## 현재 사용하는 AI 툴 조합 (전 세계 최적 무료 조합)
 
-### ??OpenAI GPT-4o-mini ???듭떖 ?먮뇤
+### ① OpenAI GPT-4o-mini — 핵심 두뇌
 ```
-??븷: 紐⑤뱺 肄섑뀗痢??먮룞 ?앹꽦
-鍮꾩슜: ????2,000~5,000??(嫄대떦 0.01???섏?)
-?댁쑀 ?좏깮: ?쒓뎅???덉쭏 ?멸퀎 1?? 媛??鍮좊Ⅸ 泥섎━
-```
-
-### ??Google AppScript ???먮룞???붿쭊
-```
-??븷: 留ㅼ씪쨌留ㅼ＜ ?뺥빐吏??쒓컙??紐⑤뱺 寃??ㅽ뻾
-鍮꾩슜: ?꾩쟾 臾대즺
-?댁쑀 ?좏깮: 援ш? ?명봽??= 99.9% ?덉젙?? ?ㅼ젙 ?ъ?
+역할: 모든 콘텐츠 자동 생성
+비용: 월 약 2,000~5,000원 (건당 0.01원 수준)
+이유 선택: 한국어 품질 세계 1위, 가장 빠른 처리
 ```
 
-### ??Google Forms + Sheets ??CRM (怨좉컼愿由?
+### ② Google AppScript — 자동화 엔진
 ```
-??븷: ?곷떞 ?좎껌 ?섏쭛 + ?먮룞 ?뺣━
-鍮꾩슜: ?꾩쟾 臾대즺
-?댁쑀 ?좏깮: 利됱떆 ?쒖옉 媛?? 蹂꾨룄 ?ㅼ튂 遺덊븘??
-```
-
-### ??Telegram Bot ??SNS ?먮룞諛쒗뻾
-```
-??븷: ?앹꽦??肄섑뀗痢좊? 援щ룆?먯뿉寃?利됱떆 ?꾨떖
-鍮꾩슜: ?꾩쟾 臾대즺
-?댁쑀 ?좏깮: 援?궡 ?異??뺣낫 而ㅻ??덊떚 ?쒖꽦?? API ?덉젙??
+역할: 매일·매주 정해진 시간에 모든 것 실행
+비용: 완전 무료
+이유 선택: 구글 인프라 = 99.9% 안정성, 설정 쉬움
 ```
 
-### ??Vercel + GitHub ???덊럹?댁? ?먮룞 ?댁쁺
+### ③ Google Forms + Sheets — CRM (고객관리)
 ```
-??븷: saeloan.co.kr 24?쒓컙 ?먮룞 ?댁쁺
-鍮꾩슜: ?꾩쟾 臾대즺
-?댁쑀 ?좏깮: ?대? ?ㅼ젙 ?꾨즺
+역할: 상담 신청 수집 + 자동 정리
+비용: 완전 무료
+이유 선택: 즉시 시작 가능, 별도 설치 불필요
+```
+
+### ④ Telegram Bot — SNS 자동발행
+```
+역할: 생성된 콘텐츠를 구독자에게 즉시 전달
+비용: 완전 무료
+이유 선택: 국내 대출 정보 커뮤니티 활성화, API 안정적
+```
+
+### ⑤ Vercel + GitHub — 홈페이지 자동 운영
+```
+역할: saeloan.co.kr 24시간 자동 운영
+비용: 완전 무료
+이유 선택: 이미 설정 완료
 ```
 
 ---
 
-## ?꾨왂 蹂寃?諛⑸쾿 (???吏곸젒 ?ㅼ젙)
+## 전략 변경 방법 (팀장 직접 설정)
 
-### ??μ씠 ?꾨왂??諛붽씀怨??띠쓣 ??
+### 팀장이 전략을 바꾸고 싶을 때
 
-**?④퀎 1:** ?꾨옒 二쇱냼 ?묒냽
+**단계 1:** 아래 주소 접속
 ```
 https://github.com/HeeJeonLee/saeloan-financial/blob/main/automation/STRATEGY_CONFIG.gs
 ```
 
-**?④퀎 2:** ?붾㈃ ?ㅻⅨ履??고븘(?륅툘) ?꾩씠肄??대┃
+**단계 2:** 화면 오른쪽 연필(✏️) 아이콘 클릭
 
-**?④퀎 3:** 諛붽씀怨??띠? ?댁슜留??섏젙
+**단계 3:** 바꾸고 싶은 내용만 수정
 ```javascript
-// ?덉떆: 寃쎈ℓ ?숈같 ?붽툑?쇰줈 二쇰젰 ?꾪솚 ??
+// 예시: 경매 낙찰 잔금으로 주력 전환 시
 FOCUS: {
-  ?먯쁺?낆옄異붽??먭툑: false,   ??false濡?蹂寃?
-  援ъ엯?먭툑釉뚮┸吏: false,    ??false濡?蹂寃?
-  ?좏삊湲덇퀬?꾪솚: false,
-  寃쎈ℓ?숈같?붽툑: true,       ??true濡?蹂寃?
+  자영업자추가자금: false,   ← false로 변경
+  구입자금브릿지: false,    ← false로 변경
+  신협금고전환: false,
+  경매낙찰잔금: true,       ← true로 변경
 }
 ```
 
-**?④퀎 4:** ?붾㈃ ?꾨옒 **"Commit changes"** ?대┃
+**단계 4:** 화면 아래 **"Commit changes"** 클릭
 
-**??** ?ㅼ쓬 ?좊???AI媛 ???꾨왂?쇰줈 紐⑤뱺 寃뚯떆臾쇱쓣 ?먮룞 ?묒꽦?⑸땲??
+**끝.** 다음 날부터 AI가 새 전략으로 모든 게시물을 자동 작성합니다.
 
 ---
 
-## 泥섏쓬 1???ㅼ튂 諛⑸쾿 (珥?2?쒓컙 ?뚯슂)
+## 처음 1회 설치 방법 (총 2시간 소요)
 
-### STEP 1: OpenAI API ??諛쒓툒 (20遺?
+### STEP 1: OpenAI API 키 발급 (20분)
 ```
-1. platform.openai.com ?묒냽 ??援ш? 怨꾩젙?쇰줈 媛??
-2. ?곷떒 硫붾돱 "API keys" ?대┃
-3. "+ Create new secret key" ?대┃
-4. ??蹂듭궗 (?? sk-proj-xxx...) ??硫붾え?μ뿉 ???
-5. "Billing" ????移대뱶 ?깅줉 ??$5 異⑹쟾 (??7,000?? 3~6媛쒖썡 ?ъ슜 媛??
-```
-
-### STEP 2: 援ш? ?쒗듃 留뚮뱾湲?(5遺?
-```
-1. sheets.google.com ?????ㅽ봽?덈뱶?쒗듃
-2. ?대쫫: "?덈줎湲덉쑖 CRM"
-3. URL?먯꽌 ID 蹂듭궗:
-   https://docs.google.com/spreadsheets/d/?끸쁾?ш린媛ID?끸쁾/edit
-4. 蹂듭궗??ID瑜?硫붾え?μ뿉 ???
+1. platform.openai.com 접속 → 구글 계정으로 가입
+2. 상단 메뉴 "API keys" 클릭
+3. "+ Create new secret key" 클릭
+4. 키 복사 (예: sk-proj-xxx...) → 메모장에 저장
+5. "Billing" 탭 → 카드 등록 → $5 충전 (약 7,000원, 3~6개월 사용 가능)
 ```
 
-### STEP 3: AppScript ?ㅼ튂 (40遺?
+### STEP 2: 구글 시트 만들기 (5분)
 ```
-1. script.google.com ??"???꾨줈?앺듃"
-2. ?꾨줈?앺듃 ?대쫫: "?덈줎湲덉쑖_?꾩쟾?먮룞?붿떆?ㅽ뀥"
-3. 醫뚯륫 "+" ???뚯씪 異붽? ??"?ㅽ겕由쏀듃"
-4. ?뚯씪 3媛?留뚮뱾湲?
+1. sheets.google.com → 새 스프레드시트
+2. 이름: "새론금융 CRM"
+3. URL에서 ID 복사:
+   https://docs.google.com/spreadsheets/d/★★여기가ID★★/edit
+4. 복사한 ID를 메모장에 저장
+```
+
+### STEP 3: AppScript 설치 (40분)
+```
+1. script.google.com → "새 프로젝트"
+2. 프로젝트 이름: "새론금융_완전자동화시스템"
+3. 좌측 "+" → 파일 추가 → "스크립트"
+4. 파일 3개 만들기:
    - STRATEGY_CONFIG
    - AI_CONTENT_ENGINE
    - WEEKLY_REPORT
-5. GitHub?먯꽌 媛??뚯씪 ?댁슜 蹂듭궗 ??遺숈뿬?ｊ린
+5. GitHub에서 각 파일 내용 복사 → 붙여넣기
    (https://github.com/HeeJeonLee/saeloan-financial/tree/main/automation)
-6. STRATEGY_CONFIG?먯꽌 援먯껜??寃?
-   - YOUR_OPENAI_API_KEY ??STEP 1?먯꽌 蹂듭궗????
-   - YOUR_GOOGLE_SHEET_ID ??STEP 2?먯꽌 蹂듭궗??ID
-7. AI_CONTENT_ENGINE?먯꽌 援먯껜:
-   - YOUR_BOT_TOKEN ???붾젅洹몃옩 遊??좏겙
-   - @saeloan_apt ??留뚮뱺 梨꾨꼸 二쇱냼
-8. WEEKLY_REPORT?먯꽌 援먯껜:
-   - YOUR_EMAIL@gmail.com ???댄씗???대찓??
-9. ???(Ctrl+S)
+6. STRATEGY_CONFIG에서 교체할 것:
+   - YOUR_OPENAI_API_KEY → STEP 1에서 복사한 키
+   - YOUR_GOOGLE_SHEET_ID → STEP 2에서 복사한 ID
+7. AI_CONTENT_ENGINE에서 교체:
+   - YOUR_BOT_TOKEN → 텔레그램 봇 토큰
+   - @saeloan_apt → 만든 채널 주소
+8. WEEKLY_REPORT에서 교체:
+   - YOUR_EMAIL@gmail.com → 이희전 이메일
+9. 저장 (Ctrl+S)
 ```
 
-### STEP 4: ?몃━嫄??ㅼ젙 (10遺?
+### STEP 4: 트리거 설정 (10분)
 ```
-AppScript 醫뚯륫 硫붾돱 "?몃━嫄??쒓퀎 ?꾩씠肄?" ?대┃
+AppScript 좌측 메뉴 "트리거(시계 아이콘)" 클릭
 
-[?몃━嫄?1]
-?⑥닔: dailyAutoPost
-?대깽?? ?쒓컙 湲곕컲 ??留ㅼ씪 ???ㅼ쟾 8:00~9:00
+[트리거 1]
+함수: dailyAutoPost
+이벤트: 시간 기반 → 매일 → 오전 8:00~9:00
 
-[?몃━嫄?2]
-?⑥닔: generateNaverBlogPost
-?대깽?? ?쒓컙 湲곕컲 ??留ㅼ＜ ???붿슂?????ㅼ쟾 9:00
+[트리거 2]
+함수: generateNaverBlogPost
+이벤트: 시간 기반 → 매주 → 월요일 → 오전 9:00
 
-[?몃━嫄?3]
-?⑥닔: sendWeeklyReport
-?대깽?? ?쒓컙 湲곕컲 ??留ㅼ＜ ???붿슂?????ㅼ쟾 9:00
+[트리거 3]
+함수: sendWeeklyReport
+이벤트: 시간 기반 → 매주 → 월요일 → 오전 9:00
 
-[?몃━嫄?4] (???묐떟??
-?⑥닔: onFormSubmit
-?대깽?? ?ㅽ봽?덈뱶?쒗듃 湲곕컲 ?????쒖텧 ??
-```
-
-### STEP 5: ?뚯뒪??(5遺?
-```
-AI_CONTENT_ENGINE.gs ?뚯씪 ?닿린
-???⑥닔 ?좏깮: testOnePost
-?????ㅽ뻾
-???섎떒 濡쒓렇??寃뚯떆臾??댁슜 ?섏삤硫??깃났!
+[트리거 4] (폼 응답형)
+함수: onFormSubmit
+이벤트: 스프레드시트 기반 → 폼 제출 시
 ```
 
----
-
-## ?쒖뒪??諛쒖쟾 濡쒕뱶留?(?먮룞 ?낅뜲?댄듃 援ъ“)
-
-### ?꾩옱 (Phase 1) ??利됱떆 ?ъ슜 媛??
+### STEP 5: 테스트 (5분)
 ```
-??AI 肄섑뀗痢??먮룞 ?앹꽦 (OpenAI)
-???붾젅洹몃옩 ?먮룞 諛쒗뻾 (留ㅼ씪)
-???곷떞 ?좎껌 ?먮룞 ?뚮┝
-??二쇨컙 由ы룷???먮룞 ?대찓??
-```
-
-### 3媛쒖썡 ??(Phase 2) ??嫄댁닔 ??5嫄??댁긽 ??
-```
-??YouTube Shorts ?먮룞 ?앹꽦 (HeyGen AI - ?쇨뎬?놁씠 ?숈쁺??
-???몄뒪?洹몃옩 ?먮룞 諛쒗뻾 (Buffer ?곕룞)
-??移댁뭅?ㅽ넚 ?뚮┝???먮룞??(梨꾨꼸 ?뱀씤 ??
-??由щ뱶 ?ㅼ퐫?대쭅 (AI媛 媛留?怨좉컼 ?곗꽑?쒖쐞 ?먮룞 遺꾨쪟)
-```
-
-### 6媛쒖썡 ??(Phase 3) ??嫄댁닔 ??20嫄??댁긽 ??
-```
-??AI 梨쀫큸 ?곌껐 (saeloan.co.kr??24?쒓컙 ?곷떞 遊?
-???異?議곌굔 ?먮룞 鍮꾧탳 異쒕젰 (?뚰듃?덉궗 議곌굔 DB??
-??怨좉컼 CRM 怨좊룄??(HubSpot 臾대즺 ?뚮옖 ?곕룞)
-??愿묎퀬 ?먮룞??(援ш? 愿묎퀬 ?ㅻ쭏??罹좏럹??
-```
-
-### AI ??諛쒖쟾 諛섏쁺 諛⑸쾿
-```
-留?遺꾧린, ????붿갹(GitHub Copilot)?먯꽌 ?꾨옒 吏덈Ц:
-"?덈줎湲덉쑖 ?쒖뒪?쒖뿉 理쒖떊 AI ???낅뜲?댄듃 ?댁쨾"
-
-???덈줈??AI ?댁씠 ?섏삱 ?뚮쭏???먮룞?쇰줈 ?쒖뒪?쒖뿉 ?듯빀?⑸땲??
-????λ떂? 吏덈Ц ??以꾨쭔 ?섎㈃ ?⑸땲??
+AI_CONTENT_ENGINE.gs 파일 열기
+→ 함수 선택: testOnePost
+→ ▶ 실행
+→ 하단 로그에 게시물 내용 나오면 성공!
 ```
 
 ---
 
-## ????붽컙 ?낅Т (?꾩껜 30遺?
+## 시스템 발전 로드맵 (자동 업데이트 구조)
 
+### 현재 (Phase 1) — 즉시 사용 가능
 ```
-[留ㅼ＜ ?붿슂???ㅼ쟾] ??5遺?
-  ?대찓???뺤씤 ??AI 二쇨컙 由ы룷???쎄린
-  ??蹂꾨떎瑜??댁긽 ?놁쑝硫?洹몃깷 ?リ린
+✅ AI 콘텐츠 자동 생성 (OpenAI)
+✅ 텔레그램 자동 발행 (매일)
+✅ 상담 신청 자동 알림
+✅ 주간 리포트 자동 이메일
+```
 
-[??1?? ??20遺?
-  二쇨컙 由ы룷???꾩쟻 ?뺤씤
-  ???곷떞 嫄댁닔 ?몃젋???뺤씤
-  ???꾨왂 蹂寃??꾩슂?섎㈃ STRATEGY_CONFIG.gs ?섏젙
+### 3개월 후 (Phase 2) — 건수 월 5건 이상 시
+```
+□ YouTube Shorts 자동 생성 (HeyGen AI - 얼굴없이 동영상)
+□ 인스타그램 자동 발행 (Buffer 연동)
+□ 카카오톡 알림톡 자동화 (채널 승인 후)
+□ 리드 스코어링 (AI가 가망 고객 우선순위 자동 분류)
+```
 
-[遺꾧린 1?? ??5遺?
-  ????붿갹?먯꽌: "?쒖뒪???낅뜲?댄듃 ?댁쨾"
-  ??AI媛 理쒖떊 ?대줈 ?먮룞 ?낃렇?덉씠??
+### 6개월 후 (Phase 3) — 건수 월 20건 이상 시
+```
+□ AI 챗봇 연결 (saeloan.co.kr에 24시간 상담 봇)
+□ 대출 조건 자동 비교 출력 (파트너사 조건 DB화)
+□ 고객 CRM 고도화 (HubSpot 무료 플랜 연동)
+□ 광고 자동화 (구글 광고 스마트 캠페인)
+```
+
+### AI 툴 발전 반영 방법
+```
+매 분기, 이 대화창(GitHub Copilot)에서 아래 질문:
+"새론금융 시스템에 최신 AI 툴 업데이트 해줘"
+
+→ 새로운 AI 툴이 나올 때마다 자동으로 시스템에 통합됩니다
+→ 팀장님은 질문 한 줄만 하면 됩니다
 ```
 
 ---
 
-## 鍮꾩슜 ?붿빟
+## 팀장 월간 업무 (전체 30분)
 
-| ??ぉ | ??鍮꾩슜 |
+```
+[매주 월요일 오전] — 5분
+  이메일 확인 → AI 주간 리포트 읽기
+  → 별다른 이상 없으면 그냥 닫기
+
+[월 1회] — 20분
+  주간 리포트 누적 확인
+  → 상담 건수 트렌드 확인
+  → 전략 변경 필요하면 STRATEGY_CONFIG.gs 수정
+
+[분기 1회] — 5분
+  이 대화창에서: "시스템 업데이트 해줘"
+  → AI가 최신 툴로 자동 업그레이드
+```
+
+---
+
+## 비용 요약
+
+| 항목 | 월 비용 |
 |---|---|
-| OpenAI API (肄섑뀗痢??앹꽦) | ??2,000~5,000??|
-| Google AppScript | 臾대즺 |
-| Telegram | 臾대즺 |
-| Google Forms/Sheets | 臾대즺 |
-| Vercel ?몄뒪??| 臾대즺 |
-| GitHub | 臾대즺 |
-| **珥앺빀** | **??2,000~5,000????* |
+| OpenAI API (콘텐츠 생성) | 약 2,000~5,000원 |
+| Google AppScript | 무료 |
+| Telegram | 무료 |
+| Google Forms/Sheets | 무료 |
+| Vercel 호스팅 | 무료 |
+| GitHub | 무료 |
+| **총합** | **약 2,000~5,000원/월** |
 
 ---
 
-*v2.0 | 2026-05-17 | ?댄씗??????꾨왂 媛쒖엯 理쒖냼??援ъ“*
-*??? https://github.com/HeeJeonLee/saeloan-financial/blob/main/automation/AUTONOMOUS_SYSTEM_GUIDE.md*
+*v2.0 | 2026-05-17 | 이희전 팀장 전략 개입 최소화 구조*
+*저장: https://github.com/HeeJeonLee/saeloan-financial/blob/main/automation/AUTONOMOUS_SYSTEM_GUIDE.md*
+
+
 
 ---
 
@@ -254,195 +256,197 @@ AI_CONTENT_ENGINE.gs ?뚯씪 ?닿린
 
 ---
 
-# ?덈줎湲덉쑖?遺以묎컻 - 100% 臾대즺 AI ?먮룞??SNS ?곸뾽 ?쒖뒪??
-## ?꾩쟾 ?먮룞??| 鍮꾩슜 0??| ?댄씗???대떦
+# 새론금융대부중개 - 100% 무료 AI 자동화 SNS 영업 시스템
+## 완전 자동화 | 비용 0원 | 이희전 담당
 
 ---
 
-## ?꾩껜 援ъ“ ?쒕늿??蹂닿린
+## 전체 구조 한눈에 보기
 
 ```
-[SNS 寃뚯떆臾??먮룞諛쒗뻾]          [怨좉컼 ?곷떞?좎껌 ?먮룞泥섎━]
-        ??                             ??
- Telegram 梨꾨꼸 (臾대즺)          ?덊럹?댁? / 援ш???
-        ??                             ??
-Google AppScript               ?댄씗???대찓??利됱떆 ?섏떊
-(留ㅼ씪 ?먮룞 寃뚯떆)               + Google Sheets ?먮룞 湲곕줉
-                               + Telegram ??利됱떆?뚮┝
+[SNS 게시물 자동발행]          [고객 상담신청 자동처리]
+        ↓                              ↓
+ Telegram 채널 (무료)          홈페이지 / 구글폼
+        ↓                              ↓
+Google AppScript               이희전 이메일 즉시 수신
+(매일 자동 게시)               + Google Sheets 자동 기록
+                               + Telegram 폰 즉시알림
 ```
 
-**?듭떖 ?먯튃:**
-- 鍮꾩슜: 0??
-- ?댄씗???묒뾽: 理쒖큹 1???ㅼ젙 (??2?쒓컙)
-- ?댄썑: ?꾩쟾 ?먮룞 (365?? 源⑥뼱?덈뒗 ?숈븞 ?꾪솕留?諛쏆쑝硫???
+**핵심 원칙:**
+- 비용: 0원
+- 이희전 작업: 최초 1회 설정 (약 2시간)
+- 이후: 완전 자동 (365일, 깨어있는 동안 전화만 받으면 됨)
 
 ---
 
-## STEP 1: 援ш? ???ㅼ튂 (20遺? - 由щ뱶 ?섏쭛
+## STEP 1: 구글 폼 설치 (20분) - 리드 수집
 
-### 1-1. Google Form 留뚮뱾湲?
-1. https://forms.google.com ?????묒떇
-2. ?쒕ぉ: `?덈줎湲덉쑖?遺以묎컻 臾대즺 ?곷떞?좎껌`
-3. 吏덈Ц 異붽?:
-   - ?대쫫 (?⑤떟?? ?꾩닔)
-   - ?곕씫泥?(?⑤떟?? ?꾩닔) ???ㅻ챸: "010-0000-0000 ?뺤떇"
-   - ?щ쭩 ?異쒓툑??(媛앷???:  500留뚯썝 誘몃쭔 / 500~1,000留뚯썝 / 1,000~2,000留뚯썝 / 2,000~3,000留뚯썝 / 3,000留뚯썝 ?댁긽
-   - 吏곸뾽/怨좎슜?뺥깭 (媛앷???: 吏곸옣??/ ?먯쁺?낆옄 / 二쇰? / ?꾨━?쒖꽌 / 湲고?
-   - ?대찓??(?⑤떟?? ?좏깮): "?먮룞 ?듭옣???먰븯?쒕㈃ ?낅젰?댁＜?몄슂"
-   - 臾몄쓽?ы빆 (?λЦ?? ?좏깮)
+### 1-1. Google Form 만들기
+1. https://forms.google.com → 새 양식
+2. 제목: `새론금융대부중개 무료 상담신청`
+3. 질문 추가:
+   - 이름 (단답형, 필수)
+   - 연락처 (단답형, 필수) → 설명: "010-0000-0000 형식"
+   - 희망 대출금액 (객관식):  500만원 미만 / 500~1,000만원 / 1,000~2,000만원 / 2,000~3,000만원 / 3,000만원 이상
+   - 직업/고용형태 (객관식): 직장인 / 자영업자 / 주부 / 프리랜서 / 기타
+   - 이메일 (단답형, 선택): "자동 답장을 원하시면 입력해주세요"
+   - 문의사항 (장문형, 선택)
 
-4. ?ㅼ젙 ???묐떟 ?섏쭛
+4. 설정 → 응답 수집
 
-### 1-2. 援ш? ???먮룞?묐떟 ?ㅽ겕由쏀듃 ?ㅼ튂
-1. ???몄쭛 ?붾㈃ ???곗륫 ?곷떒 ??3媛?(?? ??**?ㅽ겕由쏀듃 ?몄쭛湲?*
-2. `automation/google_form_autoresponder.js` ?뚯씪 ?댁슜 ?꾩껜 蹂듭궗쨌遺숈뿬?ｊ린
-3. `const MANAGER_EMAIL = "YOUR_EMAIL@gmail.com"` ???댄씗???대찓?쇰줈 蹂寃?
-4. **???* (Ctrl+S)
-5. ?곷떒 **?몃━嫄?* 硫붾돱 ???몃━嫄?異붽?:
-   - ?ㅽ뻾???⑥닔: `onFormSubmit`
-   - ?대깽???뚯뒪: ?ㅽ봽?덈뱶?쒗듃
-   - ?대깽???좏삎: **?묒떇 ?쒖텧 ??*
-6. ???
+### 1-2. 구글 폼 자동응답 스크립트 설치
+1. 폼 편집 화면 → 우측 상단 점 3개 (⋮) → **스크립트 편집기**
+2. `automation/google_form_autoresponder.js` 파일 내용 전체 복사·붙여넣기
+3. `const MANAGER_EMAIL = "YOUR_EMAIL@gmail.com"` → 이희전 이메일로 변경
+4. **저장** (Ctrl+S)
+5. 상단 **트리거** 메뉴 → 트리거 추가:
+   - 실행할 함수: `onFormSubmit`
+   - 이벤트 소스: 스프레드시트
+   - 이벤트 유형: **양식 제출 시**
+6. 저장
 
-### 1-3. 援ш? ??留곹겕 ?섏쭛
-?꾩꽦????留곹겕瑜?蹂듭궗???〓땲??
-?? `https://forms.gle/XXXXXXXXXX`
-
----
-
-## STEP 2: Telegram 梨꾨꼸 媛쒖꽕 (30遺? - SNS ?먮룞諛쒗뻾
-
-### ???붾젅洹몃옩?멸??
-- API ?꾩쟾 臾대즺 (Meta ?몄뒪?洹몃옩? ?뱀씤 ?꾩슂)
-- ?쒓뎅 ?異??뺣낫 而ㅻ??덊떚 ?쒖꽦??
-- 留곹겕 怨듭쑀 ?먯쑀濡쒖? ??saeloan.co.kr 吏곸젒 ?곌껐
-- 梨꾨꼸 援щ룆?먯뿉寃??먮룞 ?몄떆 ?뚮┝
-
-### 2-1. ?붾젅洹몃옩 遊?留뚮뱾湲?
-1. ?붾젅洹몃옩 ????@BotFather 寃??
-2. `/newbot` ?낅젰
-3. 遊??대쫫: `?덈줎湲덉쑖?遺以묎컻遊?
-4. 遊??꾩씠?? `saeloan_bot` (?먮뒗 ?먰븯???대쫫)
-5. **BOT_TOKEN** 諛쏄린 (?? `1234567890:ABCdefGHI...`) ????ν빐?먭린
-
-### 2-2. ?붾젅洹몃옩 梨꾨꼸 留뚮뱾湲?
-1. ?붾젅洹몃옩 ????梨꾨꼸 留뚮뱾湲?
-2. 梨꾨꼸紐? `?덈줎湲덉쑖 | ?湲덈━ ?異쒖젙蹂?
-3. 梨꾨꼸 ?좏삎: **怨듦컻 梨꾨꼸**
-4. 梨꾨꼸 留곹겕: `@saeloan_finance` (?먰븯???대쫫)
-5. 梨꾨꼸 ?ㅼ젙 ??愿由ъ옄 ??遊?異붽? (?꾩뿉??留뚮뱺 遊뉗쓣 愿由ъ옄濡?異붽?)
-
-### 2-3. Telegram ?먮룞諛쒗뻾 ?ㅽ겕由쏀듃 ?ㅼ튂
-1. https://script.google.com ?????꾨줈?앺듃
-2. `automation/telegram_auto_poster.js` ?꾩껜 蹂듭궗쨌遺숈뿬?ｊ린
-3. ?섏젙:
-   - `BOT_TOKEN`: BotFather?먯꽌 諛쏆? ?좏겙 ?낅젰
-   - `CHANNEL_ID`: `@saeloan_finance` (梨꾨꼸 ?꾩씠??
-4. **???*
-5. 癒쇱? `testSend` ?⑥닔 ?ㅽ뻾?댁꽌 ?뚯뒪??
-6. ?몃━嫄??ㅼ젙:
-   - ?ㅽ뻾 ?⑥닔: `postDailyContent`
-   - ?대깽???뚯뒪: **?쒓컙 湲곕컲**
-   - ?쒓컙 媛꾧꺽: **留ㅼ씪**
-   - ?쒓컙: **?ㅼ쟾 9??10??*
-7. ???
-
-**寃곌낵:** 留ㅼ씪 ?ㅼ쟾 9???붾젅洹몃옩 梨꾨꼸???異??뺣낫媛 ?먮룞 諛쒗뻾?⑸땲??
+### 1-3. 구글 폼 링크 수집
+완성된 폼 링크를 복사해 둡니다.
+예: `https://forms.gle/XXXXXXXXXX`
 
 ---
 
-## STEP 3: SNS 梨꾨꼸???붾젅洹몃옩 留곹겕 ?띾낫 (1???ㅼ젙)
+## STEP 2: Telegram 채널 개설 (30분) - SNS 자동발행
 
-媛?SNS???붾젅洹몃옩 梨꾨꼸 留곹겕? ?덊럹?댁? 留곹겕瑜?怨좎젙?⑸땲??
+### 왜 텔레그램인가?
+- API 완전 무료 (Meta 인스타그램은 승인 필요)
+- 한국 대출 정보 커뮤니티 활성화
+- 링크 공유 자유로움 → saeloan.co.kr 직접 연결
+- 채널 구독자에게 자동 푸시 알림
 
-### 3-1. ?몄뒪?洹몃옩 ?꾨줈???ㅼ젙
-- ?대쫫: ?덈줎湲덉쑖?遺以묎컻 | 源?뺤쭊 ???
-- ?뚭컻:
+### 2-1. 텔레그램 봇 만들기
+1. 텔레그램 앱 → @BotFather 검색
+2. `/newbot` 입력
+3. 봇 이름: `새론금융대부중개봇`
+4. 봇 아이디: `saeloan_bot` (또는 원하는 이름)
+5. **BOT_TOKEN** 받기 (예: `1234567890:ABCdefGHI...`) → 저장해두기
+
+### 2-2. 텔레그램 채널 만들기
+1. 텔레그램 → 새 채널 만들기
+2. 채널명: `새론금융 | 저금리 대출정보`
+3. 채널 유형: **공개 채널**
+4. 채널 링크: `@saeloan_finance` (원하는 이름)
+5. 채널 설정 → 관리자 → 봇 추가 (위에서 만든 봇을 관리자로 추가)
+
+### 2-3. Telegram 자동발행 스크립트 설치
+1. https://script.google.com → 새 프로젝트
+2. `automation/telegram_auto_poster.js` 전체 복사·붙여넣기
+3. 수정:
+   - `BOT_TOKEN`: BotFather에서 받은 토큰 입력
+   - `CHANNEL_ID`: `@saeloan_finance` (채널 아이디)
+4. **저장**
+5. 먼저 `testSend` 함수 실행해서 테스트
+6. 트리거 설정:
+   - 실행 함수: `postDailyContent`
+   - 이벤트 소스: **시간 기반**
+   - 시간 간격: **매일**
+   - 시간: **오전 9시~10시**
+7. 저장
+
+**결과:** 매일 오전 9시 텔레그램 채널에 대출 정보가 자동 발행됩니다.
+
+---
+
+## STEP 3: SNS 채널에 텔레그램 링크 홍보 (1회 설정)
+
+각 SNS에 텔레그램 채널 링크와 홈페이지 링크를 고정합니다.
+
+### 3-1. 인스타그램 프로필 설정
+- 이름: 새론금융대부중개 | 김덕진 대표
+- 소개:
 ```
-?湲덈━ ?異쒖긽???꾨Ц ?룱
-6媛??異뺤????숈떆鍮꾧탳 臾대즺
-?뱸 1555-2137 | 010-5927-9205
-?깅줉: 2026-?섏썝-2324
-?좑툘 ??.9~19.9% 怨쇰룄??鍮?二쇱쓽
+저금리 대출상담 전문 🏦
+6개 저축은행 동시비교 무료
+📞 1555-2137 | 010-5927-9205
+등록: 2026-수원-2324
+⚠️ 연6.9~19.9% 과도한 빚 주의
 ```
-- 留곹겕: `saeloan.co.kr`
+- 링크: `saeloan.co.kr`
 
-???쇰뱶?먮뒗 ?붾젅洹몃옩 梨꾨꼸 怨좎젙 ?ъ뒪??1媛??낅줈????諛⑹튂 (?먮룞 ?좎엯)
+→ 피드에는 텔레그램 채널 고정 포스트 1개 업로드 후 방치 (자동 유입)
 
-### 3-2. 移댁뭅?ㅽ넚 梨꾨꼸 (?좏깮, 臾대즺)
-1. https://business.kakao.com ??梨꾨꼸 ?좎껌
-2. 移댄뀒怨좊━: 湲덉쑖 > ?異?
-3. ?깅줉利??쒖텧 ???뱀씤 (??3~5??
-4. ?뱀씤 ???먮룞?묐떟 ?ㅼ젙:
+### 3-2. 카카오톡 채널 (선택, 무료)
+1. https://business.kakao.com → 채널 신청
+2. 카테고리: 금융 > 대출
+3. 등록증 제출 후 승인 (약 3~5일)
+4. 승인 후 자동응답 설정:
 
-**?ㅼ썙???먮룞?묐떟 ?ㅼ젙:**
+**키워드 자동응답 설정:**
 ```
-?ㅼ썙?? "?異?, "?쒕룄", "湲덈━", "?곷떞"
-???묐떟: "?덈뀞?섏꽭?? ?덈줎湲덉쑖?遺以묎컻?낅땲??
-臾대즺 ?쒕룄議고쉶??saeloan.co.kr ?먯꽌 媛?ν빀?덈떎.
-湲됲븯??遺꾩? ??1555-2137 濡??곕씫二쇱꽭??
-?좑툘 ??6.9~19.9% | ?깅줉 2026-?섏썝-2324"
+키워드: "대출", "한도", "금리", "상담"
+→ 응답: "안녕하세요! 새론금융대부중개입니다.
+무료 한도조회는 saeloan.co.kr 에서 가능합니다.
+급하신 분은 ☎ 1555-2137 로 연락주세요.
+⚠️ 연 6.9~19.9% | 등록 2026-수원-2324"
 ```
 
 ---
 
-## STEP 4: ?덊럹?댁? Google Form 踰꾪듉 異붽?
+## STEP 4: 홈페이지 Google Form 버튼 추가
 
-?꾩옱 ?덊럹?댁????곷떞?쇱씠 ?덉?留? 援ш???留곹겕??異붽??섎㈃
-SNS?먯꽌 吏곸젒 ?곌껐 媛?ν빀?덈떎.
+현재 홈페이지에 상담폼이 있지만, 구글폼 링크도 추가하면
+SNS에서 직접 연결 가능합니다.
 
-?꾨옒 ?댁슜???댄씗?꾩뿉寃?怨듭쑀?섍굅??媛쒕컻?먯뿉寃??꾨떖:
-- ?덊럹?댁???"援ш??쇱쑝濡??좎껌" 踰꾪듉 異붽? (Done by Copilot)
-
----
-
-## STEP 5: 由щ뱶 泥섎━ ?먮룞???뺤씤
-
-?곷떞?좎껌???ㅼ뼱?ㅻ㈃:
-1. ???댄씗???대찓??利됱떆 ?섏떊 (?먮룞)
-2. ??Google Sheets???먮룞 湲곕줉 (CRM)
-3. ??怨좉컼?먭쾶 ?먮룞 ?듭옣 ?대찓??(?대찓???낅젰??寃쎌슦)
-4. ???댄씗?꾩씠 ?꾪솕 ?곷떞 吏꾪뻾
-5. ???뚰듃???異뺤????곌껐
+아래 내용을 이희전에게 공유하거나 개발자에게 전달:
+- 홈페이지에 "구글폼으로 신청" 버튼 추가 (Done by Copilot)
 
 ---
 
-## ?꾩껜 臾대즺 ???뺣━
+## STEP 5: 리드 처리 자동화 확인
 
-| ??븷 | ?꾧뎄 | 鍮꾩슜 |
+상담신청이 들어오면:
+1. ✅ 이희전 이메일 즉시 수신 (자동)
+2. ✅ Google Sheets에 자동 기록 (CRM)
+3. ✅ 고객에게 자동 답장 이메일 (이메일 입력한 경우)
+4. ✅ 이희전이 전화 상담 진행
+5. ✅ 파트너 저축은행 연결
+
+---
+
+## 전체 무료 툴 정리
+
+| 역할 | 도구 | 비용 |
 |---|---|---|
-| SNS ?먮룞諛쒗뻾 | Telegram + Google AppScript | 臾대즺 |
-| 由щ뱶??| Google Forms | 臾대즺 |
-| ?먮룞 ?대찓???뚮┝ | Google AppScript (Gmail) | 臾대즺 |
-| CRM 湲곕줉 | Google Sheets | 臾대즺 |
-| ?덊럹?댁? | Vercel (?꾩옱 ?댁쁺 以? | 臾대즺 |
-| 肄섑뀗痢??앹꽦 | ChatGPT 臾대즺踰꾩쟾 (異붽? 肄섑뀗痢??꾩슂 ?? | 臾대즺 |
-| **珥앺빀** | | **0??* |
+| SNS 자동발행 | Telegram + Google AppScript | 무료 |
+| 리드폼 | Google Forms | 무료 |
+| 자동 이메일 알림 | Google AppScript (Gmail) | 무료 |
+| CRM 기록 | Google Sheets | 무료 |
+| 홈페이지 | Vercel (현재 운영 중) | 무료 |
+| 콘텐츠 생성 | ChatGPT 무료버전 (추가 콘텐츠 필요 시) | 무료 |
+| **총합** | | **0원** |
 
 ---
 
-## 理쒖큹 ?ㅼ젙 ?댄썑 ?댄씗?꾩씠 ????
+## 최초 설정 이후 이희전이 할 일
 
-1. **?꾪솕 諛쏄린** - 010-5927-9205 李⑹떊 ?꾪솕 ?곷떞
-2. **?대찓???뺤씤** - ?곷떞?좎껌 ?대찓???섏떊 ??30遺????곕씫
-3. (?좏깮) **留ㅼ썡 1??* - ?붾젅洹몃옩 肄섑뀗痢??댁슜 ?꾩슂 ??異붽?
+1. **전화 받기** - 010-5927-9205 착신 전화 상담
+2. **이메일 확인** - 상담신청 이메일 수신 시 30분 내 연락
+3. (선택) **매월 1회** - 텔레그램 콘텐츠 내용 필요 시 추가
 
-**洹???紐⑤뱺 寃껋? ?먮룞?낅땲??**
-
----
-
-## ?붾젅洹몃옩 梨꾨꼸 ?띾낫 諛⑸쾿 (臾대즺)
-
-### ?먮룞 ?좎엯 梨꾨꼸
-1. ?몄뒪?洹몃옩 ?꾨줈??留곹겕???붾젅洹몃옩 留곹겕 怨좎젙
-2. ?ㅼ씠踰?移댄럹 (?異?愿?? 梨꾨꼸 留곹겕 怨듭쑀
-3. 移댁뭅?ㅽ넚 ?ㅽ뵂梨꾪똿諛⑹뿉 怨좎젙 硫붿떆吏 ?깅줉
-4. 援ш? 寃??愿묎퀬 ?놁씠 ??saeloan.co.kr SEO濡??먯뿰 ?좎엯
+**그 외 모든 것은 자동입니다.**
 
 ---
 
-*?댄씗??| ?덈줎湲덉쑖?遺以묎컻 | 2026-05-17*
-*臾몄쓽: saeloan.co.kr | 1555-2137*
+## 텔레그램 채널 홍보 방법 (무료)
+
+### 자동 유입 채널
+1. 인스타그램 프로필 링크에 텔레그램 링크 고정
+2. 네이버 카페 (대출 관련) 채널 링크 공유
+3. 카카오톡 오픈채팅방에 고정 메시지 등록
+4. 구글 검색 광고 없이 → saeloan.co.kr SEO로 자연 유입
+
+---
+
+*이희전 | 새론금융대부중개 | 2026-05-17*
+*문의: saeloan.co.kr | 1555-2137*
+
+
 
 ---
 
@@ -450,317 +454,319 @@ SNS?먯꽌 吏곸젒 ?곌껐 媛?ν빀?덈떎.
 
 ---
 
-# ?덈줎湲덉쑖?遺以묎컻 - SNS ?꾩쟾 ?먯쑉 AI ?쒖뒪??留덉뒪???꾨왂??v3.0
-## ?댄씗??????꾨왂 媛쒖엯留? ?댁쁺? AI 100% ?먮룞
+# 새론금융대부중개 - SNS 완전 자율 AI 시스템 마스터 전략서 v3.0
+## 이희전 팀장 전략 개입만, 운영은 AI 100% 자동
 
 ---
 
-## ?곣봺??0. ?덈? 遺덈? ?먯튃 (?덊럹?댁? ?좉툑) ?곣봺??
+## ━━━ 0. 절대 불변 원칙 (홈페이지 잠금) ━━━
 
 ```
-???ㅼ쓬 ?댁슜? ?대뼡 ?꾨왂???섎┰?섏뼱???덊럹?댁????덈? ?ｌ? ?딆쓬:
-   - SNS ?곸뾽쨌鍮꾨?硫??곸뾽 愿???쒗쁽
-   - 釉뚮┸吏 ?異? ?좏삊쨌湲덇퀬 ?꾪솚
-   - 移댁뭅?ㅽ넚쨌?대찓???쒕쪟 ?묒닔
-   - 鍮꾨?硫?泥섎━ 愿??紐⑤뱺 臾멸뎄
+✅ 다음 내용은 어떤 전략이 수립되어도 홈페이지에 절대 넣지 않음:
+   - SNS 영업·비대면 영업 관련 표현
+   - 브릿지 대출, 신협·금고 전환
+   - 카카오톡·이메일 서류 접수
+   - 비대면 처리 관련 모든 문구
 
-???덊럹?댁? ?섏젙 ??諛섎뱶??????ъ쟾 ?뱀씤 ??吏꾪뻾
+✅ 홈페이지 수정 시 반드시 팀장 사전 승인 후 진행
 
-???덈줎湲덉쑖 = ?遺以묎컻??(?곌껐留???
-   ?쒕쪟?묒닔쨌?ъ궗쨌?ㅽ뻾 = ?遺?낆껜媛 吏꾪뻾
+✅ 새론금융 = 대부중개업 (연결만 함)
+   서류접수·심사·실행 = 대부업체가 진행
 ```
 
 ---
 
-## ?곣봺??1. ???멸퀎 AI ??遺꾩꽍 諛?理쒖쟻 議고빀 ?곣봺??
+## ━━━ 1. 전 세계 AI 툴 분석 및 최적 조합 ━━━
 
-### ?꾩옱(2026?? ?ъ슜 媛?ν븳 AI 肄섑뀗痢??꾧뎄
+### 현재(2026년) 사용 가능한 AI 콘텐츠 도구
 
-| ?꾧뎄 | 湲곕뒫 | 鍮꾩슜 | ?덈줎湲덉쑖 ?쒖슜踰?|
+| 도구 | 기능 | 비용 | 새론금융 활용법 |
 |---|---|---|---|
-| **OpenAI GPT-4o-mini** | ?띿뒪???앹꽦 | ??2~5泥쒖썝 | ?붾젅洹몃옩쨌釉붾줈洹??먮룞 ?묒꽦 |
-| **Google AppScript** | ?먮룞???붿쭊 | 臾대즺 | 留ㅼ씪 ?먮룞 ?ㅽ뻾 |
-| **HeyGen** | AI ?쇨뎬?녿뒗 ?곸긽 | ??$29 | ?좏뒠釉??쇱툩 ?먮룞 ?앹꽦 |
-| **Canva AI** | ?대?吏쨌移대뱶?댁뒪 | 臾대즺(湲곕낯) | SNS ?대?吏 ?먮룞 ?앹꽦 |
-| **Pictory** | 釉붾줈洹멤넂?곸긽 蹂??| ??$19 | 釉붾줈洹?湲???쇱툩濡?蹂??|
-| **Buffer** | ?뚯뀥 ?덉빟 諛쒗뻾 | 臾대즺(3梨꾨꼸) | ?몄뒪?쨌留곹겕?쒖씤 ?덉빟 |
-| **Make(援?Integromat)** | ?뚰겕?뚮줈???먮룞??| 臾대즺(湲곕낯) | ?ㅼ콈???곕룞 |
-| **Zapier** | ??媛??먮룞 ?곌껐 | 臾대즺(100嫄? | ?쇄넂?쒗듃?믪씠硫붿씪 ?곌껐 |
-| **Notion AI** | 臾몄꽌 愿由?+ AI | ??$8 | ?꾨왂 臾몄꽌 ?먮룞 ?뺣━ |
-| **Perplexity AI** | ?ㅼ떆媛??댁뒪 ?붿빟 | 臾대즺 | 留ㅼ＜ 遺?숈궛 ?댁뒪 ?섏쭛 |
+| **OpenAI GPT-4o-mini** | 텍스트 생성 | 월 2~5천원 | 텔레그램·블로그 자동 작성 |
+| **Google AppScript** | 자동화 엔진 | 무료 | 매일 자동 실행 |
+| **HeyGen** | AI 얼굴없는 영상 | 월 $29 | 유튜브 쇼츠 자동 생성 |
+| **Canva AI** | 이미지·카드뉴스 | 무료(기본) | SNS 이미지 자동 생성 |
+| **Pictory** | 블로그→영상 변환 | 월 $19 | 블로그 글을 쇼츠로 변환 |
+| **Buffer** | 소셜 예약 발행 | 무료(3채널) | 인스타·링크드인 예약 |
+| **Make(구 Integromat)** | 워크플로우 자동화 | 무료(기본) | 다채널 연동 |
+| **Zapier** | 앱 간 자동 연결 | 무료(100건) | 폼→시트→이메일 연결 |
+| **Notion AI** | 문서 관리 + AI | 월 $8 | 전략 문서 자동 정리 |
+| **Perplexity AI** | 실시간 뉴스 요약 | 무료 | 매주 부동산 뉴스 수집 |
 
-### ?꾩옱 ?덈줎湲덉쑖 梨꾪깮 議고빀 (鍮꾩슜 理쒖냼??
-
-```
-?듭떖: OpenAI GPT-4o-mini + Google AppScript = ??5泥쒖썝 ?댄븯
-
-?띿뒪?? OpenAI GPT-4o-mini (?먮룞 肄섑뀗痢??앹꽦)
-    ??
-?먮룞?? Google AppScript (留ㅼ씪 ?ㅽ뻾)
-    ??
-諛쒗뻾: ?붾젅洹몃옩 梨꾨꼸 (臾대즺)
-    ??
-湲곕줉: Google Sheets CRM (臾대즺)
-    ??
-由ы룷?? Gmail ?먮룞 諛쒖넚 (臾대즺)
-```
-
-### 3媛쒖썡 ???뺤옣 (嫄댁닔 ??5嫄??댁긽 ??
+### 현재 새론금융 채택 조합 (비용 최소화)
 
 ```
-+ HeyGen ($29/??: ?곸긽 ?놁씠 AI ?꾨굹?댁꽌媛 ?異??뺣낫 ?ㅻ챸?섎뒗 ?쇱툩 ?먮룞 ?앹꽦
-+ Buffer (臾대즺): ?좏뒠釉뙿룹씤?ㅽ?쨌留곹겕?쒖씤 ?숈떆 ?덉빟 諛쒗뻾
-+ Perplexity AI (臾대즺): 留ㅼ＜ 遺?숈궛 洹쒖젣 ?댁뒪 ?먮룞 ?섏쭛 ??肄섑뀗痢?諛섏쁺
-* 珥?異붽?鍮꾩슜: ??$29 (??4留뚯썝)
+핵심: OpenAI GPT-4o-mini + Google AppScript = 월 5천원 이하
+
+텍스트: OpenAI GPT-4o-mini (자동 콘텐츠 생성)
+    ↓
+자동화: Google AppScript (매일 실행)
+    ↓
+발행: 텔레그램 채널 (무료)
+    ↓
+기록: Google Sheets CRM (무료)
+    ↓
+리포트: Gmail 자동 발송 (무료)
 ```
 
----
-
-## ?곣봺??2. 援?궡 ?遺(以묎컻)?낆껜 SNS ?꾨왂 遺꾩꽍 ?곣봺??
-
-### ?⑸쾿?곸쑝濡??댁쁺 以묒씤 ?낆껜?ㅼ쓽 怨듯넻 ?꾨왂
-
-**???뺣낫??肄섑뀗痢?以묒떖 (愿묎퀬 ?꾨땶 ?뺣낫)**
-
-?ㅼ젣 ?遺?낆껜?ㅼ씠 SNS 洹쒖젣瑜??쇳븯???듭떖 諛⑸쾿:
-- "愿묎퀬"媛 ?꾨땶 "湲덉쑖 ?뺣낫 ?쒓났" ?ъ??붾떇
-- "LTV 洹쒖젣 ?ㅻ챸", "湲덈━ 鍮꾧탳", "?異??덉감 ?덈궡" ??洹쒖젣 ????꾨떂
-- 吏곸젒 '?異?沅뚯쑀'媛 ?꾨땶 '?뺣낫 ?쒓났' ???⑸쾿
-
-**???ㅼ씠踰?釉붾줈洹?SEO (媛???덉쟾?섍퀬 ?④낵??**
-
-- 寃???ㅼ썙?? "?먯쁺?낆옄 ?꾪뙆?몃떞蹂대?異?, "????쒕룄 珥덇낵 ?異?
-- 怨좉컼??吏곸젒 寃?됲빐??李얠븘?????몃컮?대뱶 留덉???
-- 洹쒖젣 ?뚰뵾: 吏곸젒 愿묎퀬 ?꾨땶 ?뺣낫 寃뚯떆
-- ?④낵: 嫄대떦 鍮꾩슜 0?? 吏???④낵
-
-**??移댁뭅?ㅽ넚 梨꾨꼸 (怨듭떇 梨꾨꼸)**
-
-- 怨듭떇 鍮꾩쫰?덉뒪 梨꾨꼸? 湲덉쑖??愿묎퀬 媛??(?깅줉踰덊샇 ?쒖텧 議곌굔)
-- 1:1 梨꾪똿?쇰줈 怨좉컼 ?먯뿰?ㅻ윭???좎엯
-- ?먮룞?묐떟?쇰줈 24?쒓컙 珥덇린 ???
-
-**???ㅽ뵂移댁뭅?ㅽ넚諛?/ 遺?숈궛 而ㅻ??덊떚**
-
-- 怨듭씤以묎컻??룹꽭臾댁궗 紐⑥뿬?덈뒗 諛????뚰듃?덉떗 ?쒖븞
-- 吏곸젒 ?異?愿묎퀬媛 ?꾨땶 "?낅Т ?묐젰" 諛⑹떇 ??洹쒖젣 ?놁쓬
-
-### ?섏썝?쒖껌 洹쒖젣 ????꾨왂
+### 3개월 후 확장 (건수 월 5건 이상 시)
 
 ```
-?섏썝?쒖껌??臾몄젣?쇰뒗 寃?
-  ??"鍮꾨?硫??異?愿묎퀬", "吏곸젒 紐⑥쭛", "遺덈쾿 以묎컻 ?섏떖"
-
-?덈줎湲덉쑖 ????먯튃:
-  ??紐⑤뱺 SNS: ?뺣낫 ?쒓났 紐⑹쟻?꾩쓣 紐낆떆
-  ???깅줉踰덊샇 ??긽 ?쒓린
-  ??寃쎄퀬 臾멸뎄 ??긽 ?ы븿
-  ??"?異??ㅽ뻾? ?遺?낆껜媛" 紐낆떆
-  ??鍮꾨?硫는룹뭅移댁삤 ?묒닔 ?멸툒 ?놁쓬 (?덊럹?댁? ?ы븿)
++ HeyGen ($29/월): 영상 없이 AI 아나운서가 대출 정보 설명하는 쇼츠 자동 생성
++ Buffer (무료): 유튜브·인스타·링크드인 동시 예약 발행
++ Perplexity AI (무료): 매주 부동산 규제 뉴스 자동 수집 → 콘텐츠 반영
+* 총 추가비용: 월 $29 (약 4만원)
 ```
 
 ---
 
-## ?곣봺??3. AI ?꾩쟾 ?먯쑉 ?댁쁺 援ъ“ ?곣봺??
+## ━━━ 2. 국내 대부(중개)업체 SNS 전략 분석 ━━━
 
-### ?댄씗????μ쓽 ??븷 (??30遺?
+### 합법적으로 운영 중인 업체들의 공통 전략
+
+**① 정보성 콘텐츠 중심 (광고 아닌 정보)**
+
+실제 대부업체들이 SNS 규제를 피하는 핵심 방법:
+- "광고"가 아닌 "금융 정보 제공" 포지셔닝
+- "LTV 규제 설명", "금리 비교", "대출 절차 안내" → 규제 대상 아님
+- 직접 '대출 권유'가 아닌 '정보 제공' → 합법
+
+**② 네이버 블로그 SEO (가장 안전하고 효과적)**
+
+- 검색 키워드: "자영업자 아파트담보대출", "은행 한도 초과 대출"
+- 고객이 직접 검색해서 찾아옴 → 인바운드 마케팅
+- 규제 회피: 직접 광고 아닌 정보 게시
+- 효과: 건당 비용 0원, 지속 효과
+
+**③ 카카오톡 채널 (공식 채널)**
+
+- 공식 비즈니스 채널은 금융업 광고 가능 (등록번호 제출 조건)
+- 1:1 채팅으로 고객 자연스러운 유입
+- 자동응답으로 24시간 초기 대응
+
+**④ 오픈카카오톡방 / 부동산 커뮤니티**
+
+- 공인중개사·세무사 모여있는 방 → 파트너십 제안
+- 직접 대출 광고가 아닌 "업무 협력" 방식 → 규제 없음
+
+### 수원시청 규제 대응 전략
 
 ```
-留ㅼ＜ ?붿슂??
-  ??AI 二쇨컙 由ы룷???대찓???쎄린 (5遺?
-  ???댁긽 ?놁쑝硫?洹몃깷 ?リ린
+수원시청이 문제삼는 것:
+  → "비대면 대출 광고", "직접 모집", "불법 중개 의심"
 
-?꾨왂 蹂寃??쒕쭔:
-  ??GitHub?먯꽌 SAELOAN_AI_MASTER.gs ?닿린
-  ??STRATEGY ?뱀뀡 ?섏젙
-  ???????利됱떆 諛섏쁺
-
-遺꾧린 1??
-  ??????붿갹?먯꽌 "?쒖뒪???낅뜲?댄듃 ?댁쨾" (5遺?
-  ??AI媛 理쒖떊 ?대줈 ?먮룞 ?낃렇?덉씠??
-```
-
-### AI媛 ?먮룞?쇰줈 ?섎뒗 寃?(365??臾댁씤)
-
-```
-[留ㅼ씪 ?ㅼ쟾 9??
-  GPT-4o-mini媛 ?ㅻ뒛??肄섑뀗痢??먮룞 ?묒꽦
-  ??踰뺢퇋 以???먮룞 寃??(湲덉? ?쒗쁽 ?꾪꽣)
-  ???붾젅洹몃옩 梨꾨꼸 ?먮룞 諛쒗뻾
-  ??援ш? ?쒗듃 湲곕줉
-
-[?붋룹닔쨌湲??ㅼ쟾 8??
-  ?ㅼ씠踰?釉붾줈洹??ъ뒪??珥덉븞 ?먮룞 ?묒꽦
-  ??????대찓?쇰줈 諛쒖넚 (?щ젮二쇱떆湲곕쭔 ?섎㈃ ??
-
-[怨좉컼 ?곷떞?좎껌 利됱떆]
-  ??????대찓?쇰줈 怨좉컼 ?뺣낫 利됱떆 諛쒖넚
-
-[留ㅼ＜ ?붿슂???ㅼ쟾 9??
-  ??二쇨컙 ?ㅼ쟻 + AI 遺꾩꽍 由ы룷???대찓???먮룞 諛쒖넚
-
-[?ㅻ쪟 諛쒖깮 ??
-  ????μ뿉寃?利됱떆 寃쎄퀬 ?대찓??諛쒖넚
+새론금융 대응 원칙:
+  → 모든 SNS: 정보 제공 목적임을 명시
+  → 등록번호 항상 표기
+  → 경고 문구 항상 포함
+  → "대출 실행은 대부업체가" 명시
+  → 비대면·카카오 접수 언급 없음 (홈페이지 포함)
 ```
 
 ---
 
-## ?곣봺??4. 梨꾨꼸蹂?肄섑뀗痢??꾨왂 (踰뺢퇋 以?? ?곣봺??
+## ━━━ 3. AI 완전 자율 운영 구조 ━━━
 
-### ?붾젅洹몃옩 梨꾨꼸 (?듭떖 梨꾨꼸)
+### 이희전 팀장의 역할 (월 30분)
 
-**梨꾨꼸 ?ъ??붾떇:** "?꾪뙆?몃떞蹂?湲덉쑖?뺣낫 梨꾨꼸" (愿묎퀬 梨꾨꼸???꾨떂)
-
-**7???쒗솚 肄섑뀗痢?**
 ```
-?? ?쒖옣 ?뺣낫 (?대쾲 二??꾪뙆???대낫 ?쒖옣 ?숉뼢)
-?? 洹쒖젣 ?덈궡 (LTV 洹쒖젣, 湲덈━ 洹쒖젙 ?뺣낫)
-?? ?먯쁺?낆옄 ?뺣낫 (????쒕룄 珥덇낵 ???뺣낫)
-紐? Q&A (?먯＜ 臾삳뒗 吏덈Ц)
-湲? ?덉감 ?덈궡 (?遺以묎컻 ?댁슜 諛⑸쾿)
-?? 湲덈━ ?뺣낫 (踰뺤젙理쒓퀬湲덈━, 湲덈━ 援ъ“)
-?? 二쇨컙 ?뺣━ (?대쾲 二?遺?숈궛 湲덉쑖 ?댁뒪)
-```
+매주 월요일:
+  → AI 주간 리포트 이메일 읽기 (5분)
+  → 이상 없으면 그냥 닫기
 
-**紐⑤뱺 寃뚯떆臾??섎떒 怨좎젙:**
-```
-?????????????????????
-?뱥 ?덈줎湲덉쑖?遺以묎컻 | ?깅줉 2026-?섏썝-2324
-?뱸 010-5927-9205 | ?뙋 saeloan.co.kr
-?좑툘 怨쇰룄??鍮싳? ??遺덊뻾???덇꺼以????덉뒿?덈떎
-??以묎컻?섏닔猷??놁쓬 | ?異??ㅽ뻾? ?遺?낆껜媛 吏꾪뻾
+전략 변경 시만:
+  → GitHub에서 SAELOAN_AI_MASTER.gs 열기
+  → STRATEGY 섹션 수정
+  → 저장 → 즉시 반영
+
+분기 1회:
+  → 이 대화창에서 "시스템 업데이트 해줘" (5분)
+  → AI가 최신 툴로 자동 업그레이드
 ```
 
-### ?ㅼ씠踰?釉붾줈洹?(SEO ?몃컮?대뱶)
+### AI가 자동으로 하는 것 (365일 무인)
 
-**紐⑹쟻:** 寃??怨좉컼 ?좎엯 (愿묎퀬 ?놁씠 ?먯뿰 ?좎엯)
-
-**二?3???먮룞 ?앹꽦 二쇱젣 ?덉떆:**
 ```
-1. ?먯쁺?낆옄 ?꾪뙆?몃떞蹂대?異? ????쒕룄 珥덇낵 ???좏깮吏
-2. 2026?????LTV 洹쒖젣 珥앹젙由?
-3. ?遺以묎컻???댁슜 諛⑸쾿怨??덉감
-4. ?꾪뙆?몃떞蹂??遺??湲덈━ 援ъ“ ?댄빐
-5. ?쒖슱 ?꾪뙆???대낫?異??ъ궗 湲곗?
-6. 踰뺤젙理쒓퀬湲덈━ ??20% ?꾩쟾 ?댄빐
-7. ?遺以묎컻?낆껜 vs ?遺?낆껜 李⑥씠
-```
+[매일 오전 9시]
+  GPT-4o-mini가 오늘의 콘텐츠 자동 작성
+  → 법규 준수 자동 검수 (금지 표현 필터)
+  → 텔레그램 채널 자동 발행
+  → 구글 시트 기록
 
-**SEO ?듭떖 ?ㅼ썙??**
-- `?먯쁺?낆옄 ?꾪뙆?몃떞蹂대?異?
-- `??됲븳?꾩큹怨??異?
-- `?꾪뙆?몃떞蹂??遺??
-- `?遺以묎컻???댁슜諛⑸쾿`
+[월·수·금 오전 8시]
+  네이버 블로그 포스팅 초안 자동 작성
+  → 팀장 이메일로 발송 (올려주시기만 하면 됨)
+
+[고객 상담신청 즉시]
+  → 팀장 이메일로 고객 정보 즉시 발송
+
+[매주 월요일 오전 9시]
+  → 주간 실적 + AI 분석 리포트 이메일 자동 발송
+
+[오류 발생 시]
+  → 팀장에게 즉시 경고 이메일 발송
+```
 
 ---
 
-## ?곣봺??5. 泥섏쓬 ?ㅼ튂 諛⑸쾿 (2?쒓컙) ?곣봺??
+## ━━━ 4. 채널별 콘텐츠 전략 (법규 준수) ━━━
 
-### Step 1: OpenAI API ??諛쒓툒 (20遺?
-```
-1. platform.openai.com ?묒냽 ??援ш? 怨꾩젙 媛??
-2. ?곷떒 "API keys" ??"+ Create new secret key"
-3. ??蹂듭궗 (sk-proj-xxx...) ???덉쟾??怨녹뿉 ???
-4. Billing ??移대뱶 ?깅줉 ??$5 異⑹쟾 (??7,000??/ 3媛쒖썡移?
-```
+### 텔레그램 채널 (핵심 채널)
 
-### Step 2: 援ш? ?쒗듃 留뚮뱾湲?(3遺?
-```
-1. sheets.google.com ??鍮??ㅽ봽?덈뱶?쒗듃
-2. ?대쫫: "?덈줎湲덉쑖 CRM"
-3. URL?먯꽌 ID 蹂듭궗:
-   docs.google.com/spreadsheets/d/[?낆씠遺遺꾟쁾]/edit
-```
+**채널 포지셔닝:** "아파트담보 금융정보 채널" (광고 채널이 아님)
 
-### Step 3: ?붾젅洹몃옩 遊?留뚮뱾湲?(10遺?
+**7일 순환 콘텐츠:**
 ```
-1. ?붾젅洹몃옩 ????@BotFather 寃??
-2. /newbot ???대쫫: ?덈줎湲덉쑖遊????꾩씠?? saeloan_auto_bot
-3. ?좏겙 踰덊샇 蹂듭궗 (7654321:ABCxyz...)
-4. 梨꾨꼸 留뚮뱾湲???怨듦컻 ??二쇱냼: saeloan_apt
-5. 梨꾨꼸??遊뉗쓣 愿由ъ옄濡?異붽? (硫붿떆吏 ?꾩넚 沅뚰븳)
+월: 시장 정보 (이번 주 아파트 담보 시장 동향)
+화: 규제 안내 (LTV 규제, 금리 규정 정보)
+수: 자영업자 정보 (은행 한도 초과 시 정보)
+목: Q&A (자주 묻는 질문)
+금: 절차 안내 (대부중개 이용 방법)
+토: 금리 정보 (법정최고금리, 금리 구조)
+일: 주간 정리 (이번 주 부동산 금융 뉴스)
 ```
 
-### Step 4: AppScript ?ㅼ튂 (30遺?
+**모든 게시물 하단 고정:**
 ```
-1. script.google.com ??"???꾨줈?앺듃"
-2. ?대쫫: "?덈줎湲덉쑖_AI_留덉뒪??
-3. GitHub?먯꽌 SAELOAN_AI_MASTER.gs ?댁슜 蹂듭궗쨌遺숈뿬?ｊ린
+─────────────────────
+📋 새론금융대부중개 | 등록 2026-수원-2324
+📞 010-5927-9205 | 🌐 saeloan.co.kr
+⚠️ 과도한 빚은 큰 불행을 안겨줄 수 있습니다
+※ 중개수수료 없음 | 대출 실행은 대부업체가 진행
+```
+
+### 네이버 블로그 (SEO 인바운드)
+
+**목적:** 검색 고객 유입 (광고 없이 자연 유입)
+
+**주 3회 자동 생성 주제 예시:**
+```
+1. 자영업자 아파트담보대출: 은행 한도 초과 시 선택지
+2. 2026년 은행 LTV 규제 총정리
+3. 대부중개업 이용 방법과 절차
+4. 아파트담보 대부업 금리 구조 이해
+5. 서울 아파트 담보대출 심사 기준
+6. 법정최고금리 연 20% 완전 이해
+7. 대부중개업체 vs 대부업체 차이
+```
+
+**SEO 핵심 키워드:**
+- `자영업자 아파트담보대출`
+- `은행한도초과 대출`
+- `아파트담보 대부업`
+- `대부중개업 이용방법`
+
+---
+
+## ━━━ 5. 처음 설치 방법 (2시간) ━━━
+
+### Step 1: OpenAI API 키 발급 (20분)
+```
+1. platform.openai.com 접속 → 구글 계정 가입
+2. 상단 "API keys" → "+ Create new secret key"
+3. 키 복사 (sk-proj-xxx...) → 안전한 곳에 저장
+4. Billing → 카드 등록 → $5 충전 (약 7,000원 / 3개월치)
+```
+
+### Step 2: 구글 시트 만들기 (3분)
+```
+1. sheets.google.com → 빈 스프레드시트
+2. 이름: "새론금융 CRM"
+3. URL에서 ID 복사:
+   docs.google.com/spreadsheets/d/[★이부분★]/edit
+```
+
+### Step 3: 텔레그램 봇 만들기 (10분)
+```
+1. 텔레그램 앱 → @BotFather 검색
+2. /newbot → 이름: 새론금융봇 → 아이디: saeloan_auto_bot
+3. 토큰 번호 복사 (7654321:ABCxyz...)
+4. 채널 만들기 → 공개 → 주소: saeloan_apt
+5. 채널에 봇을 관리자로 추가 (메시지 전송 권한)
+```
+
+### Step 4: AppScript 설치 (30분)
+```
+1. script.google.com → "새 프로젝트"
+2. 이름: "새론금융_AI_마스터"
+3. GitHub에서 SAELOAN_AI_MASTER.gs 내용 복사·붙여넣기
    (https://github.com/HeeJeonLee/saeloan-financial/blob/main/automation/SAELOAN_AI_MASTER.gs)
-4. ?ㅼ쓬 4怨??섏젙:
-   - YOUR_OPENAI_API_KEY ??Step 1 ??
-   - YOUR_GOOGLE_SHEET_ID ??Step 2 ID
-   - YOUR_BOT_TOKEN ??Step 3 ?좏겙
-   - YOUR_EMAIL@gmail.com ???댄씗???대찓??
-5. ???(Ctrl+S)
+4. 다음 4곳 수정:
+   - YOUR_OPENAI_API_KEY → Step 1 키
+   - YOUR_GOOGLE_SHEET_ID → Step 2 ID
+   - YOUR_BOT_TOKEN → Step 3 토큰
+   - YOUR_EMAIL@gmail.com → 이희전 이메일
+5. 저장 (Ctrl+S)
 ```
 
-### Step 5: ?몃━嫄?4媛??ㅼ젙 (10遺?
+### Step 5: 트리거 4개 설정 (10분)
 ```
-AppScript 醫뚯륫 ?쒓퀎 ?꾩씠肄??몃━嫄? ?대┃
+AppScript 좌측 시계 아이콘(트리거) 클릭
 
-[?몃━嫄?1] 留ㅼ씪 ?붾젅洹몃옩 諛쒗뻾
-  ?⑥닔: dailyAutoPost
-  ?쒓컙: 留ㅼ씪 ?ㅼ쟾 9:00
+[트리거 1] 매일 텔레그램 발행
+  함수: dailyAutoPost
+  시간: 매일 오전 9:00
 
-[?몃━嫄?2] 釉붾줈洹?珥덉븞 ?대찓??
-  ?⑥닔: generateBlogPost  
-  ?쒓컙: 留ㅼ＜ ?붋룹닔쨌湲??ㅼ쟾 8:00
+[트리거 2] 블로그 초안 이메일
+  함수: generateBlogPost  
+  시간: 매주 월·수·금 오전 8:00
 
-[?몃━嫄?3] 二쇨컙 由ы룷??
-  ?⑥닔: sendWeeklyReport
-  ?쒓컙: 留ㅼ＜ ?붿슂???ㅼ쟾 9:00
+[트리거 3] 주간 리포트
+  함수: sendWeeklyReport
+  시간: 매주 월요일 오전 9:00
 
-[?몃━嫄?4] ?곷떞?좎껌 ?뚮┝ (援ш? ???곕룞)
-  援ш? ???깆뒪?щ┰?몄뿉??蹂꾨룄 ?ㅼ젙
+[트리거 4] 상담신청 알림 (구글 폼 연동)
+  구글 폼 앱스크립트에서 별도 설정
 ```
 
-### Step 6: ?뚯뒪??(5遺?
+### Step 6: 테스트 (5분)
 ```
-?⑥닔 ?좏깮: TEST_誘몃━蹂닿린
-???ㅽ뻾 ?대┃
-???섎떒 濡쒓렇???ㅻ뒛 寃뚯떆臾??댁슜 ?쒖떆?섎㈃ ?깃났
+함수 선택: TEST_미리보기
+▶ 실행 클릭
+→ 하단 로그에 오늘 게시물 내용 표시되면 성공
 ```
 
 ---
 
-## ?곣봺??6. 鍮꾩슜 ?붿빟 ?곣봺??
+## ━━━ 6. 비용 요약 ━━━
 
-| ??ぉ | ??鍮꾩슜 |
+| 항목 | 월 비용 |
 |---|---|
-| OpenAI API (肄섑뀗痢??앹꽦) | ??2,000~5,000??|
-| Google AppScript | 臾대즺 |
-| Telegram | 臾대즺 |
-| Google Sheets/Forms | 臾대즺 |
-| Vercel ?덊럹?댁? | 臾대즺 |
-| GitHub | 臾대즺 |
-| **珥앺빀** | **??2,000~5,000??/ ??* |
+| OpenAI API (콘텐츠 생성) | 약 2,000~5,000원 |
+| Google AppScript | 무료 |
+| Telegram | 무료 |
+| Google Sheets/Forms | 무료 |
+| Vercel 홈페이지 | 무료 |
+| GitHub | 무료 |
+| **총합** | **약 2,000~5,000원 / 월** |
 
 ---
 
-## ?곣봺??7. ?꾨왂 蹂寃?諛⑸쾿 (???吏곸젒) ?곣봺??
+## ━━━ 7. 전략 변경 방법 (팀장 직접) ━━━
 
 ```
-1. https://github.com/HeeJeonLee/saeloan-financial ?묒냽
-2. automation/SAELOAN_AI_MASTER.gs ?뚯씪 ?대┃
-3. ?고븘(?륅툘) ?꾩씠肄??대┃
-4. STRATEGY ?뱀뀡?먯꽌 ?먰븯??媛믩쭔 ?섏젙:
+1. https://github.com/HeeJeonLee/saeloan-financial 접속
+2. automation/SAELOAN_AI_MASTER.gs 파일 클릭
+3. 연필(✏️) 아이콘 클릭
+4. STRATEGY 섹션에서 원하는 값만 수정:
 
-   ?? 援ъ엯?먭툑?쇰줈 ?寃?蹂寃?
+   예) 구입자금으로 타겟 변경:
    TARGET: {
-     ?먯쁺?낆옄: false,   ??false
-     援ъ엯?먭툑: true,    ??true
+     자영업자: false,   ← false
+     구입자금: true,    ← true
    }
 
-5. ?붾㈃ ?꾨옒 "Commit changes" ?대┃
-6. AppScript?먯꽌???숈씪?섍쾶 ?섏젙
-???ㅼ쓬 ?좊???AI媛 ???꾨왂?쇰줈 ?먮룞 ?댁쁺
+5. 화면 아래 "Commit changes" 클릭
+6. AppScript에서도 동일하게 수정
+→ 다음 날부터 AI가 새 전략으로 자동 운영
 ```
 
 ---
 
-*v3.0 | 2026-05-17 | ?꾩쟾 ?먯쑉 AI SNS ?쒖뒪??
-*??? https://github.com/HeeJeonLee/saeloan-financial/blob/main/automation/SNS_AI_STRATEGY_V3.md*
+*v3.0 | 2026-05-17 | 완전 자율 AI SNS 시스템*
+*저장: https://github.com/HeeJeonLee/saeloan-financial/blob/main/automation/SNS_AI_STRATEGY_V3.md*
+
+
 
 ---
 
@@ -770,7 +776,7 @@ AppScript 醫뚯륫 ?쒓퀎 ?꾩씠肄??몃━嫄? ?대┃
 
 # quick-lru [![Build Status](https://travis-ci.org/sindresorhus/quick-lru.svg?branch=master)](https://travis-ci.org/sindresorhus/quick-lru) [![Coverage Status](https://coveralls.io/repos/github/sindresorhus/quick-lru/badge.svg?branch=master)](https://coveralls.io/github/sindresorhus/quick-lru?branch=master)
 
-> Simple [?쏬east Recently Used??(LRU) cache](https://en.m.wikipedia.org/wiki/Cache_replacement_policies#Least_Recently_Used_.28LRU.29)
+> Simple [“Least Recently Used” (LRU) cache](https://en.m.wikipedia.org/wiki/Cache_replacement_policies#Least_Recently_Used_.28LRU.29)
 
 Useful when you need to cache something and limit memory usage.
 
@@ -789,13 +795,13 @@ const QuickLRU = require('quick-lru');
 
 const lru = new QuickLRU({maxSize: 1000});
 
-lru.set('?쫫', '?뙂');
+lru.set('🦄', '🌈');
 
-lru.has('?쫫');
+lru.has('🦄');
 //=> true
 
-lru.get('?쫫');
-//=> '?뙂'
+lru.get('🦄');
+//=> '🌈'
 ```
 
 ## API
@@ -838,7 +844,7 @@ Useful for side effects or for items like object URLs that need explicit cleanup
 
 ### Instance
 
-The instance is [`iterable`](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Iteration_protocols) so you can use it directly in a [`for?쫛f`](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Statements/for...of) loop.
+The instance is [`iterable`](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Iteration_protocols) so you can use it directly in a [`for…of`](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Statements/for...of) loop.
 
 Both `key` and `value` can be of any type.
 
@@ -908,6 +914,8 @@ The stored item count.
 	</sub>
 </div>
 
+
+
 ---
 
 # 파일 출처: .\node_modules\@babel\code-frame\README.md
@@ -933,6 +941,8 @@ or using yarn:
 ```sh
 yarn add @babel/code-frame --dev
 ```
+
+
 
 ---
 
@@ -960,6 +970,8 @@ or using yarn:
 yarn add @babel/compat-data
 ```
 
+
+
 ---
 
 # 파일 출처: .\node_modules\@babel\core\README.md
@@ -985,6 +997,8 @@ or using yarn:
 ```sh
 yarn add @babel/core --dev
 ```
+
+
 
 ---
 
@@ -1012,6 +1026,8 @@ or using yarn:
 yarn add @babel/generator --dev
 ```
 
+
+
 ---
 
 # 파일 출처: .\node_modules\@babel\helper-compilation-targets\README.md
@@ -1037,6 +1053,8 @@ or using yarn:
 ```sh
 yarn add @babel/helper-compilation-targets
 ```
+
+
 
 ---
 
@@ -1064,6 +1082,8 @@ or using yarn:
 yarn add @babel/helper-globals
 ```
 
+
+
 ---
 
 # 파일 출처: .\node_modules\@babel\helper-module-imports\README.md
@@ -1089,6 +1109,8 @@ or using yarn:
 ```sh
 yarn add @babel/helper-module-imports
 ```
+
+
 
 ---
 
@@ -1116,6 +1138,8 @@ or using yarn:
 yarn add @babel/helper-module-transforms
 ```
 
+
+
 ---
 
 # 파일 출처: .\node_modules\@babel\helper-plugin-utils\README.md
@@ -1141,6 +1165,8 @@ or using yarn:
 ```sh
 yarn add @babel/helper-plugin-utils
 ```
+
+
 
 ---
 
@@ -1168,6 +1194,8 @@ or using yarn:
 yarn add @babel/helper-string-parser
 ```
 
+
+
 ---
 
 # 파일 출처: .\node_modules\@babel\helper-validator-identifier\README.md
@@ -1193,6 +1221,8 @@ or using yarn:
 ```sh
 yarn add @babel/helper-validator-identifier
 ```
+
+
 
 ---
 
@@ -1220,6 +1250,8 @@ or using yarn:
 yarn add @babel/helper-validator-option
 ```
 
+
+
 ---
 
 # 파일 출처: .\node_modules\@babel\helpers\README.md
@@ -1245,6 +1277,8 @@ or using yarn:
 ```sh
 yarn add @babel/helpers --dev
 ```
+
+
 
 ---
 
@@ -1480,7 +1514,7 @@ Do not allow overwritting of primitive types ([#314](https://github.com/babel/ba
 
 In flow it is now forbidden to overwrite the primitive types `"any"`, `"mixed"`, `"empty"`, `"bool"`, `"boolean"`, `"number"`, `"string"`, `"void"` and `"null"` with your own type declaration.
 
-Disallow import type { type a } from ??([#305](https://github.com/babel/babylon/pull/305)) (Daniel Tschinder)
+Disallow import type { type a } from … ([#305](https://github.com/babel/babylon/pull/305)) (Daniel Tschinder)
 
 The following code now correctly throws an error
 
@@ -1537,9 +1571,9 @@ chore(package): update flow-bin to version 0.38.0 ([#313](https://github.com/bab
 
 Call inner function instead of 1:1 copy to plugin ([#294](https://github.com/babel/babylon/pull/294)) (Daniel Tschinder)
 
-Update eslint-config-babel to the latest version ?? ([#299](https://github.com/babel/babylon/pull/299)) (greenkeeper[bot])
+Update eslint-config-babel to the latest version 🚀 ([#299](https://github.com/babel/babylon/pull/299)) (greenkeeper[bot])
 
-Update eslint-config-babel to the latest version ?? ([#293](https://github.com/babel/babylon/pull/293)) (greenkeeper[bot])
+Update eslint-config-babel to the latest version 🚀 ([#293](https://github.com/babel/babylon/pull/293)) (greenkeeper[bot])
 
 devDeps: remove eslint-plugin-babel ([#292](https://github.com/babel/babylon/pull/292)) (Kai Cataldo)
 
@@ -1623,7 +1657,7 @@ The following case produced an invalid AST
 
 Use fromCodePoint to convert high value unicode entities ([#243](https://github.com/babel/babylon/pull/243)) (Ryan Duffy)
 
-When high value unicode entities (e.g. ?뮝) were used in the input source code they are now correctly encoded in the resulting AST.
+When high value unicode entities (e.g. 💩) were used in the input source code they are now correctly encoded in the resulting AST.
 
 Rename folder to avoid Windows-illegal characters ([#281](https://github.com/babel/babylon/pull/281)) (Ryan Plant)
 
@@ -1643,7 +1677,7 @@ Add some test coverage for decorators stage-0 plugin ([#250](https://github.com/
 
 Refactor tokenizer types file ([#263](https://github.com/babel/babylon/pull/263)) (Sven SAULEAU)
 
-Update eslint-config-babel to the latest version ?? ([#273](https://github.com/babel/babylon/pull/273)) (greenkeeper[bot])
+Update eslint-config-babel to the latest version 🚀 ([#273](https://github.com/babel/babylon/pull/273)) (greenkeeper[bot])
 
 chore(package): update rollup to version 0.41.0 ([#272](https://github.com/babel/babylon/pull/272)) (greenkeeper[bot])
 
@@ -1696,7 +1730,7 @@ type B = string => number;
 type C = { [string]: number };
 ```
 
-Parse flow nested array type annotations like `number[][]` ([#219](https://github.com/babel/babylon/pull/219)) (Bernhard H채ussner)
+Parse flow nested array type annotations like `number[][]` ([#219](https://github.com/babel/babylon/pull/219)) (Bernhard Häussner)
 
 Supports these form now of specifying array types:
 
@@ -2326,6 +2360,8 @@ async function f() {
 }
 ```
 
+
+
 ---
 
 # 파일 출처: .\node_modules\@babel\parser\README.md
@@ -2351,6 +2387,8 @@ or using yarn:
 ```sh
 yarn add @babel/parser --dev
 ```
+
+
 
 ---
 
@@ -2378,6 +2416,8 @@ or using yarn:
 yarn add @babel/plugin-transform-react-jsx-self --dev
 ```
 
+
+
 ---
 
 # 파일 출처: .\node_modules\@babel\plugin-transform-react-jsx-source\README.md
@@ -2403,6 +2443,8 @@ or using yarn:
 ```sh
 yarn add @babel/plugin-transform-react-jsx-source --dev
 ```
+
+
 
 ---
 
@@ -2430,6 +2472,8 @@ or using yarn:
 yarn add @babel/template --dev
 ```
 
+
+
 ---
 
 # 파일 출처: .\node_modules\@babel\traverse\README.md
@@ -2455,6 +2499,8 @@ or using yarn:
 ```sh
 yarn add @babel/traverse --dev
 ```
+
+
 
 ---
 
@@ -2482,6 +2528,8 @@ or using yarn:
 yarn add @babel/types --dev
 ```
 
+
+
 ---
 
 # 파일 출처: .\node_modules\@esbuild\win32-x64\README.md
@@ -2491,6 +2539,8 @@ yarn add @babel/types --dev
 # esbuild
 
 This is the Windows 64-bit binary for esbuild, a JavaScript bundler and minifier. See https://github.com/evanw/esbuild for details.
+
+
 
 ---
 
@@ -2620,19 +2670,19 @@ source-map-0.8.0             6121173 bytes
 Smallest memory usage is gen-mapping: addSegment
 
 Adding speed:
-gen-mapping:      addSegment x 441 ops/sec 짹2.07% (90 runs sampled)
-gen-mapping:      addMapping x 350 ops/sec 짹2.40% (86 runs sampled)
-source-map-js:    addMapping x 169 ops/sec 짹2.42% (80 runs sampled)
-source-map-0.6.1: addMapping x 167 ops/sec 짹2.56% (80 runs sampled)
-source-map-0.8.0: addMapping x 168 ops/sec 짹2.52% (80 runs sampled)
+gen-mapping:      addSegment x 441 ops/sec ±2.07% (90 runs sampled)
+gen-mapping:      addMapping x 350 ops/sec ±2.40% (86 runs sampled)
+source-map-js:    addMapping x 169 ops/sec ±2.42% (80 runs sampled)
+source-map-0.6.1: addMapping x 167 ops/sec ±2.56% (80 runs sampled)
+source-map-0.8.0: addMapping x 168 ops/sec ±2.52% (80 runs sampled)
 Fastest is gen-mapping:      addSegment
 
 Generate speed:
-gen-mapping:      decoded output x 150,824,370 ops/sec 짹0.07% (102 runs sampled)
-gen-mapping:      encoded output x 663 ops/sec 짹0.22% (98 runs sampled)
-source-map-js:    encoded output x 197 ops/sec 짹0.45% (84 runs sampled)
-source-map-0.6.1: encoded output x 198 ops/sec 짹0.33% (85 runs sampled)
-source-map-0.8.0: encoded output x 197 ops/sec 짹0.06% (93 runs sampled)
+gen-mapping:      decoded output x 150,824,370 ops/sec ±0.07% (102 runs sampled)
+gen-mapping:      encoded output x 663 ops/sec ±0.22% (98 runs sampled)
+source-map-js:    encoded output x 197 ops/sec ±0.45% (84 runs sampled)
+source-map-0.6.1: encoded output x 198 ops/sec ±0.33% (85 runs sampled)
+source-map-0.8.0: encoded output x 197 ops/sec ±0.06% (93 runs sampled)
 Fastest is gen-mapping:      decoded output
 
 
@@ -2649,19 +2699,19 @@ source-map-0.8.0            47470188 bytes
 Smallest memory usage is gen-mapping: addMapping
 
 Adding speed:
-gen-mapping:      addSegment x 31.05 ops/sec 짹8.31% (43 runs sampled)
-gen-mapping:      addMapping x 29.83 ops/sec 짹7.36% (51 runs sampled)
-source-map-js:    addMapping x 20.73 ops/sec 짹6.22% (38 runs sampled)
-source-map-0.6.1: addMapping x 20.03 ops/sec 짹10.51% (38 runs sampled)
-source-map-0.8.0: addMapping x 19.30 ops/sec 짹8.27% (37 runs sampled)
+gen-mapping:      addSegment x 31.05 ops/sec ±8.31% (43 runs sampled)
+gen-mapping:      addMapping x 29.83 ops/sec ±7.36% (51 runs sampled)
+source-map-js:    addMapping x 20.73 ops/sec ±6.22% (38 runs sampled)
+source-map-0.6.1: addMapping x 20.03 ops/sec ±10.51% (38 runs sampled)
+source-map-0.8.0: addMapping x 19.30 ops/sec ±8.27% (37 runs sampled)
 Fastest is gen-mapping:      addSegment
 
 Generate speed:
-gen-mapping:      decoded output x 381,379,234 ops/sec 짹0.29% (96 runs sampled)
-gen-mapping:      encoded output x 95.15 ops/sec 짹2.98% (72 runs sampled)
-source-map-js:    encoded output x 15.20 ops/sec 짹7.41% (33 runs sampled)
-source-map-0.6.1: encoded output x 16.36 ops/sec 짹10.46% (31 runs sampled)
-source-map-0.8.0: encoded output x 16.06 ops/sec 짹6.45% (31 runs sampled)
+gen-mapping:      decoded output x 381,379,234 ops/sec ±0.29% (96 runs sampled)
+gen-mapping:      encoded output x 95.15 ops/sec ±2.98% (72 runs sampled)
+source-map-js:    encoded output x 15.20 ops/sec ±7.41% (33 runs sampled)
+source-map-0.6.1: encoded output x 16.36 ops/sec ±10.46% (31 runs sampled)
+source-map-0.8.0: encoded output x 16.06 ops/sec ±6.45% (31 runs sampled)
 Fastest is gen-mapping:      decoded output
 
 
@@ -2678,19 +2728,19 @@ source-map-0.8.0             1113250 bytes
 Smallest memory usage is gen-mapping: addSegment
 
 Adding speed:
-gen-mapping:      addSegment x 13,755 ops/sec 짹0.15% (98 runs sampled)
-gen-mapping:      addMapping x 13,013 ops/sec 짹0.11% (101 runs sampled)
-source-map-js:    addMapping x 4,564 ops/sec 짹0.21% (98 runs sampled)
-source-map-0.6.1: addMapping x 4,562 ops/sec 짹0.11% (99 runs sampled)
-source-map-0.8.0: addMapping x 4,593 ops/sec 짹0.11% (100 runs sampled)
+gen-mapping:      addSegment x 13,755 ops/sec ±0.15% (98 runs sampled)
+gen-mapping:      addMapping x 13,013 ops/sec ±0.11% (101 runs sampled)
+source-map-js:    addMapping x 4,564 ops/sec ±0.21% (98 runs sampled)
+source-map-0.6.1: addMapping x 4,562 ops/sec ±0.11% (99 runs sampled)
+source-map-0.8.0: addMapping x 4,593 ops/sec ±0.11% (100 runs sampled)
 Fastest is gen-mapping:      addSegment
 
 Generate speed:
-gen-mapping:      decoded output x 379,864,020 ops/sec 짹0.23% (93 runs sampled)
-gen-mapping:      encoded output x 14,368 ops/sec 짹4.07% (82 runs sampled)
-source-map-js:    encoded output x 5,261 ops/sec 짹0.21% (99 runs sampled)
-source-map-0.6.1: encoded output x 5,124 ops/sec 짹0.58% (99 runs sampled)
-source-map-0.8.0: encoded output x 5,434 ops/sec 짹0.33% (96 runs sampled)
+gen-mapping:      decoded output x 379,864,020 ops/sec ±0.23% (93 runs sampled)
+gen-mapping:      encoded output x 14,368 ops/sec ±4.07% (82 runs sampled)
+source-map-js:    encoded output x 5,261 ops/sec ±0.21% (99 runs sampled)
+source-map-0.6.1: encoded output x 5,124 ops/sec ±0.58% (99 runs sampled)
+source-map-0.8.0: encoded output x 5,434 ops/sec ±0.33% (96 runs sampled)
 Fastest is gen-mapping:      decoded output
 
 
@@ -2707,24 +2757,26 @@ source-map-0.8.0             2874336 bytes
 Smallest memory usage is gen-mapping: addSegment
 
 Adding speed:
-gen-mapping:      addSegment x 4,772 ops/sec 짹0.15% (100 runs sampled)
-gen-mapping:      addMapping x 4,456 ops/sec 짹0.13% (97 runs sampled)
-source-map-js:    addMapping x 1,618 ops/sec 짹0.24% (97 runs sampled)
-source-map-0.6.1: addMapping x 1,622 ops/sec 짹0.12% (99 runs sampled)
-source-map-0.8.0: addMapping x 1,631 ops/sec 짹0.12% (100 runs sampled)
+gen-mapping:      addSegment x 4,772 ops/sec ±0.15% (100 runs sampled)
+gen-mapping:      addMapping x 4,456 ops/sec ±0.13% (97 runs sampled)
+source-map-js:    addMapping x 1,618 ops/sec ±0.24% (97 runs sampled)
+source-map-0.6.1: addMapping x 1,622 ops/sec ±0.12% (99 runs sampled)
+source-map-0.8.0: addMapping x 1,631 ops/sec ±0.12% (100 runs sampled)
 Fastest is gen-mapping:      addSegment
 
 Generate speed:
-gen-mapping:      decoded output x 379,107,695 ops/sec 짹0.07% (99 runs sampled)
-gen-mapping:      encoded output x 5,421 ops/sec 짹1.60% (89 runs sampled)
-source-map-js:    encoded output x 2,113 ops/sec 짹1.81% (98 runs sampled)
-source-map-0.6.1: encoded output x 2,126 ops/sec 짹0.10% (100 runs sampled)
-source-map-0.8.0: encoded output x 2,176 ops/sec 짹0.39% (98 runs sampled)
+gen-mapping:      decoded output x 379,107,695 ops/sec ±0.07% (99 runs sampled)
+gen-mapping:      encoded output x 5,421 ops/sec ±1.60% (89 runs sampled)
+source-map-js:    encoded output x 2,113 ops/sec ±1.81% (98 runs sampled)
+source-map-0.6.1: encoded output x 2,126 ops/sec ±0.10% (100 runs sampled)
+source-map-0.8.0: encoded output x 2,176 ops/sec ±0.39% (98 runs sampled)
 Fastest is gen-mapping:      decoded output
 ```
 
 [source-map]: https://www.npmjs.com/package/source-map
 [trace-mapping]: https://github.com/jridgewell/sourcemaps/tree/main/packages/trace-mapping
+
+
 
 ---
 
@@ -2897,7 +2949,7 @@ const remapped = remapping(
 
 console.log(remapped);
 // {
-//   ??
+//   …,
 //   sources: ['src/nested/helloworld.js'],
 // };
 ```
@@ -2930,7 +2982,7 @@ const remapped = remapping(
 
 console.log(remapped);
 // {
-//   ??
+//   …,
 //   sourcesContent: [
 //     'console.log("Hello world!")',
 //   ],
@@ -2950,6 +3002,8 @@ the size out the sourcemap.
 By default, `decodedMappings` is `false`. Passing `{ decodedMappings: true }` will leave the
 `mappings` field in a [decoded state](https://github.com/rich-harris/sourcemap-codec) instead of
 encoding into a VLQ string.
+
+
 
 ---
 
@@ -2998,6 +3052,8 @@ resolve('foo', 'https://example.com'); // => 'https://example.com/foo'
 | `example`             | `base/dir/`             | `base/dir/example`             | Input is joined with the base's last directory               |
 | `example`             | `base/file`             | `base/example`                 | Input is joined with the base without its file               |
 
+
+
 ---
 
 # 파일 출처: .\node_modules\@jridgewell\sourcemap-codec\README.md
@@ -3011,7 +3067,7 @@ Encode/decode the `mappings` property of a [sourcemap](https://docs.google.com/d
 
 ## Why?
 
-Sourcemaps are difficult to generate and manipulate, because the `mappings` property ??the part that actually links the generated code back to the original source ??is encoded using an obscure method called [Variable-length quantity](https://en.wikipedia.org/wiki/Variable-length_quantity). On top of that, each segment in the mapping contains offsets rather than absolute indices, which means that you can't look at a segment in isolation ??you have to understand the whole sourcemap.
+Sourcemaps are difficult to generate and manipulate, because the `mappings` property – the part that actually links the generated code back to the original source – is encoded using an obscure method called [Variable-length quantity](https://en.wikipedia.org/wiki/Variable-length_quantity). On top of that, each segment in the mapping contains offsets rather than absolute indices, which means that you can't look at a segment in isolation – you have to understand the whole sourcemap.
 
 This package makes the process slightly easier.
 
@@ -3080,12 +3136,12 @@ chrome dev tools                       8011136 bytes
 Smallest memory usage is sourcemap-codec
 
 Decode speed:
-decode: local code x 492 ops/sec 짹1.22% (90 runs sampled)
-decode: @jridgewell/sourcemap-codec 1.4.15 x 499 ops/sec 짹1.16% (89 runs sampled)
-decode: sourcemap-codec x 376 ops/sec 짹1.66% (89 runs sampled)
-decode: source-map-0.6.1 x 34.99 ops/sec 짹0.94% (48 runs sampled)
-decode: source-map-0.8.0 x 351 ops/sec 짹0.07% (95 runs sampled)
-chrome dev tools x 165 ops/sec 짹0.91% (86 runs sampled)
+decode: local code x 492 ops/sec ±1.22% (90 runs sampled)
+decode: @jridgewell/sourcemap-codec 1.4.15 x 499 ops/sec ±1.16% (89 runs sampled)
+decode: sourcemap-codec x 376 ops/sec ±1.66% (89 runs sampled)
+decode: source-map-0.6.1 x 34.99 ops/sec ±0.94% (48 runs sampled)
+decode: source-map-0.8.0 x 351 ops/sec ±0.07% (95 runs sampled)
+chrome dev tools x 165 ops/sec ±0.91% (86 runs sampled)
 Fastest is decode: @jridgewell/sourcemap-codec 1.4.15
 
 Encode Memory Usage:
@@ -3097,11 +3153,11 @@ source-map-0.8.0                       8736624 bytes
 Smallest memory usage is local code
 
 Encode speed:
-encode: local code x 796 ops/sec 짹0.11% (97 runs sampled)
-encode: @jridgewell/sourcemap-codec 1.4.15 x 795 ops/sec 짹0.25% (98 runs sampled)
-encode: sourcemap-codec x 231 ops/sec 짹0.83% (86 runs sampled)
-encode: source-map-0.6.1 x 166 ops/sec 짹0.57% (86 runs sampled)
-encode: source-map-0.8.0 x 203 ops/sec 짹0.45% (88 runs sampled)
+encode: local code x 796 ops/sec ±0.11% (97 runs sampled)
+encode: @jridgewell/sourcemap-codec 1.4.15 x 795 ops/sec ±0.25% (98 runs sampled)
+encode: sourcemap-codec x 231 ops/sec ±0.83% (86 runs sampled)
+encode: source-map-0.6.1 x 166 ops/sec ±0.57% (86 runs sampled)
+encode: source-map-0.8.0 x 203 ops/sec ±0.45% (88 runs sampled)
 Fastest is encode: local code,encode: @jridgewell/sourcemap-codec 1.4.15
 
 
@@ -3120,12 +3176,12 @@ chrome dev tools                      45111400 bytes
 Smallest memory usage is @jridgewell/sourcemap-codec 1.4.15
 
 Decode speed:
-decode: local code x 38.18 ops/sec 짹5.44% (52 runs sampled)
-decode: @jridgewell/sourcemap-codec 1.4.15 x 38.36 ops/sec 짹5.02% (52 runs sampled)
-decode: sourcemap-codec x 34.05 ops/sec 짹4.45% (47 runs sampled)
-decode: source-map-0.6.1 x 4.31 ops/sec 짹2.76% (15 runs sampled)
-decode: source-map-0.8.0 x 55.60 ops/sec 짹0.13% (73 runs sampled)
-chrome dev tools x 16.94 ops/sec 짹3.78% (46 runs sampled)
+decode: local code x 38.18 ops/sec ±5.44% (52 runs sampled)
+decode: @jridgewell/sourcemap-codec 1.4.15 x 38.36 ops/sec ±5.02% (52 runs sampled)
+decode: sourcemap-codec x 34.05 ops/sec ±4.45% (47 runs sampled)
+decode: source-map-0.6.1 x 4.31 ops/sec ±2.76% (15 runs sampled)
+decode: source-map-0.8.0 x 55.60 ops/sec ±0.13% (73 runs sampled)
+chrome dev tools x 16.94 ops/sec ±3.78% (46 runs sampled)
 Fastest is decode: source-map-0.8.0
 
 Encode Memory Usage:
@@ -3137,11 +3193,11 @@ source-map-0.8.0                      25256448 bytes
 Smallest memory usage is local code
 
 Encode speed:
-encode: local code x 127 ops/sec 짹0.18% (83 runs sampled)
-encode: @jridgewell/sourcemap-codec 1.4.15 x 128 ops/sec 짹0.26% (83 runs sampled)
-encode: sourcemap-codec x 29.31 ops/sec 짹2.55% (53 runs sampled)
-encode: source-map-0.6.1 x 18.85 ops/sec 짹3.19% (36 runs sampled)
-encode: source-map-0.8.0 x 19.34 ops/sec 짹1.97% (36 runs sampled)
+encode: local code x 127 ops/sec ±0.18% (83 runs sampled)
+encode: @jridgewell/sourcemap-codec 1.4.15 x 128 ops/sec ±0.26% (83 runs sampled)
+encode: sourcemap-codec x 29.31 ops/sec ±2.55% (53 runs sampled)
+encode: source-map-0.6.1 x 18.85 ops/sec ±3.19% (36 runs sampled)
+encode: source-map-0.8.0 x 19.34 ops/sec ±1.97% (36 runs sampled)
 Fastest is encode: @jridgewell/sourcemap-codec 1.4.15
 
 
@@ -3160,12 +3216,12 @@ chrome dev tools                        587368 bytes
 Smallest memory usage is source-map-0.8.0
 
 Decode speed:
-decode: local code x 17,782 ops/sec 짹0.32% (97 runs sampled)
-decode: @jridgewell/sourcemap-codec 1.4.15 x 17,863 ops/sec 짹0.40% (100 runs sampled)
-decode: sourcemap-codec x 12,453 ops/sec 짹0.27% (101 runs sampled)
-decode: source-map-0.6.1 x 1,288 ops/sec 짹1.05% (96 runs sampled)
-decode: source-map-0.8.0 x 9,289 ops/sec 짹0.27% (101 runs sampled)
-chrome dev tools x 4,769 ops/sec 짹0.18% (100 runs sampled)
+decode: local code x 17,782 ops/sec ±0.32% (97 runs sampled)
+decode: @jridgewell/sourcemap-codec 1.4.15 x 17,863 ops/sec ±0.40% (100 runs sampled)
+decode: sourcemap-codec x 12,453 ops/sec ±0.27% (101 runs sampled)
+decode: source-map-0.6.1 x 1,288 ops/sec ±1.05% (96 runs sampled)
+decode: source-map-0.8.0 x 9,289 ops/sec ±0.27% (101 runs sampled)
+chrome dev tools x 4,769 ops/sec ±0.18% (100 runs sampled)
 Fastest is decode: @jridgewell/sourcemap-codec 1.4.15
 
 Encode Memory Usage:
@@ -3177,11 +3233,11 @@ source-map-0.8.0                        507480 bytes
 Smallest memory usage is @jridgewell/sourcemap-codec 1.4.15
 
 Encode speed:
-encode: local code x 24,207 ops/sec 짹0.79% (95 runs sampled)
-encode: @jridgewell/sourcemap-codec 1.4.15 x 24,288 ops/sec 짹0.48% (96 runs sampled)
-encode: sourcemap-codec x 6,761 ops/sec 짹0.21% (100 runs sampled)
-encode: source-map-0.6.1 x 5,374 ops/sec 짹0.17% (99 runs sampled)
-encode: source-map-0.8.0 x 5,633 ops/sec 짹0.32% (99 runs sampled)
+encode: local code x 24,207 ops/sec ±0.79% (95 runs sampled)
+encode: @jridgewell/sourcemap-codec 1.4.15 x 24,288 ops/sec ±0.48% (96 runs sampled)
+encode: sourcemap-codec x 6,761 ops/sec ±0.21% (100 runs sampled)
+encode: source-map-0.6.1 x 5,374 ops/sec ±0.17% (99 runs sampled)
+encode: source-map-0.8.0 x 5,633 ops/sec ±0.32% (99 runs sampled)
 Fastest is encode: @jridgewell/sourcemap-codec 1.4.15,encode: local code
 
 
@@ -3200,12 +3256,12 @@ chrome dev tools                       1012512 bytes
 Smallest memory usage is local code
 
 Decode speed:
-decode: local code x 6,178 ops/sec 짹0.19% (98 runs sampled)
-decode: @jridgewell/sourcemap-codec 1.4.15 x 6,261 ops/sec 짹0.22% (100 runs sampled)
-decode: sourcemap-codec x 4,472 ops/sec 짹0.90% (99 runs sampled)
-decode: source-map-0.6.1 x 449 ops/sec 짹0.31% (95 runs sampled)
-decode: source-map-0.8.0 x 3,219 ops/sec 짹0.13% (100 runs sampled)
-chrome dev tools x 1,743 ops/sec 짹0.20% (99 runs sampled)
+decode: local code x 6,178 ops/sec ±0.19% (98 runs sampled)
+decode: @jridgewell/sourcemap-codec 1.4.15 x 6,261 ops/sec ±0.22% (100 runs sampled)
+decode: sourcemap-codec x 4,472 ops/sec ±0.90% (99 runs sampled)
+decode: source-map-0.6.1 x 449 ops/sec ±0.31% (95 runs sampled)
+decode: source-map-0.8.0 x 3,219 ops/sec ±0.13% (100 runs sampled)
+chrome dev tools x 1,743 ops/sec ±0.20% (99 runs sampled)
 Fastest is decode: @jridgewell/sourcemap-codec 1.4.15
 
 Encode Memory Usage:
@@ -3217,11 +3273,11 @@ source-map-0.8.0                        930248 bytes
 Smallest memory usage is local code
 
 Encode speed:
-encode: local code x 8,013 ops/sec 짹0.19% (100 runs sampled)
-encode: @jridgewell/sourcemap-codec 1.4.15 x 7,989 ops/sec 짹0.20% (101 runs sampled)
-encode: sourcemap-codec x 2,472 ops/sec 짹0.21% (99 runs sampled)
-encode: source-map-0.6.1 x 2,200 ops/sec 짹0.17% (99 runs sampled)
-encode: source-map-0.8.0 x 2,220 ops/sec 짹0.37% (99 runs sampled)
+encode: local code x 8,013 ops/sec ±0.19% (100 runs sampled)
+encode: @jridgewell/sourcemap-codec 1.4.15 x 7,989 ops/sec ±0.20% (101 runs sampled)
+encode: sourcemap-codec x 2,472 ops/sec ±0.21% (99 runs sampled)
+encode: source-map-0.6.1 x 2,200 ops/sec ±0.17% (99 runs sampled)
+encode: source-map-0.8.0 x 2,220 ops/sec ±0.37% (99 runs sampled)
 Fastest is encode: local code
 
 
@@ -3240,12 +3296,12 @@ chrome dev tools                     293734280 bytes
 Smallest memory usage is local code
 
 Decode speed:
-decode: local code x 3.90 ops/sec 짹22.21% (15 runs sampled)
-decode: @jridgewell/sourcemap-codec 1.4.15 x 3.95 ops/sec 짹23.53% (15 runs sampled)
-decode: sourcemap-codec x 3.82 ops/sec 짹17.94% (14 runs sampled)
-decode: source-map-0.6.1 x 0.61 ops/sec 짹7.81% (6 runs sampled)
-decode: source-map-0.8.0 x 9.54 ops/sec 짹0.28% (28 runs sampled)
-chrome dev tools x 2.18 ops/sec 짹10.58% (10 runs sampled)
+decode: local code x 3.90 ops/sec ±22.21% (15 runs sampled)
+decode: @jridgewell/sourcemap-codec 1.4.15 x 3.95 ops/sec ±23.53% (15 runs sampled)
+decode: sourcemap-codec x 3.82 ops/sec ±17.94% (14 runs sampled)
+decode: source-map-0.6.1 x 0.61 ops/sec ±7.81% (6 runs sampled)
+decode: source-map-0.8.0 x 9.54 ops/sec ±0.28% (28 runs sampled)
+chrome dev tools x 2.18 ops/sec ±10.58% (10 runs sampled)
 Fastest is decode: source-map-0.8.0
 
 Encode Memory Usage:
@@ -3257,17 +3313,19 @@ source-map-0.8.0                     127535312 bytes
 Smallest memory usage is local code
 
 Encode speed:
-encode: local code x 20.10 ops/sec 짹0.19% (38 runs sampled)
-encode: @jridgewell/sourcemap-codec 1.4.15 x 20.26 ops/sec 짹0.32% (38 runs sampled)
-encode: sourcemap-codec x 5.44 ops/sec 짹1.64% (18 runs sampled)
-encode: source-map-0.6.1 x 2.30 ops/sec 짹4.79% (10 runs sampled)
-encode: source-map-0.8.0 x 2.46 ops/sec 짹6.53% (10 runs sampled)
+encode: local code x 20.10 ops/sec ±0.19% (38 runs sampled)
+encode: @jridgewell/sourcemap-codec 1.4.15 x 20.26 ops/sec ±0.32% (38 runs sampled)
+encode: sourcemap-codec x 5.44 ops/sec ±1.64% (18 runs sampled)
+encode: source-map-0.6.1 x 2.30 ops/sec ±4.79% (10 runs sampled)
+encode: source-map-0.8.0 x 2.46 ops/sec ±6.53% (10 runs sampled)
 Fastest is encode: @jridgewell/sourcemap-codec 1.4.15
 ```
 
 # License
 
 MIT
+
+
 
 ---
 
@@ -3422,31 +3480,31 @@ Chrome dev tools             8672912 bytes
 Smallest memory usage is trace-mapping decoded
 
 Init speed:
-trace-mapping:    decoded JSON input x 205 ops/sec 짹0.19% (88 runs sampled)
-trace-mapping:    encoded JSON input x 405 ops/sec 짹1.47% (88 runs sampled)
-trace-mapping:    decoded Object input x 4,645 ops/sec 짹0.15% (98 runs sampled)
-trace-mapping:    encoded Object input x 458 ops/sec 짹1.63% (91 runs sampled)
-source-map-js:    encoded Object input x 75.48 ops/sec 짹1.64% (67 runs sampled)
-source-map-0.6.1: encoded Object input x 39.37 ops/sec 짹1.44% (53 runs sampled)
-Chrome dev tools: encoded Object input x 150 ops/sec 짹1.76% (79 runs sampled)
+trace-mapping:    decoded JSON input x 205 ops/sec ±0.19% (88 runs sampled)
+trace-mapping:    encoded JSON input x 405 ops/sec ±1.47% (88 runs sampled)
+trace-mapping:    decoded Object input x 4,645 ops/sec ±0.15% (98 runs sampled)
+trace-mapping:    encoded Object input x 458 ops/sec ±1.63% (91 runs sampled)
+source-map-js:    encoded Object input x 75.48 ops/sec ±1.64% (67 runs sampled)
+source-map-0.6.1: encoded Object input x 39.37 ops/sec ±1.44% (53 runs sampled)
+Chrome dev tools: encoded Object input x 150 ops/sec ±1.76% (79 runs sampled)
 Fastest is trace-mapping:    decoded Object input
 
 Trace speed (random):
-trace-mapping:    decoded originalPositionFor x 44,946 ops/sec 짹0.16% (99 runs sampled)
-trace-mapping:    encoded originalPositionFor x 37,995 ops/sec 짹1.81% (89 runs sampled)
-source-map-js:    encoded originalPositionFor x 9,230 ops/sec 짹1.36% (93 runs sampled)
-source-map-0.6.1: encoded originalPositionFor x 8,057 ops/sec 짹0.84% (96 runs sampled)
-source-map-0.8.0: encoded originalPositionFor x 28,198 ops/sec 짹1.12% (91 runs sampled)
-Chrome dev tools: encoded originalPositionFor x 46,276 ops/sec 짹1.35% (95 runs sampled)
+trace-mapping:    decoded originalPositionFor x 44,946 ops/sec ±0.16% (99 runs sampled)
+trace-mapping:    encoded originalPositionFor x 37,995 ops/sec ±1.81% (89 runs sampled)
+source-map-js:    encoded originalPositionFor x 9,230 ops/sec ±1.36% (93 runs sampled)
+source-map-0.6.1: encoded originalPositionFor x 8,057 ops/sec ±0.84% (96 runs sampled)
+source-map-0.8.0: encoded originalPositionFor x 28,198 ops/sec ±1.12% (91 runs sampled)
+Chrome dev tools: encoded originalPositionFor x 46,276 ops/sec ±1.35% (95 runs sampled)
 Fastest is Chrome dev tools: encoded originalPositionFor
 
 Trace speed (ascending):
-trace-mapping:    decoded originalPositionFor x 204,406 ops/sec 짹0.19% (97 runs sampled)
-trace-mapping:    encoded originalPositionFor x 196,695 ops/sec 짹0.24% (99 runs sampled)
-source-map-js:    encoded originalPositionFor x 11,948 ops/sec 짹0.94% (99 runs sampled)
-source-map-0.6.1: encoded originalPositionFor x 10,730 ops/sec 짹0.36% (100 runs sampled)
-source-map-0.8.0: encoded originalPositionFor x 51,427 ops/sec 짹0.21% (98 runs sampled)
-Chrome dev tools: encoded originalPositionFor x 162,615 ops/sec 짹0.18% (98 runs sampled)
+trace-mapping:    decoded originalPositionFor x 204,406 ops/sec ±0.19% (97 runs sampled)
+trace-mapping:    encoded originalPositionFor x 196,695 ops/sec ±0.24% (99 runs sampled)
+source-map-js:    encoded originalPositionFor x 11,948 ops/sec ±0.94% (99 runs sampled)
+source-map-0.6.1: encoded originalPositionFor x 10,730 ops/sec ±0.36% (100 runs sampled)
+source-map-0.8.0: encoded originalPositionFor x 51,427 ops/sec ±0.21% (98 runs sampled)
+Chrome dev tools: encoded originalPositionFor x 162,615 ops/sec ±0.18% (98 runs sampled)
 Fastest is trace-mapping:    decoded originalPositionFor
 
 
@@ -3465,31 +3523,31 @@ Chrome dev tools            50721552 bytes
 Smallest memory usage is trace-mapping decoded
 
 Init speed:
-trace-mapping:    decoded JSON input x 17.82 ops/sec 짹6.35% (35 runs sampled)
-trace-mapping:    encoded JSON input x 31.57 ops/sec 짹7.50% (43 runs sampled)
-trace-mapping:    decoded Object input x 867 ops/sec 짹0.74% (94 runs sampled)
-trace-mapping:    encoded Object input x 33.83 ops/sec 짹7.66% (46 runs sampled)
-source-map-js:    encoded Object input x 6.58 ops/sec 짹3.31% (20 runs sampled)
-source-map-0.6.1: encoded Object input x 4.23 ops/sec 짹3.43% (15 runs sampled)
-Chrome dev tools: encoded Object input x 22.14 ops/sec 짹3.79% (41 runs sampled)
+trace-mapping:    decoded JSON input x 17.82 ops/sec ±6.35% (35 runs sampled)
+trace-mapping:    encoded JSON input x 31.57 ops/sec ±7.50% (43 runs sampled)
+trace-mapping:    decoded Object input x 867 ops/sec ±0.74% (94 runs sampled)
+trace-mapping:    encoded Object input x 33.83 ops/sec ±7.66% (46 runs sampled)
+source-map-js:    encoded Object input x 6.58 ops/sec ±3.31% (20 runs sampled)
+source-map-0.6.1: encoded Object input x 4.23 ops/sec ±3.43% (15 runs sampled)
+Chrome dev tools: encoded Object input x 22.14 ops/sec ±3.79% (41 runs sampled)
 Fastest is trace-mapping:    decoded Object input
 
 Trace speed (random):
-trace-mapping:    decoded originalPositionFor x 78,234 ops/sec 짹1.48% (29 runs sampled)
-trace-mapping:    encoded originalPositionFor x 60,761 ops/sec 짹1.35% (21 runs sampled)
-source-map-js:    encoded originalPositionFor x 51,448 ops/sec 짹2.17% (89 runs sampled)
-source-map-0.6.1: encoded originalPositionFor x 47,221 ops/sec 짹1.99% (15 runs sampled)
-source-map-0.8.0: encoded originalPositionFor x 84,002 ops/sec 짹1.45% (27 runs sampled)
-Chrome dev tools: encoded originalPositionFor x 106,457 ops/sec 짹1.38% (37 runs sampled)
+trace-mapping:    decoded originalPositionFor x 78,234 ops/sec ±1.48% (29 runs sampled)
+trace-mapping:    encoded originalPositionFor x 60,761 ops/sec ±1.35% (21 runs sampled)
+source-map-js:    encoded originalPositionFor x 51,448 ops/sec ±2.17% (89 runs sampled)
+source-map-0.6.1: encoded originalPositionFor x 47,221 ops/sec ±1.99% (15 runs sampled)
+source-map-0.8.0: encoded originalPositionFor x 84,002 ops/sec ±1.45% (27 runs sampled)
+Chrome dev tools: encoded originalPositionFor x 106,457 ops/sec ±1.38% (37 runs sampled)
 Fastest is Chrome dev tools: encoded originalPositionFor
 
 Trace speed (ascending):
-trace-mapping:    decoded originalPositionFor x 930,943 ops/sec 짹0.25% (99 runs sampled)
-trace-mapping:    encoded originalPositionFor x 843,545 ops/sec 짹0.34% (97 runs sampled)
-source-map-js:    encoded originalPositionFor x 114,510 ops/sec 짹1.37% (36 runs sampled)
-source-map-0.6.1: encoded originalPositionFor x 87,412 ops/sec 짹0.72% (92 runs sampled)
-source-map-0.8.0: encoded originalPositionFor x 197,709 ops/sec 짹0.89% (59 runs sampled)
-Chrome dev tools: encoded originalPositionFor x 688,983 ops/sec 짹0.33% (98 runs sampled)
+trace-mapping:    decoded originalPositionFor x 930,943 ops/sec ±0.25% (99 runs sampled)
+trace-mapping:    encoded originalPositionFor x 843,545 ops/sec ±0.34% (97 runs sampled)
+source-map-js:    encoded originalPositionFor x 114,510 ops/sec ±1.37% (36 runs sampled)
+source-map-0.6.1: encoded originalPositionFor x 87,412 ops/sec ±0.72% (92 runs sampled)
+source-map-0.8.0: encoded originalPositionFor x 197,709 ops/sec ±0.89% (59 runs sampled)
+Chrome dev tools: encoded originalPositionFor x 688,983 ops/sec ±0.33% (98 runs sampled)
 Fastest is trace-mapping:    decoded originalPositionFor
 
 
@@ -3508,31 +3566,31 @@ Chrome dev tools              709680 bytes
 Smallest memory usage is trace-mapping decoded
 
 Init speed:
-trace-mapping:    decoded JSON input x 3,709 ops/sec 짹0.13% (99 runs sampled)
-trace-mapping:    encoded JSON input x 6,447 ops/sec 짹0.22% (101 runs sampled)
-trace-mapping:    decoded Object input x 83,062 ops/sec 짹0.23% (100 runs sampled)
-trace-mapping:    encoded Object input x 14,980 ops/sec 짹0.28% (100 runs sampled)
-source-map-js:    encoded Object input x 2,544 ops/sec 짹0.16% (99 runs sampled)
-source-map-0.6.1: encoded Object input x 1,221 ops/sec 짹0.37% (97 runs sampled)
-Chrome dev tools: encoded Object input x 4,241 ops/sec 짹0.39% (93 runs sampled)
+trace-mapping:    decoded JSON input x 3,709 ops/sec ±0.13% (99 runs sampled)
+trace-mapping:    encoded JSON input x 6,447 ops/sec ±0.22% (101 runs sampled)
+trace-mapping:    decoded Object input x 83,062 ops/sec ±0.23% (100 runs sampled)
+trace-mapping:    encoded Object input x 14,980 ops/sec ±0.28% (100 runs sampled)
+source-map-js:    encoded Object input x 2,544 ops/sec ±0.16% (99 runs sampled)
+source-map-0.6.1: encoded Object input x 1,221 ops/sec ±0.37% (97 runs sampled)
+Chrome dev tools: encoded Object input x 4,241 ops/sec ±0.39% (93 runs sampled)
 Fastest is trace-mapping:    decoded Object input
 
 Trace speed (random):
-trace-mapping:    decoded originalPositionFor x 91,028 ops/sec 짹0.14% (94 runs sampled)
-trace-mapping:    encoded originalPositionFor x 84,348 ops/sec 짹0.26% (98 runs sampled)
-source-map-js:    encoded originalPositionFor x 26,998 ops/sec 짹0.23% (98 runs sampled)
-source-map-0.6.1: encoded originalPositionFor x 18,049 ops/sec 짹0.26% (100 runs sampled)
-source-map-0.8.0: encoded originalPositionFor x 41,916 ops/sec 짹0.28% (98 runs sampled)
-Chrome dev tools: encoded originalPositionFor x 88,616 ops/sec 짹0.14% (98 runs sampled)
+trace-mapping:    decoded originalPositionFor x 91,028 ops/sec ±0.14% (94 runs sampled)
+trace-mapping:    encoded originalPositionFor x 84,348 ops/sec ±0.26% (98 runs sampled)
+source-map-js:    encoded originalPositionFor x 26,998 ops/sec ±0.23% (98 runs sampled)
+source-map-0.6.1: encoded originalPositionFor x 18,049 ops/sec ±0.26% (100 runs sampled)
+source-map-0.8.0: encoded originalPositionFor x 41,916 ops/sec ±0.28% (98 runs sampled)
+Chrome dev tools: encoded originalPositionFor x 88,616 ops/sec ±0.14% (98 runs sampled)
 Fastest is trace-mapping:    decoded originalPositionFor
 
 Trace speed (ascending):
-trace-mapping:    decoded originalPositionFor x 319,960 ops/sec 짹0.16% (100 runs sampled)
-trace-mapping:    encoded originalPositionFor x 302,153 ops/sec 짹0.18% (100 runs sampled)
-source-map-js:    encoded originalPositionFor x 35,574 ops/sec 짹0.19% (100 runs sampled)
-source-map-0.6.1: encoded originalPositionFor x 19,943 ops/sec 짹0.12% (101 runs sampled)
-source-map-0.8.0: encoded originalPositionFor x 54,648 ops/sec 짹0.20% (99 runs sampled)
-Chrome dev tools: encoded originalPositionFor x 278,319 ops/sec 짹0.17% (102 runs sampled)
+trace-mapping:    decoded originalPositionFor x 319,960 ops/sec ±0.16% (100 runs sampled)
+trace-mapping:    encoded originalPositionFor x 302,153 ops/sec ±0.18% (100 runs sampled)
+source-map-js:    encoded originalPositionFor x 35,574 ops/sec ±0.19% (100 runs sampled)
+source-map-0.6.1: encoded originalPositionFor x 19,943 ops/sec ±0.12% (101 runs sampled)
+source-map-0.8.0: encoded originalPositionFor x 54,648 ops/sec ±0.20% (99 runs sampled)
+Chrome dev tools: encoded originalPositionFor x 278,319 ops/sec ±0.17% (102 runs sampled)
 Fastest is trace-mapping:    decoded originalPositionFor
 
 
@@ -3551,31 +3609,31 @@ Chrome dev tools             1149576 bytes
 Smallest memory usage is trace-mapping decoded
 
 Init speed:
-trace-mapping:    decoded JSON input x 1,887 ops/sec 짹0.28% (99 runs sampled)
-trace-mapping:    encoded JSON input x 4,749 ops/sec 짹0.48% (97 runs sampled)
-trace-mapping:    decoded Object input x 74,236 ops/sec 짹0.11% (99 runs sampled)
-trace-mapping:    encoded Object input x 5,752 ops/sec 짹0.38% (100 runs sampled)
-source-map-js:    encoded Object input x 806 ops/sec 짹0.19% (97 runs sampled)
-source-map-0.6.1: encoded Object input x 418 ops/sec 짹0.33% (94 runs sampled)
-Chrome dev tools: encoded Object input x 1,524 ops/sec 짹0.57% (92 runs sampled)
+trace-mapping:    decoded JSON input x 1,887 ops/sec ±0.28% (99 runs sampled)
+trace-mapping:    encoded JSON input x 4,749 ops/sec ±0.48% (97 runs sampled)
+trace-mapping:    decoded Object input x 74,236 ops/sec ±0.11% (99 runs sampled)
+trace-mapping:    encoded Object input x 5,752 ops/sec ±0.38% (100 runs sampled)
+source-map-js:    encoded Object input x 806 ops/sec ±0.19% (97 runs sampled)
+source-map-0.6.1: encoded Object input x 418 ops/sec ±0.33% (94 runs sampled)
+Chrome dev tools: encoded Object input x 1,524 ops/sec ±0.57% (92 runs sampled)
 Fastest is trace-mapping:    decoded Object input
 
 Trace speed (random):
-trace-mapping:    decoded originalPositionFor x 620,201 ops/sec 짹0.33% (96 runs sampled)
-trace-mapping:    encoded originalPositionFor x 579,548 ops/sec 짹0.35% (97 runs sampled)
-source-map-js:    encoded originalPositionFor x 230,983 ops/sec 짹0.62% (54 runs sampled)
-source-map-0.6.1: encoded originalPositionFor x 158,145 ops/sec 짹0.80% (46 runs sampled)
-source-map-0.8.0: encoded originalPositionFor x 343,801 ops/sec 짹0.55% (96 runs sampled)
-Chrome dev tools: encoded originalPositionFor x 659,649 ops/sec 짹0.49% (98 runs sampled)
+trace-mapping:    decoded originalPositionFor x 620,201 ops/sec ±0.33% (96 runs sampled)
+trace-mapping:    encoded originalPositionFor x 579,548 ops/sec ±0.35% (97 runs sampled)
+source-map-js:    encoded originalPositionFor x 230,983 ops/sec ±0.62% (54 runs sampled)
+source-map-0.6.1: encoded originalPositionFor x 158,145 ops/sec ±0.80% (46 runs sampled)
+source-map-0.8.0: encoded originalPositionFor x 343,801 ops/sec ±0.55% (96 runs sampled)
+Chrome dev tools: encoded originalPositionFor x 659,649 ops/sec ±0.49% (98 runs sampled)
 Fastest is Chrome dev tools: encoded originalPositionFor
 
 Trace speed (ascending):
-trace-mapping:    decoded originalPositionFor x 2,368,079 ops/sec 짹0.32% (98 runs sampled)
-trace-mapping:    encoded originalPositionFor x 2,134,039 ops/sec 짹2.72% (87 runs sampled)
-source-map-js:    encoded originalPositionFor x 290,120 ops/sec 짹2.49% (82 runs sampled)
-source-map-0.6.1: encoded originalPositionFor x 187,613 ops/sec 짹0.86% (49 runs sampled)
-source-map-0.8.0: encoded originalPositionFor x 479,569 ops/sec 짹0.65% (96 runs sampled)
-Chrome dev tools: encoded originalPositionFor x 2,048,414 ops/sec 짹0.24% (98 runs sampled)
+trace-mapping:    decoded originalPositionFor x 2,368,079 ops/sec ±0.32% (98 runs sampled)
+trace-mapping:    encoded originalPositionFor x 2,134,039 ops/sec ±2.72% (87 runs sampled)
+source-map-js:    encoded originalPositionFor x 290,120 ops/sec ±2.49% (82 runs sampled)
+source-map-0.6.1: encoded originalPositionFor x 187,613 ops/sec ±0.86% (49 runs sampled)
+source-map-0.8.0: encoded originalPositionFor x 479,569 ops/sec ±0.65% (96 runs sampled)
+Chrome dev tools: encoded originalPositionFor x 2,048,414 ops/sec ±0.24% (98 runs sampled)
 Fastest is trace-mapping:    decoded originalPositionFor
 
 
@@ -3594,35 +3652,37 @@ Chrome dev tools           291053000 bytes
 Smallest memory usage is trace-mapping decoded
 
 Init speed:
-trace-mapping:    decoded JSON input x 1.63 ops/sec 짹33.88% (9 runs sampled)
-trace-mapping:    encoded JSON input x 3.29 ops/sec 짹36.13% (13 runs sampled)
-trace-mapping:    decoded Object input x 103 ops/sec 짹0.93% (77 runs sampled)
-trace-mapping:    encoded Object input x 5.42 ops/sec 짹28.54% (19 runs sampled)
-source-map-js:    encoded Object input x 1.07 ops/sec 짹13.84% (7 runs sampled)
-source-map-0.6.1: encoded Object input x 0.60 ops/sec 짹2.43% (6 runs sampled)
-Chrome dev tools: encoded Object input x 2.61 ops/sec 짹22.00% (11 runs sampled)
+trace-mapping:    decoded JSON input x 1.63 ops/sec ±33.88% (9 runs sampled)
+trace-mapping:    encoded JSON input x 3.29 ops/sec ±36.13% (13 runs sampled)
+trace-mapping:    decoded Object input x 103 ops/sec ±0.93% (77 runs sampled)
+trace-mapping:    encoded Object input x 5.42 ops/sec ±28.54% (19 runs sampled)
+source-map-js:    encoded Object input x 1.07 ops/sec ±13.84% (7 runs sampled)
+source-map-0.6.1: encoded Object input x 0.60 ops/sec ±2.43% (6 runs sampled)
+Chrome dev tools: encoded Object input x 2.61 ops/sec ±22.00% (11 runs sampled)
 Fastest is trace-mapping:    decoded Object input
 
 Trace speed (random):
-trace-mapping:    decoded originalPositionFor x 257,019 ops/sec 짹0.97% (93 runs sampled)
-trace-mapping:    encoded originalPositionFor x 179,163 ops/sec 짹0.83% (92 runs sampled)
-source-map-js:    encoded originalPositionFor x 73,337 ops/sec 짹1.35% (87 runs sampled)
-source-map-0.6.1: encoded originalPositionFor x 38,797 ops/sec 짹1.66% (88 runs sampled)
-source-map-0.8.0: encoded originalPositionFor x 107,758 ops/sec 짹1.94% (45 runs sampled)
-Chrome dev tools: encoded originalPositionFor x 188,550 ops/sec 짹1.85% (79 runs sampled)
+trace-mapping:    decoded originalPositionFor x 257,019 ops/sec ±0.97% (93 runs sampled)
+trace-mapping:    encoded originalPositionFor x 179,163 ops/sec ±0.83% (92 runs sampled)
+source-map-js:    encoded originalPositionFor x 73,337 ops/sec ±1.35% (87 runs sampled)
+source-map-0.6.1: encoded originalPositionFor x 38,797 ops/sec ±1.66% (88 runs sampled)
+source-map-0.8.0: encoded originalPositionFor x 107,758 ops/sec ±1.94% (45 runs sampled)
+Chrome dev tools: encoded originalPositionFor x 188,550 ops/sec ±1.85% (79 runs sampled)
 Fastest is trace-mapping:    decoded originalPositionFor
 
 Trace speed (ascending):
-trace-mapping:    decoded originalPositionFor x 447,621 ops/sec 짹3.64% (94 runs sampled)
-trace-mapping:    encoded originalPositionFor x 323,698 ops/sec 짹5.20% (88 runs sampled)
-source-map-js:    encoded originalPositionFor x 78,387 ops/sec 짹1.69% (89 runs sampled)
-source-map-0.6.1: encoded originalPositionFor x 41,016 ops/sec 짹3.01% (25 runs sampled)
-source-map-0.8.0: encoded originalPositionFor x 124,204 ops/sec 짹0.90% (92 runs sampled)
-Chrome dev tools: encoded originalPositionFor x 230,087 ops/sec 짹2.61% (93 runs sampled)
+trace-mapping:    decoded originalPositionFor x 447,621 ops/sec ±3.64% (94 runs sampled)
+trace-mapping:    encoded originalPositionFor x 323,698 ops/sec ±5.20% (88 runs sampled)
+source-map-js:    encoded originalPositionFor x 78,387 ops/sec ±1.69% (89 runs sampled)
+source-map-0.6.1: encoded originalPositionFor x 41,016 ops/sec ±3.01% (25 runs sampled)
+source-map-0.8.0: encoded originalPositionFor x 124,204 ops/sec ±0.90% (92 runs sampled)
+Chrome dev tools: encoded originalPositionFor x 230,087 ops/sec ±2.61% (93 runs sampled)
 Fastest is trace-mapping:    decoded originalPositionFor
 ```
 
 [source-map]: https://www.npmjs.com/package/source-map
+
+
 
 ---
 
@@ -3653,7 +3713,7 @@ npm install @nodelib/fs.scandir
 ```ts
 import * as fsScandir from '@nodelib/fs.scandir';
 
-fsScandir.scandir('path', (error, stats) => { /* ??*/ });
+fsScandir.scandir('path', (error, stats) => { /* … */ });
 ```
 
 ## API
@@ -3663,9 +3723,9 @@ fsScandir.scandir('path', (error, stats) => { /* ??*/ });
 Returns an array of plain objects ([`Entry`](#entry)) with information about entry for provided path with standard callback-style.
 
 ```ts
-fsScandir.scandir('path', (error, entries) => { /* ??*/ });
-fsScandir.scandir('path', {}, (error, entries) => { /* ??*/ });
-fsScandir.scandir('path', new fsScandir.Settings(), (error, entries) => { /* ??*/ });
+fsScandir.scandir('path', (error, entries) => { /* … */ });
+fsScandir.scandir('path', {}, (error, entries) => { /* … */ });
+fsScandir.scandir('path', new fsScandir.Settings(), (error, entries) => { /* … */ });
 ```
 
 ### .scandirSync(path, [optionsOrSettings])
@@ -3707,16 +3767,16 @@ const entries = fsScandir.scandirSync('path', settings);
 
 ## Entry
 
-* `name` ??The name of the entry (`unknown.txt`).
-* `path` ??The path of the entry relative to call directory (`root/unknown.txt`).
-* `dirent` ??An instance of [`fs.Dirent`](./src/types/index.ts) class. On Node.js below 10.10 will be emulated by [`DirentFromStats`](./src/utils/fs.ts) class.
-* `stats` (optional) ??An instance of `fs.Stats` class.
+* `name` — The name of the entry (`unknown.txt`).
+* `path` — The path of the entry relative to call directory (`root/unknown.txt`).
+* `dirent` — An instance of [`fs.Dirent`](./src/types/index.ts) class. On Node.js below 10.10 will be emulated by [`DirentFromStats`](./src/utils/fs.ts) class.
+* `stats` (optional) — An instance of `fs.Stats` class.
 
 For example, the `scandir` call for `tools` directory with one directory inside:
 
 ```ts
 {
-	dirent: Dirent { name: 'typedoc', /* ??*/ },
+	dirent: Dirent { name: 'typedoc', /* … */ },
 	name: 'typedoc',
 	path: 'tools/typedoc'
 }
@@ -3802,6 +3862,8 @@ See the [Releases section of our GitHub project](https://github.com/nodelib/node
 
 This software is released under the terms of the MIT license.
 
+
+
 ---
 
 # 파일 출처: .\node_modules\@nodelib\fs.stat\README.md
@@ -3830,7 +3892,7 @@ npm install @nodelib/fs.stat
 ```ts
 import * as fsStat from '@nodelib/fs.stat';
 
-fsStat.stat('path', (error, stats) => { /* ??*/ });
+fsStat.stat('path', (error, stats) => { /* … */ });
 ```
 
 ## API
@@ -3840,9 +3902,9 @@ fsStat.stat('path', (error, stats) => { /* ??*/ });
 Returns an instance of `fs.Stats` class for provided path with standard callback-style.
 
 ```ts
-fsStat.stat('path', (error, stats) => { /* ??*/ });
-fsStat.stat('path', {}, (error, stats) => { /* ??*/ });
-fsStat.stat('path', new fsStat.Settings(), (error, stats) => { /* ??*/ });
+fsStat.stat('path', (error, stats) => { /* … */ });
+fsStat.stat('path', {}, (error, stats) => { /* … */ });
+fsStat.stat('path', new fsStat.Settings(), (error, stats) => { /* … */ });
 ```
 
 ### .statSync(path, [optionsOrSettings])
@@ -3935,6 +3997,8 @@ See the [Releases section of our GitHub project](https://github.com/nodelib/node
 
 This software is released under the terms of the MIT license.
 
+
+
 ---
 
 # 파일 출처: .\node_modules\@nodelib\fs.walk\README.md
@@ -3963,7 +4027,7 @@ npm install @nodelib/fs.walk
 ```ts
 import * as fsWalk from '@nodelib/fs.walk';
 
-fsWalk.walk('path', (error, entries) => { /* ??*/ });
+fsWalk.walk('path', (error, entries) => { /* … */ });
 ```
 
 ## API
@@ -3975,9 +4039,9 @@ Reads the directory recursively and asynchronously. Requires a callback function
 > :book: If you want to use the Promise API, use `util.promisify`.
 
 ```ts
-fsWalk.walk('path', (error, entries) => { /* ??*/ });
-fsWalk.walk('path', {}, (error, entries) => { /* ??*/ });
-fsWalk.walk('path', new fsWalk.Settings(), (error, entries) => { /* ??*/ });
+fsWalk.walk('path', (error, entries) => { /* … */ });
+fsWalk.walk('path', {}, (error, entries) => { /* … */ });
+fsWalk.walk('path', new fsWalk.Settings(), (error, entries) => { /* … */ });
 ```
 
 ### .walkStream(path, [optionsOrSettings])
@@ -4029,10 +4093,10 @@ const entries = fsWalk.walkSync('path', settings);
 
 ## Entry
 
-* `name` ??The name of the entry (`unknown.txt`).
-* `path` ??The path of the entry relative to call directory (`root/unknown.txt`).
-* `dirent` ??An instance of [`fs.Dirent`](./src/types/index.ts) class.
-* [`stats`] ??An instance of `fs.Stats` class.
+* `name` — The name of the entry (`unknown.txt`).
+* `path` — The path of the entry relative to call directory (`root/unknown.txt`).
+* `dirent` — An instance of [`fs.Dirent`](./src/types/index.ts) class.
+* [`stats`] — An instance of `fs.Stats` class.
 
 ## Options
 
@@ -4046,8 +4110,8 @@ By default, all paths are built relative to the root path. You can use this opti
 In the example below we read the files from the `root` directory, but in the results the root path will be `custom`.
 
 ```ts
-fsWalk.walkSync('root'); // ??['root/file.txt']
-fsWalk.walkSync('root', { basePath: 'custom' }); // ??['custom/file.txt']
+fsWalk.walkSync('root'); // → ['root/file.txt']
+fsWalk.walkSync('root', { basePath: 'custom' }); // → ['custom/file.txt']
 ```
 
 ### concurrency
@@ -4157,6 +4221,8 @@ See the [Releases section of our GitHub project](https://github.com/nodelib/node
 
 This software is released under the terms of the MIT license.
 
+
+
 ---
 
 # 파일 출처: .\node_modules\@rollup\rollup-win32-x64-gnu\README.md
@@ -4167,6 +4233,8 @@ This software is released under the terms of the MIT license.
 
 This is the **x86_64-pc-windows-gnu** binary for `rollup`
 
+
+
 ---
 
 # 파일 출처: .\node_modules\@rollup\rollup-win32-x64-msvc\README.md
@@ -4176,6 +4244,8 @@ This is the **x86_64-pc-windows-gnu** binary for `rollup`
 # `@rollup/rollup-win32-x64-msvc`
 
 This is the **x86_64-pc-windows-msvc** binary for `rollup`
+
+
 
 ---
 
@@ -4199,6 +4269,8 @@ Files were exported from https://github.com/DefinitelyTyped/DefinitelyTyped/tree
 # Credits
 These definitions were written by [Troy Gerwien](https://github.com/yortus), [Marvin Hagemeister](https://github.com/marvinhagemeister), [Melvin Groenhoff](https://github.com/mgroenhoff), [Jessica Franco](https://github.com/Jessidhia), and [Ifiok Jr.](https://github.com/ifiokjr).
 
+
+
 ---
 
 # 파일 출처: .\node_modules\@types\babel__generator\README.md
@@ -4220,6 +4292,8 @@ Files were exported from https://github.com/DefinitelyTyped/DefinitelyTyped/tree
 
 # Credits
 These definitions were written by [Troy Gerwien](https://github.com/yortus), [Melvin Groenhoff](https://github.com/mgroenhoff), [Cameron Yan](https://github.com/khell), and [Lyanbin](https://github.com/Lyanbin).
+
+
 
 ---
 
@@ -4243,6 +4317,8 @@ Files were exported from https://github.com/DefinitelyTyped/DefinitelyTyped/tree
 # Credits
 These definitions were written by [Troy Gerwien](https://github.com/yortus), [Marvin Hagemeister](https://github.com/marvinhagemeister), [Melvin Groenhoff](https://github.com/mgroenhoff), and [ExE Boss](https://github.com/ExE-Boss).
 
+
+
 ---
 
 # 파일 출처: .\node_modules\@types\babel__traverse\README.md
@@ -4265,6 +4341,8 @@ Files were exported from https://github.com/DefinitelyTyped/DefinitelyTyped/tree
 # Credits
 These definitions were written by [Troy Gerwien](https://github.com/yortus), [Marvin Hagemeister](https://github.com/marvinhagemeister), [Ryan Petrich](https://github.com/rpetrich), [Melvin Groenhoff](https://github.com/mgroenhoff), [Dean L.](https://github.com/dlgrit), [Ifiok Jr.](https://github.com/ifiokjr), [ExE Boss](https://github.com/ExE-Boss), and [Daniel Tschinder](https://github.com/danez).
 
+
+
 ---
 
 # 파일 출처: .\node_modules\@types\estree\README.md
@@ -4286,6 +4364,8 @@ Files were exported from https://github.com/DefinitelyTyped/DefinitelyTyped/tree
 
 # Credits
 These definitions were written by [RReverser](https://github.com/RReverser).
+
+
 
 ---
 
@@ -4435,6 +4515,8 @@ For React refresh to work correctly, your file should only export React componen
 If an incompatible change in exports is found, the module will be invalidated and HMR will propagate. To make it easier to export simple constants alongside your component, the module is only invalidated when their value changes.
 
 You can catch mistakes and get more detailed warning with this [eslint rule](https://github.com/ArnaudBarre/eslint-plugin-react-refresh).
+
+
 
 ---
 
@@ -4604,6 +4686,8 @@ This auto-discovery is only available for Node.jS versions prior to `v0.12`. Any
 - [any-observable](https://github.com/sindresorhus/any-observable) - `any-promise` for Observables.
 
 
+
+
 ---
 
 # 파일 출처: .\node_modules\anymatch\README.md
@@ -4666,7 +4750,8 @@ anymatch('**/node_modules/**', '/absolute/path/to/node_modules/somelib/index.js'
 
 const matcher = anymatch(matchers);
 ['foo.js', 'bar.js'].filter(matcher);  // [ 'foo.js' ]
-anymatch master* ??
+anymatch master* ❯
+
 ```
 
 #### anymatch(matchers)
@@ -4697,6 +4782,8 @@ License
 -------
 [ISC](https://raw.github.com/micromatch/anymatch/master/LICENSE)
 
+
+
 ---
 
 # 파일 출처: .\node_modules\arg\LICENSE.md
@@ -4724,6 +4811,8 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+
 
 ---
 
@@ -5049,6 +5138,8 @@ if (!args['--name']) throw new Error('missing required argument: --name');
 
 Released under the [MIT License](LICENSE.md).
 
+
+
 ---
 
 # 파일 출처: .\node_modules\autoprefixer\README.md
@@ -5061,10 +5152,10 @@ Released under the [MIT License](LICENSE.md).
      src="https://postcss.github.io/autoprefixer/logo.svg"
      title="Autoprefixer logo by Anton Lovchikov">
 
-[PostCSS] plugin to parse CSS and add vendor prefixes to CSS rules using혻values
-from혻[Can I Use]. It혻is혻recommended by Google and used in Twitter and Alibaba.
+[PostCSS] plugin to parse CSS and add vendor prefixes to CSS rules using values
+from [Can I Use]. It is recommended by Google and used in Twitter and Alibaba.
 
-Write your CSS rules without vendor prefixes (in혻fact, forget about them
+Write your CSS rules without vendor prefixes (in fact, forget about them
 entirely):
 
 ```css
@@ -5078,7 +5169,7 @@ entirely):
 ```
 
 Autoprefixer will use the data based on current browser popularity and property
-support to혻apply prefixes for혻you. You혻can혻try혻the [interactive demo]
+support to apply prefixes for you. You can try the [interactive demo]
 of Autoprefixer.
 
 ```css
@@ -5111,6 +5202,8 @@ Twitter account for news and releases: [@autoprefixer].
 
 ## Docs
 Read full docs **[here](https://github.com/postcss/autoprefixer#readme)**.
+
+
 
 ---
 
@@ -5586,6 +5679,8 @@ KaiOS is an exception - its upstream version mappings are handled separately fro
 > [!NOTE]
 > All the non-core browsers currently included implement Chromium or Gecko. Their inclusion in any of the above methods is based on the Baseline feature set supported by the Chromium or Gecko version they implement, not their release date.
 
+
+
 ---
 
 # 파일 출처: .\node_modules\binary-extensions\readme.md
@@ -5610,13 +5705,15 @@ npm install binary-extensions
 const binaryExtensions = require('binary-extensions');
 
 console.log(binaryExtensions);
-//=> ['3ds', '3g2', ??
+//=> ['3ds', '3g2', …]
 ```
 
 ## Related
 
 - [is-binary-path](https://github.com/sindresorhus/is-binary-path) - Check if a filepath is a binary file
 - [text-extensions](https://github.com/sindresorhus/text-extensions) - List of text file extensions
+
+
 
 ---
 
@@ -6072,23 +6169,23 @@ Minimatch gets exponentially slower as patterns increase in complexity, braces d
 
 | **Pattern**                 | **braces**          | **[minimatch][]**            |
 | --------------------------- | ------------------- | ---------------------------- |
-| `{1..9007199254740991}`[^1] | `298 B` (5ms 459關s) | N/A (freezes)                |
-| `{1..1000000000000000}`     | `41 B` (1ms 15關s)   | N/A (freezes)                |
-| `{1..100000000000000}`      | `40 B` (890關s)      | N/A (freezes)                |
-| `{1..10000000000000}`       | `39 B` (2ms 49關s)   | N/A (freezes)                |
-| `{1..1000000000000}`        | `38 B` (608關s)      | N/A (freezes)                |
-| `{1..100000000000}`         | `37 B` (397關s)      | N/A (freezes)                |
-| `{1..10000000000}`          | `35 B` (983關s)      | N/A (freezes)                |
-| `{1..1000000000}`           | `34 B` (798關s)      | N/A (freezes)                |
-| `{1..100000000}`            | `33 B` (733關s)      | N/A (freezes)                |
-| `{1..10000000}`             | `32 B` (5ms 632關s)  | `78.89 MB` (16s 388ms 569關s) |
-| `{1..1000000}`              | `31 B` (1ms 381關s)  | `6.89 MB` (1s 496ms 887關s)   |
-| `{1..100000}`               | `30 B` (950關s)      | `588.89 kB` (146ms 921關s)    |
-| `{1..10000}`                | `29 B` (1ms 114關s)  | `48.89 kB` (14ms 187關s)      |
-| `{1..1000}`                 | `28 B` (760關s)      | `3.89 kB` (1ms 453關s)        |
-| `{1..100}`                  | `22 B` (345關s)      | `291 B` (196關s)              |
-| `{1..10}`                   | `10 B` (533關s)      | `20 B` (37關s)                |
-| `{1..3}`                    | `7 B` (190關s)       | `5 B` (27關s)                 |
+| `{1..9007199254740991}`[^1] | `298 B` (5ms 459μs) | N/A (freezes)                |
+| `{1..1000000000000000}`     | `41 B` (1ms 15μs)   | N/A (freezes)                |
+| `{1..100000000000000}`      | `40 B` (890μs)      | N/A (freezes)                |
+| `{1..10000000000000}`       | `39 B` (2ms 49μs)   | N/A (freezes)                |
+| `{1..1000000000000}`        | `38 B` (608μs)      | N/A (freezes)                |
+| `{1..100000000000}`         | `37 B` (397μs)      | N/A (freezes)                |
+| `{1..10000000000}`          | `35 B` (983μs)      | N/A (freezes)                |
+| `{1..1000000000}`           | `34 B` (798μs)      | N/A (freezes)                |
+| `{1..100000000}`            | `33 B` (733μs)      | N/A (freezes)                |
+| `{1..10000000}`             | `32 B` (5ms 632μs)  | `78.89 MB` (16s 388ms 569μs) |
+| `{1..1000000}`              | `31 B` (1ms 381μs)  | `6.89 MB` (1s 496ms 887μs)   |
+| `{1..100000}`               | `30 B` (950μs)      | `588.89 kB` (146ms 921μs)    |
+| `{1..10000}`                | `29 B` (1ms 114μs)  | `48.89 kB` (14ms 187μs)      |
+| `{1..1000}`                 | `28 B` (760μs)      | `3.89 kB` (1ms 453μs)        |
+| `{1..100}`                  | `22 B` (345μs)      | `291 B` (196μs)              |
+| `{1..10}`                   | `10 B` (533μs)      | `20 B` (37μs)                |
+| `{1..3}`                    | `7 B` (190μs)       | `5 B` (27μs)                 |
 
 ### Faster algorithms
 
@@ -6098,14 +6195,14 @@ _(the following results were generated using `braces.expand()` and `minimatch.br
 
 | **Pattern**     | **braces**                  | **[minimatch][]**            |
 | --------------- | --------------------------- | ---------------------------- |
-| `{1..10000000}` | `78.89 MB` (2s 698ms 642關s) | `78.89 MB` (18s 601ms 974關s) |
-| `{1..1000000}`  | `6.89 MB` (458ms 576關s)     | `6.89 MB` (1s 491ms 621關s)   |
-| `{1..100000}`   | `588.89 kB` (20ms 728關s)    | `588.89 kB` (156ms 919關s)    |
-| `{1..10000}`    | `48.89 kB` (2ms 202關s)      | `48.89 kB` (13ms 641關s)      |
-| `{1..1000}`     | `3.89 kB` (1ms 796關s)       | `3.89 kB` (1ms 958關s)        |
-| `{1..100}`      | `291 B` (424關s)             | `291 B` (211關s)              |
-| `{1..10}`       | `20 B` (487關s)              | `20 B` (72關s)                |
-| `{1..3}`        | `5 B` (166關s)               | `5 B` (27關s)                 |
+| `{1..10000000}` | `78.89 MB` (2s 698ms 642μs) | `78.89 MB` (18s 601ms 974μs) |
+| `{1..1000000}`  | `6.89 MB` (458ms 576μs)     | `6.89 MB` (1s 491ms 621μs)   |
+| `{1..100000}`   | `588.89 kB` (20ms 728μs)    | `588.89 kB` (156ms 919μs)    |
+| `{1..10000}`    | `48.89 kB` (2ms 202μs)      | `48.89 kB` (13ms 641μs)      |
+| `{1..1000}`     | `3.89 kB` (1ms 796μs)       | `3.89 kB` (1ms 958μs)        |
+| `{1..100}`      | `291 B` (424μs)             | `291 B` (211μs)              |
+| `{1..10}`       | `20 B` (487μs)              | `20 B` (72μs)                |
+| `{1..3}`        | `5 B` (166μs)               | `5 B` (27μs)                 |
 
 If you'd like to run these comparisons yourself, see [test/support/generate.js](test/support/generate.js).
 
@@ -6124,30 +6221,30 @@ npm i -d && npm benchmark
 Braces is more accurate, without sacrificing performance.
 
 ```bash
-??expand - range (expanded)
-     braces x 53,167 ops/sec 짹0.12% (102 runs sampled)
-  minimatch x 11,378 ops/sec 짹0.10% (102 runs sampled)
-??expand - range (optimized for regex)
-     braces x 373,442 ops/sec 짹0.04% (100 runs sampled)
-  minimatch x 3,262 ops/sec 짹0.18% (100 runs sampled)
-??expand - nested ranges (expanded)
-     braces x 33,921 ops/sec 짹0.09% (99 runs sampled)
-  minimatch x 10,855 ops/sec 짹0.28% (100 runs sampled)
-??expand - nested ranges (optimized for regex)
-     braces x 287,479 ops/sec 짹0.52% (98 runs sampled)
-  minimatch x 3,219 ops/sec 짹0.28% (101 runs sampled)
-??expand - set (expanded)
-     braces x 238,243 ops/sec 짹0.19% (97 runs sampled)
-  minimatch x 538,268 ops/sec 짹0.31% (96 runs sampled)
-??expand - set (optimized for regex)
-     braces x 321,844 ops/sec 짹0.10% (97 runs sampled)
-  minimatch x 140,600 ops/sec 짹0.15% (100 runs sampled)
-??expand - nested sets (expanded)
-     braces x 165,371 ops/sec 짹0.42% (96 runs sampled)
-  minimatch x 337,720 ops/sec 짹0.28% (100 runs sampled)
-??expand - nested sets (optimized for regex)
-     braces x 242,948 ops/sec 짹0.12% (99 runs sampled)
-  minimatch x 87,403 ops/sec 짹0.79% (96 runs sampled)
+● expand - range (expanded)
+     braces x 53,167 ops/sec ±0.12% (102 runs sampled)
+  minimatch x 11,378 ops/sec ±0.10% (102 runs sampled)
+● expand - range (optimized for regex)
+     braces x 373,442 ops/sec ±0.04% (100 runs sampled)
+  minimatch x 3,262 ops/sec ±0.18% (100 runs sampled)
+● expand - nested ranges (expanded)
+     braces x 33,921 ops/sec ±0.09% (99 runs sampled)
+  minimatch x 10,855 ops/sec ±0.28% (100 runs sampled)
+● expand - nested ranges (optimized for regex)
+     braces x 287,479 ops/sec ±0.52% (98 runs sampled)
+  minimatch x 3,219 ops/sec ±0.28% (101 runs sampled)
+● expand - set (expanded)
+     braces x 238,243 ops/sec ±0.19% (97 runs sampled)
+  minimatch x 538,268 ops/sec ±0.31% (96 runs sampled)
+● expand - set (optimized for regex)
+     braces x 321,844 ops/sec ±0.10% (97 runs sampled)
+  minimatch x 140,600 ops/sec ±0.15% (100 runs sampled)
+● expand - nested sets (expanded)
+     braces x 165,371 ops/sec ±0.42% (96 runs sampled)
+  minimatch x 337,720 ops/sec ±0.28% (100 runs sampled)
+● expand - nested sets (optimized for regex)
+     braces x 242,948 ops/sec ±0.12% (99 runs sampled)
+  minimatch x 87,403 ops/sec ±0.79% (96 runs sampled)
 ```
 
 ## About
@@ -6204,12 +6301,14 @@ $ npm install -g verbose/verb#dev verb-generate-readme && verb
 
 ### License
 
-Copyright 짤 2019, [Jon Schlinkert](https://github.com/jonschlinkert).
+Copyright © 2019, [Jon Schlinkert](https://github.com/jonschlinkert).
 Released under the [MIT License](LICENSE).
 
 ---
 
 _This file was generated by [verb-generate-readme](https://github.com/verbose/verb-generate-readme), v0.8.0, on April 08, 2019._
+
+
 
 ---
 
@@ -6234,7 +6333,7 @@ front-end tools. It is used in:
 - [obsolete-webpack-plugin]
 
 All tools will find target browsers automatically,
-when혻you혻add혻the혻following to `package.json`:
+when you add the following to `package.json`:
 
 ```json
   "browserslist": [
@@ -6254,7 +6353,7 @@ maintained node versions
 
 Developers set their version lists using queries like `last 2 versions`
 to be free from updating versions manually.
-Browserslist혻will혻use [`caniuse-lite`] with혻[Can I Use] data for this queries.
+Browserslist will use [`caniuse-lite`] with [Can I Use] data for this queries.
 
 You can check how config works at our playground: [`browsersl.ist`](https://browsersl.ist/)
 
@@ -6265,7 +6364,7 @@ You can check how config works at our playground: [`browsersl.ist`](https://brow
 <br>
 <br>
 <div align="center">
-  <a href="https://evilmartians.com/?utm_source=browserslist"><img src="https://evilmartians.com/badges/sponsored-by-evil-martians.svg" alt="Sponsored by Evil Martians" width="236" height="54"></a>혻혻<a href="https://cube.dev/?ref=eco-browserslist-github"><img src="https://user-images.githubusercontent.com/986756/154330861-d79ab8ec-aacb-4af8-9e17-1b28f1eccb01.svg" alt="Supported by Cube" width="227" height="46"></a>
+  <a href="https://evilmartians.com/?utm_source=browserslist"><img src="https://evilmartians.com/badges/sponsored-by-evil-martians.svg" alt="Sponsored by Evil Martians" width="236" height="54"></a>  <a href="https://cube.dev/?ref=eco-browserslist-github"><img src="https://user-images.githubusercontent.com/986756/154330861-d79ab8ec-aacb-4af8-9e17-1b28f1eccb01.svg" alt="Supported by Cube" width="227" height="46"></a>
 </div>
 
 [stylelint-no-unsupported-browser-features]: https://github.com/ismay/stylelint-no-unsupported-browser-features
@@ -6281,6 +6380,8 @@ You can check how config works at our playground: [`browsersl.ist`](https://brow
 
 ## Docs
 Read full docs **[here](https://github.com/browserslist/browserslist#readme)**.
+
+
 
 ---
 
@@ -6316,6 +6417,8 @@ camelCaseCSS('border-radius');          //-> borderRadius
 [travis-image]: https://img.shields.io/travis/stevenvachon/camelcase-css.svg
 [travis-url]: https://travis-ci.org/stevenvachon/camelcase-css
 
+
+
 ---
 
 # 파일 출처: .\node_modules\caniuse-lite\README.md
@@ -6328,6 +6431,8 @@ A smaller version of caniuse-db, with only the essentials!
 
 ## Docs
 Read full docs **[here](https://github.com/browserslist/caniuse-lite#readme)**.
+
+
 
 ---
 
@@ -6359,7 +6464,7 @@ Read full docs **[here](https://github.com/browserslist/caniuse-lite#readme)**.
 ## [5.0.0](https://github.com/gulpjs/glob-parent/compare/v4.0.0...v5.0.0) (2021-01-27)
 
 
-### ??BREAKING CHANGES
+### ⚠ BREAKING CHANGES
 
 * Drop support for node <6 & bump dependencies
 
@@ -6370,7 +6475,7 @@ Read full docs **[here](https://github.com/browserslist/caniuse-lite#readme)**.
 ## [4.0.0](https://github.com/gulpjs/glob-parent/compare/v3.1.0...v4.0.0) (2021-01-27)
 
 
-### ??BREAKING CHANGES
+### ⚠ BREAKING CHANGES
 
 * question marks are valid path characters on Windows so avoid flagging as a glob when alone
 * Update is-glob dependency
@@ -6412,7 +6517,7 @@ Read full docs **[here](https://github.com/browserslist/caniuse-lite#readme)**.
 ## [3.0.0](https://github.com/gulpjs/glob-parent/compare/v2.0.0...v3.0.0) (2021-01-27)
 
 
-### ??BREAKING CHANGES
+### ⚠ BREAKING CHANGES
 
 * update is-glob dependency
 
@@ -6444,6 +6549,8 @@ Read full docs **[here](https://github.com/browserslist/caniuse-lite#readme)**.
 * make regex test strings smaller ([cd83220](https://github.com/gulpjs/glob-parent/commit/cd832208638f45169f986d80fcf66e401f35d233))
 
 ## 1.0.0 (2021-01-27)
+
+
 
 
 ---
@@ -6589,6 +6696,8 @@ ISC
 
 [gitter-url]: https://gitter.im/gulpjs/gulp
 [gitter-image]: https://badges.gitter.im/gulpjs/gulp.svg
+
+
 
 ---
 
@@ -6751,7 +6860,8 @@ chokidar.watch('file', {
 * `paths` (string or array of strings). Paths to files, dirs to be watched
 recursively, or glob patterns.
     - Note: globs must not contain windows separators (`\`),
-    because that's how they work by the standard ??    you'll need to replace them with forward slashes (`/`).
+    because that's how they work by the standard —
+    you'll need to replace them with forward slashes (`/`).
     - Note 2: for additional glob documentation, check out low-level
     library: [picomatch](https://github.com/micromatch/picomatch).
 * `options` (object) Options object as defined below:
@@ -6898,11 +7008,13 @@ For more detailed changelog, see [`full_changelog.md`](.github/full_changelog.md
 
 Why was chokidar named this way? What's the meaning behind it?
 
->Chowkidar is a transliteration of a Hindi word meaning 'watchman, gatekeeper', 西싟쪒西뺖?西╆ㅎ西? This ultimately comes from Sanskrit _ 西싟ㄴ誓곟ㅇ誓띭쨻_ (crossway, quadrangle, consisting-of-four). This word is also used in other languages like Urdu as (??沕?膜碼邈) which is widely used in Pakistan and India. 
+>Chowkidar is a transliteration of a Hindi word meaning 'watchman, gatekeeper', चौकीदार. This ultimately comes from Sanskrit _ चतुष्क_ (crossway, quadrangle, consisting-of-four). This word is also used in other languages like Urdu as (چوکیدار) which is widely used in Pakistan and India. 
 
 ## License
 
 MIT (c) Paul Miller (<https://paulmillr.com>), see [LICENSE](LICENSE) file.
+
+
 
 ---
 
@@ -6957,14 +7069,14 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Added
 
 * automatically wrap and indent help descriptions for options and commands ([#1051])
-* `.exitOverride()`혻allows혻override혻of혻calls혻to혻`process.exit`혻for혻additional혻error혻handling혻and혻to혻keep혻program혻running혻([#1040])
+* `.exitOverride()` allows override of calls to `process.exit` for additional error handling and to keep program running ([#1040])
 * support for declaring required options with `.requiredOptions()` ([#1071])
 * GitHub Actions support ([#1027])
 * translation links in README
 
 ### Changed
 
-* dev: switch혻tests from혻Sinon+Should혻to혻Jest혻with major rewrite of tests혻([#1035])
+* dev: switch tests from Sinon+Should to Jest with major rewrite of tests ([#1035])
 * call default subcommand even when there are unknown options ([#1047])
 * *Breaking* Commander is only officially supported on Node 8 and above, and requires Node 6 ([#1053])
 
@@ -7272,7 +7384,7 @@ program
 * added `Command.prototype.name` to retrieve command name. Closes #264 #266 @tonylukasavage
 * added `Command.prototype.opts` to retrieve all the options as a simple object of key-value pairs. Closes #262 @tonylukasavage
 * fixed a bug on subcommand name. Closes #248 @jonathandelgado
-* fixed function normalize doesn?셳 honor option terminator. Closes #216 @abbr
+* fixed function normalize doesn’t honor option terminator. Closes #216 @abbr
 
 ## 2.3.0 / 2014-07-16
 
@@ -7320,20 +7432,20 @@ program
 [#1027]: https://github.com/tj/commander.js/pull/1027
 [#1028]: https://github.com/tj/commander.js/pull/1028
 [#1035]: https://github.com/tj/commander.js/pull/1035
-[#1040]:혻https://github.com/tj/commander.js/pull/1040
-[#1047]:혻https://github.com/tj/commander.js/pull/1047
-[#1048]:혻https://github.com/tj/commander.js/pull/1048
-[#1049]:혻https://github.com/tj/commander.js/pull/1049
-[#1051]:혻https://github.com/tj/commander.js/pull/1051
-[#1052]:혻https://github.com/tj/commander.js/pull/1052
-[#1053]:혻https://github.com/tj/commander.js/pull/1053
-[#1071]:혻https://github.com/tj/commander.js/pull/1071
-[#1081]:혻https://github.com/tj/commander.js/pull/1081
-[#1091]:혻https://github.com/tj/commander.js/pull/1091
-[#1096]:혻https://github.com/tj/commander.js/pull/1096
-[#1102]:혻https://github.com/tj/commander.js/pull/1102
-[#1118]:혻https://github.com/tj/commander.js/pull/1118
-[#1157]:혻https://github.com/tj/commander.js/pull/1157
+[#1040]: https://github.com/tj/commander.js/pull/1040
+[#1047]: https://github.com/tj/commander.js/pull/1047
+[#1048]: https://github.com/tj/commander.js/pull/1048
+[#1049]: https://github.com/tj/commander.js/pull/1049
+[#1051]: https://github.com/tj/commander.js/pull/1051
+[#1052]: https://github.com/tj/commander.js/pull/1052
+[#1053]: https://github.com/tj/commander.js/pull/1053
+[#1071]: https://github.com/tj/commander.js/pull/1071
+[#1081]: https://github.com/tj/commander.js/pull/1081
+[#1091]: https://github.com/tj/commander.js/pull/1091
+[#1096]: https://github.com/tj/commander.js/pull/1096
+[#1102]: https://github.com/tj/commander.js/pull/1102
+[#1118]: https://github.com/tj/commander.js/pull/1118
+[#1157]: https://github.com/tj/commander.js/pull/1157
 
 [Unreleased]: https://github.com/tj/commander.js/compare/master...develop
 [4.1.1]: https://github.com/tj/commander.js/compare/v4.0.0..v4.1.1
@@ -7346,6 +7458,8 @@ program
 [3.0.1]: https://github.com/tj/commander.js/compare/v3.0.0...v3.0.1
 [3.0.0]: https://github.com/tj/commander.js/compare/v2.20.1...v3.0.0
 [2.20.1]: https://github.com/tj/commander.js/compare/v2.20.0...v2.20.1
+
+
 
 ---
 
@@ -7362,7 +7476,7 @@ program
 
 The complete solution for [node.js](http://nodejs.org) command-line interfaces, inspired by Ruby's [commander](https://github.com/commander-rb/commander).
 
-Read this in other languages: English | [嶸鵝볞릎??(./Readme_zh-CN.md)
+Read this in other languages: English | [简体中文](./Readme_zh-CN.md)
 
 - [Commander.js](#commanderjs)
   - [Installation](#installation)
@@ -8067,6 +8181,8 @@ Available as part of the Tidelift Subscription
 
 The maintainers of Commander and thousands of other packages are working with Tidelift to deliver commercial support and maintenance for the open source dependencies you use to build your applications. Save time, reduce risk, and improve code health, while paying the maintainers of the exact dependencies you use. [Learn more.](https://tidelift.com/subscription/pkg/npm-commander?utm_source=npm-commander&utm_medium=referral&utm_campaign=enterprise&utm_term=repo)
 
+
+
 ---
 
 # 파일 출처: .\node_modules\convert-source-map\README.md
@@ -8280,6 +8396,8 @@ When `options.multiline == true`, the comment is formatted like: `/*# sourceMapp
 [ci-url]: https://github.com/thlorenz/convert-source-map/actions?query=workflow:ci
 [ci-image]: https://img.shields.io/github/workflow/status/thlorenz/convert-source-map/CI?style=flat-square
 
+
+
 ---
 
 # 파일 출처: .\node_modules\cssesc\README.md
@@ -8290,7 +8408,7 @@ When `options.multiline == true`, the comment is formatted like: `/*# sourceMapp
 
 A JavaScript library for escaping CSS strings and identifiers while generating the shortest possible ASCII-only output.
 
-This is a JavaScript library for [escaping text for use in CSS strings or identifiers](https://mathiasbynens.be/notes/css-escapes) while generating the shortest possible valid ASCII-only output. [Here?셲 an online demo.](https://mothereff.in/css-escapes)
+This is a JavaScript library for [escaping text for use in CSS strings or identifiers](https://mathiasbynens.be/notes/css-escapes) while generating the shortest possible valid ASCII-only output. [Here’s an online demo.](https://mothereff.in/css-escapes)
 
 [A polyfill for the CSSOM `CSS.escape()` method is available in a separate repository.](https://mths.be/cssescape) (In comparison, _cssesc_ is much more powerful.)
 
@@ -8324,7 +8442,7 @@ gem install ruby-cssesc
 
 ```ruby
 require 'ruby-cssesc'
-CSSEsc.escape('I ??Ruby', is_identifier: true)
+CSSEsc.escape('I ♥ Ruby', is_identifier: true)
 ```
 
 In Sass using [`sassy-escape`](https://github.com/borodean/sassy-escape):
@@ -8335,7 +8453,7 @@ gem install sassy-escape
 
 ```scss
 body {
-  content: escape('I ??Sass', $is-identifier: true);
+  content: escape('I ♥ Sass', $is-identifier: true);
 }
 ```
 
@@ -8346,11 +8464,11 @@ body {
 This function takes a value and returns an escaped version of the value where any characters that are not printable ASCII symbols are escaped using the shortest possible (but valid) [escape sequences for use in CSS strings or identifiers](https://mathiasbynens.be/notes/css-escapes).
 
 ```js
-cssesc('Ich ??B체cher');
-// ??'Ich \\2665  B\\FC cher'
+cssesc('Ich ♥ Bücher');
+// → 'Ich \\2665  B\\FC cher'
 
-cssesc('foo ?뙀 bar');
-// ??'foo \\1D306  bar'
+cssesc('foo 𝌆 bar');
+// → 'foo \\1D306  bar'
 ```
 
 By default, `cssesc` returns a string that can be used as part of a CSS string. If the target is a CSS identifier rather than a CSS string, use the `isIdentifier: true` setting (see below).
@@ -8363,12 +8481,12 @@ The default value for the `isIdentifier` option is `false`. This means that the 
 
 ```js
 cssesc('123a2b');
-// ??'123a2b'
+// → '123a2b'
 
 cssesc('123a2b', {
   'isIdentifier': true
 });
-// ??'\\31 23a2b'
+// → '\\31 23a2b'
 ```
 
 #### `quotes`
@@ -8377,14 +8495,14 @@ The default value for the `quotes` option is `'single'`. This means that any occ
 
 ```js
 cssesc('Lorem ipsum "dolor" sit \'amet\' etc.');
-// ??'Lorem ipsum "dolor" sit \\\'amet\\\' etc.'
-// ??"Lorem ipsum \"dolor\" sit \\'amet\\' etc."
+// → 'Lorem ipsum "dolor" sit \\\'amet\\\' etc.'
+// → "Lorem ipsum \"dolor\" sit \\'amet\\' etc."
 
 cssesc('Lorem ipsum "dolor" sit \'amet\' etc.', {
   'quotes': 'single'
 });
-// ??'Lorem ipsum "dolor" sit \\\'amet\\\' etc.'
-// ??"Lorem ipsum \"dolor\" sit \\'amet\\' etc."
+// → 'Lorem ipsum "dolor" sit \\\'amet\\\' etc.'
+// → "Lorem ipsum \"dolor\" sit \\'amet\\' etc."
 ```
 
 If you want to use the output as part of a CSS string literal wrapped in double quotes, set the `quotes` option to `'double'`.
@@ -8393,8 +8511,8 @@ If you want to use the output as part of a CSS string literal wrapped in double 
 cssesc('Lorem ipsum "dolor" sit \'amet\' etc.', {
   'quotes': 'double'
 });
-// ??'Lorem ipsum \\"dolor\\" sit \'amet\' etc.'
-// ??"Lorem ipsum \\\"dolor\\\" sit 'amet' etc."
+// → 'Lorem ipsum \\"dolor\\" sit \'amet\' etc.'
+// → "Lorem ipsum \\\"dolor\\\" sit 'amet' etc."
 ```
 
 #### `wrap`
@@ -8406,15 +8524,15 @@ cssesc('Lorem ipsum "dolor" sit \'amet\' etc.', {
   'quotes': 'single',
   'wrap': true
 });
-// ??'\'Lorem ipsum "dolor" sit \\\'amet\\\' etc.\''
-// ??"\'Lorem ipsum \"dolor\" sit \\\'amet\\\' etc.\'"
+// → '\'Lorem ipsum "dolor" sit \\\'amet\\\' etc.\''
+// → "\'Lorem ipsum \"dolor\" sit \\\'amet\\\' etc.\'"
 
 cssesc('Lorem ipsum "dolor" sit \'amet\' etc.', {
   'quotes': 'double',
   'wrap': true
 });
-// ??'"Lorem ipsum \\"dolor\\" sit \'amet\' etc."'
-// ??"\"Lorem ipsum \\\"dolor\\\" sit \'amet\' etc.\""
+// → '"Lorem ipsum \\"dolor\\" sit \'amet\' etc."'
+// → "\"Lorem ipsum \\\"dolor\\\" sit \'amet\' etc.\""
 ```
 
 #### `escapeEverything`
@@ -8425,8 +8543,8 @@ The `escapeEverything` option takes a boolean value (`true` or `false`), and def
 cssesc('lolwat"foo\'bar', {
   'escapeEverything': true
 });
-// ??'\\6C\\6F\\6C\\77\\61\\74\\"\\66\\6F\\6F\\\'\\62\\61\\72'
-// ??"\\6C\\6F\\6C\\77\\61\\74\\\"\\66\\6F\\6F\\'\\62\\61\\72"
+// → '\\6C\\6F\\6C\\77\\61\\74\\"\\66\\6F\\6F\\\'\\62\\61\\72'
+// → "\\6C\\6F\\6C\\77\\61\\74\\\"\\66\\6F\\6F\\'\\62\\61\\72"
 ```
 
 #### Overriding the default options globally
@@ -8436,14 +8554,14 @@ The global default settings can be overridden by modifying the `css.options` obj
 ```js
 // Read the global default setting for `escapeEverything`:
 cssesc.options.escapeEverything;
-// ??`false` by default
+// → `false` by default
 
 // Override the global default setting for `escapeEverything`:
 cssesc.options.escapeEverything = true;
 
 // Using the global default setting for `escapeEverything`, which is now `true`:
-cssesc('foo 짤 bar ??baz ?뙀 qux');
-// ??'\\66\\6F\\6F\\ \\A9\\ \\62\\61\\72\\ \\2260\\ \\62\\61\\7A\\ \\1D306\\ \\71\\75\\78'
+cssesc('foo © bar ≠ baz 𝌆 qux');
+// → '\\66\\6F\\6F\\ \\A9\\ \\62\\61\\72\\ \\2260\\ \\62\\61\\7A\\ \\1D306\\ \\71\\75\\78'
 ```
 
 ### `cssesc.version`
@@ -8461,14 +8579,14 @@ npm install -g cssesc
 After that you will be able to escape text for use in CSS strings or identifiers from the command line:
 
 ```bash
-$ cssesc 'f철o ??b책r ?뙀 baz'
+$ cssesc 'föo ♥ bår 𝌆 baz'
 f\F6o \2665  b\E5r \1D306  baz
 ```
 
 If the output needs to be a CSS identifier rather than part of a string literal, use the `-i`/`--identifier` option:
 
 ```bash
-$ cssesc --identifier 'f철o ??b책r ?뙀 baz'
+$ cssesc --identifier 'föo ♥ bår 𝌆 baz'
 f\F6o\ \2665\ b\E5r\ \1D306\ baz
 ```
 
@@ -8487,6 +8605,8 @@ This library supports the Node.js and browser versions mentioned in [`.babelrc`]
 ## License
 
 This library is available under the [MIT](https://mths.be/mit) license.
+
+
 
 ---
 
@@ -8701,7 +8821,7 @@ createDebug.formatters.h = (v) => {
   return v.toString('hex')
 }
 
-// ?쫊lsewhere
+// …elsewhere
 const debug = createDebug('foo')
 debug('this is hex: %h', new Buffer('hello world'))
 //   foo this is hex: 68656c6c6f20776f726c6421 +0ms
@@ -8737,7 +8857,7 @@ setInterval(function(){
 }, 1200);
 ```
 
-In Chromium-based web browsers (e.g. Brave, Chrome, and Electron), the JavaScript console will?봟y default?봮nly show messages logged by `debug` if the "Verbose" log level is _enabled_.
+In Chromium-based web browsers (e.g. Brave, Chrome, and Electron), the JavaScript console will—by default—only show messages logged by `debug` if the "Verbose" log level is _enabled_.
 
 <img width="647" src="https://user-images.githubusercontent.com/7143133/152083257-29034707-c42c-4959-8add-3cee850e6fcf.png">
 
@@ -8976,6 +9096,8 @@ CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
 TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
+
+
 ---
 
 # 파일 출처: .\node_modules\didyoumean\README.md
@@ -9117,6 +9239,8 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 
+
+
 ---
 
 # 파일 출처: .\node_modules\dlv\README.md
@@ -9200,6 +9324,8 @@ delve(obj, undefined, 'foo') === 'foo';
 [preact]: https://github.com/developit/preact
 [tests]: https://github.com/developit/dlv/blob/master/test.js
 
+
+
 ---
 
 # 파일 출처: .\node_modules\electron-to-chromium\README.md
@@ -9210,9 +9336,9 @@ delve(obj, undefined, 'foo') === 'foo';
 
 #### Other projects:
 
-- ?뮲 [Polypane](https://polypane.app) - Develop responsive websites and apps twice as fast on multiple screens at once
-- ?뼂截?[Superposition](https://superposition.design) - Kickstart your design system by extracting design tokens from your website
-- ?뿋截?[FromScratch](https://fromscratch.rocks) - A smart but simple autosaving scratchpad
+- 💻 [Polypane](https://polypane.app) - Develop responsive websites and apps twice as fast on multiple screens at once
+- 🖌️ [Superposition](https://superposition.design) - Kickstart your design system by extracting design tokens from your website
+- 🗒️ [FromScratch](https://fromscratch.rocks) - A smart but simple autosaving scratchpad
 
 ---
 
@@ -9393,6 +9519,8 @@ To verify correct behaviour, run `npm test`.
 ## License
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FKilian%2Felectron-to-chromium.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FKilian%2Felectron-to-chromium?ref=badge_large)
 
+
+
 ---
 
 # 파일 출처: .\node_modules\es-errors\CHANGELOG.md
@@ -9439,6 +9567,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - npm init [`6f5ebf9`](https://github.com/ljharb/es-errors/commit/6f5ebf9cead474dadd72b9e63dad315820a089ae)
 - Only apps should have lockfiles [`e1a0aeb`](https://github.com/ljharb/es-errors/commit/e1a0aeb7b80f5cfc56be54d6b2100e915d47def8)
 - [meta] add `sideEffects` flag [`a9c7d46`](https://github.com/ljharb/es-errors/commit/a9c7d460a492f1d8a241c836bc25a322a19cc043)
+
+
 
 ---
 
@@ -9502,6 +9632,8 @@ Please email [@ljharb](https://github.com/ljharb) or see https://tidelift.com/se
 [actions-image]: https://img.shields.io/endpoint?url=https://github-actions-badge-u3jn4tfpocch.runkit.sh/ljharb/es-errors
 [actions-url]: https://github.com/ljharb/es-errors/actions
 
+
+
 ---
 
 # 파일 출처: .\node_modules\esbuild\LICENSE.md
@@ -9530,6 +9662,8 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
+
+
 ---
 
 # 파일 출처: .\node_modules\esbuild\README.md
@@ -9539,6 +9673,8 @@ SOFTWARE.
 # esbuild
 
 This is a JavaScript bundler and minifier. See https://github.com/evanw/esbuild and the [JavaScript API documentation](https://esbuild.github.io/api/) for details.
+
+
 
 ---
 
@@ -9555,7 +9691,7 @@ With [escalade](https://en.wikipedia.org/wiki/Escalade), you can scale parent di
 1) the callback returns a truthy value
 2) `escalade` has reached the system root directory (eg, `/`)
 
-> **Important:**<br>Please note that `escalade` only deals with direct ancestry ??it will not dive into parents' sibling directories.
+> **Important:**<br>Please note that `escalade` only deals with direct ancestry – it will not dive into parents' sibling directories.
 
 ---
 
@@ -9595,15 +9731,15 @@ This is the opt-in mode, ideal for scenarios where `async` usage cannot be suppo
 
 ```
 /Users/lukeed
-  ?붴?? oss
-    ?쒋?? license
-    ?붴?? escalade
-      ?쒋?? package.json
-      ?붴?? test
-        ?붴?? fixtures
-          ?쒋?? index.js
-          ?붴?? foobar
-            ?붴?? demo.js
+  └── oss
+    ├── license
+    └── escalade
+      ├── package.json
+      └── test
+        └── fixtures
+          ├── index.js
+          └── foobar
+            └── demo.js
 ```
 
 ***Example Usage***
@@ -9713,22 +9849,22 @@ If the string is an absolute path, then it's left as is. Otherwise, the string i
   escalade/sync   0.309ms
 
 # Levels: 6 (target = "foo.txt"):
-  find-up          x 24,856 ops/sec 짹6.46% (55 runs sampled)
-  escalade         x 73,084 ops/sec 짹4.23% (73 runs sampled)
-  find-up.sync     x  3,663 ops/sec 짹1.12% (83 runs sampled)
-  escalade/sync    x  9,360 ops/sec 짹0.62% (88 runs sampled)
+  find-up          x 24,856 ops/sec ±6.46% (55 runs sampled)
+  escalade         x 73,084 ops/sec ±4.23% (73 runs sampled)
+  find-up.sync     x  3,663 ops/sec ±1.12% (83 runs sampled)
+  escalade/sync    x  9,360 ops/sec ±0.62% (88 runs sampled)
 
 # Levels: 12 (target = "package.json"):
-  find-up          x 29,300 ops/sec 짹10.68% (70 runs sampled)
-  escalade         x 73,685 ops/sec 짹 5.66% (66 runs sampled)
-  find-up.sync     x  1,707 ops/sec 짹 0.58% (91 runs sampled)
-  escalade/sync    x  4,667 ops/sec 짹 0.68% (94 runs sampled)
+  find-up          x 29,300 ops/sec ±10.68% (70 runs sampled)
+  escalade         x 73,685 ops/sec ± 5.66% (66 runs sampled)
+  find-up.sync     x  1,707 ops/sec ± 0.58% (91 runs sampled)
+  escalade/sync    x  4,667 ops/sec ± 0.68% (94 runs sampled)
 
 # Levels: 18 (target = "missing123.txt"):
-  find-up          x 21,818 ops/sec 짹17.37% (14 runs sampled)
-  escalade         x 67,101 ops/sec 짹21.60% (20 runs sampled)
-  find-up.sync     x  1,037 ops/sec 짹 2.86% (88 runs sampled)
-  escalade/sync    x  1,248 ops/sec 짹 0.50% (93 runs sampled)
+  find-up          x 21,818 ops/sec ±17.37% (14 runs sampled)
+  escalade         x 67,101 ops/sec ±21.60% (20 runs sampled)
+  find-up.sync     x  1,037 ops/sec ± 2.86% (88 runs sampled)
+  escalade/sync    x  1,248 ops/sec ± 0.50% (93 runs sampled)
 ```
 
 ## Deno
@@ -9756,7 +9892,9 @@ import escalade from 'https://deno.land/escalade/sync.ts';
 
 ## License
 
-MIT 짤 [Luke Edwards](https://lukeed.com)
+MIT © [Luke Edwards](https://lukeed.com)
+
+
 
 ---
 
@@ -9788,7 +9926,7 @@ MIT 짤 [Luke Edwards](https://lukeed.com)
 ## [5.0.0](https://github.com/gulpjs/glob-parent/compare/v4.0.0...v5.0.0) (2021-01-27)
 
 
-### ??BREAKING CHANGES
+### ⚠ BREAKING CHANGES
 
 * Drop support for node <6 & bump dependencies
 
@@ -9799,7 +9937,7 @@ MIT 짤 [Luke Edwards](https://lukeed.com)
 ## [4.0.0](https://github.com/gulpjs/glob-parent/compare/v3.1.0...v4.0.0) (2021-01-27)
 
 
-### ??BREAKING CHANGES
+### ⚠ BREAKING CHANGES
 
 * question marks are valid path characters on Windows so avoid flagging as a glob when alone
 * Update is-glob dependency
@@ -9841,7 +9979,7 @@ MIT 짤 [Luke Edwards](https://lukeed.com)
 ## [3.0.0](https://github.com/gulpjs/glob-parent/compare/v2.0.0...v3.0.0) (2021-01-27)
 
 
-### ??BREAKING CHANGES
+### ⚠ BREAKING CHANGES
 
 * update is-glob dependency
 
@@ -9873,6 +10011,8 @@ MIT 짤 [Luke Edwards](https://lukeed.com)
 * make regex test strings smaller ([cd83220](https://github.com/gulpjs/glob-parent/commit/cd832208638f45169f986d80fcf66e401f35d233))
 
 ## 1.0.0 (2021-01-27)
+
+
 
 
 ---
@@ -10019,6 +10159,8 @@ ISC
 [gitter-url]: https://gitter.im/gulpjs/gulp
 [gitter-image]: https://badges.gitter.im/gulpjs/gulp.svg
 
+
+
 ---
 
 # 파일 출처: .\node_modules\fast-glob\README.md
@@ -10120,22 +10262,22 @@ There is more than one form of syntax: basic and advanced. Below is a brief over
 
 ### Basic syntax
 
-* An asterisk (`*`) ??matches everything except slashes (path separators), hidden files (names starting with `.`).
-* A double star or globstar (`**`) ??matches zero or more directories.
-* Question mark (`?`) ??matches any single character except slashes (path separators).
-* Sequence (`[seq]`) ??matches any character in sequence.
+* An asterisk (`*`) — matches everything except slashes (path separators), hidden files (names starting with `.`).
+* A double star or globstar (`**`) — matches zero or more directories.
+* Question mark (`?`) – matches any single character except slashes (path separators).
+* Sequence (`[seq]`) — matches any character in sequence.
 
 > :book: A few additional words about the [basic matching behavior][picomatch_matching_behavior].
 
 Some examples:
 
-* `src/**/*.js` ??matches all files in the `src` directory (any level of nesting) that have the `.js` extension.
-* `src/*.??` ??matches all files in the `src` directory (only first level of nesting) that have a two-character extension.
-* `file-[01].js` ??matches files: `file-0.js`, `file-1.js`.
+* `src/**/*.js` — matches all files in the `src` directory (any level of nesting) that have the `.js` extension.
+* `src/*.??` — matches all files in the `src` directory (only first level of nesting) that have a two-character extension.
+* `file-[01].js` — matches files: `file-0.js`, `file-1.js`.
 
 ### Advanced syntax
 
-* [Escapes characters][micromatch_backslashes] (`\\`) ??matching special characters (`$^*+?()[]`) as literals.
+* [Escapes characters][micromatch_backslashes] (`\\`) — matching special characters (`$^*+?()[]`) as literals.
 * [POSIX character classes][picomatch_posix_brackets] (`[[:digit:]]`).
 * [Extended globs][micromatch_extglobs] (`?(pattern-list)`).
 * [Bash style brace expansions][micromatch_braces] (`{}`).
@@ -10146,10 +10288,10 @@ Some examples:
 
 Some examples:
 
-* `src/**/*.{css,scss}` ??matches all files in the `src` directory (any level of nesting) that have the `.css` or `.scss` extension.
-* `file-[[:digit:]].js` ??matches files: `file-0.js`, `file-1.js`, ?? `file-9.js`.
-* `file-{1..3}.js` ??matches files: `file-1.js`, `file-2.js`, `file-3.js`.
-* `file-(1|2)` ??matches files: `file-1.js`, `file-2.js`.
+* `src/**/*.{css,scss}` — matches all files in the `src` directory (any level of nesting) that have the `.css` or `.scss` extension.
+* `file-[[:digit:]].js` — matches files: `file-0.js`, `file-1.js`, …, `file-9.js`.
+* `file-{1..3}.js` — matches files: `file-1.js`, `file-2.js`, `file-3.js`.
+* `file-(1|2)` — matches files: `file-1.js`, `file-2.js`.
 
 ## Installation
 
@@ -10307,8 +10449,8 @@ Returns the path with escaped special characters depending on the platform.
 ```js
 fg.escapePath('!abc');
 // \\!abc
-fg.escapePath('[OpenSource] mrmlnc ??fast-glob (Deluxe Edition) 2014') + '/*.flac'
-// \\[OpenSource\\] mrmlnc ??fast-glob \\(Deluxe Edition\\) 2014/*.flac
+fg.escapePath('[OpenSource] mrmlnc – fast-glob (Deluxe Edition) 2014') + '/*.flac'
+// \\[OpenSource\\] mrmlnc – fast-glob \\(Deluxe Edition\\) 2014/*.flac
 
 fg.posix.escapePath('C:\\Program Files (x86)\\**\\*');
 // C:\\\\Program Files \\(x86\\)\\*\\*\\*
@@ -10324,8 +10466,8 @@ Converts a path to a pattern depending on the platform, including special charac
 * Windows. Works similarly to the `fg.win32.escapePath` method, additionally converting backslashes to forward slashes in cases where they are not escape characters (`!()+@{}[]`).
 
 ```js
-fg.convertPathToPattern('[OpenSource] mrmlnc ??fast-glob (Deluxe Edition) 2014') + '/*.flac';
-// \\[OpenSource\\] mrmlnc ??fast-glob \\(Deluxe Edition\\) 2014/*.flac
+fg.convertPathToPattern('[OpenSource] mrmlnc – fast-glob (Deluxe Edition) 2014') + '/*.flac';
+// \\[OpenSource\\] mrmlnc – fast-glob \\(Deluxe Edition\\) 2014/*.flac
 
 fg.convertPathToPattern('C:/Program Files (x86)/**/*');
 // Posix: C:/Program Files \\(x86\\)/\\*\\*/\\*
@@ -10358,7 +10500,7 @@ Specifies the maximum number of concurrent requests from a reader to read direct
 
 <summary>More details</summary>
 
-In Node, there are [two types of threads][nodejs_thread_pool]: Event Loop (code) and a Thread Pool (fs, dns, ??. The thread pool size controlled by the `UV_THREADPOOL_SIZE` environment variable. Its default size is 4 ([documentation][libuv_thread_pool]). The pool is one for all tasks within a single Node process.
+In Node, there are [two types of threads][nodejs_thread_pool]: Event Loop (code) and a Thread Pool (fs, dns, …). The thread pool size controlled by the `UV_THREADPOOL_SIZE` environment variable. Its default size is 4 ([documentation][libuv_thread_pool]). The pool is one for all tasks within a single Node process.
 
 Any code can make 4 real concurrent accesses to the file system. The rest of the FS requests will wait in the queue.
 
@@ -10388,9 +10530,9 @@ For example, you have the following tree:
 
 ```js
 dir/
-?붴?? one/            // 1
-    ?붴?? two/        // 2
-        ?붴?? file.js // 3
+└── one/            // 1
+    └── two/        // 2
+        └── file.js // 3
 ```
 
 ```js
@@ -10443,8 +10585,8 @@ An array of glob patterns to exclude matches. This is an alternative way to use 
 
 ```js
 dir/
-?쒋?? package-lock.json
-?붴?? package.json
+├── package-lock.json
+└── package.json
 ```
 
 ```js
@@ -10512,9 +10654,9 @@ fg.sync('*', { objectMode: true });  // [{ name: 'index.js', path: 'src/index.js
 
 The object has the following fields:
 
-* name (`string`) ??the last part of the path (basename)
-* path (`string`) ??full path relative to the pattern base directory
-* dirent ([`fs.Dirent`][node_js_fs_class_fs_dirent]) ??instance of `fs.Dirent`
+* name (`string`) — the last part of the path (basename)
+* path (`string`) — full path relative to the pattern base directory
+* dirent ([`fs.Dirent`][node_js_fs_class_fs_dirent]) — instance of `fs.Dirent`
 
 > :book: An object is an internal representation of entry, so getting it does not affect performance.
 
@@ -10551,7 +10693,7 @@ fg.sync('*', { onlyFiles: true });  // ['index.js']
 
 Enables an [object mode](#objectmode) with an additional field:
 
-* stats ([`fs.Stats`][node_js_fs_class_fs_stats]) ??instance of `fs.Stats`
+* stats ([`fs.Stats`][node_js_fs_class_fs_stats]) — instance of `fs.Stats`
 
 ```js
 fg.sync('*', { stats: false }); // ['src/index.js']
@@ -10589,9 +10731,9 @@ Enables Bash-like brace expansion.
 
 ```js
 dir/
-?쒋?? abd
-?쒋?? acd
-?붴?? a{b,c}d
+├── abd
+├── acd
+└── a{b,c}d
 ```
 
 ```js
@@ -10608,8 +10750,8 @@ Enables a [case-sensitive][wikipedia_case_sensitivity] mode for matching files.
 
 ```js
 dir/
-?쒋?? file.txt
-?붴?? File.txt
+├── file.txt
+└── File.txt
 ```
 
 ```js
@@ -10628,8 +10770,8 @@ Allow patterns to match entries that begin with a period (`.`).
 
 ```js
 dir/
-?쒋?? .editorconfig
-?붴?? package.json
+├── .editorconfig
+└── package.json
 ```
 
 ```js
@@ -10648,8 +10790,8 @@ Enables Bash-like `extglob` functionality.
 
 ```js
 dir/
-?쒋?? README.md
-?붴?? package.json
+├── README.md
+└── package.json
 ```
 
 ```js
@@ -10666,8 +10808,8 @@ Enables recursively repeats a pattern containing `**`. If `false`, `**` behaves 
 
 ```js
 dir/
-?붴?? a
-    ?붴?? b
+└── a
+    └── b
 ```
 
 ```js
@@ -10684,8 +10826,8 @@ If set to `true`, then patterns without slashes will be matched against the base
 
 ```js
 dir/
-?붴?? one/
-    ?붴?? file.md
+└── one/
+    └── file.md
 ```
 
 ```js
@@ -10702,15 +10844,15 @@ All patterns can be divided into two types:
 * **static**. A pattern is considered static if it can be used to get an entry on the file system without using matching mechanisms. For example, the `file.js` pattern is a static pattern because we can just verify that it exists on the file system.
 * **dynamic**. A pattern is considered dynamic if it cannot be used directly to find occurrences without using a matching mechanisms. For example, the `*` pattern is a dynamic pattern because we cannot use this pattern directly.
 
-A pattern is considered dynamic if it contains the following characters (`?? ??any characters or their absence) or options:
+A pattern is considered dynamic if it contains the following characters (`…` — any characters or their absence) or options:
 
 * The [`caseSensitiveMatch`](#casesensitivematch) option is disabled
 * `\\` (the escape character)
 * `*`, `?`, `!` (at the beginning of line)
-* `[??`
-* `(????`
-* `@(??`, `!(??`, `*(??`, `?(??`, `+(??` (respects the [`extglob`](#extglob) option)
-* `{????`, `{??.??` (respects the [`braceExpansion`](#braceexpansion) option)
+* `[…]`
+* `(…|…)`
+* `@(…)`, `!(…)`, `*(…)`, `?(…)`, `+(…)` (respects the [`extglob`](#extglob) option)
+* `{…,…}`, `{…..…}` (respects the [`braceExpansion`](#braceexpansion) option)
 
 ## How to write patterns on Windows?
 
@@ -10742,7 +10884,7 @@ Read more about [matching with backslashes][micromatch_backslashes].
 
 ```js
 dir/
-?붴?? (special-*file).txt
+└── (special-*file).txt
 ```
 
 ```js
@@ -10763,9 +10905,9 @@ You can use a negative pattern like this: `!**/node_modules` or `!**/node_module
 
 ```js
 first/
-?쒋?? file.md
-?붴?? second/
-    ?붴?? file.txt
+├── file.md
+└── second/
+    └── file.txt
 ```
 
 If you don't want to read the `second` directory, you must write the following pattern: `!**/second` or `!**/second/**`.
@@ -10797,11 +10939,11 @@ fg.sync(fg.convertPathToPattern('\\\\?\\c:\\Python27') + '/*');
 | node-glob    | fast-glob |
 | :----------: | :-------: |
 | `cwd`        | [`cwd`](#cwd) |
-| `root`       | ??|
+| `root`       | – |
 | `dot`        | [`dot`](#dot) |
-| `nomount`    | ??|
+| `nomount`    | – |
 | `mark`       | [`markDirectories`](#markdirectories) |
-| `nosort`     | ??|
+| `nosort`     | – |
 | `nounique`   | [`unique`](#unique) |
 | `nobrace`    | [`braceExpansion`](#braceexpansion) |
 | `noglobstar` | [`globstar`](#globstar) |
@@ -10811,15 +10953,15 @@ fg.sync(fg.convertPathToPattern('\\\\?\\c:\\Python27') + '/*');
 | `nodir`      | [`onlyFiles`](#onlyfiles) |
 | `ignore`     | [`ignore`](#ignore) |
 | `follow`     | [`followSymbolicLinks`](#followsymboliclinks) |
-| `realpath`   | ??|
+| `realpath`   | – |
 | `absolute`   | [`absolute`](#absolute) |
 
 ## Benchmarks
 
 You can see results [here](https://github.com/mrmlnc/fast-glob/actions/workflows/benchmark.yml?query=branch%3Amaster) for every commit into the `main` branch.
 
-* **Product benchmark** ??comparison with the main competitors.
-* **Regress benchmark** ??regression between the current version and the version from the npm registry.
+* **Product benchmark** – comparison with the main competitors.
+* **Regress benchmark** – regression between the current version and the version from the npm registry.
 
 ## Changelog
 
@@ -10855,6 +10997,8 @@ This software is released under the terms of the MIT license.
 [nodejs_thread_pool]: https://nodejs.org/en/docs/guides/dont-block-the-event-loop
 [libuv_thread_pool]: http://docs.libuv.org/en/v1.x/threadpool.html
 [windows_naming_conventions]: https://learn.microsoft.com/en-us/windows/win32/fileio/naming-a-file#naming-conventions
+
+
 
 ---
 
@@ -11173,6 +11317,8 @@ ISC
 [npm-badge]: https://badge.fury.io/js/fastq.svg
 [npm-url]: https://badge.fury.io/js/fastq
 
+
+
 ---
 
 # 파일 출처: .\node_modules\fastq\SECURITY.md
@@ -11194,6 +11340,8 @@ currently being supported with security updates.
 ## Reporting a Vulnerability
 
 Please report all vulnerabilities at [https://github.com/mcollina/fastq/security](https://github.com/mcollina/fastq/security).
+
+
 
 ---
 
@@ -11432,12 +11580,14 @@ Please consider supporting me on Patreon, or [start your own Patreon page](https
 
 ### License
 
-Copyright 짤 2019, [Jon Schlinkert](https://github.com/jonschlinkert).
+Copyright © 2019, [Jon Schlinkert](https://github.com/jonschlinkert).
 Released under the [MIT License](LICENSE).
 
 ***
 
 _This file was generated by [verb-generate-readme](https://github.com/verbose/verb-generate-readme), v0.8.0, on April 08, 2019._
+
+
 ---
 
 # 파일 출처: .\node_modules\fraction.js\CHANGELOG.md
@@ -11482,18 +11632,20 @@ v5.0.0:
   - ac7cd06: Fixed readme
   - 33cc9e5: Added crude build
   - 1adcc76: Release breaking v5.0. Fraction.js now builds on BigInt. The API stays the same as v4, except that the object attributes `n`, `d`, and `s`, are not Number but BigInt and may break code that directly accesses these attributes.
+
+
 ---
 
 # 파일 출처: .\node_modules\fraction.js\README.md
 
 ---
 
-# Fraction.js - ??in JavaScript
+# Fraction.js - ℚ in JavaScript
 
 [![NPM Package](https://img.shields.io/npm/v/fraction.js.svg?style=flat)](https://npmjs.org/package/fraction.js "View this project on npm")
 [![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
 
-Do you find the limitations of floating-point arithmetic frustrating, especially when rational and irrational numbers like ? or ?? are stored within the same finite precision? This can lead to avoidable inaccuracies such as:
+Do you find the limitations of floating-point arithmetic frustrating, especially when rational and irrational numbers like π or √2 are stored within the same finite precision? This can lead to avoidable inaccuracies such as:
 
 ```javascript
 1 / 98 * 98 // Results in 0.9999999999999999
@@ -11557,7 +11709,7 @@ If you attempted to calculate this manually using floating-point arithmetic, you
 (9.4313131 * (-4 / 3)) % 4.888888 = -2.797308133...
 ```
 
-While the result is reasonably close, it?셲 not as accurate as the fraction-based approach that *Fraction.js* provides, especially when dealing with repeating decimals or complex operations. This highlights the value of precision that the library brings.
+While the result is reasonably close, it’s not as accurate as the fraction-based approach that *Fraction.js* provides, especially when dealing with repeating decimals or complex operations. This highlights the value of precision that the library brings.
 
 ### Laplace Probability
 
@@ -11590,7 +11742,7 @@ var p = new Fraction([2, 4, 6].length, 6).toString(); // "0.5"
 57+45/60+17/3600
 
 ```javascript
-var deg = 57; // 57째
+var deg = 57; // 57°
 var min = 45; // 45 Minutes
 var sec = 17; // 17 Seconds
 
@@ -12009,6 +12161,8 @@ npm run test
 Copyright (c) 2025, [Robert Eisele](https://raw.org/)
 Licensed under the MIT license.
 
+
+
 ---
 
 # 파일 출처: .\node_modules\function-bind\.github\SECURITY.md
@@ -12018,6 +12172,8 @@ Licensed under the MIT license.
 # Security
 
 Please email [@ljharb](https://github.com/ljharb) or see https://tidelift.com/security if you have a potential security vulnerability to report.
+
+
 
 ---
 
@@ -12054,7 +12210,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [Tests] fix eslint errors from #15 [`f69aaa2`](https://github.com/ljharb/function-bind/commit/f69aaa2beb2fdab4415bfb885760a699d0b9c964)
 - [actions] fix permissions [`99a0cd9`](https://github.com/ljharb/function-bind/commit/99a0cd9f3b5bac223a0d572f081834cd73314be7)
 - [meta] use `npmignore` to autogenerate an npmignore file [`f03b524`](https://github.com/ljharb/function-bind/commit/f03b524ca91f75a109a5d062f029122c86ecd1ae)
-- [Dev혻Deps] update혻`@ljharb/eslint?멵onfig`, `eslint`,혻`tape` [`7af9300`](https://github.com/ljharb/function-bind/commit/7af930023ae2ce7645489532821e4fbbcd7a2280)
+- [Dev Deps] update `@ljharb/eslint‑config`, `eslint`, `tape` [`7af9300`](https://github.com/ljharb/function-bind/commit/7af930023ae2ce7645489532821e4fbbcd7a2280)
 - [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `covert`, `tape` [`64a9127`](https://github.com/ljharb/function-bind/commit/64a9127ab0bd331b93d6572eaf6e9971967fc08c)
 - [Tests] use `aud` instead of `npm audit` [`e75069c`](https://github.com/ljharb/function-bind/commit/e75069c50010a8fcce2a9ce2324934c35fdb4386)
 - [Dev Deps] update `@ljharb/eslint-config`, `aud`, `tape` [`d03555c`](https://github.com/ljharb/function-bind/commit/d03555ca59dea3b71ce710045e4303b9e2619e28)
@@ -12072,7 +12228,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [Dev Deps] update `eslint`, `jscs`, `tape`, `@ljharb/eslint-config` [`854288b`](https://github.com/ljharb/function-bind/commit/854288b1b6f5c555f89aceb9eff1152510262084)
 - [Dev Deps] update `tape`, `jscs`, `eslint`, `@ljharb/eslint-config` [`83e639f`](https://github.com/ljharb/function-bind/commit/83e639ff74e6cd6921285bccec22c1bcf72311bd)
 - Only apps should have lockfiles [`5ed97f5`](https://github.com/ljharb/function-bind/commit/5ed97f51235c17774e0832e122abda0f3229c908)
-- Use a SPDX-compliant ?쐋icense??field. [`5feefea`](https://github.com/ljharb/function-bind/commit/5feefea0dc0193993e83e5df01ded424403a5381)
+- Use a SPDX-compliant “license” field. [`5feefea`](https://github.com/ljharb/function-bind/commit/5feefea0dc0193993e83e5df01ded424403a5381)
 
 ## [v1.1.0](https://github.com/ljharb/function-bind/compare/v1.0.2...v1.1.0) - 2016-02-14
 
@@ -12162,6 +12318,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Skipping length tests for now. [`d9891ea`](https://github.com/ljharb/function-bind/commit/d9891ea4d2aaffa69f408339cdd61ff740f70565)
 - don't take my tea [`dccd930`](https://github.com/ljharb/function-bind/commit/dccd930bfd60ea10cb178d28c97550c3bc8c1e07)
 
+
+
 ---
 
 # 파일 출처: .\node_modules\function-bind\README.md
@@ -12214,6 +12372,8 @@ Function.prototype.bind = require("function-bind")
 [codecov-url]: https://app.codecov.io/gh/Raynos/function-bind/
 [actions-image]: https://img.shields.io/endpoint?url=https://github-actions-badge-u3jn4tfpocch.runkit.sh/Raynos/function-bind
 [actions-url]: https://github.com/Raynos/function-bind/actions
+
+
 
 ---
 
@@ -12418,6 +12578,8 @@ const loadFiles = gensync(function* () {
 });
 ```
 
+
+
 ---
 
 # 파일 출처: .\node_modules\glob-parent\README.md
@@ -12559,6 +12721,8 @@ ISC
 [expand-brackets]: https://github.com/jonschlinkert/expand-brackets
 <!-- prettier-ignore-end -->
 
+
+
 ---
 
 # 파일 출처: .\node_modules\hasown\CHANGELOG.md
@@ -12617,6 +12781,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Initial commit [`8dbfde6`](https://github.com/inspect-js/hasOwn/commit/8dbfde6e8fb0ebb076fab38d138f2984eb340a62)
 
+
+
 ---
 
 # 파일 출처: .\node_modules\hasown\README.md
@@ -12664,6 +12830,8 @@ Simply clone the repo, `npm install`, and run `npm test`
 [actions-image]: https://img.shields.io/endpoint?url=https://github-actions-badge-u3jn4tfpocch.runkit.sh/inspect-js/hasOwn
 [actions-url]: https://github.com/inspect-js/hasOwn/actions
 
+
+
 ---
 
 # 파일 출처: .\node_modules\is-binary-path\readme.md
@@ -12703,7 +12871,9 @@ isBinaryPath('source/unicorn.txt');
 
 ## License
 
-MIT 짤 [Sindre Sorhus](https://sindresorhus.com), [Paul Miller](https://paulmillr.com)
+MIT © [Sindre Sorhus](https://sindresorhus.com), [Paul Miller](https://paulmillr.com)
+
+
 
 ---
 
@@ -13061,6 +13231,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - init [`48e5e76`](https://github.com/inspect-js/is-core-module.git
 /commit/48e5e76cac378fddb8c1f7d4055b8dfc943d6b96)
 
+
+
 ---
 
 # 파일 출처: .\node_modules\is-core-module\README.md
@@ -13107,6 +13279,8 @@ Clone the repo, `npm install`, and run `npm test`
 [codecov-url]: https://app.codecov.io/gh/inspect-js/is-core-module/
 [actions-image]: https://img.shields.io/github/check-runs/inspect-js/is-core-module/main
 [actions-url]: https://github.com/inspect-js/is-core-module/actions
+
+
 
 ---
 
@@ -13181,7 +13355,7 @@ Adds support for escaping. Escaped exglobs no longer return true.
 ### Related projects
 
 * [has-glob](https://www.npmjs.com/package/has-glob): Returns `true` if an array has a glob pattern. | [homepage](https://github.com/jonschlinkert/has-glob "Returns `true` if an array has a glob pattern.")
-* [is-glob](https://www.npmjs.com/package/is-glob): Returns `true` if the given string looks like a glob pattern or an extglob pattern??[more](https://github.com/jonschlinkert/is-glob) | [homepage](https://github.com/jonschlinkert/is-glob "Returns `true` if the given string looks like a glob pattern or an extglob pattern. This makes it easy to create code that only uses external modules like node-glob when necessary, resulting in much faster code execution and initialization time, and a bet")
+* [is-glob](https://www.npmjs.com/package/is-glob): Returns `true` if the given string looks like a glob pattern or an extglob pattern… [more](https://github.com/jonschlinkert/is-glob) | [homepage](https://github.com/jonschlinkert/is-glob "Returns `true` if the given string looks like a glob pattern or an extglob pattern. This makes it easy to create code that only uses external modules like node-glob when necessary, resulting in much faster code execution and initialization time, and a bet")
 * [micromatch](https://www.npmjs.com/package/micromatch): Glob matching for javascript/node.js. A drop-in replacement and faster alternative to minimatch and multimatch. | [homepage](https://github.com/jonschlinkert/micromatch "Glob matching for javascript/node.js. A drop-in replacement and faster alternative to minimatch and multimatch.")
 
 ### Contributing
@@ -13215,12 +13389,14 @@ $ npm install -d && npm test
 
 ### License
 
-Copyright 짤 2016, [Jon Schlinkert](https://github.com/jonschlinkert).
+Copyright © 2016, [Jon Schlinkert](https://github.com/jonschlinkert).
 Released under the [MIT license](https://github.com/jonschlinkert/is-extglob/blob/master/LICENSE).
 
 ***
 
 _This file was generated by [verb-generate-readme](https://github.com/verbose/verb-generate-readme), v0.1.31, on October 12, 2016._
+
+
 ---
 
 # 파일 출처: .\node_modules\is-glob\README.md
@@ -13402,10 +13578,10 @@ $ npm install -g verbose/verb#dev verb-generate-readme && verb
 
 You might also be interested in these projects:
 
-* [assemble](https://www.npmjs.com/package/assemble): Get the rocks out of your socks! Assemble makes you fast at creating web projects??[more](https://github.com/assemble/assemble) | [homepage](https://github.com/assemble/assemble "Get the rocks out of your socks! Assemble makes you fast at creating web projects. Assemble is used by thousands of projects for rapid prototyping, creating themes, scaffolds, boilerplates, e-books, UI components, API documentation, blogs, building websit")
+* [assemble](https://www.npmjs.com/package/assemble): Get the rocks out of your socks! Assemble makes you fast at creating web projects… [more](https://github.com/assemble/assemble) | [homepage](https://github.com/assemble/assemble "Get the rocks out of your socks! Assemble makes you fast at creating web projects. Assemble is used by thousands of projects for rapid prototyping, creating themes, scaffolds, boilerplates, e-books, UI components, API documentation, blogs, building websit")
 * [base](https://www.npmjs.com/package/base): Framework for rapidly creating high quality, server-side node.js applications, using plugins like building blocks | [homepage](https://github.com/node-base/base "Framework for rapidly creating high quality, server-side node.js applications, using plugins like building blocks")
-* [update](https://www.npmjs.com/package/update): Be scalable! Update is a new, open source developer framework and CLI for automating updates??[more](https://github.com/update/update) | [homepage](https://github.com/update/update "Be scalable! Update is a new, open source developer framework and CLI for automating updates of any kind in code projects.")
-* [verb](https://www.npmjs.com/package/verb): Documentation generator for GitHub projects. Verb is extremely powerful, easy to use, and is used??[more](https://github.com/verbose/verb) | [homepage](https://github.com/verbose/verb "Documentation generator for GitHub projects. Verb is extremely powerful, easy to use, and is used on hundreds of projects of all sizes to generate everything from API docs to readmes.")
+* [update](https://www.npmjs.com/package/update): Be scalable! Update is a new, open source developer framework and CLI for automating updates… [more](https://github.com/update/update) | [homepage](https://github.com/update/update "Be scalable! Update is a new, open source developer framework and CLI for automating updates of any kind in code projects.")
+* [verb](https://www.npmjs.com/package/verb): Documentation generator for GitHub projects. Verb is extremely powerful, easy to use, and is used… [more](https://github.com/verbose/verb) | [homepage](https://github.com/verbose/verb "Documentation generator for GitHub projects. Verb is extremely powerful, easy to use, and is used on hundreds of projects of all sizes to generate everything from API docs to readmes.")
 
 ### Contributors
 
@@ -13427,12 +13603,14 @@ You might also be interested in these projects:
 
 ### License
 
-Copyright 짤 2019, [Jon Schlinkert](https://github.com/jonschlinkert).
+Copyright © 2019, [Jon Schlinkert](https://github.com/jonschlinkert).
 Released under the [MIT License](LICENSE).
 
 ***
 
 _This file was generated by [verb-generate-readme](https://github.com/verbose/verb-generate-readme), v0.8.0, on March 27, 2019._
+
+
 ---
 
 # 파일 출처: .\node_modules\is-number\README.md
@@ -13541,21 +13719,21 @@ As with all benchmarks, take these with a grain of salt. See the [benchmarks](./
 
 ```
 # all
-v7.0 x 413,222 ops/sec 짹2.02% (86 runs sampled)
-v6.0 x 111,061 ops/sec 짹1.29% (85 runs sampled)
-parseFloat x 317,596 ops/sec 짹1.36% (86 runs sampled)
+v7.0 x 413,222 ops/sec ±2.02% (86 runs sampled)
+v6.0 x 111,061 ops/sec ±1.29% (85 runs sampled)
+parseFloat x 317,596 ops/sec ±1.36% (86 runs sampled)
 fastest is 'v7.0'
 
 # string
-v7.0 x 3,054,496 ops/sec 짹1.05% (89 runs sampled)
-v6.0 x 2,957,781 ops/sec 짹0.98% (88 runs sampled)
-parseFloat x 3,071,060 ops/sec 짹1.13% (88 runs sampled)
+v7.0 x 3,054,496 ops/sec ±1.05% (89 runs sampled)
+v6.0 x 2,957,781 ops/sec ±0.98% (88 runs sampled)
+parseFloat x 3,071,060 ops/sec ±1.13% (88 runs sampled)
 fastest is 'parseFloat,v7.0'
 
 # number
-v7.0 x 3,146,895 ops/sec 짹0.89% (89 runs sampled)
-v6.0 x 3,214,038 ops/sec 짹1.07% (89 runs sampled)
-parseFloat x 3,077,588 ops/sec 짹1.07% (87 runs sampled)
+v7.0 x 3,146,895 ops/sec ±0.89% (89 runs sampled)
+v6.0 x 3,214,038 ops/sec ±1.07% (89 runs sampled)
+parseFloat x 3,077,588 ops/sec ±1.07% (87 runs sampled)
 fastest is 'v6.0'
 ```
 
@@ -13620,12 +13798,14 @@ You might also be interested in these projects:
 
 ### License
 
-Copyright 짤 2018, [Jon Schlinkert](https://github.com/jonschlinkert).
+Copyright © 2018, [Jon Schlinkert](https://github.com/jonschlinkert).
 Released under the [MIT License](LICENSE).
 
 ***
 
 _This file was generated by [verb-generate-readme](https://github.com/verbose/verb-generate-readme), v0.6.0, on June 15, 2018._
+
+
 ---
 
 # 파일 출처: .\node_modules\jiti\README.md
@@ -13784,7 +13964,7 @@ Enable experimental native Bun support for transformations.
 
 ## License
 
-MIT. Made with ?뮇
+MIT. Made with 💖
 
 <!-- Badged -->
 
@@ -13797,6 +13977,8 @@ MIT. Made with ?뮇
 [license-src]: https://img.shields.io/github/license/unjs/jiti.svg?style=flat&colorA=18181B&colorB=F0DB4F
 [license-href]: https://github.com/unjs/jiti/blob/main/LICENSE
 
+
+
 ---
 
 # 파일 출처: .\node_modules\js-tokens\CHANGELOG.md
@@ -13808,7 +13990,8 @@ MIT. Made with ?뮇
 - Added: Support for ES2018. The only change needed was recognizing the `s`
   regex flag.
 - Changed: _All_ tokens returned by the `matchToToken` function now have a
-  `closed` property. It is set to `undefined` for the tokens where ?쐁losed??  doesn?셳 make sense. This means that all tokens objects have the same shape,
+  `closed` property. It is set to `undefined` for the tokens where “closed”
+  doesn’t make sense. This means that all tokens objects have the same shape,
   which might improve performance.
 
 These are the breaking changes:
@@ -13935,8 +14118,8 @@ These are the breaking changes:
   `jsTokens.matchToToken` function. The capturing groups of `jsTokens` are no
   longer part of the public API; instead use said function. See this [gist] for
   an example. (Backwards-incompatible change.)
-- Changed: The empty string is now considered an ?쐇nvalid??token, instead an
-  ?쐃mpty??token (its own group). (Backwards-incompatible change.)
+- Changed: The empty string is now considered an “invalid” token, instead an
+  “empty” token (its own group). (Backwards-incompatible change.)
 - Removed: component support. (Backwards-incompatible change.)
 
 [gist]: https://gist.github.com/lydell/be49dbf80c382c473004
@@ -13945,7 +14128,7 @@ These are the breaking changes:
 ### Version 0.2.0 (2014-06-19) ###
 
 - Changed: Match ES6 function arrows (`=>`) as an operator, instead of its own
-  category (?쐄unctionArrow??, for simplicity. (Backwards-incompatible change.)
+  category (“functionArrow”), for simplicity. (Backwards-incompatible change.)
 - Added: ES6 splats (`...`) are now matched as an operator (instead of three
   punctuations). (Backwards-incompatible change.)
 
@@ -13953,6 +14136,8 @@ These are the breaking changes:
 ### Version 0.1.0 (2014-03-08) ###
 
 - Initial release.
+
+
 
 ---
 
@@ -14074,8 +14259,8 @@ Strings may contain invalid escape sequences.
 Limitations
 ===========
 
-Tokenizing JavaScript using regexes?봧n fact, _one single regex_?봶on?셳 be
-perfect. But that?셲 not the point either.
+Tokenizing JavaScript using regexes—in fact, _one single regex_—won’t be
+perfect. But that’s not the point either.
 
 You may compare jsTokens with [esprima] by using `esprima-compare.js`.
 See `npm run esprima-compare`!
@@ -14089,7 +14274,7 @@ ending `` ` ``, including interpolations (whose tokens are not matched
 individually).
 
 Matching template string interpolations requires recursive balancing of `{` and
-`}`?봲omething that JavaScript regexes cannot do. Only one level of nesting is
+`}`—something that JavaScript regexes cannot do. Only one level of nesting is
 supported.
 
 ### Division and regex literals collision ###
@@ -14103,8 +14288,8 @@ var number = bar / 2/g
 var regex = / 2/g
 ```
 
-A human can easily understand that in the `number` line we?셱e dealing with
-division, and in the `regex` line we?셱e dealing with a regex literal. How come?
+A human can easily understand that in the `number` line we’re dealing with
+division, and in the `regex` line we’re dealing with a regex literal. How come?
 Because humans can look at the whole code to put the `/` characters in context.
 A JavaScript regex cannot. It only sees forwards. (Well, ES2018 regexes can also
 look backwards. See the [ES2018](#es2018) section).
@@ -14133,7 +14318,7 @@ sees forwards, it cannot tell the two cases apart.
 There are some cases where we _can_ tell division and regex literals apart,
 though.
 
-First off, we have the simple cases where there?셲 only one slash in the line:
+First off, we have the simple cases where there’s only one slash in the line:
 
 ```js
 var foo = 2/g
@@ -14155,7 +14340,7 @@ valid regex flag. I initially wanted to future-proof by allowing `[a-zA-Z]*`
 (any letter) as flags, but it is not worth it since it increases the amount of
 ambigous cases. So only the standard `g`, `m`, `i`, `y` and `u` flags are
 allowed. This means that the above example will be identified as division as
-long as you don?셳 rename the `e` variable to some permutation of `gmiyus` 1 to 6
+long as you don’t rename the `e` variable to some permutation of `gmiyus` 1 to 6
 characters long.
 
 Lastly, we can look _forward_ for information.
@@ -14174,7 +14359,7 @@ Please consult the regex source and the test cases for precise information on
 when regex or division is matched (should you need to know). In short, you
 could sum it up as:
 
-If the end of a statement looks like a regex literal (even if it isn?셳), it
+If the end of a statement looks like a regex literal (even if it isn’t), it
 will be treated as one. Otherwise it should work as expected (if you write sane
 code).
 
@@ -14201,6 +14386,8 @@ License
 
 [MIT](LICENSE).
 
+
+
 ---
 
 # 파일 출처: .\node_modules\jsesc\README.md
@@ -14215,9 +14402,9 @@ Given some data, _jsesc_ returns a stringified representation of that data. jses
 2. it offers [many options](#api) to customize the output;
 3. its output is ASCII-safe [by default](#minimal), thanks to its use of [escape sequences](https://mathiasbynens.be/notes/javascript-escapes) where needed.
 
-For any input, jsesc generates the shortest possible valid printable-ASCII-only output. [Here?셲 an online demo.](https://mothereff.in/js-escapes)
+For any input, jsesc generates the shortest possible valid printable-ASCII-only output. [Here’s an online demo.](https://mothereff.in/js-escapes)
 
-jsesc?셲 output can be used instead of `JSON.stringify`?셲 to avoid [mojibake](https://en.wikipedia.org/wiki/Mojibake) and other encoding issues, or even to [avoid errors](https://twitter.com/annevk/status/380000829643571200) when passing JSON-formatted data (which may contain U+2028 LINE SEPARATOR, U+2029 PARAGRAPH SEPARATOR, or [lone surrogates](https://esdiscuss.org/topic/code-points-vs-unicode-scalar-values#content-14)) to a JavaScript parser or an UTF-8 encoder.
+jsesc’s output can be used instead of `JSON.stringify`’s to avoid [mojibake](https://en.wikipedia.org/wiki/Mojibake) and other encoding issues, or even to [avoid errors](https://twitter.com/annevk/status/380000829643571200) when passing JSON-formatted data (which may contain U+2028 LINE SEPARATOR, U+2029 PARAGRAPH SEPARATOR, or [lone surrogates](https://esdiscuss.org/topic/code-points-vs-unicode-scalar-values#content-14)) to a JavaScript parser or an UTF-8 encoder.
 
 ## Installation
 
@@ -14240,11 +14427,11 @@ const jsesc = require('jsesc');
 This function takes a value and returns an escaped version of the value where any characters that are not printable ASCII symbols are escaped using the shortest possible (but valid) [escape sequences for use in JavaScript strings](https://mathiasbynens.be/notes/javascript-escapes). The first supported value type is strings:
 
 ```js
-jsesc('Ich ??B체cher');
-// ??'Ich \\u2665 B\\xFCcher'
+jsesc('Ich ♥ Bücher');
+// → 'Ich \\u2665 B\\xFCcher'
 
-jsesc('foo ?뙀 bar');
-// ??'foo \\uD834\\uDF06 bar'
+jsesc('foo 𝌆 bar');
+// → 'foo \\uD834\\uDF06 bar'
 ```
 
 Instead of a string, the `value` can also be an array, an object, a map, a set, or a buffer. In such cases, `jsesc` returns a stringified version of the value where any characters that are not printable ASCII symbols are escaped in the same way.
@@ -14252,15 +14439,15 @@ Instead of a string, the `value` can also be an array, an object, a map, a set, 
 ```js
 // Escaping an array
 jsesc([
-  'Ich ??B체cher', 'foo ?뙀 bar'
+  'Ich ♥ Bücher', 'foo 𝌆 bar'
 ]);
-// ??'[\'Ich \\u2665 B\\xFCcher\',\'foo \\uD834\\uDF06 bar\']'
+// → '[\'Ich \\u2665 B\\xFCcher\',\'foo \\uD834\\uDF06 bar\']'
 
 // Escaping an object
 jsesc({
-  'Ich ??B체cher': 'foo ?뙀 bar'
+  'Ich ♥ Bücher': 'foo 𝌆 bar'
 });
-// ??'{\'Ich \\u2665 B\\xFCcher\':\'foo \\uD834\\uDF06 bar\'}'
+// → '{\'Ich \\u2665 B\\xFCcher\':\'foo \\uD834\\uDF06 bar\'}'
 ```
 
 The optional `options` argument accepts an object with the following options:
@@ -14271,13 +14458,13 @@ The default value for the `quotes` option is `'single'`. This means that any occ
 
 ```js
 jsesc('`Lorem` ipsum "dolor" sit \'amet\' etc.');
-// ??'Lorem ipsum "dolor" sit \\\'amet\\\' etc.'
+// → 'Lorem ipsum "dolor" sit \\\'amet\\\' etc.'
 
 jsesc('`Lorem` ipsum "dolor" sit \'amet\' etc.', {
   'quotes': 'single'
 });
-// ??'`Lorem` ipsum "dolor" sit \\\'amet\\\' etc.'
-// ??"`Lorem` ipsum \"dolor\" sit \\'amet\\' etc."
+// → '`Lorem` ipsum "dolor" sit \\\'amet\\\' etc.'
+// → "`Lorem` ipsum \"dolor\" sit \\'amet\\' etc."
 ```
 
 If you want to use the output as part of a string literal wrapped in double quotes, set the `quotes` option to `'double'`.
@@ -14286,8 +14473,8 @@ If you want to use the output as part of a string literal wrapped in double quot
 jsesc('`Lorem` ipsum "dolor" sit \'amet\' etc.', {
   'quotes': 'double'
 });
-// ??'`Lorem` ipsum \\"dolor\\" sit \'amet\' etc.'
-// ??"`Lorem` ipsum \\\"dolor\\\" sit 'amet' etc."
+// → '`Lorem` ipsum \\"dolor\\" sit \'amet\' etc.'
+// → "`Lorem` ipsum \\\"dolor\\\" sit 'amet' etc."
 ```
 
 If you want to use the output as part of a template literal (i.e. wrapped in backticks), set the `quotes` option to `'backtick'`.
@@ -14296,23 +14483,23 @@ If you want to use the output as part of a template literal (i.e. wrapped in bac
 jsesc('`Lorem` ipsum "dolor" sit \'amet\' etc.', {
   'quotes': 'backtick'
 });
-// ??'\\`Lorem\\` ipsum "dolor" sit \'amet\' etc.'
-// ??"\\`Lorem\\` ipsum \"dolor\" sit 'amet' etc."
-// ??`\\\`Lorem\\\` ipsum "dolor" sit 'amet' etc.`
+// → '\\`Lorem\\` ipsum "dolor" sit \'amet\' etc.'
+// → "\\`Lorem\\` ipsum \"dolor\" sit 'amet' etc."
+// → `\\\`Lorem\\\` ipsum "dolor" sit 'amet' etc.`
 ```
 
 This setting also affects the output for arrays and objects:
 
 ```js
-jsesc({ 'Ich ??B체cher': 'foo ?뙀 bar' }, {
+jsesc({ 'Ich ♥ Bücher': 'foo 𝌆 bar' }, {
   'quotes': 'double'
 });
-// ??'{"Ich \\u2665 B\\xFCcher":"foo \\uD834\\uDF06 bar"}'
+// → '{"Ich \\u2665 B\\xFCcher":"foo \\uD834\\uDF06 bar"}'
 
-jsesc([ 'Ich ??B체cher', 'foo ?뙀 bar' ], {
+jsesc([ 'Ich ♥ Bücher', 'foo 𝌆 bar' ], {
   'quotes': 'double'
 });
-// ??'["Ich \\u2665 B\\xFCcher","foo \\uD834\\uDF06 bar"]'
+// → '["Ich \\u2665 B\\xFCcher","foo \\uD834\\uDF06 bar"]'
 ```
 
 #### `numbers`
@@ -14323,22 +14510,22 @@ The default value for the `numbers` option is `'decimal'`. This means that any n
 jsesc(42, {
   'numbers': 'binary'
 });
-// ??'0b101010'
+// → '0b101010'
 
 jsesc(42, {
   'numbers': 'octal'
 });
-// ??'0o52'
+// → '0o52'
 
 jsesc(42, {
   'numbers': 'decimal'
 });
-// ??'42'
+// → '42'
 
 jsesc(42, {
   'numbers': 'hexadecimal'
 });
-// ??'0x2A'
+// → '0x2A'
 ```
 
 #### `wrap`
@@ -14350,49 +14537,49 @@ jsesc('Lorem ipsum "dolor" sit \'amet\' etc.', {
   'quotes': 'single',
   'wrap': true
 });
-// ??'\'Lorem ipsum "dolor" sit \\\'amet\\\' etc.\''
-// ??"\'Lorem ipsum \"dolor\" sit \\\'amet\\\' etc.\'"
+// → '\'Lorem ipsum "dolor" sit \\\'amet\\\' etc.\''
+// → "\'Lorem ipsum \"dolor\" sit \\\'amet\\\' etc.\'"
 
 jsesc('Lorem ipsum "dolor" sit \'amet\' etc.', {
   'quotes': 'double',
   'wrap': true
 });
-// ??'"Lorem ipsum \\"dolor\\" sit \'amet\' etc."'
-// ??"\"Lorem ipsum \\\"dolor\\\" sit \'amet\' etc.\""
+// → '"Lorem ipsum \\"dolor\\" sit \'amet\' etc."'
+// → "\"Lorem ipsum \\\"dolor\\\" sit \'amet\' etc.\""
 ```
 
 #### `es6`
 
-The `es6` option takes a boolean value (`true` or `false`), and defaults to `false` (disabled). When enabled, any astral Unicode symbols in the input are escaped using [ECMAScript 6 Unicode code point escape sequences](https://mathiasbynens.be/notes/javascript-escapes#unicode-code-point) instead of using separate escape sequences for each surrogate half. If backwards compatibility with ES5 environments is a concern, don?셳 enable this setting. If the `json` setting is enabled, the value for the `es6` setting is ignored (as if it was `false`).
+The `es6` option takes a boolean value (`true` or `false`), and defaults to `false` (disabled). When enabled, any astral Unicode symbols in the input are escaped using [ECMAScript 6 Unicode code point escape sequences](https://mathiasbynens.be/notes/javascript-escapes#unicode-code-point) instead of using separate escape sequences for each surrogate half. If backwards compatibility with ES5 environments is a concern, don’t enable this setting. If the `json` setting is enabled, the value for the `es6` setting is ignored (as if it was `false`).
 
 ```js
 // By default, the `es6` option is disabled:
-jsesc('foo ?뙀 bar ?뮝 baz');
-// ??'foo \\uD834\\uDF06 bar \\uD83D\\uDCA9 baz'
+jsesc('foo 𝌆 bar 💩 baz');
+// → 'foo \\uD834\\uDF06 bar \\uD83D\\uDCA9 baz'
 
 // To explicitly disable it:
-jsesc('foo ?뙀 bar ?뮝 baz', {
+jsesc('foo 𝌆 bar 💩 baz', {
   'es6': false
 });
-// ??'foo \\uD834\\uDF06 bar \\uD83D\\uDCA9 baz'
+// → 'foo \\uD834\\uDF06 bar \\uD83D\\uDCA9 baz'
 
 // To enable it:
-jsesc('foo ?뙀 bar ?뮝 baz', {
+jsesc('foo 𝌆 bar 💩 baz', {
   'es6': true
 });
-// ??'foo \\u{1D306} bar \\u{1F4A9} baz'
+// → 'foo \\u{1D306} bar \\u{1F4A9} baz'
 ```
 
 #### `escapeEverything`
 
-The `escapeEverything` option takes a boolean value (`true` or `false`), and defaults to `false` (disabled). When enabled, all the symbols in the output are escaped ??even printable ASCII symbols.
+The `escapeEverything` option takes a boolean value (`true` or `false`), and defaults to `false` (disabled). When enabled, all the symbols in the output are escaped — even printable ASCII symbols.
 
 ```js
 jsesc('lolwat"foo\'bar', {
   'escapeEverything': true
 });
-// ??'\\x6C\\x6F\\x6C\\x77\\x61\\x74\\"\\x66\\x6F\\x6F\\\'\\x62\\x61\\x72'
-// ??"\\x6C\\x6F\\x6C\\x77\\x61\\x74\\\"\\x66\\x6F\\x6F\\'\\x62\\x61\\x72"
+// → '\\x6C\\x6F\\x6C\\x77\\x61\\x74\\"\\x66\\x6F\\x6F\\\'\\x62\\x61\\x72'
+// → "\\x6C\\x6F\\x6C\\x77\\x61\\x74\\\"\\x66\\x6F\\x6F\\'\\x62\\x61\\x72"
 ```
 
 This setting also affects the output for string literals within arrays and objects.
@@ -14416,42 +14603,42 @@ The `minimal` option takes a boolean value (`true` or `false`), and defaults to 
 Note: with this option enabled, jsesc output is no longer guaranteed to be ASCII-safe.
 
 ```js
-jsesc('foo\u2029bar\nbaz짤qux?뙀flops', {
+jsesc('foo\u2029bar\nbaz©qux𝌆flops', {
   'minimal': false
 });
-// ??'foo\\u2029bar\\nbaz짤qux?뙀flops'
+// → 'foo\\u2029bar\\nbaz©qux𝌆flops'
 ```
 
 #### `isScriptContext`
 
-The `isScriptContext` option takes a boolean value (`true` or `false`), and defaults to `false` (disabled). When enabled, occurrences of [`</script` and `</style`](https://mathiasbynens.be/notes/etago) in the output are escaped as `<\/script` and `<\/style`, and [`<!--`](https://mathiasbynens.be/notes/etago#comment-8) is escaped as `\x3C!--` (or `\u003C!--` when the `json` option is enabled). This setting is useful when jsesc?셲 output ends up as part of a `<script>` or `<style>` element in an HTML document.
+The `isScriptContext` option takes a boolean value (`true` or `false`), and defaults to `false` (disabled). When enabled, occurrences of [`</script` and `</style`](https://mathiasbynens.be/notes/etago) in the output are escaped as `<\/script` and `<\/style`, and [`<!--`](https://mathiasbynens.be/notes/etago#comment-8) is escaped as `\x3C!--` (or `\u003C!--` when the `json` option is enabled). This setting is useful when jsesc’s output ends up as part of a `<script>` or `<style>` element in an HTML document.
 
 ```js
 jsesc('foo</script>bar', {
   'isScriptContext': true
 });
-// ??'foo<\\/script>bar'
+// → 'foo<\\/script>bar'
 ```
 
 #### `compact`
 
-The `compact` option takes a boolean value (`true` or `false`), and defaults to `true` (enabled). When enabled, the output for arrays and objects is as compact as possible; it?셲 not formatted nicely.
+The `compact` option takes a boolean value (`true` or `false`), and defaults to `true` (enabled). When enabled, the output for arrays and objects is as compact as possible; it’s not formatted nicely.
 
 ```js
-jsesc({ 'Ich ??B체cher': 'foo ?뙀 bar' }, {
+jsesc({ 'Ich ♥ Bücher': 'foo 𝌆 bar' }, {
   'compact': true // this is the default
 });
-// ??'{\'Ich \u2665 B\xFCcher\':\'foo \uD834\uDF06 bar\'}'
+// → '{\'Ich \u2665 B\xFCcher\':\'foo \uD834\uDF06 bar\'}'
 
-jsesc({ 'Ich ??B체cher': 'foo ?뙀 bar' }, {
+jsesc({ 'Ich ♥ Bücher': 'foo 𝌆 bar' }, {
   'compact': false
 });
-// ??'{\n\t\'Ich \u2665 B\xFCcher\': \'foo \uD834\uDF06 bar\'\n}'
+// → '{\n\t\'Ich \u2665 B\xFCcher\': \'foo \uD834\uDF06 bar\'\n}'
 
-jsesc([ 'Ich ??B체cher', 'foo ?뙀 bar' ], {
+jsesc([ 'Ich ♥ Bücher', 'foo 𝌆 bar' ], {
   'compact': false
 });
-// ??'[\n\t\'Ich \u2665 B\xFCcher\',\n\t\'foo \uD834\uDF06 bar\'\n]'
+// → '[\n\t\'Ich \u2665 B\xFCcher\',\n\t\'foo \uD834\uDF06 bar\'\n]'
 ```
 
 This setting has no effect on the output for strings.
@@ -14461,23 +14648,23 @@ This setting has no effect on the output for strings.
 The `indent` option takes a string value, and defaults to `'\t'`. When the `compact` setting is disabled (`false`), the value of the `indent` option is used to format the output for arrays and objects.
 
 ```js
-jsesc({ 'Ich ??B체cher': 'foo ?뙀 bar' }, {
+jsesc({ 'Ich ♥ Bücher': 'foo 𝌆 bar' }, {
   'compact': false,
   'indent': '\t' // this is the default
 });
-// ??'{\n\t\'Ich \u2665 B\xFCcher\': \'foo \uD834\uDF06 bar\'\n}'
+// → '{\n\t\'Ich \u2665 B\xFCcher\': \'foo \uD834\uDF06 bar\'\n}'
 
-jsesc({ 'Ich ??B체cher': 'foo ?뙀 bar' }, {
+jsesc({ 'Ich ♥ Bücher': 'foo 𝌆 bar' }, {
   'compact': false,
   'indent': '  '
 });
-// ??'{\n  \'Ich \u2665 B\xFCcher\': \'foo \uD834\uDF06 bar\'\n}'
+// → '{\n  \'Ich \u2665 B\xFCcher\': \'foo \uD834\uDF06 bar\'\n}'
 
-jsesc([ 'Ich ??B체cher', 'foo ?뙀 bar' ], {
+jsesc([ 'Ich ♥ Bücher', 'foo 𝌆 bar' ], {
   'compact': false,
   'indent': '  '
 });
-// ??'[\n  \'Ich \u2665 B\xFCcher\',\n\  t\'foo \uD834\uDF06 bar\'\n]'
+// → '[\n  \'Ich \u2665 B\xFCcher\',\n\  t\'foo \uD834\uDF06 bar\'\n]'
 ```
 
 This setting has no effect on the output for strings.
@@ -14491,66 +14678,66 @@ jsesc(['a', 'b', 'c'], {
   'compact': false,
   'indentLevel': 1
 });
-// ??'[\n\t\t\'a\',\n\t\t\'b\',\n\t\t\'c\'\n\t]'
+// → '[\n\t\t\'a\',\n\t\t\'b\',\n\t\t\'c\'\n\t]'
 
 jsesc(['a', 'b', 'c'], {
   'compact': false,
   'indentLevel': 2
 });
-// ??'[\n\t\t\t\'a\',\n\t\t\t\'b\',\n\t\t\t\'c\'\n\t\t]'
+// → '[\n\t\t\t\'a\',\n\t\t\t\'b\',\n\t\t\t\'c\'\n\t\t]'
 ```
 
 #### `json`
 
-The `json` option takes a boolean value (`true` or `false`), and defaults to `false` (disabled). When enabled, the output is valid JSON. [Hexadecimal character escape sequences](https://mathiasbynens.be/notes/javascript-escapes#hexadecimal) and [the `\v` or `\0` escape sequences](https://mathiasbynens.be/notes/javascript-escapes#single) are not used. Setting `json: true` implies `quotes: 'double', wrap: true, es6: false`, although these values can still be overridden if needed ??but in such cases, the output won?셳 be valid JSON anymore.
+The `json` option takes a boolean value (`true` or `false`), and defaults to `false` (disabled). When enabled, the output is valid JSON. [Hexadecimal character escape sequences](https://mathiasbynens.be/notes/javascript-escapes#hexadecimal) and [the `\v` or `\0` escape sequences](https://mathiasbynens.be/notes/javascript-escapes#single) are not used. Setting `json: true` implies `quotes: 'double', wrap: true, es6: false`, although these values can still be overridden if needed — but in such cases, the output won’t be valid JSON anymore.
 
 ```js
 jsesc('foo\x00bar\xFF\uFFFDbaz', {
   'json': true
 });
-// ??'"foo\\u0000bar\\u00FF\\uFFFDbaz"'
+// → '"foo\\u0000bar\\u00FF\\uFFFDbaz"'
 
 jsesc({ 'foo\x00bar\xFF\uFFFDbaz': 'foo\x00bar\xFF\uFFFDbaz' }, {
   'json': true
 });
-// ??'{"foo\\u0000bar\\u00FF\\uFFFDbaz":"foo\\u0000bar\\u00FF\\uFFFDbaz"}'
+// → '{"foo\\u0000bar\\u00FF\\uFFFDbaz":"foo\\u0000bar\\u00FF\\uFFFDbaz"}'
 
 jsesc([ 'foo\x00bar\xFF\uFFFDbaz', 'foo\x00bar\xFF\uFFFDbaz' ], {
   'json': true
 });
-// ??'["foo\\u0000bar\\u00FF\\uFFFDbaz","foo\\u0000bar\\u00FF\\uFFFDbaz"]'
+// → '["foo\\u0000bar\\u00FF\\uFFFDbaz","foo\\u0000bar\\u00FF\\uFFFDbaz"]'
 
-// Values that are acceptable in JSON but aren?셳 strings, arrays, or object
-// literals can?셳 be escaped, so they?셪l just be preserved:
-jsesc([ 'foo\x00bar', [1, '짤', { 'foo': true, 'qux': null }], 42 ], {
+// Values that are acceptable in JSON but aren’t strings, arrays, or object
+// literals can’t be escaped, so they’ll just be preserved:
+jsesc([ 'foo\x00bar', [1, '©', { 'foo': true, 'qux': null }], 42 ], {
   'json': true
 });
-// ??'["foo\\u0000bar",[1,"\\u00A9",{"foo":true,"qux":null}],42]'
-// Values that aren?셳 allowed in JSON are run through `JSON.stringify()`:
+// → '["foo\\u0000bar",[1,"\\u00A9",{"foo":true,"qux":null}],42]'
+// Values that aren’t allowed in JSON are run through `JSON.stringify()`:
 jsesc([ undefined, -Infinity ], {
   'json': true
 });
-// ??'[null,null]'
+// → '[null,null]'
 ```
 
-**Note:** Using this option on objects or arrays that contain non-string values relies on `JSON.stringify()`. For legacy environments like IE ??7, use [a `JSON` polyfill](http://bestiejs.github.io/json3/).
+**Note:** Using this option on objects or arrays that contain non-string values relies on `JSON.stringify()`. For legacy environments like IE ≤ 7, use [a `JSON` polyfill](http://bestiejs.github.io/json3/).
 
 #### `lowercaseHex`
 
 The `lowercaseHex` option takes a boolean value (`true` or `false`), and defaults to `false` (disabled). When enabled, any alphabetical hexadecimal digits in escape sequences as well as any hexadecimal integer literals (see [the `numbers` option](#numbers)) in the output are in lowercase.
 
 ```js
-jsesc('Ich ??B체cher', {
+jsesc('Ich ♥ Bücher', {
   'lowercaseHex': true
 });
-// ??'Ich \\u2665 B\\xfccher'
+// → 'Ich \\u2665 B\\xfccher'
 //                    ^^
 
 jsesc(42, {
   'numbers': 'hexadecimal',
   'lowercaseHex': true
 });
-// ??'0x2a'
+// → '0x2a'
 //      ^^
 ```
 
@@ -14566,24 +14753,24 @@ To use the `jsesc` binary in your shell, simply install jsesc globally using npm
 npm install -g jsesc
 ```
 
-After that you?셱e able to escape strings from the command line:
+After that you’re able to escape strings from the command line:
 
 ```bash
-$ jsesc 'f철o ??b책r ?뙀 baz'
+$ jsesc 'föo ♥ bår 𝌆 baz'
 f\xF6o \u2665 b\xE5r \uD834\uDF06 baz
 ```
 
 To escape arrays or objects containing string values, use the `-o`/`--object` option:
 
 ```bash
-$ jsesc --object '{ "f철o": "??, "b책r": "?뙀 baz" }'
+$ jsesc --object '{ "föo": "♥", "bår": "𝌆 baz" }'
 {'f\xF6o':'\u2665','b\xE5r':'\uD834\uDF06 baz'}
 ```
 
 To prettify the output in such cases, use the `-p`/`--pretty` option:
 
 ```bash
-$ jsesc --pretty '{ "f철o": "??, "b책r": "?뙀 baz" }'
+$ jsesc --pretty '{ "föo": "♥", "bår": "𝌆 baz" }'
 {
   'f\xF6o': '\u2665',
   'b\xE5r': '\uD834\uDF06 baz'
@@ -14593,7 +14780,7 @@ $ jsesc --pretty '{ "f철o": "??, "b책r": "?뙀 baz" }'
 For valid JSON output, use the `-j`/`--json` option:
 
 ```bash
-$ jsesc --json --pretty '{ "f철o": "??, "b책r": "?뙀 baz" }'
+$ jsesc --json --pretty '{ "föo": "♥", "bår": "𝌆 baz" }'
 {
   "f\u00F6o": "\u2665",
   "b\u00E5r": "\uD834\uDF06 baz"
@@ -14618,7 +14805,7 @@ See `jsesc --help` for the full list of options.
 
 As of v3.0.0, jsesc supports Node.js v6+ only.
 
-Older versions (up to jsesc v1.3.0) support Chrome 27, Firefox 3, Safari 4, Opera 10, IE 6, Node.js v6.0.0, Narwhal 0.3.2, RingoJS 0.8-0.11, PhantomJS 1.9.0, and Rhino 1.7RC4. **Note:** Using the `json` option on objects or arrays that contain non-string values relies on `JSON.parse()`. For legacy environments like IE ??7, use [a `JSON` polyfill](https://bestiejs.github.io/json3/).
+Older versions (up to jsesc v1.3.0) support Chrome 27, Firefox 3, Safari 4, Opera 10, IE 6, Node.js v6.0.0, Narwhal 0.3.2, RingoJS 0.8-0.11, PhantomJS 1.9.0, and Rhino 1.7RC4. **Note:** Using the `json` option on objects or arrays that contain non-string values relies on `JSON.parse()`. For legacy environments like IE ≤ 7, use [a `JSON` polyfill](https://bestiejs.github.io/json3/).
 
 ## Author
 
@@ -14629,6 +14816,8 @@ Older versions (up to jsesc v1.3.0) support Chrome 27, Firefox 3, Safari 4, Oper
 ## License
 
 This library is available under the [MIT](https://mths.be/mit) license.
+
+
 
 ---
 
@@ -14660,13 +14849,15 @@ SOFTWARE.
 
 [others]: https://github.com/json5/json5/contributors
 
+
+
 ---
 
 # 파일 출처: .\node_modules\json5\README.md
 
 ---
 
-# JSON5 ??JSON for Humans
+# JSON5 – JSON for Humans
 
 [![Build Status](https://app.travis-ci.com/json5/json5.svg?branch=main)][Build
 Status] [![Coverage
@@ -14676,7 +14867,7 @@ Status]
 JSON5 is an extension to the popular [JSON] file format that aims to be
 easier to **write and maintain _by hand_ (e.g. for config files)**.
 It is _not intended_ to be used for machine-to-machine communication.
-(Keep using JSON or other file formats for that. ?셽)
+(Keep using JSON or other file formats for that. 🙂)
 
 JSON5 was started in 2012, and as of 2022, now gets **[>65M downloads/week](https://www.npmjs.com/package/json5)**,
 ranks in the **[top 0.1%](https://gist.github.com/anvaka/8e8fa57c7ee1350e3491)** of the most depended-upon packages on npm,
@@ -14932,8 +15123,8 @@ reading: [Suggested Improvements to JSON](http://bolinfest.com/essays/json.html)
 JSON, but his state machine diagrams on the [JSON website](http://json.org/), as
 cheesy as it may sound, gave us motivation and confidence that building a new
 parser to implement these ideas was within reach! The original
-implementation of JSON5 was also modeled directly off of Doug?셲 open-source
-[json_parse.js] parser. We?셱e grateful for that clean and well-documented
+implementation of JSON5 was also modeled directly off of Doug’s open-source
+[json_parse.js] parser. We’re grateful for that clean and well-documented
 code.
 
 [json_parse.js]:
@@ -14949,13 +15140,15 @@ supporter, contributing multiple patches and ideas.
 with ES5, wrote the official JSON5 specification, completely rewrote the
 codebase from the ground up, and is actively maintaining this project.
 
+
+
 ---
 
 # 파일 출처: .\node_modules\lilconfig\readme.md
 
 ---
 
-# Lilconfig ?숋툘
+# Lilconfig ⚙️
 [![npm version](https://badge.fury.io/js/lilconfig.svg)](https://badge.fury.io/js/lilconfig)
 [![install size](https://packagephobia.now.sh/badge?p=lilconfig)](https://packagephobia.now.sh/result?p=lilconfig)
 [![Coverage Status](https://coveralls.io/repos/github/antonk52/lilconfig/badge.svg)](https://coveralls.io/github/antonk52/lilconfig)
@@ -15010,13 +15203,13 @@ Lilconfig does not intend to be 100% compatible with `cosmiconfig` but tries to 
 
 |cosmiconfig option      | lilconfig |
 |------------------------|-----------|
-|cache                   | ??       |
-|loaders                 | ??       |
-|ignoreEmptySearchPlaces | ??       |
-|packageProp             | ??       |
-|searchPlaces            | ??       |
-|stopDir                 | ??       |
-|transform               | ??       |
+|cache                   | ✅        |
+|loaders                 | ✅        |
+|ignoreEmptySearchPlaces | ✅        |
+|packageProp             | ✅        |
+|searchPlaces            | ✅        |
+|stopDir                 | ✅        |
+|transform               | ✅        |
 
 ## Loaders examples
 
@@ -15050,9 +15243,11 @@ lilconfig('myapp', options)
 
 ## Version correlation
 
-- lilconig v1 ??cosmiconfig v6
-- lilconig v2 ??cosmiconfig v7
-- lilconig v3 ??cosmiconfig v8
+- lilconig v1 → cosmiconfig v6
+- lilconig v2 → cosmiconfig v7
+- lilconig v3 → cosmiconfig v8
+
+
 
 ---
 
@@ -15093,6 +15288,8 @@ lines.indexForLocation({ line: 1, column: 2 })
 ## License
 
 MIT
+
+
 
 ---
 
@@ -15145,6 +15342,8 @@ loose-envify:
   52ms
   52ms
 ```
+
+
 
 ---
 
@@ -15319,6 +15518,8 @@ away.
 
     Manually iterates over the entire cache proactively pruning old entries
 
+
+
 ---
 
 # 파일 출처: .\node_modules\merge2\README.md
@@ -15459,7 +15660,7 @@ Type: `Object`.
 
 ## License
 
-MIT 짤 [Teambition](https://www.teambition.com)
+MIT © [Teambition](https://www.teambition.com)
 
 [npm-url]: https://npmjs.org/package/merge2
 [npm-image]: http://img.shields.io/npm/v/merge2.svg
@@ -15469,6 +15670,8 @@ MIT 짤 [Teambition](https://www.teambition.com)
 
 [downloads-url]: https://npmjs.org/package/merge2
 [downloads-image]: http://img.shields.io/npm/dm/merge2.svg?style=flat-square
+
+
 
 ---
 
@@ -16337,52 +16540,52 @@ As of August 23, 2024 (longer bars are better):
 
 ```sh
 # .makeRe star
-  micromatch x 2,232,802 ops/sec 짹2.34% (89 runs sampled))
-  minimatch x 781,018 ops/sec 짹6.74% (92 runs sampled))
+  micromatch x 2,232,802 ops/sec ±2.34% (89 runs sampled))
+  minimatch x 781,018 ops/sec ±6.74% (92 runs sampled))
 
 # .makeRe star; dot=true
-  micromatch x 1,863,453 ops/sec 짹0.74% (93 runs sampled)
-  minimatch x 723,105 ops/sec 짹0.75% (93 runs sampled)
+  micromatch x 1,863,453 ops/sec ±0.74% (93 runs sampled)
+  minimatch x 723,105 ops/sec ±0.75% (93 runs sampled)
 
 # .makeRe globstar
-  micromatch x 1,624,179 ops/sec 짹2.22% (91 runs sampled)
-  minimatch x 1,117,230 ops/sec 짹2.78% (86 runs sampled))
+  micromatch x 1,624,179 ops/sec ±2.22% (91 runs sampled)
+  minimatch x 1,117,230 ops/sec ±2.78% (86 runs sampled))
 
 # .makeRe globstars
-  micromatch x 1,658,642 ops/sec 짹0.86% (92 runs sampled)
-  minimatch x 741,224 ops/sec 짹1.24% (89 runs sampled))
+  micromatch x 1,658,642 ops/sec ±0.86% (92 runs sampled)
+  minimatch x 741,224 ops/sec ±1.24% (89 runs sampled))
 
 # .makeRe with leading star
-  micromatch x 1,525,014 ops/sec 짹1.63% (90 runs sampled)
-  minimatch x 561,074 ops/sec 짹3.07% (89 runs sampled)
+  micromatch x 1,525,014 ops/sec ±1.63% (90 runs sampled)
+  minimatch x 561,074 ops/sec ±3.07% (89 runs sampled)
 
 # .makeRe - braces
-  micromatch x 172,478 ops/sec 짹2.37% (78 runs sampled)
-  minimatch x 96,087 ops/sec 짹2.34% (88 runs sampled)))
+  micromatch x 172,478 ops/sec ±2.37% (78 runs sampled)
+  minimatch x 96,087 ops/sec ±2.34% (88 runs sampled)))
 
 # .makeRe braces - range (expanded)
-  micromatch x 26,973 ops/sec 짹0.84% (89 runs sampled)
-  minimatch x 3,023 ops/sec 짹0.99% (90 runs sampled))
+  micromatch x 26,973 ops/sec ±0.84% (89 runs sampled)
+  minimatch x 3,023 ops/sec ±0.99% (90 runs sampled))
 
 # .makeRe braces - range (compiled)
-  micromatch x 152,892 ops/sec 짹1.67% (83 runs sampled)
-  minimatch x 992 ops/sec 짹3.50% (89 runs sampled)d))
+  micromatch x 152,892 ops/sec ±1.67% (83 runs sampled)
+  minimatch x 992 ops/sec ±3.50% (89 runs sampled)d))
 
 # .makeRe braces - nested ranges (expanded)
-  micromatch x 15,816 ops/sec 짹13.05% (80 runs sampled)
-  minimatch x 2,953 ops/sec 짹1.64% (91 runs sampled)
+  micromatch x 15,816 ops/sec ±13.05% (80 runs sampled)
+  minimatch x 2,953 ops/sec ±1.64% (91 runs sampled)
 
 # .makeRe braces - nested ranges (compiled)
-  micromatch x 110,881 ops/sec 짹1.85% (82 runs sampled)
-  minimatch x 1,008 ops/sec 짹1.51% (91 runs sampled)
+  micromatch x 110,881 ops/sec ±1.85% (82 runs sampled)
+  minimatch x 1,008 ops/sec ±1.51% (91 runs sampled)
 
 # .makeRe braces - set (compiled)
-  micromatch x 134,930 ops/sec 짹3.54% (63 runs sampled))
-  minimatch x 43,242 ops/sec 짹0.60% (93 runs sampled)
+  micromatch x 134,930 ops/sec ±3.54% (63 runs sampled))
+  minimatch x 43,242 ops/sec ±0.60% (93 runs sampled)
 
 # .makeRe braces - nested sets (compiled)
-  micromatch x 94,455 ops/sec 짹1.74% (69 runs sampled))
-  minimatch x 27,720 ops/sec 짹1.84% (93 runs sampled))
+  micromatch x 94,455 ops/sec ±1.74% (69 runs sampled))
+  minimatch x 27,720 ops/sec ±1.84% (93 runs sampled))
 ```
 
 ## Contributing
@@ -16441,11 +16644,11 @@ $ npm install -g verbose/verb#dev verb-generate-readme && verb
 
 You might also be interested in these projects:
 
-* [braces](https://www.npmjs.com/package/braces): Bash-like brace expansion, implemented in JavaScript. Safer than other brace expansion libs, with complete support??[more](https://github.com/micromatch/braces) | [homepage](https://github.com/micromatch/braces "Bash-like brace expansion, implemented in JavaScript. Safer than other brace expansion libs, with complete support for the Bash 4.3 braces specification, without sacrificing speed.")
+* [braces](https://www.npmjs.com/package/braces): Bash-like brace expansion, implemented in JavaScript. Safer than other brace expansion libs, with complete support… [more](https://github.com/micromatch/braces) | [homepage](https://github.com/micromatch/braces "Bash-like brace expansion, implemented in JavaScript. Safer than other brace expansion libs, with complete support for the Bash 4.3 braces specification, without sacrificing speed.")
 * [expand-brackets](https://www.npmjs.com/package/expand-brackets): Expand POSIX bracket expressions (character classes) in glob patterns. | [homepage](https://github.com/micromatch/expand-brackets "Expand POSIX bracket expressions (character classes) in glob patterns.")
-* [extglob](https://www.npmjs.com/package/extglob): Extended glob support for JavaScript. Adds (almost) the expressive power of regular expressions to glob??[more](https://github.com/micromatch/extglob) | [homepage](https://github.com/micromatch/extglob "Extended glob support for JavaScript. Adds (almost) the expressive power of regular expressions to glob patterns.")
-* [fill-range](https://www.npmjs.com/package/fill-range): Fill in a range of numbers or letters, optionally passing an increment or `step` to??[more](https://github.com/jonschlinkert/fill-range) | [homepage](https://github.com/jonschlinkert/fill-range "Fill in a range of numbers or letters, optionally passing an increment or `step` to use, or create a regex-compatible range with `options.toRegex`")
-* [nanomatch](https://www.npmjs.com/package/nanomatch): Fast, minimal glob matcher for node.js. Similar to micromatch, minimatch and multimatch, but complete Bash??[more](https://github.com/micromatch/nanomatch) | [homepage](https://github.com/micromatch/nanomatch "Fast, minimal glob matcher for node.js. Similar to micromatch, minimatch and multimatch, but complete Bash 4.3 wildcard support only (no support for exglobs, posix brackets or braces)")
+* [extglob](https://www.npmjs.com/package/extglob): Extended glob support for JavaScript. Adds (almost) the expressive power of regular expressions to glob… [more](https://github.com/micromatch/extglob) | [homepage](https://github.com/micromatch/extglob "Extended glob support for JavaScript. Adds (almost) the expressive power of regular expressions to glob patterns.")
+* [fill-range](https://www.npmjs.com/package/fill-range): Fill in a range of numbers or letters, optionally passing an increment or `step` to… [more](https://github.com/jonschlinkert/fill-range) | [homepage](https://github.com/jonschlinkert/fill-range "Fill in a range of numbers or letters, optionally passing an increment or `step` to use, or create a regex-compatible range with `options.toRegex`")
+* [nanomatch](https://www.npmjs.com/package/nanomatch): Fast, minimal glob matcher for node.js. Similar to micromatch, minimatch and multimatch, but complete Bash… [more](https://github.com/micromatch/nanomatch) | [homepage](https://github.com/micromatch/nanomatch "Fast, minimal glob matcher for node.js. Similar to micromatch, minimatch and multimatch, but complete Bash 4.3 wildcard support only (no support for exglobs, posix brackets or braces)")
 
 ### Contributors
 
@@ -16494,12 +16697,14 @@ You might also be interested in these projects:
 
 ### License
 
-Copyright 짤 2024, [Jon Schlinkert](https://github.com/jonschlinkert).
+Copyright © 2024, [Jon Schlinkert](https://github.com/jonschlinkert).
 Released under the [MIT License](LICENSE).
 
 ***
 
 _This file was generated by [verb-generate-readme](https://github.com/verbose/verb-generate-readme), v0.8.0, on August 23, 2024._
+
+
 ---
 
 # 파일 출처: .\node_modules\ms\license.md
@@ -16527,6 +16732,8 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+
 
 ---
 
@@ -16593,6 +16800,8 @@ ms(ms('10 hours'), { long: true })    // "10 hours"
 3. Within the module you want to test your local development instance of ms, just link it to the dependencies: `npm link ms`. Instead of the default one from npm, Node.js will now use your clone of ms!
 
 As always, you can run the tests using: `npm test`
+
+
 
 ---
 
@@ -16666,6 +16875,8 @@ As always, you can run the tests using: `npm test`
 
  * use `bluebird` by default if found
  * support node 0.8
+
+
 
 ---
 
@@ -16780,6 +16991,8 @@ Currently, the plans are to eventually support:
 [downloads-image]: http://img.shields.io/npm/dm/mz.svg?style=flat-square
 [downloads-url]: https://npmjs.org/package/mz
 
+
+
 ---
 
 # 파일 출처: .\node_modules\nanoid\README.md
@@ -16791,18 +17004,19 @@ Currently, the plans are to eventually support:
 <img src="https://ai.github.io/nanoid/logo.svg" align="right"
      alt="Nano ID logo by Anton Lovchikov" width="180" height="94">
 
-**English** | [????克龜橘](./README.ru.md) | [嶸鵝볞릎??(./README.zh-CN.md) | [Bahasa Indonesia](./README.id-ID.md)
+**English** | [Русский](./README.ru.md) | [简体中文](./README.zh-CN.md) | [Bahasa Indonesia](./README.id-ID.md)
 
-A tiny, secure, URL-friendly, unique혻string ID혻generator for혻JavaScript.
+A tiny, secure, URL-friendly, unique string ID generator for JavaScript.
 
-> ?쏛n amazing level of senseless perfectionism,
-> which is simply impossible not to respect.??
-* **Small.** 130 bytes (minified and gzipped). No혻dependencies.
+> “An amazing level of senseless perfectionism,
+> which is simply impossible not to respect.”
+
+* **Small.** 130 bytes (minified and gzipped). No dependencies.
   [Size Limit] controls the size.
 * **Fast.** It is 2 times faster than UUID.
 * **Safe.** It uses hardware random generator. Can be used in clusters.
-* **Short IDs.** It uses a혻larger alphabet than UUID (`A-Za-z0-9_-`).
-  So ID size was reduced from혻36혻to혻21혻symbols.
+* **Short IDs.** It uses a larger alphabet than UUID (`A-Za-z0-9_-`).
+  So ID size was reduced from 36 to 21 symbols.
 * **Portable.** Nano ID was ported
   to [20 programming languages](#other-programming-languages).
 
@@ -16825,6 +17039,8 @@ Supports modern browsers, IE [with Babel], Node.js and React Native.
 ## Docs
 Read full docs **[here](https://github.com/ai/nanoid#readme)**.
 
+
+
 ---
 
 # 파일 출처: .\node_modules\node-releases\README.md
@@ -16843,6 +17059,8 @@ All data is located in `data` directory.
 ```bash
 npm install node-releases
 ```
+
+
 
 ---
 
@@ -16948,7 +17166,7 @@ $ npm install -g verbose/verb#dev verb-generate-readme && verb
 Other useful path-related libraries:
 
 * [contains-path](https://www.npmjs.com/package/contains-path): Return true if a file path contains the given path. | [homepage](https://github.com/jonschlinkert/contains-path "Return true if a file path contains the given path.")
-* [is-absolute](https://www.npmjs.com/package/is-absolute): Returns true if a file path is absolute. Does not rely on the path module??[more](https://github.com/jonschlinkert/is-absolute) | [homepage](https://github.com/jonschlinkert/is-absolute "Returns true if a file path is absolute. Does not rely on the path module and can be used as a polyfill for node.js native `path.isAbolute`.")
+* [is-absolute](https://www.npmjs.com/package/is-absolute): Returns true if a file path is absolute. Does not rely on the path module… [more](https://github.com/jonschlinkert/is-absolute) | [homepage](https://github.com/jonschlinkert/is-absolute "Returns true if a file path is absolute. Does not rely on the path module and can be used as a polyfill for node.js native `path.isAbolute`.")
 * [is-relative](https://www.npmjs.com/package/is-relative): Returns `true` if the path appears to be relative. | [homepage](https://github.com/jonschlinkert/is-relative "Returns `true` if the path appears to be relative.")
 * [parse-filepath](https://www.npmjs.com/package/parse-filepath): Pollyfill for node.js `path.parse`, parses a filepath into an object. | [homepage](https://github.com/jonschlinkert/parse-filepath "Pollyfill for node.js `path.parse`, parses a filepath into an object.")
 * [path-ends-with](https://www.npmjs.com/package/path-ends-with): Return `true` if a file path ends with the given string/suffix. | [homepage](https://github.com/jonschlinkert/path-ends-with "Return `true` if a file path ends with the given string/suffix.")
@@ -16971,12 +17189,14 @@ Other useful path-related libraries:
 
 ### License
 
-Copyright 짤 2018, [Jon Schlinkert](https://github.com/jonschlinkert).
+Copyright © 2018, [Jon Schlinkert](https://github.com/jonschlinkert).
 Released under the [MIT License](LICENSE).
 
 ***
 
 _This file was generated by [verb-generate-readme](https://github.com/verbose/verb-generate-readme), v0.6.0, on April 19, 2018._
+
+
 ---
 
 # 파일 출처: .\node_modules\object-assign\readme.md
@@ -17043,7 +17263,9 @@ Assigns enumerable own properties of `source` objects to the `target` object and
 
 ## License
 
-MIT 짤 [Sindre Sorhus](https://sindresorhus.com)
+MIT © [Sindre Sorhus](https://sindresorhus.com)
+
+
 
 ---
 
@@ -17092,7 +17314,9 @@ The Windows specific version.
 
 ## License
 
-MIT 짤 [Javier Blanco](http://jbgutierrez.info)
+MIT © [Javier Blanco](http://jbgutierrez.info)
+
+
 
 ---
 
@@ -17121,6 +17345,8 @@ console.log(
 
 ## Docs
 Read **[full docs](https://github.com/alexeyraspopov/picocolors#readme)** on GitHub.
+
+
 
 ---
 
@@ -17735,13 +17961,13 @@ The following table shows which features are supported by [minimatch](https://gi
 
 | **Feature** | `minimatch` | `micromatch` | `picomatch` | `nanomatch` | `extglob` | `braces` | `expand-brackets` |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Wildcard matching (`*?+`) | ??| ??| ??| ??| - | - | - |
-| Advancing globbing        | ??| ??| ??| - | - | - | - |
-| Brace _matching_          | ??| ??| ??| - | - | ??| - |
-| Brace _expansion_         | ??| ??| - | - | - | ??| - |
-| Extglobs                  | partial | ??| ??| - | ??| - | - |
-| Posix brackets            | - | ??| ??| - | - | - | ??|
-| Regular expression syntax | - | ??| ??| ??| ??| - | ??|
+| Wildcard matching (`*?+`) | ✔ | ✔ | ✔ | ✔ | - | - | - |
+| Advancing globbing        | ✔ | ✔ | ✔ | - | - | - | - |
+| Brace _matching_          | ✔ | ✔ | ✔ | - | - | ✔ | - |
+| Brace _expansion_         | ✔ | ✔ | - | - | - | ✔ | - |
+| Extglobs                  | partial | ✔ | ✔ | - | ✔ | - | - |
+| Posix brackets            | - | ✔ | ✔ | - | - | - | ✔ |
+| Regular expression syntax | - | ✔ | ✔ | ✔ | ✔ | - | ✔ |
 | File system operations    | - | - | - | - | - | - | - |
 
 <br>
@@ -17753,28 +17979,28 @@ Performance comparison of picomatch and minimatch.
 
 ```
 # .makeRe star
-  picomatch x 1,993,050 ops/sec 짹0.51% (91 runs sampled)
-  minimatch x 627,206 ops/sec 짹1.96% (87 runs sampled))
+  picomatch x 1,993,050 ops/sec ±0.51% (91 runs sampled)
+  minimatch x 627,206 ops/sec ±1.96% (87 runs sampled))
 
 # .makeRe star; dot=true
-  picomatch x 1,436,640 ops/sec 짹0.62% (91 runs sampled)
-  minimatch x 525,876 ops/sec 짹0.60% (88 runs sampled)
+  picomatch x 1,436,640 ops/sec ±0.62% (91 runs sampled)
+  minimatch x 525,876 ops/sec ±0.60% (88 runs sampled)
 
 # .makeRe globstar
-  picomatch x 1,592,742 ops/sec 짹0.42% (90 runs sampled)
-  minimatch x 962,043 ops/sec 짹1.76% (91 runs sampled)d)
+  picomatch x 1,592,742 ops/sec ±0.42% (90 runs sampled)
+  minimatch x 962,043 ops/sec ±1.76% (91 runs sampled)d)
 
 # .makeRe globstars
-  picomatch x 1,615,199 ops/sec 짹0.35% (94 runs sampled)
-  minimatch x 477,179 ops/sec 짹1.33% (91 runs sampled)
+  picomatch x 1,615,199 ops/sec ±0.35% (94 runs sampled)
+  minimatch x 477,179 ops/sec ±1.33% (91 runs sampled)
 
 # .makeRe with leading star
-  picomatch x 1,220,856 ops/sec 짹0.40% (92 runs sampled)
-  minimatch x 453,564 ops/sec 짹1.43% (94 runs sampled)
+  picomatch x 1,220,856 ops/sec ±0.40% (92 runs sampled)
+  minimatch x 453,564 ops/sec ±1.43% (94 runs sampled)
 
 # .makeRe - basic braces
-  picomatch x 392,067 ops/sec 짹0.70% (90 runs sampled)
-  minimatch x 99,532 ops/sec 짹2.03% (87 runs sampled))
+  picomatch x 392,067 ops/sec ±0.70% (90 runs sampled)
+  minimatch x 99,532 ops/sec ±2.03% (87 runs sampled))
 ```
 
 <br>
@@ -17842,8 +18068,10 @@ npm install -g verbose/verb#dev verb-generate-readme && verb
 
 ### License
 
-Copyright 짤 2017-present, [Jon Schlinkert](https://github.com/jonschlinkert).
+Copyright © 2017-present, [Jon Schlinkert](https://github.com/jonschlinkert).
 Released under the [MIT License](LICENSE).
+
+
 
 ---
 
@@ -17969,7 +18197,9 @@ if (promiseFn()) {
 
 ## License
 
-MIT 짤 [Sindre Sorhus](http://sindresorhus.com)
+MIT © [Sindre Sorhus](http://sindresorhus.com)
+
+
 
 ---
 
@@ -17993,7 +18223,7 @@ This library only works with commonJS.
 Two reasons:
 1. Babel and istanbul were breaking each other.
 2. Everyone seemed to re-invent the wheel on this, and everyone wanted a solution that was DRY, simple, easy to use,
-and made everything Just Work?? while allowing multiple require hooks, in a fashion similar to calling `super`.
+and made everything Just Work™, while allowing multiple require hooks, in a fashion similar to calling `super`.
 
 For some context, see [the Babel issue thread][] which started this all, then [the nyc issue thread][], where
 discussion was moved (as we began to discuss just using the code nyc had developed), and finally to [#1][issue-1]
@@ -18051,6 +18281,8 @@ See the [wiki page](https://github.com/danez/pirates/wiki/Projects-using-Pirates
 (And you should! It works best if everyone uses it. Then we can have a happy world full of happy require hooks!), please
 add yourself to the wiki.
 
+
+
 ---
 
 # 파일 출처: .\node_modules\postcss\README.md
@@ -18060,19 +18292,19 @@ add yourself to the wiki.
 # PostCSS
 
 <img align="right" width="95" height="95"
-     alt="Philosopher?셲 stone, logo of PostCSS"
+     alt="Philosopher’s stone, logo of PostCSS"
      src="https://postcss.org/logo.svg">
 
 PostCSS is a tool for transforming styles with JS plugins.
-These plugins can lint your CSS, support혻variables혻and혻mixins,
-transpile혻future혻CSS혻syntax, inline혻images, and혻more.
+These plugins can lint your CSS, support variables and mixins,
+transpile future CSS syntax, inline images, and more.
 
 PostCSS is used by industry leaders including Wikipedia, Twitter, Alibaba,
-and JetBrains. The혻[Autoprefixer] and [Stylelint]혻PostCSS plugins혻are some혻of혻the혻most popular CSS tools.
+and JetBrains. The [Autoprefixer] and [Stylelint] PostCSS plugins are some of the most popular CSS tools.
 
 ---
 
-<img src="https://cdn.evilmartians.com/badges/logo-no-label.svg" alt="" width="22" height="16" />혻혻Built by
+<img src="https://cdn.evilmartians.com/badges/logo-no-label.svg" alt="" width="22" height="16" />  Built by
 <b><a href="https://evilmartians.com/devtools?utm_source=postcss&utm_campaign=devtools-button&utm_medium=github">Evil Martians</a></b>, go-to agency for <b>developer tools</b>.
 
 ---
@@ -18085,6 +18317,8 @@ and JetBrains. The혻[Autoprefixer] and [Stylelint]혻PostCSS plugins혻are some
 
 ## Docs
 Read full docs **[here](https://postcss.org/)**.
+
+
 
 ---
 
@@ -18329,13 +18563,15 @@ This is mainly for use by postcss runners that implement file watching.
 
 ## CONTRIBUTING
 
-* ??Pull requests and ??Stars are always welcome.
+* ⇄ Pull requests and ★ Stars are always welcome.
 * For bugs and feature requests, please create an issue.
 * Pull requests must be accompanied by passing automated tests (`$ npm test`).
 
 ## [Changelog](CHANGELOG.md)
 
 ## [License](LICENSE)
+
+
 
 ---
 
@@ -18346,12 +18582,12 @@ This is mainly for use by postcss runners that implement file watching.
 # PostCSS JS
 
 <img align="right" width="135" height="95"
-     title="Philosopher?셲 stone, logo of PostCSS"
+     title="Philosopher’s stone, logo of PostCSS"
      src="https://postcss.org/logo-leftp.svg">
 
 [PostCSS] for CSS-in-JS and styles in JS objects.
 
-For example, to use [Stylelint] or [RTLCSS] plugins in혻your혻workflow.
+For example, to use [Stylelint] or [RTLCSS] plugins in your workflow.
 
 <a href="https://evilmartians.com/?utm_source=postcss-js">
   <img src="https://evilmartians.com/badges/sponsored-by-evil-martians.svg"
@@ -18365,6 +18601,8 @@ For example, to use [Stylelint] or [RTLCSS] plugins in혻your혻workflow.
 
 ## Docs
 Read full docs **[here](https://github.com/postcss/postcss-js#readme)**.
+
+
 
 ---
 
@@ -18405,8 +18643,8 @@ Create a **`postcss`** section in your project's **`package.json`**
 
 ```
 Project (Root)
-  |??client
-  |??public
+  |– client
+  |– public
   |
   |- package.json
 ```
@@ -18427,12 +18665,12 @@ Project (Root)
 
 Create a **`.postcssrc`** file in JSON or YAML format
 
-> ?뱄툘 It's recommended to use an extension (e.g **`.postcssrc.json`** or **`.postcssrc.yml`**) instead of `.postcssrc`
+> ℹ️ It's recommended to use an extension (e.g **`.postcssrc.json`** or **`.postcssrc.yml`**) instead of `.postcssrc`
 
 ```
 Project (Root)
-  |??client
-  |??public
+  |– client
+  |– public
   |
   |- (.postcssrc|.postcssrc.json|.postcssrc.yml)
   |- package.json
@@ -18482,8 +18720,8 @@ In this case create JS/TS file named:
 
 ```
 Project (Root)
-  |??client
-  |??public
+  |– client
+  |– public
   |- (.postcssrc|postcss.config).(js|mjs|cjs|ts|mts|cts)
   |- package.json
 ```
@@ -18528,7 +18766,7 @@ module.exports = ({ env }) => ({
 })
 ```
 
-> ?뱄툘 When using an `{Object}`, the key can be a Node.js module name, a path to a JavaScript file that is relative to the directory of the PostCSS config file, or an absolute path to a JavaScript file.
+> ℹ️ When using an `{Object}`, the key can be a Node.js module name, a path to a JavaScript file that is relative to the directory of the PostCSS config file, or an absolute path to a JavaScript file.
 
 #### `{Array}`
 
@@ -18681,7 +18919,7 @@ Plugin **execution order** is determined by declaration in the plugins section (
 
 When using a `{Function}` (`postcss.config.js` or `.postcssrc.js`), it's possible to pass context to `postcss-load-config`, which will be evaluated while loading your config. By default `ctx.env (process.env.NODE_ENV)` and `ctx.cwd (process.cwd())` are available on the `ctx` `{Object}`
 
-> ?뱄툘 Most third-party integrations add additional properties to the `ctx` (e.g `postcss-loader`). Check the specific module's README for more information about what is available on the respective `ctx`
+> ℹ️ Most third-party integrations add additional properties to the `ctx` (e.g `postcss-loader`). Check the specific module's README for more information about what is available on the respective `ctx`
 
 <h2 align="center">Examples</h2>
 
@@ -18833,7 +19071,7 @@ module.exports = (env) => ({
       <img width="150" height="150"
         src="https://github.com/fwouts.png?v=3&s=150">
       <br />
-      <a href="https://github.com/fwouts">Fran챌ois Wouts</a>
+      <a href="https://github.com/fwouts">François Wouts</a>
     </td>
   </tr>
   <tbody>
@@ -18847,6 +19085,8 @@ Tidelift will coordinate the fix and disclosure.
 
 [Tidelift security contact]: https://tidelift.com/security
 
+
+
 ---
 
 # 파일 출처: .\node_modules\postcss-nested\README.md
@@ -18856,7 +19096,7 @@ Tidelift will coordinate the fix and disclosure.
 # PostCSS Nested
 
 <img align="right" width="135" height="95"
-     title="Philosopher?셲 stone, logo of PostCSS"
+     title="Philosopher’s stone, logo of PostCSS"
      src="https://postcss.org/logo-leftp.svg">
 
 [PostCSS] plugin to unwrap nested rules closer to Sass syntax.
@@ -18938,6 +19178,8 @@ Alternatives:
 
 ## Docs
 Read full docs **[here](https://github.com/postcss/postcss-nested#readme)**.
+
+
 
 ---
 
@@ -19818,6 +20060,8 @@ postcss(plugin()).process(`
 //   3 | }
 ```
 
+
+
 ---
 
 # 파일 출처: .\node_modules\postcss-selector-parser\CHANGELOG.md
@@ -20015,7 +20259,7 @@ This release has **BREAKING CHANGES** that were required to fix bugs regarding v
   The normal value of a node like a class name or ID, or an aspect of a node such as attribute
   selector's value, is unescaped. Escapes representing Non-ascii characters are unescaped into
   unicode characters. For example: `bu\tton, .\31 00, #i\2764\FE0Fu, [attr="value is \"quoted\""]`
-  will parse respectively to the values `button`, `100`, `i?ㅿ툘u`, `value is "quoted"`.
+  will parse respectively to the values `button`, `100`, `i❤️u`, `value is "quoted"`.
   The original escape sequences for these values can be found in the corresponding property name
   in `node.raws`. Where possible, deprecation warnings were added, but the nature
   of escape handling makes it impossible to detect what is escaped or not. Our expectation is
@@ -20072,8 +20316,8 @@ className.value; // => 'escape for me'
 className.toString(); // => '.escape\\ for\\ me'
 
 // emoji and all non-ascii are escaped to ensure it works in every css file.
-className.value = "?삺?쫫?삆";
-className.value; // => '?삺?쫫?삆'
+className.value = "😱🦄😍";
+className.value; // => '😱🦄😍'
 className.toString(); // => '.\\1F631\\1F984\\1F60D'
 
 // you can control the escape sequence if you want, or do bad bad things
@@ -20246,7 +20490,7 @@ is now:
 * Added: Use string constants for all node types & expose them on the main
   parser instance (thanks to @Aweary).
 
-#혻2.0.0
+# 2.0.0
 
 This release contains the following breaking changes:
 
@@ -20271,7 +20515,7 @@ and;
 * Fixes an infinite loop on `)` and `]` tokens when they had no opening pairs.
   Now postcss-selector-parser will throw when it encounters these lone tokens.
 
-#혻1.3.2
+# 1.3.2
 
 * Now uses plain integers rather than `str.charCodeAt(0)` for compiled builds.
 
@@ -20374,6 +20618,8 @@ and;
 
 * Initial release.
 
+
+
 ---
 
 # 파일 출처: .\node_modules\postcss-selector-parser\README.md
@@ -20429,6 +20675,8 @@ Please see [API.md](API.md).
 ## License
 
 MIT
+
+
 
 ---
 
@@ -20698,7 +20946,9 @@ Walks each node inside `parsed.nodes`. See the documentation for `valueParser.wa
 
 # License
 
-MIT 짤 [Bogdan Chadkin](mailto:trysound@yandex.ru)
+MIT © [Bogdan Chadkin](mailto:trysound@yandex.ru)
+
+
 
 ---
 
@@ -20765,7 +21015,7 @@ You can think of `queueMicrotask` as a standardized version of `process.nextTick
 
 ## Why not use `setTimeout(fn, 0)`?
 
-This approach is the most compatible, but it has problems. Modern browsers throttle timers severely, so `setTimeout(?? 0)` usually takes at least 4ms to run. Furthermore, the throttling gets even worse if the page is backgrounded. If you have many `setTimeout` calls, then this can severely limit the performance of your program.
+This approach is the most compatible, but it has problems. Modern browsers throttle timers severely, so `setTimeout(…, 0)` usually takes at least 4ms to run. Furthermore, the throttling gets even worse if the page is backgrounded. If you have many `setTimeout` calls, then this can severely limit the performance of your program.
 
 ## Why not use a microtask library like [`immediate`](https://www.npmjs.com/package/immediate) or [`asap`](https://www.npmjs.com/package/asap)?
 
@@ -20779,11 +21029,11 @@ Since the `queueMicrotask` API is supported in Node.js, Chrome, Firefox, Safari,
 
 ## What is a shim?
 
-> In computer programming, a shim is a library that transparently intercepts API calls and changes the arguments passed, handles the operation itself or redirects the operation elsewhere. ??[Wikipedia](https://en.wikipedia.org/wiki/Shim_(computing))
+> In computer programming, a shim is a library that transparently intercepts API calls and changes the arguments passed, handles the operation itself or redirects the operation elsewhere. – [Wikipedia](https://en.wikipedia.org/wiki/Shim_(computing))
 
 This package could also be described as a "ponyfill".
 
-> A ponyfill is almost the same as a polyfill, but not quite. Instead of patching functionality for older browsers, a ponyfill provides that functionality as a standalone module you can use. ??[PonyFoo](https://ponyfoo.com/articles/polyfills-or-ponyfills)
+> A ponyfill is almost the same as a polyfill, but not quite. Instead of patching functionality for older browsers, a ponyfill provides that functionality as a standalone module you can use. – [PonyFoo](https://ponyfoo.com/articles/polyfills-or-ponyfills)
 
 ## API
 
@@ -20796,6 +21046,8 @@ The `fn` argument is a function to be executed after all pending tasks have comp
 ## license
 
 MIT. Copyright (c) [Feross Aboukhadijeh](https://feross.org).
+
+
 
 ---
 
@@ -20840,6 +21092,8 @@ See https://reactjs.org/
 ## API
 
 See https://reactjs.org/docs/react-api.html
+
+
 
 ---
 
@@ -20908,6 +21162,8 @@ See https://reactjs.org/docs/react-dom-client.html
 
 See https://reactjs.org/docs/react-dom-server.html
 
+
+
 ---
 
 # 파일 출처: .\node_modules\react-refresh\README.md
@@ -20918,7 +21174,9 @@ See https://reactjs.org/docs/react-dom-server.html
 
 This package implements the wiring necessary to integrate Fast Refresh into bundlers. Fast Refresh is a feature that lets you edit React components in a running application without losing their state. It is similar to an old feature known as "hot reloading", but Fast Refresh is more reliable and officially supported by React.
 
-This package is primarily aimed at developers of bundler plugins. If you?셱e working on one, here is a [rough guide](https://github.com/facebook/react/issues/16604#issuecomment-528663101) for Fast Refresh integration using this package.
+This package is primarily aimed at developers of bundler plugins. If you’re working on one, here is a [rough guide](https://github.com/facebook/react/issues/16604#issuecomment-528663101) for Fast Refresh integration using this package.
+
+
 
 ---
 
@@ -20971,7 +21229,9 @@ Clears the contents of the cache.
 
 ## License
 
-MIT 짤 [Bogdan Chadkin](mailto:trysound@yandex.ru)
+MIT © [Bogdan Chadkin](mailto:trysound@yandex.ru)
+
+
 
 ---
 
@@ -21028,21 +21288,21 @@ For more examples, check out `examples` directory.
 
 ## API
 
-`const stream = readdirp(root[, options])` ??**Stream API**
+`const stream = readdirp(root[, options])` — **Stream API**
 
 - Reads given root recursively and returns a `stream` of [entry infos](#entryinfo)
 - Optionally can be used like `for await (const entry of stream)` with node.js 10+ (`asyncIterator`).
 - `on('data', (entry) => {})` [entry info](#entryinfo) for every file / dir.
 - `on('warn', (error) => {})` non-fatal `Error` that prevents a file / dir from being processed. Example: inaccessible to the user.
 - `on('error', (error) => {})` fatal `Error` which also ends the stream. Example: illegal options where passed.
-- `on('end')` ??we are done. Called when all entries were found and no more will be emitted.
-- `on('close')` ??stream is destroyed via `stream.destroy()`.
+- `on('end')` — we are done. Called when all entries were found and no more will be emitted.
+- `on('close')` — stream is destroyed via `stream.destroy()`.
   Could be useful if you want to manually abort even on a non fatal error.
   At that point the stream is no longer `readable` and no more entries, warning or errors are emitted
 - To learn more about streams, consult the very detailed [nodejs streams documentation](https://nodejs.org/api/stream.html)
   or the [stream-handbook](https://github.com/substack/stream-handbook)
 
-`const entries = await readdirp.promise(root[, options])` ??**Promise API**. Returns a list of [entry infos](#entryinfo).
+`const entries = await readdirp.promise(root[, options])` — **Promise API**. Returns a list of [entry infos](#entryinfo).
 
 First argument is awalys `root`, path in which to start reading and recursing into subdirectories.
 
@@ -21102,6 +21362,8 @@ Copyright (c) 2012-2019 Thorsten Lorenz, Paul Miller (<https://paulmillr.com>)
 
 MIT License, see [LICENSE](LICENSE) file.
 
+
+
 ---
 
 # 파일 출처: .\node_modules\resolve\.claude\notes.md
@@ -21135,6 +21397,8 @@ MIT License, see [LICENSE](LICENSE) file.
 - `exportsCategory` option or `engines: true` to auto-detect from consumer's engines.node
 - Self-reference resolution respects node_modules boundaries
 
+
+
 ---
 
 # 파일 출처: .\node_modules\resolve\.github\INCIDENT_RESPONSE_PROCESS.md
@@ -21145,7 +21409,7 @@ MIT License, see [LICENSE](LICENSE) file.
 
 ## Reporting a Vulnerability
 
-We take the security of **resolve** very seriously. If you believe you?셶e found a security vulnerability, please inform us responsibly through coordinated disclosure.
+We take the security of **resolve** very seriously. If you believe you’ve found a security vulnerability, please inform us responsibly through coordinated disclosure.
 
 ### How to Report
 
@@ -21183,7 +21447,7 @@ Instead, please use one of these secure channels:
 - **Status updates**: Every 7 days until resolved
 - **Resolution target**: 90 days for most issues
 
-**What We?셪l Do:**
+**What We’ll Do:**
 1. Acknowledge your report and assign a tracking ID
 2. Assess the vulnerability and determine severity
 3. Develop and test a fix
@@ -21193,7 +21457,7 @@ Instead, please use one of these secure channels:
 
 ## Disclosure Policy
 
-- **Coordinated disclosure**: We?셪l work with you on timing
+- **Coordinated disclosure**: We’ll work with you on timing
 - **Typical timeline**: 90 days from report to public disclosure
 - **Early disclosure**: If actively exploited
 - **Delayed disclosure**: For complex issues
@@ -21251,7 +21515,7 @@ Instead, please use one of these secure channels:
 - Enable GitHub Security Advisory notifications
 
 **Update Process:**
-- Patch releases (e.g., 1.22.10 ??1.22.11)
+- Patch releases (e.g., 1.22.10 → 1.22.11)
 - Out-of-band releases for critical issues
 - Advisories via GitHub Security Advisories
 
@@ -21259,6 +21523,8 @@ Instead, please use one of these secure channels:
 
 - **Security reports**: Security tab of [browserify/resolve](https://github.com/browserify/resolve/security)
 - **General inquiries**: GitHub Discussions or Issues
+
+
 
 
 ---
@@ -21282,9 +21548,10 @@ This threat model focuses on the core path resolution algorithm, including files
 ### 3. Conceptual System Diagram
 
 ```
-Caller Application ??resolve(id, options) ??Resolution Algorithm ??File System
-                           ??                           ?붴넂 Options Handling
-                           ?붴넂 Cache System
+Caller Application → resolve(id, options) → Resolution Algorithm → File System
+                           │
+                           └→ Options Handling
+                           └→ Cache System
 ```
 
 **Trust Boundaries:**
@@ -21305,10 +21572,10 @@ Caller Application ??resolve(id, options) ??Resolution Algorithm ??File System
 
 | Component / API / Interaction                       | S  | T  | R  | I  | D  | E  |
 |-----------------------------------------------------|----|----|----|----|----|----|
-| Public API Call (`resolve/async`, `resolve/sync`)   | ?? | ?? | ?? | ?? | ?? | ?? |
-| Filesystem Access                                   | ?? | ?? | ?? | ?? | ?? | ?? |
-| Options Handling                                    | ?? | ?? | ?? | ?? | ?? | ?? |
-| Cache System                                        | ?? | ?? | ?? | ?? | ?? | ?? |
+| Public API Call (`resolve/async`, `resolve/sync`)   | ✓  | ✓  | –  | ✓  | –  | –  |
+| Filesystem Access                                   | –  | ✓  | –  | ✓  | ✓  | –  |
+| Options Handling                                    | ✓  | ✓  | –  | ✓  | –  | –  |
+| Cache System                                        | –  | ✓  | –  | ✓  | –  | –  |
 
 **Key Threats:**
 - **Spoofing:** Malicious module IDs mimicking legitimate packages, or spoofing configuration options[1].
@@ -21341,6 +21608,8 @@ Caller Application ??resolve(id, options) ??Resolution Algorithm ??File System
 5. **Keep documentation and threat model up to date.**
 6. **Monitor for new threats as the ecosystem and library evolve[1][3].**
 
+
+
 ---
 
 # 파일 출처: .\node_modules\resolve\SECURITY.md
@@ -21360,6 +21629,8 @@ See our [Incident Response Process](.github/INCIDENT_RESPONSE_PROCESS.md).
 ## Threat Model
 
 See [THREAT_MODEL.md](./THREAT_MODEL.md).
+
+
 
 ---
 
@@ -21507,6 +21778,8 @@ MIT
 [npm-badge]: https://badge.fury.io/js/reusify.svg
 [npm-url]: https://badge.fury.io/js/reusify
 
+
+
 ---
 
 # 파일 출처: .\node_modules\reusify\SECURITY.md
@@ -21528,6 +21801,8 @@ currently being supported with security updates.
 ## Reporting a Vulnerability
 
 Please report all vulnerabilities at [https://github.com/mcollina/fastq/security](https://github.com/mcollina/fastq/security).
+
+
 
 ---
 
@@ -21706,7 +21981,7 @@ Repository: git+https://github.com/paulmillr/chokidar.git
 > Copyright (c) 2012-2019 Paul Miller (https://paulmillr.com), Elan Shanker
 > 
 > Permission is hereby granted, free of charge, to any person obtaining a copy
-> of this software and associated documentation files (the ?쏶oftware??, to deal
+> of this software and associated documentation files (the “Software”), to deal
 > in the Software without restriction, including without limitation the rights
 > to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 > copies of the Software, and to permit persons to whom the Software is
@@ -21715,7 +21990,7 @@ Repository: git+https://github.com/paulmillr/chokidar.git
 > The above copyright notice and this permission notice shall be included in
 > all copies or substantial portions of the Software.
 > 
-> THE SOFTWARE IS PROVIDED ?쏛S IS?? WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+> THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 > IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 > FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 > AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
@@ -21744,7 +22019,7 @@ Repository: sindresorhus/date-time
 
 ## fill-range
 License: MIT
-By: Jon Schlinkert, Edo Rivai, Paul Miller, Rouven We횩ling
+By: Jon Schlinkert, Edo Rivai, Paul Miller, Rouven Weßling
 Repository: jonschlinkert/fill-range
 
 > The MIT License (MIT)
@@ -21888,7 +22163,7 @@ Repository: micromatch/is-glob
 
 ## is-number
 License: MIT
-By: Jon Schlinkert, Olsten Larck, Rouven We횩ling
+By: Jon Schlinkert, Olsten Larck, Rouven Weßling
 Repository: jonschlinkert/is-number
 
 > The MIT License (MIT)
@@ -22148,7 +22423,7 @@ Repository: sindresorhus/time-zone
 
 ## to-regex-range
 License: MIT
-By: Jon Schlinkert, Rouven We횩ling
+By: Jon Schlinkert, Rouven Weßling
 Repository: micromatch/to-regex-range
 
 > The MIT License (MIT)
@@ -22214,6 +22489,8 @@ Repository: https://github.com/yargs/yargs-parser.git
 > OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS,
 > WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION,
 > ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
+
 
 ---
 
@@ -22336,7 +22613,7 @@ This project exists thanks to all the people who contribute. [[Contribute](CONTR
 
 ## Backers
 
-Thank you to all our backers! ?솋 [[Become a backer](https://opencollective.com/rollup#backer)]
+Thank you to all our backers! 🙏 [[Become a backer](https://opencollective.com/rollup#backer)]
 
 <a href="https://opencollective.com/rollup#backers" target="_blank"><img src="https://opencollective.com/rollup/backers.svg?width=890"></a>
 
@@ -22355,6 +22632,8 @@ TNG has been supporting the work of [Lukas Taegert-Atkinson](https://github.com/
 ## License
 
 [MIT](https://github.com/rollup/rollup/blob/master/LICENSE.md)
+
+
 
 ---
 
@@ -22448,6 +22727,8 @@ Works great in the browser with [browserify](http://browserify.org/)!
 
 MIT. Copyright (c) [Feross Aboukhadijeh](http://feross.org).
 
+
+
 ---
 
 # 파일 출처: .\node_modules\scheduler\README.md
@@ -22463,6 +22744,8 @@ The public API for this package is not yet finalized.
 ### Thanks
 
 The React team thanks [Anton Podviaznikov](https://podviaznikov.com/) for donating the `scheduler` package name.
+
+
 
 ---
 
@@ -22914,6 +23197,8 @@ ex.
 * `s.clean('      2.1.5   ')`: `'2.1.5'`
 * `s.clean('~1.0.0')`: `null`
 
+
+
 ---
 
 # 파일 출처: .\node_modules\source-map-js\README.md
@@ -22934,9 +23219,9 @@ It's still a major block for many libraries like PostCSS or Sass for example bec
 
 ![Downloads count](media/downloads.png)
 
-More important that WASM version has some optimizations in JS code too. This is why [community asked to create branch for 0.6 version](https://github.com/mozilla/source-map/issues/324) and port these optimizations but, sadly, the answer was 짬no쨩. A bit later I discovered [the issue](https://github.com/mozilla/source-map/issues/370) created by [Ben Rothman (@benthemonkey)](https://github.com/benthemonkey) with no response at all.
+More important that WASM version has some optimizations in JS code too. This is why [community asked to create branch for 0.6 version](https://github.com/mozilla/source-map/issues/324) and port these optimizations but, sadly, the answer was «no». A bit later I discovered [the issue](https://github.com/mozilla/source-map/issues/370) created by [Ben Rothman (@benthemonkey)](https://github.com/benthemonkey) with no response at all.
 
-[Roman Dvornov (@lahmatiy)](https://github.com/lahmatiy) wrote a [serveral posts](https://t.me/gorshochekvarit/76) (russian, only, sorry) about source-map library in his own Telegram channel. He mentioned the article [짬Maybe you don't need Rust and WASM to speed up your JS쨩](https://mrale.ph/blog/2018/02/03/maybe-you-dont-need-rust-to-speed-up-your-js.html) written by [Vyacheslav Egorov (@mraleph)](https://github.com/mraleph). This article contains optimizations and hacks that lead to almost the same performance compare to WASM implementation.
+[Roman Dvornov (@lahmatiy)](https://github.com/lahmatiy) wrote a [serveral posts](https://t.me/gorshochekvarit/76) (russian, only, sorry) about source-map library in his own Telegram channel. He mentioned the article [«Maybe you don't need Rust and WASM to speed up your JS»](https://mrale.ph/blog/2018/02/03/maybe-you-dont-need-rust-to-speed-up-your-js.html) written by [Vyacheslav Egorov (@mraleph)](https://github.com/mraleph). This article contains optimizations and hacks that lead to almost the same performance compare to WASM implementation.
 
 I decided to fork the original source-map and port these optimizations from the article and several others PR from the original source-map.
 
@@ -23686,6 +23971,8 @@ node.toStringWithSourceMap({ file: "my-output-file.js" })
 //   map: [object SourceMapGenerator] }
 ```
 
+
+
 ---
 
 # 파일 출처: .\node_modules\sucrase\README.md
@@ -23988,6 +24275,8 @@ which is also MIT-licensed.
 
 Sucrase is an enzyme that processes sugar. Get it?
 
+
+
 ---
 
 # 파일 출처: .\node_modules\supports-preserve-symlinks-flag\CHANGELOG.md
@@ -24016,6 +24305,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Only apps should have lockfiles [`ab318ed`](https://github.com/inspect-js/node-supports-preserve-symlinks-flag/commit/ab318ed7ae62f6c2c0e80a50398d40912afd8f69)
 - [meta] add `safe-publish-latest` [`2bb23b3`](https://github.com/inspect-js/node-supports-preserve-symlinks-flag/commit/2bb23b3ebab02dc4135c4cdf0217db82835b9fca)
 - [meta] add `sideEffects` flag [`600223b`](https://github.com/inspect-js/node-supports-preserve-symlinks-flag/commit/600223ba24f30779f209d9097721eff35ed62741)
+
+
 
 ---
 
@@ -24066,6 +24357,8 @@ Simply clone the repo, `npm install`, and run `npm test`
 [actions-image]: https://img.shields.io/endpoint?url=https://github-actions-badge-u3jn4tfpocch.runkit.sh/inspect-js/node-supports-preserve-symlinks-flag
 [actions-url]: https://github.com/inspect-js/node-supports-preserve-symlinks-flag/actions
 
+
+
 ---
 
 # 파일 출처: .\node_modules\tailwindcss\lib\postcss-plugins\nesting\README.md
@@ -24115,6 +24408,8 @@ module.exports = {
 This can also be helpful if for whatever reason you need to use a very specific version of `postcss-nested` and want to override the version we bundle with `tailwindcss/nesting` itself.
 
 
+
+
 ---
 
 # 파일 출처: .\node_modules\tailwindcss\lib\value-parser\README.md
@@ -24124,6 +24419,8 @@ This can also be helpful if for whatever reason you need to use a very specific 
 # postcss-value-parser (forked + inlined)
 
 This is a customized version of of [PostCSS Value Parser](https://github.com/TrySound/postcss-value-parser) to fix some bugs around parsing CSS functions.
+
+
 
 ---
 
@@ -24174,6 +24471,8 @@ module.exports = {
 This can also be helpful if for whatever reason you need to use a very specific version of `postcss-nested` and want to override the version we bundle with `tailwindcss/nesting` itself.
 
 
+
+
 ---
 
 # 파일 출처: .\node_modules\tailwindcss\src\value-parser\README.md
@@ -24183,6 +24482,8 @@ This can also be helpful if for whatever reason you need to use a very specific 
 # postcss-value-parser (forked + inlined)
 
 This is a customized version of of [PostCSS Value Parser](https://github.com/TrySound/postcss-value-parser) to fix some bugs around parsing CSS functions.
+
+
 
 ---
 
@@ -24231,6 +24532,8 @@ For casual chit-chat with others using the framework:
 
 If you're interested in contributing to Tailwind CSS, please read our [contributing docs](https://github.com/tailwindcss/tailwindcss/blob/main/.github/CONTRIBUTING.md) **before submitting a pull request**.
 
+
+
 ---
 
 # 파일 출처: .\node_modules\thenify\History.md
@@ -24248,6 +24551,8 @@ If you're interested in contributing to Tailwind CSS, please read our [contribut
 ==================
 
   * feat: support options.multiArgs and options.withCallback (#27)
+
+
 
 ---
 
@@ -24376,6 +24681,8 @@ var promise = thenify(function (callback) {
 [downloads-image]: http://img.shields.io/npm/dm/thenify.svg?style=flat-square
 [downloads-url]: https://npmjs.org/package/thenify
 
+
+
 ---
 
 # 파일 출처: .\node_modules\thenify-all\History.md
@@ -24393,6 +24700,8 @@ var promise = thenify(function (callback) {
 ==================
 
   * feat: support backward compatible with callback
+
+
 
 ---
 
@@ -24467,6 +24776,8 @@ Exports [thenify](https://github.com/thenables/thenify) this package uses.
 [gittip-image]: https://img.shields.io/gratipay/jonathanong.svg?style=flat-square
 [gittip-url]: https://gratipay.com/jonathanong/
 
+
+
 ---
 
 # 파일 출처: .\node_modules\tinyglobby\node_modules\fdir\README.md
@@ -24489,19 +24800,19 @@ Exports [thenify](https://github.com/thenables/thenify) this package uses.
 </p>
 </p>
 
-??**The Fastest:** Nothing similar (in the NodeJS world) beats `fdir` in speed. It can easily crawl a directory containing **1 million files in < 1 second.**
+⚡ **The Fastest:** Nothing similar (in the NodeJS world) beats `fdir` in speed. It can easily crawl a directory containing **1 million files in < 1 second.**
 
-?뮕 **Stupidly Easy:** `fdir` uses expressive Builder pattern to build the crawler increasing code readability.
+💡 **Stupidly Easy:** `fdir` uses expressive Builder pattern to build the crawler increasing code readability.
 
-?쨼 **Zero Dependencies\*:** `fdir` only uses NodeJS `fs` & `path` modules.
+🤖 **Zero Dependencies\*:** `fdir` only uses NodeJS `fs` & `path` modules.
 
-?빜 **Astonishingly Small:** < 2KB in size gzipped & minified.
+🕺 **Astonishingly Small:** < 2KB in size gzipped & minified.
 
-?뼫 **Hackable:** Extending `fdir` is extremely simple now that the new Builder API is here. Feel free to experiment around.
+🖮 **Hackable:** Extending `fdir` is extremely simple now that the new Builder API is here. Feel free to experiment around.
 
 _\* `picomatch` must be installed manually by the user to support globbing._
 
-## ?쉪 Quickstart
+## 🚄 Quickstart
 
 ### Installation
 
@@ -24538,11 +24849,11 @@ api.withPromise().then((files) => {
 
 Documentation for all methods is available [here](/documentation.md).
 
-## ?뱤 Benchmarks:
+## 📊 Benchmarks:
 
 Please check the benchmark against the latest version [here](/BENCHMARKS.md).
 
-## ?솋Used by:
+## 🙏Used by:
 
 `fdir` is downloaded over 200k+ times a week by projects around the world. Here's a list of some notable projects using `fdir` in production:
 
@@ -24561,9 +24872,11 @@ Please check the benchmark against the latest version [here](/BENCHMARKS.md).
 11. [selfrefactor/rambda](https://github.com/selfrefactor/rambda)
 12. [whyboris/Video-Hub-App](https://github.com/whyboris/Video-Hub-App)
 
-## ?┏ LICENSE
+## 🦮 LICENSE
 
 Copyright &copy; 2024 Abdullah Atta under MIT. [Read full text here.](https://github.com/thecodrr/fdir/raw/master/LICENSE)
+
+
 
 ---
 
@@ -25199,13 +25512,13 @@ The following table shows which features are supported by [minimatch](https://gi
 
 | **Feature** | `minimatch` | `micromatch` | `picomatch` | `nanomatch` | `extglob` | `braces` | `expand-brackets` |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Wildcard matching (`*?+`) | ??| ??| ??| ??| - | - | - |
-| Advancing globbing        | ??| ??| ??| - | - | - | - |
-| Brace _matching_          | ??| ??| ??| - | - | ??| - |
-| Brace _expansion_         | ??| ??| - | - | - | ??| - |
-| Extglobs                  | partial | ??| ??| - | ??| - | - |
-| Posix brackets            | - | ??| ??| - | - | - | ??|
-| Regular expression syntax | - | ??| ??| ??| ??| - | ??|
+| Wildcard matching (`*?+`) | ✔ | ✔ | ✔ | ✔ | - | - | - |
+| Advancing globbing        | ✔ | ✔ | ✔ | - | - | - | - |
+| Brace _matching_          | ✔ | ✔ | ✔ | - | - | ✔ | - |
+| Brace _expansion_         | ✔ | ✔ | - | - | - | ✔ | - |
+| Extglobs                  | partial | ✔ | ✔ | - | ✔ | - | - |
+| Posix brackets            | - | ✔ | ✔ | - | - | - | ✔ |
+| Regular expression syntax | - | ✔ | ✔ | ✔ | ✔ | - | ✔ |
 | File system operations    | - | - | - | - | - | - | - |
 
 <br>
@@ -25217,40 +25530,40 @@ Performance comparison of picomatch and minimatch.
 
 ```
 # .makeRe star (*)
-  picomatch x 3,251,247 ops/sec 짹0.25% (95 runs sampled)
-  minimatch x 497,224 ops/sec 짹0.11% (100 runs sampled)
+  picomatch x 3,251,247 ops/sec ±0.25% (95 runs sampled)
+  minimatch x 497,224 ops/sec ±0.11% (100 runs sampled)
 
 # .makeRe star; dot=true (*)
-  picomatch x 2,624,035 ops/sec 짹0.16% (98 runs sampled)
-  minimatch x 446,244 ops/sec 짹0.63% (99 runs sampled)
+  picomatch x 2,624,035 ops/sec ±0.16% (98 runs sampled)
+  minimatch x 446,244 ops/sec ±0.63% (99 runs sampled)
 
 # .makeRe globstar (**)
-  picomatch x 2,524,465 ops/sec 짹0.13% (99 runs sampled)
-  minimatch x 1,396,257 ops/sec 짹0.58% (96 runs sampled)
+  picomatch x 2,524,465 ops/sec ±0.13% (99 runs sampled)
+  minimatch x 1,396,257 ops/sec ±0.58% (96 runs sampled)
 
 # .makeRe globstars (**/**/**)
-  picomatch x 2,545,674 ops/sec 짹0.10% (99 runs sampled)
-  minimatch x 1,196,835 ops/sec 짹0.63% (98 runs sampled)
+  picomatch x 2,545,674 ops/sec ±0.10% (99 runs sampled)
+  minimatch x 1,196,835 ops/sec ±0.63% (98 runs sampled)
 
 # .makeRe with leading star (*.txt)
-  picomatch x 2,537,708 ops/sec 짹0.11% (100 runs sampled)
-  minimatch x 345,284 ops/sec 짹0.64% (96 runs sampled)
+  picomatch x 2,537,708 ops/sec ±0.11% (100 runs sampled)
+  minimatch x 345,284 ops/sec ±0.64% (96 runs sampled)
 
 # .makeRe - basic braces ({a,b,c}*.txt)
-  picomatch x 505,430 ops/sec 짹1.04% (94 runs sampled)
-  minimatch x 107,991 ops/sec 짹0.54% (99 runs sampled)
+  picomatch x 505,430 ops/sec ±1.04% (94 runs sampled)
+  minimatch x 107,991 ops/sec ±0.54% (99 runs sampled)
 
 # .makeRe - short ranges ({a..z}*.txt)
-  picomatch x 371,179 ops/sec 짹2.91% (77 runs sampled)
-  minimatch x 14,104 ops/sec 짹0.61% (99 runs sampled)
+  picomatch x 371,179 ops/sec ±2.91% (77 runs sampled)
+  minimatch x 14,104 ops/sec ±0.61% (99 runs sampled)
 
 # .makeRe - medium ranges ({1..100000}*.txt)
-  picomatch x 384,958 ops/sec 짹1.70% (82 runs sampled)
-  minimatch x 2.55 ops/sec 짹3.22% (11 runs sampled)
+  picomatch x 384,958 ops/sec ±1.70% (82 runs sampled)
+  minimatch x 2.55 ops/sec ±3.22% (11 runs sampled)
 
 # .makeRe - long ranges ({1..10000000}*.txt)
-  picomatch x 382,552 ops/sec 짹1.52% (71 runs sampled)
-  minimatch x 0.83 ops/sec 짹5.67% (7 runs sampled))
+  picomatch x 382,552 ops/sec ±1.52% (71 runs sampled)
+  minimatch x 0.83 ops/sec ±5.67% (7 runs sampled))
 ```
 
 <br>
@@ -25318,8 +25631,10 @@ npm install -g verbose/verb#dev verb-generate-readme && verb
 
 ### License
 
-Copyright 짤 2017-present, [Jon Schlinkert](https://github.com/jonschlinkert).
+Copyright © 2017-present, [Jon Schlinkert](https://github.com/jonschlinkert).
 Released under the [MIT License](LICENSE).
+
+
 
 ---
 
@@ -25352,6 +25667,8 @@ globSync('src/**/*.ts', { ignore: '**/*.d.ts' });
 ## Documentation
 
 Visit https://superchupu.dev/tinyglobby to read the full documentation.
+
+
 
 ---
 
@@ -25527,30 +25844,30 @@ console.log(regex.test('0010')); //=> true
 
 | **Range**                   | **Result**                                                                      | **Compile time** |
 | ---                         | ---                                                                             | ---              |
-| `toRegexRange(-10, 10)`     | `-[1-9]\|-?10\|[0-9]`                                                           | _132關s_          |
-| `toRegexRange(-100, -10)`   | `-1[0-9]\|-[2-9][0-9]\|-100`                                                    | _50關s_           |
-| `toRegexRange(-100, 100)`   | `-[1-9]\|-?[1-9][0-9]\|-?100\|[0-9]`                                            | _42關s_           |
-| `toRegexRange(001, 100)`    | `0{0,2}[1-9]\|0?[1-9][0-9]\|100`                                                | _109關s_          |
-| `toRegexRange(001, 555)`    | `0{0,2}[1-9]\|0?[1-9][0-9]\|[1-4][0-9]{2}\|5[0-4][0-9]\|55[0-5]`                | _51關s_           |
-| `toRegexRange(0010, 1000)`  | `0{0,2}1[0-9]\|0{0,2}[2-9][0-9]\|0?[1-9][0-9]{2}\|1000`                         | _31關s_           |
-| `toRegexRange(1, 50)`       | `[1-9]\|[1-4][0-9]\|50`                                                         | _24關s_           |
-| `toRegexRange(1, 55)`       | `[1-9]\|[1-4][0-9]\|5[0-5]`                                                     | _23關s_           |
-| `toRegexRange(1, 555)`      | `[1-9]\|[1-9][0-9]\|[1-4][0-9]{2}\|5[0-4][0-9]\|55[0-5]`                        | _30關s_           |
-| `toRegexRange(1, 5555)`     | `[1-9]\|[1-9][0-9]{1,2}\|[1-4][0-9]{3}\|5[0-4][0-9]{2}\|55[0-4][0-9]\|555[0-5]` | _43關s_           |
-| `toRegexRange(111, 555)`    | `11[1-9]\|1[2-9][0-9]\|[2-4][0-9]{2}\|5[0-4][0-9]\|55[0-5]`                     | _38關s_           |
-| `toRegexRange(29, 51)`      | `29\|[34][0-9]\|5[01]`                                                          | _24關s_           |
-| `toRegexRange(31, 877)`     | `3[1-9]\|[4-9][0-9]\|[1-7][0-9]{2}\|8[0-6][0-9]\|87[0-7]`                       | _32關s_           |
-| `toRegexRange(5, 5)`        | `5`                                                                             | _8關s_            |
-| `toRegexRange(5, 6)`        | `5\|6`                                                                          | _11關s_           |
-| `toRegexRange(1, 2)`        | `1\|2`                                                                          | _6關s_            |
-| `toRegexRange(1, 5)`        | `[1-5]`                                                                         | _15關s_           |
-| `toRegexRange(1, 10)`       | `[1-9]\|10`                                                                     | _22關s_           |
-| `toRegexRange(1, 100)`      | `[1-9]\|[1-9][0-9]\|100`                                                        | _25關s_           |
-| `toRegexRange(1, 1000)`     | `[1-9]\|[1-9][0-9]{1,2}\|1000`                                                  | _31關s_           |
-| `toRegexRange(1, 10000)`    | `[1-9]\|[1-9][0-9]{1,3}\|10000`                                                 | _34關s_           |
-| `toRegexRange(1, 100000)`   | `[1-9]\|[1-9][0-9]{1,4}\|100000`                                                | _36關s_           |
-| `toRegexRange(1, 1000000)`  | `[1-9]\|[1-9][0-9]{1,5}\|1000000`                                               | _42關s_           |
-| `toRegexRange(1, 10000000)` | `[1-9]\|[1-9][0-9]{1,6}\|10000000`                                              | _42關s_           |
+| `toRegexRange(-10, 10)`     | `-[1-9]\|-?10\|[0-9]`                                                           | _132μs_          |
+| `toRegexRange(-100, -10)`   | `-1[0-9]\|-[2-9][0-9]\|-100`                                                    | _50μs_           |
+| `toRegexRange(-100, 100)`   | `-[1-9]\|-?[1-9][0-9]\|-?100\|[0-9]`                                            | _42μs_           |
+| `toRegexRange(001, 100)`    | `0{0,2}[1-9]\|0?[1-9][0-9]\|100`                                                | _109μs_          |
+| `toRegexRange(001, 555)`    | `0{0,2}[1-9]\|0?[1-9][0-9]\|[1-4][0-9]{2}\|5[0-4][0-9]\|55[0-5]`                | _51μs_           |
+| `toRegexRange(0010, 1000)`  | `0{0,2}1[0-9]\|0{0,2}[2-9][0-9]\|0?[1-9][0-9]{2}\|1000`                         | _31μs_           |
+| `toRegexRange(1, 50)`       | `[1-9]\|[1-4][0-9]\|50`                                                         | _24μs_           |
+| `toRegexRange(1, 55)`       | `[1-9]\|[1-4][0-9]\|5[0-5]`                                                     | _23μs_           |
+| `toRegexRange(1, 555)`      | `[1-9]\|[1-9][0-9]\|[1-4][0-9]{2}\|5[0-4][0-9]\|55[0-5]`                        | _30μs_           |
+| `toRegexRange(1, 5555)`     | `[1-9]\|[1-9][0-9]{1,2}\|[1-4][0-9]{3}\|5[0-4][0-9]{2}\|55[0-4][0-9]\|555[0-5]` | _43μs_           |
+| `toRegexRange(111, 555)`    | `11[1-9]\|1[2-9][0-9]\|[2-4][0-9]{2}\|5[0-4][0-9]\|55[0-5]`                     | _38μs_           |
+| `toRegexRange(29, 51)`      | `29\|[34][0-9]\|5[01]`                                                          | _24μs_           |
+| `toRegexRange(31, 877)`     | `3[1-9]\|[4-9][0-9]\|[1-7][0-9]{2}\|8[0-6][0-9]\|87[0-7]`                       | _32μs_           |
+| `toRegexRange(5, 5)`        | `5`                                                                             | _8μs_            |
+| `toRegexRange(5, 6)`        | `5\|6`                                                                          | _11μs_           |
+| `toRegexRange(1, 2)`        | `1\|2`                                                                          | _6μs_            |
+| `toRegexRange(1, 5)`        | `[1-5]`                                                                         | _15μs_           |
+| `toRegexRange(1, 10)`       | `[1-9]\|10`                                                                     | _22μs_           |
+| `toRegexRange(1, 100)`      | `[1-9]\|[1-9][0-9]\|100`                                                        | _25μs_           |
+| `toRegexRange(1, 1000)`     | `[1-9]\|[1-9][0-9]{1,2}\|1000`                                                  | _31μs_           |
+| `toRegexRange(1, 10000)`    | `[1-9]\|[1-9][0-9]{1,3}\|10000`                                                 | _34μs_           |
+| `toRegexRange(1, 100000)`   | `[1-9]\|[1-9][0-9]{1,4}\|100000`                                                | _36μs_           |
+| `toRegexRange(1, 1000000)`  | `[1-9]\|[1-9][0-9]{1,5}\|1000000`                                               | _42μs_           |
+| `toRegexRange(1, 10000000)` | `[1-9]\|[1-9][0-9]{1,6}\|10000000`                                              | _42μs_           |
 
 ## Heads up!
 
@@ -25628,8 +25945,8 @@ $ npm install -g verbose/verb#dev verb-generate-readme && verb
 
 You might also be interested in these projects:
 
-* [expand-range](https://www.npmjs.com/package/expand-range): Fast, bash-like range expansion. Expand a range of numbers or letters, uppercase or lowercase. Used??[more](https://github.com/jonschlinkert/expand-range) | [homepage](https://github.com/jonschlinkert/expand-range "Fast, bash-like range expansion. Expand a range of numbers or letters, uppercase or lowercase. Used by micromatch.")
-* [fill-range](https://www.npmjs.com/package/fill-range): Fill in a range of numbers or letters, optionally passing an increment or `step` to??[more](https://github.com/jonschlinkert/fill-range) | [homepage](https://github.com/jonschlinkert/fill-range "Fill in a range of numbers or letters, optionally passing an increment or `step` to use, or create a regex-compatible range with `options.toRegex`")
+* [expand-range](https://www.npmjs.com/package/expand-range): Fast, bash-like range expansion. Expand a range of numbers or letters, uppercase or lowercase. Used… [more](https://github.com/jonschlinkert/expand-range) | [homepage](https://github.com/jonschlinkert/expand-range "Fast, bash-like range expansion. Expand a range of numbers or letters, uppercase or lowercase. Used by micromatch.")
+* [fill-range](https://www.npmjs.com/package/fill-range): Fill in a range of numbers or letters, optionally passing an increment or `step` to… [more](https://github.com/jonschlinkert/fill-range) | [homepage](https://github.com/jonschlinkert/fill-range "Fill in a range of numbers or letters, optionally passing an increment or `step` to use, or create a regex-compatible range with `options.toRegex`")
 * [micromatch](https://www.npmjs.com/package/micromatch): Glob matching for javascript/node.js. A drop-in replacement and faster alternative to minimatch and multimatch. | [homepage](https://github.com/micromatch/micromatch "Glob matching for javascript/node.js. A drop-in replacement and faster alternative to minimatch and multimatch.")
 * [repeat-element](https://www.npmjs.com/package/repeat-element): Create an array by repeating the given value n times. | [homepage](https://github.com/jonschlinkert/repeat-element "Create an array by repeating the given value n times.")
 * [repeat-string](https://www.npmjs.com/package/repeat-string): Repeat the given string n times. Fastest implementation for repeating a string. | [homepage](https://github.com/jonschlinkert/repeat-string "Repeat the given string n times. Fastest implementation for repeating a string.")
@@ -25658,12 +25975,14 @@ Please consider supporting me on Patreon, or [start your own Patreon page](https
 
 ### License
 
-Copyright 짤 2019, [Jon Schlinkert](https://github.com/jonschlinkert).
+Copyright © 2019, [Jon Schlinkert](https://github.com/jonschlinkert).
 Released under the [MIT License](LICENSE).
 
 ***
 
 _This file was generated by [verb-generate-readme](https://github.com/verbose/verb-generate-readme), v0.8.0, on April 07, 2019._
+
+
 ---
 
 # 파일 출처: .\node_modules\ts-interface-checker\README.md
@@ -25856,6 +26175,8 @@ if (Square.test(unk)) {
 `CheckerT<>` will eventually support type assertions using the `check` and `strictCheck` functions,
 however, this feature is not yet fully working in TypeScript.
 
+
+
 ---
 
 # 파일 출처: .\node_modules\update-browserslist-db\README.md
@@ -25893,6 +26214,8 @@ yarn dlx update-browserslist-db@latest
 ## Docs
 Read full docs **[here](https://github.com/browserslist/update-db#readme)**.
 
+
+
 ---
 
 # 파일 출처: .\node_modules\util-deprecate\History.md
@@ -25915,6 +26238,8 @@ Read full docs **[here](https://github.com/browserslist/update-db#readme)**.
 ==================
 
   * initial commit
+
+
 
 ---
 
@@ -25975,6 +26300,8 @@ HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
 WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
+
+
 
 ---
 
@@ -26811,7 +27138,7 @@ Repository: git+https://github.com/paulmillr/chokidar.git
 > Copyright (c) 2012-2019 Paul Miller (https://paulmillr.com), Elan Shanker
 > 
 > Permission is hereby granted, free of charge, to any person obtaining a copy
-> of this software and associated documentation files (the ?쏶oftware??, to deal
+> of this software and associated documentation files (the “Software”), to deal
 > in the Software without restriction, including without limitation the rights
 > to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 > copies of the Software, and to permit persons to whom the Software is
@@ -26820,7 +27147,7 @@ Repository: git+https://github.com/paulmillr/chokidar.git
 > The above copyright notice and this permission notice shall be included in
 > all copies or substantial portions of the Software.
 > 
-> THE SOFTWARE IS PROVIDED ?쏛S IS?? WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+> THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 > IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 > FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 > AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
@@ -26958,7 +27285,7 @@ Repository: expressjs/cors
 
 ## cross-spawn
 License: MIT
-By: Andr챕 Cruz
+By: André Cruz
 Repository: git@github.com:moxystudio/node-cross-spawn.git
 
 > The MIT License (MIT)
@@ -27182,7 +27509,7 @@ License: BSD-2-Clause
 By: Felix Boehm
 Repository: git://github.com/fb55/entities.git
 
-> Copyright (c) Felix B철hm
+> Copyright (c) Felix Böhm
 > All rights reserved.
 > 
 > Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
@@ -27262,7 +27589,7 @@ Repository: https://github.com/Rich-Harris/estree-walker
 
 ## etag
 License: MIT
-By: Douglas Christopher Wilson, David Bj철rklund
+By: Douglas Christopher Wilson, David Björklund
 Repository: jshttp/etag
 
 > (The MIT License)
@@ -27371,7 +27698,7 @@ Repository: git+https://github.com/mcollina/fastq.git
 
 ## fill-range
 License: MIT
-By: Jon Schlinkert, Edo Rivai, Paul Miller, Rouven We횩ling
+By: Jon Schlinkert, Edo Rivai, Paul Miller, Rouven Weßling
 Repository: jonschlinkert/fill-range
 
 > The MIT License (MIT)
@@ -27433,7 +27760,7 @@ License: MIT
 By: Ruben Verborgh, Olivier Lalonde, James Talmage
 Repository: git@github.com:follow-redirects/follow-redirects.git
 
-> Copyright 2014?뱎resent Olivier Lalonde <olalonde@gmail.com>, James Talmage <james@talmage.io>, Ruben Verborgh
+> Copyright 2014–present Olivier Lalonde <olalonde@gmail.com>, James Talmage <james@talmage.io>, Ruben Verborgh
 > 
 > Permission is hereby granted, free of charge, to any person obtaining a copy of
 > this software and associated documentation files (the "Software"), to deal in
@@ -27667,7 +27994,7 @@ Repository: micromatch/is-glob
 
 ## is-number
 License: MIT
-By: Jon Schlinkert, Olsten Larck, Rouven We횩ling
+By: Jon Schlinkert, Olsten Larck, Rouven Weßling
 Repository: jonschlinkert/is-number
 
 > The MIT License (MIT)
@@ -28008,7 +28335,7 @@ Repository: git@github.com:teambition/merge2.git
 
 ## micromatch
 License: MIT
-By: Jon Schlinkert, Amila Welihinda, Bogdan Chadkin, Brian Woodward, Devon Govett, Elan Shanker, Fabr챠cio Matt챕, Martin Kol찼rik, Olsten Larck, Paul Miller, Tom Byrer, Tyler Akins, Peter Bright, Kuba Juszczyk
+By: Jon Schlinkert, Amila Welihinda, Bogdan Chadkin, Brian Woodward, Devon Govett, Elan Shanker, Fabrício Matté, Martin Kolárik, Olsten Larck, Paul Miller, Tom Byrer, Tyler Akins, Peter Bright, Kuba Juszczyk
 Repository: micromatch/micromatch
 
 > The MIT License (MIT)
@@ -28512,7 +28839,7 @@ Repository: https://github.com/postcss/postcss-import.git
 
 > The MIT License (MIT)
 > 
-> Copyright (c) 2014 Maxime Thirouin, Jason Campbell & Kevin M책rtensson
+> Copyright (c) 2014 Maxime Thirouin, Jason Campbell & Kevin Mårtensson
 > 
 > Permission is hereby granted, free of charge, to any person obtaining a copy of
 > this software and associated documentation files (the "Software"), to deal in
@@ -28535,7 +28862,7 @@ Repository: https://github.com/postcss/postcss-import.git
 
 ## postcss-load-config
 License: MIT
-By: Michael Ciniawky, Ryan Dunckel, Mateusz Derks, Dalton Santos, Patrick Gilday, Fran챌ois Wouts
+By: Michael Ciniawky, Ryan Dunckel, Mateusz Derks, Dalton Santos, Patrick Gilday, François Wouts
 Repository: postcss/postcss-load-config
 
 > The MIT License (MIT)
@@ -28922,12 +29249,12 @@ Repository: git://github.com/feross/run-parallel.git
 
 ## shebang-command
 License: MIT
-By: Kevin M책rtensson
+By: Kevin Mårtensson
 Repository: kevva/shebang-command
 
 > MIT License
 > 
-> Copyright (c) Kevin M책rtensson <kevinmartensson@gmail.com> (github.com/kevva)
+> Copyright (c) Kevin Mårtensson <kevinmartensson@gmail.com> (github.com/kevva)
 > 
 > Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 > 
@@ -29078,7 +29405,7 @@ Repository: git+https://github.com/antfu/strip-literal.git
 
 ## to-regex-range
 License: MIT
-By: Jon Schlinkert, Rouven We횩ling
+By: Jon Schlinkert, Rouven Weßling
 Repository: micromatch/to-regex-range
 
 > The MIT License (MIT)
@@ -29406,21 +29733,24 @@ Repository: github:eemeli/yaml
 > TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF
 > THIS SOFTWARE.
 
+
+
 ---
 
 # 파일 출처: .\node_modules\vite\README.md
 
 ---
 
-# vite ??
+# vite ⚡
+
 > Next Generation Frontend Tooling
 
-- ?뮕 Instant Server Start
-- ?∽툘 Lightning Fast HMR
-- ?썱截?Rich Features
-- ?벀 Optimized Build
-- ?뵫 Universal Plugin Interface
-- ?뵎 Fully Typed APIs
+- 💡 Instant Server Start
+- ⚡️ Lightning Fast HMR
+- 🛠️ Rich Features
+- 📦 Optimized Build
+- 🔩 Universal Plugin Interface
+- 🔑 Fully Typed APIs
 
 Vite (French word for "fast", pronounced `/vit/`) is a new breed of frontend build tool that significantly improves the frontend development experience. It consists of two major parts:
 
@@ -29431,6 +29761,8 @@ Vite (French word for "fast", pronounced `/vit/`) is a new breed of frontend bui
 In addition, Vite is highly extensible via its [Plugin API](https://vite.dev/guide/api-plugin.html) and [JavaScript API](https://vite.dev/guide/api-javascript.html) with full typing support.
 
 [Read the Docs to Learn More](https://vite.dev).
+
+
 
 ---
 
@@ -29643,42 +29975,46 @@ The data the node contains.
 The list to which this node belongs.  (Null if it does not belong to
 any list.)
 
+
+
 ---
 
 # 파일 출처: .\CHANGELOG.md
 
 ---
 
-# ?덈줎湲덉쑖?遺以묎컻 ?덊럹?댁? ?묒뾽 ?대젰
+# 새론금융대부중개 홈페이지 작업 이력
 
 ## 2026-05-17
 
-### 1. 濡쒓퀬 ?대?吏 諛고룷 ?꾨씫 ?섏젙
-- `public/logo.jpg` ?뚯씪??而ㅻ컠?섏? ?딆븘 Vercel??誘몃같???곹깭???
-- `public/logo.jpg` + `src/App.jsx` ?④퍡 而ㅻ컠 ??push ??Vercel ?먮룞 諛고룷 ?꾨즺
-- 而ㅻ컠: `fix: 濡쒓퀬 ?대?吏 諛??ㅻ뜑 ?섏젙 諛섏쁺`
+### 1. 로고 이미지 배포 누락 수정
+- `public/logo.jpg` 파일이 커밋되지 않아 Vercel에 미배포 상태였음
+- `public/logo.jpg` + `src/App.jsx` 함께 커밋 후 push → Vercel 자동 배포 완료
+- 커밋: `fix: 로고 이미지 및 헤더 수정 반영`
 
-### 2. ?ㅻ뜑 濡쒓퀬 ???덉씠釉?蹂寃?
-- 濡쒓퀬 ?대?吏 ?먯껜??"?遺以묎컻?? ?띿뒪?멸? ?ы븿?섏뼱 ?덉뼱 以묐났 臾몄젣 諛쒖깮
-- ?덉씠釉?`?遺以묎컻?? ??`??쒖쟾?? 濡?蹂寃?
-- 而ㅻ컠: `fix: ?ㅻ뜑 濡쒓퀬 ???덉씠釉?'?遺以묎컻?? ??'??쒖쟾?? 蹂寃?
+### 2. 헤더 로고 옆 레이블 변경
+- 로고 이미지 자체에 "대부중개업" 텍스트가 포함되어 있어 중복 문제 발생
+- 레이블 `대부중개업` → `대표전화` 로 변경
+- 커밋: `fix: 헤더 로고 옆 레이블 '대부중개업' → '대표전화' 변경`
 
-### 3. ?ㅻ뜑 ?덉씠釉???젣
-- `??쒖쟾?? ?덉씠釉붾룄 ?놁뿉 ?덈뒗 ??1555-2137 踰꾪듉怨?以묐났?섏뼱 遺덊븘??
-- ?덉씠釉??꾩쟾 ??젣 ??濡쒓퀬 ?대?吏留??⑤룆 ?쒖떆濡??뺣━
-- 而ㅻ컠: `fix: ?ㅻ뜑 濡쒓퀬 ??'??쒖쟾?? ?덉씠釉???젣`
+### 3. 헤더 레이블 삭제
+- `대표전화` 레이블도 옆에 있는 ☎ 1555-2137 버튼과 중복되어 불필요
+- 레이블 완전 삭제 → 로고 이미지만 단독 표시로 정리
+- 커밋: `fix: 헤더 로고 옆 '대표전화' 레이블 삭제`
 
 ---
 
-## ?꾩옱 ?ㅻ뜑 援ъ“
-- ?쇱そ: ?덈줎湲덉쑖?遺以묎컻 濡쒓퀬 ?대?吏 (height: 64px)
-- ?ㅻⅨ履? ??1555-2137 踰꾪듉 (?몃???
+## 현재 헤더 구조
+- 왼쪽: 새론금융대부중개 로고 이미지 (height: 64px)
+- 오른쪽: ☎ 1555-2137 버튼 (노란색)
 
-## GitHub ??μ냼
+## GitHub 저장소
 - https://github.com/HeeJeonLee/saeloan-financial
 
-## ?댁쁺 ?꾨찓??
+## 운영 도메인
 - https://saeloan.co.kr
+
+
 
 ---
 
@@ -29686,607 +30022,609 @@ any list.)
 
 ---
 
-# ?덈줎湲덉쑖?遺以묎컻 - ?꾩쟾 ?먮룞??AI Agent ?쒖뒪??
-## ?꾩쟾 珥덈낫??媛?대뱶 | 鍮꾩슜 0??| 臾댁씤 ?댁쁺
-### GitHub ??μ냼: https://github.com/HeeJeonLee/saeloan-financial
-### ?대뒓 PC?먯꽌????二쇱냼濡??묎렐 媛??
+# 새론금융대부중개 - 완전 자동화 AI Agent 시스템
+## 완전 초보자 가이드 | 비용 0원 | 무인 운영
+### GitHub 저장소: https://github.com/HeeJeonLee/saeloan-financial
+### 어느 PC에서든 위 주소로 접근 가능
 
 ---
 
-> **??臾몄꽌 ?섎굹濡?紐⑤뱺 寃껋씠 ?닿꺼 ?덉뒿?덈떎.**
-> ?명꽣?력텮I ?꾩쟾 珥덈낫?먮룄 ?곕씪?????덈룄濡??묒꽦?덉뒿?덈떎.
-> 紐⑤Ⅴ???⑥뼱媛 ?섏삤硫?愿꾪샇 ???ㅻ챸???쎌쑝?몄슂.
+> **이 문서 하나로 모든 것이 담겨 있습니다.**
+> 인터넷·AI 완전 초보자도 따라할 수 있도록 작성했습니다.
+> 모르는 단어가 나오면 괄호 안 설명을 읽으세요.
 
 ---
 
-# ?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺
-# 1?④퀎: ?꾩껜 洹몃┝ ?댄빐?섍린 (5遺?
-# ?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 1단계: 전체 그림 이해하기 (5분)
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-## 吏湲?留뚮뱾 ?쒖뒪?쒖씠 ?섎뒗 ??
+## 지금 만들 시스템이 하는 일
 
 ```
-?댄씗????λ떂???꾨Т寃껊룄 ???대룄:
+이희전 팀장님이 아무것도 안 해도:
 
-[留ㅼ씪 ?ㅼ쟾 9??
-  AI媛 ?먮룞?쇰줈 ???붾젅洹몃옩 梨꾨꼸???異??뺣낫 寃뚯떆
-                ??寃뚯떆臾??쒗솚 (90?쇱튂 肄섑뀗痢??먮룞 諛섎났)
+[매일 오전 9시]
+  AI가 자동으로 → 텔레그램 채널에 대출 정보 게시
+                → 게시물 순환 (90일치 콘텐츠 자동 반복)
 
-[怨좉컼??愿묎퀬 蹂닿퀬 愿???앷린硫?
-  怨좉컼 ???덊럹?댁?(saeloan.co.kr) ?대┃
-       ???곷떞?좎껌 ???묒꽦
-       ???댄씗???몃뱶?곗뿉 利됱떆 ?뚮┝ 臾몄옄 ?꾩갑
-       ???댄씗???대찓?쇱뿉 怨좉컼 ?뺣낫 利됱떆 ?섏떊
-       ??援ш? ?쒗듃???먮룞 湲곕줉
+[고객이 광고 보고 관심 생기면]
+  고객 → 홈페이지(saeloan.co.kr) 클릭
+       → 상담신청 폼 작성
+       → 이희전 핸드폰에 즉시 알림 문자 도착
+       → 이희전 이메일에 고객 정보 즉시 수신
+       → 구글 시트에 자동 기록
 
-[?댄씗????λ떂??????
-  ???꾪솕 諛쏄린
-  ???대찓???뺤씤 ???꾪솕 ?쒕━湲?
-  ???닿쾬肉먯엯?덈떎.
+[이희전 팀장님이 할 일]
+  → 전화 받기
+  → 이메일 확인 후 전화 드리기
+  → 이것뿐입니다.
 ```
 
 ---
 
-# ?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺
-# 2?④퀎: ?ъ슜??臾대즺 ?꾧뎄 紐⑸줉
-# ?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 2단계: 사용할 무료 도구 목록
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-| ?꾧뎄 ?대쫫 | ?섎뒗 ??| 鍮꾩슜 | ?대졄湲?|
+| 도구 이름 | 하는 일 | 비용 | 어렵기 |
 |---|---|---|---|
-| ?붾젅洹몃옩 | SNS 梨꾨꼸 (?먮룞 湲 ?щ━湲? | 臾대즺 | 狩??ъ? |
-| 援ш? 怨꾩젙 | ?대찓?셋룻뤌쨌?쒗듃 ?듯빀愿由?| 臾대즺 | 狩??ъ? |
-| 援ш? ??| 怨좉컼 ?곷떞?좎껌 諛쏄린 | 臾대즺 | 狩??ъ? |
-| 援ш? ?쒗듃 | 怨좉컼 紐⑸줉 ?먮룞 ?뺣━ | 臾대즺 | 狩??ъ? |
-| 援ш? ?깆뒪?щ┰??| ?먮룞???붿쭊 (蹂듬텤留??섎㈃ ?? | 臾대즺 | 狩먥춴 |
-| ?덊럹?댁? | saeloan.co.kr (?대? ?꾩꽦) | 臾대즺(Vercel) | ???꾨즺 |
-| GitHub | ?묒뾽 ??μ냼 (?대뵒?쒕뱺 ?묎렐) | 臾대즺 | ???꾨즺 |
+| 텔레그램 | SNS 채널 (자동 글 올리기) | 무료 | ⭐ 쉬움 |
+| 구글 계정 | 이메일·폼·시트 통합관리 | 무료 | ⭐ 쉬움 |
+| 구글 폼 | 고객 상담신청 받기 | 무료 | ⭐ 쉬움 |
+| 구글 시트 | 고객 목록 자동 정리 | 무료 | ⭐ 쉬움 |
+| 구글 앱스크립트 | 자동화 엔진 (복붙만 하면 됨) | 무료 | ⭐⭐ |
+| 홈페이지 | saeloan.co.kr (이미 완성) | 무료(Vercel) | ✅ 완료 |
+| GitHub | 작업 저장소 (어디서든 접근) | 무료 | ✅ 완료 |
 
-**珥?鍮꾩슜: 0??*
-
----
-
-# ?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺
-# 3?④퀎: ?붾젅洹몃옩 ?ㅼ튂 (30遺?
-# ?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺
-
-## 3-1. ?붾젅洹몃옩 ???ㅼ튂
-
-1. ?몃뱶???깆뒪?좎뼱(?덈뱶濡쒖씠?? ?뚮젅?댁뒪?좎뼱 / ?꾩씠?? ?깆뒪?좎뼱) ?닿린
-2. 寃?됱갹??**"?붾젅洹몃옩"** ?낅젰
-3. ?ㅼ튂 ???몃뱶??踰덊샇濡?媛??
-4. ?꾨즺
-
-## 3-2. ?곸뾽 梨꾨꼸 留뚮뱾湲?
-
-1. ?붾젅洹몃옩 ???닿린
-2. ?쇱そ ??以?3媛??? ?꾨Ⅴ湲?
-3. **"??梨꾨꼸"** ?꾨Ⅴ湲?
-4. 梨꾨꼸 ?대쫫 ?낅젰: `?덈줎湲덉쑖 | ?꾪뙆?몃떞蹂대?異??꾨Ц`
-5. 梨꾨꼸 ?ㅻ챸 ?낅젰:
-   ```
-   ?쒖슱쨌?섎룄沅??꾪뙆?몃떞蹂대?異??꾨Ц
-   ?먯쁺?낆옄 異붽??먭툑 | 援ъ엯?먭툑 釉뚮┸吏 | ?좏삊쨌湲덇퀬 ?꾪솚
-   ?뱸 010-5927-9205 | saeloan.co.kr
-   ?깅줉: 2026-?섏썝-2324
-   ```
-6. **"怨듦컻 梨꾨꼸"** ?좏깮
-7. 留곹겕 二쇱냼 ?낅젰: `saeloan_apt` (?먮뒗 ?먰븯???곷Ц)
-8. ?꾨즺 踰꾪듉 ?꾨Ⅴ湲?
-
-## 3-3. ?먮룞諛쒗뻾 遊?留뚮뱾湲?
-
-1. ?붾젅洹몃옩 寃?됱갹??**`@BotFather`** 寃??
-2. ?쒖옉 踰꾪듉 ?꾨Ⅴ湲?
-3. `/newbot` ?낅젰?섍퀬 ?꾩넚
-4. 遊??대쫫 ?낅젰: `?덈줎湲덉쑖遊?
-5. 遊??꾩씠???낅젰: `saeloan_auto_bot`
-6. **?좏겙 踰덊샇 諛쏄린** (?? `7654321:ABCxyz...`)
-   ????踰덊샇瑜?硫붾え?μ뿉 蹂듭궗?대몢?몄슂 ?낆쨷?붴쁾
-
-## 3-4. 遊뉗쓣 梨꾨꼸 愿由ъ옄濡?異붽?
-
-1. 留뚮뱺 梨꾨꼸 ?ㅼ뼱媛湲?
-2. 梨꾨꼸 ?대쫫 ?꾨Ⅴ湲???**"愿由ъ옄"** ??**"愿由ъ옄 異붽?"**
-3. 寃?됱갹???꾧퉴 留뚮뱺 遊??대쫫 ?낅젰
-4. 異붽? ??**硫붿떆吏 ?꾩넚 沅뚰븳** 泥댄겕 ???꾨즺
+**총 비용: 0원**
 
 ---
 
-# ?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺
-# 4?④퀎: 援ш? ?먮룞???ㅼ젙 (1?쒓컙)
-# ?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 3단계: 텔레그램 설치 (30분)
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-## 4-1. 援ш? 怨꾩젙 留뚮뱾湲?(?대? ?덉쑝硫?嫄대꼫?)
+## 3-1. 텔레그램 앱 설치
 
-1. ?щ＼ 釉뚮씪?곗? ?닿린
-2. gmail.com ?묒냽
-3. **"怨꾩젙 留뚮뱾湲?** ?대┃
-4. ?대쫫, ?대찓??二쇱냼, 鍮꾨?踰덊샇 ?낅젰
-5. ?꾨즺
+1. 핸드폰 앱스토어(안드로이드: 플레이스토어 / 아이폰: 앱스토어) 열기
+2. 검색창에 **"텔레그램"** 입력
+3. 설치 → 핸드폰 번호로 가입
+4. 완료
 
-## 4-2. 援ш? ??(?곷떞?좎껌 ?? 留뚮뱾湲?
+## 3-2. 영업 채널 만들기
 
-1. ?щ＼?먯꽌 **forms.google.com** ?낅젰 ???묒냽
-2. **"+"** (???묒떇 留뚮뱾湲? ?대┃
-3. ?쒕ぉ ?낅젰: `?덈줎湲덉쑖?遺以묎컻 ?꾪뙆?몃떞蹂?臾대즺 ?곷떞?좎껌`
-4. ?꾨옒 吏덈Ц?ㅼ쓣 異붽? (媛곴컖 **"吏덈Ц 異붽?"** ?대┃):
+1. 텔레그램 앱 열기
+2. 왼쪽 위 줄 3개(☰) 누르기
+3. **"새 채널"** 누르기
+4. 채널 이름 입력: `새론금융 | 아파트담보대출 전문`
+5. 채널 설명 입력:
+   ```
+   서울·수도권 아파트담보대출 전문
+   자영업자 추가자금 | 구입자금 브릿지 | 신협·금고 전환
+   📞 010-5927-9205 | saeloan.co.kr
+   등록: 2026-수원-2324
+   ```
+6. **"공개 채널"** 선택
+7. 링크 주소 입력: `saeloan_apt` (또는 원하는 영문)
+8. 완료 버튼 누르기
 
-| 吏덈Ц | ?좏삎 | ?꾩닔 |
+## 3-3. 자동발행 봇 만들기
+
+1. 텔레그램 검색창에 **`@BotFather`** 검색
+2. 시작 버튼 누르기
+3. `/newbot` 입력하고 전송
+4. 봇 이름 입력: `새론금융봇`
+5. 봇 아이디 입력: `saeloan_auto_bot`
+6. **토큰 번호 받기** (예: `7654321:ABCxyz...`)
+   → 이 번호를 메모장에 복사해두세요 ★중요★
+
+## 3-4. 봇을 채널 관리자로 추가
+
+1. 만든 채널 들어가기
+2. 채널 이름 누르기 → **"관리자"** → **"관리자 추가"**
+3. 검색창에 아까 만든 봇 이름 입력
+4. 추가 → **메시지 전송 권한** 체크 → 완료
+
+---
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 4단계: 구글 자동화 설정 (1시간)
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+## 4-1. 구글 계정 만들기 (이미 있으면 건너뜀)
+
+1. 크롬 브라우저 열기
+2. gmail.com 접속
+3. **"계정 만들기"** 클릭
+4. 이름, 이메일 주소, 비밀번호 입력
+5. 완료
+
+## 4-2. 구글 폼 (상담신청 폼) 만들기
+
+1. 크롬에서 **forms.google.com** 입력 후 접속
+2. **"+"** (새 양식 만들기) 클릭
+3. 제목 입력: `새론금융대부중개 아파트담보 무료 상담신청`
+4. 아래 질문들을 추가 (각각 **"질문 추가"** 클릭):
+
+| 질문 | 유형 | 필수 |
 |---|---|---|
-| ?대쫫 | ?⑤떟??| ??|
-| ?곕씫泥?(010-0000-0000) | ?⑤떟??| ??|
-| ?꾪뙆???뚯옱吏 (?? ?쒖슱 媛뺣룞援? | ?⑤떟??| ??|
-| ?꾪뙆??????쒖꽭 | 媛앷???| - |
-| ?꾩슂???먭툑 醫낅쪟 | 媛앷???| - |
-| ?대찓??(?먮룞?듭옣 ?먰븯?쒕㈃ ?낅젰) | ?⑤떟??| - |
-| 臾몄쓽?ы빆 | ?λЦ??| - |
+| 이름 | 단답형 | ✅ |
+| 연락처 (010-0000-0000) | 단답형 | ✅ |
+| 아파트 소재지 (예: 서울 강동구) | 단답형 | ✅ |
+| 아파트 대략 시세 | 객관식 | - |
+| 필요한 자금 종류 | 객관식 | - |
+| 이메일 (자동답장 원하시면 입력) | 단답형 | - |
+| 문의사항 | 장문형 | - |
 
-**"?꾪뙆??????쒖꽭" ?좏깮吏:**
-- 10??誘몃쭔
-- 10??15??
-- 15??20??
-- 20??25??
-- 25??珥덇낵
+**"아파트 대략 시세" 선택지:**
+- 10억 미만
+- 10억~15억
+- 15억~20억
+- 20억~25억
+- 25억 초과
 
-**"?꾩슂???먭툑 醫낅쪟" ?좏깮吏:**
-- ?먯쁺?낆옄 異붽? ?먭툑 (????쒕룄 珥덇낵)
-- ?꾪뙆??援ъ엯 ?붽툑
-- 寃쎈ℓ ?숈같 ?붽툑
-- 湲곗〈 ?遺???異??좏삊쨌湲덇퀬 ?꾪솚
-- 湲고?
+**"필요한 자금 종류" 선택지:**
+- 자영업자 추가 자금 (은행 한도 초과)
+- 아파트 구입 잔금
+- 경매 낙찰 잔금
+- 기존 대부업 대출 신협·금고 전환
+- 기타
 
-5. ?곗륫 ?곷떒 **蹂대궡湲?* ??留곹겕 蹂듭궗???먭린
+5. 우측 상단 **보내기** → 링크 복사해 두기
 
-## 4-3. ?먮룞???ㅽ겕由쏀듃 ?ㅼ튂
+## 4-3. 자동화 스크립트 설치
 
-### ?낆씠 遺遺꾩씠 ?듭떖?낅땲?? 蹂듭궗쨌遺숈뿬?ｊ린留??섎㈃ ?⑸땲?ㅲ쁾
+### ★이 부분이 핵심입니다. 복사·붙여넣기만 하면 됩니다★
 
-1. ?щ＼?먯꽌 **script.google.com** ?묒냽
-2. **"???꾨줈?앺듃"** ?대┃
-3. ?쒕ぉ??`?덈줎湲덉쑖_?붾젅洹몃옩_?먮룞諛쒗뻾`?쇰줈 蹂寃?
-4. ?붾㈃??肄붾뱶 ?꾩껜 ?좏깮(Ctrl+A) ????젣
-5. ?꾨옒 二쇱냼???뚯씪 ?댁슜??蹂듭궗?댁꽌 遺숈뿬?ｊ린:
+1. 크롬에서 **script.google.com** 접속
+2. **"새 프로젝트"** 클릭
+3. 제목을 `새론금융_텔레그램_자동발행`으로 변경
+4. 화면의 코드 전체 선택(Ctrl+A) 후 삭제
+5. 아래 주소의 파일 내용을 복사해서 붙여넣기:
    ```
    GitHub: automation/telegram_auto_poster.js
    (https://github.com/HeeJeonLee/saeloan-financial/blob/main/automation/telegram_auto_poster.js)
    ```
-6. **`YOUR_BOT_TOKEN`** ??李얠븘??3-3?먯꽌 諛쏆? ?좏겙 踰덊샇濡?援먯껜
-7. **`@saeloan_finance`** 瑜?留뚮뱺 梨꾨꼸 留곹겕濡?援먯껜
-8. ???Ctrl+S)
-9. ?곷떒 **"?몃━嫄?** 硫붾돱 ??**"?몃━嫄?異붽?"** ???ㅼ젙:
-   - ?ㅽ뻾 ?⑥닔: `postDailyContent`
-   - ?대깽?? ?쒓컙 湲곕컲 ??留ㅼ씪 ???ㅼ쟾 9??
-10. **???* ??沅뚰븳 ?덉슜
+6. **`YOUR_BOT_TOKEN`** 을 찾아서 3-3에서 받은 토큰 번호로 교체
+7. **`@saeloan_finance`** 를 만든 채널 링크로 교체
+8. 저장(Ctrl+S)
+9. 상단 **"트리거"** 메뉴 → **"트리거 추가"** → 설정:
+   - 실행 함수: `postDailyContent`
+   - 이벤트: 시간 기반 → 매일 → 오전 9시
+10. **저장** → 권한 허용
 
-### ?뚯뒪??諛⑸쾿
-1. ?⑥닔 紐⑸줉?먯꽌 `testSend` ?좏깮
-2. **?ㅽ뻾(??** 踰꾪듉 ?대┃
-3. ?붾젅洹몃옩 梨꾨꼸??硫붿떆吏媛 ?ㅻ㈃ ?깃났!
+### 테스트 방법
+1. 함수 목록에서 `testSend` 선택
+2. **실행(▶)** 버튼 클릭
+3. 텔레그램 채널에 메시지가 오면 성공!
 
-## 4-4. ?곷떞?좎껌 ?먮룞 ?대찓???뚮┝ ?ㅼ튂
+## 4-4. 상담신청 자동 이메일 알림 설치
 
-1. **forms.google.com** ??留뚮뱺 ???닿린
-2. ?곷떒 ??3媛??? ??**"?ㅽ겕由쏀듃 ?몄쭛湲?**
-3. 肄붾뱶 ?꾩껜 ??젣 ???꾨옒 ?뚯씪 ?댁슜 遺숈뿬?ｊ린:
+1. **forms.google.com** → 만든 폼 열기
+2. 상단 점 3개(⋮) → **"스크립트 편집기"**
+3. 코드 전체 삭제 후 아래 파일 내용 붙여넣기:
    ```
    GitHub: automation/google_form_autoresponder.js
    (https://github.com/HeeJeonLee/saeloan-financial/blob/main/automation/google_form_autoresponder.js)
    ```
-4. `YOUR_EMAIL@gmail.com` ???댄씗???대찓?쇰줈 援먯껜
-5. ???
-6. ?몃━嫄?異붽?:
-   - ?ㅽ뻾 ?⑥닔: `onFormSubmit`
-   - ?대깽?? **???쒖텧 ??*
-7. ?????沅뚰븳 ?덉슜
+4. `YOUR_EMAIL@gmail.com` → 이희전 이메일로 교체
+5. 저장
+6. 트리거 추가:
+   - 실행 함수: `onFormSubmit`
+   - 이벤트: **폼 제출 시**
+7. 저장 → 권한 허용
 
 ---
 
-# ?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺
-# 5?④퀎: 移댁뭅?ㅽ넚 梨꾨꼸 媛쒖꽕 (1???뚯슂)
-# ?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 5단계: 카카오톡 채널 개설 (1일 소요)
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-1. **business.kakao.com** ?묒냽
-2. **"移댁뭅?ㅽ넚 梨꾨꼸 ?쒖옉?섍린"**
-3. 梨꾨꼸紐? `?덈줎湲덉쑖?遺以묎컻`
-4. 移댄뀒怨좊━: 湲덉쑖 ???異?
-5. ?꾨줈???대?吏: 濡쒓퀬(logo.jpg) ?낅줈??
-6. ?뚭컻:
+1. **business.kakao.com** 접속
+2. **"카카오톡 채널 시작하기"**
+3. 채널명: `새론금융대부중개`
+4. 카테고리: 금융 → 대출
+5. 프로필 이미지: 로고(logo.jpg) 업로드
+6. 소개:
    ```
-   ?쒖슱쨌?섎룄沅??꾪뙆?몃떞蹂대?異??꾨Ц
-   ?먯쁺?낆옄 異붽??먭툑 | 援ъ엯?먭툑 釉뚮┸吏
-   ??010-5927-9205
-   ?깅줉: 2026-?섏썝-2324
-   ?좑툘 怨쇰룄??鍮?二쇱쓽
+   서울·수도권 아파트담보대출 전문
+   자영업자 추가자금 | 구입자금 브릿지
+   ☎ 010-5927-9205
+   등록: 2026-수원-2324
+   ⚠️ 과도한 빚 주의
    ```
-7. **?먮룞?묐떟 ?ㅼ젙:**
-   - ?ㅼ썙?? ?異? ?곷떞, ?쒕룄, ?꾪뙆?? ?대낫
-   - ?먮룞?묐떟 ?댁슜:
+7. **자동응답 설정:**
+   - 키워드: 대출, 상담, 한도, 아파트, 담보
+   - 자동응답 내용:
    ```
-   ?덈뀞?섏꽭?? ?덈줎湲덉쑖?遺以묎컻?낅땲?? ?삃
+   안녕하세요! 새론금융대부중개입니다. 😊
    
-   ?꾪뙆?몃떞蹂대?異?臾대즺 ?곷떞?좎껌:
-   ?몛 saeloan.co.kr
+   아파트담보대출 무료 상담신청:
+   👉 saeloan.co.kr
    
-   鍮좊Ⅸ ?곷떞: ?벑 010-5927-9205
+   빠른 상담: 📱 010-5927-9205
    
-   ??1555-2137
-   ?좑툘 ???댁쑉 ?곷떞 ???뺤젙 | ?깅줉 2026-?섏썝-2324
-   怨쇰룄??鍮싳? ??遺덊뻾???덇꺼以????덉뒿?덈떎
+   ☎ 1555-2137
+   ⚠️ 연 이율 상담 후 확정 | 등록 2026-수원-2324
+   과도한 빚은 큰 불행을 안겨줄 수 있습니다
    ```
-8. ?깅줉利??遺以묎컻???깅줉利? ?쒖텧 ???뱀씤 ?湲?(3~5??
+8. 등록증(대부중개업 등록증) 제출 후 승인 대기 (3~5일)
 
 ---
 
-# ?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺
-# 6?④퀎: 鍮꾨?硫??띾낫 猷⑦떞 (?댄씗?????吏곸젒)
-# ?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 6단계: 비대면 홍보 루틴 (이희전 팀장 직접)
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-## ?댄씗????μ쓽 ?ㅼ젣 ?섎（ ?낅Т (30遺??대궡)
+## 이희전 팀장의 실제 하루 업무 (30분 이내)
 
 ```
-?ㅼ쟾 9?? ?붾젅洹몃옩 ?먮룞諛쒗뻾 ?뺤씤 (1遺?
-          ???뱀떆 ?ㅻ쪟 ?덉쑝硫??섎룞?쇰줈 ?щ━湲?
+오전 9시: 텔레그램 자동발행 확인 (1분)
+          → 혹시 오류 있으면 수동으로 올리기
 
-?ㅼ쟾 10?? ?대찓???뺤씤 (5遺?
-           ?????곷떞?좎껌 ?덉쑝硫?諛붾줈 ?꾪솕
+오전 10시: 이메일 확인 (5분)
+           → 새 상담신청 있으면 바로 전화
 
-?ㅽ썑 以? 怨듭씤以묎컻??룹꽭臾댁궗 移댁뭅??硫붿떆吏 (20遺?
-         ???섎（ 3~5怨?移댄넚諛⑹뿉 ?띾낫 硫붿떆吏 諛쒖넚
+오후 중: 공인중개사·세무사 카카오 메시지 (20분)
+         → 하루 3~5곳 카톡방에 홍보 메시지 발송
 
-洹????쒓컙: ?꾪솕 ?곷떞 ?묐?
+그 외 시간: 전화 상담 응대
 ```
 
-## 移댁뭅?ㅽ넚 怨듭씤以묎컻??梨꾪똿諛?李얘린
+## 카카오톡 공인중개사 채팅방 찾기
 
-1. 移댁뭅?ㅽ넚 ???닿린
-2. ?뗫낫湲?寃?? ?꾨Ⅴ湲?
-3. ?꾨옒 ?ㅼ썙???섎굹??寃??
+1. 카카오톡 앱 열기
+2. 돋보기(검색) 누르기
+3. 아래 키워드 하나씩 검색:
    ```
-   "?쒖슱 怨듭씤以묎컻??
-   "遺?숈궛 以묎컻 ?뺣낫"
-   "?꾪뙆??留ㅻℓ ?뺣낫"
-   "媛뺣궓 遺?숈궛"
-   "?쒖슱 遺?숈궛 ?ъ옄"
-   "?먯쁺?낆옄 紐⑥엫"
-   "?뚯긽怨듭씤 ?뺣낫"
+   "서울 공인중개사"
+   "부동산 중개 정보"
+   "아파트 매매 정보"
+   "강남 부동산"
+   "서울 부동산 투자"
+   "자영업자 모임"
+   "소상공인 정보"
    ```
-4. ?ㅽ뵂梨꾪똿諛????대┃
-5. 李몄뿬 媛?ν븳 諛??낆옣
-6. ?꾨옒 硫붿떆吏 諛쒖넚 (?섎（ 3~5媛?諛?:
+4. 오픈채팅방 탭 클릭
+5. 참여 가능한 방 입장
+6. 아래 메시지 발송 (하루 3~5개 방):
 
-### 怨듭씤以묎컻??梨꾪똿諛??띾낫 硫붿떆吏 (蹂듭궗?댁꽌 ?ъ슜)
+### 공인중개사 채팅방 홍보 메시지 (복사해서 사용)
 ```
-?덈뀞?섏꽭?? ?덈줎湲덉쑖?遺以묎컻?낅땲??
+안녕하세요! 새론금융대부중개입니다.
 
-留ㅻℓ 嫄곕옒 ???붽툑 ?먭툑??遺議깊븳 怨좉컼 怨꾩떊媛??
+매매 거래 시 잔금 자금이 부족한 고객 계신가요?
 
-?????LTV ?쒕룄 珥덇낵遺????遺??釉뚮┸吏 利됱떆 ?ㅽ뻾
-??3媛쒖썡 ???좏삊쨌湲덇퀬 媛쒖씤?ъ뾽???대낫?異??꾪솚
-???쒖슱쨌?섎룄沅??꾪뙆????吏??媛??
-??以묎컻?섏닔猷?0??
+✅ 은행 LTV 한도 초과분 → 대부업 브릿지 즉시 실행
+✅ 3개월 후 신협·금고 개인사업자 담보대출 전환
+✅ 서울·수도권 아파트 전 지역 가능
+✅ 중개수수료 0원
 
-?붽툑 留됲???嫄곕옒 痍⑥냼 ?좊퍝??寃쏀뿕 ?덉쑝??遺?
-?곕씫 ?쒕쾲 二쇱꽭?? 諛⑸쾿 ?덉뒿?덈떎.
+잔금 막혀서 거래 취소 날뻔한 경험 있으신 분,
+연락 한번 주세요. 방법 있습니다.
 
-?벑 010-5927-9205 (?댄씗??
-?뙋 saeloan.co.kr
-?깅줉: 2026-?섏썝-2324
-?좑툘 怨쇰룄??鍮?二쇱쓽
-```
-
-### ?먯쁺?낆옄 梨꾪똿諛??띾낫 硫붿떆吏 (蹂듭궗?댁꽌 ?ъ슜)
-```
-?덈뀞?섏꽭?? ?덈줎湲덉쑖?遺以묎컻?낅땲??
-
-?꾪뙆???덈뒗 ?먯쁺?낆옄遺꾨뱾, ?대윴 ?곹솴 ?꾨땶媛??
-??????앺솢?덉젙?먭툑 1???쒕룄 ?대? ?뚯쭊
-??異붽?濡?1??5?듭씠 湲됲븯寃??꾩슂
-???뚮뱷 遺덇퇋移숉빐????됱뿉??嫄곗젅
-
-???꾪뙆???대낫媛移??꾩＜濡??ъ궗?⑸땲??
-???먯쁺?낆옄쨌踰뺤씤????곴레 媛??
-
-?벑 010-5927-9205 (臾대즺 ?ъ쟾寃??
-?뙋 saeloan.co.kr
-?깅줉: 2026-?섏썝-2324
-?좑툘 怨쇰룄??鍮?二쇱쓽
+📱 010-5927-9205 (이희전)
+🌐 saeloan.co.kr
+등록: 2026-수원-2324
+⚠️ 과도한 빚 주의
 ```
 
----
-
-# ?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺
-# 7?④퀎: ?뚰듃?덉궗 ?뺣낫 (?댄씗?????吏곸젒)
-# ?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺
-
-## 7-1. ????遺?낆껜 諛⑸Ц ?묒빟
-
-### 諛⑸Ц ??以鍮꾨Ъ
+### 자영업자 채팅방 홍보 메시지 (복사해서 사용)
 ```
-??紐낇븿 (?덈줎湲덉쑖?遺以묎컻 ?댄씗??
-???遺以묎컻???깅줉利??щ낯
-???ъ뾽?먮벑濡앹쬆 ?щ낯
-???묒빟 ?쒖븞??(?꾨옒 ?댁슜 異쒕젰)
-```
+안녕하세요! 새론금융대부중개입니다.
 
-### ?묒빟 ?쒖븞???댁슜 (援щ몢濡쒕룄 媛??
-```
-?덈줎湲덉쑖?遺以묎컻 ?뚰듃?덉떗 ?쒖븞
+아파트 있는 자영업자분들, 이런 상황 아닌가요?
+✔ 은행 생활안정자금 1억 한도 이미 소진
+✔ 추가로 1억~5억이 급하게 필요
+✔ 소득 불규칙해서 은행에서 거절
 
-??щ뒗 ?쒖슱쨌?섎룄沅??꾪뙆?몃떞蹂대?異??꾨Ц 以묎컻?낆껜濡?
-留ㅼ썡 ?덉젙?곸씤 ?異?嫄댁닔瑜??뚭컻???쒕┫ ???덉뒿?덈떎.
+→ 아파트 담보가치 위주로 심사합니다
+→ 자영업자·법인대표 적극 가능
 
-二쇱슂 ?寃?
-- ?먯쁺?낆옄 ?앺솢?덉젙?먭툑 1??珥덇낵 (嫄대떦 1??5??
-- ?꾪뙆??援ъ엯?먭툑 釉뚮┸吏 (嫄대떦 3??10??
-
-?щ쭩 ?묒빟 議곌굔:
-- ?쒖슱쨌?섎룄沅??꾪뙆??LTV 理쒖냼 60% ?댁긽
-- ?뚭컻?섏닔猷? ?ㅽ뻾湲덉븸??1~1.5%
-- 泥섎━ 湲곌컙: 3~5?곸뾽???대궡
-- 以묐룄?곹솚?섏닔猷?理쒖냼??(3媛쒖썡 ???꾪솚 紐⑹쟻)
-```
-
-### 諛⑸Ц ???낆껜 紐⑸줉
-
-**1?쒖쐞 (?ъ쓽?꽷룰컯??吏묒쨷)**
-```
-??由щ뱶肄뷀봽(二? - ?쒖슱 ?곷벑?ш뎄 ?ъ쓽??
-   ??肄붿뒪???곸옣, ?덉젙?? ?대낫?異??곴레
-   ??諛⑸Ц ???꾪솕: ??쒕쾲??寃????"?뚰듃?덉떗 ?대떦?? ?곌껐
-
-???곗뺨?щ젅?붾씪??- ?쒖슱 以묎뎄 ?꾩?濡?
-   ???곗뺨?異뺤???怨꾩뿴, ?洹쒕え ?댁쁺
-   ??諛⑸Ц ???덊럹?댁??먯꽌 B2B 臾몄쓽
-
-???꾪봽濡쒗뙆?대궦?쒕?遺 - ?쒖슱 媛뺣궓援??移섎룞
-   ???ъ떆?ㅼ틦??紐⑦쉶?? 援?궡 理쒕? 洹쒕え
-   ???洹쒕え 以묎컻 ?뚰듃?덉떗 ?댁쁺 以?
-```
-
-**2?쒖쐞 (?꾪솕쨌?⑤씪???묒큺)**
-```
-???ㅼ씠踰꾩뿉??寃?? "?꾪뙆?몃떞蹂대?異?踰뺤씤 ?遺??
-??湲덇컧??湲덉쑖?뚮퉬?먯젙蹂댄룷??consumer.fss.or.kr)
-   ???遺??議고쉶 ???쒖슱 踰뺤씤 ??遺?숈궛?대낫 ?꾪꽣
-???깅줉???낆껜??吏곸젒 ?꾪솕: "以묎컻 ?뚰듃?덉떗 ?대떦???곌껐"
-```
-
-## 7-2. ?좏삊쨌湲덇퀬 ?꾪솚 ?異쒖긽?댁궗 諛쒓뎬
-
-### ?ㅼ씠踰꾩뿉??李얘린 (寃?됱뼱 蹂듭궗?댁꽌 ?ъ슜)
-```
-?ㅼ씠踰?寃?됱갹???섎굹???낅젰:
-??"?좏삊 ?꾪뙆?몃떞蹂대?異??곷떞??釉붾줈洹?
-??"?덈쭏?꾧툑怨?媛쒖씤?ъ뾽???대낫?異??꾪솚"
-??"?遺??????좏삊 媛??
-??"湲덇퀬 ?대낫?異??꾪솚 ?곷떞"
-??"?異?釉뚮┸吏 ?좏삊 ?꾪솚 釉붾줈洹?
-```
-
-### 釉붾줈洹?湲 ?щ━湲?(?ㅼ씠踰?釉붾줈洹?
-
-1. **blog.naver.com** ?묒냽 ??濡쒓렇??
-2. **湲?곌린** ?대┃
-3. ?쒕ぉ: `[?묒뾽 援ы빀?덈떎] ?좏삊쨌?덈쭏?꾧툑怨??꾪뙆?몃떞蹂대?異?媛?ν븳 ?異쒖긽?댁궗`
-4. ?댁슜:
-```
-?덈뀞?섏꽭?? ?덈줎湲덉쑖?遺以묎컻?낅땲??
-
-????낆껜???쒖슱쨌?섎룄沅??꾪뙆?몃떞蹂??꾨Ц ?遺以묎컻?낆껜濡?
-?遺???ㅽ뻾 ??3媛쒖썡 ???좏삊쨌湲덇퀬濡??꾪솚?섎뒗 ?쒕퉬?ㅻ? 怨좉컼猿??쒓났?섍퀬 ?덉뒿?덈떎.
-
-?④퍡???異쒖긽?댁궗遺꾩쓣 李얠뒿?덈떎.
-
-[?묒뾽 議곌굔]
-???좏삊 ?먮뒗 ?덈쭏?꾧툑怨?媛쒖씤?ъ뾽???대낫?異?痍④툒 媛??
-???쒖슱쨌?섎룄沅??꾪뙆??臾쇨굔 泥섎━ 寃쏀뿕 ?덉쑝??遺?
-???꾪뙆??洹쇱????ㅼ젙??臾쇨굔 ???寃쏀뿕 ?덉쑝??遺?
-
-[?쒓났 ?ы빆]
-- ?덉젙?곸씤 ??嫄댁닔 ?뚯씠?꾨씪???쒓났
-- 嫄대떦 ?묒쓽 ?섏닔猷?蹂꾨룄 吏湲?
-- 鍮꾨? 蹂댁옣 / 鍮꾨?硫??묒뾽 媛??
-
-?곕씫泥? 010-5927-9205 (?댄씗??
-```
-5. 寃뚯떆
-
----
-
-# ?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺
-# 8?④퀎: ?遺?낅쾿 踰뺢퇋 以??泥댄겕由ъ뒪??
-# ?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺
-
-## ??紐⑤뱺 SNS 寃뚯떆臾쇱뿉 諛섎뱶???ы븿???댁슜 ??
-
-```
-?꾩닔 ?ы븿 臾멸뎄 (SNS 寃뚯떆臾??섎떒):
-???깅줉踰덊샇: 2026-?섏썝-2324 (?遺以묎컻??
-??湲덈━ 踰붿쐞: ???댁쑉? ?곷떞 ???뺤젙
-??寃쎄퀬 臾멸뎄: "怨쇰룄??鍮싳? ?뱀떊?먭쾶 ??遺덊뻾???덇꺼以????덉뒿?덈떎"
-??以묎컻?섏닔猷??놁쓬 紐낆떆
-```
-
-## ???덈? ?섎㈃ ???섎뒗 寃???
-
-```
-??"100% ?뱀씤 媛??, "臾댁“嫄??異?, "?꾧뎄??媛?? ?쒗쁽
-???덉쐞 湲덈━ 紐낆떆 (?ㅼ젣蹂대떎 ??? 湲덈━ 愿묎퀬)
-??SNS DM?쇰줈 二쇰?踰덊샇, 怨꾩쥖踰덊샇 ?섏쭛
-???좎엯湲? ?좎닔?섎즺 ?붽뎄 (遺덈쾿)
-???異쒖뾽泥?吏곸썝 ?ъ묶
-???ㅽ뙵??臾댁옉??諛쒖넚 (移댁뭅?ㅽ넚 ?뺤콉 ?꾨컲)
-```
-
-## ???대룄 ?섎뒗 寃???
-
-```
-???뺣낫??肄섑뀗痢?(湲덈━ ?덈궡, ?異?議곌굔 ?뺣낫)
-??saeloan.co.kr 留곹겕 怨듭쑀
-???꾪솕踰덊샇 愿묎퀬
-??移댁뭅?ㅽ넚 ?ㅽ뵂梨꾪똿諛⑹뿉 1???띾낫 硫붿떆吏
-???붾젅洹몃옩 梨꾨꼸 ?먮룞 諛쒗뻾
-??釉붾줈洹?SEO ?ъ뒪??
+📱 010-5927-9205 (무료 사전검토)
+🌐 saeloan.co.kr
+등록: 2026-수원-2324
+⚠️ 과도한 빚 주의
 ```
 
 ---
 
-# ?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺
-# 9?④퀎: AI ?먮룞 ?낅뜲?댄듃 援ъ“
-# ?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 7단계: 파트너사 확보 (이희전 팀장 직접)
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-## ?쒖뒪?쒖씠 ?ㅼ뒪濡?諛쒖쟾?섎뒗 諛⑸쾿
+## 7-1. 대형 대부업체 방문 협약
 
+### 방문 전 준비물
 ```
-?꾩옱 援ъ“:
-  Google AppScript ???붾젅洹몃옩 ?먮룞諛쒗뻾
-  (肄섑뀗痢?15媛??쒗솚)
-
-?ν썑 媛쒖꽑 (遺꾧린蹂?1?? 15遺??묒뾽):
-  1. github.com/HeeJeonLee/saeloan-financial ?묒냽
-  2. automation/telegram_auto_poster.js ?뚯씪 ?닿린
-  3. CONTENT_BANK 諛곗뿴????肄섑뀗痢?異붽?
-  4. ??????먮룞 諛섏쁺
-
-AI ??諛쒖쟾 諛섏쁺 援ъ“:
-  ??ChatGPT/Claude濡???肄섑뀗痢??앹꽦 ?붿껌
-  ??"?덈줎湲덉쑖 ?붾젅洹몃옩 梨꾨꼸???꾪뙆?몃떞蹂대?異??띾낫 臾멸뎄 5媛?留뚮뱾?댁쨾"
-  ???앹꽦???댁슜??CONTENT_BANK??異붽?
-  ??鍮꾩슜 0?? ?쒓컙 15遺?
+□ 명함 (새론금융대부중개 이희전)
+□ 대부중개업 등록증 사본
+□ 사업자등록증 사본
+□ 협약 제안서 (아래 내용 출력)
 ```
 
-## 遺꾧린蹂??먭? ??ぉ (泥댄겕由ъ뒪??
+### 협약 제안서 내용 (구두로도 가능)
+```
+새론금융대부중개 파트너십 제안
+
+저희는 서울·수도권 아파트담보대출 전문 중개업체로,
+매월 안정적인 대출 건수를 소개해 드릴 수 있습니다.
+
+주요 타겟:
+- 자영업자 생활안정자금 1억 초과 (건당 1억~5억)
+- 아파트 구입자금 브릿지 (건당 3억~10억)
+
+희망 협약 조건:
+- 서울·수도권 아파트 LTV 최소 60% 이상
+- 소개수수료: 실행금액의 1~1.5%
+- 처리 기간: 3~5영업일 이내
+- 중도상환수수료 최소화 (3개월 후 전환 목적)
+```
+
+### 방문 할 업체 목록
+
+**1순위 (여의도·강남 집중)**
+```
+① 리드코프(주) - 서울 영등포구 여의도
+   → 코스닥 상장, 안정적, 담보대출 적극
+   → 방문 전 전화: 대표번호 검색 후 "파트너십 담당자" 연결
+
+② 웰컴크레디라인 - 서울 중구 을지로
+   → 웰컴저축은행 계열, 대규모 운영
+   → 방문 전 홈페이지에서 B2B 문의
+
+③ 아프로파이낸셜대부 - 서울 강남구 대치동
+   → 러시앤캐시 모회사, 국내 최대 규모
+   → 대규모 중개 파트너십 운영 중
+```
+
+**2순위 (전화·온라인 접촉)**
+```
+→ 네이버에서 검색: "아파트담보대출 법인 대부업"
+→ 금감원 금융소비자정보포털(consumer.fss.or.kr)
+   → 대부업 조회 → 서울 법인 → 부동산담보 필터
+→ 등록된 업체에 직접 전화: "중개 파트너십 담당자 연결"
+```
+
+## 7-2. 신협·금고 전환 대출상담사 발굴
+
+### 네이버에서 찾기 (검색어 복사해서 사용)
+```
+네이버 검색창에 하나씩 입력:
+① "신협 아파트담보대출 상담사 블로그"
+② "새마을금고 개인사업자 담보대출 전환"
+③ "대부업 대환 신협 가능"
+④ "금고 담보대출 전환 상담"
+⑤ "대출 브릿지 신협 전환 블로그"
+```
+
+### 블로그 글 올리기 (네이버 블로그)
+
+1. **blog.naver.com** 접속 → 로그인
+2. **글쓰기** 클릭
+3. 제목: `[협업 구합니다] 신협·새마을금고 아파트담보대출 가능한 대출상담사`
+4. 내용:
+```
+안녕하세요. 새론금융대부중개입니다.
+
+저희 업체는 서울·수도권 아파트담보 전문 대부중개업체로,
+대부업 실행 후 3개월 뒤 신협·금고로 전환하는 서비스를 고객께 제공하고 있습니다.
+
+함께할 대출상담사분을 찾습니다.
+
+[협업 조건]
+✅ 신협 또는 새마을금고 개인사업자 담보대출 취급 가능
+✅ 서울·수도권 아파트 물건 처리 경험 있으신 분
+✅ 아파트 근저당 설정된 물건 대환 경험 있으신 분
+
+[제공 사항]
+- 안정적인 월 건수 파이프라인 제공
+- 건당 협의 수수료 별도 지급
+- 비밀 보장 / 비대면 협업 가능
+
+연락처: 010-5927-9205 (이희전)
+```
+5. 게시
+
+---
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 8단계: 대부업법 법규 준수 체크리스트
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+## ★ 모든 SNS 게시물에 반드시 포함할 내용 ★
 
 ```
-留?遺꾧린 1??(3媛쒖썡??1踰?:
-???붾젅洹몃옩 ?먮룞諛쒗뻾 ?뺤긽 ?묐룞 ?뺤씤
-???덊럹?댁?(saeloan.co.kr) ?뺤긽 ?묒냽 ?뺤씤
-???곷떞?좎껌 ?대찓???뚮┝ ?묐룞 ?뺤씤
-????肄섑뀗痢?15媛?異붽? (ChatGPT濡??앹꽦)
-??LTV 洹쒖젣 蹂寃쎌궗??諛섏쁺 (?댁뒪 寃??
-???뚰듃???遺?낆껜 議곌굔 ?낅뜲?댄듃
+필수 포함 문구 (SNS 게시물 하단):
+① 등록번호: 2026-수원-2324 (대부중개업)
+② 금리 범위: 연 이율은 상담 후 확정
+③ 경고 문구: "과도한 빚은 당신에게 큰 불행을 안겨줄 수 있습니다"
+④ 중개수수료 없음 명시
+```
+
+## ★ 절대 하면 안 되는 것 ★
+
+```
+❌ "100% 승인 가능", "무조건 대출", "누구나 가능" 표현
+❌ 허위 금리 명시 (실제보다 낮은 금리 광고)
+❌ SNS DM으로 주민번호, 계좌번호 수집
+❌ 선입금, 선수수료 요구 (불법)
+❌ 대출업체 직원 사칭
+❌ 스팸성 무작위 발송 (카카오톡 정책 위반)
+```
+
+## ★ 해도 되는 것 ★
+
+```
+✅ 정보성 콘텐츠 (금리 안내, 대출 조건 정보)
+✅ saeloan.co.kr 링크 공유
+✅ 전화번호 광고
+✅ 카카오톡 오픈채팅방에 1회 홍보 메시지
+✅ 텔레그램 채널 자동 발행
+✅ 블로그 SEO 포스팅
 ```
 
 ---
 
-# ?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺
-# 10?④퀎: ?곷떞 ?깆빟 ?꾨줈?몄뒪
-# ?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 9단계: AI 자동 업데이트 구조
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-## 怨좉컼 ?몄엯遺???ㅽ뻾源뚯? ?먮쫫
+## 시스템이 스스로 발전하는 방법
 
 ```
-1. 怨좉컼 ?몄엯 (?먮룞)
-   ?붾젅洹몃옩 / 移댁뭅??/ ?덊럹?댁? ???곷떞?좎껌
-   ???댄씗???대찓??利됱떆 ?섏떊
+현재 구조:
+  Google AppScript → 텔레그램 자동발행
+  (콘텐츠 15개 순환)
 
-2. 珥덇린 ?곷떞 ?꾪솕 (?댄씗??吏곸젒, 30遺??대궡)
-   ?뺤씤 ?ы빆:
-   - ?꾪뙆???뚯옱吏, ????쒖꽭
-   - 湲곗〈 ?대낫?異??붿븸 (?깃린遺 ?뺤씤)
-   - ?꾩슂 湲덉븸 諛??ъ슜 紐⑹쟻
-   - 吏곸뾽/怨좎슜?뺥깭
+향후 개선 (분기별 1회, 15분 작업):
+  1. github.com/HeeJeonLee/saeloan-financial 접속
+  2. automation/telegram_auto_poster.js 파일 열기
+  3. CONTENT_BANK 배열에 새 콘텐츠 추가
+  4. 저장 → 자동 반영
 
-3. ?뚰듃???遺?낆껜 議고쉶 (?댄씗??
-   - ?뺣낫???낆껜 以?議곌굔 留욌뒗 怨??좏깮
-   - 議곌굔 ?뺤씤: LTV, 湲덈━, 泥섎━湲곌컙
+AI 툴 발전 반영 구조:
+  → ChatGPT/Claude로 새 콘텐츠 생성 요청
+  → "새론금융 텔레그램 채널용 아파트담보대출 홍보 문구 5개 만들어줘"
+  → 생성된 내용을 CONTENT_BANK에 추가
+  → 비용 0원, 시간 15분
+```
 
-4. 怨좉컼?먭쾶 議곌굔 ?뚯떊
-   - 媛??湲덉븸, 湲덈━, 湲곌컙 ?덈궡
-   - ?쒕쪟 ?덈궡
+## 분기별 점검 항목 (체크리스트)
 
-5. ?쒕쪟 ?묒닔 (移댁뭅?ㅽ넚/?대찓??
-   ?꾩슂 ?쒕쪟:
-   - ?깃린遺?깅낯 (?명꽣??諛쒓툒 媛??
-   - ?좊텇利??щ낯
-   - 湲곗〈 ?異??붿븸利앸챸??
-   - 嫄닿컯蹂댄뿕猷??⑸??뺤씤??(?뚮뱷 利앸튃)
-
-6. ?遺?낆껜 ?ъ궗 ???뱀씤 ???ㅽ뻾
-   泥섎━ 湲곌컙: 2~5?곸뾽??
-
-7. ?좏삊쨌湲덇퀬 ?꾪솚 ?덉빟 (?좏깮)
-   - ?ㅽ뻾 利됱떆 "3媛쒖썡 ???꾪솚 ?곷떞" ?덉빟
-   - ?꾪솚 ?異쒖긽?댁궗 ?곌껐
+```
+매 분기 1회 (3개월에 1번):
+□ 텔레그램 자동발행 정상 작동 확인
+□ 홈페이지(saeloan.co.kr) 정상 접속 확인
+□ 상담신청 이메일 알림 작동 확인
+□ 새 콘텐츠 15개 추가 (ChatGPT로 생성)
+□ LTV 규제 변경사항 반영 (뉴스 검색)
+□ 파트너 대부업체 조건 업데이트
 ```
 
 ---
 
-# ?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺
-# 11?④퀎: ?ㅻⅨ PC?먯꽌 ?묎렐?섎뒗 諛⑸쾿
-# ?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 10단계: 상담 성약 프로세스
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-## ?몄젣 ?대뵒?쒕뱺 ??臾몄꽌 蹂닿린
+## 고객 인입부터 실행까지 흐름
 
 ```
-諛⑸쾿 1: GitHub (??긽 理쒖떊 踰꾩쟾)
-  ???щ＼?먯꽌 ?꾨옒 二쇱냼 ?낅젰:
+1. 고객 인입 (자동)
+   텔레그램 / 카카오 / 홈페이지 → 상담신청
+   → 이희전 이메일 즉시 수신
+
+2. 초기 상담 전화 (이희전 직접, 30분 이내)
+   확인 사항:
+   - 아파트 소재지, 대략 시세
+   - 기존 담보대출 잔액 (등기부 확인)
+   - 필요 금액 및 사용 목적
+   - 직업/고용형태
+
+3. 파트너 대부업체 조회 (이희전)
+   - 확보된 업체 중 조건 맞는 곳 선택
+   - 조건 확인: LTV, 금리, 처리기간
+
+4. 고객에게 조건 회신
+   - 가능 금액, 금리, 기간 안내
+   - 서류 안내
+
+5. 서류 접수 (카카오톡/이메일)
+   필요 서류:
+   - 등기부등본 (인터넷 발급 가능)
+   - 신분증 사본
+   - 기존 대출 잔액증명서
+   - 건강보험료 납부확인서 (소득 증빙)
+
+6. 대부업체 심사 → 승인 → 실행
+   처리 기간: 2~5영업일
+
+7. 신협·금고 전환 예약 (선택)
+   - 실행 즉시 "3개월 후 전환 상담" 예약
+   - 전환 대출상담사 연결
+```
+
+---
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 11단계: 다른 PC에서 접근하는 방법
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+## 언제 어디서든 이 문서 보기
+
+```
+방법 1: GitHub (항상 최신 버전)
+  → 크롬에서 아래 주소 입력:
   https://github.com/HeeJeonLee/saeloan-financial
 
-諛⑸쾿 2: ?덊럹?댁?
-  ??saeloan.co.kr
+방법 2: 홈페이지
+  → saeloan.co.kr
 
-諛⑸쾿 3: Google Drive (臾몄꽌 諛깆뾽??
-  ????臾몄꽌瑜?援ш? ?쒕씪?대툕???낅줈?쒗빐?먭린
+방법 3: Google Drive (문서 백업용)
+  → 이 문서를 구글 드라이브에 업로드해두기
 ```
 
-## ??PC?먯꽌 ?묒뾽 ?ш컻?섎뒗 諛⑸쾿
+## 새 PC에서 작업 재개하는 방법
 
 ```
-1. https://github.com/HeeJeonLee/saeloan-financial ?묒냽
-2. 紐⑤뱺 ?뚯씪 ?뺤씤 媛??
-3. ?꾨왂?? SALES_MASTER_PLAN.md
-4. ??媛?대뱶: COMPLETE_GUIDE.md
-5. ?먮룞??肄붾뱶: automation/ ?대뜑
+1. https://github.com/HeeJeonLee/saeloan-financial 접속
+2. 모든 파일 확인 가능
+3. 전략서: SALES_MASTER_PLAN.md
+4. 이 가이드: COMPLETE_GUIDE.md
+5. 자동화 코드: automation/ 폴더
 ```
 
 ---
 
-# ?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺
-# 12?④퀎: ?꾩껜 ?쇱젙??
-# ?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 12단계: 전체 일정표
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-## ?대쾲 二?(5??17??~ 5??23??
+## 이번 주 (5월 17일 ~ 5월 23일)
 
-| ?좎쭨 | ????| ?뚯슂 ?쒓컙 |
+| 날짜 | 할 일 | 소요 시간 |
 |---|---|---|
-| 5/17(?ㅻ뒛) | ?붾젅洹몃옩 梨꾨꼸 媛쒖꽕 + 遊?留뚮뱾湲?| 30遺?|
-| 5/17(?ㅻ뒛) | 援ш? 怨꾩젙 + 援ш? ??留뚮뱾湲?| 30遺?|
-| 5/18(?댁씪) | AppScript ?먮룞???ㅼ튂 | 1?쒓컙 |
-| 5/19 | 移댁뭅??鍮꾩쫰?덉뒪 梨꾨꼸 ?좎껌 | 30遺?|
-| 5/20~21 | ????遺?낆껜 諛⑸Ц ?묒빟 | ?섎（ |
-| 5/22 | ?ㅼ씠踰?釉붾줈洹??異쒖긽?댁궗 ?묒뾽 怨듦퀬 | 30遺?|
-| 5/23 | 怨듭씤以묎컻??移댄넲諛??띾낫 ?쒖옉 | 30遺???|
+| 5/17(오늘) | 텔레그램 채널 개설 + 봇 만들기 | 30분 |
+| 5/17(오늘) | 구글 계정 + 구글 폼 만들기 | 30분 |
+| 5/18(내일) | AppScript 자동화 설치 | 1시간 |
+| 5/19 | 카카오 비즈니스 채널 신청 | 30분 |
+| 5/20~21 | 대형 대부업체 방문 협약 | 하루 |
+| 5/22 | 네이버 블로그 대출상담사 협업 공고 | 30분 |
+| 5/23 | 공인중개사 카톱방 홍보 시작 | 30분/일 |
 
-## ?ㅼ쓬 ?щ???(6??)
-
-```
-留ㅼ씪: ?대찓???뺤씤 ???꾪솕 ?곷떞 (?먮룞 ?몄엯)
-留ㅼ씪: 怨듭씤以묎컻??룹꽭臾댁궗 移댄넚諛?3媛??띾낫 硫붿떆吏 (30遺?
-二?1?? ?붾젅洹몃옩 ?먮룞諛쒗뻾 ?뺤긽 ?뺤씤 (1遺?
-??1?? ?깆빟 嫄댁닔 吏묎퀎 ??蹂댁“ ?몃젰 ?ъ엯 ?щ? 寃곗젙
-遺꾧린 1?? ??肄섑뀗痢?15媛?異붽? (15遺?
-```
-
----
-
-# ?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺
-# 湲닿툒 ?곕씫泥?諛??꾩? 諛쏅뒗 諛⑸쾿
-# ?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺
+## 다음 달부터 (6월~)
 
 ```
-?쒖뒪??臾몄쓽: GitHub Copilot (????붿갹) ?먯꽌 吏덈Ц
-?덊럹?댁? 臾몄젣: saeloan.co.kr ?묒냽 ????????Vercel.com 濡쒓렇??
-?붾젅洹몃옩 遊?臾몄젣: @BotFather ?먯꽌 ?좏겙 ?щ컻湲?
-援ш? ??臾몄젣: forms.google.com ?ㅼ떆 ?묒냽
-
-臾댁뾿?대뱺 紐⑤Ⅴ??寃???????붿갹?먯꽌 吏덈Ц?섎㈃ 利됱떆 ?듬?!
+매일: 이메일 확인 → 전화 상담 (자동 인입)
+매일: 공인중개사·세무사 카톡방 3개 홍보 메시지 (30분)
+주 1회: 텔레그램 자동발행 정상 확인 (1분)
+월 1회: 성약 건수 집계 → 보조 인력 투입 여부 결정
+분기 1회: 새 콘텐츠 15개 추가 (15분)
 ```
 
 ---
 
-*?묒꽦: 2026-05-17 | ?덈줎湲덉쑖?遺以묎컻 ?꾩쟾 ?먮룞??AI Agent ?쒖뒪??v1.0*
-*????꾩튂: https://github.com/HeeJeonLee/saeloan-financial/blob/main/COMPLETE_GUIDE.md*
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 긴급 연락처 및 도움 받는 방법
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+```
+시스템 문의: GitHub Copilot (이 대화창) 에서 질문
+홈페이지 문제: saeloan.co.kr 접속 안 될 때 → Vercel.com 로그인
+텔레그램 봇 문제: @BotFather 에서 토큰 재발급
+구글 폼 문제: forms.google.com 다시 접속
+
+무엇이든 모르는 것 → 이 대화창에서 질문하면 즉시 답변!
+```
+
+---
+
+*작성: 2026-05-17 | 새론금융대부중개 완전 자동화 AI Agent 시스템 v1.0*
+*저장 위치: https://github.com/HeeJeonLee/saeloan-financial/blob/main/COMPLETE_GUIDE.md*
+
+
 
 ---
 
@@ -30294,353 +30632,355 @@ AI ??諛쒖쟾 諛섏쁺 援ъ“:
 
 ---
 
-# ?꾪뙆?몃떞蹂대?異??쒖옣遺꾩꽍 蹂닿퀬??
-## 湲덉쑖沅?+ ?遺(以묎컻)???듯빀 遺꾩꽍
-### ?묒꽦: 2026-05-17 | ?덈줎湲덉쑖?遺以묎컻 ?댄씗????μ슜
+# 아파트담보대출 시장분석 보고서
+## 금융권 + 대부(중개)업 통합 분석
+### 작성: 2026-05-17 | 새론금융대부중개 이희전 팀장용
 
 ---
 
-## ?쒕줎: 遺꾩꽍 紐⑹쟻
+## 서론: 분석 목적
 
-蹂?蹂닿퀬?쒕뒗 ?덈줎湲덉쑖?遺以묎컻媛 吏묒쨷 怨듬왂??2媛??듭떖 ?寃잛뿉 ???
-?쒖옣 洹쒕え쨌援ъ“쨌寃쎌웳 ?섍꼍??遺꾩꽍?섏뿬 理쒖쟻 ?곸뾽?꾨왂 ?섎┰???쒖슜?섍린 ?꾪빐 ?묒꽦?⑸땲??
+본 보고서는 새론금융대부중개가 집중 공략할 2개 핵심 타겟에 대한
+시장 규모·구조·경쟁 환경을 분석하여 최적 영업전략 수립에 활용하기 위해 작성합니다.
 
-**?듭떖 ?寃?**
-1. ?쒖슱쨌?섎룄沅??꾪뙆??蹂댁쑀 ?먯쁺?낆옄 ???앺솢?덉젙?먭툑 1??珥덇낵 ?꾩슂??
-2. ?쒖슱쨌?섎룄沅??꾪뙆??援ъ엯?먭툑 ?????LTV ?쒕룄 珥덇낵遺??遺??釉뚮┸吏 + ?좏삊쨌湲덇퀬 ?꾪솚
+**핵심 타겟:**
+1. 서울·수도권 아파트 보유 자영업자 → 생활안정자금 1억 초과 필요자
+2. 서울·수도권 아파트 구입자금 → 은행 LTV 한도 초과분 대부업 브릿지 + 신협·금고 전환
 
 ---
 
-# PART 1. 湲덉쑖沅??꾪뙆?몃떞蹂대?異??쒖옣 ?꾪솴
+# PART 1. 금융권 아파트담보대출 시장 현황
 
-## 1-1. ?쒖옣 洹쒕え (?쒓뎅??됀룰툑?듦컧?낆썝 ?듦퀎 湲곕컲)
+## 1-1. 시장 규모 (한국은행·금융감독원 통계 기반)
 
-### ?꾩껜 媛怨꾨?異쑣룹＜?앸떞蹂대?異?洹쒕え
+### 전체 가계대출·주택담보대출 규모
 
-| 援щ텇 | ?붿븸(2025?꾨쭚 湲곗?) | ?꾨뀈 ?鍮?|
+| 구분 | 잔액(2025년말 기준) | 전년 대비 |
 |---|---|---|
-| ?꾩껜 媛怨꾨?異?| ??1,900議곗썝 | +3~4% |
-| 二쇳깮?대낫?異?(湲덉쑖沅??꾩껜) | ??1,050議곗썝 | +5~6% |
-| ??以???됯텒 二쇰떞? | ??820議곗썝 | +5% |
-| ??以?鍮꾩???蹂댄뿕쨌?異빧룹떊???? | ??230議곗썝 | +4% |
+| 전체 가계대출 | 약 1,900조원 | +3~4% |
+| 주택담보대출 (금융권 전체) | 약 1,050조원 | +5~6% |
+| 이 중 은행권 주담대 | 약 820조원 | +5% |
+| 이 중 비은행(보험·저축·신협 등) | 약 230조원 | +4% |
 
-**?쒖슱쨌?섎룄沅?鍮꾩쨷:** ?꾩껜 二쇰떞?????65~70% 異붿젙
-??**?쒖슱쨌?섎룄沅?二쇰떞? ?붿븸: ??680議?735議곗썝**
+**서울·수도권 비중:** 전체 주담대의 약 65~70% 추정
+→ **서울·수도권 주담대 잔액: 약 680조~735조원**
 
 ---
 
-## 1-2. 二쇳깮援ъ엯?먭툑 ?異??쒖옣
+## 1-2. 주택구입자금 대출 시장
 
-### 洹쒕え 諛??뱀꽦
+### 규모 및 특성
 
-| ??ぉ | ?댁슜 |
+| 항목 | 내용 |
 |---|---|
-| ?곌컙 ?좉퇋 二쇳깮?대낫?異??ㅽ뻾??| ??150議?200議곗썝 (??됯텒 湲곗?) |
-| ??以?二쇳깮援ъ엯 紐⑹쟻 鍮꾩쨷 | ??50~60% (??80議?120議곗썝) |
-| ?쒖슱쨌?섎룄沅??꾪뙆??援ъ엯 二쇰떞? | ??40議?60議곗썝/??異붿젙 |
+| 연간 신규 주택담보대출 실행액 | 약 150조~200조원 (은행권 기준) |
+| 이 중 주택구입 목적 비중 | 약 50~60% (약 80조~120조원) |
+| 서울·수도권 아파트 구입 주담대 | 약 40조~60조원/년 추정 |
 
-### 2026??洹쒖젣 ?꾪솴 (?듭떖)
+### 2026년 규제 현황 (핵심)
 
 ```
-[二쇳깮?대낫?異쒕퉬??LTV]
-洹쒖젣吏??(?쒖슱 ?꾩뿭 + 怨쇱쿇쨌?깅궓쨌?섎궓쨌愿묐챸 ??:
-  ??LTV 40% (?? DSR쨌RTI 異붽? ?곸슜)
+[주택담보대출비율 LTV]
+규제지역 (서울 전역 + 과천·성남·하남·광명 등):
+  → LTV 40% (단, DSR·RTI 추가 적용)
 
-鍮꾧퇋?쒖???
-  ??LTV 70%
+비규제지역:
+  → LTV 70%
 
-[????ㅽ뻾 ?쒕룄 ?곹븳]
-KB?쒖꽭 15???댄븯  ??理쒕? 6??
-KB?쒖꽭 15??25?? ??理쒕? 4??
-KB?쒖꽭 25??珥덇낵  ??理쒕? 2??
+[은행 실행 한도 상한]
+KB시세 15억 이하  → 최대 6억
+KB시세 15억~25억  → 최대 4억
+KB시세 25억 초과  → 최대 2억
 
-[DSR 洹쒖젣]
-珥앸?梨꾩썝由ш툑?곹솚鍮꾩쑉 40% ?곸슜 (??됯텒)
-???뚮뱷 利앸튃 ?꾩닔, ?먯쁺?낆옄 遺덈━
+[DSR 규제]
+총부채원리금상환비율 40% 적용 (은행권)
+→ 소득 증빙 필수, 자영업자 불리
 ```
 
-### 援ъ엯?먭툑 ?쒖옣???듭떖 援ъ“??怨듬갚
+### 구입자금 시장의 핵심 구조적 공백
 
-**臾몄젣:** ?쒖슱 ?꾪뙆???됯퇏 留ㅻℓ媛 (2026??湲곗? ??12~13??
-- ???理쒕? ?쒕룄 6?????먭린?먭툑 6??7???꾩슂
-- ?ㅼ젣 媛? ?섏뼲~?섏떗??
+**문제:** 서울 아파트 평균 매매가 (2026년 기준 약 12~13억)
+- 은행 최대 한도 6억 → 자기자금 6억~7억 필요
+- 실제 갭: 수억~수십억
 
-**?뱁엳 怨좉? ?꾪뙆??援ъ엯 ??**
+**특히 고가 아파트 구입 시:**
 ```
-?? 媛뺣궓援?25???꾪뙆??
-  ??? 理쒕? 2??(LTV 40%?대굹 ?곹븳 2???곸슜)
-  ?꾩슂 ?먭린?먭툑: 23??
-  ???꾩떎?곸쑝濡??쒖닔 ?먭린?먭툑 23??蹂댁쑀?먮뒗 洹뱀냼??
-  ???遺??釉뚮┸吏 ?섏슂 諛쒖깮
+예) 강남구 25억 아파트:
+  은행: 최대 2억 (LTV 40%이나 상한 2억 적용)
+  필요 자기자금: 23억
+  → 현실적으로 순수 자기자금 23억 보유자는 극소수
+  → 대부업 브릿지 수요 발생
 ```
 
-**?닿쾬??怨??덈줎湲덉쑖??湲고쉶?낅땲??**
+**이것이 곧 새론금융의 기회입니다.**
 
 ---
 
-## 1-3. ?앺솢?덉젙?먭툑 ?異??쒖옣
+## 1-3. 생활안정자금 대출 시장
 
-### 洹쒕え
+### 규모
 
-| ??ぉ | ?댁슜 |
+| 항목 | 내용 |
 |---|---|
-| ??됯텒 二쇰떞? 以??앺솢?덉젙?먭툑 鍮꾩쨷 | ??15~20% |
-| ?곌컙 ?ㅽ뻾 異붿젙??| ??20議?30議곗썝 |
-| 1二쇳깮???쒕룄 | 理쒕? 1?듭썝 (2023???댄썑 媛뺥솕) |
-| 二쇱슂 ???| ?앺솢鍮? ?ъ뾽?먭툑, ?먮??숇퉬, ?섎즺鍮???|
+| 은행권 주담대 중 생활안정자금 비중 | 약 15~20% |
+| 연간 실행 추정액 | 약 20조~30조원 |
+| 1주택자 한도 | 최대 1억원 (2023년 이후 강화) |
+| 주요 대상 | 생활비, 사업자금, 자녀학비, 의료비 등 |
 
-### ?앺솢?덉젙?먭툑 洹쒖젣 ?고쁺
+### 생활안정자금 규제 연혁
 
 ```
-2021?? ?ш린吏??1二쇳깮???앺솢?덉젙?먭툑 ?좉퇋 ?쒗븳
-2022?? ??洹쒖젣吏??1???쒕룄 ?곸슜
-2023?? ?꾧뎅 二쇱슂吏??1???쒕룄 ?뺣? ?곸슜
-2024?? : ?ㅼ쭏?곸쑝濡???됯텒?먯꽌 1??珥덇낵 遺덇?
+2021년: 투기지역 1주택자 생활안정자금 신규 제한
+2022년: 전 규제지역 1억 한도 적용
+2023년: 전국 주요지역 1억 한도 확대 적용
+2024년~ : 실질적으로 은행권에서 1억 초과 불가
 ```
 
-### ?먯쁺?낆옄 ?섏슂 遺꾩꽍
+### 자영업자 수요 분석
 
-**援?궡 ?먯쁺?낆옄 ?꾪솴 (2026??湲곗?):**
-- ?꾩껜 ?먯쁺?낆옄: ??570留?紐?
-- ?쒖슱쨌?섎룄沅??먯쁺?낆옄: ??230留?紐?
-- ?꾪뙆??蹂댁쑀 ?먯쁺?낆옄: 異붿젙 ??80~100留?紐?
+**국내 자영업자 현황 (2026년 기준):**
+- 전체 자영업자: 약 570만 명
+- 서울·수도권 자영업자: 약 230만 명
+- 아파트 보유 자영업자: 추정 약 80~100만 명
 
-**?먯쁺?낆옄???뱀닔???먭툑 ?섏슂:**
+**자영업자의 특수한 자금 수요:**
 ```
-1. ?ъ뾽 ?댁쁺?먭툑 遺議?(留ㅼ텧 怨꾩젅?굿룸텋洹쒖튃??
-2. ?멸툑 ?⑸? ?먭툑 (遺媛?? 踰뺤씤??遺꾧린蹂?
-3. ?명뀒由ъ뼱쨌由щえ?몃쭅 ?먭툑
-4. 吏곸썝 湲됱뿬쨌?댁쭅湲?留덈젴
-5. 肄붾줈???異?留뚭린 ?꾨옒 ?곹솚 ?먭툑
+1. 사업 운영자금 부족 (매출 계절성·불규칙성)
+2. 세금 납부 자금 (부가세, 법인세 분기별)
+3. 인테리어·리모델링 자금
+4. 직원 급여·퇴직금 마련
+5. 코로나 대출 만기 도래 상환 자금
 ```
 
-**??됱뿉?????섎뒗 ?댁쑀:**
-- DSR 洹쒖젣: ?먯쁺?낆옄 ?뚮뱷 ?몄젙 源뚮떎濡쒖?
-- ?ъ뾽???異??쒕룄 ?뚯쭊
-- 媛쒖씤?좎슜?異??쒕룄 ??쓬
-- ?앺솢?덉젙?먭툑 1???쒕룄 ?뚯쭊
+**은행에서 안 되는 이유:**
+- DSR 규제: 자영업자 소득 인정 까다로움
+- 사업자 대출 한도 소진
+- 개인신용대출 한도 낮음
+- 생활안정자금 1억 한도 소진
 
-??**?섎룄沅??꾪뙆??蹂댁쑀 ?먯쁺?낆옄 以??遺???꾪뙆?몃떞蹂대?異??섏슂: ?곌컙 ?섎쭔 嫄?異붿젙**
+→ **수도권 아파트 보유 자영업자 중 대부업 아파트담보대출 수요: 연간 수만 건 추정**
 
 ---
 
-# PART 2. ?遺(以묎컻)???꾪뙆?몃떞蹂대?異??쒖옣
+# PART 2. 대부(중개)업 아파트담보대출 시장
 
-## 2-1. ?遺???꾩껜 ?쒖옣 洹쒕え
+## 2-1. 대부업 전체 시장 규모
 
-### 湲덇컧???遺???ㅽ깭議곗궗 (理쒓렐 怨듭떆 湲곗?)
+### 금감원 대부업 실태조사 (최근 공시 기준)
 
-| 援щ텇 | ?섏튂 |
+| 구분 | 수치 |
 |---|---|
-| ?깅줉 ?遺?낆껜 ??| ??8,000~9,000媛?(?꾧뎅) |
-| ?遺???꾩껜 ?異쒖옍??| ??15~17議곗썝 |
-| ??以?媛쒖씤 遺?숈궛?대낫?異?鍮꾩쨷 | ??30~35% |
-| 遺?숈궛?대낫 ?異쒖옍??| ??4.5~6議곗썝 異붿젙 |
-| ?쒖슱쨌?섎룄沅?鍮꾩쨷 | ??70% |
-| **?쒖슱쨌?섎룄沅??遺??遺?숈궛?대낫 ?붿븸** | **??3~4議곗썝** |
+| 등록 대부업체 수 | 약 8,000~9,000개 (전국) |
+| 대부업 전체 대출잔액 | 약 15~17조원 |
+| 이 중 개인 부동산담보대출 비중 | 약 30~35% |
+| 부동산담보 대출잔액 | 약 4.5~6조원 추정 |
+| 서울·수도권 비중 | 약 70% |
+| **서울·수도권 대부업 부동산담보 잔액** | **약 3~4조원** |
 
-### ?遺以묎컻???쒖옣
+### 대부중개업 시장
 
-| 援щ텇 | ?섏튂 |
+| 구분 | 수치 |
 |---|---|
-| ?깅줉 ?遺以묎컻?낆껜 ??| ??1,500~2,000媛?|
-| ?곌컙 ?遺以묎컻 ?ㅽ뻾 異붿젙??| ??3~5議곗썝 |
-| ?됯퇏 ?섏닔猷뚯쑉 (以묎컻蹂댁닔) | 0% (踰뺤쟻?쇰줈 ?섏랬 遺덇?) |
-| ?ㅼ쭏 ?섏씡??| ?遺?낆껜濡쒕????뚭컻?섏닔猷?|
+| 등록 대부중개업체 수 | 약 1,500~2,000개 |
+| 연간 대부중개 실행 추정액 | 약 3~5조원 |
+| 평균 수수료율 (중개보수) | 0% (법적으로 수취 불가) |
+| 실질 수익원 | 대부업체로부터 소개수수료 |
 
 ---
 
-## 2-2. ?꾪뙆?몃떞蹂??뱁솕 ?遺?낆껜 ?꾪솴 諛??곸뾽諛⑹떇
+## 2-2. 아파트담보 특화 대부업체 현황 및 영업방식
 
-### 二쇱슂 ?낆껜 ?좏삎
+### 주요 업체 유형
 
-**Type A: ????遺??吏곸젒 ?異쒖궗**
-- ?? ?ъ떆?ㅼ틦???꾪봽濡쒗뙆?대궦??, 由щ뱶肄뷀봽, ?곗뺨?щ젅?붾씪??
-- ?뱀쭠: ?좎슜?異??꾩＜, 遺?숈궛?대낫???쇰?留?痍④툒
-- 洹쒕え: ?붿븸 ?섏쿇???섏“??
+**Type A: 대형 대부업 직접 대출사**
+- 예: 러시앤캐시(아프로파이낸셜), 리드코프, 웰컴크레디라인
+- 특징: 신용대출 위주, 부동산담보는 일부만 취급
+- 규모: 잔액 수천억~수조원
 
-**Type B: 遺?숈궛?대낫 ?꾨Ц 以묒냼 ?遺?낆궗**
-- ?? 媛?吏???깅줉 ?ш툑?듭뾽泥?
-- ?뱀쭠: ?꾪뙆?맞룹긽媛쨌?좎? ?대낫 ?꾨Ц
-- 洹쒕え: ?낆껜???붿븸 ?섏떗???섎갚??
+**Type B: 부동산담보 전문 중소 대부업사**
+- 예: 각 지역 등록 사금융업체
+- 특징: 아파트·상가·토지 담보 전문
+- 규모: 업체당 잔액 수십억~수백억
 
-**Type C: ?遺以묎컻 ?꾨Ц??(?덈줎湲덉쑖 ?좏삎)**
-- 吏곸젒 ?異??놁씠 ?ㅼ닔 ?遺?낆껜 ?곌껐
-- 怨좉컼 留욎땄???곹뭹 鍮꾧탳 ?쒓났
-- 洹쒕え: 以묎컻 ?ㅽ뻾?????섏뼲~?섏떗??
-
----
-
-## 2-3. ?遺?낆껜 ?곸뾽諛⑹떇 ?곸꽭 遺꾩꽍
-
-### 2-3-1. ?⑤씪???곸뾽 (二쇱슂 梨꾨꼸)
-
-**???ㅼ씠踰꽷룰뎄湲 寃?됯킅怨?*
-- ?ㅼ썙?? "?꾪뙆?몃떞蹂대?異?, "?ъ뾽?먮떞蹂대?異?, "湲됱쟾" ??
-- ??愿묎퀬鍮? ?낆껜???섎갚留??섏쿇留뚯썝
-- ?대┃??鍮꾩슜: 5,000~30,000??(寃쎌웳 ?믪쓬)
-- ?꾪솚?? 1~3%
-
-??**?덈줎湲덉쑖 ?꾨왂: 愿묎퀬鍮??놁씠 肄섑뀗痢?留덉???+ ?꾨Ц?깆쑝濡?李⑤퀎??*
-
-**???ㅼ씠踰?釉붾줈洹?SEO**
-- "?꾪뙆?몃떞蹂대?異??쒕룄珥덇낵" ??濡깊뀒???ㅼ썙??怨듬왂
-- ?곸쐞 ?몄텧 ?????섎갚~?섏쿇 紐?臾대즺 ?좎엯
-
-**???좏뒠釉?梨꾨꼸**
-- ????낆껜?ㅼ씠 湲덉쑖援먯쑁 肄섑뀗痢좊줈 ?좊ː 援ъ텞
-- 議고쉶??湲곕컲 由щ뱶 ?뺣낫
-
-**??移댁뭅?ㅼ콈??*
-- ?ㅼ떆媛??곷떞 + ?異?議곌굔 ?덈궡
-
-### 2-3-2. ?ㅽ봽?쇱씤 ?곸뾽
-
-**??怨듭씤以묎컻???묒뾽 (?듭떖 梨꾨꼸)**
-- ?꾪뙆??留ㅻℓ 以묎컻 ???붽툑 遺議?怨좉컼 ?곌껐
-- 怨듭씤以묎컻?????遺??釉뚮┸吏 ?뚭컻 ?섏닔猷?援ъ“
-- **?덈줎湲덉쑖 ?듭떖 ?꾨왂 ?ъ씤??*
-
-**???몃Т??룻쉶怨꾩궗 ?묒뾽**
-- ?먯쁺?낆옄 ?멸툑 ?⑸? ?먭툑 ?꾩슂 ???뚭컻
-- ?좊ː???믪? 猷⑦듃
-
-**??踰뺣Т???묒뾽**
-- 寃쎈ℓ ?숈같 ?붽툑, 洹쇱????ㅼ젙 ?낅Т ?곌퀎
-
-**??踰뺤썝 寃쎈ℓ ?뺣낫 紐⑤땲?곕쭅**
-- ?숈같?먯뿉寃?吏곸젒 ?묎렐 (?붽툑?異??덉쫰)
-- 踰뺤썝 寃쎈ℓ ?숈같 紐⑸줉 ???숈같???뺣낫 ?뺤씤 ???곕씫
-
-### 2-3-3. ?섏씡 援ъ“
-
-```
-[?遺以묎컻?낆껜 ?섏씡 ?먮쫫]
-
-怨좉컼 ???遺以묎컻???덈줎湲덉쑖) ???遺?낆껜(吏곸젒 ?異쒖궗)
-                                      ??
-                            ?뚭컻?섏닔猷?吏湲?(?異쒓툑?≪쓽 1~3%)
-                            ???덈줎湲덉쑖 ?섏엯
-
-?? 2???異?以묎컻 ??
-  ?뚭컻?섏닔猷?1.5%: 300留뚯썝/嫄?
-  ??10嫄?以묎컻: ??3,000留뚯썝 留ㅼ텧
-```
+**Type C: 대부중개 전문사 (새론금융 유형)**
+- 직접 대출 없이 다수 대부업체 연결
+- 고객 맞춤형 상품 비교 제공
+- 규모: 중개 실행액 월 수억~수십억
 
 ---
 
-## 2-4. ?듭떖 怨듬왂 ?寃잙퀎 ?쒖옣 洹쒕え 異붿젙
+## 2-3. 대부업체 영업방식 상세 분석
 
-### ?寃잂몺: ?먯쁺?낆옄 ?앺솢?덉젙?먭툑 珥덇낵 ?섏슂
+### 2-3-1. 온라인 영업 (주요 채널)
 
-**?쒖옣 異붿젙:**
+**① 네이버·구글 검색광고**
+- 키워드: "아파트담보대출", "사업자담보대출", "급전" 등
+- 월 광고비: 업체당 수백만~수천만원
+- 클릭당 비용: 5,000~30,000원 (경쟁 높음)
+- 전환율: 1~3%
+
+→ **새론금융 전략: 광고비 없이 콘텐츠 마케팅 + 전문성으로 차별화**
+
+**② 네이버 블로그 SEO**
+- "아파트담보대출 한도초과" 등 롱테일 키워드 공략
+- 상위 노출 시 월 수백~수천 명 무료 유입
+
+**③ 유튜브 채널**
+- 대형 업체들이 금융교육 콘텐츠로 신뢰 구축
+- 조회수 기반 리드 확보
+
+**④ 카카오채널**
+- 실시간 상담 + 대출 조건 안내
+
+### 2-3-2. 오프라인 영업
+
+**① 공인중개사 협업 (핵심 채널)**
+- 아파트 매매 중개 시 잔금 부족 고객 연결
+- 공인중개사 → 대부업 브릿지 소개 수수료 구조
+- **새론금융 핵심 전략 포인트**
+
+**② 세무사·회계사 협업**
+- 자영업자 세금 납부 자금 필요 시 소개
+- 신뢰도 높은 루트
+
+**③ 법무사 협업**
+- 경매 낙찰 잔금, 근저당 설정 업무 연계
+
+**④ 법원 경매 정보 모니터링**
+- 낙찰자에게 직접 접근 (잔금대출 니즈)
+- 법원 경매 낙찰 목록 → 낙찰자 정보 확인 → 연락
+
+### 2-3-3. 수익 구조
+
 ```
-?쒖슱쨌?섎룄沅??꾪뙆??蹂댁쑀 ?먯쁺?낆옄: ??80~100留?紐?
-??以??곌컙 異붽? ?먭툑 ?꾩슂 鍮꾩쑉: ??5~10%
-= ?곌컙 ?좎옱 ?섏슂: 4留?10留?嫄?
-?됯퇏 ?異쒓툑?? 1??3??
+[대부중개업체 수익 흐름]
 
-?곌컙 ?좎옱 ?쒖옣洹쒕え: ??4議?30議곗썝
+고객 → 대부중개사(새론금융) → 대부업체(직접 대출사)
+                                      ↓
+                            소개수수료 지급 (대출금액의 1~3%)
+                            → 새론금융 수입
+
+예) 2억 대출 중개 시:
+  소개수수료 1.5%: 300만원/건
+  월 10건 중개: 약 3,000만원 매출
 ```
-
-**?ㅼ쭏 ?깆빟 媛??鍮꾩쑉:** ??20~30% (?대낫媛移샕룰린議댁콈臾?怨좊젮)
-??**?ㅼ쭏 ?쒖옣: ?곌컙 1留?3留?嫄? ??1議?9議곗썝**
-
-### ?寃잂몼: ?꾪뙆??援ъ엯?먭툑 釉뚮┸吏 ?섏슂
-
-**?쒖옣 異붿젙:**
-```
-?쒖슱쨌?섎룄沅??곌컙 ?꾪뙆??嫄곕옒?? ??15留?20留?嫄?
-???LTV ?쒕룄 援ъ“?곸쑝濡?遺議깊븳 嫄곕옒 鍮꾩쑉: ??30~40%
-= ?곌컙 ?좎옱 ?섏슂: 4留?泥?8留?嫄?
-
-??以??ㅼ젣 ?遺??釉뚮┸吏 ?쒖슜 鍮꾩쑉: ??5~10%
-= ?곌컙 ?ㅼ쭏 ?섏슂: 2,250~8,000嫄?
-?됯퇏 ?異쒓툑?? 3??10??
-```
-
-??**?ㅼ쭏 ?쒖옣: ?곌컙 ??2泥?8泥?嫄? ??1議?6議곗썝**
 
 ---
 
-# PART 3. 寃쎌웳 ?섍꼍 遺꾩꽍
+## 2-4. 핵심 공략 타겟별 시장 규모 추정
 
-## 3-1. ?遺以묎컻??寃쎌웳 ?꾪솴
+### 타겟①: 자영업자 생활안정자금 초과 수요
 
-| 寃쎌웳 媛뺣룄 | ?됯? |
+**시장 추정:**
+```
+서울·수도권 아파트 보유 자영업자: 약 80~100만 명
+이 중 연간 추가 자금 필요 비율: 약 5~10%
+= 연간 잠재 수요: 4만~10만 건
+평균 대출금액: 1억~3억
+
+연간 잠재 시장규모: 약 4조~30조원
+```
+
+**실질 성약 가능 비율:** 약 20~30% (담보가치·기존채무 고려)
+→ **실질 시장: 연간 1만~3만 건, 약 1조~9조원**
+
+### 타겟②: 아파트 구입자금 브릿지 수요
+
+**시장 추정:**
+```
+서울·수도권 연간 아파트 거래량: 약 15만~20만 건
+은행 LTV 한도 구조적으로 부족한 거래 비율: 약 30~40%
+= 연간 잠재 수요: 4만5천~8만 건
+
+이 중 실제 대부업 브릿지 활용 비율: 약 5~10%
+= 연간 실질 수요: 2,250~8,000건
+평균 대출금액: 3억~10억
+```
+
+→ **실질 시장: 연간 약 2천~8천 건, 약 1조~6조원**
+
+---
+
+# PART 3. 경쟁 환경 분석
+
+## 3-1. 대부중개업 경쟁 현황
+
+| 경쟁 강도 | 평가 |
 |---|---|
-| ?ㅼ씠踰?愿묎퀬 寃쎌웳 | 洹밸룄濡?移섏뿴 (吏꾩엯 ?대젮?) |
-| ?ㅽ봽?쇱씤 怨듭씤以묎컻???ㅽ듃?뚰겕 | 以묎컙 ?섏? |
-| 釉뚮┸吏+?꾪솚 ?먯뒪???쒕퉬??| **寃쎌웳 ?곸쓬 (李⑤퀎??湲고쉶)** |
-| ?먯쁺?낆옄 ?꾨Ц ?곷떞 | **寃쎌웳 ?곸쓬 (李⑤퀎??湲고쉶)** |
-| SNS 肄섑뀗痢?留덉???| ?꾩쭅 釉붾（?ㅼ뀡 |
+| 네이버 광고 경쟁 | 극도로 치열 (진입 어려움) |
+| 오프라인 공인중개사 네트워크 | 중간 수준 |
+| 브릿지+전환 원스톱 서비스 | **경쟁 적음 (차별화 기회)** |
+| 자영업자 전문 상담 | **경쟁 적음 (차별화 기회)** |
+| SNS 콘텐츠 마케팅 | 아직 블루오션 |
 
-## 3-2. 李⑤퀎???ъ씤??(?덈줎湲덉쑖??媛뺤젏)
+## 3-2. 차별화 포인트 (새론금융의 강점)
 
-寃쎌웳???遺遺꾩씠 **?⑥닚 ?異?以묎컻**??吏묒쨷?섎뒗 諛섎㈃,
-?덈줎湲덉쑖? **"釉뚮┸吏 ???좏삊쨌湲덇퀬 ?꾪솚"?대씪??2?④퀎 異쒓뎄 ?꾨왂**???쒓났 媛??
+경쟁사 대부분이 **단순 대출 중개**에 집중하는 반면,
+새론금융은 **"브릿지 → 신협·금고 전환"이라는 2단계 출구 전략**을 제공 가능
 
-???닿쾬???듭떖 李⑤퀎???ъ씤?몄씠硫? 怨좉컼 ?낆옣?먯꽌 **吏꾩쭨 ?붾（???쒓났??*媛 ?⑸땲??
+→ 이것이 핵심 차별화 포인트이며, 고객 입장에서 **진짜 솔루션 제공자**가 됩니다.
 
 ---
 
-# PART 4. 寃곕줎 諛??꾨왂 諛⑺뼢 (?댄씗????κ낵 ?ъ링 ?쇱쓽???ы빆)
+# PART 4. 결론 및 전략 방향 (이희전 팀장과 심층 논의할 사항)
 
-## 4-1. ???寃잛쓽 ?곗꽑?쒖쐞
+## 4-1. 두 타겟의 우선순위
 
-| ?寃?| ?쒖옣 洹쒕え | 寃쎌웳媛뺣룄 | 嫄대떦 ?섏씡 | ?곗꽑?쒖쐞 |
+| 타겟 | 시장 규모 | 경쟁강도 | 건당 수익 | 우선순위 |
 |---|---|---|---|---|
-| ???먯쁺?낆옄 ?앺솢?덉젙?먭툑 | ? | 以?| 以?(1??3?? | **利됱떆 怨듬왂** |
-| ??援ъ엯?먭툑 釉뚮┸吏 | 以?| ??쓬 | 怨?(3??10?? | **李⑤퀎??怨듬왂** |
+| ① 자영업자 생활안정자금 | 대 | 중 | 중 (1억~3억) | **즉시 공략** |
+| ② 구입자금 브릿지 | 중 | 낮음 | 고 (3억~10억) | **차별화 공략** |
 
-??**?좊줈 利됱떆 ?섏씡 李쎌텧, ?〓줈 怨좎닔???ъ??붾떇**
+→ **①로 즉시 수익 창출, ②로 고수익 포지셔닝**
 
-## 4-2. 媛???④낵?곸씤 由щ뱶 ?뺣낫 梨꾨꼸 (鍮꾩슜 ?⑥쑉 ??
+## 4-2. 가장 효과적인 리드 확보 채널 (비용 효율 순)
 
 ```
-1?? 怨듭씤以묎컻???ㅽ듃?뚰겕 援ъ텞 (臾대즺, 怨좏슚??
-     ???쒖슱쨌?섎룄沅?遺?숈궛 以묎컻?낆냼 諛⑸Ц or ?곕씫
-     ??"?꾪뙆???붽툑 遺議?怨좉컼 ?곌껐" ?쒖븞
+1위. 공인중개사 네트워크 구축 (무료, 고효율)
+     → 서울·수도권 부동산 중개업소 방문 or 연락
+     → "아파트 잔금 부족 고객 연결" 제안
 
-2?? ?몃Т??룻쉶怨꾩궗 ?묒뾽 (臾대즺, 怨좎떊猶?
-     ???섏썝쨌?쒖슱 ?몃Т?ы삊???곕씫
-     ???먯쁺?낆옄 ?멸툑?먭툑 ?꾩슂 ???뚭컻
+2위. 세무사·회계사 협업 (무료, 고신뢰)
+     → 수원·서울 세무사협회 연락
+     → 자영업자 세금자금 필요 시 소개
 
-3?? ?ㅼ씠踰?釉붾줈洹?SEO (?쒓컙 ?ъ옄)
-     ??"?꾪뙆?몃떞蹂대?異?1?듭큹怨?, "援ъ엯?먭툑 遺議? ?ㅼ썙??
+3위. 네이버 블로그 SEO (시간 투자)
+     → "아파트담보대출 1억초과", "구입자금 부족" 키워드
 
-4?? ?붾젅洹몃옩/SNS ?먮룞??(?대? 援ъ텞 ?꾨즺)
-     ???κ린???좊ː 援ъ텞
+4위. 텔레그램/SNS 자동화 (이미 구축 완료)
+     → 장기적 신뢰 구축
 
-5?? 踰뺤썝寃쎈ℓ ?숈같???묎렐 (?뺣낫 ?쒖슜)
-     ???踰뺤썝 寃쎈ℓ ?ъ씠???숈같 紐⑸줉 ???붽툑?異??곕씫
+5위. 법원경매 낙찰자 접근 (정보 활용)
+     → 대법원 경매 사이트 낙찰 목록 → 잔금대출 연락
 ```
 
-## 4-3. ?댄씗????λ떂猿??쒕━???듭떖 吏덈Ц (?꾨왂 ?섎┰??
+## 4-3. 이희전 팀장님께 드리는 핵심 질문 (전략 수립용)
 
-?꾨옒 ?ы빆???④퍡 ?쇱쓽?섍쿋?듬땲??
+아래 사항을 함께 논의하겠습니다:
 
-1. **?뚰듃???遺?낆껜 ?꾪솴**: ?꾩옱 ?곌퀎???遺?낆껜 以??꾪뙆?몃떞蹂?痍④툒 媛?ν븳 怨녹??
-2. **?섏닔猷?援ъ“**: ?뚭컻?섏닔猷??꾩옱 ?묒빟 ?꾪솴??
-3. **LTV 媛???섏?**: ?遺?낆껜?ㅼ씠 ?쒖슱 ?꾪뙆??湲곗? LTV 紐?%源뚯? 媛?ν븳媛?
-4. **?좏삊쨌湲덇퀬 ?꾪솚 猷⑦듃**: 3媛쒖썡 ???꾪솚 ?곌퀎 ?좏삊쨌湲덇퀬媛 ?뺣낫?섏뼱 ?덈뒗媛?
-5. **怨듭씤以묎컻???ㅽ듃?뚰겕**: 湲곗〈???꾨뒗 怨듭씤以묎컻?ш? ?덈뒗媛?
-6. **??紐⑺몴 ?ㅽ뻾 嫄댁닔**: 珥덇린 ??紐?嫄댁쓣 紐⑺몴濡??섎뒗媛?
+1. **파트너 대부업체 현황**: 현재 연계된 대부업체 중 아파트담보 취급 가능한 곳은?
+2. **수수료 구조**: 소개수수료 현재 협약 현황은?
+3. **LTV 가능 수준**: 대부업체들이 서울 아파트 기준 LTV 몇 %까지 가능한가?
+4. **신협·금고 전환 루트**: 3개월 후 전환 연계 신협·금고가 확보되어 있는가?
+5. **공인중개사 네트워크**: 기존에 아는 공인중개사가 있는가?
+6. **월 목표 실행 건수**: 초기 월 몇 건을 목표로 하는가?
 
 ---
 
-## 李멸퀬: ??λ떂 25??湲덉쑖 寃쎈젰 ?쒖슜 ?ъ씤??
+## 참고: 팀장님 25년 금융 경력 활용 포인트
 
-- **????ъ궗 湲곗? ?숈?** ??"??됱뿉????嫄곗젅?먮뒗吏" ?뺥솗???뚯븙 ???遺???곌껐
-- **?좏삊쨌湲덇퀬 ?꾪솚 ?꾨왂** ???ㅼ젣 議곌굔 ?묒긽 ?λ젰 (湲덉쑖沅??몃㎘ ?쒖슜)
-- **踰뺤쟻 由ъ뒪??愿由?* ???遺?낅쾿 以?? 怨좉컼 蹂댄샇
-- **怨좉컼 ?좊ː** ???꾨Ц媛 ?대?吏 = ?щ갑臾맞룹냼媛??곸뾽
+- **은행 심사 기준 숙지** → "은행에서 왜 거절됐는지" 정확히 파악 후 대부업 연결
+- **신협·금고 전환 전략** → 실제 조건 협상 능력 (금융권 인맥 활용)
+- **법적 리스크 관리** → 대부업법 준수, 고객 보호
+- **고객 신뢰** → 전문가 이미지 = 재방문·소개 영업
 
 ---
 
-*遺꾩꽍?? AI ?꾨Ц 遺꾩꽍 ?쒖뒪??
-*?곗씠??異쒖쿂: ?쒓뎅???湲덉쑖?덉젙蹂닿퀬?? 湲덇컧???遺???ㅽ깭議곗궗, 援?넗遺 ?듦퀎, ?낃퀎 遺꾩꽍*
-*?묒꽦: 2026-05-17*
+*분석자: AI 전문 분석 시스템*
+*데이터 출처: 한국은행 금융안정보고서, 금감원 대부업 실태조사, 국토부 통계, 업계 분석*
+*작성: 2026-05-17*
+
+
 
 ---
 
@@ -30654,249 +30994,251 @@ KB?쒖꽭 25??珥덇낵  ??理쒕? 2??
 
 ---
 
-# ?쨼 ?덈줎湲덉쑖 ?꾩쟾 ?먯쑉 AI ?쒖뒪??v2.0
-## ?댄씗????μ? ?꾨왂 蹂寃??쒖뿉留?媛쒖엯?섎㈃ ?⑸땲??
+# 🤖 새론금융 완전 자율 AI 시스템 v2.0
+## 이희전 팀장은 전략 변경 시에만 개입하면 됩니다
 
 ---
 
-## ?쒖뒪???묐룞 媛쒖슂
+## 시스템 작동 개요
 
 ```
-?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺
-??λ떂 ??븷: ??1??由ы룷???뺤씤 + ?꾨왂 蹂寃??쒕쭔 媛쒖엯
-        (?묒뾽 ?쒓컙: ??30遺?
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+팀장님 역할: 월 1회 리포트 확인 + 전략 변경 시만 개입
+        (작업 시간: 월 30분)
 
-AI ??븷: ?섎㉧吏 365??24?쒓컙 紐⑤뱺 寃??먮룞 泥섎━
-?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺
+AI 역할: 나머지 365일 24시간 모든 것 자동 처리
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
 
 ---
 
-## AI媛 ?먮룞?쇰줈 ?섎뒗 ??(???媛쒖엯 ?놁쓬)
+## AI가 자동으로 하는 일 (팀장 개입 없음)
 
-| ?쒓컙 | AI媛 ?섎뒗 ??| ?ъ슜 ?꾧뎄 |
+| 시간 | AI가 하는 일 | 사용 도구 |
 |---|---|---|
-| 留ㅼ씪 ?ㅼ쟾 8:50 | ChatGPT媛 ?ㅻ뒛??寃뚯떆臾??앹꽦 | OpenAI GPT-4o-mini |
-| 留ㅼ씪 ?ㅼ쟾 9:00 | ?붾젅洹몃옩 梨꾨꼸???먮룞 諛쒗뻾 | Google AppScript |
-| ?붋룹닔쨌湲??ㅼ쟾 9:00 | ?ㅼ씠踰?釉붾줈洹??ъ뒪??珥덉븞 ?대찓??諛쒖넚 | OpenAI + Gmail |
-| 怨좉컼 ?곷떞?좎껌 利됱떆 | ????대찓?셋룸Ц???먮룞 ?뚮┝ | Google Forms |
-| 留ㅼ＜ ?붿슂???ㅼ쟾 9??| 二쇨컙 ?ㅼ쟻 + AI ?몄궗?댄듃 由ы룷??諛쒖넚 | OpenAI + Gmail |
-| ?ㅻ쪟 諛쒖깮 ??| 利됱떆 ??μ뿉寃?寃쎄퀬 ?대찓??| Gmail |
+| 매일 오전 8:50 | ChatGPT가 오늘의 게시물 생성 | OpenAI GPT-4o-mini |
+| 매일 오전 9:00 | 텔레그램 채널에 자동 발행 | Google AppScript |
+| 월·수·금 오전 9:00 | 네이버 블로그 포스팅 초안 이메일 발송 | OpenAI + Gmail |
+| 고객 상담신청 즉시 | 팀장 이메일·문자 자동 알림 | Google Forms |
+| 매주 월요일 오전 9시 | 주간 실적 + AI 인사이트 리포트 발송 | OpenAI + Gmail |
+| 오류 발생 시 | 즉시 팀장에게 경고 이메일 | Gmail |
 
 ---
 
-## ?꾩옱 ?ъ슜?섎뒗 AI ??議고빀 (???멸퀎 理쒖쟻 臾대즺 議고빀)
+## 현재 사용하는 AI 툴 조합 (전 세계 최적 무료 조합)
 
-### ??OpenAI GPT-4o-mini ???듭떖 ?먮뇤
+### ① OpenAI GPT-4o-mini — 핵심 두뇌
 ```
-??븷: 紐⑤뱺 肄섑뀗痢??먮룞 ?앹꽦
-鍮꾩슜: ????2,000~5,000??(嫄대떦 0.01???섏?)
-?댁쑀 ?좏깮: ?쒓뎅???덉쭏 ?멸퀎 1?? 媛??鍮좊Ⅸ 泥섎━
-```
-
-### ??Google AppScript ???먮룞???붿쭊
-```
-??븷: 留ㅼ씪쨌留ㅼ＜ ?뺥빐吏??쒓컙??紐⑤뱺 寃??ㅽ뻾
-鍮꾩슜: ?꾩쟾 臾대즺
-?댁쑀 ?좏깮: 援ш? ?명봽??= 99.9% ?덉젙?? ?ㅼ젙 ?ъ?
+역할: 모든 콘텐츠 자동 생성
+비용: 월 약 2,000~5,000원 (건당 0.01원 수준)
+이유 선택: 한국어 품질 세계 1위, 가장 빠른 처리
 ```
 
-### ??Google Forms + Sheets ??CRM (怨좉컼愿由?
+### ② Google AppScript — 자동화 엔진
 ```
-??븷: ?곷떞 ?좎껌 ?섏쭛 + ?먮룞 ?뺣━
-鍮꾩슜: ?꾩쟾 臾대즺
-?댁쑀 ?좏깮: 利됱떆 ?쒖옉 媛?? 蹂꾨룄 ?ㅼ튂 遺덊븘??
-```
-
-### ??Telegram Bot ??SNS ?먮룞諛쒗뻾
-```
-??븷: ?앹꽦??肄섑뀗痢좊? 援щ룆?먯뿉寃?利됱떆 ?꾨떖
-鍮꾩슜: ?꾩쟾 臾대즺
-?댁쑀 ?좏깮: 援?궡 ?異??뺣낫 而ㅻ??덊떚 ?쒖꽦?? API ?덉젙??
+역할: 매일·매주 정해진 시간에 모든 것 실행
+비용: 완전 무료
+이유 선택: 구글 인프라 = 99.9% 안정성, 설정 쉬움
 ```
 
-### ??Vercel + GitHub ???덊럹?댁? ?먮룞 ?댁쁺
+### ③ Google Forms + Sheets — CRM (고객관리)
 ```
-??븷: saeloan.co.kr 24?쒓컙 ?먮룞 ?댁쁺
-鍮꾩슜: ?꾩쟾 臾대즺
-?댁쑀 ?좏깮: ?대? ?ㅼ젙 ?꾨즺
+역할: 상담 신청 수집 + 자동 정리
+비용: 완전 무료
+이유 선택: 즉시 시작 가능, 별도 설치 불필요
+```
+
+### ④ Telegram Bot — SNS 자동발행
+```
+역할: 생성된 콘텐츠를 구독자에게 즉시 전달
+비용: 완전 무료
+이유 선택: 국내 대출 정보 커뮤니티 활성화, API 안정적
+```
+
+### ⑤ Vercel + GitHub — 홈페이지 자동 운영
+```
+역할: saeloan.co.kr 24시간 자동 운영
+비용: 완전 무료
+이유 선택: 이미 설정 완료
 ```
 
 ---
 
-## ?꾨왂 蹂寃?諛⑸쾿 (???吏곸젒 ?ㅼ젙)
+## 전략 변경 방법 (팀장 직접 설정)
 
-### ??μ씠 ?꾨왂??諛붽씀怨??띠쓣 ??
+### 팀장이 전략을 바꾸고 싶을 때
 
-**?④퀎 1:** ?꾨옒 二쇱냼 ?묒냽
+**단계 1:** 아래 주소 접속
 ```
 https://github.com/HeeJeonLee/saeloan-financial/blob/main/automation/STRATEGY_CONFIG.gs
 ```
 
-**?④퀎 2:** ?붾㈃ ?ㅻⅨ履??고븘(?륅툘) ?꾩씠肄??대┃
+**단계 2:** 화면 오른쪽 연필(✏️) 아이콘 클릭
 
-**?④퀎 3:** 諛붽씀怨??띠? ?댁슜留??섏젙
+**단계 3:** 바꾸고 싶은 내용만 수정
 ```javascript
-// ?덉떆: 寃쎈ℓ ?숈같 ?붽툑?쇰줈 二쇰젰 ?꾪솚 ??
+// 예시: 경매 낙찰 잔금으로 주력 전환 시
 FOCUS: {
-  ?먯쁺?낆옄異붽??먭툑: false,   ??false濡?蹂寃?
-  援ъ엯?먭툑釉뚮┸吏: false,    ??false濡?蹂寃?
-  ?좏삊湲덇퀬?꾪솚: false,
-  寃쎈ℓ?숈같?붽툑: true,       ??true濡?蹂寃?
+  자영업자추가자금: false,   ← false로 변경
+  구입자금브릿지: false,    ← false로 변경
+  신협금고전환: false,
+  경매낙찰잔금: true,       ← true로 변경
 }
 ```
 
-**?④퀎 4:** ?붾㈃ ?꾨옒 **"Commit changes"** ?대┃
+**단계 4:** 화면 아래 **"Commit changes"** 클릭
 
-**??** ?ㅼ쓬 ?좊???AI媛 ???꾨왂?쇰줈 紐⑤뱺 寃뚯떆臾쇱쓣 ?먮룞 ?묒꽦?⑸땲??
+**끝.** 다음 날부터 AI가 새 전략으로 모든 게시물을 자동 작성합니다.
 
 ---
 
-## 泥섏쓬 1???ㅼ튂 諛⑸쾿 (珥?2?쒓컙 ?뚯슂)
+## 처음 1회 설치 방법 (총 2시간 소요)
 
-### STEP 1: OpenAI API ??諛쒓툒 (20遺?
+### STEP 1: OpenAI API 키 발급 (20분)
 ```
-1. platform.openai.com ?묒냽 ??援ш? 怨꾩젙?쇰줈 媛??
-2. ?곷떒 硫붾돱 "API keys" ?대┃
-3. "+ Create new secret key" ?대┃
-4. ??蹂듭궗 (?? sk-proj-xxx...) ??硫붾え?μ뿉 ???
-5. "Billing" ????移대뱶 ?깅줉 ??$5 異⑹쟾 (??7,000?? 3~6媛쒖썡 ?ъ슜 媛??
-```
-
-### STEP 2: 援ш? ?쒗듃 留뚮뱾湲?(5遺?
-```
-1. sheets.google.com ?????ㅽ봽?덈뱶?쒗듃
-2. ?대쫫: "?덈줎湲덉쑖 CRM"
-3. URL?먯꽌 ID 蹂듭궗:
-   https://docs.google.com/spreadsheets/d/?끸쁾?ш린媛ID?끸쁾/edit
-4. 蹂듭궗??ID瑜?硫붾え?μ뿉 ???
+1. platform.openai.com 접속 → 구글 계정으로 가입
+2. 상단 메뉴 "API keys" 클릭
+3. "+ Create new secret key" 클릭
+4. 키 복사 (예: sk-proj-xxx...) → 메모장에 저장
+5. "Billing" 탭 → 카드 등록 → $5 충전 (약 7,000원, 3~6개월 사용 가능)
 ```
 
-### STEP 3: AppScript ?ㅼ튂 (40遺?
+### STEP 2: 구글 시트 만들기 (5분)
 ```
-1. script.google.com ??"???꾨줈?앺듃"
-2. ?꾨줈?앺듃 ?대쫫: "?덈줎湲덉쑖_?꾩쟾?먮룞?붿떆?ㅽ뀥"
-3. 醫뚯륫 "+" ???뚯씪 異붽? ??"?ㅽ겕由쏀듃"
-4. ?뚯씪 3媛?留뚮뱾湲?
+1. sheets.google.com → 새 스프레드시트
+2. 이름: "새론금융 CRM"
+3. URL에서 ID 복사:
+   https://docs.google.com/spreadsheets/d/★★여기가ID★★/edit
+4. 복사한 ID를 메모장에 저장
+```
+
+### STEP 3: AppScript 설치 (40분)
+```
+1. script.google.com → "새 프로젝트"
+2. 프로젝트 이름: "새론금융_완전자동화시스템"
+3. 좌측 "+" → 파일 추가 → "스크립트"
+4. 파일 3개 만들기:
    - STRATEGY_CONFIG
    - AI_CONTENT_ENGINE
    - WEEKLY_REPORT
-5. GitHub?먯꽌 媛??뚯씪 ?댁슜 蹂듭궗 ??遺숈뿬?ｊ린
+5. GitHub에서 각 파일 내용 복사 → 붙여넣기
    (https://github.com/HeeJeonLee/saeloan-financial/tree/main/automation)
-6. STRATEGY_CONFIG?먯꽌 援먯껜??寃?
-   - YOUR_OPENAI_API_KEY ??STEP 1?먯꽌 蹂듭궗????
-   - YOUR_GOOGLE_SHEET_ID ??STEP 2?먯꽌 蹂듭궗??ID
-7. AI_CONTENT_ENGINE?먯꽌 援먯껜:
-   - YOUR_BOT_TOKEN ???붾젅洹몃옩 遊??좏겙
-   - @saeloan_apt ??留뚮뱺 梨꾨꼸 二쇱냼
-8. WEEKLY_REPORT?먯꽌 援먯껜:
-   - YOUR_EMAIL@gmail.com ???댄씗???대찓??
-9. ???(Ctrl+S)
+6. STRATEGY_CONFIG에서 교체할 것:
+   - YOUR_OPENAI_API_KEY → STEP 1에서 복사한 키
+   - YOUR_GOOGLE_SHEET_ID → STEP 2에서 복사한 ID
+7. AI_CONTENT_ENGINE에서 교체:
+   - YOUR_BOT_TOKEN → 텔레그램 봇 토큰
+   - @saeloan_apt → 만든 채널 주소
+8. WEEKLY_REPORT에서 교체:
+   - YOUR_EMAIL@gmail.com → 이희전 이메일
+9. 저장 (Ctrl+S)
 ```
 
-### STEP 4: ?몃━嫄??ㅼ젙 (10遺?
+### STEP 4: 트리거 설정 (10분)
 ```
-AppScript 醫뚯륫 硫붾돱 "?몃━嫄??쒓퀎 ?꾩씠肄?" ?대┃
+AppScript 좌측 메뉴 "트리거(시계 아이콘)" 클릭
 
-[?몃━嫄?1]
-?⑥닔: dailyAutoPost
-?대깽?? ?쒓컙 湲곕컲 ??留ㅼ씪 ???ㅼ쟾 8:00~9:00
+[트리거 1]
+함수: dailyAutoPost
+이벤트: 시간 기반 → 매일 → 오전 8:00~9:00
 
-[?몃━嫄?2]
-?⑥닔: generateNaverBlogPost
-?대깽?? ?쒓컙 湲곕컲 ??留ㅼ＜ ???붿슂?????ㅼ쟾 9:00
+[트리거 2]
+함수: generateNaverBlogPost
+이벤트: 시간 기반 → 매주 → 월요일 → 오전 9:00
 
-[?몃━嫄?3]
-?⑥닔: sendWeeklyReport
-?대깽?? ?쒓컙 湲곕컲 ??留ㅼ＜ ???붿슂?????ㅼ쟾 9:00
+[트리거 3]
+함수: sendWeeklyReport
+이벤트: 시간 기반 → 매주 → 월요일 → 오전 9:00
 
-[?몃━嫄?4] (???묐떟??
-?⑥닔: onFormSubmit
-?대깽?? ?ㅽ봽?덈뱶?쒗듃 湲곕컲 ?????쒖텧 ??
-```
-
-### STEP 5: ?뚯뒪??(5遺?
-```
-AI_CONTENT_ENGINE.gs ?뚯씪 ?닿린
-???⑥닔 ?좏깮: testOnePost
-?????ㅽ뻾
-???섎떒 濡쒓렇??寃뚯떆臾??댁슜 ?섏삤硫??깃났!
+[트리거 4] (폼 응답형)
+함수: onFormSubmit
+이벤트: 스프레드시트 기반 → 폼 제출 시
 ```
 
----
-
-## ?쒖뒪??諛쒖쟾 濡쒕뱶留?(?먮룞 ?낅뜲?댄듃 援ъ“)
-
-### ?꾩옱 (Phase 1) ??利됱떆 ?ъ슜 媛??
+### STEP 5: 테스트 (5분)
 ```
-??AI 肄섑뀗痢??먮룞 ?앹꽦 (OpenAI)
-???붾젅洹몃옩 ?먮룞 諛쒗뻾 (留ㅼ씪)
-???곷떞 ?좎껌 ?먮룞 ?뚮┝
-??二쇨컙 由ы룷???먮룞 ?대찓??
-```
-
-### 3媛쒖썡 ??(Phase 2) ??嫄댁닔 ??5嫄??댁긽 ??
-```
-??YouTube Shorts ?먮룞 ?앹꽦 (HeyGen AI - ?쇨뎬?놁씠 ?숈쁺??
-???몄뒪?洹몃옩 ?먮룞 諛쒗뻾 (Buffer ?곕룞)
-??移댁뭅?ㅽ넚 ?뚮┝???먮룞??(梨꾨꼸 ?뱀씤 ??
-??由щ뱶 ?ㅼ퐫?대쭅 (AI媛 媛留?怨좉컼 ?곗꽑?쒖쐞 ?먮룞 遺꾨쪟)
-```
-
-### 6媛쒖썡 ??(Phase 3) ??嫄댁닔 ??20嫄??댁긽 ??
-```
-??AI 梨쀫큸 ?곌껐 (saeloan.co.kr??24?쒓컙 ?곷떞 遊?
-???異?議곌굔 ?먮룞 鍮꾧탳 異쒕젰 (?뚰듃?덉궗 議곌굔 DB??
-??怨좉컼 CRM 怨좊룄??(HubSpot 臾대즺 ?뚮옖 ?곕룞)
-??愿묎퀬 ?먮룞??(援ш? 愿묎퀬 ?ㅻ쭏??罹좏럹??
-```
-
-### AI ??諛쒖쟾 諛섏쁺 諛⑸쾿
-```
-留?遺꾧린, ????붿갹(GitHub Copilot)?먯꽌 ?꾨옒 吏덈Ц:
-"?덈줎湲덉쑖 ?쒖뒪?쒖뿉 理쒖떊 AI ???낅뜲?댄듃 ?댁쨾"
-
-???덈줈??AI ?댁씠 ?섏삱 ?뚮쭏???먮룞?쇰줈 ?쒖뒪?쒖뿉 ?듯빀?⑸땲??
-????λ떂? 吏덈Ц ??以꾨쭔 ?섎㈃ ?⑸땲??
+AI_CONTENT_ENGINE.gs 파일 열기
+→ 함수 선택: testOnePost
+→ ▶ 실행
+→ 하단 로그에 게시물 내용 나오면 성공!
 ```
 
 ---
 
-## ????붽컙 ?낅Т (?꾩껜 30遺?
+## 시스템 발전 로드맵 (자동 업데이트 구조)
 
+### 현재 (Phase 1) — 즉시 사용 가능
 ```
-[留ㅼ＜ ?붿슂???ㅼ쟾] ??5遺?
-  ?대찓???뺤씤 ??AI 二쇨컙 由ы룷???쎄린
-  ??蹂꾨떎瑜??댁긽 ?놁쑝硫?洹몃깷 ?リ린
+✅ AI 콘텐츠 자동 생성 (OpenAI)
+✅ 텔레그램 자동 발행 (매일)
+✅ 상담 신청 자동 알림
+✅ 주간 리포트 자동 이메일
+```
 
-[??1?? ??20遺?
-  二쇨컙 由ы룷???꾩쟻 ?뺤씤
-  ???곷떞 嫄댁닔 ?몃젋???뺤씤
-  ???꾨왂 蹂寃??꾩슂?섎㈃ STRATEGY_CONFIG.gs ?섏젙
+### 3개월 후 (Phase 2) — 건수 월 5건 이상 시
+```
+□ YouTube Shorts 자동 생성 (HeyGen AI - 얼굴없이 동영상)
+□ 인스타그램 자동 발행 (Buffer 연동)
+□ 카카오톡 알림톡 자동화 (채널 승인 후)
+□ 리드 스코어링 (AI가 가망 고객 우선순위 자동 분류)
+```
 
-[遺꾧린 1?? ??5遺?
-  ????붿갹?먯꽌: "?쒖뒪???낅뜲?댄듃 ?댁쨾"
-  ??AI媛 理쒖떊 ?대줈 ?먮룞 ?낃렇?덉씠??
+### 6개월 후 (Phase 3) — 건수 월 20건 이상 시
+```
+□ AI 챗봇 연결 (saeloan.co.kr에 24시간 상담 봇)
+□ 대출 조건 자동 비교 출력 (파트너사 조건 DB화)
+□ 고객 CRM 고도화 (HubSpot 무료 플랜 연동)
+□ 광고 자동화 (구글 광고 스마트 캠페인)
+```
+
+### AI 툴 발전 반영 방법
+```
+매 분기, 이 대화창(GitHub Copilot)에서 아래 질문:
+"새론금융 시스템에 최신 AI 툴 업데이트 해줘"
+
+→ 새로운 AI 툴이 나올 때마다 자동으로 시스템에 통합됩니다
+→ 팀장님은 질문 한 줄만 하면 됩니다
 ```
 
 ---
 
-## 鍮꾩슜 ?붿빟
+## 팀장 월간 업무 (전체 30분)
 
-| ??ぉ | ??鍮꾩슜 |
+```
+[매주 월요일 오전] — 5분
+  이메일 확인 → AI 주간 리포트 읽기
+  → 별다른 이상 없으면 그냥 닫기
+
+[월 1회] — 20분
+  주간 리포트 누적 확인
+  → 상담 건수 트렌드 확인
+  → 전략 변경 필요하면 STRATEGY_CONFIG.gs 수정
+
+[분기 1회] — 5분
+  이 대화창에서: "시스템 업데이트 해줘"
+  → AI가 최신 툴로 자동 업그레이드
+```
+
+---
+
+## 비용 요약
+
+| 항목 | 월 비용 |
 |---|---|
-| OpenAI API (肄섑뀗痢??앹꽦) | ??2,000~5,000??|
-| Google AppScript | 臾대즺 |
-| Telegram | 臾대즺 |
-| Google Forms/Sheets | 臾대즺 |
-| Vercel ?몄뒪??| 臾대즺 |
-| GitHub | 臾대즺 |
-| **珥앺빀** | **??2,000~5,000????* |
+| OpenAI API (콘텐츠 생성) | 약 2,000~5,000원 |
+| Google AppScript | 무료 |
+| Telegram | 무료 |
+| Google Forms/Sheets | 무료 |
+| Vercel 호스팅 | 무료 |
+| GitHub | 무료 |
+| **총합** | **약 2,000~5,000원/월** |
 
 ---
 
-*v2.0 | 2026-05-17 | ?댄씗??????꾨왂 媛쒖엯 理쒖냼??援ъ“*
-*??? https://github.com/HeeJeonLee/saeloan-financial/blob/main/automation/AUTONOMOUS_SYSTEM_GUIDE.md*
+*v2.0 | 2026-05-17 | 이희전 팀장 전략 개입 최소화 구조*
+*저장: https://github.com/HeeJeonLee/saeloan-financial/blob/main/automation/AUTONOMOUS_SYSTEM_GUIDE.md*
+
+
 
 ---
 
@@ -30904,195 +31246,197 @@ AI_CONTENT_ENGINE.gs ?뚯씪 ?닿린
 
 ---
 
-# ?덈줎湲덉쑖?遺以묎컻 - 100% 臾대즺 AI ?먮룞??SNS ?곸뾽 ?쒖뒪??
-## ?꾩쟾 ?먮룞??| 鍮꾩슜 0??| ?댄씗???대떦
+# 새론금융대부중개 - 100% 무료 AI 자동화 SNS 영업 시스템
+## 완전 자동화 | 비용 0원 | 이희전 담당
 
 ---
 
-## ?꾩껜 援ъ“ ?쒕늿??蹂닿린
+## 전체 구조 한눈에 보기
 
 ```
-[SNS 寃뚯떆臾??먮룞諛쒗뻾]          [怨좉컼 ?곷떞?좎껌 ?먮룞泥섎━]
-        ??                             ??
- Telegram 梨꾨꼸 (臾대즺)          ?덊럹?댁? / 援ш???
-        ??                             ??
-Google AppScript               ?댄씗???대찓??利됱떆 ?섏떊
-(留ㅼ씪 ?먮룞 寃뚯떆)               + Google Sheets ?먮룞 湲곕줉
-                               + Telegram ??利됱떆?뚮┝
+[SNS 게시물 자동발행]          [고객 상담신청 자동처리]
+        ↓                              ↓
+ Telegram 채널 (무료)          홈페이지 / 구글폼
+        ↓                              ↓
+Google AppScript               이희전 이메일 즉시 수신
+(매일 자동 게시)               + Google Sheets 자동 기록
+                               + Telegram 폰 즉시알림
 ```
 
-**?듭떖 ?먯튃:**
-- 鍮꾩슜: 0??
-- ?댄씗???묒뾽: 理쒖큹 1???ㅼ젙 (??2?쒓컙)
-- ?댄썑: ?꾩쟾 ?먮룞 (365?? 源⑥뼱?덈뒗 ?숈븞 ?꾪솕留?諛쏆쑝硫???
+**핵심 원칙:**
+- 비용: 0원
+- 이희전 작업: 최초 1회 설정 (약 2시간)
+- 이후: 완전 자동 (365일, 깨어있는 동안 전화만 받으면 됨)
 
 ---
 
-## STEP 1: 援ш? ???ㅼ튂 (20遺? - 由щ뱶 ?섏쭛
+## STEP 1: 구글 폼 설치 (20분) - 리드 수집
 
-### 1-1. Google Form 留뚮뱾湲?
-1. https://forms.google.com ?????묒떇
-2. ?쒕ぉ: `?덈줎湲덉쑖?遺以묎컻 臾대즺 ?곷떞?좎껌`
-3. 吏덈Ц 異붽?:
-   - ?대쫫 (?⑤떟?? ?꾩닔)
-   - ?곕씫泥?(?⑤떟?? ?꾩닔) ???ㅻ챸: "010-0000-0000 ?뺤떇"
-   - ?щ쭩 ?異쒓툑??(媛앷???:  500留뚯썝 誘몃쭔 / 500~1,000留뚯썝 / 1,000~2,000留뚯썝 / 2,000~3,000留뚯썝 / 3,000留뚯썝 ?댁긽
-   - 吏곸뾽/怨좎슜?뺥깭 (媛앷???: 吏곸옣??/ ?먯쁺?낆옄 / 二쇰? / ?꾨━?쒖꽌 / 湲고?
-   - ?대찓??(?⑤떟?? ?좏깮): "?먮룞 ?듭옣???먰븯?쒕㈃ ?낅젰?댁＜?몄슂"
-   - 臾몄쓽?ы빆 (?λЦ?? ?좏깮)
+### 1-1. Google Form 만들기
+1. https://forms.google.com → 새 양식
+2. 제목: `새론금융대부중개 무료 상담신청`
+3. 질문 추가:
+   - 이름 (단답형, 필수)
+   - 연락처 (단답형, 필수) → 설명: "010-0000-0000 형식"
+   - 희망 대출금액 (객관식):  500만원 미만 / 500~1,000만원 / 1,000~2,000만원 / 2,000~3,000만원 / 3,000만원 이상
+   - 직업/고용형태 (객관식): 직장인 / 자영업자 / 주부 / 프리랜서 / 기타
+   - 이메일 (단답형, 선택): "자동 답장을 원하시면 입력해주세요"
+   - 문의사항 (장문형, 선택)
 
-4. ?ㅼ젙 ???묐떟 ?섏쭛
+4. 설정 → 응답 수집
 
-### 1-2. 援ш? ???먮룞?묐떟 ?ㅽ겕由쏀듃 ?ㅼ튂
-1. ???몄쭛 ?붾㈃ ???곗륫 ?곷떒 ??3媛?(?? ??**?ㅽ겕由쏀듃 ?몄쭛湲?*
-2. `automation/google_form_autoresponder.js` ?뚯씪 ?댁슜 ?꾩껜 蹂듭궗쨌遺숈뿬?ｊ린
-3. `const MANAGER_EMAIL = "YOUR_EMAIL@gmail.com"` ???댄씗???대찓?쇰줈 蹂寃?
-4. **???* (Ctrl+S)
-5. ?곷떒 **?몃━嫄?* 硫붾돱 ???몃━嫄?異붽?:
-   - ?ㅽ뻾???⑥닔: `onFormSubmit`
-   - ?대깽???뚯뒪: ?ㅽ봽?덈뱶?쒗듃
-   - ?대깽???좏삎: **?묒떇 ?쒖텧 ??*
-6. ???
+### 1-2. 구글 폼 자동응답 스크립트 설치
+1. 폼 편집 화면 → 우측 상단 점 3개 (⋮) → **스크립트 편집기**
+2. `automation/google_form_autoresponder.js` 파일 내용 전체 복사·붙여넣기
+3. `const MANAGER_EMAIL = "YOUR_EMAIL@gmail.com"` → 이희전 이메일로 변경
+4. **저장** (Ctrl+S)
+5. 상단 **트리거** 메뉴 → 트리거 추가:
+   - 실행할 함수: `onFormSubmit`
+   - 이벤트 소스: 스프레드시트
+   - 이벤트 유형: **양식 제출 시**
+6. 저장
 
-### 1-3. 援ш? ??留곹겕 ?섏쭛
-?꾩꽦????留곹겕瑜?蹂듭궗???〓땲??
-?? `https://forms.gle/XXXXXXXXXX`
-
----
-
-## STEP 2: Telegram 梨꾨꼸 媛쒖꽕 (30遺? - SNS ?먮룞諛쒗뻾
-
-### ???붾젅洹몃옩?멸??
-- API ?꾩쟾 臾대즺 (Meta ?몄뒪?洹몃옩? ?뱀씤 ?꾩슂)
-- ?쒓뎅 ?異??뺣낫 而ㅻ??덊떚 ?쒖꽦??
-- 留곹겕 怨듭쑀 ?먯쑀濡쒖? ??saeloan.co.kr 吏곸젒 ?곌껐
-- 梨꾨꼸 援щ룆?먯뿉寃??먮룞 ?몄떆 ?뚮┝
-
-### 2-1. ?붾젅洹몃옩 遊?留뚮뱾湲?
-1. ?붾젅洹몃옩 ????@BotFather 寃??
-2. `/newbot` ?낅젰
-3. 遊??대쫫: `?덈줎湲덉쑖?遺以묎컻遊?
-4. 遊??꾩씠?? `saeloan_bot` (?먮뒗 ?먰븯???대쫫)
-5. **BOT_TOKEN** 諛쏄린 (?? `1234567890:ABCdefGHI...`) ????ν빐?먭린
-
-### 2-2. ?붾젅洹몃옩 梨꾨꼸 留뚮뱾湲?
-1. ?붾젅洹몃옩 ????梨꾨꼸 留뚮뱾湲?
-2. 梨꾨꼸紐? `?덈줎湲덉쑖 | ?湲덈━ ?異쒖젙蹂?
-3. 梨꾨꼸 ?좏삎: **怨듦컻 梨꾨꼸**
-4. 梨꾨꼸 留곹겕: `@saeloan_finance` (?먰븯???대쫫)
-5. 梨꾨꼸 ?ㅼ젙 ??愿由ъ옄 ??遊?異붽? (?꾩뿉??留뚮뱺 遊뉗쓣 愿由ъ옄濡?異붽?)
-
-### 2-3. Telegram ?먮룞諛쒗뻾 ?ㅽ겕由쏀듃 ?ㅼ튂
-1. https://script.google.com ?????꾨줈?앺듃
-2. `automation/telegram_auto_poster.js` ?꾩껜 蹂듭궗쨌遺숈뿬?ｊ린
-3. ?섏젙:
-   - `BOT_TOKEN`: BotFather?먯꽌 諛쏆? ?좏겙 ?낅젰
-   - `CHANNEL_ID`: `@saeloan_finance` (梨꾨꼸 ?꾩씠??
-4. **???*
-5. 癒쇱? `testSend` ?⑥닔 ?ㅽ뻾?댁꽌 ?뚯뒪??
-6. ?몃━嫄??ㅼ젙:
-   - ?ㅽ뻾 ?⑥닔: `postDailyContent`
-   - ?대깽???뚯뒪: **?쒓컙 湲곕컲**
-   - ?쒓컙 媛꾧꺽: **留ㅼ씪**
-   - ?쒓컙: **?ㅼ쟾 9??10??*
-7. ???
-
-**寃곌낵:** 留ㅼ씪 ?ㅼ쟾 9???붾젅洹몃옩 梨꾨꼸???異??뺣낫媛 ?먮룞 諛쒗뻾?⑸땲??
+### 1-3. 구글 폼 링크 수집
+완성된 폼 링크를 복사해 둡니다.
+예: `https://forms.gle/XXXXXXXXXX`
 
 ---
 
-## STEP 3: SNS 梨꾨꼸???붾젅洹몃옩 留곹겕 ?띾낫 (1???ㅼ젙)
+## STEP 2: Telegram 채널 개설 (30분) - SNS 자동발행
 
-媛?SNS???붾젅洹몃옩 梨꾨꼸 留곹겕? ?덊럹?댁? 留곹겕瑜?怨좎젙?⑸땲??
+### 왜 텔레그램인가?
+- API 완전 무료 (Meta 인스타그램은 승인 필요)
+- 한국 대출 정보 커뮤니티 활성화
+- 링크 공유 자유로움 → saeloan.co.kr 직접 연결
+- 채널 구독자에게 자동 푸시 알림
 
-### 3-1. ?몄뒪?洹몃옩 ?꾨줈???ㅼ젙
-- ?대쫫: ?덈줎湲덉쑖?遺以묎컻 | 源?뺤쭊 ???
-- ?뚭컻:
+### 2-1. 텔레그램 봇 만들기
+1. 텔레그램 앱 → @BotFather 검색
+2. `/newbot` 입력
+3. 봇 이름: `새론금융대부중개봇`
+4. 봇 아이디: `saeloan_bot` (또는 원하는 이름)
+5. **BOT_TOKEN** 받기 (예: `1234567890:ABCdefGHI...`) → 저장해두기
+
+### 2-2. 텔레그램 채널 만들기
+1. 텔레그램 → 새 채널 만들기
+2. 채널명: `새론금융 | 저금리 대출정보`
+3. 채널 유형: **공개 채널**
+4. 채널 링크: `@saeloan_finance` (원하는 이름)
+5. 채널 설정 → 관리자 → 봇 추가 (위에서 만든 봇을 관리자로 추가)
+
+### 2-3. Telegram 자동발행 스크립트 설치
+1. https://script.google.com → 새 프로젝트
+2. `automation/telegram_auto_poster.js` 전체 복사·붙여넣기
+3. 수정:
+   - `BOT_TOKEN`: BotFather에서 받은 토큰 입력
+   - `CHANNEL_ID`: `@saeloan_finance` (채널 아이디)
+4. **저장**
+5. 먼저 `testSend` 함수 실행해서 테스트
+6. 트리거 설정:
+   - 실행 함수: `postDailyContent`
+   - 이벤트 소스: **시간 기반**
+   - 시간 간격: **매일**
+   - 시간: **오전 9시~10시**
+7. 저장
+
+**결과:** 매일 오전 9시 텔레그램 채널에 대출 정보가 자동 발행됩니다.
+
+---
+
+## STEP 3: SNS 채널에 텔레그램 링크 홍보 (1회 설정)
+
+각 SNS에 텔레그램 채널 링크와 홈페이지 링크를 고정합니다.
+
+### 3-1. 인스타그램 프로필 설정
+- 이름: 새론금융대부중개 | 김덕진 대표
+- 소개:
 ```
-?湲덈━ ?異쒖긽???꾨Ц ?룱
-6媛??異뺤????숈떆鍮꾧탳 臾대즺
-?뱸 1555-2137 | 010-5927-9205
-?깅줉: 2026-?섏썝-2324
-?좑툘 ??.9~19.9% 怨쇰룄??鍮?二쇱쓽
+저금리 대출상담 전문 🏦
+6개 저축은행 동시비교 무료
+📞 1555-2137 | 010-5927-9205
+등록: 2026-수원-2324
+⚠️ 연6.9~19.9% 과도한 빚 주의
 ```
-- 留곹겕: `saeloan.co.kr`
+- 링크: `saeloan.co.kr`
 
-???쇰뱶?먮뒗 ?붾젅洹몃옩 梨꾨꼸 怨좎젙 ?ъ뒪??1媛??낅줈????諛⑹튂 (?먮룞 ?좎엯)
+→ 피드에는 텔레그램 채널 고정 포스트 1개 업로드 후 방치 (자동 유입)
 
-### 3-2. 移댁뭅?ㅽ넚 梨꾨꼸 (?좏깮, 臾대즺)
-1. https://business.kakao.com ??梨꾨꼸 ?좎껌
-2. 移댄뀒怨좊━: 湲덉쑖 > ?異?
-3. ?깅줉利??쒖텧 ???뱀씤 (??3~5??
-4. ?뱀씤 ???먮룞?묐떟 ?ㅼ젙:
+### 3-2. 카카오톡 채널 (선택, 무료)
+1. https://business.kakao.com → 채널 신청
+2. 카테고리: 금융 > 대출
+3. 등록증 제출 후 승인 (약 3~5일)
+4. 승인 후 자동응답 설정:
 
-**?ㅼ썙???먮룞?묐떟 ?ㅼ젙:**
+**키워드 자동응답 설정:**
 ```
-?ㅼ썙?? "?異?, "?쒕룄", "湲덈━", "?곷떞"
-???묐떟: "?덈뀞?섏꽭?? ?덈줎湲덉쑖?遺以묎컻?낅땲??
-臾대즺 ?쒕룄議고쉶??saeloan.co.kr ?먯꽌 媛?ν빀?덈떎.
-湲됲븯??遺꾩? ??1555-2137 濡??곕씫二쇱꽭??
-?좑툘 ??6.9~19.9% | ?깅줉 2026-?섏썝-2324"
+키워드: "대출", "한도", "금리", "상담"
+→ 응답: "안녕하세요! 새론금융대부중개입니다.
+무료 한도조회는 saeloan.co.kr 에서 가능합니다.
+급하신 분은 ☎ 1555-2137 로 연락주세요.
+⚠️ 연 6.9~19.9% | 등록 2026-수원-2324"
 ```
 
 ---
 
-## STEP 4: ?덊럹?댁? Google Form 踰꾪듉 異붽?
+## STEP 4: 홈페이지 Google Form 버튼 추가
 
-?꾩옱 ?덊럹?댁????곷떞?쇱씠 ?덉?留? 援ш???留곹겕??異붽??섎㈃
-SNS?먯꽌 吏곸젒 ?곌껐 媛?ν빀?덈떎.
+현재 홈페이지에 상담폼이 있지만, 구글폼 링크도 추가하면
+SNS에서 직접 연결 가능합니다.
 
-?꾨옒 ?댁슜???댄씗?꾩뿉寃?怨듭쑀?섍굅??媛쒕컻?먯뿉寃??꾨떖:
-- ?덊럹?댁???"援ш??쇱쑝濡??좎껌" 踰꾪듉 異붽? (Done by Copilot)
-
----
-
-## STEP 5: 由щ뱶 泥섎━ ?먮룞???뺤씤
-
-?곷떞?좎껌???ㅼ뼱?ㅻ㈃:
-1. ???댄씗???대찓??利됱떆 ?섏떊 (?먮룞)
-2. ??Google Sheets???먮룞 湲곕줉 (CRM)
-3. ??怨좉컼?먭쾶 ?먮룞 ?듭옣 ?대찓??(?대찓???낅젰??寃쎌슦)
-4. ???댄씗?꾩씠 ?꾪솕 ?곷떞 吏꾪뻾
-5. ???뚰듃???異뺤????곌껐
+아래 내용을 이희전에게 공유하거나 개발자에게 전달:
+- 홈페이지에 "구글폼으로 신청" 버튼 추가 (Done by Copilot)
 
 ---
 
-## ?꾩껜 臾대즺 ???뺣━
+## STEP 5: 리드 처리 자동화 확인
 
-| ??븷 | ?꾧뎄 | 鍮꾩슜 |
+상담신청이 들어오면:
+1. ✅ 이희전 이메일 즉시 수신 (자동)
+2. ✅ Google Sheets에 자동 기록 (CRM)
+3. ✅ 고객에게 자동 답장 이메일 (이메일 입력한 경우)
+4. ✅ 이희전이 전화 상담 진행
+5. ✅ 파트너 저축은행 연결
+
+---
+
+## 전체 무료 툴 정리
+
+| 역할 | 도구 | 비용 |
 |---|---|---|
-| SNS ?먮룞諛쒗뻾 | Telegram + Google AppScript | 臾대즺 |
-| 由щ뱶??| Google Forms | 臾대즺 |
-| ?먮룞 ?대찓???뚮┝ | Google AppScript (Gmail) | 臾대즺 |
-| CRM 湲곕줉 | Google Sheets | 臾대즺 |
-| ?덊럹?댁? | Vercel (?꾩옱 ?댁쁺 以? | 臾대즺 |
-| 肄섑뀗痢??앹꽦 | ChatGPT 臾대즺踰꾩쟾 (異붽? 肄섑뀗痢??꾩슂 ?? | 臾대즺 |
-| **珥앺빀** | | **0??* |
+| SNS 자동발행 | Telegram + Google AppScript | 무료 |
+| 리드폼 | Google Forms | 무료 |
+| 자동 이메일 알림 | Google AppScript (Gmail) | 무료 |
+| CRM 기록 | Google Sheets | 무료 |
+| 홈페이지 | Vercel (현재 운영 중) | 무료 |
+| 콘텐츠 생성 | ChatGPT 무료버전 (추가 콘텐츠 필요 시) | 무료 |
+| **총합** | | **0원** |
 
 ---
 
-## 理쒖큹 ?ㅼ젙 ?댄썑 ?댄씗?꾩씠 ????
+## 최초 설정 이후 이희전이 할 일
 
-1. **?꾪솕 諛쏄린** - 010-5927-9205 李⑹떊 ?꾪솕 ?곷떞
-2. **?대찓???뺤씤** - ?곷떞?좎껌 ?대찓???섏떊 ??30遺????곕씫
-3. (?좏깮) **留ㅼ썡 1??* - ?붾젅洹몃옩 肄섑뀗痢??댁슜 ?꾩슂 ??異붽?
+1. **전화 받기** - 010-5927-9205 착신 전화 상담
+2. **이메일 확인** - 상담신청 이메일 수신 시 30분 내 연락
+3. (선택) **매월 1회** - 텔레그램 콘텐츠 내용 필요 시 추가
 
-**洹???紐⑤뱺 寃껋? ?먮룞?낅땲??**
-
----
-
-## ?붾젅洹몃옩 梨꾨꼸 ?띾낫 諛⑸쾿 (臾대즺)
-
-### ?먮룞 ?좎엯 梨꾨꼸
-1. ?몄뒪?洹몃옩 ?꾨줈??留곹겕???붾젅洹몃옩 留곹겕 怨좎젙
-2. ?ㅼ씠踰?移댄럹 (?異?愿?? 梨꾨꼸 留곹겕 怨듭쑀
-3. 移댁뭅?ㅽ넚 ?ㅽ뵂梨꾪똿諛⑹뿉 怨좎젙 硫붿떆吏 ?깅줉
-4. 援ш? 寃??愿묎퀬 ?놁씠 ??saeloan.co.kr SEO濡??먯뿰 ?좎엯
+**그 외 모든 것은 자동입니다.**
 
 ---
 
-*?댄씗??| ?덈줎湲덉쑖?遺以묎컻 | 2026-05-17*
-*臾몄쓽: saeloan.co.kr | 1555-2137*
+## 텔레그램 채널 홍보 방법 (무료)
+
+### 자동 유입 채널
+1. 인스타그램 프로필 링크에 텔레그램 링크 고정
+2. 네이버 카페 (대출 관련) 채널 링크 공유
+3. 카카오톡 오픈채팅방에 고정 메시지 등록
+4. 구글 검색 광고 없이 → saeloan.co.kr SEO로 자연 유입
+
+---
+
+*이희전 | 새론금융대부중개 | 2026-05-17*
+*문의: saeloan.co.kr | 1555-2137*
+
+
 
 ---
 
@@ -31100,317 +31444,319 @@ SNS?먯꽌 吏곸젒 ?곌껐 媛?ν빀?덈떎.
 
 ---
 
-# ?덈줎湲덉쑖?遺以묎컻 - SNS ?꾩쟾 ?먯쑉 AI ?쒖뒪??留덉뒪???꾨왂??v3.0
-## ?댄씗??????꾨왂 媛쒖엯留? ?댁쁺? AI 100% ?먮룞
+# 새론금융대부중개 - SNS 완전 자율 AI 시스템 마스터 전략서 v3.0
+## 이희전 팀장 전략 개입만, 운영은 AI 100% 자동
 
 ---
 
-## ?곣봺??0. ?덈? 遺덈? ?먯튃 (?덊럹?댁? ?좉툑) ?곣봺??
+## ━━━ 0. 절대 불변 원칙 (홈페이지 잠금) ━━━
 
 ```
-???ㅼ쓬 ?댁슜? ?대뼡 ?꾨왂???섎┰?섏뼱???덊럹?댁????덈? ?ｌ? ?딆쓬:
-   - SNS ?곸뾽쨌鍮꾨?硫??곸뾽 愿???쒗쁽
-   - 釉뚮┸吏 ?異? ?좏삊쨌湲덇퀬 ?꾪솚
-   - 移댁뭅?ㅽ넚쨌?대찓???쒕쪟 ?묒닔
-   - 鍮꾨?硫?泥섎━ 愿??紐⑤뱺 臾멸뎄
+✅ 다음 내용은 어떤 전략이 수립되어도 홈페이지에 절대 넣지 않음:
+   - SNS 영업·비대면 영업 관련 표현
+   - 브릿지 대출, 신협·금고 전환
+   - 카카오톡·이메일 서류 접수
+   - 비대면 처리 관련 모든 문구
 
-???덊럹?댁? ?섏젙 ??諛섎뱶??????ъ쟾 ?뱀씤 ??吏꾪뻾
+✅ 홈페이지 수정 시 반드시 팀장 사전 승인 후 진행
 
-???덈줎湲덉쑖 = ?遺以묎컻??(?곌껐留???
-   ?쒕쪟?묒닔쨌?ъ궗쨌?ㅽ뻾 = ?遺?낆껜媛 吏꾪뻾
+✅ 새론금융 = 대부중개업 (연결만 함)
+   서류접수·심사·실행 = 대부업체가 진행
 ```
 
 ---
 
-## ?곣봺??1. ???멸퀎 AI ??遺꾩꽍 諛?理쒖쟻 議고빀 ?곣봺??
+## ━━━ 1. 전 세계 AI 툴 분석 및 최적 조합 ━━━
 
-### ?꾩옱(2026?? ?ъ슜 媛?ν븳 AI 肄섑뀗痢??꾧뎄
+### 현재(2026년) 사용 가능한 AI 콘텐츠 도구
 
-| ?꾧뎄 | 湲곕뒫 | 鍮꾩슜 | ?덈줎湲덉쑖 ?쒖슜踰?|
+| 도구 | 기능 | 비용 | 새론금융 활용법 |
 |---|---|---|---|
-| **OpenAI GPT-4o-mini** | ?띿뒪???앹꽦 | ??2~5泥쒖썝 | ?붾젅洹몃옩쨌釉붾줈洹??먮룞 ?묒꽦 |
-| **Google AppScript** | ?먮룞???붿쭊 | 臾대즺 | 留ㅼ씪 ?먮룞 ?ㅽ뻾 |
-| **HeyGen** | AI ?쇨뎬?녿뒗 ?곸긽 | ??$29 | ?좏뒠釉??쇱툩 ?먮룞 ?앹꽦 |
-| **Canva AI** | ?대?吏쨌移대뱶?댁뒪 | 臾대즺(湲곕낯) | SNS ?대?吏 ?먮룞 ?앹꽦 |
-| **Pictory** | 釉붾줈洹멤넂?곸긽 蹂??| ??$19 | 釉붾줈洹?湲???쇱툩濡?蹂??|
-| **Buffer** | ?뚯뀥 ?덉빟 諛쒗뻾 | 臾대즺(3梨꾨꼸) | ?몄뒪?쨌留곹겕?쒖씤 ?덉빟 |
-| **Make(援?Integromat)** | ?뚰겕?뚮줈???먮룞??| 臾대즺(湲곕낯) | ?ㅼ콈???곕룞 |
-| **Zapier** | ??媛??먮룞 ?곌껐 | 臾대즺(100嫄? | ?쇄넂?쒗듃?믪씠硫붿씪 ?곌껐 |
-| **Notion AI** | 臾몄꽌 愿由?+ AI | ??$8 | ?꾨왂 臾몄꽌 ?먮룞 ?뺣━ |
-| **Perplexity AI** | ?ㅼ떆媛??댁뒪 ?붿빟 | 臾대즺 | 留ㅼ＜ 遺?숈궛 ?댁뒪 ?섏쭛 |
+| **OpenAI GPT-4o-mini** | 텍스트 생성 | 월 2~5천원 | 텔레그램·블로그 자동 작성 |
+| **Google AppScript** | 자동화 엔진 | 무료 | 매일 자동 실행 |
+| **HeyGen** | AI 얼굴없는 영상 | 월 $29 | 유튜브 쇼츠 자동 생성 |
+| **Canva AI** | 이미지·카드뉴스 | 무료(기본) | SNS 이미지 자동 생성 |
+| **Pictory** | 블로그→영상 변환 | 월 $19 | 블로그 글을 쇼츠로 변환 |
+| **Buffer** | 소셜 예약 발행 | 무료(3채널) | 인스타·링크드인 예약 |
+| **Make(구 Integromat)** | 워크플로우 자동화 | 무료(기본) | 다채널 연동 |
+| **Zapier** | 앱 간 자동 연결 | 무료(100건) | 폼→시트→이메일 연결 |
+| **Notion AI** | 문서 관리 + AI | 월 $8 | 전략 문서 자동 정리 |
+| **Perplexity AI** | 실시간 뉴스 요약 | 무료 | 매주 부동산 뉴스 수집 |
 
-### ?꾩옱 ?덈줎湲덉쑖 梨꾪깮 議고빀 (鍮꾩슜 理쒖냼??
-
-```
-?듭떖: OpenAI GPT-4o-mini + Google AppScript = ??5泥쒖썝 ?댄븯
-
-?띿뒪?? OpenAI GPT-4o-mini (?먮룞 肄섑뀗痢??앹꽦)
-    ??
-?먮룞?? Google AppScript (留ㅼ씪 ?ㅽ뻾)
-    ??
-諛쒗뻾: ?붾젅洹몃옩 梨꾨꼸 (臾대즺)
-    ??
-湲곕줉: Google Sheets CRM (臾대즺)
-    ??
-由ы룷?? Gmail ?먮룞 諛쒖넚 (臾대즺)
-```
-
-### 3媛쒖썡 ???뺤옣 (嫄댁닔 ??5嫄??댁긽 ??
+### 현재 새론금융 채택 조합 (비용 최소화)
 
 ```
-+ HeyGen ($29/??: ?곸긽 ?놁씠 AI ?꾨굹?댁꽌媛 ?異??뺣낫 ?ㅻ챸?섎뒗 ?쇱툩 ?먮룞 ?앹꽦
-+ Buffer (臾대즺): ?좏뒠釉뙿룹씤?ㅽ?쨌留곹겕?쒖씤 ?숈떆 ?덉빟 諛쒗뻾
-+ Perplexity AI (臾대즺): 留ㅼ＜ 遺?숈궛 洹쒖젣 ?댁뒪 ?먮룞 ?섏쭛 ??肄섑뀗痢?諛섏쁺
-* 珥?異붽?鍮꾩슜: ??$29 (??4留뚯썝)
+핵심: OpenAI GPT-4o-mini + Google AppScript = 월 5천원 이하
+
+텍스트: OpenAI GPT-4o-mini (자동 콘텐츠 생성)
+    ↓
+자동화: Google AppScript (매일 실행)
+    ↓
+발행: 텔레그램 채널 (무료)
+    ↓
+기록: Google Sheets CRM (무료)
+    ↓
+리포트: Gmail 자동 발송 (무료)
 ```
 
----
-
-## ?곣봺??2. 援?궡 ?遺(以묎컻)?낆껜 SNS ?꾨왂 遺꾩꽍 ?곣봺??
-
-### ?⑸쾿?곸쑝濡??댁쁺 以묒씤 ?낆껜?ㅼ쓽 怨듯넻 ?꾨왂
-
-**???뺣낫??肄섑뀗痢?以묒떖 (愿묎퀬 ?꾨땶 ?뺣낫)**
-
-?ㅼ젣 ?遺?낆껜?ㅼ씠 SNS 洹쒖젣瑜??쇳븯???듭떖 諛⑸쾿:
-- "愿묎퀬"媛 ?꾨땶 "湲덉쑖 ?뺣낫 ?쒓났" ?ъ??붾떇
-- "LTV 洹쒖젣 ?ㅻ챸", "湲덈━ 鍮꾧탳", "?異??덉감 ?덈궡" ??洹쒖젣 ????꾨떂
-- 吏곸젒 '?異?沅뚯쑀'媛 ?꾨땶 '?뺣낫 ?쒓났' ???⑸쾿
-
-**???ㅼ씠踰?釉붾줈洹?SEO (媛???덉쟾?섍퀬 ?④낵??**
-
-- 寃???ㅼ썙?? "?먯쁺?낆옄 ?꾪뙆?몃떞蹂대?異?, "????쒕룄 珥덇낵 ?異?
-- 怨좉컼??吏곸젒 寃?됲빐??李얠븘?????몃컮?대뱶 留덉???
-- 洹쒖젣 ?뚰뵾: 吏곸젒 愿묎퀬 ?꾨땶 ?뺣낫 寃뚯떆
-- ?④낵: 嫄대떦 鍮꾩슜 0?? 吏???④낵
-
-**??移댁뭅?ㅽ넚 梨꾨꼸 (怨듭떇 梨꾨꼸)**
-
-- 怨듭떇 鍮꾩쫰?덉뒪 梨꾨꼸? 湲덉쑖??愿묎퀬 媛??(?깅줉踰덊샇 ?쒖텧 議곌굔)
-- 1:1 梨꾪똿?쇰줈 怨좉컼 ?먯뿰?ㅻ윭???좎엯
-- ?먮룞?묐떟?쇰줈 24?쒓컙 珥덇린 ???
-
-**???ㅽ뵂移댁뭅?ㅽ넚諛?/ 遺?숈궛 而ㅻ??덊떚**
-
-- 怨듭씤以묎컻??룹꽭臾댁궗 紐⑥뿬?덈뒗 諛????뚰듃?덉떗 ?쒖븞
-- 吏곸젒 ?異?愿묎퀬媛 ?꾨땶 "?낅Т ?묐젰" 諛⑹떇 ??洹쒖젣 ?놁쓬
-
-### ?섏썝?쒖껌 洹쒖젣 ????꾨왂
+### 3개월 후 확장 (건수 월 5건 이상 시)
 
 ```
-?섏썝?쒖껌??臾몄젣?쇰뒗 寃?
-  ??"鍮꾨?硫??異?愿묎퀬", "吏곸젒 紐⑥쭛", "遺덈쾿 以묎컻 ?섏떖"
-
-?덈줎湲덉쑖 ????먯튃:
-  ??紐⑤뱺 SNS: ?뺣낫 ?쒓났 紐⑹쟻?꾩쓣 紐낆떆
-  ???깅줉踰덊샇 ??긽 ?쒓린
-  ??寃쎄퀬 臾멸뎄 ??긽 ?ы븿
-  ??"?異??ㅽ뻾? ?遺?낆껜媛" 紐낆떆
-  ??鍮꾨?硫는룹뭅移댁삤 ?묒닔 ?멸툒 ?놁쓬 (?덊럹?댁? ?ы븿)
++ HeyGen ($29/월): 영상 없이 AI 아나운서가 대출 정보 설명하는 쇼츠 자동 생성
++ Buffer (무료): 유튜브·인스타·링크드인 동시 예약 발행
++ Perplexity AI (무료): 매주 부동산 규제 뉴스 자동 수집 → 콘텐츠 반영
+* 총 추가비용: 월 $29 (약 4만원)
 ```
 
 ---
 
-## ?곣봺??3. AI ?꾩쟾 ?먯쑉 ?댁쁺 援ъ“ ?곣봺??
+## ━━━ 2. 국내 대부(중개)업체 SNS 전략 분석 ━━━
 
-### ?댄씗????μ쓽 ??븷 (??30遺?
+### 합법적으로 운영 중인 업체들의 공통 전략
+
+**① 정보성 콘텐츠 중심 (광고 아닌 정보)**
+
+실제 대부업체들이 SNS 규제를 피하는 핵심 방법:
+- "광고"가 아닌 "금융 정보 제공" 포지셔닝
+- "LTV 규제 설명", "금리 비교", "대출 절차 안내" → 규제 대상 아님
+- 직접 '대출 권유'가 아닌 '정보 제공' → 합법
+
+**② 네이버 블로그 SEO (가장 안전하고 효과적)**
+
+- 검색 키워드: "자영업자 아파트담보대출", "은행 한도 초과 대출"
+- 고객이 직접 검색해서 찾아옴 → 인바운드 마케팅
+- 규제 회피: 직접 광고 아닌 정보 게시
+- 효과: 건당 비용 0원, 지속 효과
+
+**③ 카카오톡 채널 (공식 채널)**
+
+- 공식 비즈니스 채널은 금융업 광고 가능 (등록번호 제출 조건)
+- 1:1 채팅으로 고객 자연스러운 유입
+- 자동응답으로 24시간 초기 대응
+
+**④ 오픈카카오톡방 / 부동산 커뮤니티**
+
+- 공인중개사·세무사 모여있는 방 → 파트너십 제안
+- 직접 대출 광고가 아닌 "업무 협력" 방식 → 규제 없음
+
+### 수원시청 규제 대응 전략
 
 ```
-留ㅼ＜ ?붿슂??
-  ??AI 二쇨컙 由ы룷???대찓???쎄린 (5遺?
-  ???댁긽 ?놁쑝硫?洹몃깷 ?リ린
+수원시청이 문제삼는 것:
+  → "비대면 대출 광고", "직접 모집", "불법 중개 의심"
 
-?꾨왂 蹂寃??쒕쭔:
-  ??GitHub?먯꽌 SAELOAN_AI_MASTER.gs ?닿린
-  ??STRATEGY ?뱀뀡 ?섏젙
-  ???????利됱떆 諛섏쁺
-
-遺꾧린 1??
-  ??????붿갹?먯꽌 "?쒖뒪???낅뜲?댄듃 ?댁쨾" (5遺?
-  ??AI媛 理쒖떊 ?대줈 ?먮룞 ?낃렇?덉씠??
-```
-
-### AI媛 ?먮룞?쇰줈 ?섎뒗 寃?(365??臾댁씤)
-
-```
-[留ㅼ씪 ?ㅼ쟾 9??
-  GPT-4o-mini媛 ?ㅻ뒛??肄섑뀗痢??먮룞 ?묒꽦
-  ??踰뺢퇋 以???먮룞 寃??(湲덉? ?쒗쁽 ?꾪꽣)
-  ???붾젅洹몃옩 梨꾨꼸 ?먮룞 諛쒗뻾
-  ??援ш? ?쒗듃 湲곕줉
-
-[?붋룹닔쨌湲??ㅼ쟾 8??
-  ?ㅼ씠踰?釉붾줈洹??ъ뒪??珥덉븞 ?먮룞 ?묒꽦
-  ??????대찓?쇰줈 諛쒖넚 (?щ젮二쇱떆湲곕쭔 ?섎㈃ ??
-
-[怨좉컼 ?곷떞?좎껌 利됱떆]
-  ??????대찓?쇰줈 怨좉컼 ?뺣낫 利됱떆 諛쒖넚
-
-[留ㅼ＜ ?붿슂???ㅼ쟾 9??
-  ??二쇨컙 ?ㅼ쟻 + AI 遺꾩꽍 由ы룷???대찓???먮룞 諛쒖넚
-
-[?ㅻ쪟 諛쒖깮 ??
-  ????μ뿉寃?利됱떆 寃쎄퀬 ?대찓??諛쒖넚
+새론금융 대응 원칙:
+  → 모든 SNS: 정보 제공 목적임을 명시
+  → 등록번호 항상 표기
+  → 경고 문구 항상 포함
+  → "대출 실행은 대부업체가" 명시
+  → 비대면·카카오 접수 언급 없음 (홈페이지 포함)
 ```
 
 ---
 
-## ?곣봺??4. 梨꾨꼸蹂?肄섑뀗痢??꾨왂 (踰뺢퇋 以?? ?곣봺??
+## ━━━ 3. AI 완전 자율 운영 구조 ━━━
 
-### ?붾젅洹몃옩 梨꾨꼸 (?듭떖 梨꾨꼸)
+### 이희전 팀장의 역할 (월 30분)
 
-**梨꾨꼸 ?ъ??붾떇:** "?꾪뙆?몃떞蹂?湲덉쑖?뺣낫 梨꾨꼸" (愿묎퀬 梨꾨꼸???꾨떂)
-
-**7???쒗솚 肄섑뀗痢?**
 ```
-?? ?쒖옣 ?뺣낫 (?대쾲 二??꾪뙆???대낫 ?쒖옣 ?숉뼢)
-?? 洹쒖젣 ?덈궡 (LTV 洹쒖젣, 湲덈━ 洹쒖젙 ?뺣낫)
-?? ?먯쁺?낆옄 ?뺣낫 (????쒕룄 珥덇낵 ???뺣낫)
-紐? Q&A (?먯＜ 臾삳뒗 吏덈Ц)
-湲? ?덉감 ?덈궡 (?遺以묎컻 ?댁슜 諛⑸쾿)
-?? 湲덈━ ?뺣낫 (踰뺤젙理쒓퀬湲덈━, 湲덈━ 援ъ“)
-?? 二쇨컙 ?뺣━ (?대쾲 二?遺?숈궛 湲덉쑖 ?댁뒪)
-```
+매주 월요일:
+  → AI 주간 리포트 이메일 읽기 (5분)
+  → 이상 없으면 그냥 닫기
 
-**紐⑤뱺 寃뚯떆臾??섎떒 怨좎젙:**
-```
-?????????????????????
-?뱥 ?덈줎湲덉쑖?遺以묎컻 | ?깅줉 2026-?섏썝-2324
-?뱸 010-5927-9205 | ?뙋 saeloan.co.kr
-?좑툘 怨쇰룄??鍮싳? ??遺덊뻾???덇꺼以????덉뒿?덈떎
-??以묎컻?섏닔猷??놁쓬 | ?異??ㅽ뻾? ?遺?낆껜媛 吏꾪뻾
+전략 변경 시만:
+  → GitHub에서 SAELOAN_AI_MASTER.gs 열기
+  → STRATEGY 섹션 수정
+  → 저장 → 즉시 반영
+
+분기 1회:
+  → 이 대화창에서 "시스템 업데이트 해줘" (5분)
+  → AI가 최신 툴로 자동 업그레이드
 ```
 
-### ?ㅼ씠踰?釉붾줈洹?(SEO ?몃컮?대뱶)
+### AI가 자동으로 하는 것 (365일 무인)
 
-**紐⑹쟻:** 寃??怨좉컼 ?좎엯 (愿묎퀬 ?놁씠 ?먯뿰 ?좎엯)
-
-**二?3???먮룞 ?앹꽦 二쇱젣 ?덉떆:**
 ```
-1. ?먯쁺?낆옄 ?꾪뙆?몃떞蹂대?異? ????쒕룄 珥덇낵 ???좏깮吏
-2. 2026?????LTV 洹쒖젣 珥앹젙由?
-3. ?遺以묎컻???댁슜 諛⑸쾿怨??덉감
-4. ?꾪뙆?몃떞蹂??遺??湲덈━ 援ъ“ ?댄빐
-5. ?쒖슱 ?꾪뙆???대낫?異??ъ궗 湲곗?
-6. 踰뺤젙理쒓퀬湲덈━ ??20% ?꾩쟾 ?댄빐
-7. ?遺以묎컻?낆껜 vs ?遺?낆껜 李⑥씠
-```
+[매일 오전 9시]
+  GPT-4o-mini가 오늘의 콘텐츠 자동 작성
+  → 법규 준수 자동 검수 (금지 표현 필터)
+  → 텔레그램 채널 자동 발행
+  → 구글 시트 기록
 
-**SEO ?듭떖 ?ㅼ썙??**
-- `?먯쁺?낆옄 ?꾪뙆?몃떞蹂대?異?
-- `??됲븳?꾩큹怨??異?
-- `?꾪뙆?몃떞蹂??遺??
-- `?遺以묎컻???댁슜諛⑸쾿`
+[월·수·금 오전 8시]
+  네이버 블로그 포스팅 초안 자동 작성
+  → 팀장 이메일로 발송 (올려주시기만 하면 됨)
+
+[고객 상담신청 즉시]
+  → 팀장 이메일로 고객 정보 즉시 발송
+
+[매주 월요일 오전 9시]
+  → 주간 실적 + AI 분석 리포트 이메일 자동 발송
+
+[오류 발생 시]
+  → 팀장에게 즉시 경고 이메일 발송
+```
 
 ---
 
-## ?곣봺??5. 泥섏쓬 ?ㅼ튂 諛⑸쾿 (2?쒓컙) ?곣봺??
+## ━━━ 4. 채널별 콘텐츠 전략 (법규 준수) ━━━
 
-### Step 1: OpenAI API ??諛쒓툒 (20遺?
-```
-1. platform.openai.com ?묒냽 ??援ш? 怨꾩젙 媛??
-2. ?곷떒 "API keys" ??"+ Create new secret key"
-3. ??蹂듭궗 (sk-proj-xxx...) ???덉쟾??怨녹뿉 ???
-4. Billing ??移대뱶 ?깅줉 ??$5 異⑹쟾 (??7,000??/ 3媛쒖썡移?
-```
+### 텔레그램 채널 (핵심 채널)
 
-### Step 2: 援ш? ?쒗듃 留뚮뱾湲?(3遺?
-```
-1. sheets.google.com ??鍮??ㅽ봽?덈뱶?쒗듃
-2. ?대쫫: "?덈줎湲덉쑖 CRM"
-3. URL?먯꽌 ID 蹂듭궗:
-   docs.google.com/spreadsheets/d/[?낆씠遺遺꾟쁾]/edit
-```
+**채널 포지셔닝:** "아파트담보 금융정보 채널" (광고 채널이 아님)
 
-### Step 3: ?붾젅洹몃옩 遊?留뚮뱾湲?(10遺?
+**7일 순환 콘텐츠:**
 ```
-1. ?붾젅洹몃옩 ????@BotFather 寃??
-2. /newbot ???대쫫: ?덈줎湲덉쑖遊????꾩씠?? saeloan_auto_bot
-3. ?좏겙 踰덊샇 蹂듭궗 (7654321:ABCxyz...)
-4. 梨꾨꼸 留뚮뱾湲???怨듦컻 ??二쇱냼: saeloan_apt
-5. 梨꾨꼸??遊뉗쓣 愿由ъ옄濡?異붽? (硫붿떆吏 ?꾩넚 沅뚰븳)
+월: 시장 정보 (이번 주 아파트 담보 시장 동향)
+화: 규제 안내 (LTV 규제, 금리 규정 정보)
+수: 자영업자 정보 (은행 한도 초과 시 정보)
+목: Q&A (자주 묻는 질문)
+금: 절차 안내 (대부중개 이용 방법)
+토: 금리 정보 (법정최고금리, 금리 구조)
+일: 주간 정리 (이번 주 부동산 금융 뉴스)
 ```
 
-### Step 4: AppScript ?ㅼ튂 (30遺?
+**모든 게시물 하단 고정:**
 ```
-1. script.google.com ??"???꾨줈?앺듃"
-2. ?대쫫: "?덈줎湲덉쑖_AI_留덉뒪??
-3. GitHub?먯꽌 SAELOAN_AI_MASTER.gs ?댁슜 蹂듭궗쨌遺숈뿬?ｊ린
+─────────────────────
+📋 새론금융대부중개 | 등록 2026-수원-2324
+📞 010-5927-9205 | 🌐 saeloan.co.kr
+⚠️ 과도한 빚은 큰 불행을 안겨줄 수 있습니다
+※ 중개수수료 없음 | 대출 실행은 대부업체가 진행
+```
+
+### 네이버 블로그 (SEO 인바운드)
+
+**목적:** 검색 고객 유입 (광고 없이 자연 유입)
+
+**주 3회 자동 생성 주제 예시:**
+```
+1. 자영업자 아파트담보대출: 은행 한도 초과 시 선택지
+2. 2026년 은행 LTV 규제 총정리
+3. 대부중개업 이용 방법과 절차
+4. 아파트담보 대부업 금리 구조 이해
+5. 서울 아파트 담보대출 심사 기준
+6. 법정최고금리 연 20% 완전 이해
+7. 대부중개업체 vs 대부업체 차이
+```
+
+**SEO 핵심 키워드:**
+- `자영업자 아파트담보대출`
+- `은행한도초과 대출`
+- `아파트담보 대부업`
+- `대부중개업 이용방법`
+
+---
+
+## ━━━ 5. 처음 설치 방법 (2시간) ━━━
+
+### Step 1: OpenAI API 키 발급 (20분)
+```
+1. platform.openai.com 접속 → 구글 계정 가입
+2. 상단 "API keys" → "+ Create new secret key"
+3. 키 복사 (sk-proj-xxx...) → 안전한 곳에 저장
+4. Billing → 카드 등록 → $5 충전 (약 7,000원 / 3개월치)
+```
+
+### Step 2: 구글 시트 만들기 (3분)
+```
+1. sheets.google.com → 빈 스프레드시트
+2. 이름: "새론금융 CRM"
+3. URL에서 ID 복사:
+   docs.google.com/spreadsheets/d/[★이부분★]/edit
+```
+
+### Step 3: 텔레그램 봇 만들기 (10분)
+```
+1. 텔레그램 앱 → @BotFather 검색
+2. /newbot → 이름: 새론금융봇 → 아이디: saeloan_auto_bot
+3. 토큰 번호 복사 (7654321:ABCxyz...)
+4. 채널 만들기 → 공개 → 주소: saeloan_apt
+5. 채널에 봇을 관리자로 추가 (메시지 전송 권한)
+```
+
+### Step 4: AppScript 설치 (30분)
+```
+1. script.google.com → "새 프로젝트"
+2. 이름: "새론금융_AI_마스터"
+3. GitHub에서 SAELOAN_AI_MASTER.gs 내용 복사·붙여넣기
    (https://github.com/HeeJeonLee/saeloan-financial/blob/main/automation/SAELOAN_AI_MASTER.gs)
-4. ?ㅼ쓬 4怨??섏젙:
-   - YOUR_OPENAI_API_KEY ??Step 1 ??
-   - YOUR_GOOGLE_SHEET_ID ??Step 2 ID
-   - YOUR_BOT_TOKEN ??Step 3 ?좏겙
-   - YOUR_EMAIL@gmail.com ???댄씗???대찓??
-5. ???(Ctrl+S)
+4. 다음 4곳 수정:
+   - YOUR_OPENAI_API_KEY → Step 1 키
+   - YOUR_GOOGLE_SHEET_ID → Step 2 ID
+   - YOUR_BOT_TOKEN → Step 3 토큰
+   - YOUR_EMAIL@gmail.com → 이희전 이메일
+5. 저장 (Ctrl+S)
 ```
 
-### Step 5: ?몃━嫄?4媛??ㅼ젙 (10遺?
+### Step 5: 트리거 4개 설정 (10분)
 ```
-AppScript 醫뚯륫 ?쒓퀎 ?꾩씠肄??몃━嫄? ?대┃
+AppScript 좌측 시계 아이콘(트리거) 클릭
 
-[?몃━嫄?1] 留ㅼ씪 ?붾젅洹몃옩 諛쒗뻾
-  ?⑥닔: dailyAutoPost
-  ?쒓컙: 留ㅼ씪 ?ㅼ쟾 9:00
+[트리거 1] 매일 텔레그램 발행
+  함수: dailyAutoPost
+  시간: 매일 오전 9:00
 
-[?몃━嫄?2] 釉붾줈洹?珥덉븞 ?대찓??
-  ?⑥닔: generateBlogPost  
-  ?쒓컙: 留ㅼ＜ ?붋룹닔쨌湲??ㅼ쟾 8:00
+[트리거 2] 블로그 초안 이메일
+  함수: generateBlogPost  
+  시간: 매주 월·수·금 오전 8:00
 
-[?몃━嫄?3] 二쇨컙 由ы룷??
-  ?⑥닔: sendWeeklyReport
-  ?쒓컙: 留ㅼ＜ ?붿슂???ㅼ쟾 9:00
+[트리거 3] 주간 리포트
+  함수: sendWeeklyReport
+  시간: 매주 월요일 오전 9:00
 
-[?몃━嫄?4] ?곷떞?좎껌 ?뚮┝ (援ш? ???곕룞)
-  援ш? ???깆뒪?щ┰?몄뿉??蹂꾨룄 ?ㅼ젙
+[트리거 4] 상담신청 알림 (구글 폼 연동)
+  구글 폼 앱스크립트에서 별도 설정
 ```
 
-### Step 6: ?뚯뒪??(5遺?
+### Step 6: 테스트 (5분)
 ```
-?⑥닔 ?좏깮: TEST_誘몃━蹂닿린
-???ㅽ뻾 ?대┃
-???섎떒 濡쒓렇???ㅻ뒛 寃뚯떆臾??댁슜 ?쒖떆?섎㈃ ?깃났
+함수 선택: TEST_미리보기
+▶ 실행 클릭
+→ 하단 로그에 오늘 게시물 내용 표시되면 성공
 ```
 
 ---
 
-## ?곣봺??6. 鍮꾩슜 ?붿빟 ?곣봺??
+## ━━━ 6. 비용 요약 ━━━
 
-| ??ぉ | ??鍮꾩슜 |
+| 항목 | 월 비용 |
 |---|---|
-| OpenAI API (肄섑뀗痢??앹꽦) | ??2,000~5,000??|
-| Google AppScript | 臾대즺 |
-| Telegram | 臾대즺 |
-| Google Sheets/Forms | 臾대즺 |
-| Vercel ?덊럹?댁? | 臾대즺 |
-| GitHub | 臾대즺 |
-| **珥앺빀** | **??2,000~5,000??/ ??* |
+| OpenAI API (콘텐츠 생성) | 약 2,000~5,000원 |
+| Google AppScript | 무료 |
+| Telegram | 무료 |
+| Google Sheets/Forms | 무료 |
+| Vercel 홈페이지 | 무료 |
+| GitHub | 무료 |
+| **총합** | **약 2,000~5,000원 / 월** |
 
 ---
 
-## ?곣봺??7. ?꾨왂 蹂寃?諛⑸쾿 (???吏곸젒) ?곣봺??
+## ━━━ 7. 전략 변경 방법 (팀장 직접) ━━━
 
 ```
-1. https://github.com/HeeJeonLee/saeloan-financial ?묒냽
-2. automation/SAELOAN_AI_MASTER.gs ?뚯씪 ?대┃
-3. ?고븘(?륅툘) ?꾩씠肄??대┃
-4. STRATEGY ?뱀뀡?먯꽌 ?먰븯??媛믩쭔 ?섏젙:
+1. https://github.com/HeeJeonLee/saeloan-financial 접속
+2. automation/SAELOAN_AI_MASTER.gs 파일 클릭
+3. 연필(✏️) 아이콘 클릭
+4. STRATEGY 섹션에서 원하는 값만 수정:
 
-   ?? 援ъ엯?먭툑?쇰줈 ?寃?蹂寃?
+   예) 구입자금으로 타겟 변경:
    TARGET: {
-     ?먯쁺?낆옄: false,   ??false
-     援ъ엯?먭툑: true,    ??true
+     자영업자: false,   ← false
+     구입자금: true,    ← true
    }
 
-5. ?붾㈃ ?꾨옒 "Commit changes" ?대┃
-6. AppScript?먯꽌???숈씪?섍쾶 ?섏젙
-???ㅼ쓬 ?좊???AI媛 ???꾨왂?쇰줈 ?먮룞 ?댁쁺
+5. 화면 아래 "Commit changes" 클릭
+6. AppScript에서도 동일하게 수정
+→ 다음 날부터 AI가 새 전략으로 자동 운영
 ```
 
 ---
 
-*v3.0 | 2026-05-17 | ?꾩쟾 ?먯쑉 AI SNS ?쒖뒪??
-*??? https://github.com/HeeJeonLee/saeloan-financial/blob/main/automation/SNS_AI_STRATEGY_V3.md*
+*v3.0 | 2026-05-17 | 완전 자율 AI SNS 시스템*
+*저장: https://github.com/HeeJeonLee/saeloan-financial/blob/main/automation/SNS_AI_STRATEGY_V3.md*
+
+
 
 ---
 
@@ -31420,7 +31766,7 @@ AppScript 醫뚯륫 ?쒓퀎 ?꾩씠肄??몃━嫄? ?대┃
 
 # quick-lru [![Build Status](https://travis-ci.org/sindresorhus/quick-lru.svg?branch=master)](https://travis-ci.org/sindresorhus/quick-lru) [![Coverage Status](https://coveralls.io/repos/github/sindresorhus/quick-lru/badge.svg?branch=master)](https://coveralls.io/github/sindresorhus/quick-lru?branch=master)
 
-> Simple [?쏬east Recently Used??(LRU) cache](https://en.m.wikipedia.org/wiki/Cache_replacement_policies#Least_Recently_Used_.28LRU.29)
+> Simple [“Least Recently Used” (LRU) cache](https://en.m.wikipedia.org/wiki/Cache_replacement_policies#Least_Recently_Used_.28LRU.29)
 
 Useful when you need to cache something and limit memory usage.
 
@@ -31439,13 +31785,13 @@ const QuickLRU = require('quick-lru');
 
 const lru = new QuickLRU({maxSize: 1000});
 
-lru.set('?쫫', '?뙂');
+lru.set('🦄', '🌈');
 
-lru.has('?쫫');
+lru.has('🦄');
 //=> true
 
-lru.get('?쫫');
-//=> '?뙂'
+lru.get('🦄');
+//=> '🌈'
 ```
 
 ## API
@@ -31488,7 +31834,7 @@ Useful for side effects or for items like object URLs that need explicit cleanup
 
 ### Instance
 
-The instance is [`iterable`](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Iteration_protocols) so you can use it directly in a [`for?쫛f`](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Statements/for...of) loop.
+The instance is [`iterable`](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Iteration_protocols) so you can use it directly in a [`for…of`](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Statements/for...of) loop.
 
 Both `key` and `value` can be of any type.
 
@@ -31558,6 +31904,8 @@ The stored item count.
 	</sub>
 </div>
 
+
+
 ---
 
 # 파일 출처: .\node_modules\@babel\code-frame\README.md
@@ -31583,6 +31931,8 @@ or using yarn:
 ```sh
 yarn add @babel/code-frame --dev
 ```
+
+
 
 ---
 
@@ -31610,6 +31960,8 @@ or using yarn:
 yarn add @babel/compat-data
 ```
 
+
+
 ---
 
 # 파일 출처: .\node_modules\@babel\core\README.md
@@ -31635,6 +31987,8 @@ or using yarn:
 ```sh
 yarn add @babel/core --dev
 ```
+
+
 
 ---
 
@@ -31662,6 +32016,8 @@ or using yarn:
 yarn add @babel/generator --dev
 ```
 
+
+
 ---
 
 # 파일 출처: .\node_modules\@babel\helper-compilation-targets\README.md
@@ -31687,6 +32043,8 @@ or using yarn:
 ```sh
 yarn add @babel/helper-compilation-targets
 ```
+
+
 
 ---
 
@@ -31714,6 +32072,8 @@ or using yarn:
 yarn add @babel/helper-globals
 ```
 
+
+
 ---
 
 # 파일 출처: .\node_modules\@babel\helper-module-imports\README.md
@@ -31739,6 +32099,8 @@ or using yarn:
 ```sh
 yarn add @babel/helper-module-imports
 ```
+
+
 
 ---
 
@@ -31766,6 +32128,8 @@ or using yarn:
 yarn add @babel/helper-module-transforms
 ```
 
+
+
 ---
 
 # 파일 출처: .\node_modules\@babel\helper-plugin-utils\README.md
@@ -31791,6 +32155,8 @@ or using yarn:
 ```sh
 yarn add @babel/helper-plugin-utils
 ```
+
+
 
 ---
 
@@ -31818,6 +32184,8 @@ or using yarn:
 yarn add @babel/helper-string-parser
 ```
 
+
+
 ---
 
 # 파일 출처: .\node_modules\@babel\helper-validator-identifier\README.md
@@ -31843,6 +32211,8 @@ or using yarn:
 ```sh
 yarn add @babel/helper-validator-identifier
 ```
+
+
 
 ---
 
@@ -31870,6 +32240,8 @@ or using yarn:
 yarn add @babel/helper-validator-option
 ```
 
+
+
 ---
 
 # 파일 출처: .\node_modules\@babel\helpers\README.md
@@ -31895,6 +32267,8 @@ or using yarn:
 ```sh
 yarn add @babel/helpers --dev
 ```
+
+
 
 ---
 
@@ -32130,7 +32504,7 @@ Do not allow overwritting of primitive types ([#314](https://github.com/babel/ba
 
 In flow it is now forbidden to overwrite the primitive types `"any"`, `"mixed"`, `"empty"`, `"bool"`, `"boolean"`, `"number"`, `"string"`, `"void"` and `"null"` with your own type declaration.
 
-Disallow import type { type a } from ??([#305](https://github.com/babel/babylon/pull/305)) (Daniel Tschinder)
+Disallow import type { type a } from … ([#305](https://github.com/babel/babylon/pull/305)) (Daniel Tschinder)
 
 The following code now correctly throws an error
 
@@ -32187,9 +32561,9 @@ chore(package): update flow-bin to version 0.38.0 ([#313](https://github.com/bab
 
 Call inner function instead of 1:1 copy to plugin ([#294](https://github.com/babel/babylon/pull/294)) (Daniel Tschinder)
 
-Update eslint-config-babel to the latest version ?? ([#299](https://github.com/babel/babylon/pull/299)) (greenkeeper[bot])
+Update eslint-config-babel to the latest version 🚀 ([#299](https://github.com/babel/babylon/pull/299)) (greenkeeper[bot])
 
-Update eslint-config-babel to the latest version ?? ([#293](https://github.com/babel/babylon/pull/293)) (greenkeeper[bot])
+Update eslint-config-babel to the latest version 🚀 ([#293](https://github.com/babel/babylon/pull/293)) (greenkeeper[bot])
 
 devDeps: remove eslint-plugin-babel ([#292](https://github.com/babel/babylon/pull/292)) (Kai Cataldo)
 
@@ -32273,7 +32647,7 @@ The following case produced an invalid AST
 
 Use fromCodePoint to convert high value unicode entities ([#243](https://github.com/babel/babylon/pull/243)) (Ryan Duffy)
 
-When high value unicode entities (e.g. ?뮝) were used in the input source code they are now correctly encoded in the resulting AST.
+When high value unicode entities (e.g. 💩) were used in the input source code they are now correctly encoded in the resulting AST.
 
 Rename folder to avoid Windows-illegal characters ([#281](https://github.com/babel/babylon/pull/281)) (Ryan Plant)
 
@@ -32293,7 +32667,7 @@ Add some test coverage for decorators stage-0 plugin ([#250](https://github.com/
 
 Refactor tokenizer types file ([#263](https://github.com/babel/babylon/pull/263)) (Sven SAULEAU)
 
-Update eslint-config-babel to the latest version ?? ([#273](https://github.com/babel/babylon/pull/273)) (greenkeeper[bot])
+Update eslint-config-babel to the latest version 🚀 ([#273](https://github.com/babel/babylon/pull/273)) (greenkeeper[bot])
 
 chore(package): update rollup to version 0.41.0 ([#272](https://github.com/babel/babylon/pull/272)) (greenkeeper[bot])
 
@@ -32346,7 +32720,7 @@ type B = string => number;
 type C = { [string]: number };
 ```
 
-Parse flow nested array type annotations like `number[][]` ([#219](https://github.com/babel/babylon/pull/219)) (Bernhard H채ussner)
+Parse flow nested array type annotations like `number[][]` ([#219](https://github.com/babel/babylon/pull/219)) (Bernhard Häussner)
 
 Supports these form now of specifying array types:
 
@@ -32976,6 +33350,8 @@ async function f() {
 }
 ```
 
+
+
 ---
 
 # 파일 출처: .\node_modules\@babel\parser\README.md
@@ -33001,6 +33377,8 @@ or using yarn:
 ```sh
 yarn add @babel/parser --dev
 ```
+
+
 
 ---
 
@@ -33028,6 +33406,8 @@ or using yarn:
 yarn add @babel/plugin-transform-react-jsx-self --dev
 ```
 
+
+
 ---
 
 # 파일 출처: .\node_modules\@babel\plugin-transform-react-jsx-source\README.md
@@ -33053,6 +33433,8 @@ or using yarn:
 ```sh
 yarn add @babel/plugin-transform-react-jsx-source --dev
 ```
+
+
 
 ---
 
@@ -33080,6 +33462,8 @@ or using yarn:
 yarn add @babel/template --dev
 ```
 
+
+
 ---
 
 # 파일 출처: .\node_modules\@babel\traverse\README.md
@@ -33105,6 +33489,8 @@ or using yarn:
 ```sh
 yarn add @babel/traverse --dev
 ```
+
+
 
 ---
 
@@ -33132,6 +33518,8 @@ or using yarn:
 yarn add @babel/types --dev
 ```
 
+
+
 ---
 
 # 파일 출처: .\node_modules\@esbuild\win32-x64\README.md
@@ -33141,6 +33529,8 @@ yarn add @babel/types --dev
 # esbuild
 
 This is the Windows 64-bit binary for esbuild, a JavaScript bundler and minifier. See https://github.com/evanw/esbuild for details.
+
+
 
 ---
 
@@ -33270,19 +33660,19 @@ source-map-0.8.0             6121173 bytes
 Smallest memory usage is gen-mapping: addSegment
 
 Adding speed:
-gen-mapping:      addSegment x 441 ops/sec 짹2.07% (90 runs sampled)
-gen-mapping:      addMapping x 350 ops/sec 짹2.40% (86 runs sampled)
-source-map-js:    addMapping x 169 ops/sec 짹2.42% (80 runs sampled)
-source-map-0.6.1: addMapping x 167 ops/sec 짹2.56% (80 runs sampled)
-source-map-0.8.0: addMapping x 168 ops/sec 짹2.52% (80 runs sampled)
+gen-mapping:      addSegment x 441 ops/sec ±2.07% (90 runs sampled)
+gen-mapping:      addMapping x 350 ops/sec ±2.40% (86 runs sampled)
+source-map-js:    addMapping x 169 ops/sec ±2.42% (80 runs sampled)
+source-map-0.6.1: addMapping x 167 ops/sec ±2.56% (80 runs sampled)
+source-map-0.8.0: addMapping x 168 ops/sec ±2.52% (80 runs sampled)
 Fastest is gen-mapping:      addSegment
 
 Generate speed:
-gen-mapping:      decoded output x 150,824,370 ops/sec 짹0.07% (102 runs sampled)
-gen-mapping:      encoded output x 663 ops/sec 짹0.22% (98 runs sampled)
-source-map-js:    encoded output x 197 ops/sec 짹0.45% (84 runs sampled)
-source-map-0.6.1: encoded output x 198 ops/sec 짹0.33% (85 runs sampled)
-source-map-0.8.0: encoded output x 197 ops/sec 짹0.06% (93 runs sampled)
+gen-mapping:      decoded output x 150,824,370 ops/sec ±0.07% (102 runs sampled)
+gen-mapping:      encoded output x 663 ops/sec ±0.22% (98 runs sampled)
+source-map-js:    encoded output x 197 ops/sec ±0.45% (84 runs sampled)
+source-map-0.6.1: encoded output x 198 ops/sec ±0.33% (85 runs sampled)
+source-map-0.8.0: encoded output x 197 ops/sec ±0.06% (93 runs sampled)
 Fastest is gen-mapping:      decoded output
 
 
@@ -33299,19 +33689,19 @@ source-map-0.8.0            47470188 bytes
 Smallest memory usage is gen-mapping: addMapping
 
 Adding speed:
-gen-mapping:      addSegment x 31.05 ops/sec 짹8.31% (43 runs sampled)
-gen-mapping:      addMapping x 29.83 ops/sec 짹7.36% (51 runs sampled)
-source-map-js:    addMapping x 20.73 ops/sec 짹6.22% (38 runs sampled)
-source-map-0.6.1: addMapping x 20.03 ops/sec 짹10.51% (38 runs sampled)
-source-map-0.8.0: addMapping x 19.30 ops/sec 짹8.27% (37 runs sampled)
+gen-mapping:      addSegment x 31.05 ops/sec ±8.31% (43 runs sampled)
+gen-mapping:      addMapping x 29.83 ops/sec ±7.36% (51 runs sampled)
+source-map-js:    addMapping x 20.73 ops/sec ±6.22% (38 runs sampled)
+source-map-0.6.1: addMapping x 20.03 ops/sec ±10.51% (38 runs sampled)
+source-map-0.8.0: addMapping x 19.30 ops/sec ±8.27% (37 runs sampled)
 Fastest is gen-mapping:      addSegment
 
 Generate speed:
-gen-mapping:      decoded output x 381,379,234 ops/sec 짹0.29% (96 runs sampled)
-gen-mapping:      encoded output x 95.15 ops/sec 짹2.98% (72 runs sampled)
-source-map-js:    encoded output x 15.20 ops/sec 짹7.41% (33 runs sampled)
-source-map-0.6.1: encoded output x 16.36 ops/sec 짹10.46% (31 runs sampled)
-source-map-0.8.0: encoded output x 16.06 ops/sec 짹6.45% (31 runs sampled)
+gen-mapping:      decoded output x 381,379,234 ops/sec ±0.29% (96 runs sampled)
+gen-mapping:      encoded output x 95.15 ops/sec ±2.98% (72 runs sampled)
+source-map-js:    encoded output x 15.20 ops/sec ±7.41% (33 runs sampled)
+source-map-0.6.1: encoded output x 16.36 ops/sec ±10.46% (31 runs sampled)
+source-map-0.8.0: encoded output x 16.06 ops/sec ±6.45% (31 runs sampled)
 Fastest is gen-mapping:      decoded output
 
 
@@ -33328,19 +33718,19 @@ source-map-0.8.0             1113250 bytes
 Smallest memory usage is gen-mapping: addSegment
 
 Adding speed:
-gen-mapping:      addSegment x 13,755 ops/sec 짹0.15% (98 runs sampled)
-gen-mapping:      addMapping x 13,013 ops/sec 짹0.11% (101 runs sampled)
-source-map-js:    addMapping x 4,564 ops/sec 짹0.21% (98 runs sampled)
-source-map-0.6.1: addMapping x 4,562 ops/sec 짹0.11% (99 runs sampled)
-source-map-0.8.0: addMapping x 4,593 ops/sec 짹0.11% (100 runs sampled)
+gen-mapping:      addSegment x 13,755 ops/sec ±0.15% (98 runs sampled)
+gen-mapping:      addMapping x 13,013 ops/sec ±0.11% (101 runs sampled)
+source-map-js:    addMapping x 4,564 ops/sec ±0.21% (98 runs sampled)
+source-map-0.6.1: addMapping x 4,562 ops/sec ±0.11% (99 runs sampled)
+source-map-0.8.0: addMapping x 4,593 ops/sec ±0.11% (100 runs sampled)
 Fastest is gen-mapping:      addSegment
 
 Generate speed:
-gen-mapping:      decoded output x 379,864,020 ops/sec 짹0.23% (93 runs sampled)
-gen-mapping:      encoded output x 14,368 ops/sec 짹4.07% (82 runs sampled)
-source-map-js:    encoded output x 5,261 ops/sec 짹0.21% (99 runs sampled)
-source-map-0.6.1: encoded output x 5,124 ops/sec 짹0.58% (99 runs sampled)
-source-map-0.8.0: encoded output x 5,434 ops/sec 짹0.33% (96 runs sampled)
+gen-mapping:      decoded output x 379,864,020 ops/sec ±0.23% (93 runs sampled)
+gen-mapping:      encoded output x 14,368 ops/sec ±4.07% (82 runs sampled)
+source-map-js:    encoded output x 5,261 ops/sec ±0.21% (99 runs sampled)
+source-map-0.6.1: encoded output x 5,124 ops/sec ±0.58% (99 runs sampled)
+source-map-0.8.0: encoded output x 5,434 ops/sec ±0.33% (96 runs sampled)
 Fastest is gen-mapping:      decoded output
 
 
@@ -33357,24 +33747,26 @@ source-map-0.8.0             2874336 bytes
 Smallest memory usage is gen-mapping: addSegment
 
 Adding speed:
-gen-mapping:      addSegment x 4,772 ops/sec 짹0.15% (100 runs sampled)
-gen-mapping:      addMapping x 4,456 ops/sec 짹0.13% (97 runs sampled)
-source-map-js:    addMapping x 1,618 ops/sec 짹0.24% (97 runs sampled)
-source-map-0.6.1: addMapping x 1,622 ops/sec 짹0.12% (99 runs sampled)
-source-map-0.8.0: addMapping x 1,631 ops/sec 짹0.12% (100 runs sampled)
+gen-mapping:      addSegment x 4,772 ops/sec ±0.15% (100 runs sampled)
+gen-mapping:      addMapping x 4,456 ops/sec ±0.13% (97 runs sampled)
+source-map-js:    addMapping x 1,618 ops/sec ±0.24% (97 runs sampled)
+source-map-0.6.1: addMapping x 1,622 ops/sec ±0.12% (99 runs sampled)
+source-map-0.8.0: addMapping x 1,631 ops/sec ±0.12% (100 runs sampled)
 Fastest is gen-mapping:      addSegment
 
 Generate speed:
-gen-mapping:      decoded output x 379,107,695 ops/sec 짹0.07% (99 runs sampled)
-gen-mapping:      encoded output x 5,421 ops/sec 짹1.60% (89 runs sampled)
-source-map-js:    encoded output x 2,113 ops/sec 짹1.81% (98 runs sampled)
-source-map-0.6.1: encoded output x 2,126 ops/sec 짹0.10% (100 runs sampled)
-source-map-0.8.0: encoded output x 2,176 ops/sec 짹0.39% (98 runs sampled)
+gen-mapping:      decoded output x 379,107,695 ops/sec ±0.07% (99 runs sampled)
+gen-mapping:      encoded output x 5,421 ops/sec ±1.60% (89 runs sampled)
+source-map-js:    encoded output x 2,113 ops/sec ±1.81% (98 runs sampled)
+source-map-0.6.1: encoded output x 2,126 ops/sec ±0.10% (100 runs sampled)
+source-map-0.8.0: encoded output x 2,176 ops/sec ±0.39% (98 runs sampled)
 Fastest is gen-mapping:      decoded output
 ```
 
 [source-map]: https://www.npmjs.com/package/source-map
 [trace-mapping]: https://github.com/jridgewell/sourcemaps/tree/main/packages/trace-mapping
+
+
 
 ---
 
@@ -33547,7 +33939,7 @@ const remapped = remapping(
 
 console.log(remapped);
 // {
-//   ??
+//   …,
 //   sources: ['src/nested/helloworld.js'],
 // };
 ```
@@ -33580,7 +33972,7 @@ const remapped = remapping(
 
 console.log(remapped);
 // {
-//   ??
+//   …,
 //   sourcesContent: [
 //     'console.log("Hello world!")',
 //   ],
@@ -33600,6 +33992,8 @@ the size out the sourcemap.
 By default, `decodedMappings` is `false`. Passing `{ decodedMappings: true }` will leave the
 `mappings` field in a [decoded state](https://github.com/rich-harris/sourcemap-codec) instead of
 encoding into a VLQ string.
+
+
 
 ---
 
@@ -33648,6 +34042,8 @@ resolve('foo', 'https://example.com'); // => 'https://example.com/foo'
 | `example`             | `base/dir/`             | `base/dir/example`             | Input is joined with the base's last directory               |
 | `example`             | `base/file`             | `base/example`                 | Input is joined with the base without its file               |
 
+
+
 ---
 
 # 파일 출처: .\node_modules\@jridgewell\sourcemap-codec\README.md
@@ -33661,7 +34057,7 @@ Encode/decode the `mappings` property of a [sourcemap](https://docs.google.com/d
 
 ## Why?
 
-Sourcemaps are difficult to generate and manipulate, because the `mappings` property ??the part that actually links the generated code back to the original source ??is encoded using an obscure method called [Variable-length quantity](https://en.wikipedia.org/wiki/Variable-length_quantity). On top of that, each segment in the mapping contains offsets rather than absolute indices, which means that you can't look at a segment in isolation ??you have to understand the whole sourcemap.
+Sourcemaps are difficult to generate and manipulate, because the `mappings` property – the part that actually links the generated code back to the original source – is encoded using an obscure method called [Variable-length quantity](https://en.wikipedia.org/wiki/Variable-length_quantity). On top of that, each segment in the mapping contains offsets rather than absolute indices, which means that you can't look at a segment in isolation – you have to understand the whole sourcemap.
 
 This package makes the process slightly easier.
 
@@ -33730,12 +34126,12 @@ chrome dev tools                       8011136 bytes
 Smallest memory usage is sourcemap-codec
 
 Decode speed:
-decode: local code x 492 ops/sec 짹1.22% (90 runs sampled)
-decode: @jridgewell/sourcemap-codec 1.4.15 x 499 ops/sec 짹1.16% (89 runs sampled)
-decode: sourcemap-codec x 376 ops/sec 짹1.66% (89 runs sampled)
-decode: source-map-0.6.1 x 34.99 ops/sec 짹0.94% (48 runs sampled)
-decode: source-map-0.8.0 x 351 ops/sec 짹0.07% (95 runs sampled)
-chrome dev tools x 165 ops/sec 짹0.91% (86 runs sampled)
+decode: local code x 492 ops/sec ±1.22% (90 runs sampled)
+decode: @jridgewell/sourcemap-codec 1.4.15 x 499 ops/sec ±1.16% (89 runs sampled)
+decode: sourcemap-codec x 376 ops/sec ±1.66% (89 runs sampled)
+decode: source-map-0.6.1 x 34.99 ops/sec ±0.94% (48 runs sampled)
+decode: source-map-0.8.0 x 351 ops/sec ±0.07% (95 runs sampled)
+chrome dev tools x 165 ops/sec ±0.91% (86 runs sampled)
 Fastest is decode: @jridgewell/sourcemap-codec 1.4.15
 
 Encode Memory Usage:
@@ -33747,11 +34143,11 @@ source-map-0.8.0                       8736624 bytes
 Smallest memory usage is local code
 
 Encode speed:
-encode: local code x 796 ops/sec 짹0.11% (97 runs sampled)
-encode: @jridgewell/sourcemap-codec 1.4.15 x 795 ops/sec 짹0.25% (98 runs sampled)
-encode: sourcemap-codec x 231 ops/sec 짹0.83% (86 runs sampled)
-encode: source-map-0.6.1 x 166 ops/sec 짹0.57% (86 runs sampled)
-encode: source-map-0.8.0 x 203 ops/sec 짹0.45% (88 runs sampled)
+encode: local code x 796 ops/sec ±0.11% (97 runs sampled)
+encode: @jridgewell/sourcemap-codec 1.4.15 x 795 ops/sec ±0.25% (98 runs sampled)
+encode: sourcemap-codec x 231 ops/sec ±0.83% (86 runs sampled)
+encode: source-map-0.6.1 x 166 ops/sec ±0.57% (86 runs sampled)
+encode: source-map-0.8.0 x 203 ops/sec ±0.45% (88 runs sampled)
 Fastest is encode: local code,encode: @jridgewell/sourcemap-codec 1.4.15
 
 
@@ -33770,12 +34166,12 @@ chrome dev tools                      45111400 bytes
 Smallest memory usage is @jridgewell/sourcemap-codec 1.4.15
 
 Decode speed:
-decode: local code x 38.18 ops/sec 짹5.44% (52 runs sampled)
-decode: @jridgewell/sourcemap-codec 1.4.15 x 38.36 ops/sec 짹5.02% (52 runs sampled)
-decode: sourcemap-codec x 34.05 ops/sec 짹4.45% (47 runs sampled)
-decode: source-map-0.6.1 x 4.31 ops/sec 짹2.76% (15 runs sampled)
-decode: source-map-0.8.0 x 55.60 ops/sec 짹0.13% (73 runs sampled)
-chrome dev tools x 16.94 ops/sec 짹3.78% (46 runs sampled)
+decode: local code x 38.18 ops/sec ±5.44% (52 runs sampled)
+decode: @jridgewell/sourcemap-codec 1.4.15 x 38.36 ops/sec ±5.02% (52 runs sampled)
+decode: sourcemap-codec x 34.05 ops/sec ±4.45% (47 runs sampled)
+decode: source-map-0.6.1 x 4.31 ops/sec ±2.76% (15 runs sampled)
+decode: source-map-0.8.0 x 55.60 ops/sec ±0.13% (73 runs sampled)
+chrome dev tools x 16.94 ops/sec ±3.78% (46 runs sampled)
 Fastest is decode: source-map-0.8.0
 
 Encode Memory Usage:
@@ -33787,11 +34183,11 @@ source-map-0.8.0                      25256448 bytes
 Smallest memory usage is local code
 
 Encode speed:
-encode: local code x 127 ops/sec 짹0.18% (83 runs sampled)
-encode: @jridgewell/sourcemap-codec 1.4.15 x 128 ops/sec 짹0.26% (83 runs sampled)
-encode: sourcemap-codec x 29.31 ops/sec 짹2.55% (53 runs sampled)
-encode: source-map-0.6.1 x 18.85 ops/sec 짹3.19% (36 runs sampled)
-encode: source-map-0.8.0 x 19.34 ops/sec 짹1.97% (36 runs sampled)
+encode: local code x 127 ops/sec ±0.18% (83 runs sampled)
+encode: @jridgewell/sourcemap-codec 1.4.15 x 128 ops/sec ±0.26% (83 runs sampled)
+encode: sourcemap-codec x 29.31 ops/sec ±2.55% (53 runs sampled)
+encode: source-map-0.6.1 x 18.85 ops/sec ±3.19% (36 runs sampled)
+encode: source-map-0.8.0 x 19.34 ops/sec ±1.97% (36 runs sampled)
 Fastest is encode: @jridgewell/sourcemap-codec 1.4.15
 
 
@@ -33810,12 +34206,12 @@ chrome dev tools                        587368 bytes
 Smallest memory usage is source-map-0.8.0
 
 Decode speed:
-decode: local code x 17,782 ops/sec 짹0.32% (97 runs sampled)
-decode: @jridgewell/sourcemap-codec 1.4.15 x 17,863 ops/sec 짹0.40% (100 runs sampled)
-decode: sourcemap-codec x 12,453 ops/sec 짹0.27% (101 runs sampled)
-decode: source-map-0.6.1 x 1,288 ops/sec 짹1.05% (96 runs sampled)
-decode: source-map-0.8.0 x 9,289 ops/sec 짹0.27% (101 runs sampled)
-chrome dev tools x 4,769 ops/sec 짹0.18% (100 runs sampled)
+decode: local code x 17,782 ops/sec ±0.32% (97 runs sampled)
+decode: @jridgewell/sourcemap-codec 1.4.15 x 17,863 ops/sec ±0.40% (100 runs sampled)
+decode: sourcemap-codec x 12,453 ops/sec ±0.27% (101 runs sampled)
+decode: source-map-0.6.1 x 1,288 ops/sec ±1.05% (96 runs sampled)
+decode: source-map-0.8.0 x 9,289 ops/sec ±0.27% (101 runs sampled)
+chrome dev tools x 4,769 ops/sec ±0.18% (100 runs sampled)
 Fastest is decode: @jridgewell/sourcemap-codec 1.4.15
 
 Encode Memory Usage:
@@ -33827,11 +34223,11 @@ source-map-0.8.0                        507480 bytes
 Smallest memory usage is @jridgewell/sourcemap-codec 1.4.15
 
 Encode speed:
-encode: local code x 24,207 ops/sec 짹0.79% (95 runs sampled)
-encode: @jridgewell/sourcemap-codec 1.4.15 x 24,288 ops/sec 짹0.48% (96 runs sampled)
-encode: sourcemap-codec x 6,761 ops/sec 짹0.21% (100 runs sampled)
-encode: source-map-0.6.1 x 5,374 ops/sec 짹0.17% (99 runs sampled)
-encode: source-map-0.8.0 x 5,633 ops/sec 짹0.32% (99 runs sampled)
+encode: local code x 24,207 ops/sec ±0.79% (95 runs sampled)
+encode: @jridgewell/sourcemap-codec 1.4.15 x 24,288 ops/sec ±0.48% (96 runs sampled)
+encode: sourcemap-codec x 6,761 ops/sec ±0.21% (100 runs sampled)
+encode: source-map-0.6.1 x 5,374 ops/sec ±0.17% (99 runs sampled)
+encode: source-map-0.8.0 x 5,633 ops/sec ±0.32% (99 runs sampled)
 Fastest is encode: @jridgewell/sourcemap-codec 1.4.15,encode: local code
 
 
@@ -33850,12 +34246,12 @@ chrome dev tools                       1012512 bytes
 Smallest memory usage is local code
 
 Decode speed:
-decode: local code x 6,178 ops/sec 짹0.19% (98 runs sampled)
-decode: @jridgewell/sourcemap-codec 1.4.15 x 6,261 ops/sec 짹0.22% (100 runs sampled)
-decode: sourcemap-codec x 4,472 ops/sec 짹0.90% (99 runs sampled)
-decode: source-map-0.6.1 x 449 ops/sec 짹0.31% (95 runs sampled)
-decode: source-map-0.8.0 x 3,219 ops/sec 짹0.13% (100 runs sampled)
-chrome dev tools x 1,743 ops/sec 짹0.20% (99 runs sampled)
+decode: local code x 6,178 ops/sec ±0.19% (98 runs sampled)
+decode: @jridgewell/sourcemap-codec 1.4.15 x 6,261 ops/sec ±0.22% (100 runs sampled)
+decode: sourcemap-codec x 4,472 ops/sec ±0.90% (99 runs sampled)
+decode: source-map-0.6.1 x 449 ops/sec ±0.31% (95 runs sampled)
+decode: source-map-0.8.0 x 3,219 ops/sec ±0.13% (100 runs sampled)
+chrome dev tools x 1,743 ops/sec ±0.20% (99 runs sampled)
 Fastest is decode: @jridgewell/sourcemap-codec 1.4.15
 
 Encode Memory Usage:
@@ -33867,11 +34263,11 @@ source-map-0.8.0                        930248 bytes
 Smallest memory usage is local code
 
 Encode speed:
-encode: local code x 8,013 ops/sec 짹0.19% (100 runs sampled)
-encode: @jridgewell/sourcemap-codec 1.4.15 x 7,989 ops/sec 짹0.20% (101 runs sampled)
-encode: sourcemap-codec x 2,472 ops/sec 짹0.21% (99 runs sampled)
-encode: source-map-0.6.1 x 2,200 ops/sec 짹0.17% (99 runs sampled)
-encode: source-map-0.8.0 x 2,220 ops/sec 짹0.37% (99 runs sampled)
+encode: local code x 8,013 ops/sec ±0.19% (100 runs sampled)
+encode: @jridgewell/sourcemap-codec 1.4.15 x 7,989 ops/sec ±0.20% (101 runs sampled)
+encode: sourcemap-codec x 2,472 ops/sec ±0.21% (99 runs sampled)
+encode: source-map-0.6.1 x 2,200 ops/sec ±0.17% (99 runs sampled)
+encode: source-map-0.8.0 x 2,220 ops/sec ±0.37% (99 runs sampled)
 Fastest is encode: local code
 
 
@@ -33890,12 +34286,12 @@ chrome dev tools                     293734280 bytes
 Smallest memory usage is local code
 
 Decode speed:
-decode: local code x 3.90 ops/sec 짹22.21% (15 runs sampled)
-decode: @jridgewell/sourcemap-codec 1.4.15 x 3.95 ops/sec 짹23.53% (15 runs sampled)
-decode: sourcemap-codec x 3.82 ops/sec 짹17.94% (14 runs sampled)
-decode: source-map-0.6.1 x 0.61 ops/sec 짹7.81% (6 runs sampled)
-decode: source-map-0.8.0 x 9.54 ops/sec 짹0.28% (28 runs sampled)
-chrome dev tools x 2.18 ops/sec 짹10.58% (10 runs sampled)
+decode: local code x 3.90 ops/sec ±22.21% (15 runs sampled)
+decode: @jridgewell/sourcemap-codec 1.4.15 x 3.95 ops/sec ±23.53% (15 runs sampled)
+decode: sourcemap-codec x 3.82 ops/sec ±17.94% (14 runs sampled)
+decode: source-map-0.6.1 x 0.61 ops/sec ±7.81% (6 runs sampled)
+decode: source-map-0.8.0 x 9.54 ops/sec ±0.28% (28 runs sampled)
+chrome dev tools x 2.18 ops/sec ±10.58% (10 runs sampled)
 Fastest is decode: source-map-0.8.0
 
 Encode Memory Usage:
@@ -33907,17 +34303,19 @@ source-map-0.8.0                     127535312 bytes
 Smallest memory usage is local code
 
 Encode speed:
-encode: local code x 20.10 ops/sec 짹0.19% (38 runs sampled)
-encode: @jridgewell/sourcemap-codec 1.4.15 x 20.26 ops/sec 짹0.32% (38 runs sampled)
-encode: sourcemap-codec x 5.44 ops/sec 짹1.64% (18 runs sampled)
-encode: source-map-0.6.1 x 2.30 ops/sec 짹4.79% (10 runs sampled)
-encode: source-map-0.8.0 x 2.46 ops/sec 짹6.53% (10 runs sampled)
+encode: local code x 20.10 ops/sec ±0.19% (38 runs sampled)
+encode: @jridgewell/sourcemap-codec 1.4.15 x 20.26 ops/sec ±0.32% (38 runs sampled)
+encode: sourcemap-codec x 5.44 ops/sec ±1.64% (18 runs sampled)
+encode: source-map-0.6.1 x 2.30 ops/sec ±4.79% (10 runs sampled)
+encode: source-map-0.8.0 x 2.46 ops/sec ±6.53% (10 runs sampled)
 Fastest is encode: @jridgewell/sourcemap-codec 1.4.15
 ```
 
 # License
 
 MIT
+
+
 
 ---
 
@@ -34072,31 +34470,31 @@ Chrome dev tools             8672912 bytes
 Smallest memory usage is trace-mapping decoded
 
 Init speed:
-trace-mapping:    decoded JSON input x 205 ops/sec 짹0.19% (88 runs sampled)
-trace-mapping:    encoded JSON input x 405 ops/sec 짹1.47% (88 runs sampled)
-trace-mapping:    decoded Object input x 4,645 ops/sec 짹0.15% (98 runs sampled)
-trace-mapping:    encoded Object input x 458 ops/sec 짹1.63% (91 runs sampled)
-source-map-js:    encoded Object input x 75.48 ops/sec 짹1.64% (67 runs sampled)
-source-map-0.6.1: encoded Object input x 39.37 ops/sec 짹1.44% (53 runs sampled)
-Chrome dev tools: encoded Object input x 150 ops/sec 짹1.76% (79 runs sampled)
+trace-mapping:    decoded JSON input x 205 ops/sec ±0.19% (88 runs sampled)
+trace-mapping:    encoded JSON input x 405 ops/sec ±1.47% (88 runs sampled)
+trace-mapping:    decoded Object input x 4,645 ops/sec ±0.15% (98 runs sampled)
+trace-mapping:    encoded Object input x 458 ops/sec ±1.63% (91 runs sampled)
+source-map-js:    encoded Object input x 75.48 ops/sec ±1.64% (67 runs sampled)
+source-map-0.6.1: encoded Object input x 39.37 ops/sec ±1.44% (53 runs sampled)
+Chrome dev tools: encoded Object input x 150 ops/sec ±1.76% (79 runs sampled)
 Fastest is trace-mapping:    decoded Object input
 
 Trace speed (random):
-trace-mapping:    decoded originalPositionFor x 44,946 ops/sec 짹0.16% (99 runs sampled)
-trace-mapping:    encoded originalPositionFor x 37,995 ops/sec 짹1.81% (89 runs sampled)
-source-map-js:    encoded originalPositionFor x 9,230 ops/sec 짹1.36% (93 runs sampled)
-source-map-0.6.1: encoded originalPositionFor x 8,057 ops/sec 짹0.84% (96 runs sampled)
-source-map-0.8.0: encoded originalPositionFor x 28,198 ops/sec 짹1.12% (91 runs sampled)
-Chrome dev tools: encoded originalPositionFor x 46,276 ops/sec 짹1.35% (95 runs sampled)
+trace-mapping:    decoded originalPositionFor x 44,946 ops/sec ±0.16% (99 runs sampled)
+trace-mapping:    encoded originalPositionFor x 37,995 ops/sec ±1.81% (89 runs sampled)
+source-map-js:    encoded originalPositionFor x 9,230 ops/sec ±1.36% (93 runs sampled)
+source-map-0.6.1: encoded originalPositionFor x 8,057 ops/sec ±0.84% (96 runs sampled)
+source-map-0.8.0: encoded originalPositionFor x 28,198 ops/sec ±1.12% (91 runs sampled)
+Chrome dev tools: encoded originalPositionFor x 46,276 ops/sec ±1.35% (95 runs sampled)
 Fastest is Chrome dev tools: encoded originalPositionFor
 
 Trace speed (ascending):
-trace-mapping:    decoded originalPositionFor x 204,406 ops/sec 짹0.19% (97 runs sampled)
-trace-mapping:    encoded originalPositionFor x 196,695 ops/sec 짹0.24% (99 runs sampled)
-source-map-js:    encoded originalPositionFor x 11,948 ops/sec 짹0.94% (99 runs sampled)
-source-map-0.6.1: encoded originalPositionFor x 10,730 ops/sec 짹0.36% (100 runs sampled)
-source-map-0.8.0: encoded originalPositionFor x 51,427 ops/sec 짹0.21% (98 runs sampled)
-Chrome dev tools: encoded originalPositionFor x 162,615 ops/sec 짹0.18% (98 runs sampled)
+trace-mapping:    decoded originalPositionFor x 204,406 ops/sec ±0.19% (97 runs sampled)
+trace-mapping:    encoded originalPositionFor x 196,695 ops/sec ±0.24% (99 runs sampled)
+source-map-js:    encoded originalPositionFor x 11,948 ops/sec ±0.94% (99 runs sampled)
+source-map-0.6.1: encoded originalPositionFor x 10,730 ops/sec ±0.36% (100 runs sampled)
+source-map-0.8.0: encoded originalPositionFor x 51,427 ops/sec ±0.21% (98 runs sampled)
+Chrome dev tools: encoded originalPositionFor x 162,615 ops/sec ±0.18% (98 runs sampled)
 Fastest is trace-mapping:    decoded originalPositionFor
 
 
@@ -34115,31 +34513,31 @@ Chrome dev tools            50721552 bytes
 Smallest memory usage is trace-mapping decoded
 
 Init speed:
-trace-mapping:    decoded JSON input x 17.82 ops/sec 짹6.35% (35 runs sampled)
-trace-mapping:    encoded JSON input x 31.57 ops/sec 짹7.50% (43 runs sampled)
-trace-mapping:    decoded Object input x 867 ops/sec 짹0.74% (94 runs sampled)
-trace-mapping:    encoded Object input x 33.83 ops/sec 짹7.66% (46 runs sampled)
-source-map-js:    encoded Object input x 6.58 ops/sec 짹3.31% (20 runs sampled)
-source-map-0.6.1: encoded Object input x 4.23 ops/sec 짹3.43% (15 runs sampled)
-Chrome dev tools: encoded Object input x 22.14 ops/sec 짹3.79% (41 runs sampled)
+trace-mapping:    decoded JSON input x 17.82 ops/sec ±6.35% (35 runs sampled)
+trace-mapping:    encoded JSON input x 31.57 ops/sec ±7.50% (43 runs sampled)
+trace-mapping:    decoded Object input x 867 ops/sec ±0.74% (94 runs sampled)
+trace-mapping:    encoded Object input x 33.83 ops/sec ±7.66% (46 runs sampled)
+source-map-js:    encoded Object input x 6.58 ops/sec ±3.31% (20 runs sampled)
+source-map-0.6.1: encoded Object input x 4.23 ops/sec ±3.43% (15 runs sampled)
+Chrome dev tools: encoded Object input x 22.14 ops/sec ±3.79% (41 runs sampled)
 Fastest is trace-mapping:    decoded Object input
 
 Trace speed (random):
-trace-mapping:    decoded originalPositionFor x 78,234 ops/sec 짹1.48% (29 runs sampled)
-trace-mapping:    encoded originalPositionFor x 60,761 ops/sec 짹1.35% (21 runs sampled)
-source-map-js:    encoded originalPositionFor x 51,448 ops/sec 짹2.17% (89 runs sampled)
-source-map-0.6.1: encoded originalPositionFor x 47,221 ops/sec 짹1.99% (15 runs sampled)
-source-map-0.8.0: encoded originalPositionFor x 84,002 ops/sec 짹1.45% (27 runs sampled)
-Chrome dev tools: encoded originalPositionFor x 106,457 ops/sec 짹1.38% (37 runs sampled)
+trace-mapping:    decoded originalPositionFor x 78,234 ops/sec ±1.48% (29 runs sampled)
+trace-mapping:    encoded originalPositionFor x 60,761 ops/sec ±1.35% (21 runs sampled)
+source-map-js:    encoded originalPositionFor x 51,448 ops/sec ±2.17% (89 runs sampled)
+source-map-0.6.1: encoded originalPositionFor x 47,221 ops/sec ±1.99% (15 runs sampled)
+source-map-0.8.0: encoded originalPositionFor x 84,002 ops/sec ±1.45% (27 runs sampled)
+Chrome dev tools: encoded originalPositionFor x 106,457 ops/sec ±1.38% (37 runs sampled)
 Fastest is Chrome dev tools: encoded originalPositionFor
 
 Trace speed (ascending):
-trace-mapping:    decoded originalPositionFor x 930,943 ops/sec 짹0.25% (99 runs sampled)
-trace-mapping:    encoded originalPositionFor x 843,545 ops/sec 짹0.34% (97 runs sampled)
-source-map-js:    encoded originalPositionFor x 114,510 ops/sec 짹1.37% (36 runs sampled)
-source-map-0.6.1: encoded originalPositionFor x 87,412 ops/sec 짹0.72% (92 runs sampled)
-source-map-0.8.0: encoded originalPositionFor x 197,709 ops/sec 짹0.89% (59 runs sampled)
-Chrome dev tools: encoded originalPositionFor x 688,983 ops/sec 짹0.33% (98 runs sampled)
+trace-mapping:    decoded originalPositionFor x 930,943 ops/sec ±0.25% (99 runs sampled)
+trace-mapping:    encoded originalPositionFor x 843,545 ops/sec ±0.34% (97 runs sampled)
+source-map-js:    encoded originalPositionFor x 114,510 ops/sec ±1.37% (36 runs sampled)
+source-map-0.6.1: encoded originalPositionFor x 87,412 ops/sec ±0.72% (92 runs sampled)
+source-map-0.8.0: encoded originalPositionFor x 197,709 ops/sec ±0.89% (59 runs sampled)
+Chrome dev tools: encoded originalPositionFor x 688,983 ops/sec ±0.33% (98 runs sampled)
 Fastest is trace-mapping:    decoded originalPositionFor
 
 
@@ -34158,31 +34556,31 @@ Chrome dev tools              709680 bytes
 Smallest memory usage is trace-mapping decoded
 
 Init speed:
-trace-mapping:    decoded JSON input x 3,709 ops/sec 짹0.13% (99 runs sampled)
-trace-mapping:    encoded JSON input x 6,447 ops/sec 짹0.22% (101 runs sampled)
-trace-mapping:    decoded Object input x 83,062 ops/sec 짹0.23% (100 runs sampled)
-trace-mapping:    encoded Object input x 14,980 ops/sec 짹0.28% (100 runs sampled)
-source-map-js:    encoded Object input x 2,544 ops/sec 짹0.16% (99 runs sampled)
-source-map-0.6.1: encoded Object input x 1,221 ops/sec 짹0.37% (97 runs sampled)
-Chrome dev tools: encoded Object input x 4,241 ops/sec 짹0.39% (93 runs sampled)
+trace-mapping:    decoded JSON input x 3,709 ops/sec ±0.13% (99 runs sampled)
+trace-mapping:    encoded JSON input x 6,447 ops/sec ±0.22% (101 runs sampled)
+trace-mapping:    decoded Object input x 83,062 ops/sec ±0.23% (100 runs sampled)
+trace-mapping:    encoded Object input x 14,980 ops/sec ±0.28% (100 runs sampled)
+source-map-js:    encoded Object input x 2,544 ops/sec ±0.16% (99 runs sampled)
+source-map-0.6.1: encoded Object input x 1,221 ops/sec ±0.37% (97 runs sampled)
+Chrome dev tools: encoded Object input x 4,241 ops/sec ±0.39% (93 runs sampled)
 Fastest is trace-mapping:    decoded Object input
 
 Trace speed (random):
-trace-mapping:    decoded originalPositionFor x 91,028 ops/sec 짹0.14% (94 runs sampled)
-trace-mapping:    encoded originalPositionFor x 84,348 ops/sec 짹0.26% (98 runs sampled)
-source-map-js:    encoded originalPositionFor x 26,998 ops/sec 짹0.23% (98 runs sampled)
-source-map-0.6.1: encoded originalPositionFor x 18,049 ops/sec 짹0.26% (100 runs sampled)
-source-map-0.8.0: encoded originalPositionFor x 41,916 ops/sec 짹0.28% (98 runs sampled)
-Chrome dev tools: encoded originalPositionFor x 88,616 ops/sec 짹0.14% (98 runs sampled)
+trace-mapping:    decoded originalPositionFor x 91,028 ops/sec ±0.14% (94 runs sampled)
+trace-mapping:    encoded originalPositionFor x 84,348 ops/sec ±0.26% (98 runs sampled)
+source-map-js:    encoded originalPositionFor x 26,998 ops/sec ±0.23% (98 runs sampled)
+source-map-0.6.1: encoded originalPositionFor x 18,049 ops/sec ±0.26% (100 runs sampled)
+source-map-0.8.0: encoded originalPositionFor x 41,916 ops/sec ±0.28% (98 runs sampled)
+Chrome dev tools: encoded originalPositionFor x 88,616 ops/sec ±0.14% (98 runs sampled)
 Fastest is trace-mapping:    decoded originalPositionFor
 
 Trace speed (ascending):
-trace-mapping:    decoded originalPositionFor x 319,960 ops/sec 짹0.16% (100 runs sampled)
-trace-mapping:    encoded originalPositionFor x 302,153 ops/sec 짹0.18% (100 runs sampled)
-source-map-js:    encoded originalPositionFor x 35,574 ops/sec 짹0.19% (100 runs sampled)
-source-map-0.6.1: encoded originalPositionFor x 19,943 ops/sec 짹0.12% (101 runs sampled)
-source-map-0.8.0: encoded originalPositionFor x 54,648 ops/sec 짹0.20% (99 runs sampled)
-Chrome dev tools: encoded originalPositionFor x 278,319 ops/sec 짹0.17% (102 runs sampled)
+trace-mapping:    decoded originalPositionFor x 319,960 ops/sec ±0.16% (100 runs sampled)
+trace-mapping:    encoded originalPositionFor x 302,153 ops/sec ±0.18% (100 runs sampled)
+source-map-js:    encoded originalPositionFor x 35,574 ops/sec ±0.19% (100 runs sampled)
+source-map-0.6.1: encoded originalPositionFor x 19,943 ops/sec ±0.12% (101 runs sampled)
+source-map-0.8.0: encoded originalPositionFor x 54,648 ops/sec ±0.20% (99 runs sampled)
+Chrome dev tools: encoded originalPositionFor x 278,319 ops/sec ±0.17% (102 runs sampled)
 Fastest is trace-mapping:    decoded originalPositionFor
 
 
@@ -34201,31 +34599,31 @@ Chrome dev tools             1149576 bytes
 Smallest memory usage is trace-mapping decoded
 
 Init speed:
-trace-mapping:    decoded JSON input x 1,887 ops/sec 짹0.28% (99 runs sampled)
-trace-mapping:    encoded JSON input x 4,749 ops/sec 짹0.48% (97 runs sampled)
-trace-mapping:    decoded Object input x 74,236 ops/sec 짹0.11% (99 runs sampled)
-trace-mapping:    encoded Object input x 5,752 ops/sec 짹0.38% (100 runs sampled)
-source-map-js:    encoded Object input x 806 ops/sec 짹0.19% (97 runs sampled)
-source-map-0.6.1: encoded Object input x 418 ops/sec 짹0.33% (94 runs sampled)
-Chrome dev tools: encoded Object input x 1,524 ops/sec 짹0.57% (92 runs sampled)
+trace-mapping:    decoded JSON input x 1,887 ops/sec ±0.28% (99 runs sampled)
+trace-mapping:    encoded JSON input x 4,749 ops/sec ±0.48% (97 runs sampled)
+trace-mapping:    decoded Object input x 74,236 ops/sec ±0.11% (99 runs sampled)
+trace-mapping:    encoded Object input x 5,752 ops/sec ±0.38% (100 runs sampled)
+source-map-js:    encoded Object input x 806 ops/sec ±0.19% (97 runs sampled)
+source-map-0.6.1: encoded Object input x 418 ops/sec ±0.33% (94 runs sampled)
+Chrome dev tools: encoded Object input x 1,524 ops/sec ±0.57% (92 runs sampled)
 Fastest is trace-mapping:    decoded Object input
 
 Trace speed (random):
-trace-mapping:    decoded originalPositionFor x 620,201 ops/sec 짹0.33% (96 runs sampled)
-trace-mapping:    encoded originalPositionFor x 579,548 ops/sec 짹0.35% (97 runs sampled)
-source-map-js:    encoded originalPositionFor x 230,983 ops/sec 짹0.62% (54 runs sampled)
-source-map-0.6.1: encoded originalPositionFor x 158,145 ops/sec 짹0.80% (46 runs sampled)
-source-map-0.8.0: encoded originalPositionFor x 343,801 ops/sec 짹0.55% (96 runs sampled)
-Chrome dev tools: encoded originalPositionFor x 659,649 ops/sec 짹0.49% (98 runs sampled)
+trace-mapping:    decoded originalPositionFor x 620,201 ops/sec ±0.33% (96 runs sampled)
+trace-mapping:    encoded originalPositionFor x 579,548 ops/sec ±0.35% (97 runs sampled)
+source-map-js:    encoded originalPositionFor x 230,983 ops/sec ±0.62% (54 runs sampled)
+source-map-0.6.1: encoded originalPositionFor x 158,145 ops/sec ±0.80% (46 runs sampled)
+source-map-0.8.0: encoded originalPositionFor x 343,801 ops/sec ±0.55% (96 runs sampled)
+Chrome dev tools: encoded originalPositionFor x 659,649 ops/sec ±0.49% (98 runs sampled)
 Fastest is Chrome dev tools: encoded originalPositionFor
 
 Trace speed (ascending):
-trace-mapping:    decoded originalPositionFor x 2,368,079 ops/sec 짹0.32% (98 runs sampled)
-trace-mapping:    encoded originalPositionFor x 2,134,039 ops/sec 짹2.72% (87 runs sampled)
-source-map-js:    encoded originalPositionFor x 290,120 ops/sec 짹2.49% (82 runs sampled)
-source-map-0.6.1: encoded originalPositionFor x 187,613 ops/sec 짹0.86% (49 runs sampled)
-source-map-0.8.0: encoded originalPositionFor x 479,569 ops/sec 짹0.65% (96 runs sampled)
-Chrome dev tools: encoded originalPositionFor x 2,048,414 ops/sec 짹0.24% (98 runs sampled)
+trace-mapping:    decoded originalPositionFor x 2,368,079 ops/sec ±0.32% (98 runs sampled)
+trace-mapping:    encoded originalPositionFor x 2,134,039 ops/sec ±2.72% (87 runs sampled)
+source-map-js:    encoded originalPositionFor x 290,120 ops/sec ±2.49% (82 runs sampled)
+source-map-0.6.1: encoded originalPositionFor x 187,613 ops/sec ±0.86% (49 runs sampled)
+source-map-0.8.0: encoded originalPositionFor x 479,569 ops/sec ±0.65% (96 runs sampled)
+Chrome dev tools: encoded originalPositionFor x 2,048,414 ops/sec ±0.24% (98 runs sampled)
 Fastest is trace-mapping:    decoded originalPositionFor
 
 
@@ -34244,35 +34642,37 @@ Chrome dev tools           291053000 bytes
 Smallest memory usage is trace-mapping decoded
 
 Init speed:
-trace-mapping:    decoded JSON input x 1.63 ops/sec 짹33.88% (9 runs sampled)
-trace-mapping:    encoded JSON input x 3.29 ops/sec 짹36.13% (13 runs sampled)
-trace-mapping:    decoded Object input x 103 ops/sec 짹0.93% (77 runs sampled)
-trace-mapping:    encoded Object input x 5.42 ops/sec 짹28.54% (19 runs sampled)
-source-map-js:    encoded Object input x 1.07 ops/sec 짹13.84% (7 runs sampled)
-source-map-0.6.1: encoded Object input x 0.60 ops/sec 짹2.43% (6 runs sampled)
-Chrome dev tools: encoded Object input x 2.61 ops/sec 짹22.00% (11 runs sampled)
+trace-mapping:    decoded JSON input x 1.63 ops/sec ±33.88% (9 runs sampled)
+trace-mapping:    encoded JSON input x 3.29 ops/sec ±36.13% (13 runs sampled)
+trace-mapping:    decoded Object input x 103 ops/sec ±0.93% (77 runs sampled)
+trace-mapping:    encoded Object input x 5.42 ops/sec ±28.54% (19 runs sampled)
+source-map-js:    encoded Object input x 1.07 ops/sec ±13.84% (7 runs sampled)
+source-map-0.6.1: encoded Object input x 0.60 ops/sec ±2.43% (6 runs sampled)
+Chrome dev tools: encoded Object input x 2.61 ops/sec ±22.00% (11 runs sampled)
 Fastest is trace-mapping:    decoded Object input
 
 Trace speed (random):
-trace-mapping:    decoded originalPositionFor x 257,019 ops/sec 짹0.97% (93 runs sampled)
-trace-mapping:    encoded originalPositionFor x 179,163 ops/sec 짹0.83% (92 runs sampled)
-source-map-js:    encoded originalPositionFor x 73,337 ops/sec 짹1.35% (87 runs sampled)
-source-map-0.6.1: encoded originalPositionFor x 38,797 ops/sec 짹1.66% (88 runs sampled)
-source-map-0.8.0: encoded originalPositionFor x 107,758 ops/sec 짹1.94% (45 runs sampled)
-Chrome dev tools: encoded originalPositionFor x 188,550 ops/sec 짹1.85% (79 runs sampled)
+trace-mapping:    decoded originalPositionFor x 257,019 ops/sec ±0.97% (93 runs sampled)
+trace-mapping:    encoded originalPositionFor x 179,163 ops/sec ±0.83% (92 runs sampled)
+source-map-js:    encoded originalPositionFor x 73,337 ops/sec ±1.35% (87 runs sampled)
+source-map-0.6.1: encoded originalPositionFor x 38,797 ops/sec ±1.66% (88 runs sampled)
+source-map-0.8.0: encoded originalPositionFor x 107,758 ops/sec ±1.94% (45 runs sampled)
+Chrome dev tools: encoded originalPositionFor x 188,550 ops/sec ±1.85% (79 runs sampled)
 Fastest is trace-mapping:    decoded originalPositionFor
 
 Trace speed (ascending):
-trace-mapping:    decoded originalPositionFor x 447,621 ops/sec 짹3.64% (94 runs sampled)
-trace-mapping:    encoded originalPositionFor x 323,698 ops/sec 짹5.20% (88 runs sampled)
-source-map-js:    encoded originalPositionFor x 78,387 ops/sec 짹1.69% (89 runs sampled)
-source-map-0.6.1: encoded originalPositionFor x 41,016 ops/sec 짹3.01% (25 runs sampled)
-source-map-0.8.0: encoded originalPositionFor x 124,204 ops/sec 짹0.90% (92 runs sampled)
-Chrome dev tools: encoded originalPositionFor x 230,087 ops/sec 짹2.61% (93 runs sampled)
+trace-mapping:    decoded originalPositionFor x 447,621 ops/sec ±3.64% (94 runs sampled)
+trace-mapping:    encoded originalPositionFor x 323,698 ops/sec ±5.20% (88 runs sampled)
+source-map-js:    encoded originalPositionFor x 78,387 ops/sec ±1.69% (89 runs sampled)
+source-map-0.6.1: encoded originalPositionFor x 41,016 ops/sec ±3.01% (25 runs sampled)
+source-map-0.8.0: encoded originalPositionFor x 124,204 ops/sec ±0.90% (92 runs sampled)
+Chrome dev tools: encoded originalPositionFor x 230,087 ops/sec ±2.61% (93 runs sampled)
 Fastest is trace-mapping:    decoded originalPositionFor
 ```
 
 [source-map]: https://www.npmjs.com/package/source-map
+
+
 
 ---
 
@@ -34303,7 +34703,7 @@ npm install @nodelib/fs.scandir
 ```ts
 import * as fsScandir from '@nodelib/fs.scandir';
 
-fsScandir.scandir('path', (error, stats) => { /* ??*/ });
+fsScandir.scandir('path', (error, stats) => { /* … */ });
 ```
 
 ## API
@@ -34313,9 +34713,9 @@ fsScandir.scandir('path', (error, stats) => { /* ??*/ });
 Returns an array of plain objects ([`Entry`](#entry)) with information about entry for provided path with standard callback-style.
 
 ```ts
-fsScandir.scandir('path', (error, entries) => { /* ??*/ });
-fsScandir.scandir('path', {}, (error, entries) => { /* ??*/ });
-fsScandir.scandir('path', new fsScandir.Settings(), (error, entries) => { /* ??*/ });
+fsScandir.scandir('path', (error, entries) => { /* … */ });
+fsScandir.scandir('path', {}, (error, entries) => { /* … */ });
+fsScandir.scandir('path', new fsScandir.Settings(), (error, entries) => { /* … */ });
 ```
 
 ### .scandirSync(path, [optionsOrSettings])
@@ -34357,16 +34757,16 @@ const entries = fsScandir.scandirSync('path', settings);
 
 ## Entry
 
-* `name` ??The name of the entry (`unknown.txt`).
-* `path` ??The path of the entry relative to call directory (`root/unknown.txt`).
-* `dirent` ??An instance of [`fs.Dirent`](./src/types/index.ts) class. On Node.js below 10.10 will be emulated by [`DirentFromStats`](./src/utils/fs.ts) class.
-* `stats` (optional) ??An instance of `fs.Stats` class.
+* `name` — The name of the entry (`unknown.txt`).
+* `path` — The path of the entry relative to call directory (`root/unknown.txt`).
+* `dirent` — An instance of [`fs.Dirent`](./src/types/index.ts) class. On Node.js below 10.10 will be emulated by [`DirentFromStats`](./src/utils/fs.ts) class.
+* `stats` (optional) — An instance of `fs.Stats` class.
 
 For example, the `scandir` call for `tools` directory with one directory inside:
 
 ```ts
 {
-	dirent: Dirent { name: 'typedoc', /* ??*/ },
+	dirent: Dirent { name: 'typedoc', /* … */ },
 	name: 'typedoc',
 	path: 'tools/typedoc'
 }
@@ -34452,6 +34852,8 @@ See the [Releases section of our GitHub project](https://github.com/nodelib/node
 
 This software is released under the terms of the MIT license.
 
+
+
 ---
 
 # 파일 출처: .\node_modules\@nodelib\fs.stat\README.md
@@ -34480,7 +34882,7 @@ npm install @nodelib/fs.stat
 ```ts
 import * as fsStat from '@nodelib/fs.stat';
 
-fsStat.stat('path', (error, stats) => { /* ??*/ });
+fsStat.stat('path', (error, stats) => { /* … */ });
 ```
 
 ## API
@@ -34490,9 +34892,9 @@ fsStat.stat('path', (error, stats) => { /* ??*/ });
 Returns an instance of `fs.Stats` class for provided path with standard callback-style.
 
 ```ts
-fsStat.stat('path', (error, stats) => { /* ??*/ });
-fsStat.stat('path', {}, (error, stats) => { /* ??*/ });
-fsStat.stat('path', new fsStat.Settings(), (error, stats) => { /* ??*/ });
+fsStat.stat('path', (error, stats) => { /* … */ });
+fsStat.stat('path', {}, (error, stats) => { /* … */ });
+fsStat.stat('path', new fsStat.Settings(), (error, stats) => { /* … */ });
 ```
 
 ### .statSync(path, [optionsOrSettings])
@@ -34585,6 +34987,8 @@ See the [Releases section of our GitHub project](https://github.com/nodelib/node
 
 This software is released under the terms of the MIT license.
 
+
+
 ---
 
 # 파일 출처: .\node_modules\@nodelib\fs.walk\README.md
@@ -34613,7 +35017,7 @@ npm install @nodelib/fs.walk
 ```ts
 import * as fsWalk from '@nodelib/fs.walk';
 
-fsWalk.walk('path', (error, entries) => { /* ??*/ });
+fsWalk.walk('path', (error, entries) => { /* … */ });
 ```
 
 ## API
@@ -34625,9 +35029,9 @@ Reads the directory recursively and asynchronously. Requires a callback function
 > :book: If you want to use the Promise API, use `util.promisify`.
 
 ```ts
-fsWalk.walk('path', (error, entries) => { /* ??*/ });
-fsWalk.walk('path', {}, (error, entries) => { /* ??*/ });
-fsWalk.walk('path', new fsWalk.Settings(), (error, entries) => { /* ??*/ });
+fsWalk.walk('path', (error, entries) => { /* … */ });
+fsWalk.walk('path', {}, (error, entries) => { /* … */ });
+fsWalk.walk('path', new fsWalk.Settings(), (error, entries) => { /* … */ });
 ```
 
 ### .walkStream(path, [optionsOrSettings])
@@ -34679,10 +35083,10 @@ const entries = fsWalk.walkSync('path', settings);
 
 ## Entry
 
-* `name` ??The name of the entry (`unknown.txt`).
-* `path` ??The path of the entry relative to call directory (`root/unknown.txt`).
-* `dirent` ??An instance of [`fs.Dirent`](./src/types/index.ts) class.
-* [`stats`] ??An instance of `fs.Stats` class.
+* `name` — The name of the entry (`unknown.txt`).
+* `path` — The path of the entry relative to call directory (`root/unknown.txt`).
+* `dirent` — An instance of [`fs.Dirent`](./src/types/index.ts) class.
+* [`stats`] — An instance of `fs.Stats` class.
 
 ## Options
 
@@ -34696,8 +35100,8 @@ By default, all paths are built relative to the root path. You can use this opti
 In the example below we read the files from the `root` directory, but in the results the root path will be `custom`.
 
 ```ts
-fsWalk.walkSync('root'); // ??['root/file.txt']
-fsWalk.walkSync('root', { basePath: 'custom' }); // ??['custom/file.txt']
+fsWalk.walkSync('root'); // → ['root/file.txt']
+fsWalk.walkSync('root', { basePath: 'custom' }); // → ['custom/file.txt']
 ```
 
 ### concurrency
@@ -34807,6 +35211,8 @@ See the [Releases section of our GitHub project](https://github.com/nodelib/node
 
 This software is released under the terms of the MIT license.
 
+
+
 ---
 
 # 파일 출처: .\node_modules\@rollup\rollup-win32-x64-gnu\README.md
@@ -34817,6 +35223,8 @@ This software is released under the terms of the MIT license.
 
 This is the **x86_64-pc-windows-gnu** binary for `rollup`
 
+
+
 ---
 
 # 파일 출처: .\node_modules\@rollup\rollup-win32-x64-msvc\README.md
@@ -34826,6 +35234,8 @@ This is the **x86_64-pc-windows-gnu** binary for `rollup`
 # `@rollup/rollup-win32-x64-msvc`
 
 This is the **x86_64-pc-windows-msvc** binary for `rollup`
+
+
 
 ---
 
@@ -34849,6 +35259,8 @@ Files were exported from https://github.com/DefinitelyTyped/DefinitelyTyped/tree
 # Credits
 These definitions were written by [Troy Gerwien](https://github.com/yortus), [Marvin Hagemeister](https://github.com/marvinhagemeister), [Melvin Groenhoff](https://github.com/mgroenhoff), [Jessica Franco](https://github.com/Jessidhia), and [Ifiok Jr.](https://github.com/ifiokjr).
 
+
+
 ---
 
 # 파일 출처: .\node_modules\@types\babel__generator\README.md
@@ -34870,6 +35282,8 @@ Files were exported from https://github.com/DefinitelyTyped/DefinitelyTyped/tree
 
 # Credits
 These definitions were written by [Troy Gerwien](https://github.com/yortus), [Melvin Groenhoff](https://github.com/mgroenhoff), [Cameron Yan](https://github.com/khell), and [Lyanbin](https://github.com/Lyanbin).
+
+
 
 ---
 
@@ -34893,6 +35307,8 @@ Files were exported from https://github.com/DefinitelyTyped/DefinitelyTyped/tree
 # Credits
 These definitions were written by [Troy Gerwien](https://github.com/yortus), [Marvin Hagemeister](https://github.com/marvinhagemeister), [Melvin Groenhoff](https://github.com/mgroenhoff), and [ExE Boss](https://github.com/ExE-Boss).
 
+
+
 ---
 
 # 파일 출처: .\node_modules\@types\babel__traverse\README.md
@@ -34915,6 +35331,8 @@ Files were exported from https://github.com/DefinitelyTyped/DefinitelyTyped/tree
 # Credits
 These definitions were written by [Troy Gerwien](https://github.com/yortus), [Marvin Hagemeister](https://github.com/marvinhagemeister), [Ryan Petrich](https://github.com/rpetrich), [Melvin Groenhoff](https://github.com/mgroenhoff), [Dean L.](https://github.com/dlgrit), [Ifiok Jr.](https://github.com/ifiokjr), [ExE Boss](https://github.com/ExE-Boss), and [Daniel Tschinder](https://github.com/danez).
 
+
+
 ---
 
 # 파일 출처: .\node_modules\@types\estree\README.md
@@ -34936,6 +35354,8 @@ Files were exported from https://github.com/DefinitelyTyped/DefinitelyTyped/tree
 
 # Credits
 These definitions were written by [RReverser](https://github.com/RReverser).
+
+
 
 ---
 
@@ -35085,6 +35505,8 @@ For React refresh to work correctly, your file should only export React componen
 If an incompatible change in exports is found, the module will be invalidated and HMR will propagate. To make it easier to export simple constants alongside your component, the module is only invalidated when their value changes.
 
 You can catch mistakes and get more detailed warning with this [eslint rule](https://github.com/ArnaudBarre/eslint-plugin-react-refresh).
+
+
 
 ---
 
@@ -35254,6 +35676,8 @@ This auto-discovery is only available for Node.jS versions prior to `v0.12`. Any
 - [any-observable](https://github.com/sindresorhus/any-observable) - `any-promise` for Observables.
 
 
+
+
 ---
 
 # 파일 출처: .\node_modules\anymatch\README.md
@@ -35316,7 +35740,8 @@ anymatch('**/node_modules/**', '/absolute/path/to/node_modules/somelib/index.js'
 
 const matcher = anymatch(matchers);
 ['foo.js', 'bar.js'].filter(matcher);  // [ 'foo.js' ]
-anymatch master* ??
+anymatch master* ❯
+
 ```
 
 #### anymatch(matchers)
@@ -35347,6 +35772,8 @@ License
 -------
 [ISC](https://raw.github.com/micromatch/anymatch/master/LICENSE)
 
+
+
 ---
 
 # 파일 출처: .\node_modules\arg\LICENSE.md
@@ -35374,6 +35801,8 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+
 
 ---
 
@@ -35699,6 +36128,8 @@ if (!args['--name']) throw new Error('missing required argument: --name');
 
 Released under the [MIT License](LICENSE.md).
 
+
+
 ---
 
 # 파일 출처: .\node_modules\autoprefixer\README.md
@@ -35711,10 +36142,10 @@ Released under the [MIT License](LICENSE.md).
      src="https://postcss.github.io/autoprefixer/logo.svg"
      title="Autoprefixer logo by Anton Lovchikov">
 
-[PostCSS] plugin to parse CSS and add vendor prefixes to CSS rules using혻values
-from혻[Can I Use]. It혻is혻recommended by Google and used in Twitter and Alibaba.
+[PostCSS] plugin to parse CSS and add vendor prefixes to CSS rules using values
+from [Can I Use]. It is recommended by Google and used in Twitter and Alibaba.
 
-Write your CSS rules without vendor prefixes (in혻fact, forget about them
+Write your CSS rules without vendor prefixes (in fact, forget about them
 entirely):
 
 ```css
@@ -35728,7 +36159,7 @@ entirely):
 ```
 
 Autoprefixer will use the data based on current browser popularity and property
-support to혻apply prefixes for혻you. You혻can혻try혻the [interactive demo]
+support to apply prefixes for you. You can try the [interactive demo]
 of Autoprefixer.
 
 ```css
@@ -35761,6 +36192,8 @@ Twitter account for news and releases: [@autoprefixer].
 
 ## Docs
 Read full docs **[here](https://github.com/postcss/autoprefixer#readme)**.
+
+
 
 ---
 
@@ -36236,6 +36669,8 @@ KaiOS is an exception - its upstream version mappings are handled separately fro
 > [!NOTE]
 > All the non-core browsers currently included implement Chromium or Gecko. Their inclusion in any of the above methods is based on the Baseline feature set supported by the Chromium or Gecko version they implement, not their release date.
 
+
+
 ---
 
 # 파일 출처: .\node_modules\binary-extensions\readme.md
@@ -36260,13 +36695,15 @@ npm install binary-extensions
 const binaryExtensions = require('binary-extensions');
 
 console.log(binaryExtensions);
-//=> ['3ds', '3g2', ??
+//=> ['3ds', '3g2', …]
 ```
 
 ## Related
 
 - [is-binary-path](https://github.com/sindresorhus/is-binary-path) - Check if a filepath is a binary file
 - [text-extensions](https://github.com/sindresorhus/text-extensions) - List of text file extensions
+
+
 
 ---
 
@@ -36722,23 +37159,23 @@ Minimatch gets exponentially slower as patterns increase in complexity, braces d
 
 | **Pattern**                 | **braces**          | **[minimatch][]**            |
 | --------------------------- | ------------------- | ---------------------------- |
-| `{1..9007199254740991}`[^1] | `298 B` (5ms 459關s) | N/A (freezes)                |
-| `{1..1000000000000000}`     | `41 B` (1ms 15關s)   | N/A (freezes)                |
-| `{1..100000000000000}`      | `40 B` (890關s)      | N/A (freezes)                |
-| `{1..10000000000000}`       | `39 B` (2ms 49關s)   | N/A (freezes)                |
-| `{1..1000000000000}`        | `38 B` (608關s)      | N/A (freezes)                |
-| `{1..100000000000}`         | `37 B` (397關s)      | N/A (freezes)                |
-| `{1..10000000000}`          | `35 B` (983關s)      | N/A (freezes)                |
-| `{1..1000000000}`           | `34 B` (798關s)      | N/A (freezes)                |
-| `{1..100000000}`            | `33 B` (733關s)      | N/A (freezes)                |
-| `{1..10000000}`             | `32 B` (5ms 632關s)  | `78.89 MB` (16s 388ms 569關s) |
-| `{1..1000000}`              | `31 B` (1ms 381關s)  | `6.89 MB` (1s 496ms 887關s)   |
-| `{1..100000}`               | `30 B` (950關s)      | `588.89 kB` (146ms 921關s)    |
-| `{1..10000}`                | `29 B` (1ms 114關s)  | `48.89 kB` (14ms 187關s)      |
-| `{1..1000}`                 | `28 B` (760關s)      | `3.89 kB` (1ms 453關s)        |
-| `{1..100}`                  | `22 B` (345關s)      | `291 B` (196關s)              |
-| `{1..10}`                   | `10 B` (533關s)      | `20 B` (37關s)                |
-| `{1..3}`                    | `7 B` (190關s)       | `5 B` (27關s)                 |
+| `{1..9007199254740991}`[^1] | `298 B` (5ms 459μs) | N/A (freezes)                |
+| `{1..1000000000000000}`     | `41 B` (1ms 15μs)   | N/A (freezes)                |
+| `{1..100000000000000}`      | `40 B` (890μs)      | N/A (freezes)                |
+| `{1..10000000000000}`       | `39 B` (2ms 49μs)   | N/A (freezes)                |
+| `{1..1000000000000}`        | `38 B` (608μs)      | N/A (freezes)                |
+| `{1..100000000000}`         | `37 B` (397μs)      | N/A (freezes)                |
+| `{1..10000000000}`          | `35 B` (983μs)      | N/A (freezes)                |
+| `{1..1000000000}`           | `34 B` (798μs)      | N/A (freezes)                |
+| `{1..100000000}`            | `33 B` (733μs)      | N/A (freezes)                |
+| `{1..10000000}`             | `32 B` (5ms 632μs)  | `78.89 MB` (16s 388ms 569μs) |
+| `{1..1000000}`              | `31 B` (1ms 381μs)  | `6.89 MB` (1s 496ms 887μs)   |
+| `{1..100000}`               | `30 B` (950μs)      | `588.89 kB` (146ms 921μs)    |
+| `{1..10000}`                | `29 B` (1ms 114μs)  | `48.89 kB` (14ms 187μs)      |
+| `{1..1000}`                 | `28 B` (760μs)      | `3.89 kB` (1ms 453μs)        |
+| `{1..100}`                  | `22 B` (345μs)      | `291 B` (196μs)              |
+| `{1..10}`                   | `10 B` (533μs)      | `20 B` (37μs)                |
+| `{1..3}`                    | `7 B` (190μs)       | `5 B` (27μs)                 |
 
 ### Faster algorithms
 
@@ -36748,14 +37185,14 @@ _(the following results were generated using `braces.expand()` and `minimatch.br
 
 | **Pattern**     | **braces**                  | **[minimatch][]**            |
 | --------------- | --------------------------- | ---------------------------- |
-| `{1..10000000}` | `78.89 MB` (2s 698ms 642關s) | `78.89 MB` (18s 601ms 974關s) |
-| `{1..1000000}`  | `6.89 MB` (458ms 576關s)     | `6.89 MB` (1s 491ms 621關s)   |
-| `{1..100000}`   | `588.89 kB` (20ms 728關s)    | `588.89 kB` (156ms 919關s)    |
-| `{1..10000}`    | `48.89 kB` (2ms 202關s)      | `48.89 kB` (13ms 641關s)      |
-| `{1..1000}`     | `3.89 kB` (1ms 796關s)       | `3.89 kB` (1ms 958關s)        |
-| `{1..100}`      | `291 B` (424關s)             | `291 B` (211關s)              |
-| `{1..10}`       | `20 B` (487關s)              | `20 B` (72關s)                |
-| `{1..3}`        | `5 B` (166關s)               | `5 B` (27關s)                 |
+| `{1..10000000}` | `78.89 MB` (2s 698ms 642μs) | `78.89 MB` (18s 601ms 974μs) |
+| `{1..1000000}`  | `6.89 MB` (458ms 576μs)     | `6.89 MB` (1s 491ms 621μs)   |
+| `{1..100000}`   | `588.89 kB` (20ms 728μs)    | `588.89 kB` (156ms 919μs)    |
+| `{1..10000}`    | `48.89 kB` (2ms 202μs)      | `48.89 kB` (13ms 641μs)      |
+| `{1..1000}`     | `3.89 kB` (1ms 796μs)       | `3.89 kB` (1ms 958μs)        |
+| `{1..100}`      | `291 B` (424μs)             | `291 B` (211μs)              |
+| `{1..10}`       | `20 B` (487μs)              | `20 B` (72μs)                |
+| `{1..3}`        | `5 B` (166μs)               | `5 B` (27μs)                 |
 
 If you'd like to run these comparisons yourself, see [test/support/generate.js](test/support/generate.js).
 
@@ -36774,30 +37211,30 @@ npm i -d && npm benchmark
 Braces is more accurate, without sacrificing performance.
 
 ```bash
-??expand - range (expanded)
-     braces x 53,167 ops/sec 짹0.12% (102 runs sampled)
-  minimatch x 11,378 ops/sec 짹0.10% (102 runs sampled)
-??expand - range (optimized for regex)
-     braces x 373,442 ops/sec 짹0.04% (100 runs sampled)
-  minimatch x 3,262 ops/sec 짹0.18% (100 runs sampled)
-??expand - nested ranges (expanded)
-     braces x 33,921 ops/sec 짹0.09% (99 runs sampled)
-  minimatch x 10,855 ops/sec 짹0.28% (100 runs sampled)
-??expand - nested ranges (optimized for regex)
-     braces x 287,479 ops/sec 짹0.52% (98 runs sampled)
-  minimatch x 3,219 ops/sec 짹0.28% (101 runs sampled)
-??expand - set (expanded)
-     braces x 238,243 ops/sec 짹0.19% (97 runs sampled)
-  minimatch x 538,268 ops/sec 짹0.31% (96 runs sampled)
-??expand - set (optimized for regex)
-     braces x 321,844 ops/sec 짹0.10% (97 runs sampled)
-  minimatch x 140,600 ops/sec 짹0.15% (100 runs sampled)
-??expand - nested sets (expanded)
-     braces x 165,371 ops/sec 짹0.42% (96 runs sampled)
-  minimatch x 337,720 ops/sec 짹0.28% (100 runs sampled)
-??expand - nested sets (optimized for regex)
-     braces x 242,948 ops/sec 짹0.12% (99 runs sampled)
-  minimatch x 87,403 ops/sec 짹0.79% (96 runs sampled)
+● expand - range (expanded)
+     braces x 53,167 ops/sec ±0.12% (102 runs sampled)
+  minimatch x 11,378 ops/sec ±0.10% (102 runs sampled)
+● expand - range (optimized for regex)
+     braces x 373,442 ops/sec ±0.04% (100 runs sampled)
+  minimatch x 3,262 ops/sec ±0.18% (100 runs sampled)
+● expand - nested ranges (expanded)
+     braces x 33,921 ops/sec ±0.09% (99 runs sampled)
+  minimatch x 10,855 ops/sec ±0.28% (100 runs sampled)
+● expand - nested ranges (optimized for regex)
+     braces x 287,479 ops/sec ±0.52% (98 runs sampled)
+  minimatch x 3,219 ops/sec ±0.28% (101 runs sampled)
+● expand - set (expanded)
+     braces x 238,243 ops/sec ±0.19% (97 runs sampled)
+  minimatch x 538,268 ops/sec ±0.31% (96 runs sampled)
+● expand - set (optimized for regex)
+     braces x 321,844 ops/sec ±0.10% (97 runs sampled)
+  minimatch x 140,600 ops/sec ±0.15% (100 runs sampled)
+● expand - nested sets (expanded)
+     braces x 165,371 ops/sec ±0.42% (96 runs sampled)
+  minimatch x 337,720 ops/sec ±0.28% (100 runs sampled)
+● expand - nested sets (optimized for regex)
+     braces x 242,948 ops/sec ±0.12% (99 runs sampled)
+  minimatch x 87,403 ops/sec ±0.79% (96 runs sampled)
 ```
 
 ## About
@@ -36854,12 +37291,14 @@ $ npm install -g verbose/verb#dev verb-generate-readme && verb
 
 ### License
 
-Copyright 짤 2019, [Jon Schlinkert](https://github.com/jonschlinkert).
+Copyright © 2019, [Jon Schlinkert](https://github.com/jonschlinkert).
 Released under the [MIT License](LICENSE).
 
 ---
 
 _This file was generated by [verb-generate-readme](https://github.com/verbose/verb-generate-readme), v0.8.0, on April 08, 2019._
+
+
 
 ---
 
@@ -36884,7 +37323,7 @@ front-end tools. It is used in:
 - [obsolete-webpack-plugin]
 
 All tools will find target browsers automatically,
-when혻you혻add혻the혻following to `package.json`:
+when you add the following to `package.json`:
 
 ```json
   "browserslist": [
@@ -36904,7 +37343,7 @@ maintained node versions
 
 Developers set their version lists using queries like `last 2 versions`
 to be free from updating versions manually.
-Browserslist혻will혻use [`caniuse-lite`] with혻[Can I Use] data for this queries.
+Browserslist will use [`caniuse-lite`] with [Can I Use] data for this queries.
 
 You can check how config works at our playground: [`browsersl.ist`](https://browsersl.ist/)
 
@@ -36915,7 +37354,7 @@ You can check how config works at our playground: [`browsersl.ist`](https://brow
 <br>
 <br>
 <div align="center">
-  <a href="https://evilmartians.com/?utm_source=browserslist"><img src="https://evilmartians.com/badges/sponsored-by-evil-martians.svg" alt="Sponsored by Evil Martians" width="236" height="54"></a>혻혻<a href="https://cube.dev/?ref=eco-browserslist-github"><img src="https://user-images.githubusercontent.com/986756/154330861-d79ab8ec-aacb-4af8-9e17-1b28f1eccb01.svg" alt="Supported by Cube" width="227" height="46"></a>
+  <a href="https://evilmartians.com/?utm_source=browserslist"><img src="https://evilmartians.com/badges/sponsored-by-evil-martians.svg" alt="Sponsored by Evil Martians" width="236" height="54"></a>  <a href="https://cube.dev/?ref=eco-browserslist-github"><img src="https://user-images.githubusercontent.com/986756/154330861-d79ab8ec-aacb-4af8-9e17-1b28f1eccb01.svg" alt="Supported by Cube" width="227" height="46"></a>
 </div>
 
 [stylelint-no-unsupported-browser-features]: https://github.com/ismay/stylelint-no-unsupported-browser-features
@@ -36931,6 +37370,8 @@ You can check how config works at our playground: [`browsersl.ist`](https://brow
 
 ## Docs
 Read full docs **[here](https://github.com/browserslist/browserslist#readme)**.
+
+
 
 ---
 
@@ -36966,6 +37407,8 @@ camelCaseCSS('border-radius');          //-> borderRadius
 [travis-image]: https://img.shields.io/travis/stevenvachon/camelcase-css.svg
 [travis-url]: https://travis-ci.org/stevenvachon/camelcase-css
 
+
+
 ---
 
 # 파일 출처: .\node_modules\caniuse-lite\README.md
@@ -36978,6 +37421,8 @@ A smaller version of caniuse-db, with only the essentials!
 
 ## Docs
 Read full docs **[here](https://github.com/browserslist/caniuse-lite#readme)**.
+
+
 
 ---
 
@@ -37009,7 +37454,7 @@ Read full docs **[here](https://github.com/browserslist/caniuse-lite#readme)**.
 ## [5.0.0](https://github.com/gulpjs/glob-parent/compare/v4.0.0...v5.0.0) (2021-01-27)
 
 
-### ??BREAKING CHANGES
+### ⚠ BREAKING CHANGES
 
 * Drop support for node <6 & bump dependencies
 
@@ -37020,7 +37465,7 @@ Read full docs **[here](https://github.com/browserslist/caniuse-lite#readme)**.
 ## [4.0.0](https://github.com/gulpjs/glob-parent/compare/v3.1.0...v4.0.0) (2021-01-27)
 
 
-### ??BREAKING CHANGES
+### ⚠ BREAKING CHANGES
 
 * question marks are valid path characters on Windows so avoid flagging as a glob when alone
 * Update is-glob dependency
@@ -37062,7 +37507,7 @@ Read full docs **[here](https://github.com/browserslist/caniuse-lite#readme)**.
 ## [3.0.0](https://github.com/gulpjs/glob-parent/compare/v2.0.0...v3.0.0) (2021-01-27)
 
 
-### ??BREAKING CHANGES
+### ⚠ BREAKING CHANGES
 
 * update is-glob dependency
 
@@ -37094,6 +37539,8 @@ Read full docs **[here](https://github.com/browserslist/caniuse-lite#readme)**.
 * make regex test strings smaller ([cd83220](https://github.com/gulpjs/glob-parent/commit/cd832208638f45169f986d80fcf66e401f35d233))
 
 ## 1.0.0 (2021-01-27)
+
+
 
 
 ---
@@ -37239,6 +37686,8 @@ ISC
 
 [gitter-url]: https://gitter.im/gulpjs/gulp
 [gitter-image]: https://badges.gitter.im/gulpjs/gulp.svg
+
+
 
 ---
 
@@ -37401,7 +37850,8 @@ chokidar.watch('file', {
 * `paths` (string or array of strings). Paths to files, dirs to be watched
 recursively, or glob patterns.
     - Note: globs must not contain windows separators (`\`),
-    because that's how they work by the standard ??    you'll need to replace them with forward slashes (`/`).
+    because that's how they work by the standard —
+    you'll need to replace them with forward slashes (`/`).
     - Note 2: for additional glob documentation, check out low-level
     library: [picomatch](https://github.com/micromatch/picomatch).
 * `options` (object) Options object as defined below:
@@ -37548,11 +37998,13 @@ For more detailed changelog, see [`full_changelog.md`](.github/full_changelog.md
 
 Why was chokidar named this way? What's the meaning behind it?
 
->Chowkidar is a transliteration of a Hindi word meaning 'watchman, gatekeeper', 西싟쪒西뺖?西╆ㅎ西? This ultimately comes from Sanskrit _ 西싟ㄴ誓곟ㅇ誓띭쨻_ (crossway, quadrangle, consisting-of-four). This word is also used in other languages like Urdu as (??沕?膜碼邈) which is widely used in Pakistan and India. 
+>Chowkidar is a transliteration of a Hindi word meaning 'watchman, gatekeeper', चौकीदार. This ultimately comes from Sanskrit _ चतुष्क_ (crossway, quadrangle, consisting-of-four). This word is also used in other languages like Urdu as (چوکیدار) which is widely used in Pakistan and India. 
 
 ## License
 
 MIT (c) Paul Miller (<https://paulmillr.com>), see [LICENSE](LICENSE) file.
+
+
 
 ---
 
@@ -37607,14 +38059,14 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Added
 
 * automatically wrap and indent help descriptions for options and commands ([#1051])
-* `.exitOverride()`혻allows혻override혻of혻calls혻to혻`process.exit`혻for혻additional혻error혻handling혻and혻to혻keep혻program혻running혻([#1040])
+* `.exitOverride()` allows override of calls to `process.exit` for additional error handling and to keep program running ([#1040])
 * support for declaring required options with `.requiredOptions()` ([#1071])
 * GitHub Actions support ([#1027])
 * translation links in README
 
 ### Changed
 
-* dev: switch혻tests from혻Sinon+Should혻to혻Jest혻with major rewrite of tests혻([#1035])
+* dev: switch tests from Sinon+Should to Jest with major rewrite of tests ([#1035])
 * call default subcommand even when there are unknown options ([#1047])
 * *Breaking* Commander is only officially supported on Node 8 and above, and requires Node 6 ([#1053])
 
@@ -37922,7 +38374,7 @@ program
 * added `Command.prototype.name` to retrieve command name. Closes #264 #266 @tonylukasavage
 * added `Command.prototype.opts` to retrieve all the options as a simple object of key-value pairs. Closes #262 @tonylukasavage
 * fixed a bug on subcommand name. Closes #248 @jonathandelgado
-* fixed function normalize doesn?셳 honor option terminator. Closes #216 @abbr
+* fixed function normalize doesn’t honor option terminator. Closes #216 @abbr
 
 ## 2.3.0 / 2014-07-16
 
@@ -37970,20 +38422,20 @@ program
 [#1027]: https://github.com/tj/commander.js/pull/1027
 [#1028]: https://github.com/tj/commander.js/pull/1028
 [#1035]: https://github.com/tj/commander.js/pull/1035
-[#1040]:혻https://github.com/tj/commander.js/pull/1040
-[#1047]:혻https://github.com/tj/commander.js/pull/1047
-[#1048]:혻https://github.com/tj/commander.js/pull/1048
-[#1049]:혻https://github.com/tj/commander.js/pull/1049
-[#1051]:혻https://github.com/tj/commander.js/pull/1051
-[#1052]:혻https://github.com/tj/commander.js/pull/1052
-[#1053]:혻https://github.com/tj/commander.js/pull/1053
-[#1071]:혻https://github.com/tj/commander.js/pull/1071
-[#1081]:혻https://github.com/tj/commander.js/pull/1081
-[#1091]:혻https://github.com/tj/commander.js/pull/1091
-[#1096]:혻https://github.com/tj/commander.js/pull/1096
-[#1102]:혻https://github.com/tj/commander.js/pull/1102
-[#1118]:혻https://github.com/tj/commander.js/pull/1118
-[#1157]:혻https://github.com/tj/commander.js/pull/1157
+[#1040]: https://github.com/tj/commander.js/pull/1040
+[#1047]: https://github.com/tj/commander.js/pull/1047
+[#1048]: https://github.com/tj/commander.js/pull/1048
+[#1049]: https://github.com/tj/commander.js/pull/1049
+[#1051]: https://github.com/tj/commander.js/pull/1051
+[#1052]: https://github.com/tj/commander.js/pull/1052
+[#1053]: https://github.com/tj/commander.js/pull/1053
+[#1071]: https://github.com/tj/commander.js/pull/1071
+[#1081]: https://github.com/tj/commander.js/pull/1081
+[#1091]: https://github.com/tj/commander.js/pull/1091
+[#1096]: https://github.com/tj/commander.js/pull/1096
+[#1102]: https://github.com/tj/commander.js/pull/1102
+[#1118]: https://github.com/tj/commander.js/pull/1118
+[#1157]: https://github.com/tj/commander.js/pull/1157
 
 [Unreleased]: https://github.com/tj/commander.js/compare/master...develop
 [4.1.1]: https://github.com/tj/commander.js/compare/v4.0.0..v4.1.1
@@ -37996,6 +38448,8 @@ program
 [3.0.1]: https://github.com/tj/commander.js/compare/v3.0.0...v3.0.1
 [3.0.0]: https://github.com/tj/commander.js/compare/v2.20.1...v3.0.0
 [2.20.1]: https://github.com/tj/commander.js/compare/v2.20.0...v2.20.1
+
+
 
 ---
 
@@ -38012,7 +38466,7 @@ program
 
 The complete solution for [node.js](http://nodejs.org) command-line interfaces, inspired by Ruby's [commander](https://github.com/commander-rb/commander).
 
-Read this in other languages: English | [嶸鵝볞릎??(./Readme_zh-CN.md)
+Read this in other languages: English | [简体中文](./Readme_zh-CN.md)
 
 - [Commander.js](#commanderjs)
   - [Installation](#installation)
@@ -38717,6 +39171,8 @@ Available as part of the Tidelift Subscription
 
 The maintainers of Commander and thousands of other packages are working with Tidelift to deliver commercial support and maintenance for the open source dependencies you use to build your applications. Save time, reduce risk, and improve code health, while paying the maintainers of the exact dependencies you use. [Learn more.](https://tidelift.com/subscription/pkg/npm-commander?utm_source=npm-commander&utm_medium=referral&utm_campaign=enterprise&utm_term=repo)
 
+
+
 ---
 
 # 파일 출처: .\node_modules\convert-source-map\README.md
@@ -38930,6 +39386,8 @@ When `options.multiline == true`, the comment is formatted like: `/*# sourceMapp
 [ci-url]: https://github.com/thlorenz/convert-source-map/actions?query=workflow:ci
 [ci-image]: https://img.shields.io/github/workflow/status/thlorenz/convert-source-map/CI?style=flat-square
 
+
+
 ---
 
 # 파일 출처: .\node_modules\cssesc\README.md
@@ -38940,7 +39398,7 @@ When `options.multiline == true`, the comment is formatted like: `/*# sourceMapp
 
 A JavaScript library for escaping CSS strings and identifiers while generating the shortest possible ASCII-only output.
 
-This is a JavaScript library for [escaping text for use in CSS strings or identifiers](https://mathiasbynens.be/notes/css-escapes) while generating the shortest possible valid ASCII-only output. [Here?셲 an online demo.](https://mothereff.in/css-escapes)
+This is a JavaScript library for [escaping text for use in CSS strings or identifiers](https://mathiasbynens.be/notes/css-escapes) while generating the shortest possible valid ASCII-only output. [Here’s an online demo.](https://mothereff.in/css-escapes)
 
 [A polyfill for the CSSOM `CSS.escape()` method is available in a separate repository.](https://mths.be/cssescape) (In comparison, _cssesc_ is much more powerful.)
 
@@ -38974,7 +39432,7 @@ gem install ruby-cssesc
 
 ```ruby
 require 'ruby-cssesc'
-CSSEsc.escape('I ??Ruby', is_identifier: true)
+CSSEsc.escape('I ♥ Ruby', is_identifier: true)
 ```
 
 In Sass using [`sassy-escape`](https://github.com/borodean/sassy-escape):
@@ -38985,7 +39443,7 @@ gem install sassy-escape
 
 ```scss
 body {
-  content: escape('I ??Sass', $is-identifier: true);
+  content: escape('I ♥ Sass', $is-identifier: true);
 }
 ```
 
@@ -38996,11 +39454,11 @@ body {
 This function takes a value and returns an escaped version of the value where any characters that are not printable ASCII symbols are escaped using the shortest possible (but valid) [escape sequences for use in CSS strings or identifiers](https://mathiasbynens.be/notes/css-escapes).
 
 ```js
-cssesc('Ich ??B체cher');
-// ??'Ich \\2665  B\\FC cher'
+cssesc('Ich ♥ Bücher');
+// → 'Ich \\2665  B\\FC cher'
 
-cssesc('foo ?뙀 bar');
-// ??'foo \\1D306  bar'
+cssesc('foo 𝌆 bar');
+// → 'foo \\1D306  bar'
 ```
 
 By default, `cssesc` returns a string that can be used as part of a CSS string. If the target is a CSS identifier rather than a CSS string, use the `isIdentifier: true` setting (see below).
@@ -39013,12 +39471,12 @@ The default value for the `isIdentifier` option is `false`. This means that the 
 
 ```js
 cssesc('123a2b');
-// ??'123a2b'
+// → '123a2b'
 
 cssesc('123a2b', {
   'isIdentifier': true
 });
-// ??'\\31 23a2b'
+// → '\\31 23a2b'
 ```
 
 #### `quotes`
@@ -39027,14 +39485,14 @@ The default value for the `quotes` option is `'single'`. This means that any occ
 
 ```js
 cssesc('Lorem ipsum "dolor" sit \'amet\' etc.');
-// ??'Lorem ipsum "dolor" sit \\\'amet\\\' etc.'
-// ??"Lorem ipsum \"dolor\" sit \\'amet\\' etc."
+// → 'Lorem ipsum "dolor" sit \\\'amet\\\' etc.'
+// → "Lorem ipsum \"dolor\" sit \\'amet\\' etc."
 
 cssesc('Lorem ipsum "dolor" sit \'amet\' etc.', {
   'quotes': 'single'
 });
-// ??'Lorem ipsum "dolor" sit \\\'amet\\\' etc.'
-// ??"Lorem ipsum \"dolor\" sit \\'amet\\' etc."
+// → 'Lorem ipsum "dolor" sit \\\'amet\\\' etc.'
+// → "Lorem ipsum \"dolor\" sit \\'amet\\' etc."
 ```
 
 If you want to use the output as part of a CSS string literal wrapped in double quotes, set the `quotes` option to `'double'`.
@@ -39043,8 +39501,8 @@ If you want to use the output as part of a CSS string literal wrapped in double 
 cssesc('Lorem ipsum "dolor" sit \'amet\' etc.', {
   'quotes': 'double'
 });
-// ??'Lorem ipsum \\"dolor\\" sit \'amet\' etc.'
-// ??"Lorem ipsum \\\"dolor\\\" sit 'amet' etc."
+// → 'Lorem ipsum \\"dolor\\" sit \'amet\' etc.'
+// → "Lorem ipsum \\\"dolor\\\" sit 'amet' etc."
 ```
 
 #### `wrap`
@@ -39056,15 +39514,15 @@ cssesc('Lorem ipsum "dolor" sit \'amet\' etc.', {
   'quotes': 'single',
   'wrap': true
 });
-// ??'\'Lorem ipsum "dolor" sit \\\'amet\\\' etc.\''
-// ??"\'Lorem ipsum \"dolor\" sit \\\'amet\\\' etc.\'"
+// → '\'Lorem ipsum "dolor" sit \\\'amet\\\' etc.\''
+// → "\'Lorem ipsum \"dolor\" sit \\\'amet\\\' etc.\'"
 
 cssesc('Lorem ipsum "dolor" sit \'amet\' etc.', {
   'quotes': 'double',
   'wrap': true
 });
-// ??'"Lorem ipsum \\"dolor\\" sit \'amet\' etc."'
-// ??"\"Lorem ipsum \\\"dolor\\\" sit \'amet\' etc.\""
+// → '"Lorem ipsum \\"dolor\\" sit \'amet\' etc."'
+// → "\"Lorem ipsum \\\"dolor\\\" sit \'amet\' etc.\""
 ```
 
 #### `escapeEverything`
@@ -39075,8 +39533,8 @@ The `escapeEverything` option takes a boolean value (`true` or `false`), and def
 cssesc('lolwat"foo\'bar', {
   'escapeEverything': true
 });
-// ??'\\6C\\6F\\6C\\77\\61\\74\\"\\66\\6F\\6F\\\'\\62\\61\\72'
-// ??"\\6C\\6F\\6C\\77\\61\\74\\\"\\66\\6F\\6F\\'\\62\\61\\72"
+// → '\\6C\\6F\\6C\\77\\61\\74\\"\\66\\6F\\6F\\\'\\62\\61\\72'
+// → "\\6C\\6F\\6C\\77\\61\\74\\\"\\66\\6F\\6F\\'\\62\\61\\72"
 ```
 
 #### Overriding the default options globally
@@ -39086,14 +39544,14 @@ The global default settings can be overridden by modifying the `css.options` obj
 ```js
 // Read the global default setting for `escapeEverything`:
 cssesc.options.escapeEverything;
-// ??`false` by default
+// → `false` by default
 
 // Override the global default setting for `escapeEverything`:
 cssesc.options.escapeEverything = true;
 
 // Using the global default setting for `escapeEverything`, which is now `true`:
-cssesc('foo 짤 bar ??baz ?뙀 qux');
-// ??'\\66\\6F\\6F\\ \\A9\\ \\62\\61\\72\\ \\2260\\ \\62\\61\\7A\\ \\1D306\\ \\71\\75\\78'
+cssesc('foo © bar ≠ baz 𝌆 qux');
+// → '\\66\\6F\\6F\\ \\A9\\ \\62\\61\\72\\ \\2260\\ \\62\\61\\7A\\ \\1D306\\ \\71\\75\\78'
 ```
 
 ### `cssesc.version`
@@ -39111,14 +39569,14 @@ npm install -g cssesc
 After that you will be able to escape text for use in CSS strings or identifiers from the command line:
 
 ```bash
-$ cssesc 'f철o ??b책r ?뙀 baz'
+$ cssesc 'föo ♥ bår 𝌆 baz'
 f\F6o \2665  b\E5r \1D306  baz
 ```
 
 If the output needs to be a CSS identifier rather than part of a string literal, use the `-i`/`--identifier` option:
 
 ```bash
-$ cssesc --identifier 'f철o ??b책r ?뙀 baz'
+$ cssesc --identifier 'föo ♥ bår 𝌆 baz'
 f\F6o\ \2665\ b\E5r\ \1D306\ baz
 ```
 
@@ -39137,6 +39595,8 @@ This library supports the Node.js and browser versions mentioned in [`.babelrc`]
 ## License
 
 This library is available under the [MIT](https://mths.be/mit) license.
+
+
 
 ---
 
@@ -39351,7 +39811,7 @@ createDebug.formatters.h = (v) => {
   return v.toString('hex')
 }
 
-// ?쫊lsewhere
+// …elsewhere
 const debug = createDebug('foo')
 debug('this is hex: %h', new Buffer('hello world'))
 //   foo this is hex: 68656c6c6f20776f726c6421 +0ms
@@ -39387,7 +39847,7 @@ setInterval(function(){
 }, 1200);
 ```
 
-In Chromium-based web browsers (e.g. Brave, Chrome, and Electron), the JavaScript console will?봟y default?봮nly show messages logged by `debug` if the "Verbose" log level is _enabled_.
+In Chromium-based web browsers (e.g. Brave, Chrome, and Electron), the JavaScript console will—by default—only show messages logged by `debug` if the "Verbose" log level is _enabled_.
 
 <img width="647" src="https://user-images.githubusercontent.com/7143133/152083257-29034707-c42c-4959-8add-3cee850e6fcf.png">
 
@@ -39626,6 +40086,8 @@ CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
 TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
+
+
 ---
 
 # 파일 출처: .\node_modules\didyoumean\README.md
@@ -39767,6 +40229,8 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 
+
+
 ---
 
 # 파일 출처: .\node_modules\dlv\README.md
@@ -39850,6 +40314,8 @@ delve(obj, undefined, 'foo') === 'foo';
 [preact]: https://github.com/developit/preact
 [tests]: https://github.com/developit/dlv/blob/master/test.js
 
+
+
 ---
 
 # 파일 출처: .\node_modules\electron-to-chromium\README.md
@@ -39860,9 +40326,9 @@ delve(obj, undefined, 'foo') === 'foo';
 
 #### Other projects:
 
-- ?뮲 [Polypane](https://polypane.app) - Develop responsive websites and apps twice as fast on multiple screens at once
-- ?뼂截?[Superposition](https://superposition.design) - Kickstart your design system by extracting design tokens from your website
-- ?뿋截?[FromScratch](https://fromscratch.rocks) - A smart but simple autosaving scratchpad
+- 💻 [Polypane](https://polypane.app) - Develop responsive websites and apps twice as fast on multiple screens at once
+- 🖌️ [Superposition](https://superposition.design) - Kickstart your design system by extracting design tokens from your website
+- 🗒️ [FromScratch](https://fromscratch.rocks) - A smart but simple autosaving scratchpad
 
 ---
 
@@ -40043,6 +40509,8 @@ To verify correct behaviour, run `npm test`.
 ## License
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FKilian%2Felectron-to-chromium.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FKilian%2Felectron-to-chromium?ref=badge_large)
 
+
+
 ---
 
 # 파일 출처: .\node_modules\es-errors\CHANGELOG.md
@@ -40089,6 +40557,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - npm init [`6f5ebf9`](https://github.com/ljharb/es-errors/commit/6f5ebf9cead474dadd72b9e63dad315820a089ae)
 - Only apps should have lockfiles [`e1a0aeb`](https://github.com/ljharb/es-errors/commit/e1a0aeb7b80f5cfc56be54d6b2100e915d47def8)
 - [meta] add `sideEffects` flag [`a9c7d46`](https://github.com/ljharb/es-errors/commit/a9c7d460a492f1d8a241c836bc25a322a19cc043)
+
+
 
 ---
 
@@ -40152,6 +40622,8 @@ Please email [@ljharb](https://github.com/ljharb) or see https://tidelift.com/se
 [actions-image]: https://img.shields.io/endpoint?url=https://github-actions-badge-u3jn4tfpocch.runkit.sh/ljharb/es-errors
 [actions-url]: https://github.com/ljharb/es-errors/actions
 
+
+
 ---
 
 # 파일 출처: .\node_modules\esbuild\LICENSE.md
@@ -40180,6 +40652,8 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
+
+
 ---
 
 # 파일 출처: .\node_modules\esbuild\README.md
@@ -40189,6 +40663,8 @@ SOFTWARE.
 # esbuild
 
 This is a JavaScript bundler and minifier. See https://github.com/evanw/esbuild and the [JavaScript API documentation](https://esbuild.github.io/api/) for details.
+
+
 
 ---
 
@@ -40205,7 +40681,7 @@ With [escalade](https://en.wikipedia.org/wiki/Escalade), you can scale parent di
 1) the callback returns a truthy value
 2) `escalade` has reached the system root directory (eg, `/`)
 
-> **Important:**<br>Please note that `escalade` only deals with direct ancestry ??it will not dive into parents' sibling directories.
+> **Important:**<br>Please note that `escalade` only deals with direct ancestry – it will not dive into parents' sibling directories.
 
 ---
 
@@ -40245,15 +40721,15 @@ This is the opt-in mode, ideal for scenarios where `async` usage cannot be suppo
 
 ```
 /Users/lukeed
-  ?붴?? oss
-    ?쒋?? license
-    ?붴?? escalade
-      ?쒋?? package.json
-      ?붴?? test
-        ?붴?? fixtures
-          ?쒋?? index.js
-          ?붴?? foobar
-            ?붴?? demo.js
+  └── oss
+    ├── license
+    └── escalade
+      ├── package.json
+      └── test
+        └── fixtures
+          ├── index.js
+          └── foobar
+            └── demo.js
 ```
 
 ***Example Usage***
@@ -40363,22 +40839,22 @@ If the string is an absolute path, then it's left as is. Otherwise, the string i
   escalade/sync   0.309ms
 
 # Levels: 6 (target = "foo.txt"):
-  find-up          x 24,856 ops/sec 짹6.46% (55 runs sampled)
-  escalade         x 73,084 ops/sec 짹4.23% (73 runs sampled)
-  find-up.sync     x  3,663 ops/sec 짹1.12% (83 runs sampled)
-  escalade/sync    x  9,360 ops/sec 짹0.62% (88 runs sampled)
+  find-up          x 24,856 ops/sec ±6.46% (55 runs sampled)
+  escalade         x 73,084 ops/sec ±4.23% (73 runs sampled)
+  find-up.sync     x  3,663 ops/sec ±1.12% (83 runs sampled)
+  escalade/sync    x  9,360 ops/sec ±0.62% (88 runs sampled)
 
 # Levels: 12 (target = "package.json"):
-  find-up          x 29,300 ops/sec 짹10.68% (70 runs sampled)
-  escalade         x 73,685 ops/sec 짹 5.66% (66 runs sampled)
-  find-up.sync     x  1,707 ops/sec 짹 0.58% (91 runs sampled)
-  escalade/sync    x  4,667 ops/sec 짹 0.68% (94 runs sampled)
+  find-up          x 29,300 ops/sec ±10.68% (70 runs sampled)
+  escalade         x 73,685 ops/sec ± 5.66% (66 runs sampled)
+  find-up.sync     x  1,707 ops/sec ± 0.58% (91 runs sampled)
+  escalade/sync    x  4,667 ops/sec ± 0.68% (94 runs sampled)
 
 # Levels: 18 (target = "missing123.txt"):
-  find-up          x 21,818 ops/sec 짹17.37% (14 runs sampled)
-  escalade         x 67,101 ops/sec 짹21.60% (20 runs sampled)
-  find-up.sync     x  1,037 ops/sec 짹 2.86% (88 runs sampled)
-  escalade/sync    x  1,248 ops/sec 짹 0.50% (93 runs sampled)
+  find-up          x 21,818 ops/sec ±17.37% (14 runs sampled)
+  escalade         x 67,101 ops/sec ±21.60% (20 runs sampled)
+  find-up.sync     x  1,037 ops/sec ± 2.86% (88 runs sampled)
+  escalade/sync    x  1,248 ops/sec ± 0.50% (93 runs sampled)
 ```
 
 ## Deno
@@ -40406,7 +40882,9 @@ import escalade from 'https://deno.land/escalade/sync.ts';
 
 ## License
 
-MIT 짤 [Luke Edwards](https://lukeed.com)
+MIT © [Luke Edwards](https://lukeed.com)
+
+
 
 ---
 
@@ -40438,7 +40916,7 @@ MIT 짤 [Luke Edwards](https://lukeed.com)
 ## [5.0.0](https://github.com/gulpjs/glob-parent/compare/v4.0.0...v5.0.0) (2021-01-27)
 
 
-### ??BREAKING CHANGES
+### ⚠ BREAKING CHANGES
 
 * Drop support for node <6 & bump dependencies
 
@@ -40449,7 +40927,7 @@ MIT 짤 [Luke Edwards](https://lukeed.com)
 ## [4.0.0](https://github.com/gulpjs/glob-parent/compare/v3.1.0...v4.0.0) (2021-01-27)
 
 
-### ??BREAKING CHANGES
+### ⚠ BREAKING CHANGES
 
 * question marks are valid path characters on Windows so avoid flagging as a glob when alone
 * Update is-glob dependency
@@ -40491,7 +40969,7 @@ MIT 짤 [Luke Edwards](https://lukeed.com)
 ## [3.0.0](https://github.com/gulpjs/glob-parent/compare/v2.0.0...v3.0.0) (2021-01-27)
 
 
-### ??BREAKING CHANGES
+### ⚠ BREAKING CHANGES
 
 * update is-glob dependency
 
@@ -40523,6 +41001,8 @@ MIT 짤 [Luke Edwards](https://lukeed.com)
 * make regex test strings smaller ([cd83220](https://github.com/gulpjs/glob-parent/commit/cd832208638f45169f986d80fcf66e401f35d233))
 
 ## 1.0.0 (2021-01-27)
+
+
 
 
 ---
@@ -40669,6 +41149,8 @@ ISC
 [gitter-url]: https://gitter.im/gulpjs/gulp
 [gitter-image]: https://badges.gitter.im/gulpjs/gulp.svg
 
+
+
 ---
 
 # 파일 출처: .\node_modules\fast-glob\README.md
@@ -40770,22 +41252,22 @@ There is more than one form of syntax: basic and advanced. Below is a brief over
 
 ### Basic syntax
 
-* An asterisk (`*`) ??matches everything except slashes (path separators), hidden files (names starting with `.`).
-* A double star or globstar (`**`) ??matches zero or more directories.
-* Question mark (`?`) ??matches any single character except slashes (path separators).
-* Sequence (`[seq]`) ??matches any character in sequence.
+* An asterisk (`*`) — matches everything except slashes (path separators), hidden files (names starting with `.`).
+* A double star or globstar (`**`) — matches zero or more directories.
+* Question mark (`?`) – matches any single character except slashes (path separators).
+* Sequence (`[seq]`) — matches any character in sequence.
 
 > :book: A few additional words about the [basic matching behavior][picomatch_matching_behavior].
 
 Some examples:
 
-* `src/**/*.js` ??matches all files in the `src` directory (any level of nesting) that have the `.js` extension.
-* `src/*.??` ??matches all files in the `src` directory (only first level of nesting) that have a two-character extension.
-* `file-[01].js` ??matches files: `file-0.js`, `file-1.js`.
+* `src/**/*.js` — matches all files in the `src` directory (any level of nesting) that have the `.js` extension.
+* `src/*.??` — matches all files in the `src` directory (only first level of nesting) that have a two-character extension.
+* `file-[01].js` — matches files: `file-0.js`, `file-1.js`.
 
 ### Advanced syntax
 
-* [Escapes characters][micromatch_backslashes] (`\\`) ??matching special characters (`$^*+?()[]`) as literals.
+* [Escapes characters][micromatch_backslashes] (`\\`) — matching special characters (`$^*+?()[]`) as literals.
 * [POSIX character classes][picomatch_posix_brackets] (`[[:digit:]]`).
 * [Extended globs][micromatch_extglobs] (`?(pattern-list)`).
 * [Bash style brace expansions][micromatch_braces] (`{}`).
@@ -40796,10 +41278,10 @@ Some examples:
 
 Some examples:
 
-* `src/**/*.{css,scss}` ??matches all files in the `src` directory (any level of nesting) that have the `.css` or `.scss` extension.
-* `file-[[:digit:]].js` ??matches files: `file-0.js`, `file-1.js`, ?? `file-9.js`.
-* `file-{1..3}.js` ??matches files: `file-1.js`, `file-2.js`, `file-3.js`.
-* `file-(1|2)` ??matches files: `file-1.js`, `file-2.js`.
+* `src/**/*.{css,scss}` — matches all files in the `src` directory (any level of nesting) that have the `.css` or `.scss` extension.
+* `file-[[:digit:]].js` — matches files: `file-0.js`, `file-1.js`, …, `file-9.js`.
+* `file-{1..3}.js` — matches files: `file-1.js`, `file-2.js`, `file-3.js`.
+* `file-(1|2)` — matches files: `file-1.js`, `file-2.js`.
 
 ## Installation
 
@@ -40957,8 +41439,8 @@ Returns the path with escaped special characters depending on the platform.
 ```js
 fg.escapePath('!abc');
 // \\!abc
-fg.escapePath('[OpenSource] mrmlnc ??fast-glob (Deluxe Edition) 2014') + '/*.flac'
-// \\[OpenSource\\] mrmlnc ??fast-glob \\(Deluxe Edition\\) 2014/*.flac
+fg.escapePath('[OpenSource] mrmlnc – fast-glob (Deluxe Edition) 2014') + '/*.flac'
+// \\[OpenSource\\] mrmlnc – fast-glob \\(Deluxe Edition\\) 2014/*.flac
 
 fg.posix.escapePath('C:\\Program Files (x86)\\**\\*');
 // C:\\\\Program Files \\(x86\\)\\*\\*\\*
@@ -40974,8 +41456,8 @@ Converts a path to a pattern depending on the platform, including special charac
 * Windows. Works similarly to the `fg.win32.escapePath` method, additionally converting backslashes to forward slashes in cases where they are not escape characters (`!()+@{}[]`).
 
 ```js
-fg.convertPathToPattern('[OpenSource] mrmlnc ??fast-glob (Deluxe Edition) 2014') + '/*.flac';
-// \\[OpenSource\\] mrmlnc ??fast-glob \\(Deluxe Edition\\) 2014/*.flac
+fg.convertPathToPattern('[OpenSource] mrmlnc – fast-glob (Deluxe Edition) 2014') + '/*.flac';
+// \\[OpenSource\\] mrmlnc – fast-glob \\(Deluxe Edition\\) 2014/*.flac
 
 fg.convertPathToPattern('C:/Program Files (x86)/**/*');
 // Posix: C:/Program Files \\(x86\\)/\\*\\*/\\*
@@ -41008,7 +41490,7 @@ Specifies the maximum number of concurrent requests from a reader to read direct
 
 <summary>More details</summary>
 
-In Node, there are [two types of threads][nodejs_thread_pool]: Event Loop (code) and a Thread Pool (fs, dns, ??. The thread pool size controlled by the `UV_THREADPOOL_SIZE` environment variable. Its default size is 4 ([documentation][libuv_thread_pool]). The pool is one for all tasks within a single Node process.
+In Node, there are [two types of threads][nodejs_thread_pool]: Event Loop (code) and a Thread Pool (fs, dns, …). The thread pool size controlled by the `UV_THREADPOOL_SIZE` environment variable. Its default size is 4 ([documentation][libuv_thread_pool]). The pool is one for all tasks within a single Node process.
 
 Any code can make 4 real concurrent accesses to the file system. The rest of the FS requests will wait in the queue.
 
@@ -41038,9 +41520,9 @@ For example, you have the following tree:
 
 ```js
 dir/
-?붴?? one/            // 1
-    ?붴?? two/        // 2
-        ?붴?? file.js // 3
+└── one/            // 1
+    └── two/        // 2
+        └── file.js // 3
 ```
 
 ```js
@@ -41093,8 +41575,8 @@ An array of glob patterns to exclude matches. This is an alternative way to use 
 
 ```js
 dir/
-?쒋?? package-lock.json
-?붴?? package.json
+├── package-lock.json
+└── package.json
 ```
 
 ```js
@@ -41162,9 +41644,9 @@ fg.sync('*', { objectMode: true });  // [{ name: 'index.js', path: 'src/index.js
 
 The object has the following fields:
 
-* name (`string`) ??the last part of the path (basename)
-* path (`string`) ??full path relative to the pattern base directory
-* dirent ([`fs.Dirent`][node_js_fs_class_fs_dirent]) ??instance of `fs.Dirent`
+* name (`string`) — the last part of the path (basename)
+* path (`string`) — full path relative to the pattern base directory
+* dirent ([`fs.Dirent`][node_js_fs_class_fs_dirent]) — instance of `fs.Dirent`
 
 > :book: An object is an internal representation of entry, so getting it does not affect performance.
 
@@ -41201,7 +41683,7 @@ fg.sync('*', { onlyFiles: true });  // ['index.js']
 
 Enables an [object mode](#objectmode) with an additional field:
 
-* stats ([`fs.Stats`][node_js_fs_class_fs_stats]) ??instance of `fs.Stats`
+* stats ([`fs.Stats`][node_js_fs_class_fs_stats]) — instance of `fs.Stats`
 
 ```js
 fg.sync('*', { stats: false }); // ['src/index.js']
@@ -41239,9 +41721,9 @@ Enables Bash-like brace expansion.
 
 ```js
 dir/
-?쒋?? abd
-?쒋?? acd
-?붴?? a{b,c}d
+├── abd
+├── acd
+└── a{b,c}d
 ```
 
 ```js
@@ -41258,8 +41740,8 @@ Enables a [case-sensitive][wikipedia_case_sensitivity] mode for matching files.
 
 ```js
 dir/
-?쒋?? file.txt
-?붴?? File.txt
+├── file.txt
+└── File.txt
 ```
 
 ```js
@@ -41278,8 +41760,8 @@ Allow patterns to match entries that begin with a period (`.`).
 
 ```js
 dir/
-?쒋?? .editorconfig
-?붴?? package.json
+├── .editorconfig
+└── package.json
 ```
 
 ```js
@@ -41298,8 +41780,8 @@ Enables Bash-like `extglob` functionality.
 
 ```js
 dir/
-?쒋?? README.md
-?붴?? package.json
+├── README.md
+└── package.json
 ```
 
 ```js
@@ -41316,8 +41798,8 @@ Enables recursively repeats a pattern containing `**`. If `false`, `**` behaves 
 
 ```js
 dir/
-?붴?? a
-    ?붴?? b
+└── a
+    └── b
 ```
 
 ```js
@@ -41334,8 +41816,8 @@ If set to `true`, then patterns without slashes will be matched against the base
 
 ```js
 dir/
-?붴?? one/
-    ?붴?? file.md
+└── one/
+    └── file.md
 ```
 
 ```js
@@ -41352,15 +41834,15 @@ All patterns can be divided into two types:
 * **static**. A pattern is considered static if it can be used to get an entry on the file system without using matching mechanisms. For example, the `file.js` pattern is a static pattern because we can just verify that it exists on the file system.
 * **dynamic**. A pattern is considered dynamic if it cannot be used directly to find occurrences without using a matching mechanisms. For example, the `*` pattern is a dynamic pattern because we cannot use this pattern directly.
 
-A pattern is considered dynamic if it contains the following characters (`?? ??any characters or their absence) or options:
+A pattern is considered dynamic if it contains the following characters (`…` — any characters or their absence) or options:
 
 * The [`caseSensitiveMatch`](#casesensitivematch) option is disabled
 * `\\` (the escape character)
 * `*`, `?`, `!` (at the beginning of line)
-* `[??`
-* `(????`
-* `@(??`, `!(??`, `*(??`, `?(??`, `+(??` (respects the [`extglob`](#extglob) option)
-* `{????`, `{??.??` (respects the [`braceExpansion`](#braceexpansion) option)
+* `[…]`
+* `(…|…)`
+* `@(…)`, `!(…)`, `*(…)`, `?(…)`, `+(…)` (respects the [`extglob`](#extglob) option)
+* `{…,…}`, `{…..…}` (respects the [`braceExpansion`](#braceexpansion) option)
 
 ## How to write patterns on Windows?
 
@@ -41392,7 +41874,7 @@ Read more about [matching with backslashes][micromatch_backslashes].
 
 ```js
 dir/
-?붴?? (special-*file).txt
+└── (special-*file).txt
 ```
 
 ```js
@@ -41413,9 +41895,9 @@ You can use a negative pattern like this: `!**/node_modules` or `!**/node_module
 
 ```js
 first/
-?쒋?? file.md
-?붴?? second/
-    ?붴?? file.txt
+├── file.md
+└── second/
+    └── file.txt
 ```
 
 If you don't want to read the `second` directory, you must write the following pattern: `!**/second` or `!**/second/**`.
@@ -41447,11 +41929,11 @@ fg.sync(fg.convertPathToPattern('\\\\?\\c:\\Python27') + '/*');
 | node-glob    | fast-glob |
 | :----------: | :-------: |
 | `cwd`        | [`cwd`](#cwd) |
-| `root`       | ??|
+| `root`       | – |
 | `dot`        | [`dot`](#dot) |
-| `nomount`    | ??|
+| `nomount`    | – |
 | `mark`       | [`markDirectories`](#markdirectories) |
-| `nosort`     | ??|
+| `nosort`     | – |
 | `nounique`   | [`unique`](#unique) |
 | `nobrace`    | [`braceExpansion`](#braceexpansion) |
 | `noglobstar` | [`globstar`](#globstar) |
@@ -41461,15 +41943,15 @@ fg.sync(fg.convertPathToPattern('\\\\?\\c:\\Python27') + '/*');
 | `nodir`      | [`onlyFiles`](#onlyfiles) |
 | `ignore`     | [`ignore`](#ignore) |
 | `follow`     | [`followSymbolicLinks`](#followsymboliclinks) |
-| `realpath`   | ??|
+| `realpath`   | – |
 | `absolute`   | [`absolute`](#absolute) |
 
 ## Benchmarks
 
 You can see results [here](https://github.com/mrmlnc/fast-glob/actions/workflows/benchmark.yml?query=branch%3Amaster) for every commit into the `main` branch.
 
-* **Product benchmark** ??comparison with the main competitors.
-* **Regress benchmark** ??regression between the current version and the version from the npm registry.
+* **Product benchmark** – comparison with the main competitors.
+* **Regress benchmark** – regression between the current version and the version from the npm registry.
 
 ## Changelog
 
@@ -41505,6 +41987,8 @@ This software is released under the terms of the MIT license.
 [nodejs_thread_pool]: https://nodejs.org/en/docs/guides/dont-block-the-event-loop
 [libuv_thread_pool]: http://docs.libuv.org/en/v1.x/threadpool.html
 [windows_naming_conventions]: https://learn.microsoft.com/en-us/windows/win32/fileio/naming-a-file#naming-conventions
+
+
 
 ---
 
@@ -41823,6 +42307,8 @@ ISC
 [npm-badge]: https://badge.fury.io/js/fastq.svg
 [npm-url]: https://badge.fury.io/js/fastq
 
+
+
 ---
 
 # 파일 출처: .\node_modules\fastq\SECURITY.md
@@ -41844,6 +42330,8 @@ currently being supported with security updates.
 ## Reporting a Vulnerability
 
 Please report all vulnerabilities at [https://github.com/mcollina/fastq/security](https://github.com/mcollina/fastq/security).
+
+
 
 ---
 
@@ -42082,12 +42570,14 @@ Please consider supporting me on Patreon, or [start your own Patreon page](https
 
 ### License
 
-Copyright 짤 2019, [Jon Schlinkert](https://github.com/jonschlinkert).
+Copyright © 2019, [Jon Schlinkert](https://github.com/jonschlinkert).
 Released under the [MIT License](LICENSE).
 
 ***
 
 _This file was generated by [verb-generate-readme](https://github.com/verbose/verb-generate-readme), v0.8.0, on April 08, 2019._
+
+
 ---
 
 # 파일 출처: .\node_modules\fraction.js\CHANGELOG.md
@@ -42132,18 +42622,20 @@ v5.0.0:
   - ac7cd06: Fixed readme
   - 33cc9e5: Added crude build
   - 1adcc76: Release breaking v5.0. Fraction.js now builds on BigInt. The API stays the same as v4, except that the object attributes `n`, `d`, and `s`, are not Number but BigInt and may break code that directly accesses these attributes.
+
+
 ---
 
 # 파일 출처: .\node_modules\fraction.js\README.md
 
 ---
 
-# Fraction.js - ??in JavaScript
+# Fraction.js - ℚ in JavaScript
 
 [![NPM Package](https://img.shields.io/npm/v/fraction.js.svg?style=flat)](https://npmjs.org/package/fraction.js "View this project on npm")
 [![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
 
-Do you find the limitations of floating-point arithmetic frustrating, especially when rational and irrational numbers like ? or ?? are stored within the same finite precision? This can lead to avoidable inaccuracies such as:
+Do you find the limitations of floating-point arithmetic frustrating, especially when rational and irrational numbers like π or √2 are stored within the same finite precision? This can lead to avoidable inaccuracies such as:
 
 ```javascript
 1 / 98 * 98 // Results in 0.9999999999999999
@@ -42207,7 +42699,7 @@ If you attempted to calculate this manually using floating-point arithmetic, you
 (9.4313131 * (-4 / 3)) % 4.888888 = -2.797308133...
 ```
 
-While the result is reasonably close, it?셲 not as accurate as the fraction-based approach that *Fraction.js* provides, especially when dealing with repeating decimals or complex operations. This highlights the value of precision that the library brings.
+While the result is reasonably close, it’s not as accurate as the fraction-based approach that *Fraction.js* provides, especially when dealing with repeating decimals or complex operations. This highlights the value of precision that the library brings.
 
 ### Laplace Probability
 
@@ -42240,7 +42732,7 @@ var p = new Fraction([2, 4, 6].length, 6).toString(); // "0.5"
 57+45/60+17/3600
 
 ```javascript
-var deg = 57; // 57째
+var deg = 57; // 57°
 var min = 45; // 45 Minutes
 var sec = 17; // 17 Seconds
 
@@ -42659,6 +43151,8 @@ npm run test
 Copyright (c) 2025, [Robert Eisele](https://raw.org/)
 Licensed under the MIT license.
 
+
+
 ---
 
 # 파일 출처: .\node_modules\function-bind\.github\SECURITY.md
@@ -42668,6 +43162,8 @@ Licensed under the MIT license.
 # Security
 
 Please email [@ljharb](https://github.com/ljharb) or see https://tidelift.com/security if you have a potential security vulnerability to report.
+
+
 
 ---
 
@@ -42704,7 +43200,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [Tests] fix eslint errors from #15 [`f69aaa2`](https://github.com/ljharb/function-bind/commit/f69aaa2beb2fdab4415bfb885760a699d0b9c964)
 - [actions] fix permissions [`99a0cd9`](https://github.com/ljharb/function-bind/commit/99a0cd9f3b5bac223a0d572f081834cd73314be7)
 - [meta] use `npmignore` to autogenerate an npmignore file [`f03b524`](https://github.com/ljharb/function-bind/commit/f03b524ca91f75a109a5d062f029122c86ecd1ae)
-- [Dev혻Deps] update혻`@ljharb/eslint?멵onfig`, `eslint`,혻`tape` [`7af9300`](https://github.com/ljharb/function-bind/commit/7af930023ae2ce7645489532821e4fbbcd7a2280)
+- [Dev Deps] update `@ljharb/eslint‑config`, `eslint`, `tape` [`7af9300`](https://github.com/ljharb/function-bind/commit/7af930023ae2ce7645489532821e4fbbcd7a2280)
 - [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `covert`, `tape` [`64a9127`](https://github.com/ljharb/function-bind/commit/64a9127ab0bd331b93d6572eaf6e9971967fc08c)
 - [Tests] use `aud` instead of `npm audit` [`e75069c`](https://github.com/ljharb/function-bind/commit/e75069c50010a8fcce2a9ce2324934c35fdb4386)
 - [Dev Deps] update `@ljharb/eslint-config`, `aud`, `tape` [`d03555c`](https://github.com/ljharb/function-bind/commit/d03555ca59dea3b71ce710045e4303b9e2619e28)
@@ -42722,7 +43218,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [Dev Deps] update `eslint`, `jscs`, `tape`, `@ljharb/eslint-config` [`854288b`](https://github.com/ljharb/function-bind/commit/854288b1b6f5c555f89aceb9eff1152510262084)
 - [Dev Deps] update `tape`, `jscs`, `eslint`, `@ljharb/eslint-config` [`83e639f`](https://github.com/ljharb/function-bind/commit/83e639ff74e6cd6921285bccec22c1bcf72311bd)
 - Only apps should have lockfiles [`5ed97f5`](https://github.com/ljharb/function-bind/commit/5ed97f51235c17774e0832e122abda0f3229c908)
-- Use a SPDX-compliant ?쐋icense??field. [`5feefea`](https://github.com/ljharb/function-bind/commit/5feefea0dc0193993e83e5df01ded424403a5381)
+- Use a SPDX-compliant “license” field. [`5feefea`](https://github.com/ljharb/function-bind/commit/5feefea0dc0193993e83e5df01ded424403a5381)
 
 ## [v1.1.0](https://github.com/ljharb/function-bind/compare/v1.0.2...v1.1.0) - 2016-02-14
 
@@ -42812,6 +43308,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Skipping length tests for now. [`d9891ea`](https://github.com/ljharb/function-bind/commit/d9891ea4d2aaffa69f408339cdd61ff740f70565)
 - don't take my tea [`dccd930`](https://github.com/ljharb/function-bind/commit/dccd930bfd60ea10cb178d28c97550c3bc8c1e07)
 
+
+
 ---
 
 # 파일 출처: .\node_modules\function-bind\README.md
@@ -42864,6 +43362,8 @@ Function.prototype.bind = require("function-bind")
 [codecov-url]: https://app.codecov.io/gh/Raynos/function-bind/
 [actions-image]: https://img.shields.io/endpoint?url=https://github-actions-badge-u3jn4tfpocch.runkit.sh/Raynos/function-bind
 [actions-url]: https://github.com/Raynos/function-bind/actions
+
+
 
 ---
 
@@ -43068,6 +43568,8 @@ const loadFiles = gensync(function* () {
 });
 ```
 
+
+
 ---
 
 # 파일 출처: .\node_modules\glob-parent\README.md
@@ -43209,6 +43711,8 @@ ISC
 [expand-brackets]: https://github.com/jonschlinkert/expand-brackets
 <!-- prettier-ignore-end -->
 
+
+
 ---
 
 # 파일 출처: .\node_modules\hasown\CHANGELOG.md
@@ -43267,6 +43771,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Initial commit [`8dbfde6`](https://github.com/inspect-js/hasOwn/commit/8dbfde6e8fb0ebb076fab38d138f2984eb340a62)
 
+
+
 ---
 
 # 파일 출처: .\node_modules\hasown\README.md
@@ -43314,6 +43820,8 @@ Simply clone the repo, `npm install`, and run `npm test`
 [actions-image]: https://img.shields.io/endpoint?url=https://github-actions-badge-u3jn4tfpocch.runkit.sh/inspect-js/hasOwn
 [actions-url]: https://github.com/inspect-js/hasOwn/actions
 
+
+
 ---
 
 # 파일 출처: .\node_modules\is-binary-path\readme.md
@@ -43353,7 +43861,9 @@ isBinaryPath('source/unicorn.txt');
 
 ## License
 
-MIT 짤 [Sindre Sorhus](https://sindresorhus.com), [Paul Miller](https://paulmillr.com)
+MIT © [Sindre Sorhus](https://sindresorhus.com), [Paul Miller](https://paulmillr.com)
+
+
 
 ---
 
@@ -43711,6 +44221,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - init [`48e5e76`](https://github.com/inspect-js/is-core-module.git
 /commit/48e5e76cac378fddb8c1f7d4055b8dfc943d6b96)
 
+
+
 ---
 
 # 파일 출처: .\node_modules\is-core-module\README.md
@@ -43757,6 +44269,8 @@ Clone the repo, `npm install`, and run `npm test`
 [codecov-url]: https://app.codecov.io/gh/inspect-js/is-core-module/
 [actions-image]: https://img.shields.io/github/check-runs/inspect-js/is-core-module/main
 [actions-url]: https://github.com/inspect-js/is-core-module/actions
+
+
 
 ---
 
@@ -43831,7 +44345,7 @@ Adds support for escaping. Escaped exglobs no longer return true.
 ### Related projects
 
 * [has-glob](https://www.npmjs.com/package/has-glob): Returns `true` if an array has a glob pattern. | [homepage](https://github.com/jonschlinkert/has-glob "Returns `true` if an array has a glob pattern.")
-* [is-glob](https://www.npmjs.com/package/is-glob): Returns `true` if the given string looks like a glob pattern or an extglob pattern??[more](https://github.com/jonschlinkert/is-glob) | [homepage](https://github.com/jonschlinkert/is-glob "Returns `true` if the given string looks like a glob pattern or an extglob pattern. This makes it easy to create code that only uses external modules like node-glob when necessary, resulting in much faster code execution and initialization time, and a bet")
+* [is-glob](https://www.npmjs.com/package/is-glob): Returns `true` if the given string looks like a glob pattern or an extglob pattern… [more](https://github.com/jonschlinkert/is-glob) | [homepage](https://github.com/jonschlinkert/is-glob "Returns `true` if the given string looks like a glob pattern or an extglob pattern. This makes it easy to create code that only uses external modules like node-glob when necessary, resulting in much faster code execution and initialization time, and a bet")
 * [micromatch](https://www.npmjs.com/package/micromatch): Glob matching for javascript/node.js. A drop-in replacement and faster alternative to minimatch and multimatch. | [homepage](https://github.com/jonschlinkert/micromatch "Glob matching for javascript/node.js. A drop-in replacement and faster alternative to minimatch and multimatch.")
 
 ### Contributing
@@ -43865,12 +44379,14 @@ $ npm install -d && npm test
 
 ### License
 
-Copyright 짤 2016, [Jon Schlinkert](https://github.com/jonschlinkert).
+Copyright © 2016, [Jon Schlinkert](https://github.com/jonschlinkert).
 Released under the [MIT license](https://github.com/jonschlinkert/is-extglob/blob/master/LICENSE).
 
 ***
 
 _This file was generated by [verb-generate-readme](https://github.com/verbose/verb-generate-readme), v0.1.31, on October 12, 2016._
+
+
 ---
 
 # 파일 출처: .\node_modules\is-glob\README.md
@@ -44052,10 +44568,10 @@ $ npm install -g verbose/verb#dev verb-generate-readme && verb
 
 You might also be interested in these projects:
 
-* [assemble](https://www.npmjs.com/package/assemble): Get the rocks out of your socks! Assemble makes you fast at creating web projects??[more](https://github.com/assemble/assemble) | [homepage](https://github.com/assemble/assemble "Get the rocks out of your socks! Assemble makes you fast at creating web projects. Assemble is used by thousands of projects for rapid prototyping, creating themes, scaffolds, boilerplates, e-books, UI components, API documentation, blogs, building websit")
+* [assemble](https://www.npmjs.com/package/assemble): Get the rocks out of your socks! Assemble makes you fast at creating web projects… [more](https://github.com/assemble/assemble) | [homepage](https://github.com/assemble/assemble "Get the rocks out of your socks! Assemble makes you fast at creating web projects. Assemble is used by thousands of projects for rapid prototyping, creating themes, scaffolds, boilerplates, e-books, UI components, API documentation, blogs, building websit")
 * [base](https://www.npmjs.com/package/base): Framework for rapidly creating high quality, server-side node.js applications, using plugins like building blocks | [homepage](https://github.com/node-base/base "Framework for rapidly creating high quality, server-side node.js applications, using plugins like building blocks")
-* [update](https://www.npmjs.com/package/update): Be scalable! Update is a new, open source developer framework and CLI for automating updates??[more](https://github.com/update/update) | [homepage](https://github.com/update/update "Be scalable! Update is a new, open source developer framework and CLI for automating updates of any kind in code projects.")
-* [verb](https://www.npmjs.com/package/verb): Documentation generator for GitHub projects. Verb is extremely powerful, easy to use, and is used??[more](https://github.com/verbose/verb) | [homepage](https://github.com/verbose/verb "Documentation generator for GitHub projects. Verb is extremely powerful, easy to use, and is used on hundreds of projects of all sizes to generate everything from API docs to readmes.")
+* [update](https://www.npmjs.com/package/update): Be scalable! Update is a new, open source developer framework and CLI for automating updates… [more](https://github.com/update/update) | [homepage](https://github.com/update/update "Be scalable! Update is a new, open source developer framework and CLI for automating updates of any kind in code projects.")
+* [verb](https://www.npmjs.com/package/verb): Documentation generator for GitHub projects. Verb is extremely powerful, easy to use, and is used… [more](https://github.com/verbose/verb) | [homepage](https://github.com/verbose/verb "Documentation generator for GitHub projects. Verb is extremely powerful, easy to use, and is used on hundreds of projects of all sizes to generate everything from API docs to readmes.")
 
 ### Contributors
 
@@ -44077,12 +44593,14 @@ You might also be interested in these projects:
 
 ### License
 
-Copyright 짤 2019, [Jon Schlinkert](https://github.com/jonschlinkert).
+Copyright © 2019, [Jon Schlinkert](https://github.com/jonschlinkert).
 Released under the [MIT License](LICENSE).
 
 ***
 
 _This file was generated by [verb-generate-readme](https://github.com/verbose/verb-generate-readme), v0.8.0, on March 27, 2019._
+
+
 ---
 
 # 파일 출처: .\node_modules\is-number\README.md
@@ -44191,21 +44709,21 @@ As with all benchmarks, take these with a grain of salt. See the [benchmarks](./
 
 ```
 # all
-v7.0 x 413,222 ops/sec 짹2.02% (86 runs sampled)
-v6.0 x 111,061 ops/sec 짹1.29% (85 runs sampled)
-parseFloat x 317,596 ops/sec 짹1.36% (86 runs sampled)
+v7.0 x 413,222 ops/sec ±2.02% (86 runs sampled)
+v6.0 x 111,061 ops/sec ±1.29% (85 runs sampled)
+parseFloat x 317,596 ops/sec ±1.36% (86 runs sampled)
 fastest is 'v7.0'
 
 # string
-v7.0 x 3,054,496 ops/sec 짹1.05% (89 runs sampled)
-v6.0 x 2,957,781 ops/sec 짹0.98% (88 runs sampled)
-parseFloat x 3,071,060 ops/sec 짹1.13% (88 runs sampled)
+v7.0 x 3,054,496 ops/sec ±1.05% (89 runs sampled)
+v6.0 x 2,957,781 ops/sec ±0.98% (88 runs sampled)
+parseFloat x 3,071,060 ops/sec ±1.13% (88 runs sampled)
 fastest is 'parseFloat,v7.0'
 
 # number
-v7.0 x 3,146,895 ops/sec 짹0.89% (89 runs sampled)
-v6.0 x 3,214,038 ops/sec 짹1.07% (89 runs sampled)
-parseFloat x 3,077,588 ops/sec 짹1.07% (87 runs sampled)
+v7.0 x 3,146,895 ops/sec ±0.89% (89 runs sampled)
+v6.0 x 3,214,038 ops/sec ±1.07% (89 runs sampled)
+parseFloat x 3,077,588 ops/sec ±1.07% (87 runs sampled)
 fastest is 'v6.0'
 ```
 
@@ -44270,12 +44788,14 @@ You might also be interested in these projects:
 
 ### License
 
-Copyright 짤 2018, [Jon Schlinkert](https://github.com/jonschlinkert).
+Copyright © 2018, [Jon Schlinkert](https://github.com/jonschlinkert).
 Released under the [MIT License](LICENSE).
 
 ***
 
 _This file was generated by [verb-generate-readme](https://github.com/verbose/verb-generate-readme), v0.6.0, on June 15, 2018._
+
+
 ---
 
 # 파일 출처: .\node_modules\jiti\README.md
@@ -44434,7 +44954,7 @@ Enable experimental native Bun support for transformations.
 
 ## License
 
-MIT. Made with ?뮇
+MIT. Made with 💖
 
 <!-- Badged -->
 
@@ -44447,6 +44967,8 @@ MIT. Made with ?뮇
 [license-src]: https://img.shields.io/github/license/unjs/jiti.svg?style=flat&colorA=18181B&colorB=F0DB4F
 [license-href]: https://github.com/unjs/jiti/blob/main/LICENSE
 
+
+
 ---
 
 # 파일 출처: .\node_modules\js-tokens\CHANGELOG.md
@@ -44458,7 +44980,8 @@ MIT. Made with ?뮇
 - Added: Support for ES2018. The only change needed was recognizing the `s`
   regex flag.
 - Changed: _All_ tokens returned by the `matchToToken` function now have a
-  `closed` property. It is set to `undefined` for the tokens where ?쐁losed??  doesn?셳 make sense. This means that all tokens objects have the same shape,
+  `closed` property. It is set to `undefined` for the tokens where “closed”
+  doesn’t make sense. This means that all tokens objects have the same shape,
   which might improve performance.
 
 These are the breaking changes:
@@ -44585,8 +45108,8 @@ These are the breaking changes:
   `jsTokens.matchToToken` function. The capturing groups of `jsTokens` are no
   longer part of the public API; instead use said function. See this [gist] for
   an example. (Backwards-incompatible change.)
-- Changed: The empty string is now considered an ?쐇nvalid??token, instead an
-  ?쐃mpty??token (its own group). (Backwards-incompatible change.)
+- Changed: The empty string is now considered an “invalid” token, instead an
+  “empty” token (its own group). (Backwards-incompatible change.)
 - Removed: component support. (Backwards-incompatible change.)
 
 [gist]: https://gist.github.com/lydell/be49dbf80c382c473004
@@ -44595,7 +45118,7 @@ These are the breaking changes:
 ### Version 0.2.0 (2014-06-19) ###
 
 - Changed: Match ES6 function arrows (`=>`) as an operator, instead of its own
-  category (?쐄unctionArrow??, for simplicity. (Backwards-incompatible change.)
+  category (“functionArrow”), for simplicity. (Backwards-incompatible change.)
 - Added: ES6 splats (`...`) are now matched as an operator (instead of three
   punctuations). (Backwards-incompatible change.)
 
@@ -44603,6 +45126,8 @@ These are the breaking changes:
 ### Version 0.1.0 (2014-03-08) ###
 
 - Initial release.
+
+
 
 ---
 
@@ -44724,8 +45249,8 @@ Strings may contain invalid escape sequences.
 Limitations
 ===========
 
-Tokenizing JavaScript using regexes?봧n fact, _one single regex_?봶on?셳 be
-perfect. But that?셲 not the point either.
+Tokenizing JavaScript using regexes—in fact, _one single regex_—won’t be
+perfect. But that’s not the point either.
 
 You may compare jsTokens with [esprima] by using `esprima-compare.js`.
 See `npm run esprima-compare`!
@@ -44739,7 +45264,7 @@ ending `` ` ``, including interpolations (whose tokens are not matched
 individually).
 
 Matching template string interpolations requires recursive balancing of `{` and
-`}`?봲omething that JavaScript regexes cannot do. Only one level of nesting is
+`}`—something that JavaScript regexes cannot do. Only one level of nesting is
 supported.
 
 ### Division and regex literals collision ###
@@ -44753,8 +45278,8 @@ var number = bar / 2/g
 var regex = / 2/g
 ```
 
-A human can easily understand that in the `number` line we?셱e dealing with
-division, and in the `regex` line we?셱e dealing with a regex literal. How come?
+A human can easily understand that in the `number` line we’re dealing with
+division, and in the `regex` line we’re dealing with a regex literal. How come?
 Because humans can look at the whole code to put the `/` characters in context.
 A JavaScript regex cannot. It only sees forwards. (Well, ES2018 regexes can also
 look backwards. See the [ES2018](#es2018) section).
@@ -44783,7 +45308,7 @@ sees forwards, it cannot tell the two cases apart.
 There are some cases where we _can_ tell division and regex literals apart,
 though.
 
-First off, we have the simple cases where there?셲 only one slash in the line:
+First off, we have the simple cases where there’s only one slash in the line:
 
 ```js
 var foo = 2/g
@@ -44805,7 +45330,7 @@ valid regex flag. I initially wanted to future-proof by allowing `[a-zA-Z]*`
 (any letter) as flags, but it is not worth it since it increases the amount of
 ambigous cases. So only the standard `g`, `m`, `i`, `y` and `u` flags are
 allowed. This means that the above example will be identified as division as
-long as you don?셳 rename the `e` variable to some permutation of `gmiyus` 1 to 6
+long as you don’t rename the `e` variable to some permutation of `gmiyus` 1 to 6
 characters long.
 
 Lastly, we can look _forward_ for information.
@@ -44824,7 +45349,7 @@ Please consult the regex source and the test cases for precise information on
 when regex or division is matched (should you need to know). In short, you
 could sum it up as:
 
-If the end of a statement looks like a regex literal (even if it isn?셳), it
+If the end of a statement looks like a regex literal (even if it isn’t), it
 will be treated as one. Otherwise it should work as expected (if you write sane
 code).
 
@@ -44851,6 +45376,8 @@ License
 
 [MIT](LICENSE).
 
+
+
 ---
 
 # 파일 출처: .\node_modules\jsesc\README.md
@@ -44865,9 +45392,9 @@ Given some data, _jsesc_ returns a stringified representation of that data. jses
 2. it offers [many options](#api) to customize the output;
 3. its output is ASCII-safe [by default](#minimal), thanks to its use of [escape sequences](https://mathiasbynens.be/notes/javascript-escapes) where needed.
 
-For any input, jsesc generates the shortest possible valid printable-ASCII-only output. [Here?셲 an online demo.](https://mothereff.in/js-escapes)
+For any input, jsesc generates the shortest possible valid printable-ASCII-only output. [Here’s an online demo.](https://mothereff.in/js-escapes)
 
-jsesc?셲 output can be used instead of `JSON.stringify`?셲 to avoid [mojibake](https://en.wikipedia.org/wiki/Mojibake) and other encoding issues, or even to [avoid errors](https://twitter.com/annevk/status/380000829643571200) when passing JSON-formatted data (which may contain U+2028 LINE SEPARATOR, U+2029 PARAGRAPH SEPARATOR, or [lone surrogates](https://esdiscuss.org/topic/code-points-vs-unicode-scalar-values#content-14)) to a JavaScript parser or an UTF-8 encoder.
+jsesc’s output can be used instead of `JSON.stringify`’s to avoid [mojibake](https://en.wikipedia.org/wiki/Mojibake) and other encoding issues, or even to [avoid errors](https://twitter.com/annevk/status/380000829643571200) when passing JSON-formatted data (which may contain U+2028 LINE SEPARATOR, U+2029 PARAGRAPH SEPARATOR, or [lone surrogates](https://esdiscuss.org/topic/code-points-vs-unicode-scalar-values#content-14)) to a JavaScript parser or an UTF-8 encoder.
 
 ## Installation
 
@@ -44890,11 +45417,11 @@ const jsesc = require('jsesc');
 This function takes a value and returns an escaped version of the value where any characters that are not printable ASCII symbols are escaped using the shortest possible (but valid) [escape sequences for use in JavaScript strings](https://mathiasbynens.be/notes/javascript-escapes). The first supported value type is strings:
 
 ```js
-jsesc('Ich ??B체cher');
-// ??'Ich \\u2665 B\\xFCcher'
+jsesc('Ich ♥ Bücher');
+// → 'Ich \\u2665 B\\xFCcher'
 
-jsesc('foo ?뙀 bar');
-// ??'foo \\uD834\\uDF06 bar'
+jsesc('foo 𝌆 bar');
+// → 'foo \\uD834\\uDF06 bar'
 ```
 
 Instead of a string, the `value` can also be an array, an object, a map, a set, or a buffer. In such cases, `jsesc` returns a stringified version of the value where any characters that are not printable ASCII symbols are escaped in the same way.
@@ -44902,15 +45429,15 @@ Instead of a string, the `value` can also be an array, an object, a map, a set, 
 ```js
 // Escaping an array
 jsesc([
-  'Ich ??B체cher', 'foo ?뙀 bar'
+  'Ich ♥ Bücher', 'foo 𝌆 bar'
 ]);
-// ??'[\'Ich \\u2665 B\\xFCcher\',\'foo \\uD834\\uDF06 bar\']'
+// → '[\'Ich \\u2665 B\\xFCcher\',\'foo \\uD834\\uDF06 bar\']'
 
 // Escaping an object
 jsesc({
-  'Ich ??B체cher': 'foo ?뙀 bar'
+  'Ich ♥ Bücher': 'foo 𝌆 bar'
 });
-// ??'{\'Ich \\u2665 B\\xFCcher\':\'foo \\uD834\\uDF06 bar\'}'
+// → '{\'Ich \\u2665 B\\xFCcher\':\'foo \\uD834\\uDF06 bar\'}'
 ```
 
 The optional `options` argument accepts an object with the following options:
@@ -44921,13 +45448,13 @@ The default value for the `quotes` option is `'single'`. This means that any occ
 
 ```js
 jsesc('`Lorem` ipsum "dolor" sit \'amet\' etc.');
-// ??'Lorem ipsum "dolor" sit \\\'amet\\\' etc.'
+// → 'Lorem ipsum "dolor" sit \\\'amet\\\' etc.'
 
 jsesc('`Lorem` ipsum "dolor" sit \'amet\' etc.', {
   'quotes': 'single'
 });
-// ??'`Lorem` ipsum "dolor" sit \\\'amet\\\' etc.'
-// ??"`Lorem` ipsum \"dolor\" sit \\'amet\\' etc."
+// → '`Lorem` ipsum "dolor" sit \\\'amet\\\' etc.'
+// → "`Lorem` ipsum \"dolor\" sit \\'amet\\' etc."
 ```
 
 If you want to use the output as part of a string literal wrapped in double quotes, set the `quotes` option to `'double'`.
@@ -44936,8 +45463,8 @@ If you want to use the output as part of a string literal wrapped in double quot
 jsesc('`Lorem` ipsum "dolor" sit \'amet\' etc.', {
   'quotes': 'double'
 });
-// ??'`Lorem` ipsum \\"dolor\\" sit \'amet\' etc.'
-// ??"`Lorem` ipsum \\\"dolor\\\" sit 'amet' etc."
+// → '`Lorem` ipsum \\"dolor\\" sit \'amet\' etc.'
+// → "`Lorem` ipsum \\\"dolor\\\" sit 'amet' etc."
 ```
 
 If you want to use the output as part of a template literal (i.e. wrapped in backticks), set the `quotes` option to `'backtick'`.
@@ -44946,23 +45473,23 @@ If you want to use the output as part of a template literal (i.e. wrapped in bac
 jsesc('`Lorem` ipsum "dolor" sit \'amet\' etc.', {
   'quotes': 'backtick'
 });
-// ??'\\`Lorem\\` ipsum "dolor" sit \'amet\' etc.'
-// ??"\\`Lorem\\` ipsum \"dolor\" sit 'amet' etc."
-// ??`\\\`Lorem\\\` ipsum "dolor" sit 'amet' etc.`
+// → '\\`Lorem\\` ipsum "dolor" sit \'amet\' etc.'
+// → "\\`Lorem\\` ipsum \"dolor\" sit 'amet' etc."
+// → `\\\`Lorem\\\` ipsum "dolor" sit 'amet' etc.`
 ```
 
 This setting also affects the output for arrays and objects:
 
 ```js
-jsesc({ 'Ich ??B체cher': 'foo ?뙀 bar' }, {
+jsesc({ 'Ich ♥ Bücher': 'foo 𝌆 bar' }, {
   'quotes': 'double'
 });
-// ??'{"Ich \\u2665 B\\xFCcher":"foo \\uD834\\uDF06 bar"}'
+// → '{"Ich \\u2665 B\\xFCcher":"foo \\uD834\\uDF06 bar"}'
 
-jsesc([ 'Ich ??B체cher', 'foo ?뙀 bar' ], {
+jsesc([ 'Ich ♥ Bücher', 'foo 𝌆 bar' ], {
   'quotes': 'double'
 });
-// ??'["Ich \\u2665 B\\xFCcher","foo \\uD834\\uDF06 bar"]'
+// → '["Ich \\u2665 B\\xFCcher","foo \\uD834\\uDF06 bar"]'
 ```
 
 #### `numbers`
@@ -44973,22 +45500,22 @@ The default value for the `numbers` option is `'decimal'`. This means that any n
 jsesc(42, {
   'numbers': 'binary'
 });
-// ??'0b101010'
+// → '0b101010'
 
 jsesc(42, {
   'numbers': 'octal'
 });
-// ??'0o52'
+// → '0o52'
 
 jsesc(42, {
   'numbers': 'decimal'
 });
-// ??'42'
+// → '42'
 
 jsesc(42, {
   'numbers': 'hexadecimal'
 });
-// ??'0x2A'
+// → '0x2A'
 ```
 
 #### `wrap`
@@ -45000,49 +45527,49 @@ jsesc('Lorem ipsum "dolor" sit \'amet\' etc.', {
   'quotes': 'single',
   'wrap': true
 });
-// ??'\'Lorem ipsum "dolor" sit \\\'amet\\\' etc.\''
-// ??"\'Lorem ipsum \"dolor\" sit \\\'amet\\\' etc.\'"
+// → '\'Lorem ipsum "dolor" sit \\\'amet\\\' etc.\''
+// → "\'Lorem ipsum \"dolor\" sit \\\'amet\\\' etc.\'"
 
 jsesc('Lorem ipsum "dolor" sit \'amet\' etc.', {
   'quotes': 'double',
   'wrap': true
 });
-// ??'"Lorem ipsum \\"dolor\\" sit \'amet\' etc."'
-// ??"\"Lorem ipsum \\\"dolor\\\" sit \'amet\' etc.\""
+// → '"Lorem ipsum \\"dolor\\" sit \'amet\' etc."'
+// → "\"Lorem ipsum \\\"dolor\\\" sit \'amet\' etc.\""
 ```
 
 #### `es6`
 
-The `es6` option takes a boolean value (`true` or `false`), and defaults to `false` (disabled). When enabled, any astral Unicode symbols in the input are escaped using [ECMAScript 6 Unicode code point escape sequences](https://mathiasbynens.be/notes/javascript-escapes#unicode-code-point) instead of using separate escape sequences for each surrogate half. If backwards compatibility with ES5 environments is a concern, don?셳 enable this setting. If the `json` setting is enabled, the value for the `es6` setting is ignored (as if it was `false`).
+The `es6` option takes a boolean value (`true` or `false`), and defaults to `false` (disabled). When enabled, any astral Unicode symbols in the input are escaped using [ECMAScript 6 Unicode code point escape sequences](https://mathiasbynens.be/notes/javascript-escapes#unicode-code-point) instead of using separate escape sequences for each surrogate half. If backwards compatibility with ES5 environments is a concern, don’t enable this setting. If the `json` setting is enabled, the value for the `es6` setting is ignored (as if it was `false`).
 
 ```js
 // By default, the `es6` option is disabled:
-jsesc('foo ?뙀 bar ?뮝 baz');
-// ??'foo \\uD834\\uDF06 bar \\uD83D\\uDCA9 baz'
+jsesc('foo 𝌆 bar 💩 baz');
+// → 'foo \\uD834\\uDF06 bar \\uD83D\\uDCA9 baz'
 
 // To explicitly disable it:
-jsesc('foo ?뙀 bar ?뮝 baz', {
+jsesc('foo 𝌆 bar 💩 baz', {
   'es6': false
 });
-// ??'foo \\uD834\\uDF06 bar \\uD83D\\uDCA9 baz'
+// → 'foo \\uD834\\uDF06 bar \\uD83D\\uDCA9 baz'
 
 // To enable it:
-jsesc('foo ?뙀 bar ?뮝 baz', {
+jsesc('foo 𝌆 bar 💩 baz', {
   'es6': true
 });
-// ??'foo \\u{1D306} bar \\u{1F4A9} baz'
+// → 'foo \\u{1D306} bar \\u{1F4A9} baz'
 ```
 
 #### `escapeEverything`
 
-The `escapeEverything` option takes a boolean value (`true` or `false`), and defaults to `false` (disabled). When enabled, all the symbols in the output are escaped ??even printable ASCII symbols.
+The `escapeEverything` option takes a boolean value (`true` or `false`), and defaults to `false` (disabled). When enabled, all the symbols in the output are escaped — even printable ASCII symbols.
 
 ```js
 jsesc('lolwat"foo\'bar', {
   'escapeEverything': true
 });
-// ??'\\x6C\\x6F\\x6C\\x77\\x61\\x74\\"\\x66\\x6F\\x6F\\\'\\x62\\x61\\x72'
-// ??"\\x6C\\x6F\\x6C\\x77\\x61\\x74\\\"\\x66\\x6F\\x6F\\'\\x62\\x61\\x72"
+// → '\\x6C\\x6F\\x6C\\x77\\x61\\x74\\"\\x66\\x6F\\x6F\\\'\\x62\\x61\\x72'
+// → "\\x6C\\x6F\\x6C\\x77\\x61\\x74\\\"\\x66\\x6F\\x6F\\'\\x62\\x61\\x72"
 ```
 
 This setting also affects the output for string literals within arrays and objects.
@@ -45066,42 +45593,42 @@ The `minimal` option takes a boolean value (`true` or `false`), and defaults to 
 Note: with this option enabled, jsesc output is no longer guaranteed to be ASCII-safe.
 
 ```js
-jsesc('foo\u2029bar\nbaz짤qux?뙀flops', {
+jsesc('foo\u2029bar\nbaz©qux𝌆flops', {
   'minimal': false
 });
-// ??'foo\\u2029bar\\nbaz짤qux?뙀flops'
+// → 'foo\\u2029bar\\nbaz©qux𝌆flops'
 ```
 
 #### `isScriptContext`
 
-The `isScriptContext` option takes a boolean value (`true` or `false`), and defaults to `false` (disabled). When enabled, occurrences of [`</script` and `</style`](https://mathiasbynens.be/notes/etago) in the output are escaped as `<\/script` and `<\/style`, and [`<!--`](https://mathiasbynens.be/notes/etago#comment-8) is escaped as `\x3C!--` (or `\u003C!--` when the `json` option is enabled). This setting is useful when jsesc?셲 output ends up as part of a `<script>` or `<style>` element in an HTML document.
+The `isScriptContext` option takes a boolean value (`true` or `false`), and defaults to `false` (disabled). When enabled, occurrences of [`</script` and `</style`](https://mathiasbynens.be/notes/etago) in the output are escaped as `<\/script` and `<\/style`, and [`<!--`](https://mathiasbynens.be/notes/etago#comment-8) is escaped as `\x3C!--` (or `\u003C!--` when the `json` option is enabled). This setting is useful when jsesc’s output ends up as part of a `<script>` or `<style>` element in an HTML document.
 
 ```js
 jsesc('foo</script>bar', {
   'isScriptContext': true
 });
-// ??'foo<\\/script>bar'
+// → 'foo<\\/script>bar'
 ```
 
 #### `compact`
 
-The `compact` option takes a boolean value (`true` or `false`), and defaults to `true` (enabled). When enabled, the output for arrays and objects is as compact as possible; it?셲 not formatted nicely.
+The `compact` option takes a boolean value (`true` or `false`), and defaults to `true` (enabled). When enabled, the output for arrays and objects is as compact as possible; it’s not formatted nicely.
 
 ```js
-jsesc({ 'Ich ??B체cher': 'foo ?뙀 bar' }, {
+jsesc({ 'Ich ♥ Bücher': 'foo 𝌆 bar' }, {
   'compact': true // this is the default
 });
-// ??'{\'Ich \u2665 B\xFCcher\':\'foo \uD834\uDF06 bar\'}'
+// → '{\'Ich \u2665 B\xFCcher\':\'foo \uD834\uDF06 bar\'}'
 
-jsesc({ 'Ich ??B체cher': 'foo ?뙀 bar' }, {
+jsesc({ 'Ich ♥ Bücher': 'foo 𝌆 bar' }, {
   'compact': false
 });
-// ??'{\n\t\'Ich \u2665 B\xFCcher\': \'foo \uD834\uDF06 bar\'\n}'
+// → '{\n\t\'Ich \u2665 B\xFCcher\': \'foo \uD834\uDF06 bar\'\n}'
 
-jsesc([ 'Ich ??B체cher', 'foo ?뙀 bar' ], {
+jsesc([ 'Ich ♥ Bücher', 'foo 𝌆 bar' ], {
   'compact': false
 });
-// ??'[\n\t\'Ich \u2665 B\xFCcher\',\n\t\'foo \uD834\uDF06 bar\'\n]'
+// → '[\n\t\'Ich \u2665 B\xFCcher\',\n\t\'foo \uD834\uDF06 bar\'\n]'
 ```
 
 This setting has no effect on the output for strings.
@@ -45111,23 +45638,23 @@ This setting has no effect on the output for strings.
 The `indent` option takes a string value, and defaults to `'\t'`. When the `compact` setting is disabled (`false`), the value of the `indent` option is used to format the output for arrays and objects.
 
 ```js
-jsesc({ 'Ich ??B체cher': 'foo ?뙀 bar' }, {
+jsesc({ 'Ich ♥ Bücher': 'foo 𝌆 bar' }, {
   'compact': false,
   'indent': '\t' // this is the default
 });
-// ??'{\n\t\'Ich \u2665 B\xFCcher\': \'foo \uD834\uDF06 bar\'\n}'
+// → '{\n\t\'Ich \u2665 B\xFCcher\': \'foo \uD834\uDF06 bar\'\n}'
 
-jsesc({ 'Ich ??B체cher': 'foo ?뙀 bar' }, {
+jsesc({ 'Ich ♥ Bücher': 'foo 𝌆 bar' }, {
   'compact': false,
   'indent': '  '
 });
-// ??'{\n  \'Ich \u2665 B\xFCcher\': \'foo \uD834\uDF06 bar\'\n}'
+// → '{\n  \'Ich \u2665 B\xFCcher\': \'foo \uD834\uDF06 bar\'\n}'
 
-jsesc([ 'Ich ??B체cher', 'foo ?뙀 bar' ], {
+jsesc([ 'Ich ♥ Bücher', 'foo 𝌆 bar' ], {
   'compact': false,
   'indent': '  '
 });
-// ??'[\n  \'Ich \u2665 B\xFCcher\',\n\  t\'foo \uD834\uDF06 bar\'\n]'
+// → '[\n  \'Ich \u2665 B\xFCcher\',\n\  t\'foo \uD834\uDF06 bar\'\n]'
 ```
 
 This setting has no effect on the output for strings.
@@ -45141,66 +45668,66 @@ jsesc(['a', 'b', 'c'], {
   'compact': false,
   'indentLevel': 1
 });
-// ??'[\n\t\t\'a\',\n\t\t\'b\',\n\t\t\'c\'\n\t]'
+// → '[\n\t\t\'a\',\n\t\t\'b\',\n\t\t\'c\'\n\t]'
 
 jsesc(['a', 'b', 'c'], {
   'compact': false,
   'indentLevel': 2
 });
-// ??'[\n\t\t\t\'a\',\n\t\t\t\'b\',\n\t\t\t\'c\'\n\t\t]'
+// → '[\n\t\t\t\'a\',\n\t\t\t\'b\',\n\t\t\t\'c\'\n\t\t]'
 ```
 
 #### `json`
 
-The `json` option takes a boolean value (`true` or `false`), and defaults to `false` (disabled). When enabled, the output is valid JSON. [Hexadecimal character escape sequences](https://mathiasbynens.be/notes/javascript-escapes#hexadecimal) and [the `\v` or `\0` escape sequences](https://mathiasbynens.be/notes/javascript-escapes#single) are not used. Setting `json: true` implies `quotes: 'double', wrap: true, es6: false`, although these values can still be overridden if needed ??but in such cases, the output won?셳 be valid JSON anymore.
+The `json` option takes a boolean value (`true` or `false`), and defaults to `false` (disabled). When enabled, the output is valid JSON. [Hexadecimal character escape sequences](https://mathiasbynens.be/notes/javascript-escapes#hexadecimal) and [the `\v` or `\0` escape sequences](https://mathiasbynens.be/notes/javascript-escapes#single) are not used. Setting `json: true` implies `quotes: 'double', wrap: true, es6: false`, although these values can still be overridden if needed — but in such cases, the output won’t be valid JSON anymore.
 
 ```js
 jsesc('foo\x00bar\xFF\uFFFDbaz', {
   'json': true
 });
-// ??'"foo\\u0000bar\\u00FF\\uFFFDbaz"'
+// → '"foo\\u0000bar\\u00FF\\uFFFDbaz"'
 
 jsesc({ 'foo\x00bar\xFF\uFFFDbaz': 'foo\x00bar\xFF\uFFFDbaz' }, {
   'json': true
 });
-// ??'{"foo\\u0000bar\\u00FF\\uFFFDbaz":"foo\\u0000bar\\u00FF\\uFFFDbaz"}'
+// → '{"foo\\u0000bar\\u00FF\\uFFFDbaz":"foo\\u0000bar\\u00FF\\uFFFDbaz"}'
 
 jsesc([ 'foo\x00bar\xFF\uFFFDbaz', 'foo\x00bar\xFF\uFFFDbaz' ], {
   'json': true
 });
-// ??'["foo\\u0000bar\\u00FF\\uFFFDbaz","foo\\u0000bar\\u00FF\\uFFFDbaz"]'
+// → '["foo\\u0000bar\\u00FF\\uFFFDbaz","foo\\u0000bar\\u00FF\\uFFFDbaz"]'
 
-// Values that are acceptable in JSON but aren?셳 strings, arrays, or object
-// literals can?셳 be escaped, so they?셪l just be preserved:
-jsesc([ 'foo\x00bar', [1, '짤', { 'foo': true, 'qux': null }], 42 ], {
+// Values that are acceptable in JSON but aren’t strings, arrays, or object
+// literals can’t be escaped, so they’ll just be preserved:
+jsesc([ 'foo\x00bar', [1, '©', { 'foo': true, 'qux': null }], 42 ], {
   'json': true
 });
-// ??'["foo\\u0000bar",[1,"\\u00A9",{"foo":true,"qux":null}],42]'
-// Values that aren?셳 allowed in JSON are run through `JSON.stringify()`:
+// → '["foo\\u0000bar",[1,"\\u00A9",{"foo":true,"qux":null}],42]'
+// Values that aren’t allowed in JSON are run through `JSON.stringify()`:
 jsesc([ undefined, -Infinity ], {
   'json': true
 });
-// ??'[null,null]'
+// → '[null,null]'
 ```
 
-**Note:** Using this option on objects or arrays that contain non-string values relies on `JSON.stringify()`. For legacy environments like IE ??7, use [a `JSON` polyfill](http://bestiejs.github.io/json3/).
+**Note:** Using this option on objects or arrays that contain non-string values relies on `JSON.stringify()`. For legacy environments like IE ≤ 7, use [a `JSON` polyfill](http://bestiejs.github.io/json3/).
 
 #### `lowercaseHex`
 
 The `lowercaseHex` option takes a boolean value (`true` or `false`), and defaults to `false` (disabled). When enabled, any alphabetical hexadecimal digits in escape sequences as well as any hexadecimal integer literals (see [the `numbers` option](#numbers)) in the output are in lowercase.
 
 ```js
-jsesc('Ich ??B체cher', {
+jsesc('Ich ♥ Bücher', {
   'lowercaseHex': true
 });
-// ??'Ich \\u2665 B\\xfccher'
+// → 'Ich \\u2665 B\\xfccher'
 //                    ^^
 
 jsesc(42, {
   'numbers': 'hexadecimal',
   'lowercaseHex': true
 });
-// ??'0x2a'
+// → '0x2a'
 //      ^^
 ```
 
@@ -45216,24 +45743,24 @@ To use the `jsesc` binary in your shell, simply install jsesc globally using npm
 npm install -g jsesc
 ```
 
-After that you?셱e able to escape strings from the command line:
+After that you’re able to escape strings from the command line:
 
 ```bash
-$ jsesc 'f철o ??b책r ?뙀 baz'
+$ jsesc 'föo ♥ bår 𝌆 baz'
 f\xF6o \u2665 b\xE5r \uD834\uDF06 baz
 ```
 
 To escape arrays or objects containing string values, use the `-o`/`--object` option:
 
 ```bash
-$ jsesc --object '{ "f철o": "??, "b책r": "?뙀 baz" }'
+$ jsesc --object '{ "föo": "♥", "bår": "𝌆 baz" }'
 {'f\xF6o':'\u2665','b\xE5r':'\uD834\uDF06 baz'}
 ```
 
 To prettify the output in such cases, use the `-p`/`--pretty` option:
 
 ```bash
-$ jsesc --pretty '{ "f철o": "??, "b책r": "?뙀 baz" }'
+$ jsesc --pretty '{ "föo": "♥", "bår": "𝌆 baz" }'
 {
   'f\xF6o': '\u2665',
   'b\xE5r': '\uD834\uDF06 baz'
@@ -45243,7 +45770,7 @@ $ jsesc --pretty '{ "f철o": "??, "b책r": "?뙀 baz" }'
 For valid JSON output, use the `-j`/`--json` option:
 
 ```bash
-$ jsesc --json --pretty '{ "f철o": "??, "b책r": "?뙀 baz" }'
+$ jsesc --json --pretty '{ "föo": "♥", "bår": "𝌆 baz" }'
 {
   "f\u00F6o": "\u2665",
   "b\u00E5r": "\uD834\uDF06 baz"
@@ -45268,7 +45795,7 @@ See `jsesc --help` for the full list of options.
 
 As of v3.0.0, jsesc supports Node.js v6+ only.
 
-Older versions (up to jsesc v1.3.0) support Chrome 27, Firefox 3, Safari 4, Opera 10, IE 6, Node.js v6.0.0, Narwhal 0.3.2, RingoJS 0.8-0.11, PhantomJS 1.9.0, and Rhino 1.7RC4. **Note:** Using the `json` option on objects or arrays that contain non-string values relies on `JSON.parse()`. For legacy environments like IE ??7, use [a `JSON` polyfill](https://bestiejs.github.io/json3/).
+Older versions (up to jsesc v1.3.0) support Chrome 27, Firefox 3, Safari 4, Opera 10, IE 6, Node.js v6.0.0, Narwhal 0.3.2, RingoJS 0.8-0.11, PhantomJS 1.9.0, and Rhino 1.7RC4. **Note:** Using the `json` option on objects or arrays that contain non-string values relies on `JSON.parse()`. For legacy environments like IE ≤ 7, use [a `JSON` polyfill](https://bestiejs.github.io/json3/).
 
 ## Author
 
@@ -45279,6 +45806,8 @@ Older versions (up to jsesc v1.3.0) support Chrome 27, Firefox 3, Safari 4, Oper
 ## License
 
 This library is available under the [MIT](https://mths.be/mit) license.
+
+
 
 ---
 
@@ -45310,13 +45839,15 @@ SOFTWARE.
 
 [others]: https://github.com/json5/json5/contributors
 
+
+
 ---
 
 # 파일 출처: .\node_modules\json5\README.md
 
 ---
 
-# JSON5 ??JSON for Humans
+# JSON5 – JSON for Humans
 
 [![Build Status](https://app.travis-ci.com/json5/json5.svg?branch=main)][Build
 Status] [![Coverage
@@ -45326,7 +45857,7 @@ Status]
 JSON5 is an extension to the popular [JSON] file format that aims to be
 easier to **write and maintain _by hand_ (e.g. for config files)**.
 It is _not intended_ to be used for machine-to-machine communication.
-(Keep using JSON or other file formats for that. ?셽)
+(Keep using JSON or other file formats for that. 🙂)
 
 JSON5 was started in 2012, and as of 2022, now gets **[>65M downloads/week](https://www.npmjs.com/package/json5)**,
 ranks in the **[top 0.1%](https://gist.github.com/anvaka/8e8fa57c7ee1350e3491)** of the most depended-upon packages on npm,
@@ -45582,8 +46113,8 @@ reading: [Suggested Improvements to JSON](http://bolinfest.com/essays/json.html)
 JSON, but his state machine diagrams on the [JSON website](http://json.org/), as
 cheesy as it may sound, gave us motivation and confidence that building a new
 parser to implement these ideas was within reach! The original
-implementation of JSON5 was also modeled directly off of Doug?셲 open-source
-[json_parse.js] parser. We?셱e grateful for that clean and well-documented
+implementation of JSON5 was also modeled directly off of Doug’s open-source
+[json_parse.js] parser. We’re grateful for that clean and well-documented
 code.
 
 [json_parse.js]:
@@ -45599,13 +46130,15 @@ supporter, contributing multiple patches and ideas.
 with ES5, wrote the official JSON5 specification, completely rewrote the
 codebase from the ground up, and is actively maintaining this project.
 
+
+
 ---
 
 # 파일 출처: .\node_modules\lilconfig\readme.md
 
 ---
 
-# Lilconfig ?숋툘
+# Lilconfig ⚙️
 [![npm version](https://badge.fury.io/js/lilconfig.svg)](https://badge.fury.io/js/lilconfig)
 [![install size](https://packagephobia.now.sh/badge?p=lilconfig)](https://packagephobia.now.sh/result?p=lilconfig)
 [![Coverage Status](https://coveralls.io/repos/github/antonk52/lilconfig/badge.svg)](https://coveralls.io/github/antonk52/lilconfig)
@@ -45660,13 +46193,13 @@ Lilconfig does not intend to be 100% compatible with `cosmiconfig` but tries to 
 
 |cosmiconfig option      | lilconfig |
 |------------------------|-----------|
-|cache                   | ??       |
-|loaders                 | ??       |
-|ignoreEmptySearchPlaces | ??       |
-|packageProp             | ??       |
-|searchPlaces            | ??       |
-|stopDir                 | ??       |
-|transform               | ??       |
+|cache                   | ✅        |
+|loaders                 | ✅        |
+|ignoreEmptySearchPlaces | ✅        |
+|packageProp             | ✅        |
+|searchPlaces            | ✅        |
+|stopDir                 | ✅        |
+|transform               | ✅        |
 
 ## Loaders examples
 
@@ -45700,9 +46233,11 @@ lilconfig('myapp', options)
 
 ## Version correlation
 
-- lilconig v1 ??cosmiconfig v6
-- lilconig v2 ??cosmiconfig v7
-- lilconig v3 ??cosmiconfig v8
+- lilconig v1 → cosmiconfig v6
+- lilconig v2 → cosmiconfig v7
+- lilconig v3 → cosmiconfig v8
+
+
 
 ---
 
@@ -45743,6 +46278,8 @@ lines.indexForLocation({ line: 1, column: 2 })
 ## License
 
 MIT
+
+
 
 ---
 
@@ -45795,6 +46332,8 @@ loose-envify:
   52ms
   52ms
 ```
+
+
 
 ---
 
@@ -45969,6 +46508,8 @@ away.
 
     Manually iterates over the entire cache proactively pruning old entries
 
+
+
 ---
 
 # 파일 출처: .\node_modules\merge2\README.md
@@ -46109,7 +46650,7 @@ Type: `Object`.
 
 ## License
 
-MIT 짤 [Teambition](https://www.teambition.com)
+MIT © [Teambition](https://www.teambition.com)
 
 [npm-url]: https://npmjs.org/package/merge2
 [npm-image]: http://img.shields.io/npm/v/merge2.svg
@@ -46119,6 +46660,8 @@ MIT 짤 [Teambition](https://www.teambition.com)
 
 [downloads-url]: https://npmjs.org/package/merge2
 [downloads-image]: http://img.shields.io/npm/dm/merge2.svg?style=flat-square
+
+
 
 ---
 
@@ -46987,52 +47530,52 @@ As of August 23, 2024 (longer bars are better):
 
 ```sh
 # .makeRe star
-  micromatch x 2,232,802 ops/sec 짹2.34% (89 runs sampled))
-  minimatch x 781,018 ops/sec 짹6.74% (92 runs sampled))
+  micromatch x 2,232,802 ops/sec ±2.34% (89 runs sampled))
+  minimatch x 781,018 ops/sec ±6.74% (92 runs sampled))
 
 # .makeRe star; dot=true
-  micromatch x 1,863,453 ops/sec 짹0.74% (93 runs sampled)
-  minimatch x 723,105 ops/sec 짹0.75% (93 runs sampled)
+  micromatch x 1,863,453 ops/sec ±0.74% (93 runs sampled)
+  minimatch x 723,105 ops/sec ±0.75% (93 runs sampled)
 
 # .makeRe globstar
-  micromatch x 1,624,179 ops/sec 짹2.22% (91 runs sampled)
-  minimatch x 1,117,230 ops/sec 짹2.78% (86 runs sampled))
+  micromatch x 1,624,179 ops/sec ±2.22% (91 runs sampled)
+  minimatch x 1,117,230 ops/sec ±2.78% (86 runs sampled))
 
 # .makeRe globstars
-  micromatch x 1,658,642 ops/sec 짹0.86% (92 runs sampled)
-  minimatch x 741,224 ops/sec 짹1.24% (89 runs sampled))
+  micromatch x 1,658,642 ops/sec ±0.86% (92 runs sampled)
+  minimatch x 741,224 ops/sec ±1.24% (89 runs sampled))
 
 # .makeRe with leading star
-  micromatch x 1,525,014 ops/sec 짹1.63% (90 runs sampled)
-  minimatch x 561,074 ops/sec 짹3.07% (89 runs sampled)
+  micromatch x 1,525,014 ops/sec ±1.63% (90 runs sampled)
+  minimatch x 561,074 ops/sec ±3.07% (89 runs sampled)
 
 # .makeRe - braces
-  micromatch x 172,478 ops/sec 짹2.37% (78 runs sampled)
-  minimatch x 96,087 ops/sec 짹2.34% (88 runs sampled)))
+  micromatch x 172,478 ops/sec ±2.37% (78 runs sampled)
+  minimatch x 96,087 ops/sec ±2.34% (88 runs sampled)))
 
 # .makeRe braces - range (expanded)
-  micromatch x 26,973 ops/sec 짹0.84% (89 runs sampled)
-  minimatch x 3,023 ops/sec 짹0.99% (90 runs sampled))
+  micromatch x 26,973 ops/sec ±0.84% (89 runs sampled)
+  minimatch x 3,023 ops/sec ±0.99% (90 runs sampled))
 
 # .makeRe braces - range (compiled)
-  micromatch x 152,892 ops/sec 짹1.67% (83 runs sampled)
-  minimatch x 992 ops/sec 짹3.50% (89 runs sampled)d))
+  micromatch x 152,892 ops/sec ±1.67% (83 runs sampled)
+  minimatch x 992 ops/sec ±3.50% (89 runs sampled)d))
 
 # .makeRe braces - nested ranges (expanded)
-  micromatch x 15,816 ops/sec 짹13.05% (80 runs sampled)
-  minimatch x 2,953 ops/sec 짹1.64% (91 runs sampled)
+  micromatch x 15,816 ops/sec ±13.05% (80 runs sampled)
+  minimatch x 2,953 ops/sec ±1.64% (91 runs sampled)
 
 # .makeRe braces - nested ranges (compiled)
-  micromatch x 110,881 ops/sec 짹1.85% (82 runs sampled)
-  minimatch x 1,008 ops/sec 짹1.51% (91 runs sampled)
+  micromatch x 110,881 ops/sec ±1.85% (82 runs sampled)
+  minimatch x 1,008 ops/sec ±1.51% (91 runs sampled)
 
 # .makeRe braces - set (compiled)
-  micromatch x 134,930 ops/sec 짹3.54% (63 runs sampled))
-  minimatch x 43,242 ops/sec 짹0.60% (93 runs sampled)
+  micromatch x 134,930 ops/sec ±3.54% (63 runs sampled))
+  minimatch x 43,242 ops/sec ±0.60% (93 runs sampled)
 
 # .makeRe braces - nested sets (compiled)
-  micromatch x 94,455 ops/sec 짹1.74% (69 runs sampled))
-  minimatch x 27,720 ops/sec 짹1.84% (93 runs sampled))
+  micromatch x 94,455 ops/sec ±1.74% (69 runs sampled))
+  minimatch x 27,720 ops/sec ±1.84% (93 runs sampled))
 ```
 
 ## Contributing
@@ -47091,11 +47634,11 @@ $ npm install -g verbose/verb#dev verb-generate-readme && verb
 
 You might also be interested in these projects:
 
-* [braces](https://www.npmjs.com/package/braces): Bash-like brace expansion, implemented in JavaScript. Safer than other brace expansion libs, with complete support??[more](https://github.com/micromatch/braces) | [homepage](https://github.com/micromatch/braces "Bash-like brace expansion, implemented in JavaScript. Safer than other brace expansion libs, with complete support for the Bash 4.3 braces specification, without sacrificing speed.")
+* [braces](https://www.npmjs.com/package/braces): Bash-like brace expansion, implemented in JavaScript. Safer than other brace expansion libs, with complete support… [more](https://github.com/micromatch/braces) | [homepage](https://github.com/micromatch/braces "Bash-like brace expansion, implemented in JavaScript. Safer than other brace expansion libs, with complete support for the Bash 4.3 braces specification, without sacrificing speed.")
 * [expand-brackets](https://www.npmjs.com/package/expand-brackets): Expand POSIX bracket expressions (character classes) in glob patterns. | [homepage](https://github.com/micromatch/expand-brackets "Expand POSIX bracket expressions (character classes) in glob patterns.")
-* [extglob](https://www.npmjs.com/package/extglob): Extended glob support for JavaScript. Adds (almost) the expressive power of regular expressions to glob??[more](https://github.com/micromatch/extglob) | [homepage](https://github.com/micromatch/extglob "Extended glob support for JavaScript. Adds (almost) the expressive power of regular expressions to glob patterns.")
-* [fill-range](https://www.npmjs.com/package/fill-range): Fill in a range of numbers or letters, optionally passing an increment or `step` to??[more](https://github.com/jonschlinkert/fill-range) | [homepage](https://github.com/jonschlinkert/fill-range "Fill in a range of numbers or letters, optionally passing an increment or `step` to use, or create a regex-compatible range with `options.toRegex`")
-* [nanomatch](https://www.npmjs.com/package/nanomatch): Fast, minimal glob matcher for node.js. Similar to micromatch, minimatch and multimatch, but complete Bash??[more](https://github.com/micromatch/nanomatch) | [homepage](https://github.com/micromatch/nanomatch "Fast, minimal glob matcher for node.js. Similar to micromatch, minimatch and multimatch, but complete Bash 4.3 wildcard support only (no support for exglobs, posix brackets or braces)")
+* [extglob](https://www.npmjs.com/package/extglob): Extended glob support for JavaScript. Adds (almost) the expressive power of regular expressions to glob… [more](https://github.com/micromatch/extglob) | [homepage](https://github.com/micromatch/extglob "Extended glob support for JavaScript. Adds (almost) the expressive power of regular expressions to glob patterns.")
+* [fill-range](https://www.npmjs.com/package/fill-range): Fill in a range of numbers or letters, optionally passing an increment or `step` to… [more](https://github.com/jonschlinkert/fill-range) | [homepage](https://github.com/jonschlinkert/fill-range "Fill in a range of numbers or letters, optionally passing an increment or `step` to use, or create a regex-compatible range with `options.toRegex`")
+* [nanomatch](https://www.npmjs.com/package/nanomatch): Fast, minimal glob matcher for node.js. Similar to micromatch, minimatch and multimatch, but complete Bash… [more](https://github.com/micromatch/nanomatch) | [homepage](https://github.com/micromatch/nanomatch "Fast, minimal glob matcher for node.js. Similar to micromatch, minimatch and multimatch, but complete Bash 4.3 wildcard support only (no support for exglobs, posix brackets or braces)")
 
 ### Contributors
 
@@ -47144,12 +47687,14 @@ You might also be interested in these projects:
 
 ### License
 
-Copyright 짤 2024, [Jon Schlinkert](https://github.com/jonschlinkert).
+Copyright © 2024, [Jon Schlinkert](https://github.com/jonschlinkert).
 Released under the [MIT License](LICENSE).
 
 ***
 
 _This file was generated by [verb-generate-readme](https://github.com/verbose/verb-generate-readme), v0.8.0, on August 23, 2024._
+
+
 ---
 
 # 파일 출처: .\node_modules\ms\license.md
@@ -47177,6 +47722,8 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+
 
 ---
 
@@ -47243,6 +47790,8 @@ ms(ms('10 hours'), { long: true })    // "10 hours"
 3. Within the module you want to test your local development instance of ms, just link it to the dependencies: `npm link ms`. Instead of the default one from npm, Node.js will now use your clone of ms!
 
 As always, you can run the tests using: `npm test`
+
+
 
 ---
 
@@ -47316,6 +47865,8 @@ As always, you can run the tests using: `npm test`
 
  * use `bluebird` by default if found
  * support node 0.8
+
+
 
 ---
 
@@ -47430,6 +47981,8 @@ Currently, the plans are to eventually support:
 [downloads-image]: http://img.shields.io/npm/dm/mz.svg?style=flat-square
 [downloads-url]: https://npmjs.org/package/mz
 
+
+
 ---
 
 # 파일 출처: .\node_modules\nanoid\README.md
@@ -47441,18 +47994,19 @@ Currently, the plans are to eventually support:
 <img src="https://ai.github.io/nanoid/logo.svg" align="right"
      alt="Nano ID logo by Anton Lovchikov" width="180" height="94">
 
-**English** | [????克龜橘](./README.ru.md) | [嶸鵝볞릎??(./README.zh-CN.md) | [Bahasa Indonesia](./README.id-ID.md)
+**English** | [Русский](./README.ru.md) | [简体中文](./README.zh-CN.md) | [Bahasa Indonesia](./README.id-ID.md)
 
-A tiny, secure, URL-friendly, unique혻string ID혻generator for혻JavaScript.
+A tiny, secure, URL-friendly, unique string ID generator for JavaScript.
 
-> ?쏛n amazing level of senseless perfectionism,
-> which is simply impossible not to respect.??
-* **Small.** 130 bytes (minified and gzipped). No혻dependencies.
+> “An amazing level of senseless perfectionism,
+> which is simply impossible not to respect.”
+
+* **Small.** 130 bytes (minified and gzipped). No dependencies.
   [Size Limit] controls the size.
 * **Fast.** It is 2 times faster than UUID.
 * **Safe.** It uses hardware random generator. Can be used in clusters.
-* **Short IDs.** It uses a혻larger alphabet than UUID (`A-Za-z0-9_-`).
-  So ID size was reduced from혻36혻to혻21혻symbols.
+* **Short IDs.** It uses a larger alphabet than UUID (`A-Za-z0-9_-`).
+  So ID size was reduced from 36 to 21 symbols.
 * **Portable.** Nano ID was ported
   to [20 programming languages](#other-programming-languages).
 
@@ -47475,6 +48029,8 @@ Supports modern browsers, IE [with Babel], Node.js and React Native.
 ## Docs
 Read full docs **[here](https://github.com/ai/nanoid#readme)**.
 
+
+
 ---
 
 # 파일 출처: .\node_modules\node-releases\README.md
@@ -47493,6 +48049,8 @@ All data is located in `data` directory.
 ```bash
 npm install node-releases
 ```
+
+
 
 ---
 
@@ -47598,7 +48156,7 @@ $ npm install -g verbose/verb#dev verb-generate-readme && verb
 Other useful path-related libraries:
 
 * [contains-path](https://www.npmjs.com/package/contains-path): Return true if a file path contains the given path. | [homepage](https://github.com/jonschlinkert/contains-path "Return true if a file path contains the given path.")
-* [is-absolute](https://www.npmjs.com/package/is-absolute): Returns true if a file path is absolute. Does not rely on the path module??[more](https://github.com/jonschlinkert/is-absolute) | [homepage](https://github.com/jonschlinkert/is-absolute "Returns true if a file path is absolute. Does not rely on the path module and can be used as a polyfill for node.js native `path.isAbolute`.")
+* [is-absolute](https://www.npmjs.com/package/is-absolute): Returns true if a file path is absolute. Does not rely on the path module… [more](https://github.com/jonschlinkert/is-absolute) | [homepage](https://github.com/jonschlinkert/is-absolute "Returns true if a file path is absolute. Does not rely on the path module and can be used as a polyfill for node.js native `path.isAbolute`.")
 * [is-relative](https://www.npmjs.com/package/is-relative): Returns `true` if the path appears to be relative. | [homepage](https://github.com/jonschlinkert/is-relative "Returns `true` if the path appears to be relative.")
 * [parse-filepath](https://www.npmjs.com/package/parse-filepath): Pollyfill for node.js `path.parse`, parses a filepath into an object. | [homepage](https://github.com/jonschlinkert/parse-filepath "Pollyfill for node.js `path.parse`, parses a filepath into an object.")
 * [path-ends-with](https://www.npmjs.com/package/path-ends-with): Return `true` if a file path ends with the given string/suffix. | [homepage](https://github.com/jonschlinkert/path-ends-with "Return `true` if a file path ends with the given string/suffix.")
@@ -47621,12 +48179,14 @@ Other useful path-related libraries:
 
 ### License
 
-Copyright 짤 2018, [Jon Schlinkert](https://github.com/jonschlinkert).
+Copyright © 2018, [Jon Schlinkert](https://github.com/jonschlinkert).
 Released under the [MIT License](LICENSE).
 
 ***
 
 _This file was generated by [verb-generate-readme](https://github.com/verbose/verb-generate-readme), v0.6.0, on April 19, 2018._
+
+
 ---
 
 # 파일 출처: .\node_modules\object-assign\readme.md
@@ -47693,7 +48253,9 @@ Assigns enumerable own properties of `source` objects to the `target` object and
 
 ## License
 
-MIT 짤 [Sindre Sorhus](https://sindresorhus.com)
+MIT © [Sindre Sorhus](https://sindresorhus.com)
+
+
 
 ---
 
@@ -47742,7 +48304,9 @@ The Windows specific version.
 
 ## License
 
-MIT 짤 [Javier Blanco](http://jbgutierrez.info)
+MIT © [Javier Blanco](http://jbgutierrez.info)
+
+
 
 ---
 
@@ -47771,6 +48335,8 @@ console.log(
 
 ## Docs
 Read **[full docs](https://github.com/alexeyraspopov/picocolors#readme)** on GitHub.
+
+
 
 ---
 
@@ -48385,13 +48951,13 @@ The following table shows which features are supported by [minimatch](https://gi
 
 | **Feature** | `minimatch` | `micromatch` | `picomatch` | `nanomatch` | `extglob` | `braces` | `expand-brackets` |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Wildcard matching (`*?+`) | ??| ??| ??| ??| - | - | - |
-| Advancing globbing        | ??| ??| ??| - | - | - | - |
-| Brace _matching_          | ??| ??| ??| - | - | ??| - |
-| Brace _expansion_         | ??| ??| - | - | - | ??| - |
-| Extglobs                  | partial | ??| ??| - | ??| - | - |
-| Posix brackets            | - | ??| ??| - | - | - | ??|
-| Regular expression syntax | - | ??| ??| ??| ??| - | ??|
+| Wildcard matching (`*?+`) | ✔ | ✔ | ✔ | ✔ | - | - | - |
+| Advancing globbing        | ✔ | ✔ | ✔ | - | - | - | - |
+| Brace _matching_          | ✔ | ✔ | ✔ | - | - | ✔ | - |
+| Brace _expansion_         | ✔ | ✔ | - | - | - | ✔ | - |
+| Extglobs                  | partial | ✔ | ✔ | - | ✔ | - | - |
+| Posix brackets            | - | ✔ | ✔ | - | - | - | ✔ |
+| Regular expression syntax | - | ✔ | ✔ | ✔ | ✔ | - | ✔ |
 | File system operations    | - | - | - | - | - | - | - |
 
 <br>
@@ -48403,28 +48969,28 @@ Performance comparison of picomatch and minimatch.
 
 ```
 # .makeRe star
-  picomatch x 1,993,050 ops/sec 짹0.51% (91 runs sampled)
-  minimatch x 627,206 ops/sec 짹1.96% (87 runs sampled))
+  picomatch x 1,993,050 ops/sec ±0.51% (91 runs sampled)
+  minimatch x 627,206 ops/sec ±1.96% (87 runs sampled))
 
 # .makeRe star; dot=true
-  picomatch x 1,436,640 ops/sec 짹0.62% (91 runs sampled)
-  minimatch x 525,876 ops/sec 짹0.60% (88 runs sampled)
+  picomatch x 1,436,640 ops/sec ±0.62% (91 runs sampled)
+  minimatch x 525,876 ops/sec ±0.60% (88 runs sampled)
 
 # .makeRe globstar
-  picomatch x 1,592,742 ops/sec 짹0.42% (90 runs sampled)
-  minimatch x 962,043 ops/sec 짹1.76% (91 runs sampled)d)
+  picomatch x 1,592,742 ops/sec ±0.42% (90 runs sampled)
+  minimatch x 962,043 ops/sec ±1.76% (91 runs sampled)d)
 
 # .makeRe globstars
-  picomatch x 1,615,199 ops/sec 짹0.35% (94 runs sampled)
-  minimatch x 477,179 ops/sec 짹1.33% (91 runs sampled)
+  picomatch x 1,615,199 ops/sec ±0.35% (94 runs sampled)
+  minimatch x 477,179 ops/sec ±1.33% (91 runs sampled)
 
 # .makeRe with leading star
-  picomatch x 1,220,856 ops/sec 짹0.40% (92 runs sampled)
-  minimatch x 453,564 ops/sec 짹1.43% (94 runs sampled)
+  picomatch x 1,220,856 ops/sec ±0.40% (92 runs sampled)
+  minimatch x 453,564 ops/sec ±1.43% (94 runs sampled)
 
 # .makeRe - basic braces
-  picomatch x 392,067 ops/sec 짹0.70% (90 runs sampled)
-  minimatch x 99,532 ops/sec 짹2.03% (87 runs sampled))
+  picomatch x 392,067 ops/sec ±0.70% (90 runs sampled)
+  minimatch x 99,532 ops/sec ±2.03% (87 runs sampled))
 ```
 
 <br>
@@ -48492,8 +49058,10 @@ npm install -g verbose/verb#dev verb-generate-readme && verb
 
 ### License
 
-Copyright 짤 2017-present, [Jon Schlinkert](https://github.com/jonschlinkert).
+Copyright © 2017-present, [Jon Schlinkert](https://github.com/jonschlinkert).
 Released under the [MIT License](LICENSE).
+
+
 
 ---
 
@@ -48619,7 +49187,9 @@ if (promiseFn()) {
 
 ## License
 
-MIT 짤 [Sindre Sorhus](http://sindresorhus.com)
+MIT © [Sindre Sorhus](http://sindresorhus.com)
+
+
 
 ---
 
@@ -48643,7 +49213,7 @@ This library only works with commonJS.
 Two reasons:
 1. Babel and istanbul were breaking each other.
 2. Everyone seemed to re-invent the wheel on this, and everyone wanted a solution that was DRY, simple, easy to use,
-and made everything Just Work?? while allowing multiple require hooks, in a fashion similar to calling `super`.
+and made everything Just Work™, while allowing multiple require hooks, in a fashion similar to calling `super`.
 
 For some context, see [the Babel issue thread][] which started this all, then [the nyc issue thread][], where
 discussion was moved (as we began to discuss just using the code nyc had developed), and finally to [#1][issue-1]
@@ -48701,6 +49271,8 @@ See the [wiki page](https://github.com/danez/pirates/wiki/Projects-using-Pirates
 (And you should! It works best if everyone uses it. Then we can have a happy world full of happy require hooks!), please
 add yourself to the wiki.
 
+
+
 ---
 
 # 파일 출처: .\node_modules\postcss\README.md
@@ -48710,19 +49282,19 @@ add yourself to the wiki.
 # PostCSS
 
 <img align="right" width="95" height="95"
-     alt="Philosopher?셲 stone, logo of PostCSS"
+     alt="Philosopher’s stone, logo of PostCSS"
      src="https://postcss.org/logo.svg">
 
 PostCSS is a tool for transforming styles with JS plugins.
-These plugins can lint your CSS, support혻variables혻and혻mixins,
-transpile혻future혻CSS혻syntax, inline혻images, and혻more.
+These plugins can lint your CSS, support variables and mixins,
+transpile future CSS syntax, inline images, and more.
 
 PostCSS is used by industry leaders including Wikipedia, Twitter, Alibaba,
-and JetBrains. The혻[Autoprefixer] and [Stylelint]혻PostCSS plugins혻are some혻of혻the혻most popular CSS tools.
+and JetBrains. The [Autoprefixer] and [Stylelint] PostCSS plugins are some of the most popular CSS tools.
 
 ---
 
-<img src="https://cdn.evilmartians.com/badges/logo-no-label.svg" alt="" width="22" height="16" />혻혻Built by
+<img src="https://cdn.evilmartians.com/badges/logo-no-label.svg" alt="" width="22" height="16" />  Built by
 <b><a href="https://evilmartians.com/devtools?utm_source=postcss&utm_campaign=devtools-button&utm_medium=github">Evil Martians</a></b>, go-to agency for <b>developer tools</b>.
 
 ---
@@ -48735,6 +49307,8 @@ and JetBrains. The혻[Autoprefixer] and [Stylelint]혻PostCSS plugins혻are some
 
 ## Docs
 Read full docs **[here](https://postcss.org/)**.
+
+
 
 ---
 
@@ -48979,13 +49553,15 @@ This is mainly for use by postcss runners that implement file watching.
 
 ## CONTRIBUTING
 
-* ??Pull requests and ??Stars are always welcome.
+* ⇄ Pull requests and ★ Stars are always welcome.
 * For bugs and feature requests, please create an issue.
 * Pull requests must be accompanied by passing automated tests (`$ npm test`).
 
 ## [Changelog](CHANGELOG.md)
 
 ## [License](LICENSE)
+
+
 
 ---
 
@@ -48996,12 +49572,12 @@ This is mainly for use by postcss runners that implement file watching.
 # PostCSS JS
 
 <img align="right" width="135" height="95"
-     title="Philosopher?셲 stone, logo of PostCSS"
+     title="Philosopher’s stone, logo of PostCSS"
      src="https://postcss.org/logo-leftp.svg">
 
 [PostCSS] for CSS-in-JS and styles in JS objects.
 
-For example, to use [Stylelint] or [RTLCSS] plugins in혻your혻workflow.
+For example, to use [Stylelint] or [RTLCSS] plugins in your workflow.
 
 <a href="https://evilmartians.com/?utm_source=postcss-js">
   <img src="https://evilmartians.com/badges/sponsored-by-evil-martians.svg"
@@ -49015,6 +49591,8 @@ For example, to use [Stylelint] or [RTLCSS] plugins in혻your혻workflow.
 
 ## Docs
 Read full docs **[here](https://github.com/postcss/postcss-js#readme)**.
+
+
 
 ---
 
@@ -49055,8 +49633,8 @@ Create a **`postcss`** section in your project's **`package.json`**
 
 ```
 Project (Root)
-  |??client
-  |??public
+  |– client
+  |– public
   |
   |- package.json
 ```
@@ -49077,12 +49655,12 @@ Project (Root)
 
 Create a **`.postcssrc`** file in JSON or YAML format
 
-> ?뱄툘 It's recommended to use an extension (e.g **`.postcssrc.json`** or **`.postcssrc.yml`**) instead of `.postcssrc`
+> ℹ️ It's recommended to use an extension (e.g **`.postcssrc.json`** or **`.postcssrc.yml`**) instead of `.postcssrc`
 
 ```
 Project (Root)
-  |??client
-  |??public
+  |– client
+  |– public
   |
   |- (.postcssrc|.postcssrc.json|.postcssrc.yml)
   |- package.json
@@ -49132,8 +49710,8 @@ In this case create JS/TS file named:
 
 ```
 Project (Root)
-  |??client
-  |??public
+  |– client
+  |– public
   |- (.postcssrc|postcss.config).(js|mjs|cjs|ts|mts|cts)
   |- package.json
 ```
@@ -49178,7 +49756,7 @@ module.exports = ({ env }) => ({
 })
 ```
 
-> ?뱄툘 When using an `{Object}`, the key can be a Node.js module name, a path to a JavaScript file that is relative to the directory of the PostCSS config file, or an absolute path to a JavaScript file.
+> ℹ️ When using an `{Object}`, the key can be a Node.js module name, a path to a JavaScript file that is relative to the directory of the PostCSS config file, or an absolute path to a JavaScript file.
 
 #### `{Array}`
 
@@ -49331,7 +49909,7 @@ Plugin **execution order** is determined by declaration in the plugins section (
 
 When using a `{Function}` (`postcss.config.js` or `.postcssrc.js`), it's possible to pass context to `postcss-load-config`, which will be evaluated while loading your config. By default `ctx.env (process.env.NODE_ENV)` and `ctx.cwd (process.cwd())` are available on the `ctx` `{Object}`
 
-> ?뱄툘 Most third-party integrations add additional properties to the `ctx` (e.g `postcss-loader`). Check the specific module's README for more information about what is available on the respective `ctx`
+> ℹ️ Most third-party integrations add additional properties to the `ctx` (e.g `postcss-loader`). Check the specific module's README for more information about what is available on the respective `ctx`
 
 <h2 align="center">Examples</h2>
 
@@ -49483,7 +50061,7 @@ module.exports = (env) => ({
       <img width="150" height="150"
         src="https://github.com/fwouts.png?v=3&s=150">
       <br />
-      <a href="https://github.com/fwouts">Fran챌ois Wouts</a>
+      <a href="https://github.com/fwouts">François Wouts</a>
     </td>
   </tr>
   <tbody>
@@ -49497,6 +50075,8 @@ Tidelift will coordinate the fix and disclosure.
 
 [Tidelift security contact]: https://tidelift.com/security
 
+
+
 ---
 
 # 파일 출처: .\node_modules\postcss-nested\README.md
@@ -49506,7 +50086,7 @@ Tidelift will coordinate the fix and disclosure.
 # PostCSS Nested
 
 <img align="right" width="135" height="95"
-     title="Philosopher?셲 stone, logo of PostCSS"
+     title="Philosopher’s stone, logo of PostCSS"
      src="https://postcss.org/logo-leftp.svg">
 
 [PostCSS] plugin to unwrap nested rules closer to Sass syntax.
@@ -49588,6 +50168,8 @@ Alternatives:
 
 ## Docs
 Read full docs **[here](https://github.com/postcss/postcss-nested#readme)**.
+
+
 
 ---
 
@@ -50468,6 +51050,8 @@ postcss(plugin()).process(`
 //   3 | }
 ```
 
+
+
 ---
 
 # 파일 출처: .\node_modules\postcss-selector-parser\CHANGELOG.md
@@ -50665,7 +51249,7 @@ This release has **BREAKING CHANGES** that were required to fix bugs regarding v
   The normal value of a node like a class name or ID, or an aspect of a node such as attribute
   selector's value, is unescaped. Escapes representing Non-ascii characters are unescaped into
   unicode characters. For example: `bu\tton, .\31 00, #i\2764\FE0Fu, [attr="value is \"quoted\""]`
-  will parse respectively to the values `button`, `100`, `i?ㅿ툘u`, `value is "quoted"`.
+  will parse respectively to the values `button`, `100`, `i❤️u`, `value is "quoted"`.
   The original escape sequences for these values can be found in the corresponding property name
   in `node.raws`. Where possible, deprecation warnings were added, but the nature
   of escape handling makes it impossible to detect what is escaped or not. Our expectation is
@@ -50722,8 +51306,8 @@ className.value; // => 'escape for me'
 className.toString(); // => '.escape\\ for\\ me'
 
 // emoji and all non-ascii are escaped to ensure it works in every css file.
-className.value = "?삺?쫫?삆";
-className.value; // => '?삺?쫫?삆'
+className.value = "😱🦄😍";
+className.value; // => '😱🦄😍'
 className.toString(); // => '.\\1F631\\1F984\\1F60D'
 
 // you can control the escape sequence if you want, or do bad bad things
@@ -50896,7 +51480,7 @@ is now:
 * Added: Use string constants for all node types & expose them on the main
   parser instance (thanks to @Aweary).
 
-#혻2.0.0
+# 2.0.0
 
 This release contains the following breaking changes:
 
@@ -50921,7 +51505,7 @@ and;
 * Fixes an infinite loop on `)` and `]` tokens when they had no opening pairs.
   Now postcss-selector-parser will throw when it encounters these lone tokens.
 
-#혻1.3.2
+# 1.3.2
 
 * Now uses plain integers rather than `str.charCodeAt(0)` for compiled builds.
 
@@ -51024,6 +51608,8 @@ and;
 
 * Initial release.
 
+
+
 ---
 
 # 파일 출처: .\node_modules\postcss-selector-parser\README.md
@@ -51079,6 +51665,8 @@ Please see [API.md](API.md).
 ## License
 
 MIT
+
+
 
 ---
 
@@ -51348,7 +51936,9 @@ Walks each node inside `parsed.nodes`. See the documentation for `valueParser.wa
 
 # License
 
-MIT 짤 [Bogdan Chadkin](mailto:trysound@yandex.ru)
+MIT © [Bogdan Chadkin](mailto:trysound@yandex.ru)
+
+
 
 ---
 
@@ -51415,7 +52005,7 @@ You can think of `queueMicrotask` as a standardized version of `process.nextTick
 
 ## Why not use `setTimeout(fn, 0)`?
 
-This approach is the most compatible, but it has problems. Modern browsers throttle timers severely, so `setTimeout(?? 0)` usually takes at least 4ms to run. Furthermore, the throttling gets even worse if the page is backgrounded. If you have many `setTimeout` calls, then this can severely limit the performance of your program.
+This approach is the most compatible, but it has problems. Modern browsers throttle timers severely, so `setTimeout(…, 0)` usually takes at least 4ms to run. Furthermore, the throttling gets even worse if the page is backgrounded. If you have many `setTimeout` calls, then this can severely limit the performance of your program.
 
 ## Why not use a microtask library like [`immediate`](https://www.npmjs.com/package/immediate) or [`asap`](https://www.npmjs.com/package/asap)?
 
@@ -51429,11 +52019,11 @@ Since the `queueMicrotask` API is supported in Node.js, Chrome, Firefox, Safari,
 
 ## What is a shim?
 
-> In computer programming, a shim is a library that transparently intercepts API calls and changes the arguments passed, handles the operation itself or redirects the operation elsewhere. ??[Wikipedia](https://en.wikipedia.org/wiki/Shim_(computing))
+> In computer programming, a shim is a library that transparently intercepts API calls and changes the arguments passed, handles the operation itself or redirects the operation elsewhere. – [Wikipedia](https://en.wikipedia.org/wiki/Shim_(computing))
 
 This package could also be described as a "ponyfill".
 
-> A ponyfill is almost the same as a polyfill, but not quite. Instead of patching functionality for older browsers, a ponyfill provides that functionality as a standalone module you can use. ??[PonyFoo](https://ponyfoo.com/articles/polyfills-or-ponyfills)
+> A ponyfill is almost the same as a polyfill, but not quite. Instead of patching functionality for older browsers, a ponyfill provides that functionality as a standalone module you can use. – [PonyFoo](https://ponyfoo.com/articles/polyfills-or-ponyfills)
 
 ## API
 
@@ -51446,6 +52036,8 @@ The `fn` argument is a function to be executed after all pending tasks have comp
 ## license
 
 MIT. Copyright (c) [Feross Aboukhadijeh](https://feross.org).
+
+
 
 ---
 
@@ -51490,6 +52082,8 @@ See https://reactjs.org/
 ## API
 
 See https://reactjs.org/docs/react-api.html
+
+
 
 ---
 
@@ -51558,6 +52152,8 @@ See https://reactjs.org/docs/react-dom-client.html
 
 See https://reactjs.org/docs/react-dom-server.html
 
+
+
 ---
 
 # 파일 출처: .\node_modules\react-refresh\README.md
@@ -51568,7 +52164,9 @@ See https://reactjs.org/docs/react-dom-server.html
 
 This package implements the wiring necessary to integrate Fast Refresh into bundlers. Fast Refresh is a feature that lets you edit React components in a running application without losing their state. It is similar to an old feature known as "hot reloading", but Fast Refresh is more reliable and officially supported by React.
 
-This package is primarily aimed at developers of bundler plugins. If you?셱e working on one, here is a [rough guide](https://github.com/facebook/react/issues/16604#issuecomment-528663101) for Fast Refresh integration using this package.
+This package is primarily aimed at developers of bundler plugins. If you’re working on one, here is a [rough guide](https://github.com/facebook/react/issues/16604#issuecomment-528663101) for Fast Refresh integration using this package.
+
+
 
 ---
 
@@ -51621,7 +52219,9 @@ Clears the contents of the cache.
 
 ## License
 
-MIT 짤 [Bogdan Chadkin](mailto:trysound@yandex.ru)
+MIT © [Bogdan Chadkin](mailto:trysound@yandex.ru)
+
+
 
 ---
 
@@ -51678,21 +52278,21 @@ For more examples, check out `examples` directory.
 
 ## API
 
-`const stream = readdirp(root[, options])` ??**Stream API**
+`const stream = readdirp(root[, options])` — **Stream API**
 
 - Reads given root recursively and returns a `stream` of [entry infos](#entryinfo)
 - Optionally can be used like `for await (const entry of stream)` with node.js 10+ (`asyncIterator`).
 - `on('data', (entry) => {})` [entry info](#entryinfo) for every file / dir.
 - `on('warn', (error) => {})` non-fatal `Error` that prevents a file / dir from being processed. Example: inaccessible to the user.
 - `on('error', (error) => {})` fatal `Error` which also ends the stream. Example: illegal options where passed.
-- `on('end')` ??we are done. Called when all entries were found and no more will be emitted.
-- `on('close')` ??stream is destroyed via `stream.destroy()`.
+- `on('end')` — we are done. Called when all entries were found and no more will be emitted.
+- `on('close')` — stream is destroyed via `stream.destroy()`.
   Could be useful if you want to manually abort even on a non fatal error.
   At that point the stream is no longer `readable` and no more entries, warning or errors are emitted
 - To learn more about streams, consult the very detailed [nodejs streams documentation](https://nodejs.org/api/stream.html)
   or the [stream-handbook](https://github.com/substack/stream-handbook)
 
-`const entries = await readdirp.promise(root[, options])` ??**Promise API**. Returns a list of [entry infos](#entryinfo).
+`const entries = await readdirp.promise(root[, options])` — **Promise API**. Returns a list of [entry infos](#entryinfo).
 
 First argument is awalys `root`, path in which to start reading and recursing into subdirectories.
 
@@ -51752,6 +52352,8 @@ Copyright (c) 2012-2019 Thorsten Lorenz, Paul Miller (<https://paulmillr.com>)
 
 MIT License, see [LICENSE](LICENSE) file.
 
+
+
 ---
 
 # 파일 출처: .\node_modules\resolve\.claude\notes.md
@@ -51785,6 +52387,8 @@ MIT License, see [LICENSE](LICENSE) file.
 - `exportsCategory` option or `engines: true` to auto-detect from consumer's engines.node
 - Self-reference resolution respects node_modules boundaries
 
+
+
 ---
 
 # 파일 출처: .\node_modules\resolve\.github\INCIDENT_RESPONSE_PROCESS.md
@@ -51795,7 +52399,7 @@ MIT License, see [LICENSE](LICENSE) file.
 
 ## Reporting a Vulnerability
 
-We take the security of **resolve** very seriously. If you believe you?셶e found a security vulnerability, please inform us responsibly through coordinated disclosure.
+We take the security of **resolve** very seriously. If you believe you’ve found a security vulnerability, please inform us responsibly through coordinated disclosure.
 
 ### How to Report
 
@@ -51833,7 +52437,7 @@ Instead, please use one of these secure channels:
 - **Status updates**: Every 7 days until resolved
 - **Resolution target**: 90 days for most issues
 
-**What We?셪l Do:**
+**What We’ll Do:**
 1. Acknowledge your report and assign a tracking ID
 2. Assess the vulnerability and determine severity
 3. Develop and test a fix
@@ -51843,7 +52447,7 @@ Instead, please use one of these secure channels:
 
 ## Disclosure Policy
 
-- **Coordinated disclosure**: We?셪l work with you on timing
+- **Coordinated disclosure**: We’ll work with you on timing
 - **Typical timeline**: 90 days from report to public disclosure
 - **Early disclosure**: If actively exploited
 - **Delayed disclosure**: For complex issues
@@ -51901,7 +52505,7 @@ Instead, please use one of these secure channels:
 - Enable GitHub Security Advisory notifications
 
 **Update Process:**
-- Patch releases (e.g., 1.22.10 ??1.22.11)
+- Patch releases (e.g., 1.22.10 → 1.22.11)
 - Out-of-band releases for critical issues
 - Advisories via GitHub Security Advisories
 
@@ -51909,6 +52513,8 @@ Instead, please use one of these secure channels:
 
 - **Security reports**: Security tab of [browserify/resolve](https://github.com/browserify/resolve/security)
 - **General inquiries**: GitHub Discussions or Issues
+
+
 
 
 ---
@@ -51932,9 +52538,10 @@ This threat model focuses on the core path resolution algorithm, including files
 ### 3. Conceptual System Diagram
 
 ```
-Caller Application ??resolve(id, options) ??Resolution Algorithm ??File System
-                           ??                           ?붴넂 Options Handling
-                           ?붴넂 Cache System
+Caller Application → resolve(id, options) → Resolution Algorithm → File System
+                           │
+                           └→ Options Handling
+                           └→ Cache System
 ```
 
 **Trust Boundaries:**
@@ -51955,10 +52562,10 @@ Caller Application ??resolve(id, options) ??Resolution Algorithm ??File System
 
 | Component / API / Interaction                       | S  | T  | R  | I  | D  | E  |
 |-----------------------------------------------------|----|----|----|----|----|----|
-| Public API Call (`resolve/async`, `resolve/sync`)   | ?? | ?? | ?? | ?? | ?? | ?? |
-| Filesystem Access                                   | ?? | ?? | ?? | ?? | ?? | ?? |
-| Options Handling                                    | ?? | ?? | ?? | ?? | ?? | ?? |
-| Cache System                                        | ?? | ?? | ?? | ?? | ?? | ?? |
+| Public API Call (`resolve/async`, `resolve/sync`)   | ✓  | ✓  | –  | ✓  | –  | –  |
+| Filesystem Access                                   | –  | ✓  | –  | ✓  | ✓  | –  |
+| Options Handling                                    | ✓  | ✓  | –  | ✓  | –  | –  |
+| Cache System                                        | –  | ✓  | –  | ✓  | –  | –  |
 
 **Key Threats:**
 - **Spoofing:** Malicious module IDs mimicking legitimate packages, or spoofing configuration options[1].
@@ -51991,6 +52598,8 @@ Caller Application ??resolve(id, options) ??Resolution Algorithm ??File System
 5. **Keep documentation and threat model up to date.**
 6. **Monitor for new threats as the ecosystem and library evolve[1][3].**
 
+
+
 ---
 
 # 파일 출처: .\node_modules\resolve\SECURITY.md
@@ -52010,6 +52619,8 @@ See our [Incident Response Process](.github/INCIDENT_RESPONSE_PROCESS.md).
 ## Threat Model
 
 See [THREAT_MODEL.md](./THREAT_MODEL.md).
+
+
 
 ---
 
@@ -52157,6 +52768,8 @@ MIT
 [npm-badge]: https://badge.fury.io/js/reusify.svg
 [npm-url]: https://badge.fury.io/js/reusify
 
+
+
 ---
 
 # 파일 출처: .\node_modules\reusify\SECURITY.md
@@ -52178,6 +52791,8 @@ currently being supported with security updates.
 ## Reporting a Vulnerability
 
 Please report all vulnerabilities at [https://github.com/mcollina/fastq/security](https://github.com/mcollina/fastq/security).
+
+
 
 ---
 
@@ -52356,7 +52971,7 @@ Repository: git+https://github.com/paulmillr/chokidar.git
 > Copyright (c) 2012-2019 Paul Miller (https://paulmillr.com), Elan Shanker
 > 
 > Permission is hereby granted, free of charge, to any person obtaining a copy
-> of this software and associated documentation files (the ?쏶oftware??, to deal
+> of this software and associated documentation files (the “Software”), to deal
 > in the Software without restriction, including without limitation the rights
 > to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 > copies of the Software, and to permit persons to whom the Software is
@@ -52365,7 +52980,7 @@ Repository: git+https://github.com/paulmillr/chokidar.git
 > The above copyright notice and this permission notice shall be included in
 > all copies or substantial portions of the Software.
 > 
-> THE SOFTWARE IS PROVIDED ?쏛S IS?? WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+> THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 > IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 > FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 > AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
@@ -52394,7 +53009,7 @@ Repository: sindresorhus/date-time
 
 ## fill-range
 License: MIT
-By: Jon Schlinkert, Edo Rivai, Paul Miller, Rouven We횩ling
+By: Jon Schlinkert, Edo Rivai, Paul Miller, Rouven Weßling
 Repository: jonschlinkert/fill-range
 
 > The MIT License (MIT)
@@ -52538,7 +53153,7 @@ Repository: micromatch/is-glob
 
 ## is-number
 License: MIT
-By: Jon Schlinkert, Olsten Larck, Rouven We횩ling
+By: Jon Schlinkert, Olsten Larck, Rouven Weßling
 Repository: jonschlinkert/is-number
 
 > The MIT License (MIT)
@@ -52798,7 +53413,7 @@ Repository: sindresorhus/time-zone
 
 ## to-regex-range
 License: MIT
-By: Jon Schlinkert, Rouven We횩ling
+By: Jon Schlinkert, Rouven Weßling
 Repository: micromatch/to-regex-range
 
 > The MIT License (MIT)
@@ -52864,6 +53479,8 @@ Repository: https://github.com/yargs/yargs-parser.git
 > OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS,
 > WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION,
 > ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
+
 
 ---
 
@@ -52986,7 +53603,7 @@ This project exists thanks to all the people who contribute. [[Contribute](CONTR
 
 ## Backers
 
-Thank you to all our backers! ?솋 [[Become a backer](https://opencollective.com/rollup#backer)]
+Thank you to all our backers! 🙏 [[Become a backer](https://opencollective.com/rollup#backer)]
 
 <a href="https://opencollective.com/rollup#backers" target="_blank"><img src="https://opencollective.com/rollup/backers.svg?width=890"></a>
 
@@ -53005,6 +53622,8 @@ TNG has been supporting the work of [Lukas Taegert-Atkinson](https://github.com/
 ## License
 
 [MIT](https://github.com/rollup/rollup/blob/master/LICENSE.md)
+
+
 
 ---
 
@@ -53098,6 +53717,8 @@ Works great in the browser with [browserify](http://browserify.org/)!
 
 MIT. Copyright (c) [Feross Aboukhadijeh](http://feross.org).
 
+
+
 ---
 
 # 파일 출처: .\node_modules\scheduler\README.md
@@ -53113,6 +53734,8 @@ The public API for this package is not yet finalized.
 ### Thanks
 
 The React team thanks [Anton Podviaznikov](https://podviaznikov.com/) for donating the `scheduler` package name.
+
+
 
 ---
 
@@ -53564,6 +54187,8 @@ ex.
 * `s.clean('      2.1.5   ')`: `'2.1.5'`
 * `s.clean('~1.0.0')`: `null`
 
+
+
 ---
 
 # 파일 출처: .\node_modules\source-map-js\README.md
@@ -53584,9 +54209,9 @@ It's still a major block for many libraries like PostCSS or Sass for example bec
 
 ![Downloads count](media/downloads.png)
 
-More important that WASM version has some optimizations in JS code too. This is why [community asked to create branch for 0.6 version](https://github.com/mozilla/source-map/issues/324) and port these optimizations but, sadly, the answer was 짬no쨩. A bit later I discovered [the issue](https://github.com/mozilla/source-map/issues/370) created by [Ben Rothman (@benthemonkey)](https://github.com/benthemonkey) with no response at all.
+More important that WASM version has some optimizations in JS code too. This is why [community asked to create branch for 0.6 version](https://github.com/mozilla/source-map/issues/324) and port these optimizations but, sadly, the answer was «no». A bit later I discovered [the issue](https://github.com/mozilla/source-map/issues/370) created by [Ben Rothman (@benthemonkey)](https://github.com/benthemonkey) with no response at all.
 
-[Roman Dvornov (@lahmatiy)](https://github.com/lahmatiy) wrote a [serveral posts](https://t.me/gorshochekvarit/76) (russian, only, sorry) about source-map library in his own Telegram channel. He mentioned the article [짬Maybe you don't need Rust and WASM to speed up your JS쨩](https://mrale.ph/blog/2018/02/03/maybe-you-dont-need-rust-to-speed-up-your-js.html) written by [Vyacheslav Egorov (@mraleph)](https://github.com/mraleph). This article contains optimizations and hacks that lead to almost the same performance compare to WASM implementation.
+[Roman Dvornov (@lahmatiy)](https://github.com/lahmatiy) wrote a [serveral posts](https://t.me/gorshochekvarit/76) (russian, only, sorry) about source-map library in his own Telegram channel. He mentioned the article [«Maybe you don't need Rust and WASM to speed up your JS»](https://mrale.ph/blog/2018/02/03/maybe-you-dont-need-rust-to-speed-up-your-js.html) written by [Vyacheslav Egorov (@mraleph)](https://github.com/mraleph). This article contains optimizations and hacks that lead to almost the same performance compare to WASM implementation.
 
 I decided to fork the original source-map and port these optimizations from the article and several others PR from the original source-map.
 
@@ -54336,6 +54961,8 @@ node.toStringWithSourceMap({ file: "my-output-file.js" })
 //   map: [object SourceMapGenerator] }
 ```
 
+
+
 ---
 
 # 파일 출처: .\node_modules\sucrase\README.md
@@ -54638,6 +55265,8 @@ which is also MIT-licensed.
 
 Sucrase is an enzyme that processes sugar. Get it?
 
+
+
 ---
 
 # 파일 출처: .\node_modules\supports-preserve-symlinks-flag\CHANGELOG.md
@@ -54666,6 +55295,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Only apps should have lockfiles [`ab318ed`](https://github.com/inspect-js/node-supports-preserve-symlinks-flag/commit/ab318ed7ae62f6c2c0e80a50398d40912afd8f69)
 - [meta] add `safe-publish-latest` [`2bb23b3`](https://github.com/inspect-js/node-supports-preserve-symlinks-flag/commit/2bb23b3ebab02dc4135c4cdf0217db82835b9fca)
 - [meta] add `sideEffects` flag [`600223b`](https://github.com/inspect-js/node-supports-preserve-symlinks-flag/commit/600223ba24f30779f209d9097721eff35ed62741)
+
+
 
 ---
 
@@ -54716,6 +55347,8 @@ Simply clone the repo, `npm install`, and run `npm test`
 [actions-image]: https://img.shields.io/endpoint?url=https://github-actions-badge-u3jn4tfpocch.runkit.sh/inspect-js/node-supports-preserve-symlinks-flag
 [actions-url]: https://github.com/inspect-js/node-supports-preserve-symlinks-flag/actions
 
+
+
 ---
 
 # 파일 출처: .\node_modules\tailwindcss\lib\postcss-plugins\nesting\README.md
@@ -54765,6 +55398,8 @@ module.exports = {
 This can also be helpful if for whatever reason you need to use a very specific version of `postcss-nested` and want to override the version we bundle with `tailwindcss/nesting` itself.
 
 
+
+
 ---
 
 # 파일 출처: .\node_modules\tailwindcss\lib\value-parser\README.md
@@ -54774,6 +55409,8 @@ This can also be helpful if for whatever reason you need to use a very specific 
 # postcss-value-parser (forked + inlined)
 
 This is a customized version of of [PostCSS Value Parser](https://github.com/TrySound/postcss-value-parser) to fix some bugs around parsing CSS functions.
+
+
 
 ---
 
@@ -54824,6 +55461,8 @@ module.exports = {
 This can also be helpful if for whatever reason you need to use a very specific version of `postcss-nested` and want to override the version we bundle with `tailwindcss/nesting` itself.
 
 
+
+
 ---
 
 # 파일 출처: .\node_modules\tailwindcss\src\value-parser\README.md
@@ -54833,6 +55472,8 @@ This can also be helpful if for whatever reason you need to use a very specific 
 # postcss-value-parser (forked + inlined)
 
 This is a customized version of of [PostCSS Value Parser](https://github.com/TrySound/postcss-value-parser) to fix some bugs around parsing CSS functions.
+
+
 
 ---
 
@@ -54881,6 +55522,8 @@ For casual chit-chat with others using the framework:
 
 If you're interested in contributing to Tailwind CSS, please read our [contributing docs](https://github.com/tailwindcss/tailwindcss/blob/main/.github/CONTRIBUTING.md) **before submitting a pull request**.
 
+
+
 ---
 
 # 파일 출처: .\node_modules\thenify\History.md
@@ -54898,6 +55541,8 @@ If you're interested in contributing to Tailwind CSS, please read our [contribut
 ==================
 
   * feat: support options.multiArgs and options.withCallback (#27)
+
+
 
 ---
 
@@ -55026,6 +55671,8 @@ var promise = thenify(function (callback) {
 [downloads-image]: http://img.shields.io/npm/dm/thenify.svg?style=flat-square
 [downloads-url]: https://npmjs.org/package/thenify
 
+
+
 ---
 
 # 파일 출처: .\node_modules\thenify-all\History.md
@@ -55043,6 +55690,8 @@ var promise = thenify(function (callback) {
 ==================
 
   * feat: support backward compatible with callback
+
+
 
 ---
 
@@ -55117,6 +55766,8 @@ Exports [thenify](https://github.com/thenables/thenify) this package uses.
 [gittip-image]: https://img.shields.io/gratipay/jonathanong.svg?style=flat-square
 [gittip-url]: https://gratipay.com/jonathanong/
 
+
+
 ---
 
 # 파일 출처: .\node_modules\tinyglobby\node_modules\fdir\README.md
@@ -55139,19 +55790,19 @@ Exports [thenify](https://github.com/thenables/thenify) this package uses.
 </p>
 </p>
 
-??**The Fastest:** Nothing similar (in the NodeJS world) beats `fdir` in speed. It can easily crawl a directory containing **1 million files in < 1 second.**
+⚡ **The Fastest:** Nothing similar (in the NodeJS world) beats `fdir` in speed. It can easily crawl a directory containing **1 million files in < 1 second.**
 
-?뮕 **Stupidly Easy:** `fdir` uses expressive Builder pattern to build the crawler increasing code readability.
+💡 **Stupidly Easy:** `fdir` uses expressive Builder pattern to build the crawler increasing code readability.
 
-?쨼 **Zero Dependencies\*:** `fdir` only uses NodeJS `fs` & `path` modules.
+🤖 **Zero Dependencies\*:** `fdir` only uses NodeJS `fs` & `path` modules.
 
-?빜 **Astonishingly Small:** < 2KB in size gzipped & minified.
+🕺 **Astonishingly Small:** < 2KB in size gzipped & minified.
 
-?뼫 **Hackable:** Extending `fdir` is extremely simple now that the new Builder API is here. Feel free to experiment around.
+🖮 **Hackable:** Extending `fdir` is extremely simple now that the new Builder API is here. Feel free to experiment around.
 
 _\* `picomatch` must be installed manually by the user to support globbing._
 
-## ?쉪 Quickstart
+## 🚄 Quickstart
 
 ### Installation
 
@@ -55188,11 +55839,11 @@ api.withPromise().then((files) => {
 
 Documentation for all methods is available [here](/documentation.md).
 
-## ?뱤 Benchmarks:
+## 📊 Benchmarks:
 
 Please check the benchmark against the latest version [here](/BENCHMARKS.md).
 
-## ?솋Used by:
+## 🙏Used by:
 
 `fdir` is downloaded over 200k+ times a week by projects around the world. Here's a list of some notable projects using `fdir` in production:
 
@@ -55211,9 +55862,11 @@ Please check the benchmark against the latest version [here](/BENCHMARKS.md).
 11. [selfrefactor/rambda](https://github.com/selfrefactor/rambda)
 12. [whyboris/Video-Hub-App](https://github.com/whyboris/Video-Hub-App)
 
-## ?┏ LICENSE
+## 🦮 LICENSE
 
 Copyright &copy; 2024 Abdullah Atta under MIT. [Read full text here.](https://github.com/thecodrr/fdir/raw/master/LICENSE)
+
+
 
 ---
 
@@ -55849,13 +56502,13 @@ The following table shows which features are supported by [minimatch](https://gi
 
 | **Feature** | `minimatch` | `micromatch` | `picomatch` | `nanomatch` | `extglob` | `braces` | `expand-brackets` |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Wildcard matching (`*?+`) | ??| ??| ??| ??| - | - | - |
-| Advancing globbing        | ??| ??| ??| - | - | - | - |
-| Brace _matching_          | ??| ??| ??| - | - | ??| - |
-| Brace _expansion_         | ??| ??| - | - | - | ??| - |
-| Extglobs                  | partial | ??| ??| - | ??| - | - |
-| Posix brackets            | - | ??| ??| - | - | - | ??|
-| Regular expression syntax | - | ??| ??| ??| ??| - | ??|
+| Wildcard matching (`*?+`) | ✔ | ✔ | ✔ | ✔ | - | - | - |
+| Advancing globbing        | ✔ | ✔ | ✔ | - | - | - | - |
+| Brace _matching_          | ✔ | ✔ | ✔ | - | - | ✔ | - |
+| Brace _expansion_         | ✔ | ✔ | - | - | - | ✔ | - |
+| Extglobs                  | partial | ✔ | ✔ | - | ✔ | - | - |
+| Posix brackets            | - | ✔ | ✔ | - | - | - | ✔ |
+| Regular expression syntax | - | ✔ | ✔ | ✔ | ✔ | - | ✔ |
 | File system operations    | - | - | - | - | - | - | - |
 
 <br>
@@ -55867,40 +56520,40 @@ Performance comparison of picomatch and minimatch.
 
 ```
 # .makeRe star (*)
-  picomatch x 3,251,247 ops/sec 짹0.25% (95 runs sampled)
-  minimatch x 497,224 ops/sec 짹0.11% (100 runs sampled)
+  picomatch x 3,251,247 ops/sec ±0.25% (95 runs sampled)
+  minimatch x 497,224 ops/sec ±0.11% (100 runs sampled)
 
 # .makeRe star; dot=true (*)
-  picomatch x 2,624,035 ops/sec 짹0.16% (98 runs sampled)
-  minimatch x 446,244 ops/sec 짹0.63% (99 runs sampled)
+  picomatch x 2,624,035 ops/sec ±0.16% (98 runs sampled)
+  minimatch x 446,244 ops/sec ±0.63% (99 runs sampled)
 
 # .makeRe globstar (**)
-  picomatch x 2,524,465 ops/sec 짹0.13% (99 runs sampled)
-  minimatch x 1,396,257 ops/sec 짹0.58% (96 runs sampled)
+  picomatch x 2,524,465 ops/sec ±0.13% (99 runs sampled)
+  minimatch x 1,396,257 ops/sec ±0.58% (96 runs sampled)
 
 # .makeRe globstars (**/**/**)
-  picomatch x 2,545,674 ops/sec 짹0.10% (99 runs sampled)
-  minimatch x 1,196,835 ops/sec 짹0.63% (98 runs sampled)
+  picomatch x 2,545,674 ops/sec ±0.10% (99 runs sampled)
+  minimatch x 1,196,835 ops/sec ±0.63% (98 runs sampled)
 
 # .makeRe with leading star (*.txt)
-  picomatch x 2,537,708 ops/sec 짹0.11% (100 runs sampled)
-  minimatch x 345,284 ops/sec 짹0.64% (96 runs sampled)
+  picomatch x 2,537,708 ops/sec ±0.11% (100 runs sampled)
+  minimatch x 345,284 ops/sec ±0.64% (96 runs sampled)
 
 # .makeRe - basic braces ({a,b,c}*.txt)
-  picomatch x 505,430 ops/sec 짹1.04% (94 runs sampled)
-  minimatch x 107,991 ops/sec 짹0.54% (99 runs sampled)
+  picomatch x 505,430 ops/sec ±1.04% (94 runs sampled)
+  minimatch x 107,991 ops/sec ±0.54% (99 runs sampled)
 
 # .makeRe - short ranges ({a..z}*.txt)
-  picomatch x 371,179 ops/sec 짹2.91% (77 runs sampled)
-  minimatch x 14,104 ops/sec 짹0.61% (99 runs sampled)
+  picomatch x 371,179 ops/sec ±2.91% (77 runs sampled)
+  minimatch x 14,104 ops/sec ±0.61% (99 runs sampled)
 
 # .makeRe - medium ranges ({1..100000}*.txt)
-  picomatch x 384,958 ops/sec 짹1.70% (82 runs sampled)
-  minimatch x 2.55 ops/sec 짹3.22% (11 runs sampled)
+  picomatch x 384,958 ops/sec ±1.70% (82 runs sampled)
+  minimatch x 2.55 ops/sec ±3.22% (11 runs sampled)
 
 # .makeRe - long ranges ({1..10000000}*.txt)
-  picomatch x 382,552 ops/sec 짹1.52% (71 runs sampled)
-  minimatch x 0.83 ops/sec 짹5.67% (7 runs sampled))
+  picomatch x 382,552 ops/sec ±1.52% (71 runs sampled)
+  minimatch x 0.83 ops/sec ±5.67% (7 runs sampled))
 ```
 
 <br>
@@ -55968,8 +56621,10 @@ npm install -g verbose/verb#dev verb-generate-readme && verb
 
 ### License
 
-Copyright 짤 2017-present, [Jon Schlinkert](https://github.com/jonschlinkert).
+Copyright © 2017-present, [Jon Schlinkert](https://github.com/jonschlinkert).
 Released under the [MIT License](LICENSE).
+
+
 
 ---
 
@@ -56002,6 +56657,8 @@ globSync('src/**/*.ts', { ignore: '**/*.d.ts' });
 ## Documentation
 
 Visit https://superchupu.dev/tinyglobby to read the full documentation.
+
+
 
 ---
 
@@ -56177,30 +56834,30 @@ console.log(regex.test('0010')); //=> true
 
 | **Range**                   | **Result**                                                                      | **Compile time** |
 | ---                         | ---                                                                             | ---              |
-| `toRegexRange(-10, 10)`     | `-[1-9]\|-?10\|[0-9]`                                                           | _132關s_          |
-| `toRegexRange(-100, -10)`   | `-1[0-9]\|-[2-9][0-9]\|-100`                                                    | _50關s_           |
-| `toRegexRange(-100, 100)`   | `-[1-9]\|-?[1-9][0-9]\|-?100\|[0-9]`                                            | _42關s_           |
-| `toRegexRange(001, 100)`    | `0{0,2}[1-9]\|0?[1-9][0-9]\|100`                                                | _109關s_          |
-| `toRegexRange(001, 555)`    | `0{0,2}[1-9]\|0?[1-9][0-9]\|[1-4][0-9]{2}\|5[0-4][0-9]\|55[0-5]`                | _51關s_           |
-| `toRegexRange(0010, 1000)`  | `0{0,2}1[0-9]\|0{0,2}[2-9][0-9]\|0?[1-9][0-9]{2}\|1000`                         | _31關s_           |
-| `toRegexRange(1, 50)`       | `[1-9]\|[1-4][0-9]\|50`                                                         | _24關s_           |
-| `toRegexRange(1, 55)`       | `[1-9]\|[1-4][0-9]\|5[0-5]`                                                     | _23關s_           |
-| `toRegexRange(1, 555)`      | `[1-9]\|[1-9][0-9]\|[1-4][0-9]{2}\|5[0-4][0-9]\|55[0-5]`                        | _30關s_           |
-| `toRegexRange(1, 5555)`     | `[1-9]\|[1-9][0-9]{1,2}\|[1-4][0-9]{3}\|5[0-4][0-9]{2}\|55[0-4][0-9]\|555[0-5]` | _43關s_           |
-| `toRegexRange(111, 555)`    | `11[1-9]\|1[2-9][0-9]\|[2-4][0-9]{2}\|5[0-4][0-9]\|55[0-5]`                     | _38關s_           |
-| `toRegexRange(29, 51)`      | `29\|[34][0-9]\|5[01]`                                                          | _24關s_           |
-| `toRegexRange(31, 877)`     | `3[1-9]\|[4-9][0-9]\|[1-7][0-9]{2}\|8[0-6][0-9]\|87[0-7]`                       | _32關s_           |
-| `toRegexRange(5, 5)`        | `5`                                                                             | _8關s_            |
-| `toRegexRange(5, 6)`        | `5\|6`                                                                          | _11關s_           |
-| `toRegexRange(1, 2)`        | `1\|2`                                                                          | _6關s_            |
-| `toRegexRange(1, 5)`        | `[1-5]`                                                                         | _15關s_           |
-| `toRegexRange(1, 10)`       | `[1-9]\|10`                                                                     | _22關s_           |
-| `toRegexRange(1, 100)`      | `[1-9]\|[1-9][0-9]\|100`                                                        | _25關s_           |
-| `toRegexRange(1, 1000)`     | `[1-9]\|[1-9][0-9]{1,2}\|1000`                                                  | _31關s_           |
-| `toRegexRange(1, 10000)`    | `[1-9]\|[1-9][0-9]{1,3}\|10000`                                                 | _34關s_           |
-| `toRegexRange(1, 100000)`   | `[1-9]\|[1-9][0-9]{1,4}\|100000`                                                | _36關s_           |
-| `toRegexRange(1, 1000000)`  | `[1-9]\|[1-9][0-9]{1,5}\|1000000`                                               | _42關s_           |
-| `toRegexRange(1, 10000000)` | `[1-9]\|[1-9][0-9]{1,6}\|10000000`                                              | _42關s_           |
+| `toRegexRange(-10, 10)`     | `-[1-9]\|-?10\|[0-9]`                                                           | _132μs_          |
+| `toRegexRange(-100, -10)`   | `-1[0-9]\|-[2-9][0-9]\|-100`                                                    | _50μs_           |
+| `toRegexRange(-100, 100)`   | `-[1-9]\|-?[1-9][0-9]\|-?100\|[0-9]`                                            | _42μs_           |
+| `toRegexRange(001, 100)`    | `0{0,2}[1-9]\|0?[1-9][0-9]\|100`                                                | _109μs_          |
+| `toRegexRange(001, 555)`    | `0{0,2}[1-9]\|0?[1-9][0-9]\|[1-4][0-9]{2}\|5[0-4][0-9]\|55[0-5]`                | _51μs_           |
+| `toRegexRange(0010, 1000)`  | `0{0,2}1[0-9]\|0{0,2}[2-9][0-9]\|0?[1-9][0-9]{2}\|1000`                         | _31μs_           |
+| `toRegexRange(1, 50)`       | `[1-9]\|[1-4][0-9]\|50`                                                         | _24μs_           |
+| `toRegexRange(1, 55)`       | `[1-9]\|[1-4][0-9]\|5[0-5]`                                                     | _23μs_           |
+| `toRegexRange(1, 555)`      | `[1-9]\|[1-9][0-9]\|[1-4][0-9]{2}\|5[0-4][0-9]\|55[0-5]`                        | _30μs_           |
+| `toRegexRange(1, 5555)`     | `[1-9]\|[1-9][0-9]{1,2}\|[1-4][0-9]{3}\|5[0-4][0-9]{2}\|55[0-4][0-9]\|555[0-5]` | _43μs_           |
+| `toRegexRange(111, 555)`    | `11[1-9]\|1[2-9][0-9]\|[2-4][0-9]{2}\|5[0-4][0-9]\|55[0-5]`                     | _38μs_           |
+| `toRegexRange(29, 51)`      | `29\|[34][0-9]\|5[01]`                                                          | _24μs_           |
+| `toRegexRange(31, 877)`     | `3[1-9]\|[4-9][0-9]\|[1-7][0-9]{2}\|8[0-6][0-9]\|87[0-7]`                       | _32μs_           |
+| `toRegexRange(5, 5)`        | `5`                                                                             | _8μs_            |
+| `toRegexRange(5, 6)`        | `5\|6`                                                                          | _11μs_           |
+| `toRegexRange(1, 2)`        | `1\|2`                                                                          | _6μs_            |
+| `toRegexRange(1, 5)`        | `[1-5]`                                                                         | _15μs_           |
+| `toRegexRange(1, 10)`       | `[1-9]\|10`                                                                     | _22μs_           |
+| `toRegexRange(1, 100)`      | `[1-9]\|[1-9][0-9]\|100`                                                        | _25μs_           |
+| `toRegexRange(1, 1000)`     | `[1-9]\|[1-9][0-9]{1,2}\|1000`                                                  | _31μs_           |
+| `toRegexRange(1, 10000)`    | `[1-9]\|[1-9][0-9]{1,3}\|10000`                                                 | _34μs_           |
+| `toRegexRange(1, 100000)`   | `[1-9]\|[1-9][0-9]{1,4}\|100000`                                                | _36μs_           |
+| `toRegexRange(1, 1000000)`  | `[1-9]\|[1-9][0-9]{1,5}\|1000000`                                               | _42μs_           |
+| `toRegexRange(1, 10000000)` | `[1-9]\|[1-9][0-9]{1,6}\|10000000`                                              | _42μs_           |
 
 ## Heads up!
 
@@ -56278,8 +56935,8 @@ $ npm install -g verbose/verb#dev verb-generate-readme && verb
 
 You might also be interested in these projects:
 
-* [expand-range](https://www.npmjs.com/package/expand-range): Fast, bash-like range expansion. Expand a range of numbers or letters, uppercase or lowercase. Used??[more](https://github.com/jonschlinkert/expand-range) | [homepage](https://github.com/jonschlinkert/expand-range "Fast, bash-like range expansion. Expand a range of numbers or letters, uppercase or lowercase. Used by micromatch.")
-* [fill-range](https://www.npmjs.com/package/fill-range): Fill in a range of numbers or letters, optionally passing an increment or `step` to??[more](https://github.com/jonschlinkert/fill-range) | [homepage](https://github.com/jonschlinkert/fill-range "Fill in a range of numbers or letters, optionally passing an increment or `step` to use, or create a regex-compatible range with `options.toRegex`")
+* [expand-range](https://www.npmjs.com/package/expand-range): Fast, bash-like range expansion. Expand a range of numbers or letters, uppercase or lowercase. Used… [more](https://github.com/jonschlinkert/expand-range) | [homepage](https://github.com/jonschlinkert/expand-range "Fast, bash-like range expansion. Expand a range of numbers or letters, uppercase or lowercase. Used by micromatch.")
+* [fill-range](https://www.npmjs.com/package/fill-range): Fill in a range of numbers or letters, optionally passing an increment or `step` to… [more](https://github.com/jonschlinkert/fill-range) | [homepage](https://github.com/jonschlinkert/fill-range "Fill in a range of numbers or letters, optionally passing an increment or `step` to use, or create a regex-compatible range with `options.toRegex`")
 * [micromatch](https://www.npmjs.com/package/micromatch): Glob matching for javascript/node.js. A drop-in replacement and faster alternative to minimatch and multimatch. | [homepage](https://github.com/micromatch/micromatch "Glob matching for javascript/node.js. A drop-in replacement and faster alternative to minimatch and multimatch.")
 * [repeat-element](https://www.npmjs.com/package/repeat-element): Create an array by repeating the given value n times. | [homepage](https://github.com/jonschlinkert/repeat-element "Create an array by repeating the given value n times.")
 * [repeat-string](https://www.npmjs.com/package/repeat-string): Repeat the given string n times. Fastest implementation for repeating a string. | [homepage](https://github.com/jonschlinkert/repeat-string "Repeat the given string n times. Fastest implementation for repeating a string.")
@@ -56308,12 +56965,14 @@ Please consider supporting me on Patreon, or [start your own Patreon page](https
 
 ### License
 
-Copyright 짤 2019, [Jon Schlinkert](https://github.com/jonschlinkert).
+Copyright © 2019, [Jon Schlinkert](https://github.com/jonschlinkert).
 Released under the [MIT License](LICENSE).
 
 ***
 
 _This file was generated by [verb-generate-readme](https://github.com/verbose/verb-generate-readme), v0.8.0, on April 07, 2019._
+
+
 ---
 
 # 파일 출처: .\node_modules\ts-interface-checker\README.md
@@ -56506,6 +57165,8 @@ if (Square.test(unk)) {
 `CheckerT<>` will eventually support type assertions using the `check` and `strictCheck` functions,
 however, this feature is not yet fully working in TypeScript.
 
+
+
 ---
 
 # 파일 출처: .\node_modules\update-browserslist-db\README.md
@@ -56543,6 +57204,8 @@ yarn dlx update-browserslist-db@latest
 ## Docs
 Read full docs **[here](https://github.com/browserslist/update-db#readme)**.
 
+
+
 ---
 
 # 파일 출처: .\node_modules\util-deprecate\History.md
@@ -56565,6 +57228,8 @@ Read full docs **[here](https://github.com/browserslist/update-db#readme)**.
 ==================
 
   * initial commit
+
+
 
 ---
 
@@ -56625,6 +57290,8 @@ HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
 WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
+
+
 
 ---
 
@@ -57461,7 +58128,7 @@ Repository: git+https://github.com/paulmillr/chokidar.git
 > Copyright (c) 2012-2019 Paul Miller (https://paulmillr.com), Elan Shanker
 > 
 > Permission is hereby granted, free of charge, to any person obtaining a copy
-> of this software and associated documentation files (the ?쏶oftware??, to deal
+> of this software and associated documentation files (the “Software”), to deal
 > in the Software without restriction, including without limitation the rights
 > to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 > copies of the Software, and to permit persons to whom the Software is
@@ -57470,7 +58137,7 @@ Repository: git+https://github.com/paulmillr/chokidar.git
 > The above copyright notice and this permission notice shall be included in
 > all copies or substantial portions of the Software.
 > 
-> THE SOFTWARE IS PROVIDED ?쏛S IS?? WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+> THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 > IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 > FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 > AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
@@ -57608,7 +58275,7 @@ Repository: expressjs/cors
 
 ## cross-spawn
 License: MIT
-By: Andr챕 Cruz
+By: André Cruz
 Repository: git@github.com:moxystudio/node-cross-spawn.git
 
 > The MIT License (MIT)
@@ -57832,7 +58499,7 @@ License: BSD-2-Clause
 By: Felix Boehm
 Repository: git://github.com/fb55/entities.git
 
-> Copyright (c) Felix B철hm
+> Copyright (c) Felix Böhm
 > All rights reserved.
 > 
 > Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
@@ -57912,7 +58579,7 @@ Repository: https://github.com/Rich-Harris/estree-walker
 
 ## etag
 License: MIT
-By: Douglas Christopher Wilson, David Bj철rklund
+By: Douglas Christopher Wilson, David Björklund
 Repository: jshttp/etag
 
 > (The MIT License)
@@ -58021,7 +58688,7 @@ Repository: git+https://github.com/mcollina/fastq.git
 
 ## fill-range
 License: MIT
-By: Jon Schlinkert, Edo Rivai, Paul Miller, Rouven We횩ling
+By: Jon Schlinkert, Edo Rivai, Paul Miller, Rouven Weßling
 Repository: jonschlinkert/fill-range
 
 > The MIT License (MIT)
@@ -58083,7 +58750,7 @@ License: MIT
 By: Ruben Verborgh, Olivier Lalonde, James Talmage
 Repository: git@github.com:follow-redirects/follow-redirects.git
 
-> Copyright 2014?뱎resent Olivier Lalonde <olalonde@gmail.com>, James Talmage <james@talmage.io>, Ruben Verborgh
+> Copyright 2014–present Olivier Lalonde <olalonde@gmail.com>, James Talmage <james@talmage.io>, Ruben Verborgh
 > 
 > Permission is hereby granted, free of charge, to any person obtaining a copy of
 > this software and associated documentation files (the "Software"), to deal in
@@ -58317,7 +58984,7 @@ Repository: micromatch/is-glob
 
 ## is-number
 License: MIT
-By: Jon Schlinkert, Olsten Larck, Rouven We횩ling
+By: Jon Schlinkert, Olsten Larck, Rouven Weßling
 Repository: jonschlinkert/is-number
 
 > The MIT License (MIT)
@@ -58658,7 +59325,7 @@ Repository: git@github.com:teambition/merge2.git
 
 ## micromatch
 License: MIT
-By: Jon Schlinkert, Amila Welihinda, Bogdan Chadkin, Brian Woodward, Devon Govett, Elan Shanker, Fabr챠cio Matt챕, Martin Kol찼rik, Olsten Larck, Paul Miller, Tom Byrer, Tyler Akins, Peter Bright, Kuba Juszczyk
+By: Jon Schlinkert, Amila Welihinda, Bogdan Chadkin, Brian Woodward, Devon Govett, Elan Shanker, Fabrício Matté, Martin Kolárik, Olsten Larck, Paul Miller, Tom Byrer, Tyler Akins, Peter Bright, Kuba Juszczyk
 Repository: micromatch/micromatch
 
 > The MIT License (MIT)
@@ -59162,7 +59829,7 @@ Repository: https://github.com/postcss/postcss-import.git
 
 > The MIT License (MIT)
 > 
-> Copyright (c) 2014 Maxime Thirouin, Jason Campbell & Kevin M책rtensson
+> Copyright (c) 2014 Maxime Thirouin, Jason Campbell & Kevin Mårtensson
 > 
 > Permission is hereby granted, free of charge, to any person obtaining a copy of
 > this software and associated documentation files (the "Software"), to deal in
@@ -59185,7 +59852,7 @@ Repository: https://github.com/postcss/postcss-import.git
 
 ## postcss-load-config
 License: MIT
-By: Michael Ciniawky, Ryan Dunckel, Mateusz Derks, Dalton Santos, Patrick Gilday, Fran챌ois Wouts
+By: Michael Ciniawky, Ryan Dunckel, Mateusz Derks, Dalton Santos, Patrick Gilday, François Wouts
 Repository: postcss/postcss-load-config
 
 > The MIT License (MIT)
@@ -59572,12 +60239,12 @@ Repository: git://github.com/feross/run-parallel.git
 
 ## shebang-command
 License: MIT
-By: Kevin M책rtensson
+By: Kevin Mårtensson
 Repository: kevva/shebang-command
 
 > MIT License
 > 
-> Copyright (c) Kevin M책rtensson <kevinmartensson@gmail.com> (github.com/kevva)
+> Copyright (c) Kevin Mårtensson <kevinmartensson@gmail.com> (github.com/kevva)
 > 
 > Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 > 
@@ -59728,7 +60395,7 @@ Repository: git+https://github.com/antfu/strip-literal.git
 
 ## to-regex-range
 License: MIT
-By: Jon Schlinkert, Rouven We횩ling
+By: Jon Schlinkert, Rouven Weßling
 Repository: micromatch/to-regex-range
 
 > The MIT License (MIT)
@@ -60056,21 +60723,24 @@ Repository: github:eemeli/yaml
 > TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF
 > THIS SOFTWARE.
 
+
+
 ---
 
 # 파일 출처: .\node_modules\vite\README.md
 
 ---
 
-# vite ??
+# vite ⚡
+
 > Next Generation Frontend Tooling
 
-- ?뮕 Instant Server Start
-- ?∽툘 Lightning Fast HMR
-- ?썱截?Rich Features
-- ?벀 Optimized Build
-- ?뵫 Universal Plugin Interface
-- ?뵎 Fully Typed APIs
+- 💡 Instant Server Start
+- ⚡️ Lightning Fast HMR
+- 🛠️ Rich Features
+- 📦 Optimized Build
+- 🔩 Universal Plugin Interface
+- 🔑 Fully Typed APIs
 
 Vite (French word for "fast", pronounced `/vit/`) is a new breed of frontend build tool that significantly improves the frontend development experience. It consists of two major parts:
 
@@ -60081,6 +60751,8 @@ Vite (French word for "fast", pronounced `/vit/`) is a new breed of frontend bui
 In addition, Vite is highly extensible via its [Plugin API](https://vite.dev/guide/api-plugin.html) and [JavaScript API](https://vite.dev/guide/api-javascript.html) with full typing support.
 
 [Read the Docs to Learn More](https://vite.dev).
+
+
 
 ---
 
@@ -60293,42 +60965,46 @@ The data the node contains.
 The list to which this node belongs.  (Null if it does not belong to
 any list.)
 
+
+
 ---
 
 # 파일 출처: .\CHANGELOG.md
 
 ---
 
-# ?덈줎湲덉쑖?遺以묎컻 ?덊럹?댁? ?묒뾽 ?대젰
+# 새론금융대부중개 홈페이지 작업 이력
 
 ## 2026-05-17
 
-### 1. 濡쒓퀬 ?대?吏 諛고룷 ?꾨씫 ?섏젙
-- `public/logo.jpg` ?뚯씪??而ㅻ컠?섏? ?딆븘 Vercel??誘몃같???곹깭???
-- `public/logo.jpg` + `src/App.jsx` ?④퍡 而ㅻ컠 ??push ??Vercel ?먮룞 諛고룷 ?꾨즺
-- 而ㅻ컠: `fix: 濡쒓퀬 ?대?吏 諛??ㅻ뜑 ?섏젙 諛섏쁺`
+### 1. 로고 이미지 배포 누락 수정
+- `public/logo.jpg` 파일이 커밋되지 않아 Vercel에 미배포 상태였음
+- `public/logo.jpg` + `src/App.jsx` 함께 커밋 후 push → Vercel 자동 배포 완료
+- 커밋: `fix: 로고 이미지 및 헤더 수정 반영`
 
-### 2. ?ㅻ뜑 濡쒓퀬 ???덉씠釉?蹂寃?
-- 濡쒓퀬 ?대?吏 ?먯껜??"?遺以묎컻?? ?띿뒪?멸? ?ы븿?섏뼱 ?덉뼱 以묐났 臾몄젣 諛쒖깮
-- ?덉씠釉?`?遺以묎컻?? ??`??쒖쟾?? 濡?蹂寃?
-- 而ㅻ컠: `fix: ?ㅻ뜑 濡쒓퀬 ???덉씠釉?'?遺以묎컻?? ??'??쒖쟾?? 蹂寃?
+### 2. 헤더 로고 옆 레이블 변경
+- 로고 이미지 자체에 "대부중개업" 텍스트가 포함되어 있어 중복 문제 발생
+- 레이블 `대부중개업` → `대표전화` 로 변경
+- 커밋: `fix: 헤더 로고 옆 레이블 '대부중개업' → '대표전화' 변경`
 
-### 3. ?ㅻ뜑 ?덉씠釉???젣
-- `??쒖쟾?? ?덉씠釉붾룄 ?놁뿉 ?덈뒗 ??1555-2137 踰꾪듉怨?以묐났?섏뼱 遺덊븘??
-- ?덉씠釉??꾩쟾 ??젣 ??濡쒓퀬 ?대?吏留??⑤룆 ?쒖떆濡??뺣━
-- 而ㅻ컠: `fix: ?ㅻ뜑 濡쒓퀬 ??'??쒖쟾?? ?덉씠釉???젣`
+### 3. 헤더 레이블 삭제
+- `대표전화` 레이블도 옆에 있는 ☎ 1555-2137 버튼과 중복되어 불필요
+- 레이블 완전 삭제 → 로고 이미지만 단독 표시로 정리
+- 커밋: `fix: 헤더 로고 옆 '대표전화' 레이블 삭제`
 
 ---
 
-## ?꾩옱 ?ㅻ뜑 援ъ“
-- ?쇱そ: ?덈줎湲덉쑖?遺以묎컻 濡쒓퀬 ?대?吏 (height: 64px)
-- ?ㅻⅨ履? ??1555-2137 踰꾪듉 (?몃???
+## 현재 헤더 구조
+- 왼쪽: 새론금융대부중개 로고 이미지 (height: 64px)
+- 오른쪽: ☎ 1555-2137 버튼 (노란색)
 
-## GitHub ??μ냼
+## GitHub 저장소
 - https://github.com/HeeJeonLee/saeloan-financial
 
-## ?댁쁺 ?꾨찓??
+## 운영 도메인
 - https://saeloan.co.kr
+
+
 
 ---
 
@@ -60336,607 +61012,609 @@ any list.)
 
 ---
 
-# ?덈줎湲덉쑖?遺以묎컻 - ?꾩쟾 ?먮룞??AI Agent ?쒖뒪??
-## ?꾩쟾 珥덈낫??媛?대뱶 | 鍮꾩슜 0??| 臾댁씤 ?댁쁺
-### GitHub ??μ냼: https://github.com/HeeJeonLee/saeloan-financial
-### ?대뒓 PC?먯꽌????二쇱냼濡??묎렐 媛??
+# 새론금융대부중개 - 완전 자동화 AI Agent 시스템
+## 완전 초보자 가이드 | 비용 0원 | 무인 운영
+### GitHub 저장소: https://github.com/HeeJeonLee/saeloan-financial
+### 어느 PC에서든 위 주소로 접근 가능
 
 ---
 
-> **??臾몄꽌 ?섎굹濡?紐⑤뱺 寃껋씠 ?닿꺼 ?덉뒿?덈떎.**
-> ?명꽣?력텮I ?꾩쟾 珥덈낫?먮룄 ?곕씪?????덈룄濡??묒꽦?덉뒿?덈떎.
-> 紐⑤Ⅴ???⑥뼱媛 ?섏삤硫?愿꾪샇 ???ㅻ챸???쎌쑝?몄슂.
+> **이 문서 하나로 모든 것이 담겨 있습니다.**
+> 인터넷·AI 완전 초보자도 따라할 수 있도록 작성했습니다.
+> 모르는 단어가 나오면 괄호 안 설명을 읽으세요.
 
 ---
 
-# ?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺
-# 1?④퀎: ?꾩껜 洹몃┝ ?댄빐?섍린 (5遺?
-# ?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 1단계: 전체 그림 이해하기 (5분)
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-## 吏湲?留뚮뱾 ?쒖뒪?쒖씠 ?섎뒗 ??
+## 지금 만들 시스템이 하는 일
 
 ```
-?댄씗????λ떂???꾨Т寃껊룄 ???대룄:
+이희전 팀장님이 아무것도 안 해도:
 
-[留ㅼ씪 ?ㅼ쟾 9??
-  AI媛 ?먮룞?쇰줈 ???붾젅洹몃옩 梨꾨꼸???異??뺣낫 寃뚯떆
-                ??寃뚯떆臾??쒗솚 (90?쇱튂 肄섑뀗痢??먮룞 諛섎났)
+[매일 오전 9시]
+  AI가 자동으로 → 텔레그램 채널에 대출 정보 게시
+                → 게시물 순환 (90일치 콘텐츠 자동 반복)
 
-[怨좉컼??愿묎퀬 蹂닿퀬 愿???앷린硫?
-  怨좉컼 ???덊럹?댁?(saeloan.co.kr) ?대┃
-       ???곷떞?좎껌 ???묒꽦
-       ???댄씗???몃뱶?곗뿉 利됱떆 ?뚮┝ 臾몄옄 ?꾩갑
-       ???댄씗???대찓?쇱뿉 怨좉컼 ?뺣낫 利됱떆 ?섏떊
-       ??援ш? ?쒗듃???먮룞 湲곕줉
+[고객이 광고 보고 관심 생기면]
+  고객 → 홈페이지(saeloan.co.kr) 클릭
+       → 상담신청 폼 작성
+       → 이희전 핸드폰에 즉시 알림 문자 도착
+       → 이희전 이메일에 고객 정보 즉시 수신
+       → 구글 시트에 자동 기록
 
-[?댄씗????λ떂??????
-  ???꾪솕 諛쏄린
-  ???대찓???뺤씤 ???꾪솕 ?쒕━湲?
-  ???닿쾬肉먯엯?덈떎.
+[이희전 팀장님이 할 일]
+  → 전화 받기
+  → 이메일 확인 후 전화 드리기
+  → 이것뿐입니다.
 ```
 
 ---
 
-# ?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺
-# 2?④퀎: ?ъ슜??臾대즺 ?꾧뎄 紐⑸줉
-# ?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 2단계: 사용할 무료 도구 목록
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-| ?꾧뎄 ?대쫫 | ?섎뒗 ??| 鍮꾩슜 | ?대졄湲?|
+| 도구 이름 | 하는 일 | 비용 | 어렵기 |
 |---|---|---|---|
-| ?붾젅洹몃옩 | SNS 梨꾨꼸 (?먮룞 湲 ?щ━湲? | 臾대즺 | 狩??ъ? |
-| 援ш? 怨꾩젙 | ?대찓?셋룻뤌쨌?쒗듃 ?듯빀愿由?| 臾대즺 | 狩??ъ? |
-| 援ш? ??| 怨좉컼 ?곷떞?좎껌 諛쏄린 | 臾대즺 | 狩??ъ? |
-| 援ш? ?쒗듃 | 怨좉컼 紐⑸줉 ?먮룞 ?뺣━ | 臾대즺 | 狩??ъ? |
-| 援ш? ?깆뒪?щ┰??| ?먮룞???붿쭊 (蹂듬텤留??섎㈃ ?? | 臾대즺 | 狩먥춴 |
-| ?덊럹?댁? | saeloan.co.kr (?대? ?꾩꽦) | 臾대즺(Vercel) | ???꾨즺 |
-| GitHub | ?묒뾽 ??μ냼 (?대뵒?쒕뱺 ?묎렐) | 臾대즺 | ???꾨즺 |
+| 텔레그램 | SNS 채널 (자동 글 올리기) | 무료 | ⭐ 쉬움 |
+| 구글 계정 | 이메일·폼·시트 통합관리 | 무료 | ⭐ 쉬움 |
+| 구글 폼 | 고객 상담신청 받기 | 무료 | ⭐ 쉬움 |
+| 구글 시트 | 고객 목록 자동 정리 | 무료 | ⭐ 쉬움 |
+| 구글 앱스크립트 | 자동화 엔진 (복붙만 하면 됨) | 무료 | ⭐⭐ |
+| 홈페이지 | saeloan.co.kr (이미 완성) | 무료(Vercel) | ✅ 완료 |
+| GitHub | 작업 저장소 (어디서든 접근) | 무료 | ✅ 완료 |
 
-**珥?鍮꾩슜: 0??*
-
----
-
-# ?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺
-# 3?④퀎: ?붾젅洹몃옩 ?ㅼ튂 (30遺?
-# ?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺
-
-## 3-1. ?붾젅洹몃옩 ???ㅼ튂
-
-1. ?몃뱶???깆뒪?좎뼱(?덈뱶濡쒖씠?? ?뚮젅?댁뒪?좎뼱 / ?꾩씠?? ?깆뒪?좎뼱) ?닿린
-2. 寃?됱갹??**"?붾젅洹몃옩"** ?낅젰
-3. ?ㅼ튂 ???몃뱶??踰덊샇濡?媛??
-4. ?꾨즺
-
-## 3-2. ?곸뾽 梨꾨꼸 留뚮뱾湲?
-
-1. ?붾젅洹몃옩 ???닿린
-2. ?쇱そ ??以?3媛??? ?꾨Ⅴ湲?
-3. **"??梨꾨꼸"** ?꾨Ⅴ湲?
-4. 梨꾨꼸 ?대쫫 ?낅젰: `?덈줎湲덉쑖 | ?꾪뙆?몃떞蹂대?異??꾨Ц`
-5. 梨꾨꼸 ?ㅻ챸 ?낅젰:
-   ```
-   ?쒖슱쨌?섎룄沅??꾪뙆?몃떞蹂대?異??꾨Ц
-   ?먯쁺?낆옄 異붽??먭툑 | 援ъ엯?먭툑 釉뚮┸吏 | ?좏삊쨌湲덇퀬 ?꾪솚
-   ?뱸 010-5927-9205 | saeloan.co.kr
-   ?깅줉: 2026-?섏썝-2324
-   ```
-6. **"怨듦컻 梨꾨꼸"** ?좏깮
-7. 留곹겕 二쇱냼 ?낅젰: `saeloan_apt` (?먮뒗 ?먰븯???곷Ц)
-8. ?꾨즺 踰꾪듉 ?꾨Ⅴ湲?
-
-## 3-3. ?먮룞諛쒗뻾 遊?留뚮뱾湲?
-
-1. ?붾젅洹몃옩 寃?됱갹??**`@BotFather`** 寃??
-2. ?쒖옉 踰꾪듉 ?꾨Ⅴ湲?
-3. `/newbot` ?낅젰?섍퀬 ?꾩넚
-4. 遊??대쫫 ?낅젰: `?덈줎湲덉쑖遊?
-5. 遊??꾩씠???낅젰: `saeloan_auto_bot`
-6. **?좏겙 踰덊샇 諛쏄린** (?? `7654321:ABCxyz...`)
-   ????踰덊샇瑜?硫붾え?μ뿉 蹂듭궗?대몢?몄슂 ?낆쨷?붴쁾
-
-## 3-4. 遊뉗쓣 梨꾨꼸 愿由ъ옄濡?異붽?
-
-1. 留뚮뱺 梨꾨꼸 ?ㅼ뼱媛湲?
-2. 梨꾨꼸 ?대쫫 ?꾨Ⅴ湲???**"愿由ъ옄"** ??**"愿由ъ옄 異붽?"**
-3. 寃?됱갹???꾧퉴 留뚮뱺 遊??대쫫 ?낅젰
-4. 異붽? ??**硫붿떆吏 ?꾩넚 沅뚰븳** 泥댄겕 ???꾨즺
+**총 비용: 0원**
 
 ---
 
-# ?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺
-# 4?④퀎: 援ш? ?먮룞???ㅼ젙 (1?쒓컙)
-# ?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 3단계: 텔레그램 설치 (30분)
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-## 4-1. 援ш? 怨꾩젙 留뚮뱾湲?(?대? ?덉쑝硫?嫄대꼫?)
+## 3-1. 텔레그램 앱 설치
 
-1. ?щ＼ 釉뚮씪?곗? ?닿린
-2. gmail.com ?묒냽
-3. **"怨꾩젙 留뚮뱾湲?** ?대┃
-4. ?대쫫, ?대찓??二쇱냼, 鍮꾨?踰덊샇 ?낅젰
-5. ?꾨즺
+1. 핸드폰 앱스토어(안드로이드: 플레이스토어 / 아이폰: 앱스토어) 열기
+2. 검색창에 **"텔레그램"** 입력
+3. 설치 → 핸드폰 번호로 가입
+4. 완료
 
-## 4-2. 援ш? ??(?곷떞?좎껌 ?? 留뚮뱾湲?
+## 3-2. 영업 채널 만들기
 
-1. ?щ＼?먯꽌 **forms.google.com** ?낅젰 ???묒냽
-2. **"+"** (???묒떇 留뚮뱾湲? ?대┃
-3. ?쒕ぉ ?낅젰: `?덈줎湲덉쑖?遺以묎컻 ?꾪뙆?몃떞蹂?臾대즺 ?곷떞?좎껌`
-4. ?꾨옒 吏덈Ц?ㅼ쓣 異붽? (媛곴컖 **"吏덈Ц 異붽?"** ?대┃):
+1. 텔레그램 앱 열기
+2. 왼쪽 위 줄 3개(☰) 누르기
+3. **"새 채널"** 누르기
+4. 채널 이름 입력: `새론금융 | 아파트담보대출 전문`
+5. 채널 설명 입력:
+   ```
+   서울·수도권 아파트담보대출 전문
+   자영업자 추가자금 | 구입자금 브릿지 | 신협·금고 전환
+   📞 010-5927-9205 | saeloan.co.kr
+   등록: 2026-수원-2324
+   ```
+6. **"공개 채널"** 선택
+7. 링크 주소 입력: `saeloan_apt` (또는 원하는 영문)
+8. 완료 버튼 누르기
 
-| 吏덈Ц | ?좏삎 | ?꾩닔 |
+## 3-3. 자동발행 봇 만들기
+
+1. 텔레그램 검색창에 **`@BotFather`** 검색
+2. 시작 버튼 누르기
+3. `/newbot` 입력하고 전송
+4. 봇 이름 입력: `새론금융봇`
+5. 봇 아이디 입력: `saeloan_auto_bot`
+6. **토큰 번호 받기** (예: `7654321:ABCxyz...`)
+   → 이 번호를 메모장에 복사해두세요 ★중요★
+
+## 3-4. 봇을 채널 관리자로 추가
+
+1. 만든 채널 들어가기
+2. 채널 이름 누르기 → **"관리자"** → **"관리자 추가"**
+3. 검색창에 아까 만든 봇 이름 입력
+4. 추가 → **메시지 전송 권한** 체크 → 완료
+
+---
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 4단계: 구글 자동화 설정 (1시간)
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+## 4-1. 구글 계정 만들기 (이미 있으면 건너뜀)
+
+1. 크롬 브라우저 열기
+2. gmail.com 접속
+3. **"계정 만들기"** 클릭
+4. 이름, 이메일 주소, 비밀번호 입력
+5. 완료
+
+## 4-2. 구글 폼 (상담신청 폼) 만들기
+
+1. 크롬에서 **forms.google.com** 입력 후 접속
+2. **"+"** (새 양식 만들기) 클릭
+3. 제목 입력: `새론금융대부중개 아파트담보 무료 상담신청`
+4. 아래 질문들을 추가 (각각 **"질문 추가"** 클릭):
+
+| 질문 | 유형 | 필수 |
 |---|---|---|
-| ?대쫫 | ?⑤떟??| ??|
-| ?곕씫泥?(010-0000-0000) | ?⑤떟??| ??|
-| ?꾪뙆???뚯옱吏 (?? ?쒖슱 媛뺣룞援? | ?⑤떟??| ??|
-| ?꾪뙆??????쒖꽭 | 媛앷???| - |
-| ?꾩슂???먭툑 醫낅쪟 | 媛앷???| - |
-| ?대찓??(?먮룞?듭옣 ?먰븯?쒕㈃ ?낅젰) | ?⑤떟??| - |
-| 臾몄쓽?ы빆 | ?λЦ??| - |
+| 이름 | 단답형 | ✅ |
+| 연락처 (010-0000-0000) | 단답형 | ✅ |
+| 아파트 소재지 (예: 서울 강동구) | 단답형 | ✅ |
+| 아파트 대략 시세 | 객관식 | - |
+| 필요한 자금 종류 | 객관식 | - |
+| 이메일 (자동답장 원하시면 입력) | 단답형 | - |
+| 문의사항 | 장문형 | - |
 
-**"?꾪뙆??????쒖꽭" ?좏깮吏:**
-- 10??誘몃쭔
-- 10??15??
-- 15??20??
-- 20??25??
-- 25??珥덇낵
+**"아파트 대략 시세" 선택지:**
+- 10억 미만
+- 10억~15억
+- 15억~20억
+- 20억~25억
+- 25억 초과
 
-**"?꾩슂???먭툑 醫낅쪟" ?좏깮吏:**
-- ?먯쁺?낆옄 異붽? ?먭툑 (????쒕룄 珥덇낵)
-- ?꾪뙆??援ъ엯 ?붽툑
-- 寃쎈ℓ ?숈같 ?붽툑
-- 湲곗〈 ?遺???異??좏삊쨌湲덇퀬 ?꾪솚
-- 湲고?
+**"필요한 자금 종류" 선택지:**
+- 자영업자 추가 자금 (은행 한도 초과)
+- 아파트 구입 잔금
+- 경매 낙찰 잔금
+- 기존 대부업 대출 신협·금고 전환
+- 기타
 
-5. ?곗륫 ?곷떒 **蹂대궡湲?* ??留곹겕 蹂듭궗???먭린
+5. 우측 상단 **보내기** → 링크 복사해 두기
 
-## 4-3. ?먮룞???ㅽ겕由쏀듃 ?ㅼ튂
+## 4-3. 자동화 스크립트 설치
 
-### ?낆씠 遺遺꾩씠 ?듭떖?낅땲?? 蹂듭궗쨌遺숈뿬?ｊ린留??섎㈃ ?⑸땲?ㅲ쁾
+### ★이 부분이 핵심입니다. 복사·붙여넣기만 하면 됩니다★
 
-1. ?щ＼?먯꽌 **script.google.com** ?묒냽
-2. **"???꾨줈?앺듃"** ?대┃
-3. ?쒕ぉ??`?덈줎湲덉쑖_?붾젅洹몃옩_?먮룞諛쒗뻾`?쇰줈 蹂寃?
-4. ?붾㈃??肄붾뱶 ?꾩껜 ?좏깮(Ctrl+A) ????젣
-5. ?꾨옒 二쇱냼???뚯씪 ?댁슜??蹂듭궗?댁꽌 遺숈뿬?ｊ린:
+1. 크롬에서 **script.google.com** 접속
+2. **"새 프로젝트"** 클릭
+3. 제목을 `새론금융_텔레그램_자동발행`으로 변경
+4. 화면의 코드 전체 선택(Ctrl+A) 후 삭제
+5. 아래 주소의 파일 내용을 복사해서 붙여넣기:
    ```
    GitHub: automation/telegram_auto_poster.js
    (https://github.com/HeeJeonLee/saeloan-financial/blob/main/automation/telegram_auto_poster.js)
    ```
-6. **`YOUR_BOT_TOKEN`** ??李얠븘??3-3?먯꽌 諛쏆? ?좏겙 踰덊샇濡?援먯껜
-7. **`@saeloan_finance`** 瑜?留뚮뱺 梨꾨꼸 留곹겕濡?援먯껜
-8. ???Ctrl+S)
-9. ?곷떒 **"?몃━嫄?** 硫붾돱 ??**"?몃━嫄?異붽?"** ???ㅼ젙:
-   - ?ㅽ뻾 ?⑥닔: `postDailyContent`
-   - ?대깽?? ?쒓컙 湲곕컲 ??留ㅼ씪 ???ㅼ쟾 9??
-10. **???* ??沅뚰븳 ?덉슜
+6. **`YOUR_BOT_TOKEN`** 을 찾아서 3-3에서 받은 토큰 번호로 교체
+7. **`@saeloan_finance`** 를 만든 채널 링크로 교체
+8. 저장(Ctrl+S)
+9. 상단 **"트리거"** 메뉴 → **"트리거 추가"** → 설정:
+   - 실행 함수: `postDailyContent`
+   - 이벤트: 시간 기반 → 매일 → 오전 9시
+10. **저장** → 권한 허용
 
-### ?뚯뒪??諛⑸쾿
-1. ?⑥닔 紐⑸줉?먯꽌 `testSend` ?좏깮
-2. **?ㅽ뻾(??** 踰꾪듉 ?대┃
-3. ?붾젅洹몃옩 梨꾨꼸??硫붿떆吏媛 ?ㅻ㈃ ?깃났!
+### 테스트 방법
+1. 함수 목록에서 `testSend` 선택
+2. **실행(▶)** 버튼 클릭
+3. 텔레그램 채널에 메시지가 오면 성공!
 
-## 4-4. ?곷떞?좎껌 ?먮룞 ?대찓???뚮┝ ?ㅼ튂
+## 4-4. 상담신청 자동 이메일 알림 설치
 
-1. **forms.google.com** ??留뚮뱺 ???닿린
-2. ?곷떒 ??3媛??? ??**"?ㅽ겕由쏀듃 ?몄쭛湲?**
-3. 肄붾뱶 ?꾩껜 ??젣 ???꾨옒 ?뚯씪 ?댁슜 遺숈뿬?ｊ린:
+1. **forms.google.com** → 만든 폼 열기
+2. 상단 점 3개(⋮) → **"스크립트 편집기"**
+3. 코드 전체 삭제 후 아래 파일 내용 붙여넣기:
    ```
    GitHub: automation/google_form_autoresponder.js
    (https://github.com/HeeJeonLee/saeloan-financial/blob/main/automation/google_form_autoresponder.js)
    ```
-4. `YOUR_EMAIL@gmail.com` ???댄씗???대찓?쇰줈 援먯껜
-5. ???
-6. ?몃━嫄?異붽?:
-   - ?ㅽ뻾 ?⑥닔: `onFormSubmit`
-   - ?대깽?? **???쒖텧 ??*
-7. ?????沅뚰븳 ?덉슜
+4. `YOUR_EMAIL@gmail.com` → 이희전 이메일로 교체
+5. 저장
+6. 트리거 추가:
+   - 실행 함수: `onFormSubmit`
+   - 이벤트: **폼 제출 시**
+7. 저장 → 권한 허용
 
 ---
 
-# ?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺
-# 5?④퀎: 移댁뭅?ㅽ넚 梨꾨꼸 媛쒖꽕 (1???뚯슂)
-# ?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 5단계: 카카오톡 채널 개설 (1일 소요)
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-1. **business.kakao.com** ?묒냽
-2. **"移댁뭅?ㅽ넚 梨꾨꼸 ?쒖옉?섍린"**
-3. 梨꾨꼸紐? `?덈줎湲덉쑖?遺以묎컻`
-4. 移댄뀒怨좊━: 湲덉쑖 ???異?
-5. ?꾨줈???대?吏: 濡쒓퀬(logo.jpg) ?낅줈??
-6. ?뚭컻:
+1. **business.kakao.com** 접속
+2. **"카카오톡 채널 시작하기"**
+3. 채널명: `새론금융대부중개`
+4. 카테고리: 금융 → 대출
+5. 프로필 이미지: 로고(logo.jpg) 업로드
+6. 소개:
    ```
-   ?쒖슱쨌?섎룄沅??꾪뙆?몃떞蹂대?異??꾨Ц
-   ?먯쁺?낆옄 異붽??먭툑 | 援ъ엯?먭툑 釉뚮┸吏
-   ??010-5927-9205
-   ?깅줉: 2026-?섏썝-2324
-   ?좑툘 怨쇰룄??鍮?二쇱쓽
+   서울·수도권 아파트담보대출 전문
+   자영업자 추가자금 | 구입자금 브릿지
+   ☎ 010-5927-9205
+   등록: 2026-수원-2324
+   ⚠️ 과도한 빚 주의
    ```
-7. **?먮룞?묐떟 ?ㅼ젙:**
-   - ?ㅼ썙?? ?異? ?곷떞, ?쒕룄, ?꾪뙆?? ?대낫
-   - ?먮룞?묐떟 ?댁슜:
+7. **자동응답 설정:**
+   - 키워드: 대출, 상담, 한도, 아파트, 담보
+   - 자동응답 내용:
    ```
-   ?덈뀞?섏꽭?? ?덈줎湲덉쑖?遺以묎컻?낅땲?? ?삃
+   안녕하세요! 새론금융대부중개입니다. 😊
    
-   ?꾪뙆?몃떞蹂대?異?臾대즺 ?곷떞?좎껌:
-   ?몛 saeloan.co.kr
+   아파트담보대출 무료 상담신청:
+   👉 saeloan.co.kr
    
-   鍮좊Ⅸ ?곷떞: ?벑 010-5927-9205
+   빠른 상담: 📱 010-5927-9205
    
-   ??1555-2137
-   ?좑툘 ???댁쑉 ?곷떞 ???뺤젙 | ?깅줉 2026-?섏썝-2324
-   怨쇰룄??鍮싳? ??遺덊뻾???덇꺼以????덉뒿?덈떎
+   ☎ 1555-2137
+   ⚠️ 연 이율 상담 후 확정 | 등록 2026-수원-2324
+   과도한 빚은 큰 불행을 안겨줄 수 있습니다
    ```
-8. ?깅줉利??遺以묎컻???깅줉利? ?쒖텧 ???뱀씤 ?湲?(3~5??
+8. 등록증(대부중개업 등록증) 제출 후 승인 대기 (3~5일)
 
 ---
 
-# ?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺
-# 6?④퀎: 鍮꾨?硫??띾낫 猷⑦떞 (?댄씗?????吏곸젒)
-# ?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 6단계: 비대면 홍보 루틴 (이희전 팀장 직접)
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-## ?댄씗????μ쓽 ?ㅼ젣 ?섎（ ?낅Т (30遺??대궡)
+## 이희전 팀장의 실제 하루 업무 (30분 이내)
 
 ```
-?ㅼ쟾 9?? ?붾젅洹몃옩 ?먮룞諛쒗뻾 ?뺤씤 (1遺?
-          ???뱀떆 ?ㅻ쪟 ?덉쑝硫??섎룞?쇰줈 ?щ━湲?
+오전 9시: 텔레그램 자동발행 확인 (1분)
+          → 혹시 오류 있으면 수동으로 올리기
 
-?ㅼ쟾 10?? ?대찓???뺤씤 (5遺?
-           ?????곷떞?좎껌 ?덉쑝硫?諛붾줈 ?꾪솕
+오전 10시: 이메일 확인 (5분)
+           → 새 상담신청 있으면 바로 전화
 
-?ㅽ썑 以? 怨듭씤以묎컻??룹꽭臾댁궗 移댁뭅??硫붿떆吏 (20遺?
-         ???섎（ 3~5怨?移댄넚諛⑹뿉 ?띾낫 硫붿떆吏 諛쒖넚
+오후 중: 공인중개사·세무사 카카오 메시지 (20분)
+         → 하루 3~5곳 카톡방에 홍보 메시지 발송
 
-洹????쒓컙: ?꾪솕 ?곷떞 ?묐?
+그 외 시간: 전화 상담 응대
 ```
 
-## 移댁뭅?ㅽ넚 怨듭씤以묎컻??梨꾪똿諛?李얘린
+## 카카오톡 공인중개사 채팅방 찾기
 
-1. 移댁뭅?ㅽ넚 ???닿린
-2. ?뗫낫湲?寃?? ?꾨Ⅴ湲?
-3. ?꾨옒 ?ㅼ썙???섎굹??寃??
+1. 카카오톡 앱 열기
+2. 돋보기(검색) 누르기
+3. 아래 키워드 하나씩 검색:
    ```
-   "?쒖슱 怨듭씤以묎컻??
-   "遺?숈궛 以묎컻 ?뺣낫"
-   "?꾪뙆??留ㅻℓ ?뺣낫"
-   "媛뺣궓 遺?숈궛"
-   "?쒖슱 遺?숈궛 ?ъ옄"
-   "?먯쁺?낆옄 紐⑥엫"
-   "?뚯긽怨듭씤 ?뺣낫"
+   "서울 공인중개사"
+   "부동산 중개 정보"
+   "아파트 매매 정보"
+   "강남 부동산"
+   "서울 부동산 투자"
+   "자영업자 모임"
+   "소상공인 정보"
    ```
-4. ?ㅽ뵂梨꾪똿諛????대┃
-5. 李몄뿬 媛?ν븳 諛??낆옣
-6. ?꾨옒 硫붿떆吏 諛쒖넚 (?섎（ 3~5媛?諛?:
+4. 오픈채팅방 탭 클릭
+5. 참여 가능한 방 입장
+6. 아래 메시지 발송 (하루 3~5개 방):
 
-### 怨듭씤以묎컻??梨꾪똿諛??띾낫 硫붿떆吏 (蹂듭궗?댁꽌 ?ъ슜)
+### 공인중개사 채팅방 홍보 메시지 (복사해서 사용)
 ```
-?덈뀞?섏꽭?? ?덈줎湲덉쑖?遺以묎컻?낅땲??
+안녕하세요! 새론금융대부중개입니다.
 
-留ㅻℓ 嫄곕옒 ???붽툑 ?먭툑??遺議깊븳 怨좉컼 怨꾩떊媛??
+매매 거래 시 잔금 자금이 부족한 고객 계신가요?
 
-?????LTV ?쒕룄 珥덇낵遺????遺??釉뚮┸吏 利됱떆 ?ㅽ뻾
-??3媛쒖썡 ???좏삊쨌湲덇퀬 媛쒖씤?ъ뾽???대낫?異??꾪솚
-???쒖슱쨌?섎룄沅??꾪뙆????吏??媛??
-??以묎컻?섏닔猷?0??
+✅ 은행 LTV 한도 초과분 → 대부업 브릿지 즉시 실행
+✅ 3개월 후 신협·금고 개인사업자 담보대출 전환
+✅ 서울·수도권 아파트 전 지역 가능
+✅ 중개수수료 0원
 
-?붽툑 留됲???嫄곕옒 痍⑥냼 ?좊퍝??寃쏀뿕 ?덉쑝??遺?
-?곕씫 ?쒕쾲 二쇱꽭?? 諛⑸쾿 ?덉뒿?덈떎.
+잔금 막혀서 거래 취소 날뻔한 경험 있으신 분,
+연락 한번 주세요. 방법 있습니다.
 
-?벑 010-5927-9205 (?댄씗??
-?뙋 saeloan.co.kr
-?깅줉: 2026-?섏썝-2324
-?좑툘 怨쇰룄??鍮?二쇱쓽
-```
-
-### ?먯쁺?낆옄 梨꾪똿諛??띾낫 硫붿떆吏 (蹂듭궗?댁꽌 ?ъ슜)
-```
-?덈뀞?섏꽭?? ?덈줎湲덉쑖?遺以묎컻?낅땲??
-
-?꾪뙆???덈뒗 ?먯쁺?낆옄遺꾨뱾, ?대윴 ?곹솴 ?꾨땶媛??
-??????앺솢?덉젙?먭툑 1???쒕룄 ?대? ?뚯쭊
-??異붽?濡?1??5?듭씠 湲됲븯寃??꾩슂
-???뚮뱷 遺덇퇋移숉빐????됱뿉??嫄곗젅
-
-???꾪뙆???대낫媛移??꾩＜濡??ъ궗?⑸땲??
-???먯쁺?낆옄쨌踰뺤씤????곴레 媛??
-
-?벑 010-5927-9205 (臾대즺 ?ъ쟾寃??
-?뙋 saeloan.co.kr
-?깅줉: 2026-?섏썝-2324
-?좑툘 怨쇰룄??鍮?二쇱쓽
+📱 010-5927-9205 (이희전)
+🌐 saeloan.co.kr
+등록: 2026-수원-2324
+⚠️ 과도한 빚 주의
 ```
 
----
-
-# ?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺
-# 7?④퀎: ?뚰듃?덉궗 ?뺣낫 (?댄씗?????吏곸젒)
-# ?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺
-
-## 7-1. ????遺?낆껜 諛⑸Ц ?묒빟
-
-### 諛⑸Ц ??以鍮꾨Ъ
+### 자영업자 채팅방 홍보 메시지 (복사해서 사용)
 ```
-??紐낇븿 (?덈줎湲덉쑖?遺以묎컻 ?댄씗??
-???遺以묎컻???깅줉利??щ낯
-???ъ뾽?먮벑濡앹쬆 ?щ낯
-???묒빟 ?쒖븞??(?꾨옒 ?댁슜 異쒕젰)
-```
+안녕하세요! 새론금융대부중개입니다.
 
-### ?묒빟 ?쒖븞???댁슜 (援щ몢濡쒕룄 媛??
-```
-?덈줎湲덉쑖?遺以묎컻 ?뚰듃?덉떗 ?쒖븞
+아파트 있는 자영업자분들, 이런 상황 아닌가요?
+✔ 은행 생활안정자금 1억 한도 이미 소진
+✔ 추가로 1억~5억이 급하게 필요
+✔ 소득 불규칙해서 은행에서 거절
 
-??щ뒗 ?쒖슱쨌?섎룄沅??꾪뙆?몃떞蹂대?異??꾨Ц 以묎컻?낆껜濡?
-留ㅼ썡 ?덉젙?곸씤 ?異?嫄댁닔瑜??뚭컻???쒕┫ ???덉뒿?덈떎.
+→ 아파트 담보가치 위주로 심사합니다
+→ 자영업자·법인대표 적극 가능
 
-二쇱슂 ?寃?
-- ?먯쁺?낆옄 ?앺솢?덉젙?먭툑 1??珥덇낵 (嫄대떦 1??5??
-- ?꾪뙆??援ъ엯?먭툑 釉뚮┸吏 (嫄대떦 3??10??
-
-?щ쭩 ?묒빟 議곌굔:
-- ?쒖슱쨌?섎룄沅??꾪뙆??LTV 理쒖냼 60% ?댁긽
-- ?뚭컻?섏닔猷? ?ㅽ뻾湲덉븸??1~1.5%
-- 泥섎━ 湲곌컙: 3~5?곸뾽???대궡
-- 以묐룄?곹솚?섏닔猷?理쒖냼??(3媛쒖썡 ???꾪솚 紐⑹쟻)
-```
-
-### 諛⑸Ц ???낆껜 紐⑸줉
-
-**1?쒖쐞 (?ъ쓽?꽷룰컯??吏묒쨷)**
-```
-??由щ뱶肄뷀봽(二? - ?쒖슱 ?곷벑?ш뎄 ?ъ쓽??
-   ??肄붿뒪???곸옣, ?덉젙?? ?대낫?異??곴레
-   ??諛⑸Ц ???꾪솕: ??쒕쾲??寃????"?뚰듃?덉떗 ?대떦?? ?곌껐
-
-???곗뺨?щ젅?붾씪??- ?쒖슱 以묎뎄 ?꾩?濡?
-   ???곗뺨?異뺤???怨꾩뿴, ?洹쒕え ?댁쁺
-   ??諛⑸Ц ???덊럹?댁??먯꽌 B2B 臾몄쓽
-
-???꾪봽濡쒗뙆?대궦?쒕?遺 - ?쒖슱 媛뺣궓援??移섎룞
-   ???ъ떆?ㅼ틦??紐⑦쉶?? 援?궡 理쒕? 洹쒕え
-   ???洹쒕え 以묎컻 ?뚰듃?덉떗 ?댁쁺 以?
-```
-
-**2?쒖쐞 (?꾪솕쨌?⑤씪???묒큺)**
-```
-???ㅼ씠踰꾩뿉??寃?? "?꾪뙆?몃떞蹂대?異?踰뺤씤 ?遺??
-??湲덇컧??湲덉쑖?뚮퉬?먯젙蹂댄룷??consumer.fss.or.kr)
-   ???遺??議고쉶 ???쒖슱 踰뺤씤 ??遺?숈궛?대낫 ?꾪꽣
-???깅줉???낆껜??吏곸젒 ?꾪솕: "以묎컻 ?뚰듃?덉떗 ?대떦???곌껐"
-```
-
-## 7-2. ?좏삊쨌湲덇퀬 ?꾪솚 ?異쒖긽?댁궗 諛쒓뎬
-
-### ?ㅼ씠踰꾩뿉??李얘린 (寃?됱뼱 蹂듭궗?댁꽌 ?ъ슜)
-```
-?ㅼ씠踰?寃?됱갹???섎굹???낅젰:
-??"?좏삊 ?꾪뙆?몃떞蹂대?異??곷떞??釉붾줈洹?
-??"?덈쭏?꾧툑怨?媛쒖씤?ъ뾽???대낫?異??꾪솚"
-??"?遺??????좏삊 媛??
-??"湲덇퀬 ?대낫?異??꾪솚 ?곷떞"
-??"?異?釉뚮┸吏 ?좏삊 ?꾪솚 釉붾줈洹?
-```
-
-### 釉붾줈洹?湲 ?щ━湲?(?ㅼ씠踰?釉붾줈洹?
-
-1. **blog.naver.com** ?묒냽 ??濡쒓렇??
-2. **湲?곌린** ?대┃
-3. ?쒕ぉ: `[?묒뾽 援ы빀?덈떎] ?좏삊쨌?덈쭏?꾧툑怨??꾪뙆?몃떞蹂대?異?媛?ν븳 ?異쒖긽?댁궗`
-4. ?댁슜:
-```
-?덈뀞?섏꽭?? ?덈줎湲덉쑖?遺以묎컻?낅땲??
-
-????낆껜???쒖슱쨌?섎룄沅??꾪뙆?몃떞蹂??꾨Ц ?遺以묎컻?낆껜濡?
-?遺???ㅽ뻾 ??3媛쒖썡 ???좏삊쨌湲덇퀬濡??꾪솚?섎뒗 ?쒕퉬?ㅻ? 怨좉컼猿??쒓났?섍퀬 ?덉뒿?덈떎.
-
-?④퍡???異쒖긽?댁궗遺꾩쓣 李얠뒿?덈떎.
-
-[?묒뾽 議곌굔]
-???좏삊 ?먮뒗 ?덈쭏?꾧툑怨?媛쒖씤?ъ뾽???대낫?異?痍④툒 媛??
-???쒖슱쨌?섎룄沅??꾪뙆??臾쇨굔 泥섎━ 寃쏀뿕 ?덉쑝??遺?
-???꾪뙆??洹쇱????ㅼ젙??臾쇨굔 ???寃쏀뿕 ?덉쑝??遺?
-
-[?쒓났 ?ы빆]
-- ?덉젙?곸씤 ??嫄댁닔 ?뚯씠?꾨씪???쒓났
-- 嫄대떦 ?묒쓽 ?섏닔猷?蹂꾨룄 吏湲?
-- 鍮꾨? 蹂댁옣 / 鍮꾨?硫??묒뾽 媛??
-
-?곕씫泥? 010-5927-9205 (?댄씗??
-```
-5. 寃뚯떆
-
----
-
-# ?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺
-# 8?④퀎: ?遺?낅쾿 踰뺢퇋 以??泥댄겕由ъ뒪??
-# ?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺
-
-## ??紐⑤뱺 SNS 寃뚯떆臾쇱뿉 諛섎뱶???ы븿???댁슜 ??
-
-```
-?꾩닔 ?ы븿 臾멸뎄 (SNS 寃뚯떆臾??섎떒):
-???깅줉踰덊샇: 2026-?섏썝-2324 (?遺以묎컻??
-??湲덈━ 踰붿쐞: ???댁쑉? ?곷떞 ???뺤젙
-??寃쎄퀬 臾멸뎄: "怨쇰룄??鍮싳? ?뱀떊?먭쾶 ??遺덊뻾???덇꺼以????덉뒿?덈떎"
-??以묎컻?섏닔猷??놁쓬 紐낆떆
-```
-
-## ???덈? ?섎㈃ ???섎뒗 寃???
-
-```
-??"100% ?뱀씤 媛??, "臾댁“嫄??異?, "?꾧뎄??媛?? ?쒗쁽
-???덉쐞 湲덈━ 紐낆떆 (?ㅼ젣蹂대떎 ??? 湲덈━ 愿묎퀬)
-??SNS DM?쇰줈 二쇰?踰덊샇, 怨꾩쥖踰덊샇 ?섏쭛
-???좎엯湲? ?좎닔?섎즺 ?붽뎄 (遺덈쾿)
-???異쒖뾽泥?吏곸썝 ?ъ묶
-???ㅽ뙵??臾댁옉??諛쒖넚 (移댁뭅?ㅽ넚 ?뺤콉 ?꾨컲)
-```
-
-## ???대룄 ?섎뒗 寃???
-
-```
-???뺣낫??肄섑뀗痢?(湲덈━ ?덈궡, ?異?議곌굔 ?뺣낫)
-??saeloan.co.kr 留곹겕 怨듭쑀
-???꾪솕踰덊샇 愿묎퀬
-??移댁뭅?ㅽ넚 ?ㅽ뵂梨꾪똿諛⑹뿉 1???띾낫 硫붿떆吏
-???붾젅洹몃옩 梨꾨꼸 ?먮룞 諛쒗뻾
-??釉붾줈洹?SEO ?ъ뒪??
+📱 010-5927-9205 (무료 사전검토)
+🌐 saeloan.co.kr
+등록: 2026-수원-2324
+⚠️ 과도한 빚 주의
 ```
 
 ---
 
-# ?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺
-# 9?④퀎: AI ?먮룞 ?낅뜲?댄듃 援ъ“
-# ?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 7단계: 파트너사 확보 (이희전 팀장 직접)
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-## ?쒖뒪?쒖씠 ?ㅼ뒪濡?諛쒖쟾?섎뒗 諛⑸쾿
+## 7-1. 대형 대부업체 방문 협약
 
+### 방문 전 준비물
 ```
-?꾩옱 援ъ“:
-  Google AppScript ???붾젅洹몃옩 ?먮룞諛쒗뻾
-  (肄섑뀗痢?15媛??쒗솚)
-
-?ν썑 媛쒖꽑 (遺꾧린蹂?1?? 15遺??묒뾽):
-  1. github.com/HeeJeonLee/saeloan-financial ?묒냽
-  2. automation/telegram_auto_poster.js ?뚯씪 ?닿린
-  3. CONTENT_BANK 諛곗뿴????肄섑뀗痢?異붽?
-  4. ??????먮룞 諛섏쁺
-
-AI ??諛쒖쟾 諛섏쁺 援ъ“:
-  ??ChatGPT/Claude濡???肄섑뀗痢??앹꽦 ?붿껌
-  ??"?덈줎湲덉쑖 ?붾젅洹몃옩 梨꾨꼸???꾪뙆?몃떞蹂대?異??띾낫 臾멸뎄 5媛?留뚮뱾?댁쨾"
-  ???앹꽦???댁슜??CONTENT_BANK??異붽?
-  ??鍮꾩슜 0?? ?쒓컙 15遺?
+□ 명함 (새론금융대부중개 이희전)
+□ 대부중개업 등록증 사본
+□ 사업자등록증 사본
+□ 협약 제안서 (아래 내용 출력)
 ```
 
-## 遺꾧린蹂??먭? ??ぉ (泥댄겕由ъ뒪??
+### 협약 제안서 내용 (구두로도 가능)
+```
+새론금융대부중개 파트너십 제안
+
+저희는 서울·수도권 아파트담보대출 전문 중개업체로,
+매월 안정적인 대출 건수를 소개해 드릴 수 있습니다.
+
+주요 타겟:
+- 자영업자 생활안정자금 1억 초과 (건당 1억~5억)
+- 아파트 구입자금 브릿지 (건당 3억~10억)
+
+희망 협약 조건:
+- 서울·수도권 아파트 LTV 최소 60% 이상
+- 소개수수료: 실행금액의 1~1.5%
+- 처리 기간: 3~5영업일 이내
+- 중도상환수수료 최소화 (3개월 후 전환 목적)
+```
+
+### 방문 할 업체 목록
+
+**1순위 (여의도·강남 집중)**
+```
+① 리드코프(주) - 서울 영등포구 여의도
+   → 코스닥 상장, 안정적, 담보대출 적극
+   → 방문 전 전화: 대표번호 검색 후 "파트너십 담당자" 연결
+
+② 웰컴크레디라인 - 서울 중구 을지로
+   → 웰컴저축은행 계열, 대규모 운영
+   → 방문 전 홈페이지에서 B2B 문의
+
+③ 아프로파이낸셜대부 - 서울 강남구 대치동
+   → 러시앤캐시 모회사, 국내 최대 규모
+   → 대규모 중개 파트너십 운영 중
+```
+
+**2순위 (전화·온라인 접촉)**
+```
+→ 네이버에서 검색: "아파트담보대출 법인 대부업"
+→ 금감원 금융소비자정보포털(consumer.fss.or.kr)
+   → 대부업 조회 → 서울 법인 → 부동산담보 필터
+→ 등록된 업체에 직접 전화: "중개 파트너십 담당자 연결"
+```
+
+## 7-2. 신협·금고 전환 대출상담사 발굴
+
+### 네이버에서 찾기 (검색어 복사해서 사용)
+```
+네이버 검색창에 하나씩 입력:
+① "신협 아파트담보대출 상담사 블로그"
+② "새마을금고 개인사업자 담보대출 전환"
+③ "대부업 대환 신협 가능"
+④ "금고 담보대출 전환 상담"
+⑤ "대출 브릿지 신협 전환 블로그"
+```
+
+### 블로그 글 올리기 (네이버 블로그)
+
+1. **blog.naver.com** 접속 → 로그인
+2. **글쓰기** 클릭
+3. 제목: `[협업 구합니다] 신협·새마을금고 아파트담보대출 가능한 대출상담사`
+4. 내용:
+```
+안녕하세요. 새론금융대부중개입니다.
+
+저희 업체는 서울·수도권 아파트담보 전문 대부중개업체로,
+대부업 실행 후 3개월 뒤 신협·금고로 전환하는 서비스를 고객께 제공하고 있습니다.
+
+함께할 대출상담사분을 찾습니다.
+
+[협업 조건]
+✅ 신협 또는 새마을금고 개인사업자 담보대출 취급 가능
+✅ 서울·수도권 아파트 물건 처리 경험 있으신 분
+✅ 아파트 근저당 설정된 물건 대환 경험 있으신 분
+
+[제공 사항]
+- 안정적인 월 건수 파이프라인 제공
+- 건당 협의 수수료 별도 지급
+- 비밀 보장 / 비대면 협업 가능
+
+연락처: 010-5927-9205 (이희전)
+```
+5. 게시
+
+---
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 8단계: 대부업법 법규 준수 체크리스트
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+## ★ 모든 SNS 게시물에 반드시 포함할 내용 ★
 
 ```
-留?遺꾧린 1??(3媛쒖썡??1踰?:
-???붾젅洹몃옩 ?먮룞諛쒗뻾 ?뺤긽 ?묐룞 ?뺤씤
-???덊럹?댁?(saeloan.co.kr) ?뺤긽 ?묒냽 ?뺤씤
-???곷떞?좎껌 ?대찓???뚮┝ ?묐룞 ?뺤씤
-????肄섑뀗痢?15媛?異붽? (ChatGPT濡??앹꽦)
-??LTV 洹쒖젣 蹂寃쎌궗??諛섏쁺 (?댁뒪 寃??
-???뚰듃???遺?낆껜 議곌굔 ?낅뜲?댄듃
+필수 포함 문구 (SNS 게시물 하단):
+① 등록번호: 2026-수원-2324 (대부중개업)
+② 금리 범위: 연 이율은 상담 후 확정
+③ 경고 문구: "과도한 빚은 당신에게 큰 불행을 안겨줄 수 있습니다"
+④ 중개수수료 없음 명시
+```
+
+## ★ 절대 하면 안 되는 것 ★
+
+```
+❌ "100% 승인 가능", "무조건 대출", "누구나 가능" 표현
+❌ 허위 금리 명시 (실제보다 낮은 금리 광고)
+❌ SNS DM으로 주민번호, 계좌번호 수집
+❌ 선입금, 선수수료 요구 (불법)
+❌ 대출업체 직원 사칭
+❌ 스팸성 무작위 발송 (카카오톡 정책 위반)
+```
+
+## ★ 해도 되는 것 ★
+
+```
+✅ 정보성 콘텐츠 (금리 안내, 대출 조건 정보)
+✅ saeloan.co.kr 링크 공유
+✅ 전화번호 광고
+✅ 카카오톡 오픈채팅방에 1회 홍보 메시지
+✅ 텔레그램 채널 자동 발행
+✅ 블로그 SEO 포스팅
 ```
 
 ---
 
-# ?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺
-# 10?④퀎: ?곷떞 ?깆빟 ?꾨줈?몄뒪
-# ?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 9단계: AI 자동 업데이트 구조
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-## 怨좉컼 ?몄엯遺???ㅽ뻾源뚯? ?먮쫫
+## 시스템이 스스로 발전하는 방법
 
 ```
-1. 怨좉컼 ?몄엯 (?먮룞)
-   ?붾젅洹몃옩 / 移댁뭅??/ ?덊럹?댁? ???곷떞?좎껌
-   ???댄씗???대찓??利됱떆 ?섏떊
+현재 구조:
+  Google AppScript → 텔레그램 자동발행
+  (콘텐츠 15개 순환)
 
-2. 珥덇린 ?곷떞 ?꾪솕 (?댄씗??吏곸젒, 30遺??대궡)
-   ?뺤씤 ?ы빆:
-   - ?꾪뙆???뚯옱吏, ????쒖꽭
-   - 湲곗〈 ?대낫?異??붿븸 (?깃린遺 ?뺤씤)
-   - ?꾩슂 湲덉븸 諛??ъ슜 紐⑹쟻
-   - 吏곸뾽/怨좎슜?뺥깭
+향후 개선 (분기별 1회, 15분 작업):
+  1. github.com/HeeJeonLee/saeloan-financial 접속
+  2. automation/telegram_auto_poster.js 파일 열기
+  3. CONTENT_BANK 배열에 새 콘텐츠 추가
+  4. 저장 → 자동 반영
 
-3. ?뚰듃???遺?낆껜 議고쉶 (?댄씗??
-   - ?뺣낫???낆껜 以?議곌굔 留욌뒗 怨??좏깮
-   - 議곌굔 ?뺤씤: LTV, 湲덈━, 泥섎━湲곌컙
+AI 툴 발전 반영 구조:
+  → ChatGPT/Claude로 새 콘텐츠 생성 요청
+  → "새론금융 텔레그램 채널용 아파트담보대출 홍보 문구 5개 만들어줘"
+  → 생성된 내용을 CONTENT_BANK에 추가
+  → 비용 0원, 시간 15분
+```
 
-4. 怨좉컼?먭쾶 議곌굔 ?뚯떊
-   - 媛??湲덉븸, 湲덈━, 湲곌컙 ?덈궡
-   - ?쒕쪟 ?덈궡
+## 분기별 점검 항목 (체크리스트)
 
-5. ?쒕쪟 ?묒닔 (移댁뭅?ㅽ넚/?대찓??
-   ?꾩슂 ?쒕쪟:
-   - ?깃린遺?깅낯 (?명꽣??諛쒓툒 媛??
-   - ?좊텇利??щ낯
-   - 湲곗〈 ?異??붿븸利앸챸??
-   - 嫄닿컯蹂댄뿕猷??⑸??뺤씤??(?뚮뱷 利앸튃)
-
-6. ?遺?낆껜 ?ъ궗 ???뱀씤 ???ㅽ뻾
-   泥섎━ 湲곌컙: 2~5?곸뾽??
-
-7. ?좏삊쨌湲덇퀬 ?꾪솚 ?덉빟 (?좏깮)
-   - ?ㅽ뻾 利됱떆 "3媛쒖썡 ???꾪솚 ?곷떞" ?덉빟
-   - ?꾪솚 ?異쒖긽?댁궗 ?곌껐
+```
+매 분기 1회 (3개월에 1번):
+□ 텔레그램 자동발행 정상 작동 확인
+□ 홈페이지(saeloan.co.kr) 정상 접속 확인
+□ 상담신청 이메일 알림 작동 확인
+□ 새 콘텐츠 15개 추가 (ChatGPT로 생성)
+□ LTV 규제 변경사항 반영 (뉴스 검색)
+□ 파트너 대부업체 조건 업데이트
 ```
 
 ---
 
-# ?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺
-# 11?④퀎: ?ㅻⅨ PC?먯꽌 ?묎렐?섎뒗 諛⑸쾿
-# ?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 10단계: 상담 성약 프로세스
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-## ?몄젣 ?대뵒?쒕뱺 ??臾몄꽌 蹂닿린
+## 고객 인입부터 실행까지 흐름
 
 ```
-諛⑸쾿 1: GitHub (??긽 理쒖떊 踰꾩쟾)
-  ???щ＼?먯꽌 ?꾨옒 二쇱냼 ?낅젰:
+1. 고객 인입 (자동)
+   텔레그램 / 카카오 / 홈페이지 → 상담신청
+   → 이희전 이메일 즉시 수신
+
+2. 초기 상담 전화 (이희전 직접, 30분 이내)
+   확인 사항:
+   - 아파트 소재지, 대략 시세
+   - 기존 담보대출 잔액 (등기부 확인)
+   - 필요 금액 및 사용 목적
+   - 직업/고용형태
+
+3. 파트너 대부업체 조회 (이희전)
+   - 확보된 업체 중 조건 맞는 곳 선택
+   - 조건 확인: LTV, 금리, 처리기간
+
+4. 고객에게 조건 회신
+   - 가능 금액, 금리, 기간 안내
+   - 서류 안내
+
+5. 서류 접수 (카카오톡/이메일)
+   필요 서류:
+   - 등기부등본 (인터넷 발급 가능)
+   - 신분증 사본
+   - 기존 대출 잔액증명서
+   - 건강보험료 납부확인서 (소득 증빙)
+
+6. 대부업체 심사 → 승인 → 실행
+   처리 기간: 2~5영업일
+
+7. 신협·금고 전환 예약 (선택)
+   - 실행 즉시 "3개월 후 전환 상담" 예약
+   - 전환 대출상담사 연결
+```
+
+---
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 11단계: 다른 PC에서 접근하는 방법
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+## 언제 어디서든 이 문서 보기
+
+```
+방법 1: GitHub (항상 최신 버전)
+  → 크롬에서 아래 주소 입력:
   https://github.com/HeeJeonLee/saeloan-financial
 
-諛⑸쾿 2: ?덊럹?댁?
-  ??saeloan.co.kr
+방법 2: 홈페이지
+  → saeloan.co.kr
 
-諛⑸쾿 3: Google Drive (臾몄꽌 諛깆뾽??
-  ????臾몄꽌瑜?援ш? ?쒕씪?대툕???낅줈?쒗빐?먭린
+방법 3: Google Drive (문서 백업용)
+  → 이 문서를 구글 드라이브에 업로드해두기
 ```
 
-## ??PC?먯꽌 ?묒뾽 ?ш컻?섎뒗 諛⑸쾿
+## 새 PC에서 작업 재개하는 방법
 
 ```
-1. https://github.com/HeeJeonLee/saeloan-financial ?묒냽
-2. 紐⑤뱺 ?뚯씪 ?뺤씤 媛??
-3. ?꾨왂?? SALES_MASTER_PLAN.md
-4. ??媛?대뱶: COMPLETE_GUIDE.md
-5. ?먮룞??肄붾뱶: automation/ ?대뜑
+1. https://github.com/HeeJeonLee/saeloan-financial 접속
+2. 모든 파일 확인 가능
+3. 전략서: SALES_MASTER_PLAN.md
+4. 이 가이드: COMPLETE_GUIDE.md
+5. 자동화 코드: automation/ 폴더
 ```
 
 ---
 
-# ?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺
-# 12?④퀎: ?꾩껜 ?쇱젙??
-# ?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 12단계: 전체 일정표
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-## ?대쾲 二?(5??17??~ 5??23??
+## 이번 주 (5월 17일 ~ 5월 23일)
 
-| ?좎쭨 | ????| ?뚯슂 ?쒓컙 |
+| 날짜 | 할 일 | 소요 시간 |
 |---|---|---|
-| 5/17(?ㅻ뒛) | ?붾젅洹몃옩 梨꾨꼸 媛쒖꽕 + 遊?留뚮뱾湲?| 30遺?|
-| 5/17(?ㅻ뒛) | 援ш? 怨꾩젙 + 援ш? ??留뚮뱾湲?| 30遺?|
-| 5/18(?댁씪) | AppScript ?먮룞???ㅼ튂 | 1?쒓컙 |
-| 5/19 | 移댁뭅??鍮꾩쫰?덉뒪 梨꾨꼸 ?좎껌 | 30遺?|
-| 5/20~21 | ????遺?낆껜 諛⑸Ц ?묒빟 | ?섎（ |
-| 5/22 | ?ㅼ씠踰?釉붾줈洹??異쒖긽?댁궗 ?묒뾽 怨듦퀬 | 30遺?|
-| 5/23 | 怨듭씤以묎컻??移댄넲諛??띾낫 ?쒖옉 | 30遺???|
+| 5/17(오늘) | 텔레그램 채널 개설 + 봇 만들기 | 30분 |
+| 5/17(오늘) | 구글 계정 + 구글 폼 만들기 | 30분 |
+| 5/18(내일) | AppScript 자동화 설치 | 1시간 |
+| 5/19 | 카카오 비즈니스 채널 신청 | 30분 |
+| 5/20~21 | 대형 대부업체 방문 협약 | 하루 |
+| 5/22 | 네이버 블로그 대출상담사 협업 공고 | 30분 |
+| 5/23 | 공인중개사 카톱방 홍보 시작 | 30분/일 |
 
-## ?ㅼ쓬 ?щ???(6??)
-
-```
-留ㅼ씪: ?대찓???뺤씤 ???꾪솕 ?곷떞 (?먮룞 ?몄엯)
-留ㅼ씪: 怨듭씤以묎컻??룹꽭臾댁궗 移댄넚諛?3媛??띾낫 硫붿떆吏 (30遺?
-二?1?? ?붾젅洹몃옩 ?먮룞諛쒗뻾 ?뺤긽 ?뺤씤 (1遺?
-??1?? ?깆빟 嫄댁닔 吏묎퀎 ??蹂댁“ ?몃젰 ?ъ엯 ?щ? 寃곗젙
-遺꾧린 1?? ??肄섑뀗痢?15媛?異붽? (15遺?
-```
-
----
-
-# ?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺
-# 湲닿툒 ?곕씫泥?諛??꾩? 諛쏅뒗 諛⑸쾿
-# ?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺?곣봺
+## 다음 달부터 (6월~)
 
 ```
-?쒖뒪??臾몄쓽: GitHub Copilot (????붿갹) ?먯꽌 吏덈Ц
-?덊럹?댁? 臾몄젣: saeloan.co.kr ?묒냽 ????????Vercel.com 濡쒓렇??
-?붾젅洹몃옩 遊?臾몄젣: @BotFather ?먯꽌 ?좏겙 ?щ컻湲?
-援ш? ??臾몄젣: forms.google.com ?ㅼ떆 ?묒냽
-
-臾댁뾿?대뱺 紐⑤Ⅴ??寃???????붿갹?먯꽌 吏덈Ц?섎㈃ 利됱떆 ?듬?!
+매일: 이메일 확인 → 전화 상담 (자동 인입)
+매일: 공인중개사·세무사 카톡방 3개 홍보 메시지 (30분)
+주 1회: 텔레그램 자동발행 정상 확인 (1분)
+월 1회: 성약 건수 집계 → 보조 인력 투입 여부 결정
+분기 1회: 새 콘텐츠 15개 추가 (15분)
 ```
 
 ---
 
-*?묒꽦: 2026-05-17 | ?덈줎湲덉쑖?遺以묎컻 ?꾩쟾 ?먮룞??AI Agent ?쒖뒪??v1.0*
-*????꾩튂: https://github.com/HeeJeonLee/saeloan-financial/blob/main/COMPLETE_GUIDE.md*
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 긴급 연락처 및 도움 받는 방법
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+```
+시스템 문의: GitHub Copilot (이 대화창) 에서 질문
+홈페이지 문제: saeloan.co.kr 접속 안 될 때 → Vercel.com 로그인
+텔레그램 봇 문제: @BotFather 에서 토큰 재발급
+구글 폼 문제: forms.google.com 다시 접속
+
+무엇이든 모르는 것 → 이 대화창에서 질문하면 즉시 답변!
+```
+
+---
+
+*작성: 2026-05-17 | 새론금융대부중개 완전 자동화 AI Agent 시스템 v1.0*
+*저장 위치: https://github.com/HeeJeonLee/saeloan-financial/blob/main/COMPLETE_GUIDE.md*
+
+
 
 ---
 
@@ -60944,353 +61622,357 @@ AI ??諛쒖쟾 諛섏쁺 援ъ“:
 
 ---
 
-# ?꾪뙆?몃떞蹂대?異??쒖옣遺꾩꽍 蹂닿퀬??
-## 湲덉쑖沅?+ ?遺(以묎컻)???듯빀 遺꾩꽍
-### ?묒꽦: 2026-05-17 | ?덈줎湲덉쑖?遺以묎컻 ?댄씗????μ슜
+# 아파트담보대출 시장분석 보고서
+## 금융권 + 대부(중개)업 통합 분석
+### 작성: 2026-05-17 | 새론금융대부중개 이희전 팀장용
 
 ---
 
-## ?쒕줎: 遺꾩꽍 紐⑹쟻
+## 서론: 분석 목적
 
-蹂?蹂닿퀬?쒕뒗 ?덈줎湲덉쑖?遺以묎컻媛 吏묒쨷 怨듬왂??2媛??듭떖 ?寃잛뿉 ???
-?쒖옣 洹쒕え쨌援ъ“쨌寃쎌웳 ?섍꼍??遺꾩꽍?섏뿬 理쒖쟻 ?곸뾽?꾨왂 ?섎┰???쒖슜?섍린 ?꾪빐 ?묒꽦?⑸땲??
+본 보고서는 새론금융대부중개가 집중 공략할 2개 핵심 타겟에 대한
+시장 규모·구조·경쟁 환경을 분석하여 최적 영업전략 수립에 활용하기 위해 작성합니다.
 
-**?듭떖 ?寃?**
-1. ?쒖슱쨌?섎룄沅??꾪뙆??蹂댁쑀 ?먯쁺?낆옄 ???앺솢?덉젙?먭툑 1??珥덇낵 ?꾩슂??
-2. ?쒖슱쨌?섎룄沅??꾪뙆??援ъ엯?먭툑 ?????LTV ?쒕룄 珥덇낵遺??遺??釉뚮┸吏 + ?좏삊쨌湲덇퀬 ?꾪솚
+**핵심 타겟:**
+1. 서울·수도권 아파트 보유 자영업자 → 생활안정자금 1억 초과 필요자
+2. 서울·수도권 아파트 구입자금 → 은행 LTV 한도 초과분 대부업 브릿지 + 신협·금고 전환
 
 ---
 
-# PART 1. 湲덉쑖沅??꾪뙆?몃떞蹂대?異??쒖옣 ?꾪솴
+# PART 1. 금융권 아파트담보대출 시장 현황
 
-## 1-1. ?쒖옣 洹쒕え (?쒓뎅??됀룰툑?듦컧?낆썝 ?듦퀎 湲곕컲)
+## 1-1. 시장 규모 (한국은행·금융감독원 통계 기반)
 
-### ?꾩껜 媛怨꾨?異쑣룹＜?앸떞蹂대?異?洹쒕え
+### 전체 가계대출·주택담보대출 규모
 
-| 援щ텇 | ?붿븸(2025?꾨쭚 湲곗?) | ?꾨뀈 ?鍮?|
+| 구분 | 잔액(2025년말 기준) | 전년 대비 |
 |---|---|---|
-| ?꾩껜 媛怨꾨?異?| ??1,900議곗썝 | +3~4% |
-| 二쇳깮?대낫?異?(湲덉쑖沅??꾩껜) | ??1,050議곗썝 | +5~6% |
-| ??以???됯텒 二쇰떞? | ??820議곗썝 | +5% |
-| ??以?鍮꾩???蹂댄뿕쨌?異빧룹떊???? | ??230議곗썝 | +4% |
+| 전체 가계대출 | 약 1,900조원 | +3~4% |
+| 주택담보대출 (금융권 전체) | 약 1,050조원 | +5~6% |
+| 이 중 은행권 주담대 | 약 820조원 | +5% |
+| 이 중 비은행(보험·저축·신협 등) | 약 230조원 | +4% |
 
-**?쒖슱쨌?섎룄沅?鍮꾩쨷:** ?꾩껜 二쇰떞?????65~70% 異붿젙
-??**?쒖슱쨌?섎룄沅?二쇰떞? ?붿븸: ??680議?735議곗썝**
+**서울·수도권 비중:** 전체 주담대의 약 65~70% 추정
+→ **서울·수도권 주담대 잔액: 약 680조~735조원**
 
 ---
 
-## 1-2. 二쇳깮援ъ엯?먭툑 ?異??쒖옣
+## 1-2. 주택구입자금 대출 시장
 
-### 洹쒕え 諛??뱀꽦
+### 규모 및 특성
 
-| ??ぉ | ?댁슜 |
+| 항목 | 내용 |
 |---|---|
-| ?곌컙 ?좉퇋 二쇳깮?대낫?異??ㅽ뻾??| ??150議?200議곗썝 (??됯텒 湲곗?) |
-| ??以?二쇳깮援ъ엯 紐⑹쟻 鍮꾩쨷 | ??50~60% (??80議?120議곗썝) |
-| ?쒖슱쨌?섎룄沅??꾪뙆??援ъ엯 二쇰떞? | ??40議?60議곗썝/??異붿젙 |
+| 연간 신규 주택담보대출 실행액 | 약 150조~200조원 (은행권 기준) |
+| 이 중 주택구입 목적 비중 | 약 50~60% (약 80조~120조원) |
+| 서울·수도권 아파트 구입 주담대 | 약 40조~60조원/년 추정 |
 
-### 2026??洹쒖젣 ?꾪솴 (?듭떖)
+### 2026년 규제 현황 (핵심)
 
 ```
-[二쇳깮?대낫?異쒕퉬??LTV]
-洹쒖젣吏??(?쒖슱 ?꾩뿭 + 怨쇱쿇쨌?깅궓쨌?섎궓쨌愿묐챸 ??:
-  ??LTV 40% (?? DSR쨌RTI 異붽? ?곸슜)
+[주택담보대출비율 LTV]
+규제지역 (서울 전역 + 과천·성남·하남·광명 등):
+  → LTV 40% (단, DSR·RTI 추가 적용)
 
-鍮꾧퇋?쒖???
-  ??LTV 70%
+비규제지역:
+  → LTV 70%
 
-[????ㅽ뻾 ?쒕룄 ?곹븳]
-KB?쒖꽭 15???댄븯  ??理쒕? 6??
-KB?쒖꽭 15??25?? ??理쒕? 4??
-KB?쒖꽭 25??珥덇낵  ??理쒕? 2??
+[은행 실행 한도 상한]
+KB시세 15억 이하  → 최대 6억
+KB시세 15억~25억  → 최대 4억
+KB시세 25억 초과  → 최대 2억
 
-[DSR 洹쒖젣]
-珥앸?梨꾩썝由ш툑?곹솚鍮꾩쑉 40% ?곸슜 (??됯텒)
-???뚮뱷 利앸튃 ?꾩닔, ?먯쁺?낆옄 遺덈━
+[DSR 규제]
+총부채원리금상환비율 40% 적용 (은행권)
+→ 소득 증빙 필수, 자영업자 불리
 ```
 
-### 援ъ엯?먭툑 ?쒖옣???듭떖 援ъ“??怨듬갚
+### 구입자금 시장의 핵심 구조적 공백
 
-**臾몄젣:** ?쒖슱 ?꾪뙆???됯퇏 留ㅻℓ媛 (2026??湲곗? ??12~13??
-- ???理쒕? ?쒕룄 6?????먭린?먭툑 6??7???꾩슂
-- ?ㅼ젣 媛? ?섏뼲~?섏떗??
+**문제:** 서울 아파트 평균 매매가 (2026년 기준 약 12~13억)
+- 은행 최대 한도 6억 → 자기자금 6억~7억 필요
+- 실제 갭: 수억~수십억
 
-**?뱁엳 怨좉? ?꾪뙆??援ъ엯 ??**
+**특히 고가 아파트 구입 시:**
 ```
-?? 媛뺣궓援?25???꾪뙆??
-  ??? 理쒕? 2??(LTV 40%?대굹 ?곹븳 2???곸슜)
-  ?꾩슂 ?먭린?먭툑: 23??
-  ???꾩떎?곸쑝濡??쒖닔 ?먭린?먭툑 23??蹂댁쑀?먮뒗 洹뱀냼??
-  ???遺??釉뚮┸吏 ?섏슂 諛쒖깮
+예) 강남구 25억 아파트:
+  은행: 최대 2억 (LTV 40%이나 상한 2억 적용)
+  필요 자기자금: 23억
+  → 현실적으로 순수 자기자금 23억 보유자는 극소수
+  → 대부업 브릿지 수요 발생
 ```
 
-**?닿쾬??怨??덈줎湲덉쑖??湲고쉶?낅땲??**
+**이것이 곧 새론금융의 기회입니다.**
 
 ---
 
-## 1-3. ?앺솢?덉젙?먭툑 ?異??쒖옣
+## 1-3. 생활안정자금 대출 시장
 
-### 洹쒕え
+### 규모
 
-| ??ぉ | ?댁슜 |
+| 항목 | 내용 |
 |---|---|
-| ??됯텒 二쇰떞? 以??앺솢?덉젙?먭툑 鍮꾩쨷 | ??15~20% |
-| ?곌컙 ?ㅽ뻾 異붿젙??| ??20議?30議곗썝 |
-| 1二쇳깮???쒕룄 | 理쒕? 1?듭썝 (2023???댄썑 媛뺥솕) |
-| 二쇱슂 ???| ?앺솢鍮? ?ъ뾽?먭툑, ?먮??숇퉬, ?섎즺鍮???|
+| 은행권 주담대 중 생활안정자금 비중 | 약 15~20% |
+| 연간 실행 추정액 | 약 20조~30조원 |
+| 1주택자 한도 | 최대 1억원 (2023년 이후 강화) |
+| 주요 대상 | 생활비, 사업자금, 자녀학비, 의료비 등 |
 
-### ?앺솢?덉젙?먭툑 洹쒖젣 ?고쁺
+### 생활안정자금 규제 연혁
 
 ```
-2021?? ?ш린吏??1二쇳깮???앺솢?덉젙?먭툑 ?좉퇋 ?쒗븳
-2022?? ??洹쒖젣吏??1???쒕룄 ?곸슜
-2023?? ?꾧뎅 二쇱슂吏??1???쒕룄 ?뺣? ?곸슜
-2024?? : ?ㅼ쭏?곸쑝濡???됯텒?먯꽌 1??珥덇낵 遺덇?
+2021년: 투기지역 1주택자 생활안정자금 신규 제한
+2022년: 전 규제지역 1억 한도 적용
+2023년: 전국 주요지역 1억 한도 확대 적용
+2024년~ : 실질적으로 은행권에서 1억 초과 불가
 ```
 
-### ?먯쁺?낆옄 ?섏슂 遺꾩꽍
+### 자영업자 수요 분석
 
-**援?궡 ?먯쁺?낆옄 ?꾪솴 (2026??湲곗?):**
-- ?꾩껜 ?먯쁺?낆옄: ??570留?紐?
-- ?쒖슱쨌?섎룄沅??먯쁺?낆옄: ??230留?紐?
-- ?꾪뙆??蹂댁쑀 ?먯쁺?낆옄: 異붿젙 ??80~100留?紐?
+**국내 자영업자 현황 (2026년 기준):**
+- 전체 자영업자: 약 570만 명
+- 서울·수도권 자영업자: 약 230만 명
+- 아파트 보유 자영업자: 추정 약 80~100만 명
 
-**?먯쁺?낆옄???뱀닔???먭툑 ?섏슂:**
+**자영업자의 특수한 자금 수요:**
 ```
-1. ?ъ뾽 ?댁쁺?먭툑 遺議?(留ㅼ텧 怨꾩젅?굿룸텋洹쒖튃??
-2. ?멸툑 ?⑸? ?먭툑 (遺媛?? 踰뺤씤??遺꾧린蹂?
-3. ?명뀒由ъ뼱쨌由щえ?몃쭅 ?먭툑
-4. 吏곸썝 湲됱뿬쨌?댁쭅湲?留덈젴
-5. 肄붾줈???異?留뚭린 ?꾨옒 ?곹솚 ?먭툑
+1. 사업 운영자금 부족 (매출 계절성·불규칙성)
+2. 세금 납부 자금 (부가세, 법인세 분기별)
+3. 인테리어·리모델링 자금
+4. 직원 급여·퇴직금 마련
+5. 코로나 대출 만기 도래 상환 자금
 ```
 
-**??됱뿉?????섎뒗 ?댁쑀:**
-- DSR 洹쒖젣: ?먯쁺?낆옄 ?뚮뱷 ?몄젙 源뚮떎濡쒖?
-- ?ъ뾽???異??쒕룄 ?뚯쭊
-- 媛쒖씤?좎슜?異??쒕룄 ??쓬
-- ?앺솢?덉젙?먭툑 1???쒕룄 ?뚯쭊
+**은행에서 안 되는 이유:**
+- DSR 규제: 자영업자 소득 인정 까다로움
+- 사업자 대출 한도 소진
+- 개인신용대출 한도 낮음
+- 생활안정자금 1억 한도 소진
 
-??**?섎룄沅??꾪뙆??蹂댁쑀 ?먯쁺?낆옄 以??遺???꾪뙆?몃떞蹂대?異??섏슂: ?곌컙 ?섎쭔 嫄?異붿젙**
+→ **수도권 아파트 보유 자영업자 중 대부업 아파트담보대출 수요: 연간 수만 건 추정**
 
 ---
 
-# PART 2. ?遺(以묎컻)???꾪뙆?몃떞蹂대?異??쒖옣
+# PART 2. 대부(중개)업 아파트담보대출 시장
 
-## 2-1. ?遺???꾩껜 ?쒖옣 洹쒕え
+## 2-1. 대부업 전체 시장 규모
 
-### 湲덇컧???遺???ㅽ깭議곗궗 (理쒓렐 怨듭떆 湲곗?)
+### 금감원 대부업 실태조사 (최근 공시 기준)
 
-| 援щ텇 | ?섏튂 |
+| 구분 | 수치 |
 |---|---|
-| ?깅줉 ?遺?낆껜 ??| ??8,000~9,000媛?(?꾧뎅) |
-| ?遺???꾩껜 ?異쒖옍??| ??15~17議곗썝 |
-| ??以?媛쒖씤 遺?숈궛?대낫?異?鍮꾩쨷 | ??30~35% |
-| 遺?숈궛?대낫 ?異쒖옍??| ??4.5~6議곗썝 異붿젙 |
-| ?쒖슱쨌?섎룄沅?鍮꾩쨷 | ??70% |
-| **?쒖슱쨌?섎룄沅??遺??遺?숈궛?대낫 ?붿븸** | **??3~4議곗썝** |
+| 등록 대부업체 수 | 약 8,000~9,000개 (전국) |
+| 대부업 전체 대출잔액 | 약 15~17조원 |
+| 이 중 개인 부동산담보대출 비중 | 약 30~35% |
+| 부동산담보 대출잔액 | 약 4.5~6조원 추정 |
+| 서울·수도권 비중 | 약 70% |
+| **서울·수도권 대부업 부동산담보 잔액** | **약 3~4조원** |
 
-### ?遺以묎컻???쒖옣
+### 대부중개업 시장
 
-| 援щ텇 | ?섏튂 |
+| 구분 | 수치 |
 |---|---|
-| ?깅줉 ?遺以묎컻?낆껜 ??| ??1,500~2,000媛?|
-| ?곌컙 ?遺以묎컻 ?ㅽ뻾 異붿젙??| ??3~5議곗썝 |
-| ?됯퇏 ?섏닔猷뚯쑉 (以묎컻蹂댁닔) | 0% (踰뺤쟻?쇰줈 ?섏랬 遺덇?) |
-| ?ㅼ쭏 ?섏씡??| ?遺?낆껜濡쒕????뚭컻?섏닔猷?|
+| 등록 대부중개업체 수 | 약 1,500~2,000개 |
+| 연간 대부중개 실행 추정액 | 약 3~5조원 |
+| 평균 수수료율 (중개보수) | 0% (법적으로 수취 불가) |
+| 실질 수익원 | 대부업체로부터 소개수수료 |
 
 ---
 
-## 2-2. ?꾪뙆?몃떞蹂??뱁솕 ?遺?낆껜 ?꾪솴 諛??곸뾽諛⑹떇
+## 2-2. 아파트담보 특화 대부업체 현황 및 영업방식
 
-### 二쇱슂 ?낆껜 ?좏삎
+### 주요 업체 유형
 
-**Type A: ????遺??吏곸젒 ?異쒖궗**
-- ?? ?ъ떆?ㅼ틦???꾪봽濡쒗뙆?대궦??, 由щ뱶肄뷀봽, ?곗뺨?щ젅?붾씪??
-- ?뱀쭠: ?좎슜?異??꾩＜, 遺?숈궛?대낫???쇰?留?痍④툒
-- 洹쒕え: ?붿븸 ?섏쿇???섏“??
+**Type A: 대형 대부업 직접 대출사**
+- 예: 러시앤캐시(아프로파이낸셜), 리드코프, 웰컴크레디라인
+- 특징: 신용대출 위주, 부동산담보는 일부만 취급
+- 규모: 잔액 수천억~수조원
 
-**Type B: 遺?숈궛?대낫 ?꾨Ц 以묒냼 ?遺?낆궗**
-- ?? 媛?吏???깅줉 ?ш툑?듭뾽泥?
-- ?뱀쭠: ?꾪뙆?맞룹긽媛쨌?좎? ?대낫 ?꾨Ц
-- 洹쒕え: ?낆껜???붿븸 ?섏떗???섎갚??
+**Type B: 부동산담보 전문 중소 대부업사**
+- 예: 각 지역 등록 사금융업체
+- 특징: 아파트·상가·토지 담보 전문
+- 규모: 업체당 잔액 수십억~수백억
 
-**Type C: ?遺以묎컻 ?꾨Ц??(?덈줎湲덉쑖 ?좏삎)**
-- 吏곸젒 ?異??놁씠 ?ㅼ닔 ?遺?낆껜 ?곌껐
-- 怨좉컼 留욎땄???곹뭹 鍮꾧탳 ?쒓났
-- 洹쒕え: 以묎컻 ?ㅽ뻾?????섏뼲~?섏떗??
-
----
-
-## 2-3. ?遺?낆껜 ?곸뾽諛⑹떇 ?곸꽭 遺꾩꽍
-
-### 2-3-1. ?⑤씪???곸뾽 (二쇱슂 梨꾨꼸)
-
-**???ㅼ씠踰꽷룰뎄湲 寃?됯킅怨?*
-- ?ㅼ썙?? "?꾪뙆?몃떞蹂대?異?, "?ъ뾽?먮떞蹂대?異?, "湲됱쟾" ??
-- ??愿묎퀬鍮? ?낆껜???섎갚留??섏쿇留뚯썝
-- ?대┃??鍮꾩슜: 5,000~30,000??(寃쎌웳 ?믪쓬)
-- ?꾪솚?? 1~3%
-
-??**?덈줎湲덉쑖 ?꾨왂: 愿묎퀬鍮??놁씠 肄섑뀗痢?留덉???+ ?꾨Ц?깆쑝濡?李⑤퀎??*
-
-**???ㅼ씠踰?釉붾줈洹?SEO**
-- "?꾪뙆?몃떞蹂대?異??쒕룄珥덇낵" ??濡깊뀒???ㅼ썙??怨듬왂
-- ?곸쐞 ?몄텧 ?????섎갚~?섏쿇 紐?臾대즺 ?좎엯
-
-**???좏뒠釉?梨꾨꼸**
-- ????낆껜?ㅼ씠 湲덉쑖援먯쑁 肄섑뀗痢좊줈 ?좊ː 援ъ텞
-- 議고쉶??湲곕컲 由щ뱶 ?뺣낫
-
-**??移댁뭅?ㅼ콈??*
-- ?ㅼ떆媛??곷떞 + ?異?議곌굔 ?덈궡
-
-### 2-3-2. ?ㅽ봽?쇱씤 ?곸뾽
-
-**??怨듭씤以묎컻???묒뾽 (?듭떖 梨꾨꼸)**
-- ?꾪뙆??留ㅻℓ 以묎컻 ???붽툑 遺議?怨좉컼 ?곌껐
-- 怨듭씤以묎컻?????遺??釉뚮┸吏 ?뚭컻 ?섏닔猷?援ъ“
-- **?덈줎湲덉쑖 ?듭떖 ?꾨왂 ?ъ씤??*
-
-**???몃Т??룻쉶怨꾩궗 ?묒뾽**
-- ?먯쁺?낆옄 ?멸툑 ?⑸? ?먭툑 ?꾩슂 ???뚭컻
-- ?좊ː???믪? 猷⑦듃
-
-**??踰뺣Т???묒뾽**
-- 寃쎈ℓ ?숈같 ?붽툑, 洹쇱????ㅼ젙 ?낅Т ?곌퀎
-
-**??踰뺤썝 寃쎈ℓ ?뺣낫 紐⑤땲?곕쭅**
-- ?숈같?먯뿉寃?吏곸젒 ?묎렐 (?붽툑?異??덉쫰)
-- 踰뺤썝 寃쎈ℓ ?숈같 紐⑸줉 ???숈같???뺣낫 ?뺤씤 ???곕씫
-
-### 2-3-3. ?섏씡 援ъ“
-
-```
-[?遺以묎컻?낆껜 ?섏씡 ?먮쫫]
-
-怨좉컼 ???遺以묎컻???덈줎湲덉쑖) ???遺?낆껜(吏곸젒 ?異쒖궗)
-                                      ??
-                            ?뚭컻?섏닔猷?吏湲?(?異쒓툑?≪쓽 1~3%)
-                            ???덈줎湲덉쑖 ?섏엯
-
-?? 2???異?以묎컻 ??
-  ?뚭컻?섏닔猷?1.5%: 300留뚯썝/嫄?
-  ??10嫄?以묎컻: ??3,000留뚯썝 留ㅼ텧
-```
+**Type C: 대부중개 전문사 (새론금융 유형)**
+- 직접 대출 없이 다수 대부업체 연결
+- 고객 맞춤형 상품 비교 제공
+- 규모: 중개 실행액 월 수억~수십억
 
 ---
 
-## 2-4. ?듭떖 怨듬왂 ?寃잙퀎 ?쒖옣 洹쒕え 異붿젙
+## 2-3. 대부업체 영업방식 상세 분석
 
-### ?寃잂몺: ?먯쁺?낆옄 ?앺솢?덉젙?먭툑 珥덇낵 ?섏슂
+### 2-3-1. 온라인 영업 (주요 채널)
 
-**?쒖옣 異붿젙:**
+**① 네이버·구글 검색광고**
+- 키워드: "아파트담보대출", "사업자담보대출", "급전" 등
+- 월 광고비: 업체당 수백만~수천만원
+- 클릭당 비용: 5,000~30,000원 (경쟁 높음)
+- 전환율: 1~3%
+
+→ **새론금융 전략: 광고비 없이 콘텐츠 마케팅 + 전문성으로 차별화**
+
+**② 네이버 블로그 SEO**
+- "아파트담보대출 한도초과" 등 롱테일 키워드 공략
+- 상위 노출 시 월 수백~수천 명 무료 유입
+
+**③ 유튜브 채널**
+- 대형 업체들이 금융교육 콘텐츠로 신뢰 구축
+- 조회수 기반 리드 확보
+
+**④ 카카오채널**
+- 실시간 상담 + 대출 조건 안내
+
+### 2-3-2. 오프라인 영업
+
+**① 공인중개사 협업 (핵심 채널)**
+- 아파트 매매 중개 시 잔금 부족 고객 연결
+- 공인중개사 → 대부업 브릿지 소개 수수료 구조
+- **새론금융 핵심 전략 포인트**
+
+**② 세무사·회계사 협업**
+- 자영업자 세금 납부 자금 필요 시 소개
+- 신뢰도 높은 루트
+
+**③ 법무사 협업**
+- 경매 낙찰 잔금, 근저당 설정 업무 연계
+
+**④ 법원 경매 정보 모니터링**
+- 낙찰자에게 직접 접근 (잔금대출 니즈)
+- 법원 경매 낙찰 목록 → 낙찰자 정보 확인 → 연락
+
+### 2-3-3. 수익 구조
+
 ```
-?쒖슱쨌?섎룄沅??꾪뙆??蹂댁쑀 ?먯쁺?낆옄: ??80~100留?紐?
-??以??곌컙 異붽? ?먭툑 ?꾩슂 鍮꾩쑉: ??5~10%
-= ?곌컙 ?좎옱 ?섏슂: 4留?10留?嫄?
-?됯퇏 ?異쒓툑?? 1??3??
+[대부중개업체 수익 흐름]
 
-?곌컙 ?좎옱 ?쒖옣洹쒕え: ??4議?30議곗썝
+고객 → 대부중개사(새론금융) → 대부업체(직접 대출사)
+                                      ↓
+                            소개수수료 지급 (대출금액의 1~3%)
+                            → 새론금융 수입
+
+예) 2억 대출 중개 시:
+  소개수수료 1.5%: 300만원/건
+  월 10건 중개: 약 3,000만원 매출
 ```
-
-**?ㅼ쭏 ?깆빟 媛??鍮꾩쑉:** ??20~30% (?대낫媛移샕룰린議댁콈臾?怨좊젮)
-??**?ㅼ쭏 ?쒖옣: ?곌컙 1留?3留?嫄? ??1議?9議곗썝**
-
-### ?寃잂몼: ?꾪뙆??援ъ엯?먭툑 釉뚮┸吏 ?섏슂
-
-**?쒖옣 異붿젙:**
-```
-?쒖슱쨌?섎룄沅??곌컙 ?꾪뙆??嫄곕옒?? ??15留?20留?嫄?
-???LTV ?쒕룄 援ъ“?곸쑝濡?遺議깊븳 嫄곕옒 鍮꾩쑉: ??30~40%
-= ?곌컙 ?좎옱 ?섏슂: 4留?泥?8留?嫄?
-
-??以??ㅼ젣 ?遺??釉뚮┸吏 ?쒖슜 鍮꾩쑉: ??5~10%
-= ?곌컙 ?ㅼ쭏 ?섏슂: 2,250~8,000嫄?
-?됯퇏 ?異쒓툑?? 3??10??
-```
-
-??**?ㅼ쭏 ?쒖옣: ?곌컙 ??2泥?8泥?嫄? ??1議?6議곗썝**
 
 ---
 
-# PART 3. 寃쎌웳 ?섍꼍 遺꾩꽍
+## 2-4. 핵심 공략 타겟별 시장 규모 추정
 
-## 3-1. ?遺以묎컻??寃쎌웳 ?꾪솴
+### 타겟①: 자영업자 생활안정자금 초과 수요
 
-| 寃쎌웳 媛뺣룄 | ?됯? |
+**시장 추정:**
+```
+서울·수도권 아파트 보유 자영업자: 약 80~100만 명
+이 중 연간 추가 자금 필요 비율: 약 5~10%
+= 연간 잠재 수요: 4만~10만 건
+평균 대출금액: 1억~3억
+
+연간 잠재 시장규모: 약 4조~30조원
+```
+
+**실질 성약 가능 비율:** 약 20~30% (담보가치·기존채무 고려)
+→ **실질 시장: 연간 1만~3만 건, 약 1조~9조원**
+
+### 타겟②: 아파트 구입자금 브릿지 수요
+
+**시장 추정:**
+```
+서울·수도권 연간 아파트 거래량: 약 15만~20만 건
+은행 LTV 한도 구조적으로 부족한 거래 비율: 약 30~40%
+= 연간 잠재 수요: 4만5천~8만 건
+
+이 중 실제 대부업 브릿지 활용 비율: 약 5~10%
+= 연간 실질 수요: 2,250~8,000건
+평균 대출금액: 3억~10억
+```
+
+→ **실질 시장: 연간 약 2천~8천 건, 약 1조~6조원**
+
+---
+
+# PART 3. 경쟁 환경 분석
+
+## 3-1. 대부중개업 경쟁 현황
+
+| 경쟁 강도 | 평가 |
 |---|---|
-| ?ㅼ씠踰?愿묎퀬 寃쎌웳 | 洹밸룄濡?移섏뿴 (吏꾩엯 ?대젮?) |
-| ?ㅽ봽?쇱씤 怨듭씤以묎컻???ㅽ듃?뚰겕 | 以묎컙 ?섏? |
-| 釉뚮┸吏+?꾪솚 ?먯뒪???쒕퉬??| **寃쎌웳 ?곸쓬 (李⑤퀎??湲고쉶)** |
-| ?먯쁺?낆옄 ?꾨Ц ?곷떞 | **寃쎌웳 ?곸쓬 (李⑤퀎??湲고쉶)** |
-| SNS 肄섑뀗痢?留덉???| ?꾩쭅 釉붾（?ㅼ뀡 |
+| 네이버 광고 경쟁 | 극도로 치열 (진입 어려움) |
+| 오프라인 공인중개사 네트워크 | 중간 수준 |
+| 브릿지+전환 원스톱 서비스 | **경쟁 적음 (차별화 기회)** |
+| 자영업자 전문 상담 | **경쟁 적음 (차별화 기회)** |
+| SNS 콘텐츠 마케팅 | 아직 블루오션 |
 
-## 3-2. 李⑤퀎???ъ씤??(?덈줎湲덉쑖??媛뺤젏)
+## 3-2. 차별화 포인트 (새론금융의 강점)
 
-寃쎌웳???遺遺꾩씠 **?⑥닚 ?異?以묎컻**??吏묒쨷?섎뒗 諛섎㈃,
-?덈줎湲덉쑖? **"釉뚮┸吏 ???좏삊쨌湲덇퀬 ?꾪솚"?대씪??2?④퀎 異쒓뎄 ?꾨왂**???쒓났 媛??
+경쟁사 대부분이 **단순 대출 중개**에 집중하는 반면,
+새론금융은 **"브릿지 → 신협·금고 전환"이라는 2단계 출구 전략**을 제공 가능
 
-???닿쾬???듭떖 李⑤퀎???ъ씤?몄씠硫? 怨좉컼 ?낆옣?먯꽌 **吏꾩쭨 ?붾（???쒓났??*媛 ?⑸땲??
+→ 이것이 핵심 차별화 포인트이며, 고객 입장에서 **진짜 솔루션 제공자**가 됩니다.
 
 ---
 
-# PART 4. 寃곕줎 諛??꾨왂 諛⑺뼢 (?댄씗????κ낵 ?ъ링 ?쇱쓽???ы빆)
+# PART 4. 결론 및 전략 방향 (이희전 팀장과 심층 논의할 사항)
 
-## 4-1. ???寃잛쓽 ?곗꽑?쒖쐞
+## 4-1. 두 타겟의 우선순위
 
-| ?寃?| ?쒖옣 洹쒕え | 寃쎌웳媛뺣룄 | 嫄대떦 ?섏씡 | ?곗꽑?쒖쐞 |
+| 타겟 | 시장 규모 | 경쟁강도 | 건당 수익 | 우선순위 |
 |---|---|---|---|---|
-| ???먯쁺?낆옄 ?앺솢?덉젙?먭툑 | ? | 以?| 以?(1??3?? | **利됱떆 怨듬왂** |
-| ??援ъ엯?먭툑 釉뚮┸吏 | 以?| ??쓬 | 怨?(3??10?? | **李⑤퀎??怨듬왂** |
+| ① 자영업자 생활안정자금 | 대 | 중 | 중 (1억~3억) | **즉시 공략** |
+| ② 구입자금 브릿지 | 중 | 낮음 | 고 (3억~10억) | **차별화 공략** |
 
-??**?좊줈 利됱떆 ?섏씡 李쎌텧, ?〓줈 怨좎닔???ъ??붾떇**
+→ **①로 즉시 수익 창출, ②로 고수익 포지셔닝**
 
-## 4-2. 媛???④낵?곸씤 由щ뱶 ?뺣낫 梨꾨꼸 (鍮꾩슜 ?⑥쑉 ??
+## 4-2. 가장 효과적인 리드 확보 채널 (비용 효율 순)
 
 ```
-1?? 怨듭씤以묎컻???ㅽ듃?뚰겕 援ъ텞 (臾대즺, 怨좏슚??
-     ???쒖슱쨌?섎룄沅?遺?숈궛 以묎컻?낆냼 諛⑸Ц or ?곕씫
-     ??"?꾪뙆???붽툑 遺議?怨좉컼 ?곌껐" ?쒖븞
+1위. 공인중개사 네트워크 구축 (무료, 고효율)
+     → 서울·수도권 부동산 중개업소 방문 or 연락
+     → "아파트 잔금 부족 고객 연결" 제안
 
-2?? ?몃Т??룻쉶怨꾩궗 ?묒뾽 (臾대즺, 怨좎떊猶?
-     ???섏썝쨌?쒖슱 ?몃Т?ы삊???곕씫
-     ???먯쁺?낆옄 ?멸툑?먭툑 ?꾩슂 ???뚭컻
+2위. 세무사·회계사 협업 (무료, 고신뢰)
+     → 수원·서울 세무사협회 연락
+     → 자영업자 세금자금 필요 시 소개
 
-3?? ?ㅼ씠踰?釉붾줈洹?SEO (?쒓컙 ?ъ옄)
-     ??"?꾪뙆?몃떞蹂대?異?1?듭큹怨?, "援ъ엯?먭툑 遺議? ?ㅼ썙??
+3위. 네이버 블로그 SEO (시간 투자)
+     → "아파트담보대출 1억초과", "구입자금 부족" 키워드
 
-4?? ?붾젅洹몃옩/SNS ?먮룞??(?대? 援ъ텞 ?꾨즺)
-     ???κ린???좊ː 援ъ텞
+4위. 텔레그램/SNS 자동화 (이미 구축 완료)
+     → 장기적 신뢰 구축
 
-5?? 踰뺤썝寃쎈ℓ ?숈같???묎렐 (?뺣낫 ?쒖슜)
-     ???踰뺤썝 寃쎈ℓ ?ъ씠???숈같 紐⑸줉 ???붽툑?異??곕씫
+5위. 법원경매 낙찰자 접근 (정보 활용)
+     → 대법원 경매 사이트 낙찰 목록 → 잔금대출 연락
 ```
 
-## 4-3. ?댄씗????λ떂猿??쒕━???듭떖 吏덈Ц (?꾨왂 ?섎┰??
+## 4-3. 이희전 팀장님께 드리는 핵심 질문 (전략 수립용)
 
-?꾨옒 ?ы빆???④퍡 ?쇱쓽?섍쿋?듬땲??
+아래 사항을 함께 논의하겠습니다:
 
-1. **?뚰듃???遺?낆껜 ?꾪솴**: ?꾩옱 ?곌퀎???遺?낆껜 以??꾪뙆?몃떞蹂?痍④툒 媛?ν븳 怨녹??
-2. **?섏닔猷?援ъ“**: ?뚭컻?섏닔猷??꾩옱 ?묒빟 ?꾪솴??
-3. **LTV 媛???섏?**: ?遺?낆껜?ㅼ씠 ?쒖슱 ?꾪뙆??湲곗? LTV 紐?%源뚯? 媛?ν븳媛?
-4. **?좏삊쨌湲덇퀬 ?꾪솚 猷⑦듃**: 3媛쒖썡 ???꾪솚 ?곌퀎 ?좏삊쨌湲덇퀬媛 ?뺣낫?섏뼱 ?덈뒗媛?
-5. **怨듭씤以묎컻???ㅽ듃?뚰겕**: 湲곗〈???꾨뒗 怨듭씤以묎컻?ш? ?덈뒗媛?
-6. **??紐⑺몴 ?ㅽ뻾 嫄댁닔**: 珥덇린 ??紐?嫄댁쓣 紐⑺몴濡??섎뒗媛?
+1. **파트너 대부업체 현황**: 현재 연계된 대부업체 중 아파트담보 취급 가능한 곳은?
+2. **수수료 구조**: 소개수수료 현재 협약 현황은?
+3. **LTV 가능 수준**: 대부업체들이 서울 아파트 기준 LTV 몇 %까지 가능한가?
+4. **신협·금고 전환 루트**: 3개월 후 전환 연계 신협·금고가 확보되어 있는가?
+5. **공인중개사 네트워크**: 기존에 아는 공인중개사가 있는가?
+6. **월 목표 실행 건수**: 초기 월 몇 건을 목표로 하는가?
 
 ---
 
-## 李멸퀬: ??λ떂 25??湲덉쑖 寃쎈젰 ?쒖슜 ?ъ씤??
+## 참고: 팀장님 25년 금융 경력 활용 포인트
 
-- **????ъ궗 湲곗? ?숈?** ??"??됱뿉????嫄곗젅?먮뒗吏" ?뺥솗???뚯븙 ???遺???곌껐
-- **?좏삊쨌湲덇퀬 ?꾪솚 ?꾨왂** ???ㅼ젣 議곌굔 ?묒긽 ?λ젰 (湲덉쑖沅??몃㎘ ?쒖슜)
-- **踰뺤쟻 由ъ뒪??愿由?* ???遺?낅쾿 以?? 怨좉컼 蹂댄샇
-- **怨좉컼 ?좊ː** ???꾨Ц媛 ?대?吏 = ?щ갑臾맞룹냼媛??곸뾽
+- **은행 심사 기준 숙지** → "은행에서 왜 거절됐는지" 정확히 파악 후 대부업 연결
+- **신협·금고 전환 전략** → 실제 조건 협상 능력 (금융권 인맥 활용)
+- **법적 리스크 관리** → 대부업법 준수, 고객 보호
+- **고객 신뢰** → 전문가 이미지 = 재방문·소개 영업
 
 ---
 
-*遺꾩꽍?? AI ?꾨Ц 遺꾩꽍 ?쒖뒪??
-*?곗씠??異쒖쿂: ?쒓뎅???湲덉쑖?덉젙蹂닿퀬?? 湲덇컧???遺???ㅽ깭議곗궗, 援?넗遺 ?듦퀎, ?낃퀎 遺꾩꽍*
-*?묒꽦: 2026-05-17*
+*분석자: AI 전문 분석 시스템*
+*데이터 출처: 한국은행 금융안정보고서, 금감원 대부업 실태조사, 국토부 통계, 업계 분석*
+*작성: 2026-05-17*
+
+
+
+
 
 
 ---
@@ -61299,90 +61981,92 @@ KB?쒖꽭 25??珥덇낵  ??理쒕? 2??
 
 ---
 
-# ?끸쁾???꾪뙆???異?119 - AI ?먮룞???쒖뒪??留덉뒪???뚮옖 ?끸쁾??
+# ★★★ 아파트 대출 119 - AI 자동화 시스템 마스터 플랜 ★★★
 
-???뚯씪? '?꾪뙆???異?119' ?꾨줈?앺듃???먮뇤 ??븷???⑸땲??
-AI(GitHub Copilot)??紐⑤뱺 ?묒뾽???쒖옉?섍린 ?? 諛섎뱶?????뚯씪??癒쇱? ?쎄퀬 ?꾨왂???숈??⑸땲??
-紐⑤뱺 ?꾨왂, ?뺣낫, ?섎Ⅴ?뚮굹, 寃곗젙?ы빆? ???뚯씪??湲곕줉?섍퀬 愿由ы빀?덈떎.
-
----
-
-## 1. 湲곕낯 ?뺣낫 (踰뺢퇋以???쒗뵆由우쓽 湲곕컲)
-
-- **釉뚮옖?쒕챸:** ?꾪뙆???異?119
-- **?곹샇:** ?덈줎湲덉쑖?遺以묎컻
-- **??쒖옄:** 源?뺤쭊
-- **?ъ뾽?먮벑濡앸쾲??** `誘명솗??
-- **?遺以묎컻???깅줉踰덊샇:** 2026-?섏썝-2324
-- **二쇱냼:** `誘명솗??
-- **??쒕쾲??** 1555-2137
-- **?대떦???곕씫泥?(李⑹떊):** 010-5927-9205
-- **?덊럹?댁?:** https://www.saeloan.co.kr
-- **移댁뭅?ㅽ넚 梨꾨꼸 URL:** `誘명솗??
+이 파일은 '아파트 대출 119' 프로젝트의 두뇌 역할을 합니다.
+AI(GitHub Copilot)는 모든 작업을 시작하기 전, 반드시 이 파일을 먼저 읽고 전략을 숙지합니다.
+모든 전략, 정보, 페르소나, 결정사항은 이 파일에 기록하고 관리합니다.
 
 ---
 
-## 2. ?듭떖 ?꾨왂 (Core Strategy)
+## 1. 기본 정보 (법규준수 템플릿의 기반)
 
-### 2.1. ?먯튃: '?듬챸???꾨Ц媛' ?섎Ⅴ?뚮굹 湲곕컲 ?먭꺽 ?댁쁺
-- **?ㅽ뻾 二쇱껜:** 紐⑤뱺 SNS 梨꾨꼸? ?댄씗???섏씠 ?댁쁺.
-- **?섎Ⅴ?뚮굹:** 肄섑뀗痢??곸뿉?쒕뒗 '源?뺤쭊' ?ㅻ챸???몄텧?섏? ?딄퀬, **'?꾪뙆???異?119'** ?쇰뒗 釉뚮옖?쒖쓽 **'?쇨뎬怨??대쫫 ?녿뒗 湲덉쑖 ?꾨Ц媛'** 濡??쒕룞.
-- **?좎썝 蹂댄샇:** ?쇨뎬, ?ㅼ젣 紐⑹냼由????좎썝 ?뱀젙 媛?ν븳 ?뺣낫???덈? ?몄텧?섏? ?딆쓬. **AI ?뚯꽦(TTS)???곴레 ?쒖슜**?섏뿬 ?쇨????꾨Ц媛 紐⑹냼由??ㅼ쓣 ?좎?.
-- **理쒖쥌 ?좊ː ?뺣낫:** 理쒖쥌 ?곷떞(?꾪솕) ?④퀎?먯꽌留?**"?꾪뙆???異?119 源?뺤쭊 ??쒖엯?덈떎"** ?쇨퀬 ?묐??섏뿬, '??쒓? 吏곸젒 ?곷떞?쒕떎'???몄긽?쇰줈 ?좊ː?꾨? 洹밸???
-
-### 2.2. 肄섑뀗痢?源붾븣湲?Funnel) 援ъ“
-- **1?④퀎 (愿???좊컻):** ?뺣낫???륂뤌 (Instagram Reels, YouTube Shorts)
-  - '?먯떎 ?뚰뵾' ?щ━(?? ?異?嫄곗젅 ?ъ쑀)? ?ㅽ넗由ы뀛留??? ?ㅼ젣 ?곷떞 ?щ?)???쒖슜?섏뿬 ?쒖꽑 吏묒쨷.
-- **2?④퀎 (?좊ː 援ъ텞):** ?쒕뵫?섏씠吏 ?먮뒗 釉붾줈洹?
-  - ?륂뤌?먯꽌 ?좎엯??怨좉컼?먭쾶 ?곸꽭 ?뺣낫, ?꾨Ц?? 踰뺤쟻怨좎? ?ы빆??紐낇솗??蹂댁뿬以?
-  - **'移댁뭅?ㅽ넚 ?곷떞?섍린'** 留곹겕瑜??듯빐 ?ㅼ쓬 ?④퀎濡??좊룄.
-- **3?④퀎 (?곷떞 ?꾪솚):** 移댁뭅?ㅽ넚 梨꾨꼸
-  - 1:1 ?곷떞???듯빐 怨좉컼??援ъ껜?곸씤 ?덉쫰瑜??뚯븙?섍퀬, ?좎옱 怨좉컼 DB瑜??뺣낫?섎뒗 ?듭떖 李쎄뎄.
-- **4?④퀎 (理쒖쥌 怨꾩빟):** ?꾪솕 ?곷떞
-  - '源?뺤쭊 ??? 紐낆쓽濡?理쒖쥌 ?꾨Ц ?곷떞 諛?怨꾩빟 吏꾪뻾.
+- **브랜드명:** 아파트 대출 119
+- **상호:** 새론금융대부중개
+- **대표자:** 김덕진
+- **사업자등록번호:** `미확인`
+- **대부중개업 등록번호:** 2026-수원-2324
+- **주소:** `미확인`
+- **대표번호:** 1555-2137
+- **담당자 연락처 (착신):** 010-5927-9205
+- **홈페이지:** https://www.saeloan.co.kr
+- **카카오톡 채널 URL:** `미확인`
 
 ---
 
-## 3. 肄섑뀗痢??쒖옉 媛?대뱶 (AI ?쒖슜)
+## 2. 핵심 전략 (Core Strategy)
 
-### 3.1. 肄섑뀗痢??듭떖 而⑥뀎
-- **"湲닿툒???꾪뙆???먭툑 臾몄젣 ?닿껐??**
-- ??됯텒?먯꽌 嫄곗젅?섏뿀嫄곕굹 ?쒕룄媛 遺議깊븳 ?꾪뙆???대낫?異?臾몄젣瑜??꾨Ц?곸쑝濡??닿껐.
-- **'?대뱷'** 蹂대떎??**'?먯떎 ?뚰뵾'** ?щ━瑜??먭레?섎뒗 二쇱젣 ?좎젙.
-  - (Good) "?異??ъ궗 ??5遺?留뚯뿉 愿묓깉?섎뒗 理쒖븙???ㅼ닔 3媛吏"
-  - (Bad) "?異??쒕룄 留롮씠 諛쏅뒗 踰?
-- **'?섏? 鍮꾩듂???щ엺'** ???ㅽ넗由щ? ?쒖슜?섏뿬 怨듦컧? ?뺤꽦.
-  - (Good) "DSR 80% 珥덇낵濡?????異?嫄곗젅??40? 吏곸옣?? ?쒕룄 2??留뚮뱺 ?ㅼ젣 ?щ?"
-  - (Bad) "?꾩닚???대낫?異??곹뭹 ?덈궡"
+### 2.1. 원칙: '익명의 전문가' 페르소나 기반 원격 운영
+- **실행 주체:** 모든 SNS 채널은 이희전 님이 운영.
+- **페르소나:** 콘텐츠 상에서는 '김덕진' 실명을 노출하지 않고, **'아파트 대출 119'** 라는 브랜드의 **'얼굴과 이름 없는 금융 전문가'** 로 활동.
+- **신원 보호:** 얼굴, 실제 목소리 등 신원 특정 가능한 정보는 절대 노출하지 않음. **AI 음성(TTS)을 적극 활용**하여 일관된 전문가 목소리 톤을 유지.
+- **최종 신뢰 확보:** 최종 상담(전화) 단계에서만 **"아파트 대출 119 김덕진 대표입니다"** 라고 응대하여, '대표가 직접 상담한다'는 인상으로 신뢰도를 극대화.
 
-### 3.2. AI ?쒖슜 媛?대뱶
-- **?寃?怨좉컼:** ??됯텒 ?異쒖씠 留됲엺 ?꾪뙆???뚯쑀二? 異붽? ?먭툑???꾩슂??媛쒖씤/踰뺤씤 ?ъ뾽?? DSR/LTV 洹쒖젣濡??쒕룄媛 遺議깊븳 怨좉컼.
-- **AI ?뚯꽦(TTS) ?ㅼ븻留ㅻ꼫:** ?좊ː媛??덇퀬 紐낇솗???? ?덈Т 鍮좊Ⅴ吏 ?딆? ?띾룄.
-- **AI ??븷:** ??媛?대뱶???곕씪 '?ㅽ넗由ы뀛留?湲곕컲???륂뤌 ?蹂?????? ?좎냽?섍쾶 ?앹꽦.
-
----
-
-## 4. 梨꾨꼸 ?댁쁺 怨꾪쉷
-
-- **YouTube Shorts:** 二?3??(?? ?? 湲? 諛쒗뻾
-- **Instagram Reels:** 二?3??(?? ?? 湲? 諛쒗뻾
-- **Telegram:** 二?1??(??二쇨컙???듭떖 ?뺣낫??媛??諛섏쓳 醫뗭븯??肄섑뀗痢??붿빟 ?꾨떖)
+### 2.2. 콘텐츠 깔때기(Funnel) 구조
+- **1단계 (관심 유발):** 정보성 숏폼 (Instagram Reels, YouTube Shorts)
+  - '손실 회피' 심리(예: 대출 거절 사유)와 스토리텔링(예: 실제 상담 사례)을 활용하여 시선 집중.
+- **2단계 (신뢰 구축):** 랜딩페이지 또는 블로그
+  - 숏폼에서 유입된 고객에게 상세 정보, 전문성, 법적고지 사항을 명확히 보여줌.
+  - **'카카오톡 상담하기'** 링크를 통해 다음 단계로 유도.
+- **3단계 (상담 전환):** 카카오톡 채널
+  - 1:1 상담을 통해 고객의 구체적인 니즈를 파악하고, 잠재 고객 DB를 확보하는 핵심 창구.
+- **4단계 (최종 계약):** 전화 상담
+  - '김덕진 대표' 명의로 최종 전문 상담 및 계약 진행.
 
 ---
 
-## 5. 踰뺢퇋以???쒗뵆由?(?쒖???
+## 3. 콘텐츠 제작 가이드 (AI 활용)
 
-> [?뺤떇 ?깅줉 ?遺以묎컻?낆껜]
-> ?띿긽?? ?덈줎湲덉쑖?遺以묎컻
-> ?띾??? 源?뺤쭊
-> ?띿궗?낆옄?깅줉踰덊샇: (?낅젰 ?꾩슂)
-> ?띾?遺以묎컻???깅줉踰덊샇: 2026-?섏썝-2324
-> ?띿＜?? (?낅젰 ?꾩슂)
-> ?띾??쒕쾲?? 1555-2137
-> ?띿씠?먯쑉: ??20% ?대궡 (?곗껜?댁옄???ы븿)
-> ?띻린?鍮꾩슜: ?놁쓬 (以묎컻?섏닔猷뚮? ?붽뎄?섍굅??諛쏅뒗 寃껋? 遺덈쾿)
-> 怨쇰룄??鍮싳? ?뱀떊?먭쾶 ??遺덊뻾???덇꺼以????덉뒿?덈떎.
-> ?異???洹?섏쓽 ?좎슜?깃툒???섎씫?????덉뒿?덈떎.
+### 3.1. 콘텐츠 핵심 컨셉
+- **"긴급한 아파트 자금 문제 해결사"**
+- 은행권에서 거절되었거나 한도가 부족한 아파트 담보대출 문제를 전문적으로 해결.
+- **'이득'** 보다는 **'손실 회피'** 심리를 자극하는 주제 선정.
+  - (Good) "대출 심사 단 5분 만에 광탈하는 최악의 실수 3가지"
+  - (Bad) "대출 한도 많이 받는 법"
+- **'나와 비슷한 사람'** 의 스토리를 활용하여 공감대 형성.
+  - (Good) "DSR 80% 초과로 은행 대출 거절된 40대 직장인, 한도 2억 만든 실제 사례"
+  - (Bad) "후순위 담보대출 상품 안내"
+
+### 3.2. AI 활용 가이드
+- **타겟 고객:** 은행권 대출이 막힌 아파트 소유주, 추가 자금이 필요한 개인/법인 사업자, DSR/LTV 규제로 한도가 부족한 고객.
+- **AI 음성(TTS) 톤앤매너:** 신뢰감 있고 명확한 톤, 너무 빠르지 않은 속도.
+- **AI 역할:** 위 가이드에 따라 '스토리텔링 기반의 숏폼 대본'을 대량, 신속하게 생성.
+
+---
+
+## 4. 채널 운영 계획
+
+- **YouTube Shorts:** 주 3회 (월, 수, 금) 발행
+- **Instagram Reels:** 주 3회 (월, 수, 금) 발행
+- **Telegram:** 주 1회 (한 주간의 핵심 정보나 가장 반응 좋았던 콘텐츠 요약 전달)
+
+---
+
+## 5. 법규준수 템플릿 (표준안)
+
+> [정식 등록 대부중개업체]
+> ㆍ상호: 새론금융대부중개
+> ㆍ대표: 김덕진
+> ㆍ사업자등록번호: (입력 필요)
+> ㆍ대부중개업 등록번호: 2026-수원-2324
+> ㆍ주소: (입력 필요)
+> ㆍ대표번호: 1555-2137
+> ㆍ이자율: 연 20% 이내 (연체이자율 포함)
+> ㆍ기타비용: 없음 (중개수수료를 요구하거나 받는 것은 불법)
+> 과도한 빚은 당신에게 큰 불행을 안겨줄 수 있습니다.
+> 대출 시 귀하의 신용등급이 하락할 수 있습니다.
+
+
 
 ---
 
@@ -61390,352 +62074,354 @@ AI(GitHub Copilot)??紐⑤뱺 ?묒뾽???쒖옉?섍린 ?? 諛섎뱶?????뚯씪??�
 
 ---
 
-# ?덈줎湲덉쑖?遺以묎컻 ?곸뾽?꾨왂 Master Plan
-## 2026??5??| ?댄씗?????| 100% 鍮꾨?硫??먮룞???꾨왂
+# 새론금융대부중개 영업전략 Master Plan
+## 2026년 5월 | 이희전 팀장 | 100% 비대면 자동화 전략
 
 ---
 
-# PART 1. ?꾪솴 ?뺣━ 諛??꾨왂 諛⑺뼢
+# PART 1. 현황 정리 및 전략 방향
 
-## 1-1. ?꾩옱 蹂댁쑀 ?먯썝
+## 1-1. 현재 보유 자원
 
-| ??ぉ | ?꾪솴 |
+| 항목 | 현황 |
 |---|---|
-| ?덊럹?댁? | saeloan.co.kr (?댁쁺 以? |
-| 蹂댁“ ?몃젰 | 40紐?(留ㅼ텧 利앷? ???낅Т蹂댁“ ?ъ엯 / ?곸뾽 吏곸젒 李몄뿬 ?꾨떂) |
-| ?뚰듃???遺?낆껜 | ?쇰? ?뺣낫 (援ъ엯?먭툑????뺤뾽泥?異붽? ?꾩슂) |
-| ?좏삊쨌湲덇퀬 ?꾪솚 猷⑦듃 | 紐⑥쭛踰뺤씤 1怨??뺣낫 (異붽? 諛쒓뎬 ?꾩슂) |
-| 怨듭씤以묎컻???몃㎘ | ?덉쑝??**鍮꾨?硫??꾨왂 ?곗꽑** |
-| ?몃Т??룻쉶怨꾩궗 | **鍮꾨?硫??꾨왂** |
-| SNS ?먮룞??| ?붾젅洹몃옩 ?먮룞諛쒗뻾 援ъ텞 ?꾨즺 |
+| 홈페이지 | saeloan.co.kr (운영 중) |
+| 보조 인력 | 40명 (매출 증가 시 업무보조 투입 / 영업 직접 참여 아님) |
+| 파트너 대부업체 | 일부 확보 (구입자금용 대형업체 추가 필요) |
+| 신협·금고 전환 루트 | 모집법인 1곳 확보 (추가 발굴 필요) |
+| 공인중개사 인맥 | 있으나 **비대면 전략 우선** |
+| 세무사·회계사 | **비대면 전략** |
+| SNS 자동화 | 텔레그램 자동발행 구축 완료 |
 
-## 1-2. ?듭떖 ?꾨왂 2媛吏
+## 1-2. 핵심 전략 2가지
 
-### ?꾨왂 A: ?먯쁺?낆옄 ?꾪뙆?몃떞蹂?異붽??異?(利됱떆 ?ㅽ뻾)
-- ????앺솢?덉젙?먭툑 1???쒕룄 ?뚯쭊??
-- ?꾪뙆???대낫濡?異붽? 1??5???異?
-- 嫄대떦 ?섏씡: ?뚭컻?섏닔猷?150留?750留뚯썝
+### 전략 A: 자영업자 아파트담보 추가대출 (즉시 실행)
+- 은행 생활안정자금 1억 한도 소진자
+- 아파트 담보로 추가 1억~5억 대출
+- 건당 수익: 소개수수료 150만~750만원
 
-### ?꾨왂 B: ?꾪뙆??援ъ엯?먭툑 釉뚮┸吏 + ?꾪솚 (怨좎닔??
-- ???LTV ?쒕룄 珥덇낵遺??遺??釉뚮┸吏
-- 3媛쒖썡 ???좏삊쨌湲덇퀬 媛쒖씤?ъ뾽???대낫?異??꾪솚
-- 嫄대떦 ?섏씡: ?뚭컻?섏닔猷?300留?1,500留뚯썝 (3??10??湲곗?)
-
----
-
-# PART 2. ?뚰듃???遺?낆껜 異붿쿇 (諛⑸Ц?묒빟 ???
-
-## 2-1. ?꾪뙆?몃떞蹂?援ъ엯?먭툑 痍④툒 ????遺?낆껜
-
-?꾨옒 ?낆껜?ㅼ? 遺?숈궛?대낫 ?뱁솕 ????遺?낆껜濡? ?꾪뙆??援ъ엯?먭툑(?붽툑?異? 媛?ν빀?덈떎.
+### 전략 B: 아파트 구입자금 브릿지 + 전환 (고수익)
+- 은행 LTV 한도 초과분 대부업 브릿지
+- 3개월 후 신협·금고 개인사업자 담보대출 전환
+- 건당 수익: 소개수수료 300만~1,500만원 (3억~10억 기준)
 
 ---
 
-### ???곗뺨?щ젅?붾씪??二?
-- **?좏삎**: ????異뺤???怨꾩뿴 ?遺??
-- **二쇱냼**: ?쒖슱 以묎뎄 ?꾩?濡?(?곗뺨?異뺤???蹂몄궗 ?멸렐)
-- **?뱀쭠**: ?꾪뙆??LTV 理쒕? 70% 媛??(臾쇨굔???곕씪 ?곸씠)
-- **諛⑸Ц ???붿껌 ?ы빆**: 援ъ엯?먭툑 釉뚮┸吏濡??묒빟, 以묎컻 ?섏닔猷?泥닿퀎 ?뺤씤
-- **?곕씫泥??뺣낫 諛⑸쾿**: 湲덉쑖媛먮룆??湲덉쑖?뚮퉬?먯젙蹂댄룷?????遺???깅줉議고쉶
+# PART 2. 파트너 대부업체 추천 (방문협약 대상)
+
+## 2-1. 아파트담보 구입자금 취급 대형 대부업체
+
+아래 업체들은 부동산담보 특화 대형 대부업체로, 아파트 구입자금(잔금대출) 가능합니다.
 
 ---
 
-### ???꾪봽濡쒖꽌鍮꾩뒪洹몃９ (?ъ떆?ㅼ틦??紐⑦쉶??
-- **?좏삎**: 援?궡 理쒕? ?遺??洹몃９
-- **二쇱냼**: ?쒖슱 媛뺣궓援??移섎룞 (?꾪봽濡쒗뙆?대궦?쒕?遺 蹂몄궗)
-- **?뱀쭠**: 媛쒖씤?대낫?異?洹쒕え 理쒕?, ?좎슜+?대낫 蹂묓뻾
-- **諛⑸Ц ?꾨왂**: 蹂몄궗 ?뚰듃?덉떗? ?ъ쟾 ?꾪솕 ??諛⑸Ц
-- **?뺤씤 ?ы빆**: 遺?숈궛?대낫 以묎컻 ?묒빟 媛???щ?
+### ① 웰컴크레디라인(주)
+- **유형**: 대형 저축은행 계열 대부업
+- **주소**: 서울 중구 을지로 (웰컴저축은행 본사 인근)
+- **특징**: 아파트 LTV 최대 70% 가능 (물건에 따라 상이)
+- **방문 시 요청 사항**: 구입자금 브릿지론 협약, 중개 수수료 체계 확인
+- **연락처 확보 방법**: 금융감독원 금융소비자정보포털 → 대부업 등록조회
 
 ---
 
-### ??由щ뱶肄뷀봽(二?
-- **?좏삎**: 肄붿뒪???곸옣 ?遺?낆껜
-- **二쇱냼**: ?쒖슱 ?곷벑?ш뎄 ?ъ쓽??
-- **?뱀쭠**: ?곸옣?щ줈 ?덉젙???믪쓬, 媛쒖씤?대낫 痍④툒
-- **諛⑸Ц ?꾨왂**: IR? ?먮뒗 ?곸뾽? ?묒큺
-- **?뱀씠?ы빆**: ?꾪뙆?몃떞蹂?LTV 60~70% ?댁쁺
+### ② 아프로서비스그룹 (러시앤캐시 모회사)
+- **유형**: 국내 최대 대부업 그룹
+- **주소**: 서울 강남구 대치동 (아프로파이낸셜대부 본사)
+- **특징**: 개인담보대출 규모 최대, 신용+담보 병행
+- **방문 전략**: 본사 파트너십팀 사전 전화 후 방문
+- **확인 사항**: 부동산담보 중개 협약 가능 여부
 
 ---
 
-### ???먯씠?ㅼ?異뺤???怨꾩뿴 ?遺?낆껜
-- **?좏삎**: ?異뺤???怨꾩뿴 ?遺??
-- **?뱀쭠**: ?異뺤??됰낫???믪? LTV 媛??
-- **?뺤씤 諛⑸쾿**: 媛??異뺤???怨꾩뿴 ?遺???깅줉 ?щ? ?뺤씤
+### ③ 리드코프(주)
+- **유형**: 코스닥 상장 대부업체
+- **주소**: 서울 영등포구 여의도
+- **특징**: 상장사로 안정성 높음, 개인담보 취급
+- **방문 전략**: IR팀 또는 영업팀 접촉
+- **특이사항**: 아파트담보 LTV 60~70% 운영
 
 ---
 
-### ??吏??遺?숈궛?대낫 ?꾨Ц ?遺?낆껜 (?ㅼ쭏 ?묒빟 ?⑹씠)
+### ④ 에이스저축은행 계열 대부업체
+- **유형**: 저축은행 계열 대부업
+- **특징**: 저축은행보다 높은 LTV 가능
+- **확인 방법**: 각 저축은행 계열 대부업 등록 여부 확인
 
-**?쒖슱쨌寃쎄린 遺?숈궛?대낫 ?꾨Ц?낆껜 諛쒓뎬 諛⑸쾿:**
+---
+
+### ⑤ 지역 부동산담보 전문 대부업체 (실질 협약 용이)
+
+**서울·경기 부동산담보 전문업체 발굴 방법:**
 
 ```
-諛⑸쾿 1: ?ㅼ씠踰?寃??
-  ?ㅼ썙?? "?꾪뙆?몃떞蹂대?異?踰뺤씤" "遺?숈궛?대낫 ?遺?낆껜 ?쒖슱"
-  ???덊럹?댁? ?덈뒗 踰뺤씤 ?遺?낆껜 ?좊퀎
-  ??湲덇컧???깅줉 ?뺤씤 ??諛⑸Ц
+방법 1: 네이버 검색
+  키워드: "아파트담보대출 법인" "부동산담보 대부업체 서울"
+  → 홈페이지 있는 법인 대부업체 선별
+  → 금감원 등록 확인 후 방문
 
-諛⑸쾿 2: 湲덉쑖媛먮룆??湲덉쑖?뚮퉬?먯젙蹂댄룷??
+방법 2: 금융감독원 금융소비자정보포털
   URL: https://consumer.fss.or.kr
-  ???遺???깅줉議고쉶 ???쒖슱 踰뺤씤 ?遺?낆옄 紐⑸줉
-  ??"遺?숈궛?대낫" 痍④툒 ?낆껜 ?꾪꽣留?
+  → 대부업 등록조회 → 서울 법인 대부업자 목록
+  → "부동산담보" 취급 업체 필터링
 
-諛⑸쾿 3: 踰뺤썝 寃쎈ℓ ?숈같 ???깃린遺 ?뺤씤
-  ??洹쇱??밴텒?먭? ?遺?낆껜??嫄?
-  ???대떦 ?낆껜紐낆쑝濡??묒빟 ?묒큺
+방법 3: 법원 경매 낙찰 후 등기부 확인
+  → 근저당권자가 대부업체인 건
+  → 해당 업체명으로 협약 접촉
 ```
 
 ---
 
-## 2-2. ?묒빟 諛⑸Ц ??泥댄겕由ъ뒪??
+## 2-2. 협약 방문 시 체크리스트
 
 ```
-???쒖슱쨌?섎룄沅??꾪뙆??援ъ엯?먭툑 痍④툒 ?щ?
-??LTV 媛??理쒕? 鍮꾩쑉 (紐⑺몴: 理쒖냼 60% ?댁긽)
-??以묎컻???뚭컻?섏닔猷뚯쑉 (紐⑺몴: ?異쒓툑?≪쓽 1~2%)
-??泥섎━ 湲곌컙 (紐⑺몴: 3~5???대궡)
-??理쒖냼쨌理쒕? ?異쒓툑??
-??以묐룄?곹솚?섏닔猷?議곌굔 (3媛쒖썡 ???꾪솚???꾪빐)
-???꾩궛 or ?⑹뒪 ?쒕쪟 ?묒닔 媛???щ? (鍮꾨?硫?
-```
-
----
-
-# PART 3. ?좏삊쨌湲덇퀬 ?꾪솚 ?異쒖긽?댁궗 諛쒓뎬 ?꾨왂
-
-## 3-1. ?寃??꾨줈??
-
-**李얜뒗 ?щ엺:**
-- ?좏삊, ?덈쭏?꾧툑怨??꾨떞 紐⑥쭛踰뺤씤 ?뚯냽 ?異쒖긽?댁궗
-- ?먮뒗 ?꾨━?쒖꽌 ?異쒖긽?댁궗
-- ?듭떖 議곌굔: **?遺???붽툑??2湲덉쑖沅??좏삊쨌湲덇퀬) 媛쒖씤?ъ뾽???대낫?異쒕줈 ?꾪솚 寃쏀뿕 ?덈뒗 ??*
-
----
-
-## 3-2. 諛쒓뎬 ?ㅼ썙??諛?梨꾨꼸
-
-### ?ㅼ씠踰?釉붾줈洹?寃???ㅼ썙??
-```
-"?좏삊 ?꾪뙆?몃떞蹂대?異??異쒖긽?댁궗"
-"?덈쭏?꾧툑怨?媛쒖씤?ъ뾽???대낫?異??꾪솚"
-"?遺??????좏삊"
-"?異?釉뚮┸吏 ?좏삊 ?꾪솚"
-"2湲덉쑖沅??대낫?異??곷떞??
-"?좏삊 ?대낫?異?紐⑥쭛踰뺤씤"
-"?꾪뙆?몃떞蹂??異쒖쟾??釉붾줈洹?
-```
-
-### ?ㅼ씠踰?移댄럹 寃??
-```
-移댄럹紐?寃?? "?異쒖긽?댁궗 紐⑥엫", "湲덉쑖紐⑥쭛??移댄럹", "?異쒓갇?щ━"
-寃뚯떆湲 寃?? "?좏삊?꾪솚 媛??, "?遺?????, "湲덇퀬 ?대낫?異?
-```
-
-### 吏곸젒 ?ъ뒪??(?묒뾽 怨듦퀬)
-
-**?ㅼ씠踰?釉붾줈洹?怨듦퀬 ?덉떆:**
-```
-?쒕ぉ: [?묒뾽 ?쒖븞] ?좏삊쨌?덈쭏?꾧툑怨?媛쒖씤?ъ뾽???대낫?異?媛?ν븳 ?異쒖긽?댁궗 李얠뒿?덈떎
-
-?댁슜:
-?덈뀞?섏꽭?? ?덈줎湲덉쑖?遺以묎컻?낅땲??
-
-??щ뒗 ?쒖슱쨌?섎룄沅??꾪뙆?몃떞蹂대?異??꾨Ц ?遺以묎컻?낆껜濡?
-?遺???ㅽ뻾 ???좏삊쨌湲덇퀬 ?꾪솚源뚯? 怨좉컼 ?먯뒪???쒕퉬?ㅻ? ?쒓났?섍퀬 ?덉뒿?덈떎.
-
-?꾨옒 議곌굔???섏떆???異쒖긽?댁궗遺??묒뾽 ?쒖븞?쒕┰?덈떎:
-
-???좏삊 ?먮뒗 ?덈쭏?꾧툑怨?媛쒖씤?ъ뾽???대낫?異?媛?ν븯??遺?
-???꾪뙆??洹쇱????ㅼ젙??臾쇨굔 ?꾪솚 寃쏀뿕 ?덉쑝??遺?
-???쒖슱쨌?섎룄沅??꾪뙆??痍④툒 媛?ν븯??遺?
-
-嫄대떦 ?몄꽱?곕툕 + ?κ린 ?덉젙???뚯씠?꾨씪???쒓났
-鍮꾨?蹂댁옣 / 鍮꾨?硫??묒뾽 媛??
-
-?곕씫泥? 010-5927-9205 (?댄씗??
-?대찓?? [?댄씗???대찓??
+□ 서울·수도권 아파트 구입자금 취급 여부
+□ LTV 가능 최대 비율 (목표: 최소 60% 이상)
+□ 중개사 소개수수료율 (목표: 대출금액의 1~2%)
+□ 처리 기간 (목표: 3~5일 이내)
+□ 최소·최대 대출금액
+□ 중도상환수수료 조건 (3개월 후 전환을 위해)
+□ 전산 or 팩스 서류 접수 가능 여부 (비대면)
 ```
 
 ---
 
-## 3-3. 40紐??곸뾽?ъ썝 諛쒓뎬 遺꾩뾽
+# PART 3. 신협·금고 전환 대출상담사 발굴 전략
 
+## 3-1. 타겟 프로필
+
+**찾는 사람:**
+- 신협, 새마을금고 전담 모집법인 소속 대출상담사
+- 또는 프리랜서 대출상담사
+- 핵심 조건: **대부업 잔금을 2금융권(신협·금고) 개인사업자 담보대출로 전환 경험 있는 자**
+
+---
+
+## 3-2. 발굴 키워드 및 채널
+
+### 네이버 블로그 검색 키워드
 ```
-?곸뾽?ъ썝 5紐??대떦 ???ㅼ씠踰?釉붾줈洹?寃??+ ?묒큺
-?곸뾽?ъ썝 5紐??대떦 ???ㅼ씠踰?移댄럹 寃??+ ?묒큺
-?곸뾽?ъ썝 5紐??대떦 ??吏곸젒 ?ъ뒪??愿由?
-??紐⑺몴: ??10紐??댁긽 ?묒큺 ??理쒖냼 3紐??묒뾽 泥닿껐
+"신협 아파트담보대출 대출상담사"
+"새마을금고 개인사업자 담보대출 전환"
+"대부업 대환 신협"
+"대출 브릿지 신협 전환"
+"2금융권 담보대출 상담사"
+"신협 담보대출 모집법인"
+"아파트담보 대출전환 블로그"
+```
+
+### 네이버 카페 검색
+```
+카페명 검색: "대출상담사 모임", "금융모집인 카페", "대출갤러리"
+게시글 검색: "신협전환 가능", "대부업 대환", "금고 담보대출"
+```
+
+### 직접 포스팅 (협업 공고)
+
+**네이버 블로그 공고 예시:**
+```
+제목: [협업 제안] 신협·새마을금고 개인사업자 담보대출 가능한 대출상담사 찾습니다
+
+내용:
+안녕하세요. 새론금융대부중개입니다.
+
+저희는 서울·수도권 아파트담보대출 전문 대부중개업체로,
+대부업 실행 후 신협·금고 전환까지 고객 원스톱 서비스를 제공하고 있습니다.
+
+아래 조건이 되시는 대출상담사분 협업 제안드립니다:
+
+✅ 신협 또는 새마을금고 개인사업자 담보대출 가능하신 분
+✅ 아파트 근저당 설정된 물건 전환 경험 있으신 분
+✅ 서울·수도권 아파트 취급 가능하신 분
+
+건당 인센티브 + 장기 안정적 파이프라인 제공
+비밀보장 / 비대면 협업 가능
+
+연락처: 010-5927-9205 (이희전)
+이메일: [이희전 이메일]
 ```
 
 ---
 
-# PART 4. 怨듭씤以묎컻??룹꽭臾댁궗 鍮꾨?硫??띾낫 ?꾨왂
-
-## 4-1. 移댁뭅?ㅽ넚 ?ㅽ뵂梨꾪똿諛?怨듬왂
-
-### ?寃?梨꾪똿諛??좏삎
-```
-1. 怨듭씤以묎컻??吏??紐⑥엫 移댄넚諛?(?쒖슱 媛?援??⑥쐞)
-2. 遺?숈궛 ?ъ옄 ?뺣낫 移댄넚諛?
-3. ?먯쁺?낆옄 紐⑥엫 移댄넚諛?
-4. ?몃Т??룻쉶怨꾩궗 ?낅Т 怨듭쑀 移댄넚諛?
-```
-
-### 諛쒓뎬 諛⑸쾿
-```
-移댁뭅?ㅽ넚 ???ㅽ뵂梨꾪똿 ??寃??
-"?쒖슱 怨듭씤以묎컻??, "遺?숈궛 以묎컻??紐⑥엫", "?꾪뙆???ъ옄", 
-"?먯쁺?낆옄 ?ㅽ듃?뚰겕", "?몃Т???뺣낫怨듭쑀"
-```
-
-### ?띾낫 硫붿떆吏 (怨듭씤以묎컻?????
+## 3-3. 40명 영업사원 발굴 분업
 
 ```
-?덈뀞?섏꽭?? ?덈줎湲덉쑖?遺以묎컻 ?댄씗?꾩엯?덈떎.
-
-遺?숈궛 以묎컻?낅Т ?섏떆硫댁꽌 ?대윴 怨좉컼 留뚮굹?쒖? ?딅굹??
-
-???꾪뙆??援ъ엯?먭툑??遺議깊빐???붽툑 紐?移섎Ⅴ??怨좉컼
-?????LTV ?쒕룄 珥덇낵濡??異쒖씠 ?꾩슂??怨좉컼
-
-??ш? ?닿껐?대뱶由쎈땲??
-?룧 ?遺??援ъ엯?먭툑 釉뚮┸吏 ?ㅽ뻾
-?봽 3媛쒖썡 ???좏삊쨌湲덇퀬 媛쒖씤?ъ뾽???대낫?異??꾪솚
-
-?좎깮?섎뱾???뚭컻?댁＜??怨좉컼 ????ш? 泥섎━
-???뚭컻 ?몄꽱?곕툕 蹂꾨룄 ?묒쓽 媛??
-
-??010-5927-9205 | saeloan.co.kr
-?깅줉: 2026-?섏썝-2324
+영업사원 5명 담당 → 네이버 블로그 검색 + 접촉
+영업사원 5명 담당 → 네이버 카페 검색 + 접촉
+영업사원 5명 담당 → 직접 포스팅 관리
+→ 목표: 월 10명 이상 접촉 → 최소 3명 협업 체결
 ```
 
-### ?띾낫 硫붿떆吏 (?몃Т??룻쉶怨꾩궗 ???
+---
+
+# PART 4. 공인중개사·세무사 비대면 홍보 전략
+
+## 4-1. 카카오톡 오픈채팅방 공략
+
+### 타겟 채팅방 유형
+```
+1. 공인중개사 지역 모임 카톡방 (서울 각 구 단위)
+2. 부동산 투자 정보 카톡방
+3. 자영업자 모임 카톡방
+4. 세무사·회계사 업무 공유 카톡방
+```
+
+### 발굴 방법
+```
+카카오톡 → 오픈채팅 → 검색:
+"서울 공인중개사", "부동산 중개사 모임", "아파트 투자", 
+"자영업자 네트워크", "세무사 정보공유"
+```
+
+### 홍보 메시지 (공인중개사 대상)
 
 ```
-?덈뀞?섏꽭?? ?덈줎湲덉쑖?遺以묎컻?낅땲??
+안녕하세요! 새론금융대부중개 이희전입니다.
 
-?먯쁺?낆옄 怨좉컼 以??대윴 遺?怨꾩떆吏 ?딅굹??
+부동산 중개업무 하시면서 이런 고객 만나시지 않나요?
 
-??遺媛?맞룹냼?앹꽭 ?⑸? ?먭툑??遺議깊븳 遺?
-???꾪뙆?몃뒗 ?덈뒗????됱뿉??異붽? ?異쒖씠 ???섎뒗 遺?
+✔ 아파트 구입자금이 부족해서 잔금 못 치르는 고객
+✔ 은행 LTV 한도 초과로 대출이 필요한 고객
 
-????붾（??
-???꾪뙆???대낫濡?異붽? ?먭툑 (1??5??
-??????앺솢?덉젙?먭툑 1???쒕룄 珥덇낵遺??닿껐
-???대떦 ?몃Т?щ떂猿?媛먯궗 ?몄꽱?곕툕 蹂꾨룄 ?묒쓽
+저희가 해결해드립니다:
+🏠 대부업 구입자금 브릿지 실행
+🔄 3개월 후 신협·금고 개인사업자 담보대출 전환
 
-??010-5927-9205 | saeloan.co.kr
+선생님들이 소개해주신 고객 → 저희가 처리
+→ 소개 인센티브 별도 협의 가능
+
+☎ 010-5927-9205 | saeloan.co.kr
+등록: 2026-수원-2324
+```
+
+### 홍보 메시지 (세무사·회계사 대상)
+
+```
+안녕하세요. 새론금융대부중개입니다.
+
+자영업자 고객 중 이런 분 계시지 않나요?
+
+✔ 부가세·소득세 납부 자금이 부족한 분
+✔ 아파트는 있는데 은행에서 추가 대출이 안 되는 분
+
+저희 솔루션:
+→ 아파트 담보로 추가 자금 (1억~5억)
+→ 은행 생활안정자금 1억 한도 초과분 해결
+→ 담당 세무사님께 감사 인센티브 별도 협의
+
+☎ 010-5927-9205 | saeloan.co.kr
 ```
 
 
 
 ---
 
-# PART 5. ?섏씡 紐⑤뜽 ?쒕??덉씠??
+# PART 5. 수익 모델 시뮬레이션
 
-## 5-1. ???ㅽ뻾 紐⑺몴蹂?留ㅼ텧
+## 5-1. 월 실행 목표별 매출
 
-### ?寃?A (?먯쁺?낆옄 異붽??異??됯퇏 2??
+### 타겟 A (자영업자 추가대출 평균 2억)
 ```
-?뚭컻?섏닔猷?1.5% 媛??
-  1嫄?= 300留뚯썝
-  ??20嫄?= 6,000留뚯썝
-  ??50嫄?= 1??5,000留뚯썝
-```
-
-### ?寃?B (援ъ엯?먭툑 釉뚮┸吏 ?됯퇏 5??
-```
-?뚭컻?섏닔猷?1.5% 媛??
-  1嫄?= 750留뚯썝
-  ??10嫄?= 7,500留뚯썝
-  ??20嫄?= 1??5,000留뚯썝
+소개수수료 1.5% 가정:
+  1건 = 300만원
+  월 20건 = 6,000만원
+  월 50건 = 1억 5,000만원
 ```
 
-### 鍮꾨?硫??먮룞??梨꾨꼸 ?④낵
+### 타겟 B (구입자금 브릿지 평균 5억)
+```
+소개수수료 1.5% 가정:
+  1건 = 750만원
+  월 10건 = 7,500만원
+  월 20건 = 1억 5,000만원
+```
+
+### 비대면 자동화 채널 효과
 
 ```
-?붾젅洹몃옩 梨꾨꼸 援щ룆??1,000紐?湲곗?:
-  ???몄텧: 1,000嫄?
-  ???곷떞 ?꾪솚(0.5%): 150嫄?
-  ???깆빟(15%): ??22嫄?
-  ??留ㅼ텧: ??8,800留뚯썝 (嫄대떦 400留뚯썝 湲곗?)
+텔레그램 채널 구독자 1,000명 기준:
+  일 노출: 1,000건
+  월 상담 전환(0.5%): 150건
+  월 성약(15%): 약 22건
+  월 매출: 약 8,800만원 (건당 400만원 기준)
 ```
 
 ---
 
-# PART 6. 利됱떆 ?ㅽ뻾 濡쒕뱶留?
+# PART 6. 즉시 실행 로드맵
 
-## Phase 1 (1二쇱감): ?뚰듃???뺣낫
+## Phase 1 (1주차): 파트너 확보
 
-| ??ぉ | ?대떦 | 湲고븳 |
+| 항목 | 담당 | 기한 |
 |---|---|---|
-| ????遺?낆껜 諛⑸Ц ?묒빟 (3怨??댁긽) | ?댄씗??吏곸젒 | 5/24源뚯? |
-| ?좏삊쨌湲덇퀬 ?꾪솚 ?異쒖긽?댁궗 異붽? 諛쒓뎬 | ?댄씗??吏곸젒 (?ㅼ씠踰?寃?? | 5/24源뚯? |
-| ?붾젅洹몃옩 遊?珥덇린 ?ㅼ젙 ?꾨즺 | ?댄씗??吏곸젒 | 5/22源뚯? |
+| 대형 대부업체 방문 협약 (3곳 이상) | 이희전 직접 | 5/24까지 |
+| 신협·금고 전환 대출상담사 추가 발굴 | 이희전 직접 (네이버 검색) | 5/24까지 |
+| 텔레그램 봇 초기 설정 완료 | 이희전 직접 | 5/22까지 |
 
-## Phase 2 (2二쇱감): 鍮꾨?硫??띾낫 ?쒖옉
+## Phase 2 (2주차): 비대면 홍보 시작
 
-| ??ぉ | ?대떦 | 湲고븳 |
+| 항목 | 담당 | 기한 |
 |---|---|---|
-| ?붾젅洹몃옩 梨꾨꼸 ?먮룞諛쒗뻾 蹂멸꺽 ?댁쁺 | ?먮룞 | ?곸떆 |
-| 怨듭씤以묎컻??移댄넚諛?吏곸젒 硫붿떆吏 (?댄씗?? | ?댄씗??吏곸젒 | 5/27遺??|
-| ?몃Т??룻쉶怨꾩궗 移댄넚諛?吏곸젒 硫붿떆吏 (?댄씗?? | ?댄씗??吏곸젒 | 5/27遺??|
-| ?ㅼ씠踰?釉붾줈洹??異쒖긽?댁궗 ?묒뾽 怨듦퀬 寃뚯떆 | ?댄씗??吏곸젒 | 5/27源뚯? |
-| ?덊럹?댁? saeloan.co.kr ?곷떞???댁쁺 | ?먮룞 | ?곸떆 |
+| 텔레그램 채널 자동발행 본격 운영 | 자동 | 상시 |
+| 공인중개사 카톡방 직접 메시지 (이희전) | 이희전 직접 | 5/27부터 |
+| 세무사·회계사 카톡방 직접 메시지 (이희전) | 이희전 직접 | 5/27부터 |
+| 네이버 블로그 대출상담사 협업 공고 게시 | 이희전 직접 | 5/27까지 |
+| 홈페이지 saeloan.co.kr 상담폼 운영 | 자동 | 상시 |
 
-## Phase 3 (3~4二쇱감): ?깆빟 紐⑺몴
+## Phase 3 (3~4주차): 성약 목표
 
-| ??ぉ | 紐⑺몴 |
+| 항목 | 목표 |
 |---|---|
-| ???곷떞 嫄댁닔 | 100嫄??댁긽 |
-| ???깆빟 嫄댁닔 | 20嫄??댁긽 |
-| ??留ㅼ텧 紐⑺몴 | 5,000留뚯썝 ?댁긽 |
+| 월 상담 건수 | 100건 이상 |
+| 월 성약 건수 | 20건 이상 |
+| 월 매출 목표 | 5,000만원 이상 |
 
 ---
 
-# PART 7. 蹂댁“ ?몃젰 40紐??댁쁺 諛⑹묠
+# PART 7. 보조 인력 40명 운영 방침
 
-## ??븷 ?뺤쓽
-
-```
-40紐낆? ?곸뾽 吏곸젒 ?섑뻾 ?꾨떂
-??留ㅼ텧 利앷?쨌?낅Т 怨쇰??????ъ엯?섎뒗 ?낅Т蹂댁“ ?몃젰
-
-?ъ엯 ?쒖젏: ???깆빟 20嫄?珥덇낵 ??
-?ъ엯 ?낅Т:
-  - ?곷떞 ?좎껌 ?쒕쪟 ?섏랬쨌?뺣━
-  - 怨좉컼 ?곕씫 ?쇱젙 議곗쑉
-  - ?遺?낆껜 ?쒕쪟 ?꾨떖
-  - ?좏삊쨌湲덇퀬 ?꾪솚 ?쒕쪟 吏??
-```
-
-## ?꾩옱 ?④퀎 ?꾨왂
+## 역할 정의
 
 ```
-?곸뾽 梨꾨꼸: 100% 鍮꾨?硫??먮룞??
-  ???붾젅洹몃옩 梨꾨꼸 ?먮룞諛쒗뻾 (留ㅼ씪 ?ㅼ쟾 9??
-  ???덊럹?댁? saeloan.co.kr ?좎엯 ???곷떞???먮룞?섏떊
-  ??怨듭씤以묎컻??룹꽭臾댁궗 移댄넚諛?吏곸젒 硫붿떆吏 (?댄씗??
-  ???異쒖긽?댁궗 ?묒뾽 ?ㅽ듃?뚰겕 援ъ텞 (?댄씗??
+40명은 영업 직접 수행 아님
+→ 매출 증가·업무 과부하 시 투입하는 업무보조 인력
 
-?댄씗?????1?몄씠 鍮꾨?硫??곸뾽 ?꾩껜 珥앷큵
-???깆빟 嫄댁닔 利앷? ??蹂댁“ ?몃젰 ?④퀎???ъ엯
+투입 시점: 월 성약 20건 초과 시
+투입 업무:
+  - 상담 신청 서류 수취·정리
+  - 고객 연락 일정 조율
+  - 대부업체 서류 전달
+  - 신협·금고 전환 서류 지원
+```
+
+## 현재 단계 전략
+
+```
+영업 채널: 100% 비대면 자동화
+  ① 텔레그램 채널 자동발행 (매일 오전 9시)
+  ② 홈페이지 saeloan.co.kr 유입 → 상담폼 자동수신
+  ③ 공인중개사·세무사 카톡방 직접 메시지 (이희전)
+  ④ 대출상담사 협업 네트워크 구축 (이희전)
+
+이희전 팀장 1인이 비대면 영업 전체 총괄
+→ 성약 건수 증가 시 보조 인력 단계적 투입
 ```
 
 ---
 
-# PART 8. ?덊럹?댁? ?낅뜲?댄듃 ?ы빆 (利됱떆 諛섏쁺)
+# PART 8. 홈페이지 업데이트 사항 (즉시 반영)
 
-?꾩옱 ?덊럹?댁????좎슜?異??꾩＜ 援ъ꽦 ???꾪뙆?몃떞蹂??뱁솕濡??꾨㈃ 媛쒗렪 ?꾩슂
+현재 홈페이지는 신용대출 위주 구성 → 아파트담보 특화로 전면 개편 필요
 
-**?섏젙 ?ъ씤??**
-1. 硫붿씤 ?ㅻ뱶?쇱씤: "?꾪뙆?몃떞蹂대?異?+ 援ъ엯?먭툑 釉뚮┸吏" ?꾨㈃ 遺媛?
-2. ?덉뼱濡??뱀뀡: 2媛吏 ?듭떖 ?쒕퉬??踰꾪듉 遺꾨━
-3. ?뚰듃?덉궗: ?異뺤??????꾪뙆?몃떞蹂??遺?낆껜 + ?좏삊쨌湲덇퀬 ?꾪솚 ?멸툒 異붽?
+**수정 포인트:**
+1. 메인 헤드라인: "아파트담보대출 + 구입자금 브릿지" 전면 부각
+2. 히어로 섹션: 2가지 핵심 서비스 버튼 분리
+3. 파트너사: 저축은행 → 아파트담보 대부업체 + 신협·금고 전환 언급 추가
 
 ---
 
-*?묒꽦: 2026-05-17 | ?덈줎湲덉쑖?遺以묎컻 ?곸뾽?꾨왂 Master Plan v3.0 (鍮꾨?硫??먮룞???꾨왂)*
+*작성: 2026-05-17 | 새론금융대부중개 영업전략 Master Plan v3.0 (비대면 자동화 전략)*
+
+
 
 ---
 
@@ -61743,366 +62429,368 @@ AI(GitHub Copilot)??紐⑤뱺 ?묒뾽???쒖옉?섍린 ?? 諛섎뱶?????뚯씪??�
 
 ---
 
-# ?덈줎湲덉쑖?遺以묎컻 SNS ?곸뾽 ?먮룞???꾨왂
-### AI Agency 諛⑹떇 | 2026-05-17 ?묒꽦 | ?대떦: ?댄씗??(??? 源?뺤쭊)
+# 새론금융대부중개 SNS 영업 자동화 전략
+### AI Agency 방식 | 2026-05-17 작성 | 담당: 이희전 (대표: 김덕진)
 
 ---
 
-## 0. ?댁쁺 援ъ“ ?뺣━
+## 0. 운영 구조 정리
 
-| ??ぉ | ?댁슜 |
+| 항목 | 내용 |
 |---|---|
-| ?덊럹?댁? ?뚯쑀 | 源?뺤쭊 (?꾨찓??援ъ엯) |
-| ?댁쁺쨌愿由?| ?댄씗??|
-| SNS 怨꾩젙二?| ?댄씗??怨꾩젙?쇰줈 媛쒖꽕 |
-| SNS ?띾낫 紐낆쓽 | 源?뺤쭊 ???紐낆쓽濡??띾낫 |
-| ??쒖쟾??| 010-5927-9205 (源?뺤쭊 ?뚯쑀 / ?댄씗??李⑹떊) |
-| ?곷떞?좎껌 ?셋룹씠硫붿씪 | ?댄씗???뚯쑀 (SNS ??鍮꾧났媛? ?덊럹?댁? ?대? 泥섎━) |
-| 怨듭떇 ?꾪솕 (?덊럹?댁?) | 1555-2137 |
+| 홈페이지 소유 | 김덕진 (도메인 구입) |
+| 운영·관리 | 이희전 |
+| SNS 계정주 | 이희전 계정으로 개설 |
+| SNS 홍보 명의 | 김덕진 대표 명의로 홍보 |
+| 대표전화 | 010-5927-9205 (김덕진 소유 / 이희전 착신) |
+| 상담신청 폼·이메일 | 이희전 소유 (SNS 상 비공개, 홈페이지 내부 처리) |
+| 공식 전화 (홈페이지) | 1555-2137 |
 
-**?먯튃:** SNS?먯꽌 ?셋룹씠硫붿씪 二쇱냼 吏곸젒 ?몄텧 湲덉? ???덊럹?댁?(saeloan.co.kr) 留곹겕濡쒕쭔 ?좊룄
-
----
-
-## 1. 踰뺤쟻 以???ы빆 (?꾩닔)
-
-### ?遺?낅쾿 諛?湲덉쑖愿묎퀬 洹쒖젙
-- **湲덈━ ?쒖떆 ?섎Т:** 愿묎퀬 ??理쒓퀬 湲덈━(?꾪뻾 ??20%) 諛섎뱶??紐낆떆
-- **?깅줉踰덊샇 ?쒖떆:** ?遺以묎컻???깅줉踰덊샇 紐⑤뱺 愿묎퀬臾쇱뿉 湲곗옱
-- **寃쎄퀬 臾멸뎄 ?섎Т:** "怨쇰룄??鍮싳? ?뱀떊?먭쾶 ??遺덊뻾???덇꺼以????덉뒿?덈떎" 臾멸뎄 ?ы븿
-- **?덉쐞쨌怨쇱옣 愿묎퀬 湲덉?:** "100% ?뱀씤", "臾댁“嫄??異? ???쒗쁽 ?덈? 湲덉?
-- **誘몃벑濡??낆껜 ?ъ묶 湲덉?:** ?異뺤???罹먰뵾??吏곸젒 痍④툒 ?ㅽ빐 ?좊컻 ?쒗쁽 湲덉?
-- **媛쒖씤?뺣낫:** SNS DM?쇰줈 媛쒖씤?뺣낫(二쇰?踰덊샇, 怨꾩쥖踰덊샇) ?섏쭛 湲덉? ???덊럹?댁? ?쇱쑝濡쒕쭔
-
-### SNS蹂?湲덉쑖愿묎퀬 ?뺤콉
-- **?몄뒪?洹몃옩/?섏씠?ㅻ턿:** 湲덉쑖?곹뭹 愿묎퀬 ?ъ쟾 ?뱀씤 ?꾩슂 (Meta 湲덉쑖?쒕퉬???뺤콉)
-- **?좏뒠釉?** 湲덉쑖 肄섑뀗痢??섏씡???쒗븳 ?덉쑝???뺣낫??肄섑뀗痢좊뒗 ?덉슜
-- **移댁뭅?ㅼ콈??** ?遺??愿묎퀬 ?덉슜 (?깅줉利??쒖텧 ?꾩슂)
-- **?ㅼ씠踰?釉붾줈洹?** ?뺣낫???ъ뒪?낆? ?덉슜, 吏곸젒 愿묎퀬??寃?됯킅怨??뺤콉 以??
+**원칙:** SNS에서 폼·이메일 주소 직접 노출 금지 → 홈페이지(saeloan.co.kr) 링크로만 유도
 
 ---
 
-## 2. 湲濡쒕쾶 理쒓퀬 ?섏? SNS ?곸뾽 ?꾨왂 遺꾩꽍
+## 1. 법적 준수 사항 (필수)
 
-### 2-1. 誘멸뎅 湲덉쑖 留덉???踰ㅼ튂留덊겕 (Dave Ramsey / SoFi / LendingTree)
-- **援먯쑁 肄섑뀗痢??곗꽑 ?꾨왂:** "?뱀떊???좎슜?먯닔瑜??щ━??7媛吏 諛⑸쾿" ???좊ː 援ъ텞 ???곷떞 ?좊룄
-- **?ㅽ넗由ы뀛留?** ?ㅼ젣 怨좉컼 ?щ?(?듬챸) 湲곕컲 Before/After 肄섑뀗痢?
-- **Retargeting:** ?덊럹?댁? 諛⑸Ц?먯뿉寃?SNS 由ы?寃?愿묎퀬
-- **?좊즺 由щ뱶 ?앹꽦:** 臾대즺 ?쒕룄議고쉶 ???대찓???곕씫泥?痍⑤뱷 ???먮룞 ?붾줈??
+### 대부업법 및 금융광고 규정
+- **금리 표시 의무:** 광고 시 최고 금리(현행 연 20%) 반드시 명시
+- **등록번호 표시:** 대부중개업 등록번호 모든 광고물에 기재
+- **경고 문구 의무:** "과도한 빚은 당신에게 큰 불행을 안겨줄 수 있습니다" 문구 포함
+- **허위·과장 광고 금지:** "100% 승인", "무조건 대출" 등 표현 절대 금지
+- **미등록 업체 사칭 금지:** 저축은행/캐피탈 직접 취급 오해 유발 표현 금지
+- **개인정보:** SNS DM으로 개인정보(주민번호, 계좌번호) 수집 금지 → 홈페이지 폼으로만
 
-### 2-2. ?쇰낯 ?뚮퉬?먭툑??SNS ?꾨왂 (?꾩퐫臾? SMB C?뚯씠?몄뒪)
-- **?쇱씤(LINE) 怨듭떇怨꾩젙 以묒떖:** 1:1 ?곷떞 梨꾨꼸濡??쒖슜
-- **?④퀎蹂??덈궡:** 臾대즺議고쉶 ??媛꾨떒?쒕쪟 ???뱀씪?뱀씤 ?꾨줈?몄뒪 ?쒓컖??
-- **?좏뒠釉??쇱툩:** 60珥??대궡 "?닿쾬留??뚮㈃ ?異??쒕떎" ?뺤떇
-
-### 2-3. 援?궡 理쒓퀬 ?щ? 遺꾩꽍
-- **OK?異뺤???** ?좏뒠釉?"OK湲덉쑖洹몃９" 梨꾨꼸 - ?щТ援먯쑁 + ?곹뭹?덈궡 ?쇳빀
-- **???Finda):** ?몄뒪?洹몃옩 移대뱶?댁뒪 - 蹂듭옟??湲덉쑖?뺣낫瑜??대?吏濡??⑥닚??
-- **諭낇겕?먮윭??** 媛쒖씤???곗씠??湲곕컲 肄섑뀗痢????좊ː??洹밸???
+### SNS별 금융광고 정책
+- **인스타그램/페이스북:** 금융상품 광고 사전 승인 필요 (Meta 금융서비스 정책)
+- **유튜브:** 금융 콘텐츠 수익화 제한 있으나 정보성 콘텐츠는 허용
+- **카카오채널:** 대부업 광고 허용 (등록증 제출 필요)
+- **네이버 블로그:** 정보성 포스팅은 허용, 직접 광고는 검색광고 정책 준수
 
 ---
 
-## 3. ?덈줎湲덉쑖 ?뚮옯?쇰퀎 ?ㅽ뻾 ?꾨왂
+## 2. 글로벌 최고 수준 SNS 영업 전략 분석
 
-### 3-1. 移댁뭅?ㅼ콈??(理쒖슦??梨꾨꼸)
-**?댁쑀:** ?쒓뎅 40~60? 二쇱슂 怨좉컼痢듭쓽 硫붿씤 ?뚮옯??
+### 2-1. 미국 금융 마케팅 벤치마크 (Dave Ramsey / SoFi / LendingTree)
+- **교육 콘텐츠 우선 전략:** "당신의 신용점수를 올리는 7가지 방법" → 신뢰 구축 후 상담 유도
+- **스토리텔링:** 실제 고객 사례(익명) 기반 Before/After 콘텐츠
+- **Retargeting:** 홈페이지 방문자에게 SNS 리타겟 광고
+- **유료 리드 생성:** 무료 한도조회 → 이메일/연락처 취득 → 자동 팔로업
 
-**?ㅼ젙:**
-```
-梨꾨꼸紐? ?덈줎湲덉쑖?遺以묎컻 (源?뺤쭊 ???
-移댄뀒怨좊━: 湲덉쑖 > ?異?
-?꾨줈?? ????대?吏 + ?깅줉踰덊샇 ?쒖떆
-?먮룞?묐떟: 24?쒓컙 梨쀫큸 ?ㅼ젙
-```
+### 2-2. 일본 소비자금융 SNS 전략 (아코무, SMB C파이낸스)
+- **라인(LINE) 공식계정 중심:** 1:1 상담 채널로 활용
+- **단계별 안내:** 무료조회 → 간단서류 → 당일승인 프로세스 시각화
+- **유튜브 쇼츠:** 60초 이내 "이것만 알면 대출 된다" 형식
 
-**?먮룞??梨쀫큸 ?쒕굹由ъ삤:**
-```
-[諛⑸Ц??吏꾩엯]
-    ??
-"?덈뀞?섏꽭?? ?덈줎湲덉쑖?遺以묎컻?낅땲???삃
-臾댁뾿???꾩??쒕┫源뚯슂?"
-    ??
-[踰꾪듉 1] 臾대즺 ?쒕룄議고쉶  [踰꾪듉 2] 湲덈━ ?덈궡  [踰꾪듉 3] ?곷떞 ?좎껌
-    ??
-[臾대즺 ?쒕룄議고쉶 ?좏깮 ??
-"?좎슜?먯닔 ?곹뼢 ?놁씠 ?덉긽 ?쒕룄瑜??뺤씤?섏꽭??
-??saeloan.co.kr ?먯꽌 臾대즺議고쉶 媛?ν빀?덈떎"
-    ??
-[?곷떞 ?좎껌 ?좏깮 ??
-"?꾨떞 ?곷떞?ш? ?곕씫?쒕┰?덈떎.
-?대쫫怨??곕씫泥섎? ?④꺼二쇱떆硫?鍮좊Ⅴ寃??덈궡???쒕━寃좎뒿?덈떎.
-(媛쒖씤?뺣낫???덉쟾?섍쾶 蹂댄샇?⑸땲??"
-```
-
-**二쇨컙 諛쒖넚 肄섑뀗痢?(?먮룞??:**
-- ?? ?대쾲 二??異뺤???湲덈━ ?숉뼢
-- ?? ?異??곸떇 移대뱶?댁뒪 1??
-- 湲? 二쇰쭚 ?곷떞 媛???덈궡
+### 2-3. 국내 최고 사례 분석
+- **OK저축은행:** 유튜브 "OK금융그룹" 채널 - 재무교육 + 상품안내 혼합
+- **핀다(Finda):** 인스타그램 카드뉴스 - 복잡한 금융정보를 이미지로 단순화
+- **뱅크샐러드:** 개인화 데이터 기반 콘텐츠 → 신뢰도 극대화
 
 ---
 
-### 3-2. ?몄뒪?洹몃옩
-**怨꾩젙:** @saeloan_financial (?댄씗???댁쁺, 源?뺤쭊 ???紐낆쓽)
+## 3. 새론금융 플랫폼별 실행 전략
 
-**肄섑뀗痢??좏삎 (7:2:1 踰뺤튃):**
-- 70% 援먯쑁쨌?뺣낫 肄섑뀗痢?(?좎슜愿由? ?異??곸떇)
-- 20% ?곹뭹 ?덈궡 (?뚰듃?덉궗 湲덈━, ?쒕룄)
-- 10% ?좊ː 援ъ텞 (?깅줉利? ?섏긽?ㅼ쟻, ?꾧린)
+### 3-1. 카카오채널 (최우선 채널)
+**이유:** 한국 40~60대 주요 고객층의 메인 플랫폼
 
-**寃뚯떆臾?援ъ“ (移대뱶?댁뒪 ?뺤떇):**
+**설정:**
 ```
-?щ씪?대뱶 1: ??Hook) - "?좎슜遺덈웾???異?諛쏆쓣 ???덉쓣源뚯슂?"
-?щ씪?대뱶 2-5: ?듭떖 ?댁슜 (吏㏐퀬 援듦쾶)
-?щ씪?대뱶 6: CTA - "臾대즺議고쉶: saeloan.co.kr"
-?щ씪?대뱶 7: 踰뺤쟻 怨좎? (湲덈━ 踰붿쐞, ?깅줉踰덊샇, 寃쎄퀬臾멸뎄)
+채널명: 새론금융대부중개 (김덕진 대표)
+카테고리: 금융 > 대출
+프로필: 대표 이미지 + 등록번호 표시
+자동응답: 24시간 챗봇 설정
 ```
 
-**?댁떆?쒓렇 ?꾨왂:**
+**자동화 챗봇 시나리오:**
 ```
-#?異?#?좎슜?異?#?異뺤??됰?異?#鍮꾨?硫대?異?#?뱀씪?異?
-#?異쒖긽??#?뚯븸?異?#?앺솢鍮꾨?異?#湲닿툒?異?#?덈줎湲덉쑖
-#?遺以묎컻 #?쒕룄議고쉶 #臾대즺議고쉶 #湲덉쑖?뺣낫
+[방문자 진입]
+    ↓
+"안녕하세요! 새론금융대부중개입니다 😊
+무엇을 도와드릴까요?"
+    ↓
+[버튼 1] 무료 한도조회  [버튼 2] 금리 안내  [버튼 3] 상담 신청
+    ↓
+[무료 한도조회 선택 시]
+"신용점수 영향 없이 예상 한도를 확인하세요
+→ saeloan.co.kr 에서 무료조회 가능합니다"
+    ↓
+[상담 신청 선택 시]
+"전담 상담사가 연락드립니다.
+이름과 연락처를 남겨주시면 빠르게 안내해 드리겠습니다.
+(개인정보는 안전하게 보호됩니다)"
 ```
 
-**由댁뒪(Reels) 60珥??ㅽ겕由쏀듃 ?덉떆:**
+**주간 발송 콘텐츠 (자동화):**
+- 월: 이번 주 저축은행 금리 동향
+- 수: 대출 상식 카드뉴스 1장
+- 금: 주말 상담 가능 안내
+
+---
+
+### 3-2. 인스타그램
+**계정:** @saeloan_financial (이희전 운영, 김덕진 대표 명의)
+
+**콘텐츠 유형 (7:2:1 법칙):**
+- 70% 교육·정보 콘텐츠 (신용관리, 대출 상식)
+- 20% 상품 안내 (파트너사 금리, 한도)
+- 10% 신뢰 구축 (등록증, 수상실적, 후기)
+
+**게시물 구조 (카드뉴스 형식):**
 ```
-[0-5珥? "?뱀떆 ?대젃寃?留??ㅼ뼱蹂댁뀲?섏슂? '?뱀떊? ?異쒖씠 ???⑸땲??"
-[5-20珥? "?異쒖씠 嫄곗젅?섎뒗 3媛吏 ?댁쑀 (?좎슜?먯닔/?뚮뱷利앸튃/遺梨꾨퉬??"
-[20-45珥? "?덈줎湲덉쑖?먯꽌???대젃寃??닿껐?⑸땲??(?뚰듃??6媛쒖궗 鍮꾧탳)"
-[45-55珥? "吏湲?臾대즺濡??쒕룄 ?뺤씤?섏꽭??
-[55-60珥? "saeloan.co.kr / ??1555-2137"
-[?붾㈃ ?섎떒 ?먮쭑] "??6.9~19.9% / ?깅줉踰덊샇 OOO / 怨쇰룄??鍮싳?..."
+슬라이드 1: 훅(Hook) - "신용불량도 대출 받을 수 있을까요?"
+슬라이드 2-5: 핵심 내용 (짧고 굵게)
+슬라이드 6: CTA - "무료조회: saeloan.co.kr"
+슬라이드 7: 법적 고지 (금리 범위, 등록번호, 경고문구)
+```
+
+**해시태그 전략:**
+```
+#대출 #신용대출 #저축은행대출 #비대면대출 #당일대출
+#대출상담 #소액대출 #생활비대출 #긴급대출 #새론금융
+#대부중개 #한도조회 #무료조회 #금융정보
+```
+
+**릴스(Reels) 60초 스크립트 예시:**
+```
+[0-5초] "혹시 이렇게 말 들어보셨나요? '당신은 대출이 안 됩니다'"
+[5-20초] "대출이 거절되는 3가지 이유 (신용점수/소득증빙/부채비율)"
+[20-45초] "새론금융에서는 이렇게 해결합니다 (파트너 6개사 비교)"
+[45-55초] "지금 무료로 한도 확인하세요"
+[55-60초] "saeloan.co.kr / ☎ 1555-2137"
+[화면 하단 자막] "연 6.9~19.9% / 등록번호 OOO / 과도한 빚은..."
 ```
 
 ---
 
-### 3-3. ?좏뒠釉??쇱툩 & 梨꾨꼸
-**梨꾨꼸紐?** ?덈줎湲덉쑖 ?댄씗??| ?異?諛붾줈?뚭린
+### 3-3. 유튜브 쇼츠 & 채널
+**채널명:** 새론금융 이희전 | 대출 바로알기
 
-**?쇱툩 肄섑뀗痢??쒕━利?**
+**쇼츠 콘텐츠 시리즈:**
 ```
-?쒕━利?1: "?異??뗢뿃 ?덈떎媛 留앺뻽?댁슂" - ?ㅼ닔 ?좏삎 ?뺣━
-?쒕━利?2: "??議곌굔?대㈃ ?쇰쭏??諛쏆쓣源?" - 耳?댁뒪蹂??쒕??덉씠??
-?쒕━利?3: "?異뺤???vs 移대뱶濡?vs ?遺 李⑥씠??
-?쒕━利?4: "?곷떞?ш? ?뚮젮二쇰뒗 吏꾩쭨 轅??
+시리즈 1: "대출 ○○ 했다가 망했어요" - 실수 유형 정리
+시리즈 2: "이 조건이면 얼마나 받을까?" - 케이스별 시뮬레이션
+시리즈 3: "저축은행 vs 카드론 vs 대부 차이점"
+시리즈 4: "상담사가 알려주는 진짜 꿀팁"
 ```
 
-**?낅줈???쇱젙:** 二?2??(?? 紐??ㅼ쟾 9??
+**업로드 일정:** 주 2회 (화, 목 오전 9시)
 
 ---
 
-### 3-4. ?ㅼ씠踰?釉붾줈洹?
-**?⑸룄:** SEO + ?뺣낫??肄섑뀗痢???寃???좎엯
+### 3-4. 네이버 블로그
+**용도:** SEO + 정보성 콘텐츠 → 검색 유입
 
-**二쇱슂 ?ㅼ썙???ъ뒪??**
+**주요 키워드 포스팅:**
 ```
-- "?異뺤????좎슜?異?議곌굔 珥앹젙由?2026"
-- "?좎슜?먯닔 ??븘???異?諛쏅뒗 諛⑸쾿"
-- "?遺以묎컻?낆껜 ?댁슜 諛⑸쾿怨?二쇱쓽?ы빆"
-- "OK?異뺤???鍮꾧탳 ?異?理쒖?湲덈━ 李얘린"
-- "?뚮뱷 ?놁뼱???異?媛?ν븳 怨?(二쇰?, 臾댁쭅)"
+- "저축은행 신용대출 조건 총정리 2026"
+- "신용점수 낮아도 대출 받는 방법"
+- "대부중개업체 이용 방법과 주의사항"
+- "OK저축은행 비교 대출 최저금리 찾기"
+- "소득 없어도 대출 가능한 곳 (주부, 무직)"
 ```
 
-**?ъ뒪??援ъ“:**
-1. ?쒕ぉ (寃?됲궎?뚮뱶 ?ы븿)
-2. ?붿빟 (3以?
-3. 蹂몃Ц (800~1,500?? ?대?吏 5???댁긽)
-4. 留덈Т由?CTA: "?덈줎湲덉쑖 臾대즺 ?쒕룄議고쉶 諛붾줈媛湲???saeloan.co.kr"
-5. 硫댁콉/踰뺤쟻 怨좎? (湲덈━踰붿쐞, ?깅줉踰덊샇)
+**포스팅 구조:**
+1. 제목 (검색키워드 포함)
+2. 요약 (3줄)
+3. 본문 (800~1,500자, 이미지 5장 이상)
+4. 마무리 CTA: "새론금융 무료 한도조회 바로가기 → saeloan.co.kr"
+5. 면책/법적 고지 (금리범위, 등록번호)
 
 ---
 
-## 4. AI ?먮룞???쒖뒪??援ъ꽦
+## 4. AI 자동화 시스템 구성
 
-### 4-1. 肄섑뀗痢??먮룞 ?앹꽦 ?뚯씠?꾨씪??
+### 4-1. 콘텐츠 자동 생성 파이프라인
 
 ```
-[留ㅼ＜ ?붿슂???먮룞 ?ㅽ뻾]
-1. ChatGPT/Claude API ??二쇨컙 湲덉쑖?댁뒋 湲곕컲 肄섑뀗痢?珥덉븞 ?앹꽦
-2. Canva API ??移대뱶?댁뒪 ?대?吏 ?먮룞 ?앹꽦 (釉뚮옖???쒗뵆由??곸슜)
-3. Buffer/Later API ??媛??뚮옯?쇱뿉 ?덉빟 諛쒗뻾
-4. ?댄씗??理쒖쥌 寃?????뱀씤 ??諛쒗뻾
+[매주 월요일 자동 실행]
+1. ChatGPT/Claude API → 주간 금융이슈 기반 콘텐츠 초안 생성
+2. Canva API → 카드뉴스 이미지 자동 생성 (브랜드 템플릿 적용)
+3. Buffer/Later API → 각 플랫폼에 예약 발행
+4. 이희전 최종 검토 → 승인 후 발행
 ```
 
-### 4-2. 異붿쿇 ?먮룞?????ㅽ깮
+### 4-2. 추천 자동화 툴 스택
 
-| ??븷 | ?꾧뎄 | ??鍮꾩슜(USD) |
+| 역할 | 도구 | 월 비용(USD) |
 |---|---|---|
-| 肄섑뀗痢??앹꽦 | ChatGPT Plus / Claude Pro | $20~25 |
-| ?대?吏 ?앹꽦 | Canva Pro | $13 |
-| SNS ?덉빟諛쒗뻾 | Buffer (Essentials) | $6 |
-| 釉붾줈洹?珥덉븞 | ChatGPT + ?섎룞 ?섏젙 | - |
-| 移댁뭅??梨쀫큸 | 移댁뭅??鍮꾩쫰?덉뒪 (梨꾨꼸 梨쀫큸) | 臾대즺~?좊즺 |
-| CRM / 由щ뱶愿由?| Notion + Google Sheets | 臾대즺 |
-| ?대찓???먮룞??| Gmail + Google AppScript | 臾대즺 |
-| **?⑷퀎** | | **??$44/??(??6留뚯썝)** |
+| 콘텐츠 생성 | ChatGPT Plus / Claude Pro | $20~25 |
+| 이미지 생성 | Canva Pro | $13 |
+| SNS 예약발행 | Buffer (Essentials) | $6 |
+| 블로그 초안 | ChatGPT + 수동 수정 | - |
+| 카카오 챗봇 | 카카오 비즈니스 (채널 챗봇) | 무료~유료 |
+| CRM / 리드관리 | Notion + Google Sheets | 무료 |
+| 이메일 자동화 | Gmail + Google AppScript | 무료 |
+| **합계** | | **약 $44/월 (약 6만원)** |
 
-### 4-3. 由щ뱶(?곷떞?좎껌) ?먮룞 泥섎━ ?먮쫫
+### 4-3. 리드(상담신청) 자동 처리 흐름
 
 ```
-SNS 寃뚯떆臾????덊럹?댁? 留곹겕 ?대┃
-    ??
-saeloan.co.kr ?곷떞?좎껌 ???묒꽦
-    ??
-?댄씗???대찓?쇰줈 ?먮룞 ?섏떊 (?꾩옱 API 援ы쁽 ?꾨즺)
-    ??
-Google Sheets ?먮룞 湲곕줉
-    ??
-30遺??대궡 ?듭옣 ?먮룞 諛쒖넚 (Google AppScript)
-    ??
-?꾨떞 ?곷떞???댄씗?? ?꾪솕 ?곷떞 ???뚰듃?덉궗 ?곌껐
+SNS 게시물 → 홈페이지 링크 클릭
+    ↓
+saeloan.co.kr 상담신청 폼 작성
+    ↓
+이희전 이메일로 자동 수신 (현재 API 구현 완료)
+    ↓
+Google Sheets 자동 기록
+    ↓
+30분 이내 답장 자동 발송 (Google AppScript)
+    ↓
+전담 상담사(이희전) 전화 상담 → 파트너사 연결
 ```
 
 ---
 
-## 5. 二쇨컙 肄섑뀗痢?罹섎┛??(?먮룞??湲곗?)
+## 5. 주간 콘텐츠 캘린더 (자동화 기준)
 
-| ?붿씪 | ?뚮옯??| 肄섑뀗痢??좏삎 |
+| 요일 | 플랫폼 | 콘텐츠 유형 |
 |---|---|---|
-| ??| 移댁뭅?ㅼ콈??| ?대쾲 二??異뺤???湲덈━ ?숉뼢 |
-| ??| ?ㅼ씠踰?釉붾줈洹?| ?뺣낫???ъ뒪??1嫄?|
-| ??| ?몄뒪?洹몃옩 | 移대뱶?댁뒪 (援먯쑁 肄섑뀗痢? |
-| ??| ?좏뒠釉??쇱툩 | 60珥??곸긽 |
-| ??| ?몄뒪?洹몃옩 ?ㅽ넗由?| 媛꾨떒 ?댁쫰 or ?ы몴 |
-| 紐?| ?좏뒠釉??쇱툩 | 60珥??곸긽 |
-| 紐?| 移댁뭅?ㅼ콈??| ?곷떞 媛???덈궡 |
-| 湲?| ?몄뒪?洹몃옩 | 移대뱶?댁뒪 (?곹뭹 ?덈궡) |
-| ??| ?몄뒪?洹몃옩 ?ㅽ넗由?| 二쇰쭚 湲닿툒?곷떞 媛???덈궡 |
+| 월 | 카카오채널 | 이번 주 저축은행 금리 동향 |
+| 월 | 네이버 블로그 | 정보성 포스팅 1건 |
+| 화 | 인스타그램 | 카드뉴스 (교육 콘텐츠) |
+| 화 | 유튜브 쇼츠 | 60초 영상 |
+| 수 | 인스타그램 스토리 | 간단 퀴즈 or 투표 |
+| 목 | 유튜브 쇼츠 | 60초 영상 |
+| 목 | 카카오채널 | 상담 가능 안내 |
+| 금 | 인스타그램 | 카드뉴스 (상품 안내) |
+| 토 | 인스타그램 스토리 | 주말 긴급상담 가능 안내 |
 
 ---
 
-## 6. 肄섑뀗痢??섑뵆
+## 6. 콘텐츠 샘플
 
-### ?섑뵆 1: ?몄뒪?洹몃옩 移대뱶?댁뒪 (援먯쑁??
+### 샘플 1: 인스타그램 카드뉴스 (교육형)
 ```
-[?щ씪?대뱶 1] ?뱤 ?좎슜?먯닔 ?닿쾬留??뚮㈃ 10???ㅻ쫭?덈떎
+[슬라이드 1] 📊 신용점수 이것만 알면 10점 오릅니다
 
-[?щ씪?대뱶 2] ??泥댄겕移대뱶蹂대떎 ?좎슜移대뱶瑜??곗꽭??
-              (?? 30% ?댄븯 ?ъ슜)
+[슬라이드 2] ✅ 체크카드보다 신용카드를 쓰세요
+              (단, 30% 이하 사용)
 
-[?щ씪?대뱶 3] ???異쒖쓣 ?щ윭 怨녹뿉 ?숈떆 ?좎껌?섏? 留덉꽭??
-              (?④린媛??ㅼ쨷議고쉶 = 媛먯젏)
+[슬라이드 3] ✅ 대출을 여러 곳에 동시 신청하지 마세요
+              (단기간 다중조회 = 감점)
 
-[?щ씪?대뱶 4] ???곗껜??1?쇰룄 ?섏? 留덉꽭??
-              (?곗껜 湲곕줉 = 理쒕? -100??
+[슬라이드 4] ✅ 연체는 1일도 하지 마세요
+              (연체 기록 = 최대 -100점)
 
-[?щ씪?대뱶 5] ???ㅻ옒??移대뱶???댁??섏? 留덉꽭??
-              (嫄곕옒湲곌컙 = ?좎슜?먯닔 ?뚮윭??
+[슬라이드 5] ✅ 오래된 카드는 해지하지 마세요
+              (거래기간 = 신용점수 플러스)
 
-[?щ씪?대뱶 6] ?뮕 吏湲?諛붾줈 臾대즺 ?쒕룄議고쉶
-              ?몛 saeloan.co.kr
-              ??1555-2137
+[슬라이드 6] 💡 지금 바로 무료 한도조회
+              👉 saeloan.co.kr
+              ☎ 1555-2137
 
-[?щ씪?대뱶 7] ?좑툘 ??6.9~19.9% | ?덈줎湲덉쑖?遺以묎컻 ?깅줉踰덊샇 ?쏰??
-              怨쇰룄??鍮싳? ?뱀떊?먭쾶 ??遺덊뻾???덇꺼以????덉뒿?덈떎
-```
-
----
-
-### ?섑뵆 2: 移댁뭅?ㅼ콈??硫붿떆吏 (?곹뭹 ?덈궡??
-```
-?뱼 [?덈줎湲덉쑖] ?대쾲 二??異뺤???理쒖?湲덈━ ?덈궡
-
-?덈뀞?섏꽭?? ?덈줎湲덉쑖?遺以묎컻 源?뺤쭊 ??쒖엯?덈떎.
-
-?대쾲 二??뚰듃???異뺤???理쒖? 湲덈━?낅땲??
-
-?룱 OK?異뺤???   ??6.9%~
-?룱 ?곗뺨?異뺤??? ??7.5%~
-?룱 ?쒓뎅?ъ옄?異? ??7.0%~
-
-?뮕 ??議곌굔?쇰줈 ?쇰쭏??諛쏆쓣 ???덉쓣吏
-   臾대즺濡??뺤씤??蹂댁꽭??(?좎슜?먯닔 ?곹뼢 ?놁쓬)
-
-?몛 saeloan.co.kr
-
-?좑툘 理쒓퀬湲덈━ ??19.9% | ?깅줉踰덊샇 ?쏰??
-怨쇰룄??鍮싳? ?뱀떊?먭쾶 ??遺덊뻾???덇꺼以????덉뒿?덈떎
+[슬라이드 7] ⚠️ 연 6.9~19.9% | 새론금융대부중개 등록번호 제O호
+              과도한 빚은 당신에게 큰 불행을 안겨줄 수 있습니다
 ```
 
 ---
 
-### ?섑뵆 3: ?좏뒠釉??쇱툩 ?ㅽ겕由쏀듃
+### 샘플 2: 카카오채널 메시지 (상품 안내형)
 ```
-?쒕ぉ: "?異?嫄곗젅 ?뱁븯???щ엺?ㅼ쓽 怨듯넻??3媛吏"
+📢 [새론금융] 이번 주 저축은행 최저금리 안내
 
-[0-3珥? (?몃꽕?쇱떇 媛뺤“) "?닿굅 紐⑤Ⅴ硫???嫄곗젅?⑸땲??
+안녕하세요, 새론금융대부중개 김덕진 대표입니다.
 
-[3-15珥? "泥レ㎏, ?щ윭 怨녹뿉 ?숈떆 ?좎껌.
-          ??됱? ?④린媛??ㅼ쨷 議고쉶瑜?遺?뺤쟻?쇰줈 遊낅땲??
-          ?덈줎湲덉쑖?먯꽌????踰덉뿉 6媛쒖궗瑜?鍮꾧탳?대뱶由쎈땲??"
+이번 주 파트너 저축은행 최저 금리입니다.
 
-[15-30珥? "?섏㎏, ?뚮뱷 利앸튃 ?쒕쪟 ?꾨씫.
-           嫄닿컯蹂댄뿕猷??⑸??뺤씤???섎굹濡??닿껐?⑸땲??"
+🏦 OK저축은행    연 6.9%~
+🏦 웰컴저축은행  연 7.5%~
+🏦 한국투자저축  연 7.0%~
 
-[30-45珥? "?뗭㎏, 湲곗〈 ?異??④린湲?
-           ?붿쭅?섍쾶 留먯???二쇱뀛??理쒖쟻???곹뭹??李얠쓣 ???덉뒿?덈떎."
+💡 내 조건으로 얼마나 받을 수 있을지
+   무료로 확인해 보세요 (신용점수 영향 없음)
 
-[45-55珥? "?덈줎湲덉쑖 臾대즺 ?쒕룄議고쉶濡?
-           ??議곌굔??留욌뒗 理쒖?湲덈━瑜?李얠븘蹂댁꽭??"
+👉 saeloan.co.kr
 
-[55-60珥? "saeloan.co.kr | 1555-2137
-           ??6.9~19.9% | 怨쇰룄??鍮싳? ??遺덊뻾??.."
+⚠️ 최고금리 연 19.9% | 등록번호 제O호
+과도한 빚은 당신에게 큰 불행을 안겨줄 수 있습니다
 ```
 
 ---
 
-## 7. ?④퀎蹂??ㅽ뻾 濡쒕뱶留?
+### 샘플 3: 유튜브 쇼츠 스크립트
+```
+제목: "대출 거절 당하는 사람들의 공통점 3가지"
 
-### Phase 1 (1~2二쇱감): 湲곕컲 援ъ텞
-- [ ] 移댁뭅??鍮꾩쫰?덉뒪 梨꾨꼸 媛쒖꽕 (?깅줉利??쒖텧)
-- [ ] ?몄뒪?洹몃옩 鍮꾩쫰?덉뒪 怨꾩젙 ?꾪솚
-- [ ] Canva Pro 釉뚮옖???쒗뵆由??쒖옉 (濡쒓퀬, ?됱긽: ?⑥깋+?몃???
-- [ ] Buffer 怨꾩젙 ?곕룞 (?몄뒪?洹몃옩 + 移댁뭅??
-- [ ] 移댁뭅??梨쀫큸 湲곕낯 ?쒕굹由ъ삤 ?ㅼ젙
+[0-3초] (썸네일식 강조) "이거 모르면 또 거절됩니다"
 
-### Phase 2 (3~4二쇱감): 肄섑뀗痢?泥?諛쒗뻾
-- [ ] ?몄뒪?洹몃옩 泥?9??寃뚯떆臾?(?쇰뱶 援ъ꽦)
-- [ ] ?ㅼ씠踰?釉붾줈洹?SEO ?ъ뒪??4嫄?
-- [ ] ?좏뒠釉?梨꾨꼸 媛쒖꽕 + ?쇱툩 4??
-- [ ] 移댁뭅?ㅼ콈??泥?諛쒖넚
+[3-15초] "첫째, 여러 곳에 동시 신청.
+          은행은 단기간 다중 조회를 부정적으로 봅니다.
+          새론금융에서는 한 번에 6개사를 비교해드립니다."
 
-### Phase 3 (2媛쒖썡李?): AI ?먮룞??蹂멸꺽 媛??
-- [ ] ChatGPT API ?곕룞 肄섑뀗痢?珥덉븞 ?먮룞?앹꽦
-- [ ] Google Sheets 由щ뱶 ?먮룞吏묎퀎
-- [ ] ?먮룞 ?대찓???붾줈???ㅼ젙
-- [ ] ?붽컙 ?깃낵 遺꾩꽍 (?꾨떖瑜? ?대┃瑜? ?곷떞 ?꾪솚??
+[15-30초] "둘째, 소득 증빙 서류 누락.
+           건강보험료 납부확인서 하나로 해결됩니다."
+
+[30-45초] "셋째, 기존 대출 숨기기.
+           솔직하게 말씀해 주셔야 최적의 상품을 찾을 수 있습니다."
+
+[45-55초] "새론금융 무료 한도조회로
+           내 조건에 맞는 최저금리를 찾아보세요."
+
+[55-60초] "saeloan.co.kr | 1555-2137
+           연 6.9~19.9% | 과도한 빚은 큰 불행을..."
+```
 
 ---
 
-## 8. KPI (?듭떖 ?깃낵 吏??
+## 7. 단계별 실행 로드맵
 
-| 吏??| 3媛쒖썡 紐⑺몴 | 6媛쒖썡 紐⑺몴 |
+### Phase 1 (1~2주차): 기반 구축
+- [ ] 카카오 비즈니스 채널 개설 (등록증 제출)
+- [ ] 인스타그램 비즈니스 계정 전환
+- [ ] Canva Pro 브랜드 템플릿 제작 (로고, 색상: 남색+노란색)
+- [ ] Buffer 계정 연동 (인스타그램 + 카카오)
+- [ ] 카카오 챗봇 기본 시나리오 설정
+
+### Phase 2 (3~4주차): 콘텐츠 첫 발행
+- [ ] 인스타그램 첫 9장 게시물 (피드 구성)
+- [ ] 네이버 블로그 SEO 포스팅 4건
+- [ ] 유튜브 채널 개설 + 쇼츠 4편
+- [ ] 카카오채널 첫 발송
+
+### Phase 3 (2개월차~): AI 자동화 본격 가동
+- [ ] ChatGPT API 연동 콘텐츠 초안 자동생성
+- [ ] Google Sheets 리드 자동집계
+- [ ] 자동 이메일 팔로업 설정
+- [ ] 월간 성과 분석 (도달률, 클릭률, 상담 전환율)
+
+---
+
+## 8. KPI (핵심 성과 지표)
+
+| 지표 | 3개월 목표 | 6개월 목표 |
 |---|---|---|
-| ?몄뒪?洹몃옩 ?붾줈??| 500紐?| 2,000紐?|
-| 移댁뭅?ㅼ콈??援щ룆??| 200紐?| 800紐?|
-| ?ㅼ씠踰?釉붾줈洹???諛⑸Ц | 100紐?| 500紐?|
-| ???덊럹?댁? ?좎엯 | 300嫄?| 1,000嫄?|
-| ???곷떞?좎껌 | 20嫄?| 60嫄?|
-| ???ㅽ뻾 嫄댁닔 | 3嫄?| 10嫄?|
+| 인스타그램 팔로워 | 500명 | 2,000명 |
+| 카카오채널 구독자 | 200명 | 800명 |
+| 네이버 블로그 일 방문 | 100명 | 500명 |
+| 월 홈페이지 유입 | 300건 | 1,000건 |
+| 월 상담신청 | 20건 | 60건 |
+| 월 실행 건수 | 3건 | 10건 |
 
 ---
 
-## 9. 二쇱쓽?ы빆 ?붿빟
+## 9. 주의사항 요약
 
-1. **紐⑤뱺 愿묎퀬臾쇱뿉 諛섎뱶???ы븿:**
-   - ?깅줉踰덊샇
-   - 湲덈━ 踰붿쐞 (??6.9~19.9%)
-   - 寃쎄퀬 臾멸뎄
+1. **모든 광고물에 반드시 포함:**
+   - 등록번호
+   - 금리 범위 (연 6.9~19.9%)
+   - 경고 문구
 
-2. **?덈? ?섏? 留?寃?**
-   - "100% ?뱀씤 媛?? ???덉쐞쨌怨쇱옣 ?쒗쁽
-   - SNS DM?쇰줈 媛쒖씤?뺣낫(二쇰?踰덊샇, 怨꾩쥖) ?섏쭛
-   - ?대찓????二쇱냼 SNS ??吏곸젒 ?몄텧
+2. **절대 하지 말 것:**
+   - "100% 승인 가능" 등 허위·과장 표현
+   - SNS DM으로 개인정보(주민번호, 계좌) 수집
+   - 이메일/폼 주소 SNS 상 직접 노출
 
-3. **SNS?믫솃?섏씠吏 ?⑤갑???좊룄 ?먯튃:**
-   - 紐⑤뱺 CTA??`saeloan.co.kr` 留곹겕濡??듭씪
-   - ?곷떞?좎껌, ?쒕룄議고쉶 紐⑤몢 ?덊럹?댁??먯꽌 泥섎━
+3. **SNS→홈페이지 단방향 유도 원칙:**
+   - 모든 CTA는 `saeloan.co.kr` 링크로 통일
+   - 상담신청, 한도조회 모두 홈페이지에서 처리
 
 ---
 
-*?묒꽦: ?댄씗??| ?덈줎湲덉쑖?遺以묎컻 ?댁쁺 愿由?
-*理쒖쥌 ?섏젙: 2026-05-17*
+*작성: 이희전 | 새론금융대부중개 운영 관리*
+*최종 수정: 2026-05-17*
+
+
 
 ---
 
@@ -62111,26 +62799,28 @@ Google Sheets ?먮룞 湲곕줉
 ---
 
 
-# ?끸쁾???꾪뙆???異?119 - 理쒖쥌 ?쒖뒪??援ъ텞 ?꾨줈?앺듃 ?끸쁾??
+# ★★★ 아파트 대출 119 - 최종 시스템 구축 프로젝트 ★★★
 
-## 2026-05-20: ?꾨줈?앺듃 ?쒖옉
+## 2026-05-20: 프로젝트 시작
 
-**紐⑺몴:** ??쒕?援?理쒓퀬??'?遺以묎컻??SNS ?먮룞???쒖뒪?? 援ъ텞
+**목표:** 대한민국 최고의 '대부중개업 SNS 자동화 시스템' 구축
 
-**?묒뾽??** GitHub Copilot
+**작업자:** GitHub Copilot
 
-**留덇컧 湲고븳:** 2026-05-21 ?ㅼ쟾 9??
+**마감 기한:** 2026-05-21 오전 9시
 
-**?듭떖 ?섑뻾 ?먯튃 (5? ?먯튃):**
-1.  **洹쇰낯 ?ы솗??** `PROJECT_CONTEXT_SOURCE.md` 諛?`WORK_IN_PROGRESS.md` ?뺣룆???듯븳 ?꾨줈?앺듃 紐⑺몴 諛??쒖빟 議곌굔 ?ы솗??
-2.  **?꾨왂 ?ш???** 梨뾉PT 珥덇린 遺꾩꽍 湲곕컲 ?쒖옣 ?먮━ ?ш???
-3.  **?쒖옣 ?щ텇??** 理쒖떊 寃쎌웳???숉뼢 踰ㅼ튂留덊궧???듯븳 李⑤퀎???꾨왂 ?섎┰.
-4.  **踰뺢퇋 ?ъ???** ?遺?낅쾿 諛?愿묎퀬 ?ъ쓽 洹쒖젙 ?뺤씤???듯븳 踰뺤쟻 由ъ뒪???쒕줈(Zero) ?ㅺ퀎.
-5.  **?⑥쑉??洹밸???** ?ъ옣?섏쓽 ?쒓컙 ?ъ엯??理쒖냼?뷀븯怨? ?ㅼ쟻?쇰줈 吏곴껐?섎뒗 ?먮룞???꾨줈?몄뒪?먮쭔 吏묒쨷.
+**핵심 수행 원칙 (5대 원칙):**
+1.  **근본 재확인:** `PROJECT_CONTEXT_SOURCE.md` 및 `WORK_IN_PROGRESS.md` 정독을 통한 프로젝트 목표 및 제약 조건 재확인.
+2.  **전략 재검토:** 챗GPT 초기 분석 기반 시장 원리 재검토.
+3.  **시장 재분석:** 최신 경쟁사 동향 벤치마킹을 통한 차별화 전략 수립.
+4.  **법규 재준수:** 대부업법 및 광고 심의 규정 확인을 통한 법적 리스크 제로(Zero) 설계.
+5.  **효율성 극대화:** 사장님의 시간 투입을 최소화하고, 실적으로 직결되는 자동화 프로세스에만 집중.
 
 ---
-*(?묒뾽 吏꾪뻾 ?댁슜???ш린??怨꾩냽 湲곕줉???덉젙?낅땲??..)*
+*(작업 진행 내용이 여기에 계속 기록될 예정입니다...)*
 ---
+
+
 
 ---
 
@@ -62139,7 +62829,7 @@ Google Sheets ?먮룞 湲곕줉
 ---
 
 // auto-generate-assets.js
-// ?덊럹?댁?, ?꾨떒吏, 紐낇븿 ?뚯씪 ?먮룞 ?앹꽦 ?ㅽ겕由쏀듃
+// 홈페이지, 전단지, 명함 파일 자동 생성 스크립트
 const fs = require('fs');
 const path = require('path');
 
@@ -62148,83 +62838,85 @@ const homepageHtml = `<!DOCTYPE html>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Saeloan Financial | ?덈줎湲덉쑖以묎컻??/title>
+  <title>Saeloan Financial | 새론금융중개업</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <h1>?덈줎湲덉쑖以묎컻??/h1>
+    <h1>새론금융중개업</h1>
     <h2>Saeloan Financial</h2>
-    <p class="slogan">?⑸쾿 쨌 ?좊ː 쨌 留욎땄 湲덉쑖以묎컻</p>
+    <p class="slogan">합법 · 신뢰 · 맞춤 금융중개</p>
   </header>
   <main>
     <section>
-      <h3>?뚯궗?뚭컻</h3>
-      <p>??? 源?뺤쭊 | ?ъ뾽?먮벑濡앸쾲?? 653-90-02268<br>二쇱냼: 寃쎄린???섏썝???붾떖援?沅뚭킅濡?159, 1??5痢?502???멸퀎?? ?섏썝?꾨씪??</p>
+      <h3>회사소개</h3>
+      <p>대표: 김덕진 | 사업자등록번호: 653-90-02268<br>주소: 경기도 수원시 팔달구 권광로 159, 1동 5층 502호(인계동, 수원프라자)</p>
     </section>
     <section>
-      <h3>二쇱슂 ?쒕퉬??/h3>
+      <h3>주요 서비스</h3>
       <ul>
-        <li>?⑸쾿???遺以묎컻 諛?留욎땄 湲덉쑖?곷떞</li>
-        <li>怨좉컼 ?좎슜쨌?곹솴??留욌뒗 理쒖쟻 ?異쒖긽???덈궡</li>
-        <li>媛쒖씤?뺣낫 蹂댄샇 諛?踰뺢퇋 以??/li>
+        <li>합법적 대부중개 및 맞춤 금융상담</li>
+        <li>고객 신용·상황에 맞는 최적 대출상품 안내</li>
+        <li>개인정보 보호 및 법규 준수</li>
       </ul>
     </section>
     <section>
-      <h3>?곷떞?좎껌</h3>
+      <h3>상담신청</h3>
       <form>
-        <input type="text" placeholder="?대쫫" required>
-        <input type="tel" placeholder="?곕씫泥? required>
-        <input type="text" placeholder="臾몄쓽?댁슜" required>
-        <button type="submit">?곷떞?좎껌</button>
+        <input type="text" placeholder="이름" required>
+        <input type="tel" placeholder="연락처" required>
+        <input type="text" placeholder="문의내용" required>
+        <button type="submit">상담신청</button>
       </form>
     </section>
   </main>
 </body>
 </html>`;
 
-const flyerMd = `# ?덈줎湲덉쑖以묎컻???꾨떒吏
+const flyerMd = `# 새론금융중개업 전단지
 
-**?⑸쾿 쨌 ?좊ː 쨌 留욎땄 湲덉쑖以묎컻**
+**합법 · 신뢰 · 맞춤 금융중개**
 
-- ??? 源?뺤쭊
-- ?ъ뾽?먮벑濡앸쾲?? 653-90-02268
-- 二쇱냼: 寃쎄린???섏썝???붾떖援?沅뚭킅濡?159, 1??5痢?502???멸퀎?? ?섏썝?꾨씪??
-- ??쒖쟾?? 1555-2173 / 010-5927-9205
+- 대표: 김덕진
+- 사업자등록번호: 653-90-02268
+- 주소: 경기도 수원시 팔달구 권광로 159, 1동 5층 502호(인계동, 수원프라자)
+- 대표전화: 1555-2173 / 010-5927-9205
 
-## 二쇱슂 ?쒕퉬??
-- ?⑸쾿???遺以묎컻 諛?留욎땄 湲덉쑖?곷떞
-- 怨좉컼 ?좎슜쨌?곹솴??留욌뒗 理쒖쟻 ?異쒖긽???덈궡
-- 媛쒖씤?뺣낫 蹂댄샇 諛?踰뺢퇋 以??
+## 주요 서비스
+- 합법적 대부중개 및 맞춤 금융상담
+- 고객 신용·상황에 맞는 최적 대출상품 안내
+- 개인정보 보호 및 법규 준수
 `;
 
-const cardMd = `# ?덈줎湲덉쑖以묎컻??紐낇븿
+const cardMd = `# 새론금융중개업 명함
 
 **Saeloan Financial**
-- ??? 源?뺤쭊
-- ??쒖쟾?? 1555-2173
-- ?대??? 010-5927-9205
-- 二쇱냼: 寃쎄린???섏썝???붾떖援?沅뚭킅濡?159, 1??5痢?502???멸퀎?? ?섏썝?꾨씪??
-- ?ъ뾽?먮벑濡앸쾲?? 653-90-02268
+- 대표: 김덕진
+- 대표전화: 1555-2173
+- 휴대폰: 010-5927-9205
+- 주소: 경기도 수원시 팔달구 권광로 159, 1동 5층 502호(인계동, 수원프라자)
+- 사업자등록번호: 653-90-02268
 `;
 
 function ensureDir(dir) {
   if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
 }
 
-// ?덊럹?댁?
+// 홈페이지
 ensureDir(path.join(__dirname, 'saeron-finance/homepage'));
 fs.writeFileSync(path.join(__dirname, 'saeron-finance/homepage/index.html'), homepageHtml);
 
-// ?꾨떒吏
+// 전단지
 ensureDir(path.join(__dirname, 'saeron-finance/flyer'));
 fs.writeFileSync(path.join(__dirname, 'saeron-finance/flyer/saeron-flyer-auto.md'), flyerMd);
 
-// 紐낇븿
+// 명함
 ensureDir(path.join(__dirname, 'saeron-finance/card'));
 fs.writeFileSync(path.join(__dirname, 'saeron-finance/card/saeron-card-auto.md'), cardMd);
 
-console.log('?덊럹?댁?, ?꾨떒吏, 紐낇븿 ?먮룞 ?앹꽦 ?꾨즺!');
+console.log('홈페이지, 전단지, 명함 자동 생성 완료!');
+
+
 
 ---
 
@@ -62239,24 +62931,24 @@ console.log('?덊럹?댁?, ?꾨떒吏, 紐낇븿 ?먮룞 ?앹꽦 ?꾨즺!');
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
     <!-- Primary Meta Tags -->
-    <title>?덈줎湲덉쑖?遺以묎컻 - ?⑸━???쒕룄, ?좎냽???곷떞</title>
-    <meta name="title" content="?덈줎湲덉쑖?遺以묎컻 - ?⑸━???쒕룄, ?좎냽???곷떞" />
-    <meta name="description" content="?꾧뎅 ????遺??鍮꾧탳, AI ?쒕룄議고쉶, 鍮좊Ⅸ ?뱀씤 ?덈궡. ?遺以묎컻???깅줉: 2026-?섏썝-2324" />
-    <meta name="keywords" content="?遺以묎컻, ?異쒖긽?? ?쒕룄議고쉶, 媛쒖씤?異? ?遺?щ퉬援? ?덈줎湲덉쑖" />
-    <meta name="author" content="?덈줎湲덉쑖?遺以묎컻 (源?뺤쭊)" />
+    <title>새론금융대부중개 - 합리적 한도, 신속한 상담</title>
+    <meta name="title" content="새론금융대부중개 - 합리적 한도, 신속한 상담" />
+    <meta name="description" content="전국 대형 대부사 비교, AI 한도조회, 빠른 승인 안내. 대부중개업 등록: 2026-수원-2324" />
+    <meta name="keywords" content="대부중개, 대출상담, 한도조회, 개인대출, 대부사비교, 새론금융" />
+    <meta name="author" content="새론금융대부중개 (김덕진)" />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://saeloan.vercel.app" />
-    <meta property="og:title" content="?덈줎湲덉쑖?遺以묎컻 - ?⑸━???쒕룄, ?좎냽???곷떞" />
-    <meta property="og:description" content="?꾧뎅 ????遺??鍮꾧탳, 鍮좊Ⅸ ?뱀씤 ?덈궡. ?遺以묎컻???깅줉?낆껜" />
+    <meta property="og:title" content="새론금융대부중개 - 합리적 한도, 신속한 상담" />
+    <meta property="og:description" content="전국 대형 대부사 비교, 빠른 승인 안내. 대부중개업 등록업체" />
     <meta property="og:image" content="https://saeloan.vercel.app/og-image.png" />
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:url" content="https://saeloan.vercel.app" />
-    <meta property="twitter:title" content="?덈줎湲덉쑖?遺以묎컻 - ?⑸━???쒕룄, ?좎냽???곷떞" />
-    <meta property="twitter:description" content="?꾧뎅 ????遺??鍮꾧탳, 鍮좊Ⅸ ?뱀씤 ?덈궡. ?遺以묎컻???깅줉?낆껜" />
+    <meta property="twitter:title" content="새론금융대부중개 - 합리적 한도, 신속한 상담" />
+    <meta property="twitter:description" content="전국 대형 대부사 비교, 빠른 승인 안내. 대부중개업 등록업체" />
     <meta property="twitter:image" content="https://saeloan.vercel.app/og-image.png" />
 
     <!-- Canonical -->
@@ -62271,7 +62963,7 @@ console.log('?덊럹?댁?, ?꾨떒吏, 紐낇븿 ?먮룞 ?앹꽦 ?꾨즺!');
     <meta name="mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-    <meta name="apple-mobile-web-app-title" content="?덈줎湲덉쑖" />
+    <meta name="apple-mobile-web-app-title" content="새론금융" />
 
     <!-- Preconnect -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -62353,9 +63045,9 @@ console.log('?덊럹?댁?, ?꾨떒吏, 紐낇븿 ?먮룞 ?앹꽦 ?꾨즺!');
       if ('serviceWorker' in navigator) {
         window.addEventListener('load', () => {
           navigator.serviceWorker.register('/sw.js').then(reg => {
-            console.log('??Service Worker ?깅줉 ?꾨즺');
+            console.log('✅ Service Worker 등록 완료');
           }).catch(err => {
-            console.log('??Service Worker ?깅줉 ?ㅽ뙣:', err);
+            console.log('❌ Service Worker 등록 실패:', err);
           });
         });
       }
@@ -62371,12 +63063,12 @@ console.log('?덊럹?댁?, ?꾨떒吏, 紐낇븿 ?먮룞 ?앹꽦 ?꾨즺!');
         "@context": "https://schema.org",
         "@type": "Organization",
         "name": "PetCare+",
-        "description": "AI 湲곕컲 ?ル낫??鍮꾧탳 ?뚮옯??,
+        "description": "AI 기반 펫보험 비교 플랫폼",
         "url": "https://petcare-plus.vercel.app",
         "logo": "https://petcare-plus.vercel.app/logo.png",
         "founder": {
           "@type": "Person",
-          "name": "?댄씗泥?,
+          "name": "이희천",
           "email": "hejunl@hanmail.net"
         },
         "contactPoint": {
@@ -62390,45 +63082,50 @@ console.log('?덊럹?댁?, ?꾨떒吏, 紐낇븿 ?먮룞 ?앹꽦 ?꾨즺!');
   </body>
 </html>
 
+
+
 ---
 
 # 파일 출처: ..\..\petcare-phase2-complete\petcare-phase2-complete\.git\index
 
 ---
 
-DIRC      Ri첈?H㎊i첈?q2?         겇           횎쾆B?K?yRX?BQ4;?.env.example      i┭?   i쾝t楣          겇          ??['??맋"?켔< .env.example.txt  jk?}|jk?繼\          겇          P}난苽g雉?뽀]=^?- *.github/workflows/auto-generate-deploy.yml        i??   jv?q쁥          겇          [꿱t?2\??H?뮝," 
-.gitignore        i?     i?               겇          2??U?P됅~뉀Y? 뫶	 ClaimProcess.jsx  i?     i?               겇          	눉?nL旨囚헅擧냙? DEPLOYMENT_GUIDE.md       i?     i?               겇           毅峙⒰LD?뇍?h?x~6?DEPLOYMENT_REPORT.md      i?     i?               겇           fB?뚩?#:?>?6|풎 DEPLOY_CHECKLIST.md       i??   i??             겇          광*熔sK'p栓숴?~믝( FINAL_STATUS_2026-03-04.md        i?    i?              겇          Lbv쿒}m&??oH쒒 S2D HospitalFinder.jsx        i?     i?               겇          B쉐芍W容듹>??쟄?% InsuranceComparison.jsx   i쭩??쭫A扶,          겇           囹???R흿^L?캕2ㅄ MEMORY_2026-03-04.md      i찯??i찴G/S?          겇          dN??=쫘!?4?bx벂 MEMORY_2026-03-06.md      i?     i?               겇          ;M??췡n???A깑삮 PRIORITY.md       i?r    i?r              겇          o??(?mH픍炤)8???PROJECT_STATUS.md i?     i?               겇          #粃}뎸띺I빠챑Fh큤곟;俓 	README.md i?     i?               겇          :?b像??lX`b旺벣2w api-server.js     i쭡?K?i쭥??          겇          	?熟??뤏s匍햃|뵚7\ api/chat.js       i찱?`N?찱?飜          겇          
-댚;a앧?ag#oaT쨟?api/recommend.js  i??   i?s$?          겇          _]h)?챁퐅G^2k慤F,?( api/send-email.js jk? u\jk?*	?         겇          꿬灝?벨j裏엇想곲K蒲?auto-generate-assets.js   i?     i?               겇          E?s`?r?룧?<?W? auto-generate-content.js  i?     i?               겇          Tg?흺HK.絮 ??TG?contentGenerator.js       i?     i?               겇           ?뾽NU他) ?뎞?75? deploy-auto.ps1   i?     i?               겇          층괘?翊렽퇐8기Vz
-? 	index.css i?     i?               겇          gY&e밈둲쯆 읂h?"즂h 
-index.html        i?     i?               겇          ?쨲	5?詵si獻B5??q main.jsx  i쾙?뗭?쾙?!?          겇          4HL빨쟈???쯾뜝Ky output.png.png    i쭍??i쭖?Q?          겇         1爰w?Cp?g?? package-lock.json i?     i쾐???         겇          p껁쒳?믗?<섣#쏵yy package.json      i?     i?               겇           뼦"뭁l?苒?傍??l postcss.config.js jsj+뮇8jsj1+-0          겇          ?橄?e?쯖?l7퉒?煐 'saeloan financial/card/saeron-card-1.md   jsj1+-0jsj8??         겇          5뗘??쒑?뼞6?7?搭 'saeloan financial/card/saeron-card-2.md   jsj9q
-쟩sk84?         겇          p9탐?2툲@쫘?D]??*saeloan financial/card/saeron-card-auto.md        jsC'탷jt1??         겇          멛L?F??쀈┹*G\뚎?)saeloan financial/flyer/saeron-flyer-1.md jsC+?`jt2켭?         겇          윅컥
-A能贍Ψ%빶史 )saeloan financial/flyer/saeron-flyer-2.md jsC2曇쨓t3??         겇          奸le?m?H.Ц<캧? ,saeloan financial/flyer/saeron-flyer-auto.md      jq?뫂,jtB붦@          겇          ?쿯!簽v???㎦쉗5?)saeloan financial/homepage/index-2nd.html jq?,斷jtB           겇           ?K캽{롉+6??稙Vo %saeloan financial/homepage/index.html     jq?US픧r?D0?         겇          ?7??됿?`?괭葺? (saeloan financial/homepage/style-2nd.css  jq?瀜Tjr?줟P          겇          ?#'PGh.|貴??7텉;?$saeloan financial/homepage/style.css      jc?G묛ji|=Z?         겇          R?<죑p∇???舜6듩C &saeron-finance/README-2nd-benchmark.md    j殺뷟je??          겇          텣[S&la놜畿n럗n?졉 saeron-finance/README.md  jC?큊\jC?`?         겇          ?늖{??c"熬≥수屹c?$saeron-finance/card/saeron-card-1.md      je} ?HjicH?         겇          8n뇲겎<T8 S릪?Or?$saeron-finance/card/saeron-card-2.md      jl
-퍉컅l
-袈?         겇          	D"?EV뙹ML?n}?6楔 'saeron-finance/card/saeron-card-auto.md   jC?9v쮒C?EO?         겇          ??뤪??r?f??&saeron-finance/flyer/saeron-flyer-1.md    jeJNs쨓i!*휚          겇          쬁??遵只?첖W??&saeron-finance/flyer/saeron-flyer-2.md    jl
-~?jl
-~?          겇          횚)6?zj걻襄폩c?W낡 )saeron-finance/flyer/saeron-flyer-auto.md jdm퐀Dj꽰Th          겇          샜<??b=?{V?;? &saeron-finance/homepage/index-2nd.html    jC	?l
-XZ?         겇          ????gm%솳x筵9: "saeron-finance/homepage/index.html        jd?s?d??8          겇          ?Ta	,╁YゼNa갓?3 %saeron-finance/homepage/style-2nd.css     jC_y?C??           겇          앋?팆彷D?A굅AZ2$?W !saeron-finance/homepage/style.css jB??<jB?A?          겇          ?첡킭명'홮w?\?학8 %saeron-finance/logo/saeron-logo-1.svg     jc?岺ljc???         겇          ?P뎘뾙???]VZz뢎 %saeron-finance/logo/saeron-logo-2.svg     i?     i?               겇          $?F=??dWPl\쀦	N?send-notification.js      i첈?N큍i첈?먪(          겇          ???뚄??uJ蜀仝?9 send-telegram.js  i??   i??s킺          겇          y鍵릡_e?M쑾?벻Q9??src/App.jsx       i?     i찱?`遲          겇          IKHH?Z돪?{R체i8g版 #src/components/AIRecommendation.jsx       i?     i?               겇          M~Fc?t?얱쀳븍妻봯? !src/components/AdvancedFilter.jsx j쭑-!?j꾬쑺d          겇          ?蔿9?+?#6?h醯묞s src/components/App.jsx    i?    i?{볪          겇          ???漕?h싕r藺NR src/components/ChatBot.jsx        i?     i?               겇          2??뿜?至:.?K src/components/ClaimProcess.jsx   i?     i?               겇          ?p롦_?0?=a???;J "src/components/ComparisonChart.jsx        i?     i?               겇          <TH曳빾셀듳&헫?9??#src/components/HealthCalculator.jsx       i?    i?              겇          4lu?十?@`紀|s?禿 !src/components/HospitalFinder.jsx i?     i?               겇          B쉐옐.윻?냆f폊Gumz &src/components/InsuranceComparison.jsx    i?     i?               겇          >x퓵??쇐Prc:쯍귋??%src/components/InsuranceEducation.jsx     i?     i?               겇          ???,???띝!C-?\?'src/components/InsurancePersonality.jsx   i?     i?               겇          E??4?辜??괙췪+?src/components/MyPage.jsx i?     i쭧)f昇          겇          2nSY3&켮窩y瑄?껏? src/constants/company.js  i?h?쨒쾒}|?         겇          꽿?탷#`뮚c$'펂x, src/content-generator.js  i쾕w?xi쾝t?<          겇          6儲?퓑?`쟈?Q?詳 src/image-generator.js    i?     i?               겇           >쿩沚e흩??멒?K? src/index.css     i?+
-A쭟i?+2??         겇          綴o?裨덠?N(턺죋}? src/instagram.js  i??@둗i쾕??d          겇          Jl?N5gv??`넼7誨? src/main.js       i?     j쭫Sq?         겇          沾?!?Q1Tl:C#Y'?C웲 src/main.jsx      i첈?W\쁦첈?I芦          겇          ??GT그^?p휛?뎙+켺 src/utils/telegram.js     i?     i?               겇          눽뗈??楨??뒷q뽭eh supabaseAdmin.js  i?     i?               겇          )쎿꽔?_핵<羅??參w tailwind.config.js        i?$    i?$              겇          쥵?弱諧p?3껧'4+s?vercel.json       i?.    i쭕?E뿸          겇          
-措Cg낓m땫?_@kL??vite.config.js    TREE  ! 82 5
-f_t3???k%??덃eapi 3 0
-쵸b?x"qB똩쁼좵廊?\src 21 3
-햨?쾳`?}"┟?꽼utils 1 0
-g,쒑mV*憙프24,;?왝constants 1 0
-:찪텩?J??5¿ Y?omponents 12 0
-??m???1틒@;풴?.github 1 1
-3R챚t	얡53Pn뵼쟋`o?orkflows 1 0
-쮺３춀?~툜8?<O?aeron-finance 14 4
+DIRC      Ri���H��i��� q2�          ��           Ê�TB�4KӃyRX�BQ4;� .env.example      i���    i�ptڳ          ��          �.�['�~��%��"��N< .env.example.txt  jk�0}|jk�6ͩ\          ��          P}����g���U��]=^Ѕ- *.github/workflows/auto-generate-deploy.yml        i� �    jv�q�h          ��          [��t�$2\���kH���," 
+.gitignore        i��     i��               ��          2�6�=U�!P��~��Y�  ��	 ClaimProcess.jsx  i��     i��               ��          	���DnL�������eՊ DEPLOYMENT_GUIDE.md       i��     i��               ��           ������LD��tКh�Xx~6� DEPLOYMENT_REPORT.md      i��     i��               ��           fBڠ�����,#:�H>؟6|�� DEPLOY_CHECKLIST.md       i�,�    i�,�              ��          ��*��sK'p�����1~��( FINAL_STATUS_2026-03-04.md        i�    i�              ��          Lbv�G}m&��9oH�� S2D HospitalFinder.jsx        i��     i��               ��          B����W黊�>��+�H�q% InsuranceComparison.jsx   i��� �i��Aݦ,          ��           ַ�砚Rŗ^L���2�� MEMORY_2026-03-04.md      i�F�
+�8i�JG/S�d          ��          dN�̘=��!�4�bx�� MEMORY_2026-03-06.md      i��     i��               ��          ;M�(���Zn?�)�HA���� PRIORITY.md       i� r    i� r              ��          o�x�(�mH�M�)8��.� PROJECT_STATUS.md i��     i��               ��          #��}����I���cFh�q��;�� 	README.md i��     i��               ��          :�qb���T�'lX�`b����2w api-server.js     i���	K�i����          ��          	���ي���s���W|��7\ api/chat.js       i�G�`N�i�G���          ��          
+���;a���ag#oaT�t� api/recommend.js  i���    i�:s$�`          ��          _]h)�<�Q�jG^2k��F,�( api/send-email.js jk� u\jk�*	�          ��          �i�����j�����́�K��� auto-generate-assets.js   i��     i��               ��          E�ds`�;r����<�W�9 auto-generate-content.js  i��     i��               ��          Tg�ŔHK.�� �D�=TG� contentGenerator.js       i��     i��               ��           �|��NU��) �_�o�75�9 deploy-auto.ps1   i��     i��               ��          ������͎ŸA8��Vz
+� 	index.css i��     i��               ��          �gY&e�Ҋk�B ��h�6"�Ph 
+index.html        i��     i��               ��          �f��	5�H��si��B5��q main.jsx  i�l����i�l� !�$          ��          4HL�����2გ����Ky output.png.png    i���*ԙi���	Q�          ��         1���w�Cpیg��/ package-lock.json i��     i�c��_�          ��          p��J����&<��#��yy package.json      i��     i��               ��           ��"�Pl����aۨ�=�l postcss.config.js jsj+��8jsj1+-0          ��          �R��e���Q�l7�f�/� 'saeloan financial/card/saeron-card-1.md   jsj1+-0jsj8�7�          ��          5��ؐ����`��6�7��� 'saeloan financial/card/saeron-card-2.md   jsj9q
+�jsk84�          ��          p9Ž�=2�F@��דD]�&� *saeloan financial/card/saeron-card-auto.md        jsC'��jt1���          ��          �LL�xF�i�3�Ȧ�*G\�я )saeloan financial/flyer/saeron-flyer-1.md jsC+�-`jt2���          ��          ����
+A�����%���� )saeloan financial/flyer/saeron-flyer-2.md jsC2Ӿ�jt3�c�          ��          ��le�<m�0H.��<�I�~ ,saeloan financial/flyer/saeron-flyer-auto.md      jq�(��,jtB��@          ��          �1�f!��v��&슧��n5� )saeloan financial/homepage/index-2nd.html jq�4,ӨjtB           ��           �K�c{��+6�~���Vo %saeloan financial/homepage/index.html     jq�2US�jr�D0�          ��          ��7��Q���5`�,����{ (saeloan financial/homepage/style-2nd.css  jq�!��Tjr��NP          ��          �#'PGh.|����O7��;� $saeloan financial/homepage/style.css      jc�G��ji|=Z�          ��          R�:<�mp���@�]���6��C &saeron-finance/README-2nd-benchmark.md    j߯�Jje�$߀          ��          ��[S&la��Ѳn�tn�Q�� saeron-finance/README.md  jC��U\jC�`�          ��          ��e{�~�Zc"袡ü���c� $saeron-finance/card/saeron-card-1.md      je} �lHjicH�          ��          8n���Ł�<T8 S���Or� $saeron-finance/card/saeron-card-2.md      jl
+�z�jl
+ʷ�          ��          	D"�,EV��ML�an}�}6�� 'saeron-finance/card/saeron-card-auto.md   jC�*9v�jC�/EO�          ��          ��o�خ�r�:f &saeron-finance/flyer/saeron-flyer-1.md    jeJNs�ji!*�D          ��          ���~�d����ɑ�CW�x� &saeron-finance/flyer/saeron-flyer-2.md    jl
+~�0jl
+~�0          ��          Ô)6�zj���ѽPc�W�� )saeron-finance/flyer/saeron-flyer-auto.md jdm�fDj��Th          ��          ��<��Zb=�{V� ;� &saeron-finance/homepage/index-2nd.html    jC	�jl
+XZ�          ��          ����gm%���x��9: "saeron-finance/homepage/index.html        jd�s�jd�"��8          ��          �<Ta	,��Y��Na���_3 %saeron-finance/homepage/style-2nd.css     jC�_y�jC��           ��          �����HۭD�AA��AZ2$�W !saeron-finance/homepage/style.css jB��#<jB�!A�          ��          �S�J�U��'�kw�\�s��8 %saeron-finance/logo/saeron-logo-1.svg     jc�ֹljc�"�!�          ��          �P�i�V�4�}�B]VZz�I %saeron-finance/logo/saeron-logo-2.svg     i��     i��               ��          $�F=�XӝdWPl\��	N� send-notification.js      i���'N�Xi�����(          ��          �l�Y���Ǖ�uJ�����i9 send-telegram.js  i�)�    i�]�s�d          ��          y����_e�RM�ֶ��Q9�� src/App.jsx       i��     i�G�`��          ��          IKHH�{Z��� {Rüi8g�� #src/components/AIRecommendation.jsx       i��     i��               ��          M~Fc�Dt�/�W�����pЂ !src/components/AdvancedFilter.jsx j��-!�j����d          ��          ���9�l+�K#6�6h����s src/components/App.jsx    i�    i�\{��          ��          ��~�|��Ѓh���r��NR src/components/ChatBot.jsx        i��     i��               ��          2��v�խ��:.�3��K src/components/ClaimProcess.jsx   i��     i��               ��          ?p��_ۂ0�G=a�-�_��;J "src/components/ComparisonChart.jsx        i��     i��               ��          <TH�֕ϼ���&�X�9� � #src/components/HealthCalculator.jsx       i�    i�              ��          4lu�Z��>@`Ѻ|s囀Ծ !src/components/HospitalFinder.jsx i��     i��               ��          B����.���`�Sf��Gumz &src/components/InsuranceComparison.jsx    i��     i��               ��          >x���y�=��Prc:�I���~� %src/components/InsuranceEducation.jsx     i��     i��               ��          ?���B,��~�|��!C-�:\� 'src/components/InsurancePersonality.jsx   i��     i��               ��          E�R�4����O��E�h+� src/components/MyPage.jsx i��     i��)f�          ��          2nSY3&�h��y���&���(� src/constants/company.js  i�^h��i�e}|�          ��          ���A��#`��c$'�Vx, src/content-generator.js  i�hw�ixi�pt�+<          ��          6�w�A�`���Q�^�� src/image-generator.js    i��     i��               ��           >�Z�e�����G�iK�N src/index.css     i�^+
+A��i�^+2�c�          ��          ��o�ޥ����N(�ѡh}�  src/instagram.js  i�^�+@�Pi�h�9܀d          ��          JlƚN5gv���.`��7��ӄ src/main.js       i��     j��Sq�          ��          ���!�HQ1Tl:C#Y'?C�z src/main.jsx      i���6W\�i���I��          ��          ��GT��^�qp�E�~�j+�p src/utils/telegram.js     i��     i��               ��          �ҋ��F��߉�O��q��eh supabaseAdmin.js  i��     i��               ��          )�愣�"_��<���,؞߳w tailwind.config.js        i�$    i�$              ��          �D����p�Y3�B'4+s� vercel.json       i�.    i���E��          ��          
+��Cg��m���	_@kL�s� vite.config.js    TREE  ! 82 5
+f_t3�Q��ek%�J�-��eapi 3 0
+��b�0x"qB�k���Pҧ�'\src 21 3
+�����`�-}"�ʭ���utils 1 0
+g,��mV*����24,;���constants 1 0
+:�C���J���5�� Y�components 12 0
+� �&m�f�7�=1��@;�V�).github 1 1
+3R�gt	�H53Pn���M`o�workflows 1 0
+�����Z�~��8�8<O�saeron-finance 14 4
 "
-뎋??mZЪ苕KQ쩏card 3 0
-稻솄쉥欄?5읳?擘훜ogo 2 0
-?,??곫?OoI???flyer 3 0
-k??@R??爛?\ homepage 4 0
-c?pEЛ渗쭶졅??9鄭saeloan financial 10 3
-1七??τ?菽y?p췟팧ard 3 0
-+	Xず???淨	精托flyer 3 0
- 益F?뒂m9∮?W센셡homepage 4 0
-?????"慧?6퇏~???칕
-0??2?믘
+�Y��mZ����KQ�Gcard 3 0
+ԫ����ձ�W5�٭���logo 2 0
+�,��8���8OoI���flyer 3 0
+k��@R�x�Xմ�M\ homepage 4 0
+c�EpE��߶�J���`�g9��saeloan financial 10 3
+1�ү��\�����y�p�X�card 3 0
++	X�������	����flyer 3 0
+ ��F�	�zm9���?W���hhomepage 4 0
+����i��z"���6��~�9ɚ�~�l
+0��~�2���
+
+
 ---
 
 # 파일 출처: ..\..\petcare-phase2-complete\petcare-phase2-complete\.github\workflows\auto-generate-deploy.yml
@@ -62436,7 +63133,7 @@ c?pEЛ渗쭶졅??9鄭saeloan financial 10 3
 ---
 
 # GitHub Actions Workflow for Auto-Generate & Deploy
-# ?덊럹?댁?, ?꾨떒吏, 紐낇븿 ?먮룞 ?앹꽦 諛?Vercel 諛고룷 ?몃━嫄?
+# 홈페이지, 전단지, 명함 자동 생성 및 Vercel 배포 트리거
 name: Auto Generate Assets & Deploy
 
 on:
@@ -62465,7 +63162,7 @@ jobs:
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add saeron-finance/homepage/index.html saeron-finance/flyer/saeron-flyer-auto.md saeron-finance/card/saeron-card-auto.md
-          git commit -m "?먮룞 ?앹꽦: ?덊럹?댁?, ?꾨떒吏, 紐낇븿 理쒖떊?? || echo "No changes to commit"
+          git commit -m "자동 생성: 홈페이지, 전단지, 명함 최신화" || echo "No changes to commit"
           git push
       - name: Trigger Vercel Deploy
         run: |
@@ -62473,2147 +63170,5 @@ jobs:
         env:
           VERCEL_DEPLOY_HOOK_URL: ${{ secrets.VERCEL_DEPLOY_HOOK_URL }}
 
----
 
-# 파일 출처: ..\..\petcare-phase2-complete\petcare-phase2-complete\saeloan financial\card\card-print.html
-
----
-
-<!DOCTYPE html>
-<html lang="ko">
-<head>
-<meta charset="UTF-8">
-<title>?덈줎湲덉쑖?遺以묎컻 紐낇븿</title>
-<style>
-  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap');
-  * { margin: 0; padding: 0; box-sizing: border-box; }
-  body { font-family: 'Noto Sans KR', sans-serif; background: #e0e0e0; }
-
-  @page { size: A4; margin: 8mm; }
-
-  @media print {
-    * {
-      -webkit-print-color-adjust: exact !important;
-      color-adjust: exact !important;
-      print-color-adjust: exact !important;
-    }
-    body { background: white; }
-    .no-print { display: none !important; }
-    .card-set { display: none !important; }
-    .cards-wrap { padding: 0; gap: 0; align-items: stretch; }
-    .sheet { box-shadow: none; padding: 0; width: 100%; page-break-after: always; break-after: page; }
-    .sheet-title { display: none; }
-    .sheet-grid { gap: 5mm; }
-  }
-
-  .no-print {
-    text-align: center;
-    padding: 16px;
-    background: #1e3a5f;
-    color: white;
-    font-size: 13px;
-  }
-  .no-print button {
-    margin-left: 12px;
-    padding: 7px 18px;
-    background: #f5c518;
-    color: #1e3a5f;
-    border: none;
-    border-radius: 6px;
-    font-weight: 700;
-    cursor: pointer;
-  }
-
-  .cards-wrap {
-    padding: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 40px;
-  }
-
-  .card-set {
-    display: flex;
-    gap: 30px;
-    align-items: flex-start;
-  }
-  .card-label {
-    font-size: 12px;
-    color: #888;
-    margin-bottom: 6px;
-    font-weight: 500;
-  }
-
-  /* 紐낇븿 ?ш린: 90mm x 54mm */
-  .card {
-    width: 90mm;
-    height: 54mm;
-    border-radius: 4px;
-    overflow: hidden;
-    box-shadow: 0 4px 16px rgba(0,0,0,0.2);
-    position: relative;
-  }
-
-  /* ?욌㈃ */
-  .card-front {
-    background: linear-gradient(135deg, #0f2952 0%, #1a4a8a 100%);
-    color: white;
-    padding: 12px 16px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100%;
-  }
-  .card-front .top {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  .card-front .logo img {
-    height: 36px;
-    filter: brightness(1.1);
-  }
-  .card-front .logo .fallback {
-    display: none;
-    color: white;
-    font-size: 13px;
-    font-weight: 700;
-    line-height: 1.3;
-  }
-  .card-front .badge {
-    font-size: 9px;
-    background: rgba(255,255,255,0.15);
-    color: #a8c4e8;
-    padding: 3px 8px;
-    border-radius: 10px;
-    border: 1px solid rgba(255,255,255,0.2);
-  }
-  .card-front .divider {
-    height: 1px;
-    background: rgba(255,255,255,0.2);
-    margin: 8px 0;
-  }
-  .card-front .name-area .name {
-    font-size: 18px;
-    font-weight: 900;
-    letter-spacing: -0.5px;
-  }
-  .card-front .name-area .title {
-    font-size: 9.5px;
-    color: #a8c4e8;
-    margin-top: 2px;
-  }
-  .card-front .contact-area {
-    display: flex;
-    flex-direction: column;
-    gap: 3px;
-  }
-  .card-front .contact-row {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    font-size: 10px;
-  }
-  .card-front .contact-row .icon { font-size: 11px; }
-  .card-front .contact-row strong { color: #f5c518; font-size: 11.5px; }
-  .card-front .web-row {
-    margin-top: 4px;
-    font-size: 10px;
-    color: #f5c518;
-    font-weight: 700;
-  }
-  .card-front .web-row span { font-size: 9px; color: #a8c4e8; margin-right: 4px; }
-
-  /* ?룸㈃ */
-  .card-back {
-    background: white;
-    padding: 12px 16px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100%;
-    border: 1.5px solid #dce8f5;
-  }
-  .card-back .top-accent {
-    height: 4px;
-    background: linear-gradient(90deg, #0f2952, #1a4a8a, #f5c518);
-    border-radius: 2px;
-    margin-bottom: 10px;
-  }
-  .card-back .back-title {
-    font-size: 13px;
-    font-weight: 900;
-    color: #0f2952;
-    margin-bottom: 6px;
-  }
-  .card-back .back-tagline {
-    font-size: 10px;
-    color: #1a4a8a;
-    font-weight: 500;
-    letter-spacing: 1px;
-    margin-bottom: 10px;
-  }
-  .card-back .info-row {
-    font-size: 9.5px;
-    color: #444;
-    margin-bottom: 3px;
-    display: flex;
-    gap: 4px;
-  }
-  .card-back .info-row .label {
-    color: #888;
-    min-width: 52px;
-  }
-  .card-back .disclaimer {
-    font-size: 8.5px;
-    color: #999;
-    line-height: 1.4;
-    border-top: 1px solid #e0e0e0;
-    padding-top: 6px;
-    margin-top: 4px;
-  }
-
-  /* ?몄뇙 ?щ윭 ??*/
-  .sheet {
-    background: white;
-    width: 210mm;
-    padding: 15mm;
-    box-shadow: 0 4px 24px rgba(0,0,0,0.12);
-  }
-  .sheet-title {
-    font-size: 12px;
-    color: #888;
-    margin-bottom: 10px;
-    font-weight: 500;
-  }
-  .sheet-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 90mm);
-    gap: 8mm;
-  }
-</style>
-</head>
-<body>
-
-<div class="no-print">
-  <div style="max-width:600px; margin:0 auto;">
-    <div style="font-size:15px; font-weight:700; margin-bottom:14px;">?륅툘 吏곸썝 ?뺣낫 ?낅젰 ???몄뇙?섏꽭??/div>
-    <div style="display:grid; grid-template-columns:1fr 1fr 1fr; gap:10px; margin-bottom:14px;">
-      <div>
-        <label style="font-size:11px; color:#a8c4e8; display:block; margin-bottom:4px;">?대쫫</label>
-        <input id="inp-name" type="text" value="源?뺤쭊"
-          style="width:100%; padding:8px 10px; border-radius:6px; border:none; font-size:14px; font-weight:700;"
-          oninput="updateCards()" placeholder="?대쫫">
-      </div>
-      <div>
-        <label style="font-size:11px; color:#a8c4e8; display:block; margin-bottom:4px;">吏곹븿</label>
-        <input id="inp-title" type="text" value="???
-          style="width:100%; padding:8px 10px; border-radius:6px; border:none; font-size:14px;"
-          oninput="updateCards()" placeholder="吏곹븿 (?? ??? ?곷떞??">
-      </div>
-      <div>
-        <label style="font-size:11px; color:#a8c4e8; display:block; margin-bottom:4px;">?몃뱶?곕쾲??/label>
-        <input id="inp-phone" type="text" value="010-5927-9205"
-          style="width:100%; padding:8px 10px; border-radius:6px; border:none; font-size:14px;"
-          oninput="updateCards()" placeholder="010-0000-0000">
-      </div>
-    </div>
-    <button onclick="window.print()"
-      style="width:100%; padding:10px; background:#f5c518; color:#1e3a5f; border:none; border-radius:8px; font-weight:700; font-size:15px; cursor:pointer;">
-      ?뼥 ?몄뇙 / PDF ???
-    </button>
-  </div>
-</div>
-<script>
-function cardFrontHTML(name, titleText, phone) {
-  return `
-  <div class="card card-front">
-    <div class="top">
-      <div class="logo">
-        <img src="https://saeloan.co.kr/logo.png" alt="濡쒓퀬"
-             onerror="this.style.display='none'; this.nextElementSibling.style.display='block'">
-        <div class="fallback">?덈줎湲덉쑖<br>?遺以묎컻</div>
-      </div>
-      <div class="badge">?遺以묎컻???깅줉</div>
-    </div>
-    <div class="divider"></div>
-    <div class="name-area">
-      <div class="name dyn-name">${name}</div>
-      <div class="title dyn-title">${titleText} 쨌 ?덈줎湲덉쑖?遺以묎컻</div>
-    </div>
-    <div class="contact-area">
-      <div class="contact-row"><span class="icon">??/span><span>??쒖쟾??<strong>1555-2137</strong></span></div>
-      <div class="contact-row"><span class="icon">?벑</span><span>?대???<strong class="dyn-phone">${phone}</strong></span></div>
-      <div class="web-row"><span>?덊럹?댁?</span>saeloan.co.kr</div>
-    </div>
-  </div>`;
-}
-const backCardHTML = `
-  <div class="card card-back">
-    <div>
-      <div class="top-accent"></div>
-      <div class="back-title">?덈줎湲덉쑖?遺以묎컻</div>
-      <div class="back-tagline">?⑸쾿 쨌 ?좊ː 쨌 留욎땄 湲덉쑖以묎컻</div>
-      <div class="info-row"><span class="label">?깅줉踰덊샇</span><span>2026-?섏썝-2324(?遺以묎컻??</span></div>
-      <div class="info-row"><span class="label">?좏슚湲곌컙</span><span>2026.05.07 ~ 2029.05.06</span></div>
-      <div class="info-row"><span class="label">?ъ뾽?먮쾲??/span><span>653-90-02268</span></div>
-      <div class="info-row"><span class="label">二쇱냼</span><span>?섏썝???붾떖援?沅뚭킅濡?159, 1??502??/span></div>
-    </div>
-    <div class="disclaimer">怨쇰룄??鍮? 怨좏넻???쒖옉?낅땲?? ?좎쨷??寃곗젙?섏꽭??<br>?異쒓툑由???理쒓퀬 20% ?대궡 쨌 以묎컻?섏닔猷??놁쓬</div>
-  </div>`;
-
-function updateCards() {
-  const name  = document.getElementById('inp-name').value  || '?대쫫';
-  const title = document.getElementById('inp-title').value || '吏곹븿';
-  const phone = document.getElementById('inp-phone').value || '010-0000-0000';
-
-  // 誘몃━蹂닿린 移대뱶
-  document.querySelectorAll('.dyn-name').forEach(el => el.textContent = name);
-  document.querySelectorAll('.dyn-title').forEach(el => el.textContent = title + ' 쨌 ?덈줎湲덉쑖?遺以묎컻');
-  document.querySelectorAll('.dyn-phone').forEach(el => el.textContent = phone);
-
-  // ?몄뇙 ?쒗듃 (?욌㈃ 4??
-  const front = document.getElementById('sheet-front');
-  if (front) front.innerHTML = cardFrontHTML(name, title, phone).repeat(4);
-
-  // ?몄뇙 ?쒗듃 (?룸㈃ 4??
-  const back = document.getElementById('sheet-back');
-  if (back) back.innerHTML = backCardHTML.repeat(4);
-}
-
-// ?섏씠吏 濡쒕뱶 ??珥덇린??
-window.addEventListener('DOMContentLoaded', updateCards);
-</script>
-
-<div class="cards-wrap">
-
-  <!-- 誘몃━蹂닿린 -->
-  <div class="card-set">
-    <div>
-      <div class="card-label">?욌㈃ (Front)</div>
-      <div class="card card-front">
-        <div class="top">
-          <div class="logo">
-            <img src="https://saeloan.co.kr/logo.png" alt="濡쒓퀬"
-                 onerror="this.style.display='none'; this.nextElementSibling.style.display='block'">
-            <div class="fallback">?덈줎湲덉쑖<br>?遺以묎컻</div>
-          </div>
-          <div class="badge">?遺以묎컻???깅줉</div>
-        </div>
-        <div class="divider"></div>
-        <div class="name-area">
-          <div class="name dyn-name">源?뺤쭊</div>
-          <div class="title dyn-title">???쨌 ?덈줎湲덉쑖?遺以묎컻</div>
-        </div>
-        <div class="contact-area">
-          <div class="contact-row">
-            <span class="icon">??/span>
-            <span>??쒖쟾??<strong>1555-2137</strong></span>
-          </div>
-          <div class="contact-row">
-            <span class="icon">?벑</span>
-            <span>?대???<strong class="dyn-phone">010-5927-9205</strong></span>
-          </div>
-          <div class="web-row">
-            <span>?덊럹?댁?</span>saeloan.co.kr
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div>
-      <div class="card-label">?룸㈃ (Back)</div>
-      <div class="card card-back">
-        <div>
-          <div class="top-accent"></div>
-          <div class="back-title">?덈줎湲덉쑖?遺以묎컻</div>
-          <div class="back-tagline">?⑸쾿 쨌 ?좊ː 쨌 留욎땄 湲덉쑖以묎컻</div>
-          <div class="info-row"><span class="label">?깅줉踰덊샇</span><span>2026-?섏썝-2324(?遺以묎컻??</span></div>
-          <div class="info-row"><span class="label">?좏슚湲곌컙</span><span>2026.05.07 ~ 2029.05.06</span></div>
-          <div class="info-row"><span class="label">?ъ뾽?먮쾲??/span><span>653-90-02268</span></div>
-          <div class="info-row"><span class="label">二쇱냼</span><span>?섏썝???붾떖援?沅뚭킅濡?159, 1??502??/span></div>
-        </div>
-        <div class="disclaimer">
-          怨쇰룄??鍮? 怨좏넻???쒖옉?낅땲?? ?좎쨷??寃곗젙?섏꽭??<br>
-          ?異쒓툑由???理쒓퀬 20% ?대궡 쨌 以묎컻?섏닔猷??놁쓬
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- ?몄뇙???쒗듃 (A4 ???μ뿉 ?욌㈃ 4?? -->
-  <div class="sheet">
-    <div class="sheet-title">?몄뇙?????욌㈃ (A4 1?μ뿉 4留?</div>
-    <div class="sheet-grid" id="sheet-front"></div>
-  </div>
-
-  <!-- ?몄뇙???쒗듃 (A4 ???μ뿉 ?룸㈃ 4?? -->
-  <div class="sheet">
-    <div class="sheet-title">?몄뇙?????룸㈃ (A4 1?μ뿉 4留?</div>
-    <div class="sheet-grid" id="sheet-back"></div>
-      <div class="card card-back">
-        <div>
-          <div class="top-accent"></div>
-          <div class="back-title">?덈줎湲덉쑖?遺以묎컻</div>
-          <div class="back-tagline">?⑸쾿 쨌 ?좊ː 쨌 留욎땄 湲덉쑖以묎컻</div>
-          <div class="info-row"><span class="label">?깅줉踰덊샇</span><span>2026-?섏썝-2324(?遺以묎컻??</span></div>
-          <div class="info-row"><span class="label">?좏슚湲곌컙</span><span>2026.05.07 ~ 2029.05.06</span></div>
-          <div class="info-row"><span class="label">?ъ뾽?먮쾲??/span><span>653-90-02268</span></div>
-          <div class="info-row"><span class="label">二쇱냼</span><span>?섏썝???붾떖援?沅뚭킅濡?159, 1??502??/span></div>
-        </div>
-        <div class="disclaimer">怨쇰룄??鍮? 怨좏넻???쒖옉?낅땲?? ?좎쨷??寃곗젙?섏꽭??<br>?異쒓툑由???理쒓퀬 20% ?대궡 쨌 以묎컻?섏닔猷??놁쓬</div>
-      </div>
-      <div class="card card-back">
-        <div>
-          <div class="top-accent"></div>
-          <div class="back-title">?덈줎湲덉쑖?遺以묎컻</div>
-          <div class="back-tagline">?⑸쾿 쨌 ?좊ː 쨌 留욎땄 湲덉쑖以묎컻</div>
-          <div class="info-row"><span class="label">?깅줉踰덊샇</span><span>2026-?섏썝-2324(?遺以묎컻??</span></div>
-          <div class="info-row"><span class="label">?좏슚湲곌컙</span><span>2026.05.07 ~ 2029.05.06</span></div>
-          <div class="info-row"><span class="label">?ъ뾽?먮쾲??/span><span>653-90-02268</span></div>
-          <div class="info-row"><span class="label">二쇱냼</span><span>?섏썝???붾떖援?沅뚭킅濡?159, 1??502??/span></div>
-        </div>
-        <div class="disclaimer">怨쇰룄??鍮? 怨좏넻???쒖옉?낅땲?? ?좎쨷??寃곗젙?섏꽭??<br>?異쒓툑由???理쒓퀬 20% ?대궡 쨌 以묎컻?섏닔猷??놁쓬</div>
-      </div>
-      <div class="card card-back">
-        <div>
-          <div class="top-accent"></div>
-          <div class="back-title">?덈줎湲덉쑖?遺以묎컻</div>
-          <div class="back-tagline">?⑸쾿 쨌 ?좊ː 쨌 留욎땄 湲덉쑖以묎컻</div>
-          <div class="info-row"><span class="label">?깅줉踰덊샇</span><span>2026-?섏썝-2324(?遺以묎컻??</span></div>
-          <div class="info-row"><span class="label">?좏슚湲곌컙</span><span>2026.05.07 ~ 2029.05.06</span></div>
-          <div class="info-row"><span class="label">?ъ뾽?먮쾲??/span><span>653-90-02268</span></div>
-          <div class="info-row"><span class="label">二쇱냼</span><span>?섏썝???붾떖援?沅뚭킅濡?159, 1??502??/span></div>
-        </div>
-        <div class="disclaimer">怨쇰룄??鍮? 怨좏넻???쒖옉?낅땲?? ?좎쨷??寃곗젙?섏꽭??<br>?異쒓툑由???理쒓퀬 20% ?대궡 쨌 以묎컻?섏닔猷??놁쓬</div>
-      </div>
-      <div class="card card-back">
-        <div>
-          <div class="top-accent"></div>
-          <div class="back-title">?덈줎湲덉쑖?遺以묎컻</div>
-          <div class="back-tagline">?⑸쾿 쨌 ?좊ː 쨌 留욎땄 湲덉쑖以묎컻</div>
-          <div class="info-row"><span class="label">?깅줉踰덊샇</span><span>2026-?섏썝-2324(?遺以묎컻??</span></div>
-          <div class="info-row"><span class="label">?좏슚湲곌컙</span><span>2026.05.07 ~ 2029.05.06</span></div>
-          <div class="info-row"><span class="label">?ъ뾽?먮쾲??/span><span>653-90-02268</span></div>
-          <div class="info-row"><span class="label">二쇱냼</span><span>?섏썝???붾떖援?沅뚭킅濡?159, 1??502??/span></div>
-        </div>
-        <div class="disclaimer">怨쇰룄??鍮? 怨좏넻???쒖옉?낅땲?? ?좎쨷??寃곗젙?섏꽭??<br>?異쒓툑由???理쒓퀬 20% ?대궡 쨌 以묎컻?섏닔猷??놁쓬</div>
-      </div>
-    </div>
-  </div>
-
-</div>
-</body>
-</html>
-
----
-
-# 파일 출처: ..\..\petcare-phase2-complete\petcare-phase2-complete\saeloan financial\card\saeron-card-1.md
-
----
-
-# saeloan financial 紐낇븿 1李??쒖븞
-
----
-
-**?욌㈃**
-- ![濡쒓퀬](../logo/saeloan-logo.png)
-- saeloan financial | ?덈줎湲덉쑖?遺以묎컻
-- ??? 源?뺤쭊
-- ??쒖쟾?? 1555-2137
-- ??쒗쑕??? 010-5927-9205
-- 二쇱냼: 寃쎄린???섏썝???붾떖援?沅뚭킅濡?159, 1??5痢?502???멸퀎?? ?섏썝?꾨씪??
-- ?ъ뾽?먮벑濡앸쾲?? 653-90-02268
-
-**?룸㈃**
-- ?⑸쾿 쨌 ?좊ː 쨌 留욎땄 湲덉쑖以묎컻
-- ?깅줉踰덊샇: 2026-?섏썝-2324(?遺以묎컻??
-- ?깅줉?좏슚湲곌컙: 2026??5??7??~ 2029??5??6??
-- "怨쇰룄??鍮? 怨좏넻???쒖옉?낅땲?? ?좎쨷??寃곗젙?섏꽭??"
-- ???ㅼ젣 ?꾪솕 ?섏떊 諛?SNS ?댁쁺? ?댄씗???대떦?먭? 留↔퀬 ?덉뒿?덈떎.
-
----
-
-(???몄뇙??PDF/AI ?뚯씪? 2李??쒖븞?먯꽌 ?쒓났 ?덉젙)
----
-
-# 파일 출처: ..\..\petcare-phase2-complete\petcare-phase2-complete\saeloan financial\card\saeron-card-2.md
-
----
-
-# saeloan financial 紐낇븿 2李??쒖븞
-
----
-
-**?욌㈃**
-- ![濡쒓퀬](../logo/saeloan-logo.png)
-- saeloan financial | ?덈줎湲덉쑖?遺以묎컻
-- ??? 源?뺤쭊
-- ??쒖쟾?? 1555-2137
-- ??쒗쑕??? 010-5927-9205
-- 二쇱냼: 寃쎄린???섏썝???붾떖援?沅뚭킅濡?159, 1??5痢?502???멸퀎?? ?섏썝?꾨씪??
-- ?ъ뾽?먮벑濡앸쾲?? 653-90-02268
-
-**?룸㈃**
-- ?⑸쾿 쨌 ?좊ː 쨌 留욎땄 湲덉쑖以묎컻 | 援?궡 1???遺以묎컻?낆껜 吏??
-- ?깅줉踰덊샇: 2026-?섏썝-2324(?遺以묎컻??
-- ?깅줉?좏슚湲곌컙: 2026??5??7??~ 2029??5??6??
-- ?쒓낵?꾪븳 鍮? 怨좏넻???쒖옉?낅땲?? ?좎쨷??寃곗젙?섏꽭????
-- ???ㅼ젣 ?꾪솕 ?섏떊 諛?SNS ?댁쁺? ?댄씗???대떦?먭? 留↔퀬 ?덉뒿?덈떎.
-
----
-
-(???몄뇙??PDF/AI ?뚯씪? 3李??쒖븞?먯꽌 ?쒓났 ?덉젙)
----
-
-# 파일 출처: ..\..\petcare-phase2-complete\petcare-phase2-complete\saeloan financial\card\saeron-card-auto.md
-
----
-
-# saeloan financial 紐낇븿
-
-![濡쒓퀬](../logo/saeloan-logo.png)
-
-**saeloan financial**
-- ??? 源?뺤쭊
-- ??쒖쟾?? 1555-2137
-- ?대??? 010-5927-9205
-- 二쇱냼: 寃쎄린???섏썝???붾떖援?沅뚭킅濡?159, 1??5痢?502???멸퀎?? ?섏썝?꾨씪??
-- ?ъ뾽?먮벑濡앸쾲?? 653-90-02268
----
-
-# 파일 출처: ..\..\petcare-phase2-complete\petcare-phase2-complete\saeloan financial\flyer\flyer-print.html
-
----
-
-<!DOCTYPE html>
-<html lang="ko">
-<head>
-<meta charset="UTF-8">
-<title>?덈줎湲덉쑖?遺以묎컻 ?꾨떒吏</title>
-<style>
-  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap');
-  * { margin: 0; padding: 0; box-sizing: border-box; }
-  body { font-family: 'Noto Sans KR', sans-serif; background: #f0f0f0; }
-
-  @page { size: A4; margin: 0; }
-
-  @media print {
-    * {
-      -webkit-print-color-adjust: exact !important;
-      color-adjust: exact !important;
-      print-color-adjust: exact !important;
-    }
-    body { background: white; }
-    .page { box-shadow: none; margin: 0; }
-    .no-print { display: none !important; }
-  }
-
-  .no-print {
-    text-align: center;
-    padding: 20px;
-    background: #1e3a5f;
-    color: white;
-    font-size: 14px;
-  }
-  .no-print button {
-    margin-left: 12px;
-    padding: 8px 20px;
-    background: #f5c518;
-    color: #1e3a5f;
-    border: none;
-    border-radius: 6px;
-    font-weight: 700;
-    cursor: pointer;
-    font-size: 14px;
-  }
-
-  .page {
-    width: 210mm;
-    min-height: 297mm;
-    margin: 20px auto;
-    background: white;
-    box-shadow: 0 4px 24px rgba(0,0,0,0.15);
-    display: flex;
-    flex-direction: column;
-  }
-
-  /* ?ㅻ뜑 */
-  .header {
-    background: linear-gradient(135deg, #0f2952 0%, #1a4a8a 100%);
-    color: white;
-    padding: 36px 40px 28px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  .header-logo img {
-    height: 72px;
-    filter: brightness(1.1);
-  }
-  .header-logo .fallback {
-    display: none;
-    color: white;
-  }
-  .header-right {
-    text-align: right;
-  }
-  .header-right .badge {
-    display: inline-block;
-    background: #f5c518;
-    color: #0f2952;
-    font-size: 11px;
-    font-weight: 700;
-    padding: 4px 12px;
-    border-radius: 20px;
-    margin-bottom: 8px;
-  }
-  .header-right .tagline {
-    font-size: 22px;
-    font-weight: 900;
-    line-height: 1.3;
-  }
-  .header-right .sub-tagline {
-    font-size: 13px;
-    color: #a8c4e8;
-    margin-top: 4px;
-  }
-
-  /* ?ъ씤??諛곕꼫 */
-  .banner {
-    background: #f5c518;
-    color: #0f2952;
-    text-align: center;
-    padding: 12px;
-    font-size: 15px;
-    font-weight: 700;
-    letter-spacing: 1px;
-  }
-
-  /* 蹂몃Ц */
-  .body { padding: 32px 40px; flex: 1; }
-
-  /* ?쒕퉬??移대뱶 */
-  .services {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 16px;
-    margin-bottom: 28px;
-  }
-  .service-card {
-    border: 1.5px solid #dce8f5;
-    border-radius: 10px;
-    padding: 18px 20px;
-    background: #f8fbff;
-  }
-  .service-card .icon { font-size: 28px; margin-bottom: 8px; }
-  .service-card h3 { font-size: 15px; font-weight: 700; color: #0f2952; margin-bottom: 6px; }
-  .service-card p { font-size: 12.5px; color: #555; line-height: 1.6; }
-
-  /* ?쒗쑕 湲덉쑖??*/
-  .partners-section { margin-bottom: 28px; }
-  .section-title {
-    font-size: 15px;
-    font-weight: 700;
-    color: #0f2952;
-    border-left: 4px solid #f5c518;
-    padding-left: 10px;
-    margin-bottom: 12px;
-  }
-  .partners {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-  }
-  .partner-tag {
-    background: #0f2952;
-    color: white;
-    font-size: 12px;
-    font-weight: 500;
-    padding: 5px 14px;
-    border-radius: 20px;
-  }
-
-  /* ?덉감 */
-  .process { margin-bottom: 28px; }
-  .steps {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
-  }
-  .step {
-    text-align: center;
-    padding: 14px 8px;
-    background: #f8fbff;
-    border-radius: 10px;
-    border: 1.5px solid #dce8f5;
-  }
-  .step .num {
-    font-size: 20px;
-    font-weight: 900;
-    color: #f5c518;
-    background: #0f2952;
-    width: 36px; height: 36px;
-    border-radius: 50%;
-    display: flex; align-items: center; justify-content: center;
-    margin: 0 auto 8px;
-  }
-  .step h4 { font-size: 13px; font-weight: 700; color: #0f2952; margin-bottom: 4px; }
-  .step p { font-size: 11px; color: #666; }
-
-  /* ?곕씫泥?*/
-  .contact-box {
-    background: linear-gradient(135deg, #0f2952 0%, #1a4a8a 100%);
-    color: white;
-    border-radius: 12px;
-    padding: 22px 28px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
-  }
-  .contact-left h3 { font-size: 18px; font-weight: 900; margin-bottom: 8px; }
-  .contact-item { font-size: 14px; margin-bottom: 4px; }
-  .contact-item strong { font-size: 16px; color: #f5c518; }
-  .contact-right { text-align: right; }
-  .contact-right .web { font-size: 18px; font-weight: 700; color: #f5c518; }
-  .contact-right .web-label { font-size: 11px; color: #a8c4e8; margin-bottom: 4px; }
-  .contact-right .addr { font-size: 11px; color: #a8c4e8; margin-top: 8px; line-height: 1.5; }
-
-  /* 踰뺤쟻 怨좎? */
-  .legal {
-    background: #f5f5f5;
-    border-radius: 8px;
-    padding: 14px 18px;
-    margin-bottom: 16px;
-  }
-  .legal h4 {
-    font-size: 12px;
-    font-weight: 700;
-    color: #c0392b;
-    margin-bottom: 8px;
-  }
-  .legal p, .legal li {
-    font-size: 11px;
-    color: #555;
-    line-height: 1.7;
-  }
-  .legal ul { padding-left: 16px; }
-
-  /* ?명꽣 */
-  .footer {
-    background: #0f2952;
-    color: #a8c4e8;
-    text-align: center;
-    padding: 14px;
-    font-size: 11px;
-    line-height: 1.8;
-  }
-</style>
-</head>
-<body>
-
-<div class="no-print">
-  <div style="max-width:700px; margin:0 auto;">
-    <div style="font-size:15px; font-weight:700; margin-bottom:14px;">?륅툘 吏곸썝 ?뺣낫 ?낅젰 ???몄뇙?섏꽭??/div>
-    <div style="display:grid; grid-template-columns:1fr 1fr 1fr; gap:10px; margin-bottom:14px;">
-      <div>
-        <label style="font-size:11px; color:#a8c4e8; display:block; margin-bottom:4px;">?대쫫</label>
-        <input id="inp-name" type="text" value="源?뺤쭊"
-          style="width:100%; padding:8px 10px; border-radius:6px; border:none; font-size:14px; font-weight:700;"
-          oninput="updateFlyer()" placeholder="?대쫫">
-      </div>
-      <div>
-        <label style="font-size:11px; color:#a8c4e8; display:block; margin-bottom:4px;">吏곹븿</label>
-        <input id="inp-title" type="text" value="???
-          style="width:100%; padding:8px 10px; border-radius:6px; border:none; font-size:14px;"
-          oninput="updateFlyer()" placeholder="吏곹븿 (?? ??? ?곷떞??">
-      </div>
-      <div>
-        <label style="font-size:11px; color:#a8c4e8; display:block; margin-bottom:4px;">?몃뱶?곕쾲??/label>
-        <input id="inp-phone" type="text" value="010-5927-9205"
-          style="width:100%; padding:8px 10px; border-radius:6px; border:none; font-size:14px;"
-          oninput="updateFlyer()" placeholder="010-0000-0000">
-      </div>
-    </div>
-    <button onclick="window.print()"
-      style="width:100%; padding:10px; background:#f5c518; color:#1e3a5f; border:none; border-radius:8px; font-weight:700; font-size:15px; cursor:pointer;">
-      ?뼥 ?몄뇙 / PDF ???
-    </button>
-  </div>
-</div>
-<script>
-function updateFlyer() {
-  const name  = document.getElementById('inp-name').value  || '?대쫫';
-  const title = document.getElementById('inp-title').value || '吏곹븿';
-  const phone = document.getElementById('inp-phone').value || '010-0000-0000';
-  const el = document.getElementById('flyer-contact');
-  if (el) {
-    el.innerHTML =
-      `<div class="contact-item">${title} <strong>${name}</strong></div>` +
-      `<div class="contact-item">??쒖쟾??<strong>1555-2137</strong></div>` +
-      `<div class="contact-item">?대???<strong>${phone}</strong></div>` +
-      `<div class="contact-item" style="font-size:12px; color:#a8c4e8; margin-top:4px;">?됱씪 09:00 ~ 18:00</div>`;
-  }
-}
-window.addEventListener('DOMContentLoaded', updateFlyer);
-</script>
-
-<div class="page">
-
-  <!-- ?ㅻ뜑 -->
-  <div class="header">
-    <div class="header-logo">
-      <img src="https://saeloan.co.kr/logo.png" alt="?덈줎湲덉쑖?遺以묎컻 濡쒓퀬"
-           onerror="this.style.display='none'; this.nextElementSibling.style.display='block'">
-      <div class="fallback" style="font-size:20px; font-weight:900;">?덈줎湲덉쑖?遺以묎컻<br><span style="font-size:13px; font-weight:400; color:#a8c4e8;">SAELOAN FINANCIAL</span></div>
-    </div>
-    <div class="header-right">
-      <div class="badge">?遺以묎컻???깅줉</div>
-      <div class="tagline">?⑸━???쒕룄,<br>?좎냽???곷떞</div>
-      <div class="sub-tagline">?꾧뎅 ?異뺤??됀룸?遺??臾대즺 鍮꾧탳 쨌 ?뱀씪 ?뱀씤</div>
-    </div>
-  </div>
-
-  <!-- ?ъ씤??諛곕꼫 -->
-  <div class="banner">
-    以묎컻?섏닔猷??놁쓬 &nbsp;|&nbsp; ?좎슜?먯닔 ?곹뼢 ?녿뒗 ?ъ쟾議고쉶 &nbsp;|&nbsp; ?遺?낅쾿 以??
-  </div>
-
-  <div class="body">
-
-    <!-- ?쒕퉬??-->
-    <div class="services">
-      <div class="service-card">
-        <div class="icon">?룱</div>
-        <h3>臾대즺 ?쒕룄議고쉶</h3>
-        <p>?좎슜?먯닔 ?곹뼢 ?놁씠<br>?덉긽 ?쒕룄쨌湲덈━ 利됱떆 ?뺤씤</p>
-      </div>
-      <div class="service-card">
-        <div class="icon">?뮠</div>
-        <h3>1:1 留욎땄 ?곷떞</h3>
-        <p>?꾨떞 ?곷떞?ш? 理쒖쟻 議곌굔<br>湲덉쑖?곹뭹 吏곸젒 ?덈궡</p>
-      </div>
-      <div class="service-card">
-        <div class="icon">?뱥</div>
-        <h3>鍮꾨?硫??쒕쪟?묒닔</h3>
-        <p>?굿룹뭅移댁삤濡?媛꾪렪?섍쾶<br>?쒕쪟 ?쒖텧 媛??/p>
-      </div>
-      <div class="service-card">
-        <div class="icon">??/div>
-        <h3>?뱀씪 ?ㅽ뻾</h3>
-        <p>?뱀씤 ???뱀씪 ?낃툑<br>鍮좊Ⅴ怨??덉쟾??泥섎━</p>
-      </div>
-    </div>
-
-    <!-- ?쒗쑕 湲덉쑖??-->
-    <div class="partners-section">
-      <div class="section-title">?쒗쑕 湲덉쑖??/div>
-      <div class="partners">
-        <span class="partner-tag">OK?異뺤???/span>
-        <span class="partner-tag">?곗뺨?異뺤???/span>
-        <span class="partner-tag">?섑띁?異뺤???/span>
-        <span class="partner-tag">?좏걧?⑥?異뺤???/span>
-        <span class="partner-tag">OSB?異뺤???/span>
-        <span class="partner-tag">?쒓뎅?ъ옄?異뺤???/span>
-        <span class="partner-tag">???ㅼ닔</span>
-      </div>
-    </div>
-
-    <!-- ?곷떞 ?덉감 -->
-    <div class="process">
-      <div class="section-title">?곷떞 ?덉감</div>
-      <div class="steps">
-        <div class="step">
-          <div class="num">01</div>
-          <h4>臾대즺 ?쒕룄議고쉶</h4>
-          <p>?좎슜?먯닔<br>?곹뼢 ?놁쓬</p>
-        </div>
-        <div class="step">
-          <div class="num">02</div>
-          <h4>留욎땄 ?곷떞</h4>
-          <p>?꾨떞 ?곷떞??br>1:1 ?덈궡</p>
-        </div>
-        <div class="step">
-          <div class="num">03</div>
-          <h4>?쒕쪟 ?묒닔</h4>
-          <p>鍮꾨?硫?br>媛꾪렪 ?쒖텧</p>
-        </div>
-        <div class="step">
-          <div class="num">04</div>
-          <h4>?뱀씪 ?ㅽ뻾</h4>
-          <p>?뱀씤 ??br>?뱀씪 ?낃툑</p>
-        </div>
-      </div>
-    </div>
-
-    <!-- ?곕씫泥?-->
-    <div class="contact-box">
-      <div class="contact-left">
-        <h3>吏湲?諛붾줈 臾대즺 ?곷떞 ?좎껌?섏꽭??/h3>
-        <div id="flyer-contact">
-          <div class="contact-item">???<strong>源?뺤쭊</strong></div>
-          <div class="contact-item">??쒖쟾??<strong>1555-2137</strong></div>
-          <div class="contact-item">?대???<strong>010-5927-9205</strong></div>
-          <div class="contact-item" style="font-size:12px; color:#a8c4e8; margin-top:4px;">?됱씪 09:00 ~ 18:00</div>
-        </div>
-      </div>
-      <div class="contact-right">
-        <div class="web-label">?덊럹?댁?</div>
-        <div class="web">saeloan.co.kr</div>
-        <div class="addr">
-          寃쎄린???섏썝???붾떖援?沅뚭킅濡?159<br>
-          1??5痢?502??(?멸퀎?? ?섏썝?꾨씪??
-        </div>
-      </div>
-    </div>
-
-    <!-- 踰뺤쟻 怨좎? -->
-    <div class="legal">
-      <h4>??踰뺤젙 怨좎??ы빆 (?遺?낅쾿 ??1議?</h4>
-      <ul>
-        <li>?異쒓툑由? ??理쒓퀬 20% ?대궡 (踰뺤젙理쒓퀬湲덈━) &nbsp;|&nbsp; 以묎컻?섏닔猷? ?놁쓬</li>
-        <li>?異???洹?섏쓽 ?좎슜?깃툒???섎씫?????덉뒿?덈떎. 怨쇰룄???異쒖? ?좎슜?됱젏 ?섎씫???먯씤???⑸땲??</li>
-        <li>?덈줎湲덉쑖?遺以묎컻???遺以묎컻?낆껜(媛쒖씤?ъ뾽??濡? 吏곸젒 ?異쒖쓣 ?ㅽ뻾?섏? ?딆뒿?덈떎.</li>
-        <li>?遺??愿??臾몄쓽쨌?좉퀬: 寃쎄린?꾩껌 湲덉쑖?뺤콉怨??먮뒗 湲덉쑖媛먮룆??(??1332)</li>
-      </ul>
-    </div>
-
-  </div><!-- /body -->
-
-  <!-- ?명꽣 -->
-  <div class="footer">
-    ?덈줎湲덉쑖?遺以묎컻 &nbsp;|&nbsp; ??쒖옄: 源?뺤쭊 &nbsp;|&nbsp; ?ъ뾽?먮벑濡앸쾲?? 653-90-02268<br>
-    ?깅줉踰덊샇: 2026-?섏썝-2324(?遺以묎컻?? &nbsp;|&nbsp; ?깅줉?좏슚湲곌컙: 2026.05.07 ~ 2029.05.06<br>
-    寃쎄린???섏썝???붾떖援?沅뚭킅濡?159, 1??5痢?502???멸퀎?? ?섏썝?꾨씪??
-  </div>
-
-</div>
-</body>
-</html>
-
----
-
-# 파일 출처: ..\..\petcare-phase2-complete\petcare-phase2-complete\saeloan financial\flyer\saeron-flyer-1.md
-
----
-
-# saeloan financial ?꾨떒吏(?뚮씪?댁뼱) 1李??쒖븞
-
----
-
-![濡쒓퀬](../logo/saeloan-logo.png)
-
-**?⑸쾿 쨌 ?좊ː 쨌 留욎땄 湲덉쑖以묎컻**
-
-## saeloan financial (?덈줎湲덉쑖?遺以묎컻)
-
-- ??? 源?뺤쭊
-- ?ъ뾽?먮벑濡앸쾲?? 653-90-02268
-- ?깅줉踰덊샇: 2026-?섏썝-2324(?遺以묎컻??
-- 二쇱냼: 寃쎄린???섏썝???붾떖援?沅뚭킅濡?159, 1??5痢?502???멸퀎?? ?섏썝?꾨씪??
-- ??쒖쟾?? 1555-2137 / ??쒗쑕??? 010-5927-9205
-
----
-
-### 二쇱슂 ?쒕퉬??
-- ?⑸쾿???遺以묎컻 諛?留욎땄 湲덉쑖?곷떞
-- 怨좉컼 ?좎슜쨌?곹솴??留욌뒗 理쒖쟻 ?異쒖긽???덈궡
-- 媛쒖씤?뺣낫 蹂댄샇 諛?踰뺢퇋 以??
-
----
-
-### 踰뺤쟻 怨좎?
-- ?깅줉?좏슚湲곌컙: 2026??5??7??~ 2029??5??6??
-- ??쒖옄: 源?뺤쭊 | ?앸뀈?붿씪: 1967??2??7??
-- 愿묎퀬臾?洹쒖젙, ?쒓린?ы빆, ?遺?낅쾿 ??紐⑤뱺 踰뺤쟻 湲곗? 泥좎? 以??
-- "怨쇰룄??鍮? 怨좏넻???쒖옉?낅땲?? ?좎쨷??寃곗젙?섏꽭??"
-
----
-
-> ??紐⑤뱺 ?곷떞 諛??댁쁺? 源?뺤쭊 ???紐낆쓽濡?吏꾪뻾?섎ŉ, ?ㅼ젣 ?꾪솕 ?섏떊 諛?SNS ?댁쁺? ?댄씗???대떦?먭? 留↔퀬 ?덉뒿?덈떎.
-
----
-
-(???몄뇙??PDF/AI ?뚯씪? 2李??쒖븞?먯꽌 ?쒓났 ?덉젙)
----
-
-# 파일 출처: ..\..\petcare-phase2-complete\petcare-phase2-complete\saeloan financial\flyer\saeron-flyer-2.md
-
----
-
-# saeloan financial ?꾨떒吏(?뚮씪?댁뼱) 2李??쒖븞
-
----
-
-![濡쒓퀬](../logo/saeloan-logo.png)
-
-**?⑸쾿 쨌 ?좊ː 쨌 留욎땄 湲덉쑖以묎컻 | 援?궡 1???遺以묎컻?낆껜瑜?吏?ν빀?덈떎**
-
-## saeloan financial (?덈줎湲덉쑖?遺以묎컻)
-- ??? 源?뺤쭊
-- ?ъ뾽?먮벑濡앸쾲?? 653-90-02268
-- ?깅줉踰덊샇: 2026-?섏썝-2324(?遺以묎컻??
-- ?깅줉?좏슚湲곌컙: 2026??5??7??~ 2029??5??6??
-- 二쇱냼: 寃쎄린???섏썝???붾떖援?沅뚭킅濡?159, 1??5痢?502???멸퀎?? ?섏썝?꾨씪??
-- ??쒖쟾?? 1555-2137 / ??쒗쑕??? 010-5927-9205
-
----
-
-### 二쇱슂 ?쒕퉬??
-- ?⑸쾿???遺以묎컻 諛?留욎땄 湲덉쑖?곷떞
-- 怨좉컼 ?좎슜쨌?곹솴??留욌뒗 理쒖쟻 ?異쒖긽???덈궡
-- 媛쒖씤?뺣낫 蹂댄샇 諛?踰뺢퇋 以??
-- ??쒖옄 ?ㅻ챸/?깅줉利??ъ뾽?먮벑濡앹쬆 ???좊ː?붿냼 ?쒓컖??
-
----
-
-### 怨좉컼 ?꾧린
-- ?쒖긽?댁씠 ?좎냽?섍퀬 移쒖젅?댁꽌 誘우쓬??媛붿뼱????
-- ?쒕쾿???쒓린? ?덈궡媛 紐낇솗???덉떖?먯뒿?덈떎.??
-- ?쒕??쒖옄 ?ㅻ챸, ?깅줉利? ?ъ뾽?먮벑濡앹쬆源뚯? ?щ챸?섍쾶 怨듦컻?섏뼱 ?좊ː媛 媛묐땲????
-
----
-
-### 踰뺤쟻 怨좎?
-- 愿묎퀬臾?洹쒖젙, ?쒓린?ы빆, ?遺?낅쾿 ??紐⑤뱺 踰뺤쟻 湲곗? 泥좎? 以??
-- ?쒓낵?꾪븳 鍮? 怨좏넻???쒖옉?낅땲?? ?좎쨷??寃곗젙?섏꽭????
-
----
-
-> ??紐⑤뱺 ?곷떞 諛??댁쁺? 源?뺤쭊 ???紐낆쓽濡?吏꾪뻾?섎ŉ, ?ㅼ젣 ?꾪솕 ?섏떊 諛?SNS ?댁쁺? ?댄씗???대떦?먭? 留↔퀬 ?덉뒿?덈떎.
-
----
-
-(???몄뇙??PDF/AI ?뚯씪? 3李??쒖븞?먯꽌 ?쒓났 ?덉젙)
----
-
-# 파일 출처: ..\..\petcare-phase2-complete\petcare-phase2-complete\saeloan financial\flyer\saeron-flyer-auto.md
-
----
-
-# saeloan financial ?꾨떒吏
-
-![濡쒓퀬](../logo/saeloan-logo.png)
-
-**?⑸쾿 쨌 ?좊ː 쨌 留욎땄 湲덉쑖以묎컻**
-
-- ??? 源?뺤쭊
-- ?ъ뾽?먮벑濡앸쾲?? 653-90-02268
-- 二쇱냼: 寃쎄린???섏썝???붾떖援?沅뚭킅濡?159, 1??5痢?502???멸퀎?? ?섏썝?꾨씪??
-- ??쒖쟾?? 1555-2137 / 010-5927-9205
-
-## 二쇱슂 ?쒕퉬??
-- ?⑸쾿???遺以묎컻 諛?留욎땄 湲덉쑖?곷떞
-- 怨좉컼 ?좎슜쨌?곹솴??留욌뒗 理쒖쟻 ?異쒖긽???덈궡
-- 媛쒖씤?뺣낫 蹂댄샇 諛?踰뺢퇋 以?
----
-
-# 파일 출처: ..\..\petcare-phase2-complete\petcare-phase2-complete\saeloan financial\homepage\index-2nd.html
-
----
-
-<!DOCTYPE html>
-<html lang="ko">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>?덈줈?닿툑?듭쨷媛쒖뾽 | saeloan financial</title>
-  <meta name="description" content="援?궡 理쒓퀬 ?좊ː, ?⑸쾿 ?遺以묎컻?낆껜 - ?덈줈?닿툑?듭쨷媛쒖뾽 (saeloan financial)">
-  <link rel="stylesheet" href="style-2nd.css">
-</head>
-<body>
-  <header>
-    <div class="header-bar">
-      <img src="../logo/saeron-logo-2.svg" alt="saeloan financial Logo" class="logo">
-      <div class="legal-info">
-        <span>???媛쒖씤?ъ뾽??: <b>源?뺤쭊</b></span>
-        <span>?遺以묎컻???깅줉踰덊샇: <b>2026-?섏썝-2324</b></span>
-        <span>?ъ뾽?먮벑濡앸쾲?? <b>653-90-02268</b></span>
-        <span>?좏슚湲곌컙: <b>2026.05.07 ~ 2029.05.06</b></span>
-        <span>?곸뾽?μ냼?ъ?: <b>寃쎄린???섏썝???붾떖援?沅뚭킅濡?159, 1??5痢?502???멸퀎?? ?섏썝?꾨씪??</b></span>
-        <span>??쒖쟾?? <b>1555-2173</b> / ?대??? <b>010-5927-9205</b></span>
-      </div>
-    </div>
-    <h1>?덈줈?닿툑?듭쨷媛쒖뾽 <span class="en">saeloan financial</span> <span style="font-size:0.7em;color:#1976D2;">(媛쒖씤?ъ뾽??</span></h1>
-    <p class="slogan">?⑸쾿 쨌 ?좊ː 쨌 留욎땄 湲덉쑖以묎컻 | 援?궡 1???遺以묎컻?낆껜瑜?吏?ν빀?덈떎</p>
-  </header>
-  <nav>
-    <ul>
-      <li><a href="#about">?뚯궗?뚭컻</a></li>
-      <li><a href="#service">?쒕퉬??/a></li>
-      <li><a href="#review">怨좉컼?꾧린</a></li>
-      <li><a href="#faq">FAQ</a></li>
-      <li><a href="#contact">?곷떞?좎껌</a></li>
-      <li><a href="#legal">踰뺤쟻怨좎?</a></li>
-    </ul>
-  </nav>
-  <main>
-    <section id="about">
-      <h3>?뚯궗?뚭컻</h3>
-      <p>saeloan financial(?덈줈?닿툑?듭쨷媛쒖뾽)? ?좊ː? ?⑸쾿??理쒖슦?좎쑝濡??섎뒗 援?궡 理쒓퀬 ?섏????遺以묎컻 媛쒖씤?ъ뾽?먯엯?덈떎.<br>
-      ???媛쒖씤?ъ뾽??: <b>源?뺤쭊</b> | ?ъ뾽?먮벑濡앸쾲?? <b>653-90-02268</b><br>
-      ?곸뾽?μ냼?ъ?: <b>寃쎄린???섏썝???붾떖援?沅뚭킅濡?159, 1??5痢?502???멸퀎?? ?섏썝?꾨씪??</b></p>
-      <img src="../logo/saeron-logo-2.svg" alt="濡쒓퀬" style="height:48px;margin:12px 0;">
-    </section>
-    <section id="service">
-      <h3>二쇱슂 ?쒕퉬??/h3>
-      <ul>
-        <li>?⑸쾿???遺以묎컻 諛?留욎땄 湲덉쑖?곷떞</li>
-        <li>怨좉컼 ?좎슜쨌?곹솴??留욌뒗 理쒖쟻 ?異쒖긽???덈궡</li>
-        <li>泥좎???媛쒖씤?뺣낫 蹂댄샇 諛?踰뺢퇋 以??/li>
-        <li>??쒖옄 ?ㅻ챸/?깅줉利??ъ뾽?먮벑濡앹쬆 ???좊ː?붿냼 ?쒓컖??/li>
-      </ul>
-    </section>
-    <section id="review">
-      <h3>怨좉컼 ?꾧린</h3>
-      <blockquote>?쒖긽?댁씠 ?좎냽?섍퀬 移쒖젅?댁꽌 誘우쓬??媛붿뼱????/blockquote>
-      <blockquote>?쒕쾿???쒓린? ?덈궡媛 紐낇솗???덉떖?먯뒿?덈떎.??/blockquote>
-      <blockquote>?쒕??쒖옄 ?ㅻ챸, ?깅줉利? ?ъ뾽?먮벑濡앹쬆源뚯? ?щ챸?섍쾶 怨듦컻?섏뼱 ?좊ː媛 媛묐땲????/blockquote>
-    </section>
-    <section id="faq">
-      <h3>?먯＜ 臾삳뒗 吏덈Ц(FAQ)</h3>
-      <ul>
-        <li>Q. ?遺以묎컻?낆껜 ?댁슜 ??二쇱쓽?ы빆??<br>A. 諛섎뱶???깅줉踰덊샇, ??쒕챸, ?ъ뾽?먮쾲?? ?좏슚湲곌컙 ??踰뺤쟻 ?쒓린瑜??뺤씤?섏꽭??</li>
-        <li>Q. 媛쒖씤?뺣낫???덉쟾?섍쾶 蹂댄샇?섎굹??<br>A. 紐⑤뱺 ?곷떞 諛??뺣낫??踰뺢퇋???곕씪 ?덉쟾?섍쾶 愿由щ맗?덈떎.</li>
-        <li>Q. ?ㅼ젣 ?곷떞/?댁쁺 ?대떦?먮뒗 ?꾧뎄?멸???<br>A. 紐⑤뱺 紐낆쓽??源?뺤쭊 ??쒕줈, ?ㅼ젣 ?꾪솕 ?섏떊 諛?SNS ?댁쁺? ?댄씗???대떦?먭? 留↔퀬 ?덉뒿?덈떎.</li>
-      </ul>
-    </section>
-    <section id="contact">
-      <h3>?곷떞?좎껌 諛?臾몄쓽</h3>
-      <p>??쒖쟾?? <b>1555-2173</b> / ??쒗쑕??? <b>010-5927-9205</b></p>
-      <form>
-        <input type="text" placeholder="?대쫫" required>
-        <input type="tel" placeholder="?곕씫泥? required>
-        <input type="text" placeholder="臾몄쓽?댁슜" required>
-        <button type="submit">?곷떞?좎껌</button>
-      </form>
-      <p class="notice">??紐⑤뱺 ?곷떞 諛??댁쁺? 源?뺤쭊 ???紐낆쓽濡?吏꾪뻾?섎ŉ, ?ㅼ젣 ?꾪솕 ?섏떊 諛?SNS ?댁쁺? ?댄씗???대떦?먭? 留↔퀬 ?덉뒿?덈떎.</p>
-    </section>
-    <section id="legal">
-      <h3>踰뺤쟻 怨좎? 諛?以?섏궗??/h3>
-      <ul>
-        <li>?遺以묎컻???깅줉踰덊샇: 2026-?섏썝-2324</li>
-        <li>?깅줉?좏슚湲곌컙: 2026??5??7??~ 2029??5??6??/li>
-        <li>???媛쒖씤?ъ뾽??: 源?뺤쭊 | ?앸뀈?붿씪: 1967??2??7??/li>
-        <li>愿묎퀬臾?洹쒖젙, ?쒓린?ы빆, ?遺?낅쾿 ??紐⑤뱺 踰뺤쟻 湲곗? 泥좎? 以??/li>
-        <li>怨쇰룄??鍮? 怨좏넻???쒖옉?낅땲?? ?좎쨷??寃곗젙?섏꽭??</li>
-      </ul>
-    </section>
-  </main>
-  <footer>
-    <p>짤 2026 saeloan financial. All rights reserved.</p>
-    <p>???媛쒖씤?ъ뾽??: 源?뺤쭊 | ?ъ뾽?먮벑濡앸쾲?? 653-90-02268 | ?곸뾽?μ냼?ъ?: 寃쎄린???섏썝???붾떖援?沅뚭킅濡?159, 1??5痢?502???멸퀎?? ?섏썝?꾨씪??</p>
-    <p>??쒖쟾?? 1555-2173 | ?대??? 010-5927-9205</p>
-  </footer>
-</body>
-</html>
----
-
-# 파일 출처: ..\..\petcare-phase2-complete\petcare-phase2-complete\saeloan financial\homepage\index.html
-
----
-
-<!DOCTYPE html>
-<html lang="ko">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>saeloan financial | ?덈줈?닿툑?듭쨷媛쒖뾽</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header>
-    <h1>?덈줈?닿툑?듭쨷媛쒖뾽</h1>
-    <h2>saeloan financial</h2>
-    <p class="slogan">?⑸쾿 쨌 ?좊ː 쨌 留욎땄 湲덉쑖以묎컻</p>
-  </header>
-  <main>
-    <section>
-      <h3>?뚯궗?뚭컻</h3>
-      <p>??? 源?뺤쭊 | ?ъ뾽?먮벑濡앸쾲?? 653-90-02268<br>二쇱냼: 寃쎄린???섏썝???붾떖援?沅뚭킅濡?159, 1??5痢?502???멸퀎?? ?섏썝?꾨씪??</p>
-    </section>
-    <section>
-      <h3>二쇱슂 ?쒕퉬??/h3>
-      <ul>
-        <li>?⑸쾿???遺以묎컻 諛?留욎땄 湲덉쑖?곷떞</li>
-        <li>怨좉컼 ?좎슜쨌?곹솴??留욌뒗 理쒖쟻 ?異쒖긽???덈궡</li>
-        <li>媛쒖씤?뺣낫 蹂댄샇 諛?踰뺢퇋 以??/li>
-      </ul>
-    </section>
-    <section>
-      <h3>?곷떞?좎껌</h3>
-      <form>
-        <input type="text" placeholder="?대쫫" required>
-        <input type="tel" placeholder="?곕씫泥? required>
-        <input type="text" placeholder="臾몄쓽?댁슜" required>
-        <button type="submit">?곷떞?좎껌</button>
-      </form>
-    </section>
-  </main>
-</body>
-</html>
----
-
-# 파일 출처: ..\..\petcare-phase2-complete\petcare-phase2-complete\saeloan financial\homepage\style-2nd.css
-
----
-
-body {
-  font-family: 'Segoe UI', Arial, sans-serif;
-  background: #f5f7fa;
-  color: #222;
-  margin: 0;
-}
-.header-bar {
-  background: #0D47A1;
-  color: #fff;
-  padding: 12px 0 8px 0;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  gap: 18px;
-}
-.logo {
-  height: 54px;
-  margin-right: 18px;
-}
-.legal-info {
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
-  font-size: 0.98em;
-}
-header h1 {
-  text-align: center;
-  margin: 12px 0 0 0;
-  font-size: 2.1em;
-  color: #0D47A1;
-}
-header .en {
-  font-size: 0.7em;
-  color: #1976D2;
-  margin-left: 8px;
-}
-.slogan {
-  color: #1976D2;
-  font-size: 1.1em;
-  text-align: center;
-  margin-top: 4px;
-}
-nav {
-  background: #1976D2;
-  text-align: center;
-}
-nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-nav li {
-  margin: 0 18px;
-}
-nav a {
-  color: #fff;
-  text-decoration: none;
-  font-weight: bold;
-  padding: 12px 0;
-  display: inline-block;
-}
-nav a:hover {
-  text-decoration: underline;
-}
-main {
-  max-width: 800px;
-  margin: 32px auto;
-  background: #fff;
-  border-radius: 14px;
-  box-shadow: 0 2px 16px #0001;
-  padding: 36px 28px;
-}
-section {
-  margin-bottom: 36px;
-}
-form {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  margin-top: 10px;
-}
-input, button {
-  padding: 10px;
-  border-radius: 6px;
-  border: 1px solid #bbb;
-  font-size: 1em;
-}
-button {
-  background: #1976D2;
-  color: #fff;
-  border: none;
-  font-weight: bold;
-  cursor: pointer;
-  transition: background 0.2s;
-}
-button:hover {
-  background: #1565C0;
-}
-.notice {
-  color: #1976D2;
-  font-size: 0.97em;
-  margin-top: 8px;
-}
-footer {
-  background: #0D47A1;
-  color: #fff;
-  text-align: center;
-  padding: 18px 0 10px 0;
-  font-size: 0.97em;
-  margin-top: 36px;
-  border-radius: 0 0 14px 14px;
-}
-@media (max-width: 800px) {
-  main {
-    padding: 18px 4vw;
-  }
-  nav ul {
-    flex-direction: column;
-    gap: 0;
-  }
-  nav li {
-    margin: 0;
-  }
-  .header-bar {
-    flex-direction: column;
-    gap: 8px;
-  }
-}
----
-
-# 파일 출처: ..\..\petcare-phase2-complete\petcare-phase2-complete\saeloan financial\homepage\style.css
-
----
-
-body {
-  font-family: 'Segoe UI', Arial, sans-serif;
-  background: #f5f7fa;
-  color: #222;
-  margin: 0;
-}
-header {
-  background: #1A237E;
-  color: #fff;
-  padding: 24px 0 12px 0;
-  text-align: center;
-}
-header img {
-  margin-bottom: 8px;
-}
-.slogan {
-  color: #90CAF9;
-  font-size: 1.1em;
-  margin-top: 4px;
-}
-nav {
-  background: #1976D2;
-  text-align: center;
-}
-nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-}
-nav li {
-  margin: 0 18px;
-}
-nav a {
-  color: #fff;
-  text-decoration: none;
-  font-weight: bold;
-  padding: 12px 0;
-  display: inline-block;
-}
-nav a:hover {
-  text-decoration: underline;
-}
-main {
-  max-width: 700px;
-  margin: 32px auto;
-  background: #fff;
-  border-radius: 12px;
-  box-shadow: 0 2px 12px #0001;
-  padding: 32px 24px;
-}
-section {
-  margin-bottom: 32px;
-}
-form {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  margin-top: 10px;
-}
-input, button {
-  padding: 10px;
-  border-radius: 6px;
-  border: 1px solid #bbb;
-  font-size: 1em;
-}
-button {
-  background: #1976D2;
-  color: #fff;
-  border: none;
-  font-weight: bold;
-  cursor: pointer;
-  transition: background 0.2s;
-}
-button:hover {
-  background: #1565C0;
-}
-.notice {
-  color: #1976D2;
-  font-size: 0.95em;
-  margin-top: 8px;
-}
-footer {
-  background: #1A237E;
-  color: #fff;
-  text-align: center;
-  padding: 18px 0 10px 0;
-  font-size: 0.95em;
-  margin-top: 32px;
-  border-radius: 0 0 12px 12px;
-}
-@media (max-width: 700px) {
-  main {
-    padding: 18px 4vw;
-  }
-  nav ul {
-    flex-direction: column;
-    gap: 0;
-  }
-  nav li {
-    margin: 0;
-  }
-}
----
-
-# 파일 출처: ..\..\petcare-phase2-complete\petcare-phase2-complete\saeron-finance\README-2nd-benchmark.md
-
----
-
-# 援?궡 ?遺以묎컻?낆껜 踰ㅼ튂留덊궧 諛?Saeloan Financial 媛쒖꽑 ?ъ씤??(2李?
-
-## 1. 踰ㅼ튂留덊궧 ????덉떆)
-- OK?異뺤????遺以묎컻
-- ?ъ떆?ㅼ틦??
-- ?곗?癒몃땲
-- ?곗뺨濡?
-- ?좎쭊?異뺤????遺以묎컻
-- SBI?異뺤????遺以묎컻
-- 由щ뱶肄뷀봽
-- 誘몄쫰?щ옉
-- ?쒕쭏?뚭툑??
-- 湲고? ?곸쐞 ?遺以묎컻?낆껜 ?ㅼ닔
-
-## 2. 二쇱슂 踰ㅼ튂留덊궧 ??ぉ
-- 釉뚮옖???좊ː/怨듭떊??媛뺤“(濡쒓퀬, 而щ윭, ?몄쬆留덊겕, ??쒖옄 ?ㅻ챸)
-- 踰뺤쟻 ?쒓린?ы빆(?깅줉踰덊샇, ?ъ뾽?먮쾲?? ??쒕챸, 二쇱냼, ?좏슚湲곌컙 ?? 紐낇솗/?덉뿉 ?꾧쾶
-- ?곷떞 ?먮쫫: 鍮좊Ⅸ ?곷떞?좎껌, ??쒕쾲???대???移댁뭅?ㅽ넚/QR ???ㅼ뼇??梨꾨꼸
-- 媛쒖씤?뺣낫 蹂댄샇/踰뺢퇋 以???덈궡 媛뺤“
-- 紐⑤컮??PC 諛섏쓳?? ?묎렐?? ??踰꾪듉/?고듃, 吏곴???UI
-- 怨좉컼 ?꾧린/FAQ/湲덉쑖?곸떇 ???좊ː??肄섑뀗痢?
-- 怨쇰룄??鍮?寃쎄퀬臾멸뎄, 踰뺤쟻 怨좎?, 愿묎퀬 洹쒖젙 泥좎? 以??
-- ??쒖옄 ?ㅻ챸/?ъ쭊/?몄쬆???깅줉利????좊ː?붿냼 ?몄텧
-
-## 3. Saeloan Financial 2李?媛쒖꽑 ?ъ씤??
-- 釉뚮옖??而щ윭/濡쒓퀬 怨좊룄???좊ː쨌湲덉쑖쨌踰뺢퇋 ?대?吏 媛뺥솕, ?몄쬆留덊겕/?щ낵 異붽?)
-- 硫붿씤?섏씠吏: ??쒕챸/?깅줉踰덊샇/?ъ뾽?먮쾲??二쇱냼/?좏슚湲곌컙 ??踰뺤쟻 ?쒓린 理쒖긽??怨좎젙
-- ?곷떞?좎껌: ??쒕쾲???대???移댁뭅?ㅽ넚/QR/?대찓????硫?곗콈?? 媛쒖씤?뺣낫 蹂댄샇 媛뺤“
-- 紐⑤컮??PC ?꾨꼍 諛섏쓳?? ??踰꾪듉/?고듃, ?묎렐??媛뺥솕
-- 怨좉컼 ?꾧린/FAQ/湲덉쑖?곸떇/踰뺢퇋 ?덈궡 ???좊ː??肄섑뀗痢?異붽?
-- ??쒖옄 ?ㅻ챸/?ъ쭊/?깅줉利??ъ뾽?먮벑濡앹쬆 ???좊ː?붿냼 ?쒓컖??
-- 怨쇰룄??鍮?寃쎄퀬臾멸뎄, 踰뺤쟻 怨좎?, 愿묎퀬 洹쒖젙 泥좎? 以??
-- SNS/AI ?먮룞???곕룞 怨좊젮??援ъ“ ?ㅺ퀎
-
----
-
-> ????ぉ??諛뷀깢?쇰줈 2李?寃곌낵臾?濡쒓퀬, ?덊럹?댁?, ?꾨떒吏, 紐낇븿 ?? 怨좊룄??吏꾪뻾
-
----
-
-# 파일 출처: ..\..\petcare-phase2-complete\petcare-phase2-complete\saeron-finance\README.md
-
----
-
-# ?덈줎湲덉쑖以묎컻??釉뚮옖???쒖옉 ?꾨줈?앺듃
-
-- 紐⑹쟻: 援?궡 理쒓퀬 ?섏????遺以묎컻???덊럹?댁?, ?꾨떒吏, 紐낇븿 ?쒖옉 諛?????대젰 愿由?
-- 湲곗?: 踰뺤쟻 ?쒓린?ы빆, ?ㅻТ/愿묎퀬 洹쒖젙, 泥⑤? ?쒕쪟, 援?궡 踰ㅼ튂留덊궧
-- ?곗텧臾? 濡쒓퀬, ?덊럹?댁?, ?꾨떒吏, 紐낇븿, ?묒뾽?쇱? ??
-- 紐⑤뱺 ?곗텧臾쇱? ???대뜑 ?댁뿉 泥닿퀎?곸쑝濡???λ맗?덈떎.
-
-## 2李?寃곌낵臾?諛?媛쒖꽑 ?ъ씤??(2026-05-13 21:00)
-
-### 1. 寃쎌웳??踰ㅼ튂留덊궧 諛?遺꾩꽍
-- 援?궡 ?곸쐞 ?遺以묎컻?낆껜 10怨??댁긽 ?덊럹?댁?/?꾨떒吏/紐낇븿/愿묎퀬/踰뺤쟻 ?쒓린/?곷떞 ?먮쫫/?좊ː??釉뚮옖???꾨왂 ??泥좎? 遺꾩꽍
-- 遺꾩꽍 寃곌낵 諛?媛쒖꽑 ?ъ씤?? README-2nd-benchmark.md 李멸퀬
-
-### 2. 怨좊룄??濡쒓퀬
-- logo/saeron-logo-2.svg: ?몄쬆留덊겕/?щ낵 異붽?, ?좊ː쨌湲덉쑖쨌踰뺢퇋 ?대?吏 媛뺥솕
-
-### 3. ?덊럹?댁? 怨좊룄???쒖븞
-- homepage/index-2nd.html, style-2nd.css: 踰뺤쟻 ?쒓린 理쒖긽??怨좎젙, 怨좉컼?꾧린/FAQ/?좊ː?붿냼/紐⑤컮???꾨꼍 諛섏쓳????援?궡 理쒓퀬 ?섏??쇰줈 媛쒖꽑
-
-### 4. ?꾨떒吏(?뚮씪?댁뼱) 怨좊룄???쒖븞
-- flyer/saeron-flyer-2.md: 怨좉컼?꾧린, ?좊ː?붿냼, 踰뺤쟻 怨좎?, 釉뚮옖??媛뺥솕 ??諛섏쁺
-
-### 5. 紐낇븿 怨좊룄???쒖븞
-- card/saeron-card-2.md: 釉뚮옖???좊ː/踰뺤쟻 ?쒓린/李⑹떊 援ъ“ ??援?궡 理쒓퀬 ?섏??쇰줈 媛쒖꽑
-
-### 6. ?묒뾽 諛????愿由?
-- 紐⑤뱺 ?곗텧臾쇱? saeron-finance ?대뜑 ?댁뿉 ?덉쟾?섍쾶 ???
-- 遺꾩꽍쨌踰ㅼ튂留덊궧 寃곌낵, 媛쒖꽑 ?ъ씤?? ?붿옄???섎룄 ?깅룄 README-2nd-benchmark.md???곸꽭 湲곕줉
-
----
-
-> 3李??쒖븞(?몄뇙??PDF/AI, ?덊럹?댁? 怨좊룄?? SNS ?먮룞???ㅺ퀎 ??? ?쇰뱶諛?諛섏쁺 ???쒖옉 ?덉젙
-
----
-
-# 파일 출처: ..\..\petcare-phase2-complete\petcare-phase2-complete\saeron-finance\card\saeron-card-1.md
-
----
-
-# ?덈줎湲덉쑖以묎컻??紐낇븿 1李??쒖븞
-
----
-
-**?욌㈃**
-- ![濡쒓퀬](../logo/saeloan-logo.png)
-- ?덈줎湲덉쑖以묎컻??| Saeloan Financial
-??? 源?뺤쭊
-??쒖쟾?? 1555-2137
-??쒗쑕??? 010-5927-9205
-?ъ뾽?먮벑濡앸쾲?? 653-90-02268
-?遺以묎컻???깅줉踰덊샇: 2026-?섏썝-2324(?遺以묎컻??
-二쇱냼: 寃쎄린???섏썝???붾떖援?沅뚭킅濡?159, 1??5痢?502???멸퀎?? ?섏썝?꾨씪??
-**?룸㈃**
-- ?⑸쾿 쨌 ?좊ː 쨌 留욎땄 湲덉쑖以묎컻
-- ?깅줉踰덊샇: 2026-?섏썝-2324(?遺以묎컻??
-- ?깅줉?좏슚湲곌컙: 2026??5??7??~ 2029??5??6??
-- "怨쇰룄??鍮? 怨좏넻???쒖옉?낅땲?? ?좎쨷??寃곗젙?섏꽭??"
-- ???ㅼ젣 ?꾪솕 ?섏떊 諛?SNS ?댁쁺? ?댄씗???대떦?먭? 留↔퀬 ?덉뒿?덈떎.
-
----
-
-(???몄뇙??PDF/AI ?뚯씪? 2李??쒖븞?먯꽌 ?쒓났 ?덉젙)
-
----
-
-# 파일 출처: ..\..\petcare-phase2-complete\petcare-phase2-complete\saeron-finance\card\saeron-card-2.md
-
----
-
-# ?덈줎湲덉쑖以묎컻??紐낇븿 2李??쒖븞
-
----
-
-**?욌㈃**
-- ![濡쒓퀬](../logo/saeloan-logo.png)
-- ?덈줎湲덉쑖以묎컻??| Saeloan Financial
-??? 源?뺤쭊
-??쒖쟾?? 1555-2137
-??쒗쑕??? 010-5927-9205
-?ъ뾽?먮벑濡앸쾲?? 653-90-02268
-?遺以묎컻???깅줉踰덊샇: 2026-?섏썝-2324(?遺以묎컻??
-二쇱냼: 寃쎄린???섏썝???붾떖援?沅뚭킅濡?159, 1??5痢?502???멸퀎?? ?섏썝?꾨씪??
-**?룸㈃**
-- ?⑸쾿 쨌 ?좊ː 쨌 留욎땄 湲덉쑖以묎컻 | 援?궡 1???遺以묎컻?낆껜 吏??
-- ?깅줉踰덊샇: 2026-?섏썝-2324(?遺以묎컻??
-- ?깅줉?좏슚湲곌컙: 2026??5??7??~ 2029??5??6??
-- ?쒓낵?꾪븳 鍮? 怨좏넻???쒖옉?낅땲?? ?좎쨷??寃곗젙?섏꽭????
-- ???ㅼ젣 ?꾪솕 ?섏떊 諛?SNS ?댁쁺? ?댄씗???대떦?먭? 留↔퀬 ?덉뒿?덈떎.
-
----
-
-(???몄뇙??PDF/AI ?뚯씪? 3李??쒖븞?먯꽌 ?쒓났 ?덉젙)
-
----
-
-# 파일 출처: ..\..\petcare-phase2-complete\petcare-phase2-complete\saeron-finance\card\saeron-card-auto.md
-
----
-
-# ?덈줎湲덉쑖以묎컻??紐낇븿
-
-![濡쒓퀬](../logo/saeloan-logo.png)
-
-**Saeloan Financial**
-??? 源?뺤쭊
-??쒖쟾?? 1555-2137
-??쒗쑕??? 010-5927-9205
-?ъ뾽?먮벑濡앸쾲?? 653-90-02268
-?遺以묎컻???깅줉踰덊샇: 2026-?섏썝-2324(?遺以묎컻??
-二쇱냼: 寃쎄린???섏썝???붾떖援?沅뚭킅濡?159, 1??5痢?502???멸퀎?? ?섏썝?꾨씪??
-
----
-
-# 파일 출처: ..\..\petcare-phase2-complete\petcare-phase2-complete\saeron-finance\flyer\saeron-flyer-1.md
-
----
-
-# ?덈줎湲덉쑖以묎컻???꾨떒吏(?뚮씪?댁뼱) 1李??쒖븞
-
----
-
-![濡쒓퀬](../logo/saeloan-logo.png)
-
-**?⑸쾿 쨌 ?좊ː 쨌 留욎땄 湲덉쑖以묎컻**
-
-## ?덈줎湲덉쑖以묎컻??(Saeloan Financial)
-
-??? 源?뺤쭊
-??쒖쟾?? 1555-2137
-??쒗쑕??? 010-5927-9205
-?ъ뾽?먮벑濡앸쾲?? 653-90-02268
-?遺以묎컻???깅줉踰덊샇: 2026-?섏썝-2324(?遺以묎컻??
-二쇱냼: 寃쎄린???섏썝???붾떖援?沅뚭킅濡?159, 1??5痢?502???멸퀎?? ?섏썝?꾨씪??
----
-
-### 二쇱슂 ?쒕퉬??
-- ?⑸쾿???遺以묎컻 諛?留욎땄 湲덉쑖?곷떞
-- 怨좉컼 ?좎슜쨌?곹솴??留욌뒗 理쒖쟻 ?異쒖긽???덈궡
-- 媛쒖씤?뺣낫 蹂댄샇 諛?踰뺢퇋 以??
-
----
-
-### 踰뺤쟻 怨좎?
-- ?깅줉?좏슚湲곌컙: 2026??5??7??~ 2029??5??6??
-- ??쒖옄: 源?뺤쭊 | ?앸뀈?붿씪: 1967??2??7??
-- 愿묎퀬臾?洹쒖젙, ?쒓린?ы빆, ?遺?낅쾿 ??紐⑤뱺 踰뺤쟻 湲곗? 泥좎? 以??
-- "怨쇰룄??鍮? 怨좏넻???쒖옉?낅땲?? ?좎쨷??寃곗젙?섏꽭??"
-
----
-
-> ??紐⑤뱺 ?곷떞 諛??댁쁺? 源?뺤쭊 ???紐낆쓽濡?吏꾪뻾?섎ŉ, ?ㅼ젣 ?꾪솕 ?섏떊 諛?SNS ?댁쁺? ?댄씗???대떦?먭? 留↔퀬 ?덉뒿?덈떎.
-
----
-
-(???몄뇙??PDF/AI ?뚯씪? 2李??쒖븞?먯꽌 ?쒓났 ?덉젙)
-
----
-
-# 파일 출처: ..\..\petcare-phase2-complete\petcare-phase2-complete\saeron-finance\flyer\saeron-flyer-2.md
-
----
-
-# ?덈줎湲덉쑖以묎컻???꾨떒吏(?뚮씪?댁뼱) 2李??쒖븞
-
----
-
-![濡쒓퀬](../logo/saeloan-logo.png)
-
-**?⑸쾿 쨌 ?좊ː 쨌 留욎땄 湲덉쑖以묎컻 | 援?궡 1???遺以묎컻?낆껜瑜?吏?ν빀?덈떎**
-
-## ?덈줎湲덉쑖以묎컻??(Saeloan Financial)
-??? 源?뺤쭊
-??쒖쟾?? 1555-2137
-??쒗쑕??? 010-5927-9205
-?ъ뾽?먮벑濡앸쾲?? 653-90-02268
-?遺以묎컻???깅줉踰덊샇: 2026-?섏썝-2324(?遺以묎컻??
-二쇱냼: 寃쎄린???섏썝???붾떖援?沅뚭킅濡?159, 1??5痢?502???멸퀎?? ?섏썝?꾨씪??
-
----
-
-### 二쇱슂 ?쒕퉬??
-- ?⑸쾿???遺以묎컻 諛?留욎땄 湲덉쑖?곷떞
-- 怨좉컼 ?좎슜쨌?곹솴??留욌뒗 理쒖쟻 ?異쒖긽???덈궡
-- 媛쒖씤?뺣낫 蹂댄샇 諛?踰뺢퇋 以??
-- ??쒖옄 ?ㅻ챸/?깅줉利??ъ뾽?먮벑濡앹쬆 ???좊ː?붿냼 ?쒓컖??
-
----
-
-### 怨좉컼 ?꾧린
-- ?쒖긽?댁씠 ?좎냽?섍퀬 移쒖젅?댁꽌 誘우쓬??媛붿뼱????
-- ?쒕쾿???쒓린? ?덈궡媛 紐낇솗???덉떖?먯뒿?덈떎.??
-- ?쒕??쒖옄 ?ㅻ챸, ?깅줉利? ?ъ뾽?먮벑濡앹쬆源뚯? ?щ챸?섍쾶 怨듦컻?섏뼱 ?좊ː媛 媛묐땲????
-
----
-
-### 踰뺤쟻 怨좎?
-- 愿묎퀬臾?洹쒖젙, ?쒓린?ы빆, ?遺?낅쾿 ??紐⑤뱺 踰뺤쟻 湲곗? 泥좎? 以??
-- ?쒓낵?꾪븳 鍮? 怨좏넻???쒖옉?낅땲?? ?좎쨷??寃곗젙?섏꽭????
-
----
-
-> ??紐⑤뱺 ?곷떞 諛??댁쁺? 源?뺤쭊 ???紐낆쓽濡?吏꾪뻾?섎ŉ, ?ㅼ젣 ?꾪솕 ?섏떊 諛?SNS ?댁쁺? ?댄씗???대떦?먭? 留↔퀬 ?덉뒿?덈떎.
-
----
-
-(???몄뇙??PDF/AI ?뚯씪? 3李??쒖븞?먯꽌 ?쒓났 ?덉젙)
-
----
-
-# 파일 출처: ..\..\petcare-phase2-complete\petcare-phase2-complete\saeron-finance\flyer\saeron-flyer-auto.md
-
----
-
-# ?덈줎湲덉쑖以묎컻???꾨떒吏
-
-![濡쒓퀬](../logo/saeloan-logo.png)
-
-**?⑸쾿 쨌 ?좊ː 쨌 留욎땄 湲덉쑖以묎컻**
-
-??? 源?뺤쭊
-??쒖쟾?? 1555-2137
-??쒗쑕??? 010-5927-9205
-?ъ뾽?먮벑濡앸쾲?? 653-90-02268
-?遺以묎컻???깅줉踰덊샇: 2026-?섏썝-2324(?遺以묎컻??
-二쇱냼: 寃쎄린???섏썝???붾떖援?沅뚭킅濡?159, 1??5痢?502???멸퀎?? ?섏썝?꾨씪??
-- ?⑸쾿???遺以묎컻 諛?留욎땄 湲덉쑖?곷떞
-- 怨좉컼 ?좎슜쨌?곹솴??留욌뒗 理쒖쟻 ?異쒖긽???덈궡
-- 媛쒖씤?뺣낫 蹂댄샇 諛?踰뺢퇋 以??
----
-
-# 파일 출처: ..\..\petcare-phase2-complete\petcare-phase2-complete\saeron-finance\homepage\index-2nd.html
-
----
-
-<!DOCTYPE html>
-<html lang="ko">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>?덈줎湲덉쑖以묎컻??| Saeloan Financial</title>
-  <meta name="description" content="援?궡 理쒓퀬 ?좊ː, ?⑸쾿 ?遺以묎컻?낆껜 - ?덈줎湲덉쑖以묎컻??(Saeloan Financial)">
-  <link rel="stylesheet" href="style-2nd.css">
-</head>
-<body>
-  <header>
-    <div class="header-bar">
-      <img src="../logo/saeron-logo-2.svg" alt="Saeloan Financial Logo" class="logo">
-      <div class="legal-info">
-        <span>??? <b>源?뺤쭊</b></span>
-        <span>?깅줉踰덊샇: <b>2026-?섏썝-2324(?遺以묎컻??</b></span>
-        <span>?ъ뾽?먮벑濡앸쾲?? <b>653-90-02268</b></span>
-        <span>?좏슚湲곌컙: <b>2026.05.07 ~ 2029.05.06</b></span>
-        <span>二쇱냼: <b>寃쎄린???섏썝???붾떖援?沅뚭킅濡?159, 1??5痢?502???멸퀎?? ?섏썝?꾨씪??</b></span>
-        <span>??쒖쟾?? <b>1555-2137</b> / ??쒗쑕??? <b>010-5927-9205</b></span>
-      </div>
-    </div>
-    <h1>?덈줎湲덉쑖以묎컻??<span class="en">Saeloan Financial</span></h1>
-    <p class="slogan">?⑸쾿 쨌 ?좊ː 쨌 留욎땄 湲덉쑖以묎컻 | 援?궡 1???遺以묎컻?낆껜瑜?吏?ν빀?덈떎</p>
-  </header>
-  <nav>
-    <ul>
-      <li><a href="#about">?뚯궗?뚭컻</a></li>
-      <li><a href="#service">?쒕퉬??/a></li>
-      <li><a href="#review">怨좉컼?꾧린</a></li>
-      <li><a href="#faq">FAQ</a></li>
-      <li><a href="#contact">?곷떞?좎껌</a></li>
-      <li><a href="#legal">踰뺤쟻怨좎?</a></li>
-    </ul>
-  </nav>
-  <main>
-    <section id="about">
-      <h3>?뚯궗?뚭컻</h3>
-      <p>?덈줎湲덉쑖以묎컻??Saeloan Financial)? ?좊ː? ?⑸쾿??理쒖슦?좎쑝濡??섎뒗 援?궡 理쒓퀬 ?섏????遺以묎컻?낆껜?낅땲??<br>
-      ??? <b>源?뺤쭊</b> | ?ъ뾽?먮벑濡앸쾲?? <b>653-90-02268</b><br>
-      二쇱냼: <b>寃쎄린???섏썝???붾떖援?沅뚭킅濡?159, 1??5痢?502???멸퀎?? ?섏썝?꾨씪??</b></p>
-      <img src="../logo/saeron-logo-2.svg" alt="濡쒓퀬" style="height:48px;margin:12px 0;">
-    </section>
-    <section id="service">
-      <h3>二쇱슂 ?쒕퉬??/h3>
-      <ul>
-        <li>?⑸쾿???遺以묎컻 諛?留욎땄 湲덉쑖?곷떞</li>
-        <li>怨좉컼 ?좎슜쨌?곹솴??留욌뒗 理쒖쟻 ?異쒖긽???덈궡</li>
-        <li>泥좎???媛쒖씤?뺣낫 蹂댄샇 諛?踰뺢퇋 以??/li>
-        <li>??쒖옄 ?ㅻ챸/?깅줉利??ъ뾽?먮벑濡앹쬆 ???좊ː?붿냼 ?쒓컖??/li>
-      </ul>
-    </section>
-    <section id="review">
-      <h3>怨좉컼 ?꾧린</h3>
-      <blockquote>?쒖긽?댁씠 ?좎냽?섍퀬 移쒖젅?댁꽌 誘우쓬??媛붿뼱????/blockquote>
-      <blockquote>?쒕쾿???쒓린? ?덈궡媛 紐낇솗???덉떖?먯뒿?덈떎.??/blockquote>
-      <blockquote>?쒕??쒖옄 ?ㅻ챸, ?깅줉利? ?ъ뾽?먮벑濡앹쬆源뚯? ?щ챸?섍쾶 怨듦컻?섏뼱 ?좊ː媛 媛묐땲????/blockquote>
-    </section>
-    <section id="faq">
-      <h3>?먯＜ 臾삳뒗 吏덈Ц(FAQ)</h3>
-      <ul>
-        <li>Q. ?遺以묎컻?낆껜 ?댁슜 ??二쇱쓽?ы빆??<br>A. 諛섎뱶???깅줉踰덊샇, ??쒕챸, ?ъ뾽?먮쾲?? ?좏슚湲곌컙 ??踰뺤쟻 ?쒓린瑜??뺤씤?섏꽭??</li>
-        <li>Q. 媛쒖씤?뺣낫???덉쟾?섍쾶 蹂댄샇?섎굹??<br>A. 紐⑤뱺 ?곷떞 諛??뺣낫??踰뺢퇋???곕씪 ?덉쟾?섍쾶 愿由щ맗?덈떎.</li>
-        <li>Q. ?ㅼ젣 ?곷떞/?댁쁺 ?대떦?먮뒗 ?꾧뎄?멸???<br>A. 紐⑤뱺 紐낆쓽??源?뺤쭊 ??쒕줈, ?ㅼ젣 ?꾪솕 ?섏떊 諛?SNS ?댁쁺? ?댄씗???대떦?먭? 留↔퀬 ?덉뒿?덈떎.</li>
-      </ul>
-    </section>
-    <section id="contact">
-      <h3>?곷떞?좎껌 諛?臾몄쓽</h3>
-      <p>??쒖쟾?? <b>1555-2137</b> / ??쒗쑕??? <b>010-5927-9205</b></p>
-      <form>
-        <input type="text" placeholder="?대쫫" required>
-        <input type="tel" placeholder="?곕씫泥? required>
-        <input type="text" placeholder="臾몄쓽?댁슜" required>
-        <button type="submit">?곷떞?좎껌</button>
-      </form>
-      <p class="notice">??紐⑤뱺 ?곷떞 諛??댁쁺? 源?뺤쭊 ???紐낆쓽濡?吏꾪뻾?섎ŉ, ?ㅼ젣 ?꾪솕 ?섏떊 諛?SNS ?댁쁺? ?댄씗???대떦?먭? 留↔퀬 ?덉뒿?덈떎.</p>
-    </section>
-    <section id="legal">
-      <h3>踰뺤쟻 怨좎? 諛?以?섏궗??/h3>
-      <ul>
-        <li>?깅줉踰덊샇: 2026-?섏썝-2324(?遺以묎컻??</li>
-        <li>?깅줉?좏슚湲곌컙: 2026??5??7??~ 2029??5??6??/li>
-        <li>??쒖옄: 源?뺤쭊 | ?앸뀈?붿씪: 1967??2??7??/li>
-        <li>愿묎퀬臾?洹쒖젙, ?쒓린?ы빆, ?遺?낅쾿 ??紐⑤뱺 踰뺤쟻 湲곗? 泥좎? 以??/li>
-        <li>怨쇰룄??鍮? 怨좏넻???쒖옉?낅땲?? ?좎쨷??寃곗젙?섏꽭??</li>
-      </ul>
-    </section>
-  </main>
-  <footer>
-    <p>짤 2026 Saeron Financial. All rights reserved.</p>
-    <p>??? 源?뺤쭊 | ?ъ뾽?먮벑濡앸쾲?? 653-90-02268 | 二쇱냼: 寃쎄린???섏썝???붾떖援?沅뚭킅濡?159, 1??5痢?502???멸퀎?? ?섏썝?꾨씪??</p>
-    <p>??쒖쟾?? 1555-2137 | ??쒗쑕??? 010-5927-9205</p>
-  </footer>
-</body>
-</html>
-
----
-
-# 파일 출처: ..\..\petcare-phase2-complete\petcare-phase2-complete\saeron-finance\homepage\index.html
-
----
-
-<!DOCTYPE html>
-<html lang="ko">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Saeloan Financial | ?덈줎湲덉쑖以묎컻??/title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header>
-    <h1>?덈줎湲덉쑖以묎컻??/h1>
-    <h2>Saeloan Financial</h2>
-    <p class="slogan">?⑸쾿 쨌 ?좊ː 쨌 留욎땄 湲덉쑖以묎컻</p>
-  </header>
-  <main>
-    <section>
-      <h3>?뚯궗?뚭컻</h3>
-      <p>??? 源?뺤쭊 | ?ъ뾽?먮벑濡앸쾲?? 653-90-02268<br>二쇱냼: 寃쎄린???섏썝???붾떖援?沅뚭킅濡?159, 1??5痢?502???멸퀎?? ?섏썝?꾨씪??</p>
-    </section>
-    <section>
-      <h3>二쇱슂 ?쒕퉬??/h3>
-      <ul>
-        <li>?⑸쾿???遺以묎컻 諛?留욎땄 湲덉쑖?곷떞</li>
-        <li>怨좉컼 ?좎슜쨌?곹솴??留욌뒗 理쒖쟻 ?異쒖긽???덈궡</li>
-        <li>媛쒖씤?뺣낫 蹂댄샇 諛?踰뺢퇋 以??/li>
-      </ul>
-    </section>
-    <section>
-      <h3>?곷떞?좎껌</h3>
-      <form>
-        <input type="text" placeholder="?대쫫" required>
-        <input type="tel" placeholder="?곕씫泥? required>
-        <input type="text" placeholder="臾몄쓽?댁슜" required>
-        <button type="submit">?곷떞?좎껌</button>
-      </form>
-    </section>
-  </main>
-</body>
-</html>
----
-
-# 파일 출처: ..\..\petcare-phase2-complete\petcare-phase2-complete\saeron-finance\homepage\style-2nd.css
-
----
-
-body {
-  font-family: 'Segoe UI', Arial, sans-serif;
-  background: #f5f7fa;
-  color: #222;
-  margin: 0;
-}
-.header-bar {
-  background: #0D47A1;
-  color: #fff;
-  padding: 12px 0 8px 0;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  gap: 18px;
-}
-.logo {
-  height: 54px;
-  margin-right: 18px;
-}
-.legal-info {
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
-  font-size: 0.98em;
-}
-header h1 {
-  text-align: center;
-  margin: 12px 0 0 0;
-  font-size: 2.1em;
-  color: #0D47A1;
-}
-header .en {
-  font-size: 0.7em;
-  color: #1976D2;
-  margin-left: 8px;
-}
-.slogan {
-  color: #1976D2;
-  font-size: 1.1em;
-  text-align: center;
-  margin-top: 4px;
-}
-nav {
-  background: #1976D2;
-  text-align: center;
-}
-nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-nav li {
-  margin: 0 18px;
-}
-nav a {
-  color: #fff;
-  text-decoration: none;
-  font-weight: bold;
-  padding: 12px 0;
-  display: inline-block;
-}
-nav a:hover {
-  text-decoration: underline;
-}
-main {
-  max-width: 800px;
-  margin: 32px auto;
-  background: #fff;
-  border-radius: 14px;
-  box-shadow: 0 2px 16px #0001;
-  padding: 36px 28px;
-}
-section {
-  margin-bottom: 36px;
-}
-form {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  margin-top: 10px;
-}
-input, button {
-  padding: 10px;
-  border-radius: 6px;
-  border: 1px solid #bbb;
-  font-size: 1em;
-}
-button {
-  background: #1976D2;
-  color: #fff;
-  border: none;
-  font-weight: bold;
-  cursor: pointer;
-  transition: background 0.2s;
-}
-button:hover {
-  background: #1565C0;
-}
-.notice {
-  color: #1976D2;
-  font-size: 0.97em;
-  margin-top: 8px;
-}
-footer {
-  background: #0D47A1;
-  color: #fff;
-  text-align: center;
-  padding: 18px 0 10px 0;
-  font-size: 0.97em;
-  margin-top: 36px;
-  border-radius: 0 0 14px 14px;
-}
-@media (max-width: 800px) {
-  main {
-    padding: 18px 4vw;
-  }
-  nav ul {
-    flex-direction: column;
-    gap: 0;
-  }
-  nav li {
-    margin: 0;
-  }
-  .header-bar {
-    flex-direction: column;
-    gap: 8px;
-  }
-}
-
----
-
-# 파일 출처: ..\..\petcare-phase2-complete\petcare-phase2-complete\saeron-finance\homepage\style.css
-
----
-
-body {
-  font-family: 'Segoe UI', Arial, sans-serif;
-  background: #f5f7fa;
-  color: #222;
-  margin: 0;
-}
-header {
-  background: #1A237E;
-  color: #fff;
-  padding: 24px 0 12px 0;
-  text-align: center;
-}
-header img {
-  margin-bottom: 8px;
-}
-.slogan {
-  color: #90CAF9;
-  font-size: 1.1em;
-  margin-top: 4px;
-}
-nav {
-  background: #1976D2;
-  text-align: center;
-}
-nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-}
-nav li {
-  margin: 0 18px;
-}
-nav a {
-  color: #fff;
-  text-decoration: none;
-  font-weight: bold;
-  padding: 12px 0;
-  display: inline-block;
-}
-nav a:hover {
-  text-decoration: underline;
-}
-main {
-  max-width: 700px;
-  margin: 32px auto;
-  background: #fff;
-  border-radius: 12px;
-  box-shadow: 0 2px 12px #0001;
-  padding: 32px 24px;
-}
-section {
-  margin-bottom: 32px;
-}
-form {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  margin-top: 10px;
-}
-input, button {
-  padding: 10px;
-  border-radius: 6px;
-  border: 1px solid #bbb;
-  font-size: 1em;
-}
-button {
-  background: #1976D2;
-  color: #fff;
-  border: none;
-  font-weight: bold;
-  cursor: pointer;
-  transition: background 0.2s;
-}
-button:hover {
-  background: #1565C0;
-}
-.notice {
-  color: #1976D2;
-  font-size: 0.95em;
-  margin-top: 8px;
-}
-footer {
-  background: #1A237E;
-  color: #fff;
-  text-align: center;
-  padding: 18px 0 10px 0;
-  font-size: 0.95em;
-  margin-top: 32px;
-  border-radius: 0 0 12px 12px;
-}
-@media (max-width: 700px) {
-  main {
-    padding: 18px 4vw;
-  }
-  nav ul {
-    flex-direction: column;
-    gap: 0;
-  }
-  nav li {
-    margin: 0;
-  }
-}
-
----
-
-# 파일 출처: ..\..\petcare-phase2-complete\petcare-phase2-complete\saeron-finance\logo\saeron-logo-1.svg
-
----
-
-<svg width="180" height="60" viewBox="0 0 180 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="180" height="60" rx="12" fill="#1A237E"/>
-  <g>
-    <circle cx="38" cy="30" r="18" fill="#fff"/>
-    <rect x="30" y="18" width="16" height="24" rx="4" fill="#1976D2"/>
-    <rect x="36" y="28" width="4" height="14" fill="#fff"/>
-    <rect x="34" y="38" width="8" height="4" fill="#1976D2"/>
-    <rect x="36" y="20" width="4" height="8" fill="#fff"/>
-    <rect x="32" y="24" width="12" height="4" fill="#1976D2"/>
-  </g>
-  <text x="65" y="38" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="bold" fill="#fff">Saeron</text>
-  <text x="65" y="54" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#90CAF9">FINANCIAL</text>
-</svg>
-
----
-
-# 파일 출처: ..\..\petcare-phase2-complete\petcare-phase2-complete\saeron-finance\logo\saeron-logo-2.svg
-
----
-
-<svg width="200" height="60" viewBox="0 0 200 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="200" height="60" rx="14" fill="#0D47A1"/>
-  <g>
-    <circle cx="38" cy="30" r="18" fill="#fff"/>
-    <path d="M38 16 L38 44 M26 30 L50 30" stroke="#1976D2" stroke-width="3"/>
-    <circle cx="38" cy="30" r="8" fill="#1976D2"/>
-    <rect x="34" y="38" width="8" height="4" fill="#1976D2"/>
-    <rect x="36" y="20" width="4" height="8" fill="#1976D2"/>
-  </g>
-  <text x="65" y="38" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="bold" fill="#fff">Saeron</text>
-  <text x="65" y="54" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#90CAF9">FINANCIAL</text>
-  <text x="170" y="20" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#FFD600" font-weight="bold">?몄쬆</text>
-  <rect x="160" y="10" width="32" height="20" rx="6" fill="#fff" stroke="#FFD600" stroke-width="2"/>
-</svg>
 
