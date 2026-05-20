@@ -79,7 +79,7 @@
 | AI 엔진 | Google Gemini API (gemini-1.5-flash) |
 | 자동화 스크립트 | Google Apps Script → automation/SAELOAN_AI_MASTER.gs |
 | CRM | Google Sheets (1gH4xpqVBvpY9wAoI8wB7s4z7LWBOMR1jSnH2gCuKRZ0) |
-| SNS 계정 | 이희전 계정 개설, 대외 명의는 김덕진 대표 |
+| SNS 계정 | **모든 계정 이희전 명의로 개설, 대외 표시·채널명·응답은 반드시 김덕진 대표 명의** |
 | GitHub | https://github.com/HeeJeonLee/saeloan-financial |
 
 ---
