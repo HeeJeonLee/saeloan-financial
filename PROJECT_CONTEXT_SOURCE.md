@@ -70,11 +70,13 @@
 
 ## 명제 5. 단순화 (기억 연속성)
 **Copilot은 항상 모든 기억을 회복한 상태에서 이희전 팀장과 함께 작업을 시작한다. 이것이 지켜지지 않으면 모든 작업이 무의미해지고 매번 원점으로 돌아간다.**
-- 매 대화 시작 시 반드시 아래 두 파일을 순서대로 읽을 것:
-  1. PROJECT_CONTEXT_SOURCE.md (이 파일) — 전체 맥락·명제·시스템·설정 정보
-  2. SNS_SALES_SYSTEM.md — SNS 전략·채널별 전술·의사결정 이력
-- 새 전략 수립 후에는 반드시 두 파일 모두 즉시 업데이트
+- `.github/copilot-instructions.md`에 전략 전체가 통합됨 → 새 대화 시작 즉시 자동 로드
+- 새 전략 수립 후에는 반드시 아래 세 파일 모두 즉시 업데이트:
+  1. `PROJECT_CONTEXT_SOURCE.md` — 핵심 운영 명제·시스템 정보
+  2. `SNS_SALES_SYSTEM.md` — SNS 전략·채널별 전술·의사결정 이력
+  3. `.github/copilot-instructions.md` — 위 두 파일 통합본 (자동 로드 소스)
 - 작업 완료 후 반드시 git commit + push → GitHub에 영구 저장
+- **이 세 파일이 항상 동일한 최신 전략을 담아야 한다**
 
 ---
 
@@ -83,7 +85,11 @@
 - 현재 자동화 엔진: Google Gemini API + Google Apps Script (월 0원)
 - 매 분기 1회: Copilot에게 "시스템 업데이트 해줘" → 최신 AI 툴 자동 통합
 - 자동화 적용 순서: 콘텐츠 생성 → 발행 → 리드 수집 → 상담 알림 → 리포팅 → 영상 제작
-- Phase 3 확장 검토 툴: HeyGen(AI 영상), ElevenLabs(TTS), Canva Pro(이미지), Make.com(워크플로우)
+- **Phase 확장 기준:**
+  - Phase 1 (현재): 월 0원 — Gemini API + Apps Script + Telegram + Vercel
+  - Phase 2 (월 15건 초과 시): Canva Pro(17,000원) + ElevenLabs(6,000원) + CapCut(무료)
+  - Phase 3 (월 25건 초과 시): HeyGen AI 영상(40,000원) + Buffer 예약발행(무료)
+- Copilot에게 "시스템 업데이트 해줘" 한 마디로 최신 AI 툴 전면 검토·교체
 
 ---
 
