@@ -38,7 +38,7 @@
 ---
 
 ## 명제 2. 효율화 (이희전 팀장 개입 최소화)
-**이희전 팀장의 활동을 최소화하고, Copilot이 명령 없이도 모든 코드·콘텐츠·문구·설정·업데이트를 미리 자동 생성·저장·적용하는 구조로 시스템을 설계·운영한다.**
+**이희전 팀장의 활동을 최소화하고, Copilot이 명령 없이도 모든 코드·콘텐츠·문구·설정·업데이트를 미리 자동 생성·저장·적용하며, 실적 증대·운영 효율에 도움이 되는 자동화(광고 효율 리포트, 파트너 실적 집계, 고객 응대, 경쟁사 모니터링 등)는 사용자의 요청이 없어도 선제적으로 설계·적용한다.**
 - 이희전 팀장 역할: 월 1회 리포트 확인 + 전략 변경 시만 개입 (월 30분 이내)
 - 콘텐츠 생성·발행·리드 수집·알림·리포팅 = Copilot이 100% 자동 처리 (명령 없이도 결과물 자동 생성·업데이트·저장)
 - 유료 툴 도입 전 반드시 무료 대안 먼저 검토
@@ -54,7 +54,35 @@
 
 ---
 
-## 명제 3. 대부업 법규 철저 준수
+---
+
+## SNS 자동화 구축 핵심 파일 목록 (2026-05-22 기준)
+
+| 파일명/경로 | 역할/설명 | 원본/참조 경로 |
+|---|---|---|
+| SNS_SETUP_PROCESS.md | SNS AI 자동화 전체 프로세스·실행 가이드 (복붙·클릭만으로 실전 적용) | /SNS_SETUP_PROCESS.md |
+| PROJECT_CONTEXT_SOURCE.md | 전체 운영 명제·전략·법규·분담·자동화 원칙 마스터 | /PROJECT_CONTEXT_SOURCE.md |
+| SNS_MASTER_STRATEGY.md | SNS 전략 통합 마스터 (5-Track, 채널별 실행법, 자동화 구조) | /SNS_MASTER_STRATEGY.md |
+| automation/SAELOAN_AI_MASTER.gs | 텔레그램·콘텐츠 자동 발행 Apps Script 마스터 | /automation/SAELOAN_AI_MASTER.gs |
+| automation/STRATEGY_CONFIG.gs | 전략·트리거·설정 자동화 스크립트 | /automation/STRATEGY_CONFIG.gs |
+| automation/WEEKLY_REPORT.gs | 주간 실적 리포트 자동화 스크립트 | /automation/WEEKLY_REPORT.gs |
+| automation/google_form_autoresponder.js | 구글폼 자동응답·DB 연동 | /automation/google_form_autoresponder.js |
+| ai-agent/master-agent.js | AI 자동화 에이전트 마스터 | /ai-agent/master-agent.js |
+| ai-agent/content-generator.js | SNS 콘텐츠·문구 자동 생성 | /ai-agent/content-generator.js |
+| ai-agent/sns-publisher.js | SNS 발행 자동화 | /ai-agent/sns-publisher.js |
+| ai-agent/goal-tracker.js | 실적·목표 자동 집계 | /ai-agent/goal-tracker.js |
+| ai-agent/legal-checker.js | 법규·고지문 자동 점검 | /ai-agent/legal-checker.js |
+| ai-agent/find-korean-voice.js | AI 음성 자동 생성 | /ai-agent/find-korean-voice.js |
+| ai-agent/naver-blog.js | (블로그 금지, 참고용) | /ai-agent/naver-blog.js |
+| ai-agent/get-youtube-token.js | 유튜브 연동 자동화 | /ai-agent/get-youtube-token.js |
+| ai-agent/setup-wizard.js | 전체 자동화 셋업 마법사 | /ai-agent/setup-wizard.js |
+| ai-agent/set-secrets.js | API 키·토큰 자동 관리 | /ai-agent/set-secrets.js |
+| public/ | 공개용 리소스(이미지, 카드뉴스 등) | /public/ |
+| saeron-finance/ | 카드·전단·홈페이지 등 홍보물 원본 | /saeron-finance/ |
+| saeloan financial/ | 카드·전단·홈페이지 등 홍보물 원본 | /saeloan financial/ |
+| src/ | 프론트엔드(React 등) 소스 | /src/ |
+
+---
 **모든 SNS·광고·콘텐츠는 대부업법 규정을 엄격히 준수한다.**
  - 오직 홈페이지(saeloan.co.kr)만을 랜딩페이지로 사용 (예외 없음, 네이버 블로그·카페·SNS 등 모든 외부 채널은 영업·상담·광고·홍보용 랜딩 금지)
  - 네이버 블로그는 절대 개설·운영·홍보 금지 (김덕진 대표 명의 블로그도 금지, 시청에 블로그 개설 시 반드시 신고 의무, 블로그 개설 시 즉시 폐쇄)
