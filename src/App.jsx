@@ -43,10 +43,9 @@ function App() {
       {/* ── 헤더 ── */}
       <header className="w-full bg-blue-900 text-white shadow sticky top-0 z-50">
         <div className="max-w-5xl mx-auto px-4 py-4 flex items-center justify-between">
-          <div className="flex items-center gap-2">
-            <img src="/logo.jpg" alt="새론금융대부중개 로고"
-              style={{ height: "64px" }}
-              onError={(e) => { e.target.style.display = "none"; }} />
+          <div className="flex flex-col leading-tight">
+            <span className="text-blue-200 text-base">등록번호 2026-수원-2324(대부중개업)</span>
+            <span className="text-white font-bold text-xl">믿음이 가는&nbsp;&nbsp;새론금융대부중개</span>
           </div>
           <a href="tel:15552137"
             className="bg-yellow-400 text-blue-900 font-bold px-4 py-2 rounded-full text-sm hover:bg-yellow-300 transition">
@@ -243,6 +242,7 @@ function App() {
               ["상호", "새론금융대부중개"],
               ["대표자", "김덕진"],
               ["등록번호", "2026-수원-2324(대부중개업)"],
+              ["등록기관", "수원시청 지역경제과 (031-5191-32181)"],
               ["사업자등록번호", "653-90-02268"],
               ["대표전화", "1555-2137"],
               ["대표휴대폰", "010-5927-9205"],
@@ -257,15 +257,31 @@ function App() {
         </div>
       </section>
 
+      {/* ── 중개수수료 불법 고지 ── */}
+      <section className="max-w-3xl mx-auto w-full px-4 pt-4 pb-0">
+        <p className="text-center text-base font-extrabold text-red-700 py-3 border-2 border-red-500 rounded-lg bg-red-50">
+          "중개수수료를 요구하거나 받는 것은 불법입니다"
+        </p>
+      </section>
+
       {/* ── 법정 고지사항 ── */}
       <section className="max-w-3xl mx-auto w-full px-4 py-8">
         <div className="bg-yellow-50 border border-yellow-200 rounded-xl p-5">
-          <h4 className="font-bold text-yellow-800 mb-3">⚠ 법정 고지사항 (대부업법 제11조)</h4>
-          <ul className="text-xs text-yellow-700 space-y-1 list-disc ml-4">
+          <h4 className="font-bold text-yellow-800 mb-3 text-lg">⚠ 법정 고지사항 (대부업법 제11조)</h4>
+          <ul className="text-sm text-yellow-700 space-y-1 list-disc ml-4 mb-3">
             <li>대출금리: 연 최고 20% 이내 (법정최고금리)</li>
-            <li>중개수수료: 없음 (대부중개업자는 중개수수료를 받을 수 없습니다)</li>
             <li>대출 시 귀하의 신용등급이 하락할 수 있습니다.</li>
-            <li>과도한 대출은 개인신용평점 하락 및 금융거래 제한의 원인이 될 수 있습니다.</li>
+          </ul>
+          {/* 상호와 동일 크기, 다른 광고사항과 쉽게 구별 */}
+          <div className="space-y-2 mb-3">
+            <div className="border-2 border-red-400 rounded-lg px-4 py-2 bg-white">
+              <p className="text-base font-semibold text-red-700">• 중개수수료 없음 (대부중개업자는 중개수수료를 받을 수 없습니다)</p>
+            </div>
+            <div className="border-2 border-red-400 rounded-lg px-4 py-2 bg-white">
+              <p className="text-base font-semibold text-red-700">• 과도한 대출은 개인신용평점 하락 및 금융거래 제한의 원인이 될 수 있습니다.</p>
+            </div>
+          </div>
+          <ul className="text-sm text-yellow-700 space-y-1 list-disc ml-4">
             <li>새론금융대부중개는 대부중개업 등록업체로, 대출을 직접 실행하지 않으며 대부업체를 연결하는 중개 서비스만 제공합니다.</li>
             <li>대부업 관련 문의·신고: 경기도청 금융정책과 또는 금융감독원(1332)</li>
           </ul>
