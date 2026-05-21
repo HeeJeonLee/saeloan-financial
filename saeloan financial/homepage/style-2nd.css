@@ -1,0 +1,132 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f5f7fa;
+  color: #222;
+  margin: 0;
+}
+.header-bar {
+  background: #0D47A1;
+  color: #fff;
+  padding: 12px 0 8px 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+}
+.logo {
+  height: 54px;
+  margin-right: 18px;
+}
+.legal-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  font-size: 0.98em;
+}
+header h1 {
+  text-align: center;
+  margin: 12px 0 0 0;
+  font-size: 2.1em;
+  color: #0D47A1;
+}
+header .en {
+  font-size: 0.7em;
+  color: #1976D2;
+  margin-left: 8px;
+}
+.slogan {
+  color: #1976D2;
+  font-size: 1.1em;
+  text-align: center;
+  margin-top: 4px;
+}
+nav {
+  background: #1976D2;
+  text-align: center;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+nav li {
+  margin: 0 18px;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 12px 0;
+  display: inline-block;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+main {
+  max-width: 800px;
+  margin: 32px auto;
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 2px 16px #0001;
+  padding: 36px 28px;
+}
+section {
+  margin-bottom: 36px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+}
+input, button {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #bbb;
+  font-size: 1em;
+}
+button {
+  background: #1976D2;
+  color: #fff;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+button:hover {
+  background: #1565C0;
+}
+.notice {
+  color: #1976D2;
+  font-size: 0.97em;
+  margin-top: 8px;
+}
+footer {
+  background: #0D47A1;
+  color: #fff;
+  text-align: center;
+  padding: 18px 0 10px 0;
+  font-size: 0.97em;
+  margin-top: 36px;
+  border-radius: 0 0 14px 14px;
+}
+@media (max-width: 800px) {
+  main {
+    padding: 18px 4vw;
+  }
+  nav ul {
+    flex-direction: column;
+    gap: 0;
+  }
+  nav li {
+    margin: 0;
+  }
+  .header-bar {
+    flex-direction: column;
+    gap: 8px;
+  }
+}

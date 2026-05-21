@@ -1,0 +1,14 @@
+<svg width="200" height="60" viewBox="0 0 200 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="60" rx="14" fill="#0D47A1"/>
+  <g>
+    <circle cx="38" cy="30" r="18" fill="#fff"/>
+    <path d="M38 16 L38 44 M26 30 L50 30" stroke="#1976D2" stroke-width="3"/>
+    <circle cx="38" cy="30" r="8" fill="#1976D2"/>
+    <rect x="34" y="38" width="8" height="4" fill="#1976D2"/>
+    <rect x="36" y="20" width="4" height="8" fill="#1976D2"/>
+  </g>
+  <text x="65" y="38" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="bold" fill="#fff">Saeron</text>
+  <text x="65" y="54" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#90CAF9">FINANCIAL</text>
+  <text x="170" y="20" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#FFD600" font-weight="bold">인증</text>
+  <rect x="160" y="10" width="32" height="20" rx="6" fill="#fff" stroke="#FFD600" stroke-width="2"/>
+</svg>

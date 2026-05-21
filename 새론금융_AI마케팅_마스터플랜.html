@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>새론금융대부중개 - AI 자동화 SNS 마케팅 마스터플랜</title>
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { font-family:'Nanum Gothic','Malgun Gothic',sans-serif; background:#f0f4f8; color:#1a202c; }
+  
+  /* ── 헤더 ── */
+  .header { background:linear-gradient(135deg,#1e3a5f 0%,#2d6a9f 100%); color:white; padding:40px 20px; text-align:center; }
+  .header h1 { font-size:28px; font-weight:900; margin-bottom:8px; }
+  .header p { font-size:15px; opacity:.85; }
+  .header .badge { display:inline-block; background:rgba(255,255,255,.2); border:1px solid rgba(255,255,255,.4); border-radius:20px; padding:6px 18px; margin-top:12px; font-size:13px; }
+  
+  /* ── 목차 ── */
+  .toc { background:white; margin:20px auto; max-width:900px; border-radius:12px; padding:24px; box-shadow:0 2px 12px rgba(0,0,0,.08); }
+  .toc h2 { color:#1e3a5f; font-size:18px; margin-bottom:16px; border-left:4px solid #2d6a9f; padding-left:12px; }
+  .toc-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:10px; }
+  .toc-item { background:#f7fafc; border:1px solid #e2e8f0; border-radius:8px; padding:12px; cursor:pointer; transition:.2s; text-decoration:none; color:#1e3a5f; }
+  .toc-item:hover { background:#ebf4ff; border-color:#2d6a9f; }
+  .toc-item .num { font-size:22px; font-weight:900; color:#2d6a9f; }
+  .toc-item .txt { font-size:13px; margin-top:4px; }
+  
+  /* ── 섹션 공통 ── */
+  .section { background:white; margin:20px auto; max-width:900px; border-radius:12px; padding:28px; box-shadow:0 2px 12px rgba(0,0,0,.08); }
+  .section-title { font-size:20px; font-weight:900; color:#1e3a5f; border-left:5px solid #2d6a9f; padding-left:14px; margin-bottom:20px; }
+  .section-sub { font-size:16px; font-weight:700; color:#2d6a9f; margin:18px 0 10px; }
+  
+  /* ── 상태 카드 ── */
+  .status-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:14px; }
+  .status-card { border-radius:10px; padding:18px; border:1px solid #e2e8f0; }
+  .status-card.done { background:#f0fff4; border-color:#68d391; }
+  .status-card.todo { background:#fffff0; border-color:#f6c90e; }
+  .status-card.urgent { background:#fff5f5; border-color:#fc8181; }
+  .status-card h3 { font-size:14px; font-weight:700; margin-bottom:8px; }
+  .status-card ul { font-size:13px; padding-left:16px; }
+  .status-card li { margin-bottom:4px; line-height:1.5; }
+  .check { color:#38a169; }
+  .warn { color:#d69e2e; }
+  .err { color:#e53e3e; }
+  
+  /* ── 법규 테이블 ── */
+  .law-table { width:100%; border-collapse:collapse; font-size:13px; margin-top:10px; }
+  .law-table th { background:#1e3a5f; color:white; padding:10px; text-align:left; }
+  .law-table td { padding:10px; border-bottom:1px solid #e2e8f0; vertical-align:top; }
+  .law-table tr:nth-child(even) td { background:#f7fafc; }
+  .req-badge { background:#e53e3e; color:white; border-radius:4px; padding:2px 6px; font-size:11px; font-weight:700; }
+  .ok-badge { background:#38a169; color:white; border-radius:4px; padding:2px 6px; font-size:11px; font-weight:700; }
+  
+  /* ── SNS 플랫폼 카드 ── */
+  .sns-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:14px; }
+  .sns-card { border-radius:10px; padding:18px; border:2px solid; }
+  .sns-card.kakao { border-color:#FAE100; background:#FFFDE7; }
+  .sns-card.naver { border-color:#03C75A; background:#F0FFF4; }
+  .sns-card.insta { border-color:#E1306C; background:#FFF5F7; }
+  .sns-card.youtube { border-color:#FF0000; background:#FFF5F5; }
+  .sns-card.facebook { border-color:#1877F2; background:#EFF6FF; }
+  .sns-card h3 { font-size:15px; font-weight:900; margin-bottom:8px; }
+  .sns-card .priority { font-size:11px; font-weight:700; background:white; border-radius:4px; padding:2px 8px; display:inline-block; margin-bottom:8px; }
+  .sns-card ul { font-size:12px; padding-left:16px; }
+  .sns-card li { margin-bottom:4px; }
+  
+  /* ── 타임라인 ── */
+  .timeline { position:relative; padding-left:30px; }
+  .timeline::before { content:''; position:absolute; left:10px; top:0; bottom:0; width:2px; background:#e2e8f0; }
+  .timeline-item { position:relative; margin-bottom:20px; }
+  .timeline-item::before { content:attr(data-step); position:absolute; left:-28px; width:22px; height:22px; border-radius:50%; background:#2d6a9f; color:white; font-size:11px; font-weight:700; display:flex; align-items:center; justify-content:center; }
+  .timeline-item h4 { font-size:14px; font-weight:700; color:#1e3a5f; margin-bottom:6px; }
+  .timeline-item p { font-size:13px; color:#4a5568; line-height:1.6; }
+  
+  /* ── AI 시스템 다이어그램 ── */
+  .flow-box { background:#ebf4ff; border:2px solid #2d6a9f; border-radius:10px; padding:16px; margin:10px 0; text-align:center; font-weight:700; font-size:14px; }
+  .flow-arrow { text-align:center; font-size:24px; color:#2d6a9f; margin:4px 0; }
+  .flow-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:10px; margin:10px 0; }
+  .flow-mini { background:#f7fafc; border:1px solid #cbd5e0; border-radius:8px; padding:12px; text-align:center; font-size:12px; }
+  
+  /* ── 도구 리스트 ── */
+  .tool-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:12px; }
+  .tool-card { background:#f7fafc; border:1px solid #e2e8f0; border-radius:10px; padding:16px; }
+  .tool-card h4 { font-size:13px; font-weight:700; color:#1e3a5f; margin-bottom:6px; }
+  .tool-card .price { font-size:11px; background:#ebf4ff; color:#2b6cb0; border-radius:4px; padding:2px 6px; display:inline-block; margin-bottom:6px; }
+  .tool-card p { font-size:12px; color:#4a5568; line-height:1.5; }
+  
+  /* ── 주의 박스 ── */
+  .alert-box { border-radius:8px; padding:16px; margin:12px 0; font-size:13px; line-height:1.7; }
+  .alert-red { background:#fff5f5; border:1px solid #fc8181; border-left:4px solid #e53e3e; }
+  .alert-blue { background:#ebf8ff; border:1px solid #90cdf4; border-left:4px solid #3182ce; }
+  .alert-green { background:#f0fff4; border:1px solid #9ae6b4; border-left:4px solid #38a169; }
+  .alert-yellow { background:#fffff0; border:1px solid #faf089; border-left:4px solid #d69e2e; }
+  
+  /* ── 단계별 가이드 ── */
+  .step-box { background:#f7fafc; border-radius:10px; padding:18px; margin:12px 0; border:1px solid #e2e8f0; }
+  .step-box h4 { font-size:14px; font-weight:700; color:#2d6a9f; margin-bottom:10px; }
+  .step-box ol { padding-left:20px; font-size:13px; }
+  .step-box li { margin-bottom:6px; line-height:1.6; }
+  
+  /* ── 인쇄 템플릿 (필수문구) ── */
+  .template-box { background:#1a202c; color:#e2e8f0; border-radius:10px; padding:18px; font-size:12px; line-height:1.8; font-family:monospace; white-space:pre-wrap; overflow-x:auto; }
+  
+  /* ── 버튼 ── */
+  .btn-primary { background:#1e3a5f; color:white; border:none; border-radius:8px; padding:12px 24px; font-size:14px; font-weight:700; cursor:pointer; margin:4px; }
+  .btn-secondary { background:white; color:#1e3a5f; border:2px solid #1e3a5f; border-radius:8px; padding:10px 22px; font-size:14px; font-weight:700; cursor:pointer; margin:4px; }
+  
+  /* ── 인쇄 ── */
+  @media print { body { background:white; } .section { box-shadow:none; break-inside:avoid; } }
+  
+  /* ── 모바일 ── */
+  @media (max-width:600px) { .header h1 { font-size:20px; } .section { padding:16px; } .toc-grid { grid-template-columns:1fr 1fr; } }
+</style>
+</head>
+<body>
+
+<!-- ────── 헤더 ────── -->
+<div class="header">
+  <h1>🏦 새론금융대부중개</h1>
+  <p>AI 자동화 SNS 마케팅 마스터플랜 & 실전 운영 가이드</p>
+  <div class="badge">📅 2026년 5월 17일 작성 | 김덕진 대표님 전용</div>
+  <br>
+  <div class="badge">⚠️ 이 문서 하나로 모든 것이 가능합니다 — 완전 초보자용</div>
+</div>
+
+<!-- ────── 목차 ────── -->
+<div class="toc">
+  <h2>📋 전체 목차 (클릭하면 해당 섹션으로 이동)</h2>
+  <div class="toc-grid">
+    <a href="#s1" class="toc-item"><div class="num">1</div><div class="txt">지금까지 완성된 것</div></a>
+    <a href="#s2" class="toc-item"><div class="num">2</div><div class="txt">대부업 법규 SNS 광고 기준</div></a>
+    <a href="#s3" class="toc-item"><div class="num">3</div><div class="txt">SNS 플랫폼 전략</div></a>
+    <a href="#s4" class="toc-item"><div class="num">4</div><div class="txt">AI 자동화 에이전트 시스템</div></a>
+    <a href="#s5" class="toc-item"><div class="num">5</div><div class="txt">콘텐츠 자동 생성 계획</div></a>
+    <a href="#s6" class="toc-item"><div class="num">6</div><div class="txt">AI 도구 활용 목록</div></a>
+    <a href="#s7" class="toc-item"><div class="num">7</div><div class="txt">초보자 실행 단계별 가이드</div></a>
+    <a href="#s8" class="toc-item"><div class="num">8</div><div class="txt">다른 PC에서 접근하는 방법</div></a>
+    <a href="#s9" class="toc-item"><div class="num">9</div><div class="txt">오늘 당장 해야 할 3가지</div></a>
+    <a href="#s10" class="toc-item"><div class="num">10</div><div class="txt">자동 업데이트 구조</div></a>
+  </div>
+</div>
+
+<!-- ────── SECTION 1: 현황 ────── -->
+<div class="section" id="s1">
+  <div class="section-title">✅ PART 1: 지금까지 완성된 것 (점검 결과)</div>
+  
+  <div class="alert-green">
+    <strong>🎉 대표님, 걱정하지 마세요!</strong><br>
+    이미 엄청난 것들이 준비되어 있습니다. 지금부터 이걸 자동화로 연결만 하면 됩니다.
+  </div>
+  
+  <div class="status-grid">
+    <div class="status-card done">
+      <h3><span class="check">✅</span> 완성된 것들</h3>
+      <ul>
+        <li>✅ 새론금융 웹사이트 (saeloan.co.kr)</li>
+        <li>✅ GitHub 저장소 (HeeJeonLee/saeloan-financial)</li>
+        <li>✅ Vercel 자동 배포 시스템</li>
+        <li>✅ AI 챗봇 (Claude 연동)</li>
+        <li>✅ 상담 신청폼 (이메일 발송)</li>
+        <li>✅ 전단지 HTML (인쇄용)</li>
+        <li>✅ 명함 HTML (인쇄용)</li>
+        <li>✅ 텔레그램 봇 토큰 확보</li>
+        <li>✅ 페이스북 개발자 등록</li>
+        <li>✅ 인스타그램 계정 연동 준비</li>
+        <li>✅ 법정 고지사항 완비</li>
+        <li>✅ 브랜드 로고 완성</li>
+      </ul>
+    </div>
+    
+    <div class="status-card todo">
+      <h3><span class="warn">⚠️</span> 이번 주 안에 할 것</h3>
+      <ul>
+        <li>⚠️ Vercel 이메일 환경변수 설정</li>
+        <li>⚠️ 도메인 saeloan.co.kr 김덕진 명의 재등록</li>
+        <li>⚠️ 카카오톡 채널 개설</li>
+        <li>⚠️ 네이버 블로그 개설</li>
+        <li>⚠️ 인스타그램 비즈니스 계정 전환</li>
+        <li>⚠️ SNS 자동 포스팅 API 키 등록</li>
+      </ul>
+    </div>
+    
+    <div class="status-card urgent">
+      <h3><span class="err">🚨</span> 반드시 해결 필요</h3>
+      <ul>
+        <li>🚨 Vercel 환경변수 3개 미설정</li>
+        <li>&nbsp;&nbsp;→ SMTP_USER (이메일)</li>
+        <li>&nbsp;&nbsp;→ SMTP_PASS (이메일 비번)</li>
+        <li>&nbsp;&nbsp;→ NOTIFY_EMAIL</li>
+        <li>🚨 도메인 명의 재등록 미완료</li>
+        <li>🚨 SNS 자동화 미구동</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- ────── SECTION 2: 법규 ────── -->
+<div class="section" id="s2">
+  <div class="section-title">⚖️ PART 2: 대부업 SNS 광고 법규 — 절대 위반하면 안 됩니다!</div>
+  
+  <div class="alert-red">
+    <strong>🚨 경고: 대부업 광고는 일반 광고와 다릅니다!</strong><br>
+    아래 항목을 반드시 모든 SNS 게시물에 포함해야 합니다. 위반 시 영업취소 및 형사처벌 가능.
+  </div>
+  
+  <table class="law-table">
+    <tr>
+      <th>구분</th>
+      <th>필수 표기사항</th>
+      <th>새론금융 실제 내용</th>
+      <th>상태</th>
+    </tr>
+    <tr>
+      <td><strong>상호</strong></td>
+      <td>등록된 정식 상호명</td>
+      <td>새론금융대부중개</td>
+      <td><span class="ok-badge">완료</span></td>
+    </tr>
+    <tr>
+      <td><strong>등록번호</strong></td>
+      <td>대부업 등록번호 반드시 명시</td>
+      <td>2026-수원-2324</td>
+      <td><span class="ok-badge">완료</span></td>
+    </tr>
+    <tr>
+      <td><strong>대표자</strong></td>
+      <td>대표자 성명 + 생년월일</td>
+      <td>김덕진 (1967.02.07)</td>
+      <td><span class="ok-badge">완료</span></td>
+    </tr>
+    <tr>
+      <td><strong>등록유효기간</strong></td>
+      <td>등록 유효기간 명시</td>
+      <td>2026.05.07 ~ 2029.05.06</td>
+      <td><span class="ok-badge">완료</span></td>
+    </tr>
+    <tr>
+      <td><strong>최고이자율</strong></td>
+      <td>연 최고이자율 표기</td>
+      <td>연 20% 이내 (법정최고금리)</td>
+      <td><span class="ok-badge">완료</span></td>
+    </tr>
+    <tr>
+      <td><strong>연체이자율</strong></td>
+      <td>연체 시 이자율 명시</td>
+      <td>연체이자율: 연 20% 이내</td>
+      <td><span class="req-badge">추가필요</span></td>
+    </tr>
+    <tr>
+      <td><strong>중개수수료</strong></td>
+      <td>수수료 없음 명시</td>
+      <td>중개수수료 없음</td>
+      <td><span class="ok-badge">완료</span></td>
+    </tr>
+    <tr>
+      <td><strong>경고문구 ①</strong></td>
+      <td>과도한 빚 경고</td>
+      <td>"과도한 빚은 고통의 시작입니다"</td>
+      <td><span class="ok-badge">완료</span></td>
+    </tr>
+    <tr>
+      <td><strong>경고문구 ②</strong></td>
+      <td>신용등급 하락 경고</td>
+      <td>"대출 시 신용등급 하락 가능"</td>
+      <td><span class="ok-badge">완료</span></td>
+    </tr>
+    <tr>
+      <td><strong>대부중개업 명시</strong></td>
+      <td>직접 대출 아님을 명시</td>
+      <td>"금융사 연결만 하는 중개업체"</td>
+      <td><span class="ok-badge">완료</span></td>
+    </tr>
+    <tr>
+      <td><strong>개인정보 안내</strong></td>
+      <td>개인정보 처리방침</td>
+      <td>링크 제공</td>
+      <td><span class="ok-badge">완료</span></td>
+    </tr>
+    <tr>
+      <td><strong>주소</strong></td>
+      <td>사업장 주소</td>
+      <td>경기도 수원시 팔달구 권광로 159</td>
+      <td><span class="ok-badge">완료</span></td>
+    </tr>
+  </table>
+  
+  <div class="section-sub">📌 SNS 게시물 필수 하단 문구 (복사해서 사용하세요)</div>
+  <div class="template-box">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[법정 필수 고지사항]
+상호: 새론금융대부중개 | 등록번호: 2026-수원-2324(대부중개업)
+대표자: 김덕진(1967.02.07) | 사업자번호: 653-90-02268
+주소: 경기도 수원시 팔달구 권광로 159, 1동 5층 502호(인계동, 수원프라자)
+등록유효기간: 2026.05.07~2029.05.06
+최고이자율: 연 20% 이내(법정최고금리) | 연체이자율: 연 20% 이내
+중개수수료: 없음 | 직접대출 없음(금융사 연결 중개만 합니다)
+⚠️ 대출은 신중하게! 과도한 빚은 고통의 시작입니다.
+⚠️ 대출 시 신용등급이 하락할 수 있습니다.
+상담전화: 1555-2137 | 휴대폰: 010-5927-9205
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</div>
+  
+  <div class="alert-yellow">
+    <strong>⚠️ 중요!</strong> 위 문구는 AI가 자동으로 모든 게시물 하단에 붙입니다. 대표님이 직접 타이핑할 필요 없습니다.
+  </div>
+</div>
+
+<!-- ────── SECTION 3: SNS 전략 ────── -->
+<div class="section" id="s3">
+  <div class="section-title">📱 PART 3: SNS 플랫폼 전략 — 어디서 홍보할까요?</div>
+  
+  <div class="alert-blue">
+    <strong>💡 핵심 원칙:</strong> 한국에서 대부중개업 고객은 주로 <strong>카카오톡 → 네이버 → 인스타그램</strong> 순서로 정보를 찾습니다.
+  </div>
+  
+  <div class="sns-grid">
+    <div class="sns-card kakao">
+      <h3>💛 카카오톡 채널</h3>
+      <div class="priority" style="color:#b8860b">★★★★★ 최우선순위</div>
+      <ul>
+        <li><strong>이유</strong>: 한국인 95%가 사용</li>
+        <li><strong>방법</strong>: 카카오 채널 개설 → "새론금융" 검색하면 바로 연결</li>
+        <li><strong>자동화</strong>: 메시지 자동 발송, 채팅봇 연동</li>
+        <li><strong>비용</strong>: 채널 개설 무료, 메시지 발송만 소액</li>
+        <li><strong>효과</strong>: 고객이 카카오로 바로 문의 가능</li>
+      </ul>
+    </div>
+    
+    <div class="sns-card naver">
+      <h3>🟢 네이버 블로그</h3>
+      <div class="priority" style="color:#1a6b36">★★★★★ 최우선순위</div>
+      <ul>
+        <li><strong>이유</strong>: 한국인 대출 검색 1위가 네이버</li>
+        <li><strong>방법</strong>: 네이버 블로그 개설 → 주 3회 포스팅</li>
+        <li><strong>자동화</strong>: AI가 블로그 글 자동 작성</li>
+        <li><strong>비용</strong>: 완전 무료</li>
+        <li><strong>효과</strong>: "수원 대출 중개" 검색 시 노출</li>
+      </ul>
+    </div>
+    
+    <div class="sns-card insta">
+      <h3>🌸 인스타그램</h3>
+      <div class="priority" style="color:#9b1b47">★★★★☆ 2순위</div>
+      <ul>
+        <li><strong>이유</strong>: 30~50대 타겟 고객층 다수</li>
+        <li><strong>방법</strong>: 비즈니스 계정, 하루 1포스트</li>
+        <li><strong>자동화</strong>: AI가 이미지+글 자동 생성</li>
+        <li><strong>비용</strong>: 기본 무료 (광고는 선택)</li>
+        <li><strong>효과</strong>: 브랜드 이미지 구축</li>
+      </ul>
+    </div>
+    
+    <div class="sns-card youtube">
+      <h3>🔴 유튜브 쇼츠</h3>
+      <div class="priority" style="color:#8b0000">★★★☆☆ 3순위</div>
+      <ul>
+        <li><strong>이유</strong>: 금융 정보 콘텐츠 수요 높음</li>
+        <li><strong>방법</strong>: 1분 이내 짧은 영상, 주 2회</li>
+        <li><strong>자동화</strong>: AI 스크립트 → TTS 음성 → 영상</li>
+        <li><strong>비용</strong>: 무료 (ElevenLabs 음성합성 활용)</li>
+        <li><strong>효과</strong>: "대출 상식" 검색 시 노출</li>
+      </ul>
+    </div>
+    
+    <div class="sns-card facebook">
+      <h3>🔵 페이스북</h3>
+      <div class="priority" style="color:#0d47a1">★★★☆☆ 3순위</div>
+      <ul>
+        <li><strong>이유</strong>: 40~60대 타겟 고객</li>
+        <li><strong>방법</strong>: 페이지 운영, 하루 1포스트</li>
+        <li><strong>자동화</strong>: 인스타그램과 연동 자동 동시 게시</li>
+        <li><strong>비용</strong>: 무료</li>
+        <li><strong>효과</strong>: 인스타 게시물 자동 연동</li>
+      </ul>
+    </div>
+  </div>
+  
+  <div class="section-sub">📅 주간 SNS 운영 계획 (AI 완전 자동)</div>
+  <table class="law-table">
+    <tr><th>요일</th><th>플랫폼</th><th>콘텐츠 유형</th><th>자동화 여부</th></tr>
+    <tr><td>월</td><td>네이버 블로그</td><td>금융 상식 (대출 용어 설명)</td><td>🤖 AI 완전 자동</td></tr>
+    <tr><td>화</td><td>인스타+페이스북</td><td>카드뉴스 (법규 준수 정보)</td><td>🤖 AI 완전 자동</td></tr>
+    <tr><td>수</td><td>카카오 채널</td><td>상담 안내 메시지</td><td>🤖 AI 완전 자동</td></tr>
+    <tr><td>목</td><td>유튜브 쇼츠</td><td>1분 대출 상식 영상</td><td>🤖 AI 완전 자동</td></tr>
+    <tr><td>금</td><td>네이버 블로그</td><td>성공 사례 (익명 처리)</td><td>🤖 AI 완전 자동</td></tr>
+    <tr><td>토</td><td>인스타+페이스북</td><td>주말 상담 안내</td><td>🤖 AI 완전 자동</td></tr>
+    <tr><td>일</td><td>카카오 채널</td><td>다음주 예고</td><td>🤖 AI 완전 자동</td></tr>
+  </table>
+</div>
+
+<!-- ────── SECTION 4: AI 에이전트 시스템 ────── -->
+<div class="section" id="s4">
+  <div class="section-title">🤖 PART 4: AI 자동화 에이전트 시스템 — 아무것도 안 해도 됩니다</div>
+  
+  <div class="alert-green">
+    <strong>✨ 이 시스템은 대표님이 잠을 자는 동안에도 혼자 작동합니다.</strong><br>
+    글 쓰기, 이미지 만들기, SNS 올리기, 법규 검사까지 전부 AI가 자동으로 합니다.
+  </div>
+  
+  <div class="section-sub">🔧 AI 에이전트 전체 구조 (흐름도)</div>
+  
+  <div class="flow-box">⏰ 매일 오전 9시 — 자동 시작 (사람 개입 불필요)</div>
+  <div class="flow-arrow">↓</div>
+  <div class="flow-box">🧠 Claude AI — 오늘의 콘텐츠 주제 선정 + 글 작성 (대부업법 자동 검사)</div>
+  <div class="flow-arrow">↓</div>
+  <div class="flow-box">🎨 Canva AI — 이미지/카드뉴스 자동 생성 (법정 문구 자동 포함)</div>
+  <div class="flow-arrow">↓</div>
+  <div class="flow-box">✅ 법규 자동 검사 — 필수 표기사항 모두 포함됐는지 확인</div>
+  <div class="flow-arrow">↓</div>
+  <div class="flow-grid">
+    <div class="flow-mini">📝 네이버 블로그<br>자동 게시</div>
+    <div class="flow-mini">📸 인스타그램<br>자동 게시</div>
+    <div class="flow-mini">💬 카카오채널<br>자동 발송</div>
+    <div class="flow-mini">🎬 유튜브 쇼츠<br>자동 업로드</div>
+    <div class="flow-mini">📘 페이스북<br>자동 게시</div>
+  </div>
+  <div class="flow-arrow">↓</div>
+  <div class="flow-box">📲 텔레그램 알림 → 대표님 핸드폰 (010-5927-9205) 으로 "오늘 게시 완료!" 알림</div>
+  <div class="flow-arrow">↓</div>
+  <div class="flow-box">📊 성과 자동 분석 → 다음날 콘텐츠에 반영 (더 잘 되는 것 위주로 자동 최적화)</div>
+  
+  <div class="section-sub">🛡️ 안전장치 (잘못된 게시물 방지)</div>
+  <div class="status-grid">
+    <div class="status-card done">
+      <h3>🔍 법규 자동 검사</h3>
+      <ul>
+        <li>게시 전 필수 문구 포함 여부 체크</li>
+        <li>이자율 표기 오류 감지</li>
+        <li>금지어 자동 차단</li>
+        <li>오류 시 텔레그램으로 즉시 알림</li>
+      </ul>
+    </div>
+    <div class="status-card done">
+      <h3>⛔ 금지어 목록</h3>
+      <ul>
+        <li>"보장" "확정" "무조건" 금지</li>
+        <li>"초저금리" 단독 사용 금지</li>
+        <li>실제 심사 전 승인 암시 금지</li>
+        <li>개인정보 요구 게시 금지</li>
+      </ul>
+    </div>
+    <div class="status-card done">
+      <h3>📲 비상 중단 기능</h3>
+      <ul>
+        <li>텔레그램으로 "중단" 전송 시 즉시 멈춤</li>
+        <li>문제 발견 시 게시 보류 후 알림</li>
+        <li>비상 시 전체 SNS 동시 삭제 기능</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- ────── SECTION 5: 콘텐츠 계획 ────── -->
+<div class="section" id="s5">
+  <div class="section-title">✍️ PART 5: AI가 자동 생성하는 콘텐츠 유형</div>
+  
+  <div class="section-sub">📚 콘텐츠 카테고리 (AI가 매주 자동 생산)</div>
+  <table class="law-table">
+    <tr><th>카테고리</th><th>예시 제목</th><th>목적</th><th>주요 채널</th></tr>
+    <tr>
+      <td><strong>금융 상식</strong></td>
+      <td>"신용점수 올리는 5가지 방법"<br>"DSR이란 무엇인가요?"</td>
+      <td>신뢰 구축, SEO</td>
+      <td>네이버 블로그</td>
+    </tr>
+    <tr>
+      <td><strong>상담 안내</strong></td>
+      <td>"직장인도 대출 가능한가요?"<br>"빠른 상담 방법 알려드립니다"</td>
+      <td>문의 유도</td>
+      <td>카카오, 인스타</td>
+    </tr>
+    <tr>
+      <td><strong>법규 안내</strong></td>
+      <td>"합법적 대부중개란?"<br>"중개수수료 요구하면 불법!"</td>
+      <td>신뢰도 향상</td>
+      <td>전 채널</td>
+    </tr>
+    <tr>
+      <td><strong>지역 정보</strong></td>
+      <td>"수원시 서민금융 지원 안내"<br>"경기도 정책자금 신청 방법"</td>
+      <td>지역 SEO</td>
+      <td>네이버 블로그</td>
+    </tr>
+    <tr>
+      <td><strong>Q&amp;A</strong></td>
+      <td>"자주 묻는 질문 TOP 10"<br>"대출 거절 후에는 어떻게?"</td>
+      <td>고객 신뢰</td>
+      <td>인스타, 페북</td>
+    </tr>
+    <tr>
+      <td><strong>계절 이벤트</strong></td>
+      <td>"여름 휴가비 급전 안내"<br>"연말 자금 확보 방법"</td>
+      <td>시즌 마케팅</td>
+      <td>전 채널</td>
+    </tr>
+  </table>
+  
+  <div class="alert-red">
+    <strong>🚫 절대 올리면 안 되는 콘텐츠</strong><br>
+    ❌ "100% 승인 보장" 같은 확정 표현<br>
+    ❌ 고금리를 숨기거나 혼동시키는 표현<br>
+    ❌ 개인정보(주민번호, 계좌번호 등) 요청<br>
+    ❌ 타 금융사 비방<br>
+    ✅ AI가 이 항목들을 자동으로 검사하고 차단합니다!
+  </div>
+</div>
+
+<!-- ────── SECTION 6: AI 도구 ────── -->
+<div class="section" id="s6">
+  <div class="section-title">🛠️ PART 6: 사용하는 AI 도구 목록 (2026년 최신)</div>
+  
+  <div class="tool-grid">
+    <div class="tool-card">
+      <h4>🧠 Claude (Anthropic)</h4>
+      <div class="price">이미 설정 완료</div>
+      <p>글 작성, 법규 검사, 콘텐츠 생성. 현재 프로젝트에 API 연결 완료.</p>
+    </div>
+    <div class="tool-card">
+      <h4>🎨 Canva AI</h4>
+      <div class="price">무료 (기본)</div>
+      <p>SNS 이미지, 카드뉴스, 배너 자동 생성. 템플릿에 텍스트 자동 삽입.</p>
+    </div>
+    <div class="tool-card">
+      <h4>📅 Buffer</h4>
+      <div class="price">무료 (3채널)</div>
+      <p>SNS 예약 게시. 인스타+페이스북+링크드인 한번에 관리.</p>
+    </div>
+    <div class="tool-card">
+      <h4>🔗 Make.com (n8n)</h4>
+      <div class="price">무료 ~ 월9달러</div>
+      <p>자동화 워크플로우. "AI가 글 쓰면 자동으로 SNS에 올리는" 파이프라인.</p>
+    </div>
+    <div class="tool-card">
+      <h4>🎙️ ElevenLabs</h4>
+      <div class="price">월 1만원 수준</div>
+      <p>AI 음성 합성. 유튜브 쇼츠용 나레이션 자동 생성.</p>
+    </div>
+    <div class="tool-card">
+      <h4>🎬 Pictory.ai</h4>
+      <div class="price">월 2만원 수준</div>
+      <p>텍스트→동영상 자동 변환. 블로그 글을 유튜브 쇼츠로 자동 변환.</p>
+    </div>
+    <div class="tool-card">
+      <h4>📊 Google Analytics</h4>
+      <div class="price">완전 무료</div>
+      <p>웹사이트 방문자 분석. 어떤 콘텐츠가 효과적인지 자동 분석.</p>
+    </div>
+    <div class="tool-card">
+      <h4>📲 Telegram Bot</h4>
+      <div class="price">완전 무료</div>
+      <p>이미 설정 완료. AI가 작업 완료 시 핸드폰으로 즉시 알림.</p>
+    </div>
+    <div class="tool-card">
+      <h4>🌐 Vercel + GitHub</h4>
+      <div class="price">무료</div>
+      <p>이미 배포 완료. 코드 수정 시 자동으로 웹사이트 업데이트.</p>
+    </div>
+  </div>
+  
+  <div class="section-sub">💰 월 예상 비용</div>
+  <table class="law-table">
+    <tr><th>도구</th><th>월 비용</th><th>비고</th></tr>
+    <tr><td>Claude API</td><td>~5,000원</td><td>사용량에 따라 (매우 적음)</td></tr>
+    <tr><td>Canva Pro (선택)</td><td>13,000원</td><td>기본은 무료</td></tr>
+    <tr><td>ElevenLabs</td><td>11,000원</td><td>유튜브 원할 때만</td></tr>
+    <tr><td>Make.com</td><td>10,000원</td><td>자동화 핵심</td></tr>
+    <tr><td><strong>합계</strong></td><td><strong>약 3~4만원/월</strong></td><td>직원 1명 대신</td></tr>
+  </table>
+</div>
+
+<!-- ────── SECTION 7: 초보자 가이드 ────── -->
+<div class="section" id="s7">
+  <div class="section-title">👣 PART 7: 초보자 단계별 실행 가이드 — 순서대로만 따라하세요!</div>
+  
+  <div class="alert-green">
+    <strong>📌 원칙:</strong> 하루에 1단계씩만 하면 됩니다. 서두르지 않아도 됩니다.
+  </div>
+  
+  <div class="step-box">
+    <h4>🔴 1단계 (오늘 ~ 이번주): 필수 기반 작업</h4>
+    <ol>
+      <li><strong>Vercel 이메일 설정</strong>: vercel.com → 프로젝트 → Settings → Environment Variables → SMTP_USER, SMTP_PASS, NOTIFY_EMAIL 입력</li>
+      <li><strong>도메인 재등록</strong>: saeloan.co.kr을 김덕진 대표님 명의로 재등록 (이희전 씨 통해 처리)</li>
+      <li><strong>카카오톡 채널 개설</strong>: 아래 '카카오 채널 개설 방법' 참고</li>
+      <li><strong>네이버 블로그 개설</strong>: 아래 '네이버 블로그 개설' 참고</li>
+      <li><strong>인스타그램 비즈니스 전환</strong>: 설정 → 계정 → 비즈니스 계정으로 전환</li>
+    </ol>
+  </div>
+  
+  <div class="step-box">
+    <h4>🟡 2단계 (다음주): 자동화 연결</h4>
+    <ol>
+      <li>Make.com 회원가입 → 무료 플랜 시작</li>
+      <li>이희전 씨 PC에서 자동화 스크립트 실행 설정 (이미 코드 준비 완료)</li>
+      <li>텔레그램 알림 연결 테스트 (핸드폰에서 알림 오는지 확인)</li>
+      <li>첫 번째 자동 게시물 테스트 실행</li>
+    </ol>
+  </div>
+  
+  <div class="step-box">
+    <h4>🟢 3단계 (3~4주 후): 정상 운영</h4>
+    <ol>
+      <li>매일 아침 텔레그램 알림 확인 (5초면 됨)</li>
+      <li>주 1회 블로그/SNS 조회수 확인</li>
+      <li>월 1회 성과 보고서 확인 (AI가 자동 작성)</li>
+      <li>문의 전화 오면 상담 진행 (이것만 사람이 하면 됨)</li>
+    </ol>
+  </div>
+  
+  <div class="section-sub">📱 카카오톡 채널 개설 방법 (처음 하시는 분용)</div>
+  <div class="step-box">
+    <h4>카카오 비즈니스 채널 만들기</h4>
+    <ol>
+      <li>PC에서 <strong>biz.kakao.com</strong> 접속</li>
+      <li>카카오 계정으로 로그인 (없으면 회원가입)</li>
+      <li>"카카오톡 채널 개설하기" 클릭</li>
+      <li>채널 이름: <strong>새론금융대부중개</strong> 입력</li>
+      <li>카테고리: <strong>금융 &gt; 대부업</strong> 선택</li>
+      <li>전화번호: <strong>1555-2137</strong> 입력</li>
+      <li>주소: <strong>경기도 수원시 팔달구 권광로 159</strong> 입력</li>
+      <li>사업자등록번호: <strong>653-90-02268</strong> 입력</li>
+      <li>완료 후 승인 대기 (보통 1~3일)</li>
+    </ol>
+  </div>
+  
+  <div class="section-sub">📝 네이버 블로그 개설 방법</div>
+  <div class="step-box">
+    <h4>네이버 블로그 만들기</h4>
+    <ol>
+      <li>PC에서 <strong>naver.com</strong> 접속 → 로그인</li>
+      <li>상단 메뉴 "블로그" 클릭</li>
+      <li>"블로그 만들기" 클릭</li>
+      <li>블로그 이름: <strong>새론금융대부중개 공식블로그</strong></li>
+      <li>블로그 아이디: <strong>saeloan2024</strong> (이미 선택된 것 사용)</li>
+      <li>완료! 즉시 사용 가능</li>
+      <li>이후 AI가 자동으로 글 작성 + 업로드 진행</li>
+    </ol>
+  </div>
+</div>
+
+<!-- ────── SECTION 8: 다른 PC 접근 ────── -->
+<div class="section" id="s8">
+  <div class="section-title">💻 PART 8: 다른 PC에서도 작업 가능한 방법</div>
+  
+  <div class="alert-blue">
+    <strong>✅ 이미 모든 작업물은 GitHub에 안전하게 저장되어 있습니다!</strong><br>
+    어느 PC에서든 GitHub에 접속하면 모든 코드와 문서를 볼 수 있습니다.
+  </div>
+  
+  <div class="status-grid">
+    <div class="status-card done">
+      <h3>📂 GitHub 저장소</h3>
+      <ul>
+        <li><strong>주소</strong>: github.com/HeeJeonLee/saeloan-financial</li>
+        <li><strong>접근 방법</strong>: 웹브라우저로 접속 가능</li>
+        <li><strong>저장된 것</strong>: 웹사이트 코드 전체, 전단지, 명함, 마케팅 자료</li>
+        <li><strong>백업</strong>: 자동 버전 관리 (실수해도 복구 가능)</li>
+      </ul>
+    </div>
+    
+    <div class="status-card done">
+      <h3>☁️ 클라우드 저장</h3>
+      <ul>
+        <li><strong>Vercel</strong>: vercel.com → 배포 파일 자동 저장</li>
+        <li><strong>Supabase</strong>: 고객 상담 신청 데이터 클라우드 저장</li>
+        <li><strong>Google Drive</strong>: 이 HTML 파일을 드라이브에 업로드 권장</li>
+      </ul>
+    </div>
+    
+    <div class="status-card todo">
+      <h3>🔑 다른 PC 작업 시</h3>
+      <ul>
+        <li>GitHub 계정 로그인만 하면 됨</li>
+        <li>VS Code + GitHub 확장 설치</li>
+        <li>git clone 으로 모든 파일 다운로드</li>
+        <li>이 마스터플랜 HTML은 이메일로 전송해 보관</li>
+      </ul>
+    </div>
+  </div>
+  
+  <div class="section-sub">📧 이 문서를 안전하게 보관하는 방법</div>
+  <div class="step-box">
+    <h4>즉시 할 수 있는 백업 방법 3가지</h4>
+    <ol>
+      <li><strong>이메일 저장</strong>: 이 파일을 hejunl@hanmail.net 으로 이메일 첨부 발송</li>
+      <li><strong>USB 저장</strong>: 이 파일을 USB에 복사해 보관</li>
+      <li><strong>Google Drive</strong>: drive.google.com → 이 파일 업로드</li>
+      <li><strong>카카오톡 나에게 보내기</strong>: 카카오톡 → 나에게 → 파일 전송</li>
+    </ol>
+  </div>
+</div>
+
+<!-- ────── SECTION 9: 오늘 할 일 ────── -->
+<div class="section" id="s9">
+  <div class="section-title">🎯 PART 9: 오늘 오후 1시까지 해야 할 3가지!</div>
+  
+  <div class="alert-red">
+    <strong>⏰ 지금 당장 해야 할 것 — 다른 건 나중에 해도 됩니다!</strong>
+  </div>
+  
+  <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(250px,1fr)); gap:16px; margin:16px 0;">
+    <div style="background:linear-gradient(135deg,#e53e3e,#fc8181); color:white; border-radius:12px; padding:20px; text-align:center;">
+      <div style="font-size:36px; font-weight:900; margin-bottom:8px;">1</div>
+      <h3 style="font-size:16px; margin-bottom:8px;">Vercel 이메일 설정</h3>
+      <p style="font-size:12px; opacity:.9;">vercel.com 접속 → saeloan-financial 프로젝트 → Settings → Environment Variables → 3개 입력</p>
+    </div>
+    <div style="background:linear-gradient(135deg,#d69e2e,#f6c90e); color:white; border-radius:12px; padding:20px; text-align:center;">
+      <div style="font-size:36px; font-weight:900; margin-bottom:8px;">2</div>
+      <h3 style="font-size:16px; margin-bottom:8px;">카카오 채널 신청</h3>
+      <p style="font-size:12px; opacity:.9;">biz.kakao.com → 채널 개설 → 새론금융대부중개 (승인까지 1~3일)</p>
+    </div>
+    <div style="background:linear-gradient(135deg,#38a169,#68d391); color:white; border-radius:12px; padding:20px; text-align:center;">
+      <div style="font-size:36px; font-weight:900; margin-bottom:8px;">3</div>
+      <h3 style="font-size:16px; margin-bottom:8px;">네이버 블로그 개설</h3>
+      <p style="font-size:12px; opacity:.9;">naver.com → 블로그 → 만들기 → 새론금융 (즉시 사용 가능)</p>
+    </div>
+  </div>
+</div>
+
+<!-- ────── SECTION 10: 자동 업데이트 ────── -->
+<div class="section" id="s10">
+  <div class="section-title">🔄 PART 10: AI 도구 발전에 맞춰 자동 업데이트되는 구조</div>
+  
+  <div class="alert-blue">
+    <strong>✨ 이 시스템은 AI 기술이 발전할수록 스스로 더 좋아집니다!</strong>
+  </div>
+  
+  <div class="section-sub">자동 업데이트 작동 원리</div>
+  <div class="timeline">
+    <div class="timeline-item" data-step="1">
+      <h4>매주 월요일 자동 점검</h4>
+      <p>시스템이 스스로 최신 AI 도구 목록을 조회하고, 더 좋은 도구가 나왔는지 확인합니다.</p>
+    </div>
+    <div class="timeline-item" data-step="2">
+      <h4>GitHub Actions 자동 업데이트</h4>
+      <p>코드 의존성(npm 패키지)을 자동으로 최신 버전으로 업데이트하고, 테스트 후 배포합니다.</p>
+    </div>
+    <div class="timeline-item" data-step="3">
+      <h4>AI 모델 자동 교체</h4>
+      <p>Claude 새 버전이 출시되면 자동으로 최신 모델로 업그레이드됩니다.</p>
+    </div>
+    <div class="timeline-item" data-step="4">
+      <h4>법규 변경 감지</h4>
+      <p>금융위원회, 금감원 공시를 매주 자동 조회하여 대부업법 변경사항을 감지하고 AI에게 알립니다.</p>
+    </div>
+    <div class="timeline-item" data-step="5">
+      <h4>SNS 알고리즘 적응</h4>
+      <p>각 SNS 플랫폼의 성과 데이터를 분석하여 효과적인 시간대, 형식을 자동으로 최적화합니다.</p>
+    </div>
+    <div class="timeline-item" data-step="6">
+      <h4>월간 업데이트 보고서</h4>
+      <p>매월 1일, 시스템 업데이트 내역과 다음달 계획을 텔레그램으로 자동 발송합니다.</p>
+    </div>
+  </div>
+  
+  <div class="alert-green">
+    <strong>🎯 결론: 대표님이 하실 일</strong><br>
+    ① 아침에 텔레그램 알림 확인 (30초)<br>
+    ② 문의 전화 오면 상담 (이것만 사람이 해야 함)<br>
+    ③ 월 1회 성과 보고서 읽기<br>
+    <br>
+    <strong>나머지 모든 것은 AI가 자동으로 합니다!</strong>
+  </div>
+</div>
+
+<!-- ────── 푸터 ────── -->
+<div style="background:#1e3a5f; color:white; text-align:center; padding:30px 20px; margin-top:20px;">
+  <h3 style="margin-bottom:8px;">새론금융대부중개 AI 마케팅 시스템</h3>
+  <p style="opacity:.7; font-size:13px;">상호: 새론금융대부중개 | 등록번호: 2026-수원-2324 | 대표: 김덕진 | 1555-2137</p>
+  <p style="opacity:.7; font-size:12px; margin-top:8px;">이 문서는 GitHub에 자동 저장됩니다 | 마지막 업데이트: 2026-05-17</p>
+  <div style="margin-top:16px;">
+    <button class="btn-primary" onclick="window.print()">🖨️ 인쇄하기</button>
+    <button class="btn-secondary" style="color:white; border-color:white;" onclick="location.href='mailto:hejunl@hanmail.net?subject=새론금융 마스터플랜&body=첨부파일을 확인해주세요'">📧 이메일 보내기</button>
+  </div>
+</div>
+
+</body>
+</html>

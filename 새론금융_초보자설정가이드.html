@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>새론금융 — 초보자 완전 설정 가이드</title>
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family:'Nanum Gothic','Malgun Gothic',sans-serif; background:#f8fafc; color:#1a202c; font-size:15px; line-height:1.7; }
+.header { background:linear-gradient(135deg,#1e3a5f,#2d6a9f); color:white; padding:36px 20px; text-align:center; }
+.header h1 { font-size:26px; font-weight:900; margin-bottom:8px; }
+.header p { opacity:.85; font-size:14px; }
+.container { max-width:860px; margin:0 auto; padding:20px; }
+
+/* 진행 상황 표시 */
+.progress-bar { background:white; border-radius:12px; padding:20px; margin-bottom:20px; box-shadow:0 2px 8px rgba(0,0,0,.08); }
+.progress-bar h3 { font-size:15px; color:#1e3a5f; margin-bottom:12px; font-weight:700; }
+.steps-track { display:flex; gap:6px; flex-wrap:wrap; }
+.step-dot { flex:1; min-width:60px; background:#e2e8f0; border-radius:6px; padding:6px; text-align:center; font-size:11px; font-weight:700; color:#718096; }
+.step-dot.done { background:#38a169; color:white; }
+.step-dot.current { background:#2d6a9f; color:white; }
+.step-dot.todo { background:#e2e8f0; color:#718096; }
+
+/* 단계 카드 */
+.step-card { background:white; border-radius:14px; margin-bottom:20px; box-shadow:0 2px 8px rgba(0,0,0,.08); overflow:hidden; }
+.step-header { padding:18px 20px; display:flex; align-items:center; gap:14px; cursor:pointer; }
+.step-header.red { background:#fff5f5; border-left:5px solid #e53e3e; }
+.step-header.orange { background:#fffaf0; border-left:5px solid #dd6b20; }
+.step-header.yellow { background:#fffff0; border-left:5px solid #d69e2e; }
+.step-header.green { background:#f0fff4; border-left:5px solid #38a169; }
+.step-header.blue { background:#ebf8ff; border-left:5px solid #3182ce; }
+.step-num { width:40px; height:40px; border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:18px; font-weight:900; flex-shrink:0; }
+.step-num.red { background:#e53e3e; color:white; }
+.step-num.orange { background:#dd6b20; color:white; }
+.step-num.yellow { background:#d69e2e; color:white; }
+.step-num.green { background:#38a169; color:white; }
+.step-num.blue { background:#3182ce; color:white; }
+.step-title { flex:1; }
+.step-title h3 { font-size:16px; font-weight:900; color:#1e3a5f; }
+.step-title p { font-size:12px; color:#718096; margin-top:2px; }
+.step-badge { font-size:11px; font-weight:700; padding:3px 10px; border-radius:20px; }
+.badge-urgent { background:#e53e3e; color:white; }
+.badge-this-week { background:#dd6b20; color:white; }
+.badge-next-week { background:#d69e2e; color:white; }
+.badge-optional { background:#718096; color:white; }
+
+.step-body { padding:20px; border-top:1px solid #e2e8f0; }
+.instruction { background:#f7fafc; border-radius:8px; padding:14px; margin-bottom:12px; }
+.instruction h4 { font-size:13px; font-weight:700; color:#2d6a9f; margin-bottom:8px; }
+.instruction ol, .instruction ul { padding-left:20px; font-size:13px; }
+.instruction li { margin-bottom:6px; }
+.highlight { background:#fff9c4; padding:2px 4px; border-radius:3px; font-weight:700; }
+.code-block { background:#1a202c; color:#68d391; border-radius:6px; padding:10px 14px; font-family:monospace; font-size:12px; margin:8px 0; }
+.warning { background:#fff5f5; border:1px solid #fc8181; border-radius:6px; padding:10px 12px; font-size:13px; color:#c53030; margin:8px 0; }
+.tip { background:#f0fff4; border:1px solid #9ae6b4; border-radius:6px; padding:10px 12px; font-size:13px; color:#276749; margin:8px 0; }
+.url-box { background:#ebf4ff; border:1px solid #bee3f8; border-radius:6px; padding:10px 12px; font-size:14px; font-weight:700; color:#2b6cb0; margin:8px 0; text-align:center; }
+.check-item { display:flex; align-items:flex-start; gap:8px; padding:6px 0; font-size:13px; }
+.check-item input[type=checkbox] { margin-top:3px; width:16px; height:16px; flex-shrink:0; cursor:pointer; }
+
+/* 비상 연락처 */
+.emergency { background:linear-gradient(135deg,#e53e3e,#c53030); color:white; border-radius:12px; padding:20px; margin-bottom:20px; }
+.emergency h3 { font-size:16px; margin-bottom:10px; }
+.emergency p { font-size:13px; opacity:.9; }
+
+/* 완료 체크리스트 */
+.checklist { background:white; border-radius:12px; padding:20px; box-shadow:0 2px 8px rgba(0,0,0,.08); margin-bottom:20px; }
+.checklist h3 { font-size:16px; font-weight:700; color:#1e3a5f; margin-bottom:14px; }
+
+@media (max-width:600px) { .header h1 { font-size:20px; } .container { padding:12px; } }
+@media print { body { background:white; } .step-card { box-shadow:none; } }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>🚀 새론금융 AI 시스템 — 초보자 완전 설정 가이드</h1>
+  <p>이 가이드만 순서대로 따라하시면 됩니다. 기술 지식 불필요!</p>
+</div>
+
+<div class="container">
+
+  <!-- 진행 추적 -->
+  <div class="progress-bar">
+    <h3>📊 전체 진행 상황</h3>
+    <div class="steps-track">
+      <div class="step-dot done">STEP1<br>웹사이트</div>
+      <div class="step-dot done">STEP2<br>배포</div>
+      <div class="step-dot done">STEP3<br>도메인</div>
+      <div class="step-dot current">STEP4<br>이메일</div>
+      <div class="step-dot todo">STEP5<br>카카오</div>
+      <div class="step-dot todo">STEP6<br>네이버</div>
+      <div class="step-dot todo">STEP7<br>인스타</div>
+      <div class="step-dot todo">STEP8<br>AI자동화</div>
+      <div class="step-dot todo">STEP9<br>운영</div>
+    </div>
+  </div>
+
+  <!-- 비상 연락처 -->
+  <div class="emergency">
+    <h3>📞 도움이 필요하시면</h3>
+    <p>• 이희전 담당자: 010-5650-0670 (카카오톡 가능)</p>
+    <p>• 문의 이메일: hejunl@hanmail.net</p>
+    <p>• 모르는 것이 있으면 절대 혼자 하지 마세요! 전화주세요.</p>
+  </div>
+
+  <!-- STEP 1 -->
+  <div class="step-card">
+    <div class="step-header red">
+      <div class="step-num red">1</div>
+      <div class="step-title">
+        <h3>Vercel 이메일 설정 — 상담 신청 알림 받기</h3>
+        <p>고객이 상담 신청하면 이메일로 알림이 옵니다</p>
+      </div>
+      <span class="step-badge badge-urgent">🚨 지금 당장!</span>
+    </div>
+    <div class="step-body">
+      <div class="instruction">
+        <h4>📌 이걸 왜 해야 하나요?</h4>
+        <p>고객이 saeloan.co.kr에서 상담 신청을 하면, 이메일로 알림이 와야 합니다.<br>
+        지금은 이 기능이 꺼져 있어서 고객 신청을 놓칠 수 있습니다!</p>
+      </div>
+      <div class="instruction">
+        <h4>📋 따라하세요 (5분이면 됩니다)</h4>
+        <ol>
+          <li>PC에서 <span class="highlight">vercel.com</span> 접속 → 로그인</li>
+          <li>왼쪽 목록에서 <span class="highlight">saeloan-financial</span> 클릭</li>
+          <li>상단 메뉴 <span class="highlight">Settings</span> (설정) 클릭</li>
+          <li>왼쪽 메뉴 <span class="highlight">Environment Variables</span> 클릭</li>
+          <li>아래 3개를 <span class="highlight">하나씩</span> 입력하세요:</li>
+        </ol>
+        <div class="code-block">
+SMTP_USER = 이메일주소@gmail.com
+SMTP_PASS = 구글앱비밀번호16자리
+NOTIFY_EMAIL = hejunl@hanmail.net</div>
+        <div class="tip">💡 Gmail 앱 비밀번호 만드는 법: 구글 계정 → 보안 → 2단계인증 → 앱 비밀번호 → 새로만들기</div>
+        <ol start="6">
+          <li>3개 모두 입력 후 <span class="highlight">Save</span> 클릭</li>
+          <li>Vercel 화면 위쪽 <span class="highlight">Deployments</span> → 최신 배포 → <span class="highlight">Redeploy</span> 클릭</li>
+        </ol>
+        <div class="warning">⚠️ 비밀번호는 절대 다른 사람에게 알려주지 마세요!</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- STEP 2 -->
+  <div class="step-card">
+    <div class="step-header orange">
+      <div class="step-num orange">2</div>
+      <div class="step-title">
+        <h3>도메인 saeloan.co.kr — 김덕진 대표님 명의로 재등록</h3>
+        <p>현재 이희전 명의 → 대표님 명의로 변경 필요</p>
+      </div>
+      <span class="step-badge badge-urgent">🚨 이번 주!</span>
+    </div>
+    <div class="step-body">
+      <div class="instruction">
+        <h4>📌 해야 하는 이유</h4>
+        <p>대부업 홈페이지는 반드시 사업자(대표님) 명의여야 합니다.</p>
+      </div>
+      <div class="instruction">
+        <h4>📋 이희전 씨에게 부탁하세요</h4>
+        <ol>
+          <li>가비아(gabia.com) 또는 카페24에서 saeloan.co.kr 재등록</li>
+          <li>등록인: 김덕진 (사업자: 653-90-02268)</li>
+          <li>등록 완료 후 DNS 설정:</li>
+        </ol>
+        <div class="code-block">
+A 레코드: @ → 76.76.21.21
+CNAME: www → cname.vercel-dns.com.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- STEP 3 -->
+  <div class="step-card">
+    <div class="step-header yellow">
+      <div class="step-num yellow">3</div>
+      <div class="step-title">
+        <h3>카카오톡 채널 개설 — 한국인 95%가 사용하는 채널</h3>
+        <p>고객이 카카오로 바로 문의할 수 있게 됩니다</p>
+      </div>
+      <span class="step-badge badge-this-week">이번 주</span>
+    </div>
+    <div class="step-body">
+      <div class="url-box">🌐 접속 주소: biz.kakao.com</div>
+      <div class="instruction">
+        <h4>📋 개설 방법</h4>
+        <ol>
+          <li>biz.kakao.com 접속 → 카카오 계정 로그인</li>
+          <li>"카카오톡 채널" 메뉴 → "채널 개설하기"</li>
+          <li>채널 프로필 이름: <span class="highlight">새론금융대부중개</span></li>
+          <li>카테고리: <span class="highlight">금융 → 대출/대부</span></li>
+          <li>전화번호: <span class="highlight">1555-2137</span></li>
+          <li>주소: <span class="highlight">경기도 수원시 팔달구 권광로 159</span></li>
+          <li>사업자등록번호: <span class="highlight">653-90-02268</span></li>
+          <li>승인 대기 (1~3일 소요)</li>
+        </ol>
+        <div class="tip">💡 승인 후 채널 URL이 생기면 이희전 씨에게 알려주세요 → 웹사이트에 자동 연결!</div>
+      </div>
+      <div class="instruction">
+        <h4>📌 채널 개설 후 해야 할 것</h4>
+        <ol>
+          <li>채널 소개글 작성 (AI가 자동 작성해드림)</li>
+          <li>자동 응답 메시지 설정: "안녕하세요! 새론금융대부중개입니다. 상담전화: 1555-2137"</li>
+          <li>운영시간 설정: 평일 9시~18시</li>
+        </ol>
+      </div>
+    </div>
+  </div>
+
+  <!-- STEP 4 -->
+  <div class="step-card">
+    <div class="step-header yellow">
+      <div class="step-num yellow">4</div>
+      <div class="step-title">
+        <h3>네이버 블로그 개설 — 대출 검색 1위 채널</h3>
+        <p>"수원 대출 중개" 검색 시 상위 노출됩니다</p>
+      </div>
+      <span class="step-badge badge-this-week">이번 주</span>
+    </div>
+    <div class="step-body">
+      <div class="url-box">🌐 접속 주소: naver.com</div>
+      <div class="instruction">
+        <h4>📋 블로그 개설 방법 (5분)</h4>
+        <ol>
+          <li>naver.com 접속 → 네이버 로그인 (없으면 회원가입)</li>
+          <li>상단 메뉴 "블로그" 클릭</li>
+          <li>"내 블로그 만들기" 클릭</li>
+          <li>블로그명: <span class="highlight">새론금융대부중개 공식블로그</span></li>
+          <li>별명: <span class="highlight">새론금융</span></li>
+          <li>소개: <span class="highlight">경기도 수원시 합법 대부중개업체 | 등록번호: 2026-수원-2324</span></li>
+          <li>완료! 즉시 사용 가능</li>
+        </ol>
+        <div class="tip">💡 블로그 주소(URL)를 이희전 씨에게 알려주시면 AI 자동 포스팅 연결!</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- STEP 5 -->
+  <div class="step-card">
+    <div class="step-header green">
+      <div class="step-num green">5</div>
+      <div class="step-title">
+        <h3>인스타그램 비즈니스 계정 전환</h3>
+        <p>이미 계정은 있습니다 — 비즈니스로만 바꾸면 됩니다</p>
+      </div>
+      <span class="step-badge badge-next-week">다음 주</span>
+    </div>
+    <div class="step-body">
+      <div class="instruction">
+        <h4>📋 비즈니스 계정으로 전환 (3분)</h4>
+        <ol>
+          <li>인스타그램 앱 → 프로필 → 우상단 ≡ 메뉴</li>
+          <li>설정 → 계정 → "전문가 계정으로 전환"</li>
+          <li>"비즈니스" 선택</li>
+          <li>카테고리: "금융 서비스" 선택</li>
+          <li>연락처 정보: 전화 1555-2137, 주소 수원시 팔달구</li>
+          <li>페이스북 페이지 연결 (페이스북 계정 있으면)</li>
+        </ol>
+        <div class="tip">💡 비즈니스 계정으로 전환하면 자동 게시 API 사용 가능!</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- STEP 6 -->
+  <div class="step-card">
+    <div class="step-header blue">
+      <div class="step-num blue">6</div>
+      <div class="step-title">
+        <h3>텔레그램 봇 연결 — 핸드폰으로 알림 받기</h3>
+        <p>AI가 작업할 때마다 대표님 폰으로 알림이 옵니다</p>
+      </div>
+      <span class="step-badge badge-next-week">다음 주</span>
+    </div>
+    <div class="step-body">
+      <div class="instruction">
+        <h4>📋 텔레그램 알림 설정 방법</h4>
+        <ol>
+          <li>폰에 <span class="highlight">텔레그램 앱</span> 설치 (구글플레이/앱스토어)</li>
+          <li>텔레그램에서 <span class="highlight">@saeloan_alert_bot</span> 검색 → 시작</li>
+          <li>"/start" 입력 → 채팅방 ID 확인</li>
+          <li>ID를 이희전 씨에게 전달 → .env 파일에 등록</li>
+          <li>완료! 이제 AI가 일할 때마다 폰으로 알림이 옵니다</li>
+        </ol>
+        <div class="tip">💡 텔레그램에서 "중단" 이라고 보내면 AI가 즉시 멈춥니다 (비상 중단 기능)</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- STEP 7 -->
+  <div class="step-card">
+    <div class="step-header blue">
+      <div class="step-num blue">7</div>
+      <div class="step-title">
+        <h3>AI 자동화 최종 활성화</h3>
+        <p>이희전 씨가 진행 — 대표님은 확인만 하시면 됩니다</p>
+      </div>
+      <span class="step-badge badge-next-week">이희전 씨 담당</span>
+    </div>
+    <div class="step-body">
+      <div class="instruction">
+        <h4>📋 이희전 씨가 할 일</h4>
+        <ol>
+          <li>GitHub → saeloan-financial 저장소 → Settings → Secrets</li>
+          <li>모든 API 키 입력 (ANTHROPIC_API_KEY, 텔레그램, SNS 토큰 등)</li>
+          <li>GitHub Actions → ai-sns-agent.yml 활성화</li>
+          <li>테스트 실행 (node master-agent.js --test)</li>
+          <li>대표님 폰으로 테스트 알림 확인</li>
+          <li>정상 확인 후 실제 운영 시작!</li>
+        </ol>
+      </div>
+      <div class="instruction">
+        <h4>📌 대표님이 확인할 것</h4>
+        <ol>
+          <li>텔레그램 알림 정상 수신 확인</li>
+          <li>블로그 글 자동 등록 확인</li>
+          <li>인스타그램 자동 게시 확인</li>
+        </ol>
+      </div>
+    </div>
+  </div>
+
+  <!-- 운영 가이드 -->
+  <div class="step-card">
+    <div class="step-header green">
+      <div class="step-num green">✓</div>
+      <div class="step-title">
+        <h3>정상 운영 중 — 대표님이 매일 하실 일</h3>
+        <p>하루 5분이면 충분합니다!</p>
+      </div>
+      <span class="step-badge" style="background:#38a169;color:white">완성 후</span>
+    </div>
+    <div class="step-body">
+      <div class="instruction">
+        <h4>🌅 아침 (5분)</h4>
+        <ol>
+          <li>텔레그램 알림 확인 → "✅ 오늘 게시 완료!" 메시지 확인</li>
+          <li>문제 없으면 → 그냥 넘어가세요. 끝!</li>
+          <li>이상한 알림이 오면 → 이희전 씨에게 전화</li>
+        </ol>
+      </div>
+      <div class="instruction">
+        <h4>📞 상담 전화가 오면 (이것만 직접!)</h4>
+        <ol>
+          <li>1555-2137 수신</li>
+          <li>고객 상황 청취 (신용등급, 소득, 대출 목적)</li>
+          <li>적합한 금융사 연결 (이게 사업의 핵심!)</li>
+          <li>중개 완료 후 서류 처리</li>
+        </ol>
+      </div>
+      <div class="instruction">
+        <h4>📊 월 1회 (10분)</h4>
+        <ol>
+          <li>텔레그램으로 오는 월간 보고서 확인</li>
+          <li>몇 명이 상담 신청했는지 확인</li>
+          <li>어떤 콘텐츠가 반응이 좋았는지 확인</li>
+          <li>다음 달 방향은 AI가 자동 결정</li>
+        </ol>
+      </div>
+    </div>
+  </div>
+
+  <!-- 완료 체크리스트 -->
+  <div class="checklist">
+    <h3>✅ 최종 완료 체크리스트</h3>
+    <div class="check-item"><input type="checkbox"> 웹사이트 (saeloan.co.kr) 정상 접속 확인</div>
+    <div class="check-item"><input type="checkbox"> Vercel 이메일 환경변수 3개 설정 완료</div>
+    <div class="check-item"><input type="checkbox"> 도메인 김덕진 명의 재등록 완료</div>
+    <div class="check-item"><input type="checkbox"> 카카오 채널 개설 및 승인 완료</div>
+    <div class="check-item"><input type="checkbox"> 네이버 블로그 개설 완료</div>
+    <div class="check-item"><input type="checkbox"> 인스타그램 비즈니스 전환 완료</div>
+    <div class="check-item"><input type="checkbox"> 텔레그램 알림 수신 테스트 완료</div>
+    <div class="check-item"><input type="checkbox"> AI 자동 게시 첫 번째 성공 확인</div>
+    <div class="check-item"><input type="checkbox"> 테스트 상담 신청 → 이메일 수신 확인</div>
+    <div class="check-item"><input type="checkbox"> 법정 고지사항 모든 SNS에 표시 확인</div>
+  </div>
+
+  <!-- 긴급 연락처 재강조 -->
+  <div style="background:#1e3a5f; color:white; border-radius:12px; padding:20px; text-align:center; margin-bottom:20px;">
+    <h3 style="margin-bottom:10px;">📞 궁금한 점이 있으시면</h3>
+    <p style="font-size:16px; font-weight:700;">이희전 담당자: 010-5650-0670</p>
+    <p style="opacity:.8; font-size:13px; margin-top:6px;">카카오톡, 문자 모두 가능합니다.</p>
+    <p style="opacity:.8; font-size:13px;">이 가이드 파일을 이희전 씨에게 보여주시면 바로 진행됩니다.</p>
+    <button onclick="window.print()" style="background:white; color:#1e3a5f; border:none; border-radius:8px; padding:10px 24px; font-size:14px; font-weight:700; cursor:pointer; margin-top:12px;">🖨️ 이 가이드 인쇄하기</button>
+  </div>
+
+</div>
+</body>
+</html>

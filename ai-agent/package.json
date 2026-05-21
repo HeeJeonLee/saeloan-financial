@@ -1,0 +1,42 @@
+{
+  "name": "saeloan-ai-agent",
+  "version": "1.0.0",
+  "description": "새론금융대부중개 AI 자동화 SNS 에이전트",
+  "main": "master-agent.js",
+  "scripts": {
+    "start": "node master-agent.js",
+    "start:daily": "node master-agent.js",
+    "plan:today": "node master-agent.js --plan-only",
+    "plan:boost": "node master-agent.js --plan-only --force-escalation",
+    "start:boost": "node master-agent.js --force-escalation",
+    "goal:add1": "node master-agent.js --add-exec=1",
+    "partner:add": "node master-agent.js --add-partner=파트너명 --count=1",
+    "partner:add-exec": "node master-agent.js --add-partner-exec=파트너명 --count=1",
+    "partner:weekly": "node master-agent.js --partner-report --days=7",
+    "partner:performance": "node master-agent.js --partner-performance --days=30",
+    "partner:outreach": "node master-agent.js --partner-outreach --days=30",
+    "partner:today-top": "node master-agent.js --partner-today-top --days=30 --top-limit=3",
+    "tone:add": "node master-agent.js --tone-feedback=파트너명 --tone=formal --outcome=reply",
+    "tone:report": "node master-agent.js --tone-report --days=30",
+    "test": "node master-agent.js --test",
+    "legal-test": "node legal-checker.js",
+    "content-test": "node content-generator.js",
+    "setup": "node setup-wizard.js",
+    "youtube-auth": "node get-youtube-token.js",
+    "set-secrets": "node set-secrets.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.40.0",
+    "dotenv": "^16.0.0",
+    "libsodium-wrappers": "^0.7.15",
+    "node-cron": "^3.0.3",
+    "node-fetch": "^2.7.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": ["saeloan", "AI", "SNS", "자동화", "대부중개"],
+  "author": "새론금융대부중개",
+  "license": "UNLICENSED",
+  "private": true
+}

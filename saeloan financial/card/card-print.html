@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>새론금융대부중개 명함</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Noto Sans KR', sans-serif; background: #e0e0e0; }
+
+  @page { size: A4; margin: 8mm; }
+
+  @media print {
+    * {
+      -webkit-print-color-adjust: exact !important;
+      color-adjust: exact !important;
+      print-color-adjust: exact !important;
+    }
+    body { background: white; }
+    .no-print { display: none !important; }
+    .card-set { display: none !important; }
+    .cards-wrap { padding: 0; gap: 0; align-items: stretch; }
+    .sheet { box-shadow: none; padding: 0; width: 100%; page-break-after: always; break-after: page; }
+    .sheet-title { display: none; }
+    .sheet-grid { gap: 5mm; }
+  }
+
+  .no-print {
+    text-align: center;
+    padding: 16px;
+    background: #1e3a5f;
+    color: white;
+    font-size: 13px;
+  }
+  .no-print button {
+    margin-left: 12px;
+    padding: 7px 18px;
+    background: #f5c518;
+    color: #1e3a5f;
+    border: none;
+    border-radius: 6px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+
+  .cards-wrap {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .card-set {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+  }
+  .card-label {
+    font-size: 12px;
+    color: #888;
+    margin-bottom: 6px;
+    font-weight: 500;
+  }
+
+  /* 명함 크기: 90mm x 54mm */
+  .card {
+    width: 90mm;
+    height: 54mm;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+    position: relative;
+  }
+
+  /* 앞면 */
+  .card-front {
+    background: linear-gradient(135deg, #0f2952 0%, #1a4a8a 100%);
+    color: white;
+    padding: 12px 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+  .card-front .top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .card-front .logo img {
+    height: 36px;
+    filter: brightness(1.1);
+  }
+  .card-front .logo .fallback {
+    display: none;
+    color: white;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 1.3;
+  }
+  .card-front .badge {
+    font-size: 9px;
+    background: rgba(255,255,255,0.15);
+    color: #a8c4e8;
+    padding: 3px 8px;
+    border-radius: 10px;
+    border: 1px solid rgba(255,255,255,0.2);
+  }
+  .card-front .divider {
+    height: 1px;
+    background: rgba(255,255,255,0.2);
+    margin: 8px 0;
+  }
+  .card-front .name-area .name {
+    font-size: 18px;
+    font-weight: 900;
+    letter-spacing: -0.5px;
+  }
+  .card-front .name-area .title {
+    font-size: 9.5px;
+    color: #a8c4e8;
+    margin-top: 2px;
+  }
+  .card-front .contact-area {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+  }
+  .card-front .contact-row {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 10px;
+  }
+  .card-front .contact-row .icon { font-size: 11px; }
+  .card-front .contact-row strong { color: #f5c518; font-size: 11.5px; }
+  .card-front .web-row {
+    margin-top: 4px;
+    font-size: 10px;
+    color: #f5c518;
+    font-weight: 700;
+  }
+  .card-front .web-row span { font-size: 9px; color: #a8c4e8; margin-right: 4px; }
+
+  /* 뒷면 */
+  .card-back {
+    background: white;
+    padding: 12px 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    border: 1.5px solid #dce8f5;
+  }
+  .card-back .top-accent {
+    height: 4px;
+    background: linear-gradient(90deg, #0f2952, #1a4a8a, #f5c518);
+    border-radius: 2px;
+    margin-bottom: 10px;
+  }
+  .card-back .back-title {
+    font-size: 13px;
+    font-weight: 900;
+    color: #0f2952;
+    margin-bottom: 6px;
+  }
+  .card-back .back-tagline {
+    font-size: 10px;
+    color: #1a4a8a;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+  }
+  .card-back .info-row {
+    font-size: 9.5px;
+    color: #444;
+    margin-bottom: 3px;
+    display: flex;
+    gap: 4px;
+  }
+  .card-back .info-row .label {
+    color: #888;
+    min-width: 52px;
+  }
+  .card-back .disclaimer {
+    font-size: 8.5px;
+    color: #999;
+    line-height: 1.4;
+    border-top: 1px solid #e0e0e0;
+    padding-top: 6px;
+    margin-top: 4px;
+  }
+
+  /* 인쇄 여러 장 */
+  .sheet {
+    background: white;
+    width: 210mm;
+    padding: 15mm;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.12);
+  }
+  .sheet-title {
+    font-size: 12px;
+    color: #888;
+    margin-bottom: 10px;
+    font-weight: 500;
+  }
+  .sheet-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 90mm);
+    gap: 8mm;
+  }
+</style>
+</head>
+<body>
+
+<div class="no-print">
+  <div style="max-width:600px; margin:0 auto;">
+    <div style="font-size:15px; font-weight:700; margin-bottom:14px;">✏️ 직원 정보 입력 후 인쇄하세요</div>
+    <div style="display:grid; grid-template-columns:1fr 1fr 1fr; gap:10px; margin-bottom:14px;">
+      <div>
+        <label style="font-size:11px; color:#a8c4e8; display:block; margin-bottom:4px;">이름</label>
+        <input id="inp-name" type="text" value="김덕진"
+          style="width:100%; padding:8px 10px; border-radius:6px; border:none; font-size:14px; font-weight:700;"
+          oninput="updateCards()" placeholder="이름">
+      </div>
+      <div>
+        <label style="font-size:11px; color:#a8c4e8; display:block; margin-bottom:4px;">직함</label>
+        <input id="inp-title" type="text" value="대표"
+          style="width:100%; padding:8px 10px; border-radius:6px; border:none; font-size:14px;"
+          oninput="updateCards()" placeholder="직함 (예: 팀장, 상담사)">
+      </div>
+      <div>
+        <label style="font-size:11px; color:#a8c4e8; display:block; margin-bottom:4px;">핸드폰번호</label>
+        <input id="inp-phone" type="text" value="010-5927-9205"
+          style="width:100%; padding:8px 10px; border-radius:6px; border:none; font-size:14px;"
+          oninput="updateCards()" placeholder="010-0000-0000">
+      </div>
+    </div>
+    <button onclick="window.print()"
+      style="width:100%; padding:10px; background:#f5c518; color:#1e3a5f; border:none; border-radius:8px; font-weight:700; font-size:15px; cursor:pointer;">
+      🖨 인쇄 / PDF 저장
+    </button>
+  </div>
+</div>
+<script>
+function cardFrontHTML(name, titleText, phone) {
+  return `
+  <div class="card card-front">
+    <div class="top">
+      <div class="logo">
+        <img src="https://saeloan.co.kr/logo.png" alt="로고"
+             onerror="this.style.display='none'; this.nextElementSibling.style.display='block'">
+        <div class="fallback">새론금융<br>대부중개</div>
+      </div>
+      <div class="badge">대부중개업 등록</div>
+    </div>
+    <div class="divider"></div>
+    <div class="name-area">
+      <div class="name dyn-name">${name}</div>
+      <div class="title dyn-title">${titleText} · 새론금융대부중개</div>
+    </div>
+    <div class="contact-area">
+      <div class="contact-row"><span class="icon">☎</span><span>대표전화 <strong>1555-2137</strong></span></div>
+      <div class="contact-row"><span class="icon">📱</span><span>휴대폰 <strong class="dyn-phone">${phone}</strong></span></div>
+      <div class="web-row"><span>홈페이지</span>saeloan.co.kr</div>
+    </div>
+  </div>`;
+}
+const backCardHTML = `
+  <div class="card card-back">
+    <div>
+      <div class="top-accent"></div>
+      <div class="back-title">새론금융대부중개</div>
+      <div class="back-tagline">합법 · 신뢰 · 맞춤 금융중개</div>
+      <div class="info-row"><span class="label">등록번호</span><span>2026-수원-2324(대부중개업)</span></div>
+      <div class="info-row"><span class="label">유효기간</span><span>2026.05.07 ~ 2029.05.06</span></div>
+      <div class="info-row"><span class="label">사업자번호</span><span>653-90-02268</span></div>
+      <div class="info-row"><span class="label">주소</span><span>수원시 팔달구 권광로 159, 1동 502호</span></div>
+    </div>
+    <div class="disclaimer">과도한 빚, 고통의 시작입니다. 신중히 결정하세요.<br>대출금리 연 최고 20% 이내 · 중개수수료 없음</div>
+  </div>`;
+
+function updateCards() {
+  const name  = document.getElementById('inp-name').value  || '이름';
+  const title = document.getElementById('inp-title').value || '직함';
+  const phone = document.getElementById('inp-phone').value || '010-0000-0000';
+
+  // 미리보기 카드
+  document.querySelectorAll('.dyn-name').forEach(el => el.textContent = name);
+  document.querySelectorAll('.dyn-title').forEach(el => el.textContent = title + ' · 새론금융대부중개');
+  document.querySelectorAll('.dyn-phone').forEach(el => el.textContent = phone);
+
+  // 인쇄 시트 (앞면 4장)
+  const front = document.getElementById('sheet-front');
+  if (front) front.innerHTML = cardFrontHTML(name, title, phone).repeat(4);
+
+  // 인쇄 시트 (뒷면 4장)
+  const back = document.getElementById('sheet-back');
+  if (back) back.innerHTML = backCardHTML.repeat(4);
+}
+
+// 페이지 로드 시 초기화
+window.addEventListener('DOMContentLoaded', updateCards);
+</script>
+
+<div class="cards-wrap">
+
+  <!-- 미리보기 -->
+  <div class="card-set">
+    <div>
+      <div class="card-label">앞면 (Front)</div>
+      <div class="card card-front">
+        <div class="top">
+          <div class="logo">
+            <img src="https://saeloan.co.kr/logo.png" alt="로고"
+                 onerror="this.style.display='none'; this.nextElementSibling.style.display='block'">
+            <div class="fallback">새론금융<br>대부중개</div>
+          </div>
+          <div class="badge">대부중개업 등록</div>
+        </div>
+        <div class="divider"></div>
+        <div class="name-area">
+          <div class="name dyn-name">김덕진</div>
+          <div class="title dyn-title">대표 · 새론금융대부중개</div>
+        </div>
+        <div class="contact-area">
+          <div class="contact-row">
+            <span class="icon">☎</span>
+            <span>대표전화 <strong>1555-2137</strong></span>
+          </div>
+          <div class="contact-row">
+            <span class="icon">📱</span>
+            <span>휴대폰 <strong class="dyn-phone">010-5927-9205</strong></span>
+          </div>
+          <div class="web-row">
+            <span>홈페이지</span>saeloan.co.kr
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="card-label">뒷면 (Back)</div>
+      <div class="card card-back">
+        <div>
+          <div class="top-accent"></div>
+          <div class="back-title">새론금융대부중개</div>
+          <div class="back-tagline">합법 · 신뢰 · 맞춤 금융중개</div>
+          <div class="info-row"><span class="label">등록번호</span><span>2026-수원-2324(대부중개업)</span></div>
+          <div class="info-row"><span class="label">유효기간</span><span>2026.05.07 ~ 2029.05.06</span></div>
+          <div class="info-row"><span class="label">사업자번호</span><span>653-90-02268</span></div>
+          <div class="info-row"><span class="label">주소</span><span>수원시 팔달구 권광로 159, 1동 502호</span></div>
+        </div>
+        <div class="disclaimer">
+          과도한 빚, 고통의 시작입니다. 신중히 결정하세요.<br>
+          대출금리 연 최고 20% 이내 · 중개수수료 없음
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 인쇄용 시트 (A4 한 장에 앞면 4장) -->
+  <div class="sheet">
+    <div class="sheet-title">인쇄용 — 앞면 (A4 1장에 4매)</div>
+    <div class="sheet-grid" id="sheet-front"></div>
+  </div>
+
+  <!-- 인쇄용 시트 (A4 한 장에 뒷면 4장) -->
+  <div class="sheet">
+    <div class="sheet-title">인쇄용 — 뒷면 (A4 1장에 4매)</div>
+    <div class="sheet-grid" id="sheet-back"></div>
+      <div class="card card-back">
+        <div>
+          <div class="top-accent"></div>
+          <div class="back-title">새론금융대부중개</div>
+          <div class="back-tagline">합법 · 신뢰 · 맞춤 금융중개</div>
+          <div class="info-row"><span class="label">등록번호</span><span>2026-수원-2324(대부중개업)</span></div>
+          <div class="info-row"><span class="label">유효기간</span><span>2026.05.07 ~ 2029.05.06</span></div>
+          <div class="info-row"><span class="label">사업자번호</span><span>653-90-02268</span></div>
+          <div class="info-row"><span class="label">주소</span><span>수원시 팔달구 권광로 159, 1동 502호</span></div>
+        </div>
+        <div class="disclaimer">과도한 빚, 고통의 시작입니다. 신중히 결정하세요.<br>대출금리 연 최고 20% 이내 · 중개수수료 없음</div>
+      </div>
+      <div class="card card-back">
+        <div>
+          <div class="top-accent"></div>
+          <div class="back-title">새론금융대부중개</div>
+          <div class="back-tagline">합법 · 신뢰 · 맞춤 금융중개</div>
+          <div class="info-row"><span class="label">등록번호</span><span>2026-수원-2324(대부중개업)</span></div>
+          <div class="info-row"><span class="label">유효기간</span><span>2026.05.07 ~ 2029.05.06</span></div>
+          <div class="info-row"><span class="label">사업자번호</span><span>653-90-02268</span></div>
+          <div class="info-row"><span class="label">주소</span><span>수원시 팔달구 권광로 159, 1동 502호</span></div>
+        </div>
+        <div class="disclaimer">과도한 빚, 고통의 시작입니다. 신중히 결정하세요.<br>대출금리 연 최고 20% 이내 · 중개수수료 없음</div>
+      </div>
+      <div class="card card-back">
+        <div>
+          <div class="top-accent"></div>
+          <div class="back-title">새론금융대부중개</div>
+          <div class="back-tagline">합법 · 신뢰 · 맞춤 금융중개</div>
+          <div class="info-row"><span class="label">등록번호</span><span>2026-수원-2324(대부중개업)</span></div>
+          <div class="info-row"><span class="label">유효기간</span><span>2026.05.07 ~ 2029.05.06</span></div>
+          <div class="info-row"><span class="label">사업자번호</span><span>653-90-02268</span></div>
+          <div class="info-row"><span class="label">주소</span><span>수원시 팔달구 권광로 159, 1동 502호</span></div>
+        </div>
+        <div class="disclaimer">과도한 빚, 고통의 시작입니다. 신중히 결정하세요.<br>대출금리 연 최고 20% 이내 · 중개수수료 없음</div>
+      </div>
+      <div class="card card-back">
+        <div>
+          <div class="top-accent"></div>
+          <div class="back-title">새론금융대부중개</div>
+          <div class="back-tagline">합법 · 신뢰 · 맞춤 금융중개</div>
+          <div class="info-row"><span class="label">등록번호</span><span>2026-수원-2324(대부중개업)</span></div>
+          <div class="info-row"><span class="label">유효기간</span><span>2026.05.07 ~ 2029.05.06</span></div>
+          <div class="info-row"><span class="label">사업자번호</span><span>653-90-02268</span></div>
+          <div class="info-row"><span class="label">주소</span><span>수원시 팔달구 권광로 159, 1동 502호</span></div>
+        </div>
+        <div class="disclaimer">과도한 빚, 고통의 시작입니다. 신중히 결정하세요.<br>대출금리 연 최고 20% 이내 · 중개수수료 없음</div>
+      </div>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>

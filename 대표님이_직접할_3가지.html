@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>대표님이 직접 하실 것 — 딱 3가지</title>
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family:'Nanum Gothic','Malgun Gothic',sans-serif; background:#f0f4f8; }
+
+.header {
+  background:linear-gradient(135deg,#1e3a5f,#2d6a9f);
+  color:white; padding:40px 20px; text-align:center;
+}
+.header h1 { font-size:26px; font-weight:900; margin-bottom:8px; }
+.header p  { font-size:14px; opacity:.85; }
+.header .sub { 
+  display:inline-block; margin-top:14px;
+  background:rgba(255,255,255,.2); border:1px solid rgba(255,255,255,.4);
+  border-radius:20px; padding:8px 20px; font-size:13px;
+}
+
+.container { max-width:800px; margin:0 auto; padding:20px; }
+
+/* 알림 박스 */
+.notice {
+  background:#fffff0; border:2px solid #f6c90e;
+  border-left:6px solid #d69e2e;
+  border-radius:10px; padding:18px 20px;
+  margin:20px 0; font-size:14px; line-height:1.8;
+}
+.notice strong { color:#744210; }
+
+/* 카드 */
+.big-card {
+  background:white; border-radius:16px;
+  box-shadow:0 4px 20px rgba(0,0,0,.10);
+  margin-bottom:24px; overflow:hidden;
+}
+.card-header {
+  padding:22px 24px;
+  display:flex; align-items:center; gap:16px;
+}
+.card-header.blue   { background:linear-gradient(135deg,#1e3a5f,#2d6a9f); }
+.card-header.kakao  { background:linear-gradient(135deg,#3a2c00,#8b6914); }
+.card-header.naver  { background:linear-gradient(135deg,#003d1a,#03C75A); }
+
+.step-num {
+  width:52px; height:52px; border-radius:50%;
+  background:rgba(255,255,255,.25);
+  color:white; font-size:24px; font-weight:900;
+  display:flex; align-items:center; justify-content:center;
+  flex-shrink:0;
+}
+.card-title { color:white; }
+.card-title h2 { font-size:18px; font-weight:900; margin-bottom:4px; }
+.card-title p  { font-size:12px; opacity:.85; }
+.time-badge {
+  margin-left:auto; background:rgba(255,255,255,.25);
+  color:white; border-radius:20px; padding:4px 12px;
+  font-size:12px; font-weight:700; white-space:nowrap;
+}
+
+.card-body { padding:22px 24px; }
+.step-list { list-style:none; }
+.step-list li {
+  padding:10px 0; border-bottom:1px dashed #e2e8f0;
+  font-size:14px; line-height:1.7;
+  display:flex; gap:10px;
+}
+.step-list li:last-child { border-bottom:none; }
+.step-list .num {
+  width:24px; height:24px; border-radius:50%;
+  background:#2d6a9f; color:white;
+  font-size:12px; font-weight:700;
+  display:flex; align-items:center; justify-content:center;
+  flex-shrink:0; margin-top:2px;
+}
+.step-list .num.k { background:#b8860b; }
+.step-list .num.n { background:#03C75A; }
+
+.hl  { background:#fff9c4; padding:1px 5px; border-radius:3px; font-weight:700; }
+.url { background:#ebf4ff; padding:3px 10px; border-radius:6px; font-weight:700; color:#2b6cb0; font-size:13px; display:inline-block; margin:2px 0; }
+.tip { background:#f0fff4; border-left:3px solid #38a169; padding:8px 12px; border-radius:0 6px 6px 0; font-size:13px; color:#276749; margin:8px 0; }
+.warn { background:#fff5f5; border-left:3px solid #e53e3e; padding:8px 12px; border-radius:0 6px 6px 0; font-size:13px; color:#c53030; margin:8px 0; }
+
+/* 완료 체크 */
+.done-box {
+  display:flex; gap:10px; align-items:flex-start;
+  padding:10px 0; border-bottom:1px dashed #e2e8f0; font-size:13px;
+}
+.done-box input { width:18px; height:18px; margin-top:2px; flex-shrink:0; cursor:pointer; }
+
+/* AI 담당 섹션 */
+.auto-section {
+  background:#f0fff4; border:2px solid #9ae6b4;
+  border-radius:12px; padding:20px; margin:20px 0;
+}
+.auto-section h3 { color:#276749; font-size:16px; font-weight:900; margin-bottom:12px; }
+.auto-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); gap:8px; }
+.auto-item {
+  background:white; border-radius:8px; padding:10px 12px;
+  font-size:12px; border:1px solid #c6f6d5;
+}
+.auto-item strong { color:#276749; display:block; margin-bottom:2px; font-size:13px; }
+
+/* 일상 운영 */
+.daily {
+  background:linear-gradient(135deg,#1e3a5f,#2d6a9f);
+  color:white; border-radius:14px; padding:22px 24px; margin:20px 0;
+}
+.daily h3 { font-size:17px; font-weight:900; margin-bottom:14px; }
+.daily-item { display:flex; gap:12px; align-items:flex-start; padding:8px 0; border-bottom:1px solid rgba(255,255,255,.15); font-size:14px; }
+.daily-item:last-child { border-bottom:none; }
+.daily-icon { font-size:20px; flex-shrink:0; margin-top:1px; }
+
+/* 연락처 */
+.contact-bar {
+  background:#1a202c; color:white;
+  border-radius:12px; padding:20px; text-align:center; margin:20px 0;
+}
+.contact-bar h3 { font-size:15px; margin-bottom:10px; }
+.big-phone { font-size:22px; font-weight:900; color:#faf089; display:block; margin-bottom:4px; }
+.contact-bar p { font-size:12px; opacity:.7; }
+
+/* 인쇄 */
+@media print {
+  body { background:white; }
+  .big-card { box-shadow:none; break-inside:avoid; }
+  .header { background:#1e3a5f !important; -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+}
+@media (max-width:600px) { .header h1 { font-size:20px; } .container { padding:12px; } }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>📋 대표님이 직접 하실 것</h1>
+  <p>딱 3가지뿐입니다 — 나머지는 AI가 전부 합니다</p>
+  <div class="sub">📱 010-5927-9205 | ✉️ sambo003@daum.net</div>
+</div>
+
+<div class="container">
+
+  <div class="notice">
+    <strong>✅ 이미 자동으로 완료된 것:</strong> 웹사이트 (saeloan.co.kr), 배포, 상담신청폼, AI 자동 SNS 게시 시스템, 법규 검사 시스템, GitHub 저장<br>
+    <strong>⚠️ 홈페이지↔이메일 연동: 완전히 제거되었습니다.</strong> 상담신청이 오면 <strong>텔레그램 앱으로만 알림</strong>이 옵니다.<br>
+    <strong>👉 아래 3가지만 직접 해주시면 모든 시스템이 완성됩니다!</strong>
+  </div>
+
+  <!-- ── STEP 1: 텔레그램 ── -->
+  <div class="big-card">
+    <div class="card-header blue">
+      <div class="step-num">1</div>
+      <div class="card-title">
+        <h2>텔레그램 앱 설치 — 핸드폰 알림 받기</h2>
+        <p>고객 상담신청 알림 + AI 작업 완료 알림을 받는 앱</p>
+      </div>
+      <div class="time-badge">⏱️ 5분</div>
+    </div>
+    <div class="card-body">
+      <ul class="step-list">
+        <li>
+          <div class="num">1</div>
+          <div>핸드폰 <span class="hl">구글플레이</span> 또는 <span class="hl">앱스토어</span> 열기 → <span class="hl">"텔레그램"</span> 검색 → 설치</div>
+        </li>
+        <li>
+          <div class="num">2</div>
+          <div>텔레그램 실행 → 핸드폰 번호 <span class="hl">010-5927-9205</span> 로 가입</div>
+        </li>
+        <li>
+          <div class="num">3</div>
+          <div>텔레그램 앱 상단 검색창에 <span class="hl">@userinfobot</span> 입력 → 채팅 시작 → <span class="hl">/start</span> 입력<br>
+          → 숫자로 된 <strong>Chat ID</strong>가 표시됩니다 (예: 123456789)</div>
+        </li>
+        <li>
+          <div class="num">4</div>
+          <div><strong>그 숫자를 이희전 씨 (010-5650-0670)에게 카카오톡으로 전달</strong><br>
+          → 이희전 씨가 나머지 연결 작업을 처리합니다</div>
+        </li>
+        <li>
+          <div class="num">5</div>
+          <div>이희전 씨 설정 완료 후 → 텔레그램으로 테스트 알림이 오면 완성!</div>
+        </li>
+      </ul>
+      <div class="tip">💡 완성되면 고객이 상담신청할 때마다 이 메시지가 옵니다:<br>
+      "📞 새론금융 상담신청! 이름: 홍길동 | 연락처: 010-xxxx-xxxx | 지금 바로 전화해주세요!"</div>
+      <div class="warn">⚠️ 이메일 알림은 없습니다. 텔레그램 알림만 옵니다. 텔레그램 알림 꼭 켜두세요!</div>
+    </div>
+  </div>
+
+  <!-- ── STEP 2: 카카오 채널 ── -->
+  <div class="big-card">
+    <div class="card-header kakao">
+      <div class="step-num">2</div>
+      <div class="card-title">
+        <h2>💛 카카오톡 채널 개설</h2>
+        <p>고객이 카카오로 문의할 수 있는 공식 채널</p>
+      </div>
+      <div class="time-badge">⏱️ 10분</div>
+    </div>
+    <div class="card-body">
+      <ul class="step-list">
+        <li>
+          <div class="num k">1</div>
+          <div><strong>PC</strong>에서 아래 주소 접속:<br>
+          <span class="url">🌐 biz.kakao.com</span></div>
+        </li>
+        <li>
+          <div class="num k">2</div>
+          <div>카카오 계정으로 로그인 (없으면 회원가입)</div>
+        </li>
+        <li>
+          <div class="num k">3</div>
+          <div>"카카오톡 채널 만들기" 클릭 → 아래 정보 입력:<br>
+          • 채널 이름: <span class="hl">새론금융대부중개</span><br>
+          • 카테고리: <span class="hl">금융 서비스</span><br>
+          • 전화번호: <span class="hl">1555-2137</span><br>
+          • 주소: <span class="hl">경기도 수원시 팔달구 권광로 159</span></div>
+        </li>
+        <li>
+          <div class="num k">4</div>
+          <div>사업자정보 입력:<br>
+          • 사업자등록번호: <span class="hl">653-90-02268</span><br>
+          • 대표자명: <span class="hl">김덕진</span></div>
+        </li>
+        <li>
+          <div class="num k">5</div>
+          <div>"개설하기" 클릭 → 승인 대기 (보통 1~3일)</div>
+        </li>
+        <li>
+          <div class="num k">6</div>
+          <div>승인 완료 문자/이메일 받으면 → <strong>이희전 씨에게 채널 URL 전달</strong><br>
+          → 이희전 씨가 웹사이트에 카카오 버튼 자동 추가!</div>
+        </li>
+      </ul>
+      <div class="tip">💡 채널 개설 후 자동응답 메시지는 이희전 씨가 설정합니다.</div>
+    </div>
+  </div>
+
+  <!-- ── STEP 3: 네이버 블로그 ── -->
+  <div class="big-card">
+    <div class="card-header naver">
+      <div class="step-num">3</div>
+      <div class="card-title">
+        <h2>🟢 네이버 블로그 개설</h2>
+        <p>"수원 대출 중개" 검색 시 상위 노출되는 무료 채널</p>
+      </div>
+      <div class="time-badge">⏱️ 5분</div>
+    </div>
+    <div class="card-body">
+      <ul class="step-list">
+        <li>
+          <div class="num n">1</div>
+          <div><strong>PC</strong>에서 접속: <span class="url">🌐 naver.com</span> → 로그인</div>
+        </li>
+        <li>
+          <div class="num n">2</div>
+          <div>상단 메뉴 <span class="hl">블로그</span> 클릭 → <span class="hl">내 블로그 만들기</span></div>
+        </li>
+        <li>
+          <div class="num n">3</div>
+          <div>블로그 이름: <span class="hl">새론금융대부중개 공식블로그</span></div>
+        </li>
+        <li>
+          <div class="num n">4</div>
+          <div>소개글: <span class="hl">경기도 수원시 합법 대부중개업체 | 등록번호: 2026-수원-2324 | 1555-2137</span></div>
+        </li>
+        <li>
+          <div class="num n">5</div>
+          <div>"완료" 클릭 → 블로그 주소(URL) 확인<br>
+          예: <span class="hl">blog.naver.com/saeloan2024</span></div>
+        </li>
+        <li>
+          <div class="num n">6</div>
+          <div><strong>블로그 주소를 이희전 씨에게 전달</strong> → AI 자동 포스팅 연결</div>
+        </li>
+      </ul>
+      <div class="tip">💡 개설 후 글 쓰기는 AI가 자동으로 합니다. 대표님은 만들기만 하시면 됩니다!</div>
+    </div>
+  </div>
+
+  <!-- ── AI가 자동으로 하는 것들 ── -->
+  <div class="auto-section">
+    <h3>🤖 나머지는 AI가 전부 자동으로 합니다</h3>
+    <div class="auto-grid">
+      <div class="auto-item"><strong>매일 오전 9시</strong>SNS 콘텐츠 자동 생성</div>
+      <div class="auto-item"><strong>법규 자동 검사</strong>금지어 차단, 필수문구 삽입</div>
+      <div class="auto-item"><strong>인스타그램</strong>자동 게시 (이미 연동 중)</div>
+      <div class="auto-item"><strong>페이스북</strong>인스타와 동시 자동 게시</div>
+      <div class="auto-item"><strong>네이버 블로그</strong>주 2회 자동 포스팅</div>
+      <div class="auto-item"><strong>카카오 채널</strong>주 2회 자동 메시지</div>
+      <div class="auto-item"><strong>매주 자동 업데이트</strong>AI 도구 최신버전 유지</div>
+      <div class="auto-item"><strong>월간 보고서</strong>성과 자동 분석 발송</div>
+    </div>
+  </div>
+
+  <!-- ── 완성 후 일상 ── -->
+  <div class="daily">
+    <h3>✅ 3가지 완료 후 — 대표님의 하루</h3>
+    <div class="daily-item">
+      <div class="daily-icon">🌅</div>
+      <div><strong>아침 (30초):</strong> 텔레그램 확인 → "✅ 오늘 게시 완료" 메시지 확인 → 끝!</div>
+    </div>
+    <div class="daily-item">
+      <div class="daily-icon">📞</div>
+      <div><strong>상담 전화:</strong> 1555-2137 수신 → 고객 상황 듣기 → 맞는 금융사 연결 (이것만 직접)</div>
+    </div>
+    <div class="daily-item">
+      <div class="daily-icon">📱</div>
+      <div><strong>상담신청 알림:</strong> 텔레그램으로 고객 정보 도착 → 바로 전화 → 상담 진행</div>
+    </div>
+    <div class="daily-item">
+      <div class="daily-icon">📊</div>
+      <div><strong>월 1회 (5분):</strong> 텔레그램으로 오는 월간 보고서 확인</div>
+    </div>
+  </div>
+
+  <!-- ── 완료 체크리스트 ── -->
+  <div style="background:white; border-radius:12px; padding:20px; box-shadow:0 2px 8px rgba(0,0,0,.08); margin-bottom:20px;">
+    <h3 style="color:#1e3a5f; font-size:15px; font-weight:700; margin-bottom:14px;">📋 대표님 완료 체크리스트</h3>
+    <div class="done-box"><input type="checkbox"> 텔레그램 앱 설치 완료</div>
+    <div class="done-box"><input type="checkbox"> 텔레그램 Chat ID 확인 → 이희전 씨에게 전달</div>
+    <div class="done-box"><input type="checkbox"> 카카오 채널 개설 신청 완료 (biz.kakao.com)</div>
+    <div class="done-box"><input type="checkbox"> 카카오 채널 승인 완료 → 이희전 씨에게 URL 전달</div>
+    <div class="done-box"><input type="checkbox"> 네이버 블로그 개설 완료 → 이희전 씨에게 주소 전달</div>
+    <div class="done-box"><input type="checkbox"> 텔레그램으로 테스트 알림 수신 확인</div>
+    <div class="done-box"><input type="checkbox"> AI 자동 게시 첫 번째 성공 확인</div>
+  </div>
+
+  <!-- ── 연락처 ── -->
+  <div class="contact-bar">
+    <h3>궁금하거나 막히는 것이 생기면</h3>
+    <span class="big-phone">이희전: 010-5650-0670</span>
+    <p>카카오톡, 문자 모두 됩니다 | 이 문서를 보여주시면 바로 진행!</p>
+    <button onclick="window.print()" style="background:white;color:#1a202c;border:none;border-radius:8px;padding:10px 24px;font-size:14px;font-weight:700;cursor:pointer;margin-top:14px;">🖨️ 인쇄하기</button>
+  </div>
+
+</div>
+</body>
+</html>
