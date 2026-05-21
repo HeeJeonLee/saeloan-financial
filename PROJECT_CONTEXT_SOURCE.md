@@ -22,6 +22,7 @@
 | 10 | SNS 시장 재조사 완료 → SNS_SALES_SYSTEM v4.0 전면 강화 | ✅ |
 | 11 | 3-Track → 5-Track 전략 전환 (네이버 파워링크 Track 2 추가) | ✅ |
 | 12 | 뱅크몰TV 유튜브 패턴 벤치마킹 → 규제반응형 콘텐츠 전략 추가 | ✅ |
+| 13 | SNS 전략 3파일 통합 → SNS_MASTER_STRATEGY.md v5.0 FINAL 단일 파일로 완성 | ✅ |
 
 ---
 
@@ -73,7 +74,7 @@
 - `.github/copilot-instructions.md`에 전략 전체가 통합됨 → 새 대화 시작 즉시 자동 로드
 - 새 전략 수립 후에는 반드시 아래 세 파일 모두 즉시 업데이트:
   1. `PROJECT_CONTEXT_SOURCE.md` — 핵심 운영 명제·시스템 정보
-  2. `SNS_SALES_SYSTEM.md` — SNS 전략·채널별 전술·의사결정 이력
+  2. `SNS_MASTER_STRATEGY.md` — SNS 전략 통합 마스터 (v5.0 FINAL)
   3. `.github/copilot-instructions.md` — 위 두 파일 통합본 (자동 로드 소스)
 - 작업 완료 후 반드시 git commit + push → GitHub에 영구 저장
 - **이 세 파일이 항상 동일한 최신 전략을 담아야 한다**
