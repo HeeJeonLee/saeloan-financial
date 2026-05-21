@@ -25,6 +25,7 @@
 | 13 | SNS 전략 3파일 통합 → SNS_MASTER_STRATEGY.md v5.0 FINAL 단일 파일로 완성 | ✅ |
 | 14 | 경쟁사 심층조사 + 글로벌 AI툴 조사 (ProductHunt, topai.tools, HeyGen) | ✅ |
 | 15 | SNS_MASTER_STRATEGY.md v6.0 — Klap.app·Perplexity AI·n8n 추가 + 경쟁우위 5가지 + 글로벌 벤치마크 강화 | ✅ |
+| 16 | SNS_SETUP_PROCESS.md v2.0 — AI 코딩 에이전트(Cursor/Bolt.new) 통합 + 유튜브4편·인스타8장 사전완성 + 팀장님 최소 개입 구조 | ✅ |
 
 ---
 
