@@ -215,7 +215,7 @@
 | 2026-05-21 | 시장 재조사 → 경쟁사 분석 완료 |
 | 2026-05-21 | 3-Track → 5-Track 전략 강화 (네이버 파워링크 추가) |
 | 2026-05-21 | 뱅크몰TV 벤치마킹 → 규제반응형 콘텐츠 패턴 도입 |
-| 2026-05-21 | SNS 전략 3파일 → SNS_MASTER_STRATEGY.md v5.0 FINAL 단일 파일로 통합 |
+| 2026-05-22 | SNS_MASTER_STRATEGY.md v6.0 완성 — Klap/Perplexity AI/n8n 추가 + 경쟁우위5가지 + 글로벌 SoFi/LendingTree 벤치마크 + HeyGen 상세 활용법 |
 
 ---
 

@@ -23,6 +23,8 @@
 | 11 | 3-Track → 5-Track 전략 전환 (네이버 파워링크 Track 2 추가) | ✅ |
 | 12 | 뱅크몰TV 유튜브 패턴 벤치마킹 → 규제반응형 콘텐츠 전략 추가 | ✅ |
 | 13 | SNS 전략 3파일 통합 → SNS_MASTER_STRATEGY.md v5.0 FINAL 단일 파일로 완성 | ✅ |
+| 14 | 경쟁사 심층조사 + 글로벌 AI툴 조사 (ProductHunt, topai.tools, HeyGen) | ✅ |
+| 15 | SNS_MASTER_STRATEGY.md v6.0 — Klap.app·Perplexity AI·n8n 추가 + 경쟁우위 5가지 + 글로벌 벤치마크 강화 | ✅ |
 
 ---
 
