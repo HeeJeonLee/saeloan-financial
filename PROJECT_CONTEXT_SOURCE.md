@@ -76,7 +76,7 @@
 - `.github/copilot-instructions.md`에 전략 전체가 통합됨 → 새 대화 시작 즉시 자동 로드
 - 새 전략 수립 후에는 반드시 아래 세 파일 모두 즉시 업데이트:
   1. `PROJECT_CONTEXT_SOURCE.md` — 핵심 운영 명제·시스템 정보
-  2. `SNS_MASTER_STRATEGY.md` — SNS 전략 통합 마스터 (v5.0 FINAL)
+  2. `SNS_MASTER_STRATEGY.md` — SNS 전략 통합 마스터 (v6.0 FINAL)
   3. `.github/copilot-instructions.md` — 위 두 파일 통합본 (자동 로드 소스)
 - 작업 완료 후 반드시 git commit + push → GitHub에 영구 저장
 - **이 세 파일이 항상 동일한 최신 전략을 담아야 한다**
@@ -89,9 +89,9 @@
 - 매 분기 1회: Copilot에게 "시스템 업데이트 해줘" → 최신 AI 툴 자동 통합
 - 자동화 적용 순서: 콘텐츠 생성 → 발행 → 리드 수집 → 상담 알림 → 리포팅 → 영상 제작
 - **Phase 확장 기준:**
-  - Phase 1 (현재): 월 0원 — Gemini API + Apps Script + Telegram + Vercel
-  - Phase 2 (월 15건 초과 시): Canva Pro(17,000원) + ElevenLabs(6,000원) + CapCut(무료)
-  - Phase 3 (월 25건 초과 시): HeyGen AI 영상(40,000원) + Buffer 예약발행(무료)
+  - Phase 1 (현재): 월 0원 — Gemini API + Apps Script + Telegram + Vercel + **Klap.app(무료)** + **Perplexity AI(무료)** + CapCut(무료)
+  - Phase 2 (월 15건 초과 시): Canva Pro(17,000원) + ElevenLabs(6,000원) + **n8n 오픈소스(무료)**
+  - Phase 3 (월 25건 초과 시): HeyGen AI 아바타 영상(~40,000원) + 네이버 파워링크 증액
 - Copilot에게 "시스템 업데이트 해줘" 한 마디로 최신 AI 툴 전면 검토·교체
 
 ---
