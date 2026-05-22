@@ -44,8 +44,8 @@ function App() {
       <header className="w-full bg-blue-900 text-white shadow sticky top-0 z-50">
         <div className="max-w-5xl mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex flex-col leading-tight">
-            <span className="text-blue-200 text-xl font-bold block">등록번호 2026-수원-2324(대부중개업)</span>
-            <span className="text-white font-extrabold text-4xl block leading-tight mt-1">믿음이 가는 새론금융대부중개</span>
+            <span className="text-blue-200 text-4xl font-extrabold block">등록번호 2026-수원-2324(대부중개업)</span>
+            <span className="text-white font-bold text-xl block leading-tight mt-1">믿음이 가는 새론금융대부중개</span>
           </div>
           <a href="tel:15552137"
             className="bg-yellow-400 text-blue-900 font-bold px-4 py-2 rounded-full text-sm hover:bg-yellow-300 transition">
