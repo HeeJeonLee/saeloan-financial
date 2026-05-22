@@ -59,7 +59,7 @@ function App() {
         <div className="inline-block bg-yellow-400 text-blue-900 text-xs font-bold px-4 py-1 rounded-full mb-4">
           서울·수도권 아파트담보 대부중개업
         </div>
-        <h1 className="text-3xl md:text-5xl font-extrabold mb-4 leading-tight">
+        <h1 className="text-2xl font-extrabold mb-4 leading-tight">
           은행에서 안 된다고요?<br />
           <span className="text-yellow-300">아파트담보 대부업체 연결해 드립니다</span>
         </h1>
