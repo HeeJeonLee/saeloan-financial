@@ -1,0 +1,37 @@
+[
+  {
+    "path": "PROJECT_CONTEXT_SOURCE.md",
+    "desc": "핵심 운영 명제·시스템 정보 마스터",
+    "type": "md"
+  },
+  {
+    "path": "SNS_MASTER_STRATEGY.md",
+    "desc": "SNS 전략 통합 마스터",
+    "type": "md"
+  },
+  {
+    "path": "SNS_SETUP_PROCESS.md",
+    "desc": "SNS AI 자동화 전체 프로세스·실행 가이드",
+    "type": "md"
+  },
+  {
+    "path": "ai-agent/master-agent.js",
+    "desc": "AGI 메인 컨트롤러 (자동화 통합)",
+    "type": "js"
+  },
+  {
+    "path": "ai-agent/memory-loader.js",
+    "desc": "모든 전략/설정/코드/성과 파일 자동 로드",
+    "type": "js"
+  },
+  {
+    "path": "ai-agent/audit-logger.js",
+    "desc": "파일 생성/수정/삭제/감사 자동 기록",
+    "type": "js"
+  },
+  {
+    "path": "ai-agent/summary-reporter.js",
+    "desc": "전체 요약본 자동 생성/저장",
+    "type": "js"
+  }
+]

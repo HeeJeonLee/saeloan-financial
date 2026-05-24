@@ -47,6 +47,7 @@ class LegalChecker {
                           content.includes(config.legalDisclosure.substring(0, 30));
 
     if (hasLegalBlock) {
+        this.notifyAudit = require('./notifier').notifyAudit;
       // 법정 고지 블록이 통째로 있으면 개별 항목은 skip
       result.score = 100;
     } else {
@@ -92,6 +93,9 @@ class LegalChecker {
     msg += `📝 내용: ${preview}\n`;
     msg += `⏱️ 시간: ${new Date().toLocaleString('ko-KR')}\n`;
 
+        if (result.missing.length > 0) {
+          this.notifyAudit('법정 고지문 누락 감지: 즉시 수정 필요');
+        }
     if (result.forbidden.length > 0) {
       msg += `\n🚫 금지어 발견:\n${result.forbidden.map(w => `  - "${w}"`).join('\n')}\n`;
     }
