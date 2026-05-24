@@ -6,14 +6,16 @@
  *   cd ai-agent
  *   node setup-wizard.js
  *
- * 이 스크립트가 하는 일:
- *   1단계: 텔레그램 봇 설정 & 테스트
- *   2단계: ElevenLabs API 키 설정 & 테스트
- *   3단계: Instagram 토큰 설정 & 테스트
- *   4단계: YouTube OAuth (get-youtube-token.js 실행)
- *   5단계: GitHub Secrets 자동 등록 (set-secrets.js 실행)
+ * 이 스크립트가 하는 일 (완전 자동화/최소 입력 구조):
+ *   1단계: 텔레그램 봇 설정 & 테스트 (이미 .env에 값 있으면 자동 건너뜀)
+ *   2단계: ElevenLabs API 키 설정 & 테스트 (이미 .env에 값 있으면 자동 건너뜀)
+ *   3단계: Instagram 토큰 설정 & 테스트 (이미 .env에 값 있으면 자동 건너뜀)
+ *   4단계: YouTube OAuth (get-youtube-token.js 자동 실행, 이미 .env에 값 있으면 자동 건너뜀)
+ *   5단계: GitHub Secrets 자동 등록 (set-secrets.js 자동 실행, 이미 등록된 값은 건너뜀)
  *
- * 각 단계는 성공적으로 완료된 것만 .env에 저장됩니다.
+ * 사용자는 반드시 입력이 필요한 값(토큰, ID 등)만 복사/붙여넣기 안내에 따라 입력하면 됩니다.
+ * 이미 .env에 값이 있으면 해당 단계는 자동으로 PASS됩니다.
+ * 각 단계는 성공적으로 완료된 값만 .env에 저장됩니다.
  * ============================================================
  */
 

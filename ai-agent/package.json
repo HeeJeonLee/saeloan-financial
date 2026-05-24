@@ -26,7 +26,7 @@
     "set-secrets": "node set-secrets.js"
   },
   "dependencies": {
-    "@anthropic-ai/sdk": "^0.40.0",
+    "@anthropic-ai/sdk": "^0.40.1",
     "dotenv": "^16.0.0",
     "libsodium-wrappers": "^0.7.15",
     "node-cron": "^3.0.3",
@@ -35,7 +35,13 @@
   "engines": {
     "node": ">=18.0.0"
   },
-  "keywords": ["saeloan", "AI", "SNS", "자동화", "대부중개"],
+  "keywords": [
+    "saeloan",
+    "AI",
+    "SNS",
+    "자동화",
+    "대부중개"
+  ],
   "author": "새론금융대부중개",
   "license": "UNLICENSED",
   "private": true

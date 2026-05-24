@@ -1,0 +1,45 @@
+[
+  {
+    "timestamp": "2026-05-24T14:08:58.838Z",
+    "results": [
+      {
+        "name": "📸 Instagram 캡션 생성",
+        "error": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CbMXTttD6wmykebpG2NBq\"}"
+      },
+      {
+        "name": "🎬 YouTube Shorts 자동 생성 & 업로드",
+        "error": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CbMXTuyCL3bnK7LeB2s9e\"}"
+      },
+      {
+        "name": "🤝 Track2 파트너십 템플릿 생성",
+        "platform": "track2",
+        "topic": "서울 아파트 담보대출 — 은행에서 거절당한 이유와 해결책",
+        "file": "generated\\track2-partner-pack\\track2-partner-pack_2026-05-24_1779631737279.txt"
+      },
+      {
+        "name": "💬 Track3 카카오 상담 템플릿 생성",
+        "platform": "track3",
+        "topic": "서울 아파트 담보대출 — 은행에서 거절당한 이유와 해결책",
+        "file": "generated\\track3-kakao-pack\\track3-kakao-pack_2026-05-24_1779631737282.txt"
+      },
+      {
+        "name": "🗓️ 일일 실행 플랜 생성",
+        "platform": "daily_plan",
+        "topic": "서울 아파트 담보대출 — 은행에서 거절당한 이유와 해결책",
+        "file": "generated\\daily-action-plan\\daily-action-plan_2026-05-24_1779631737283.txt"
+      },
+      {
+        "name": "📨 파트너 맞춤 카카오 팩 생성",
+        "platform": "partner_outreach",
+        "topic": "서울 아파트 담보대출 — 은행에서 거절당한 이유와 해결책",
+        "file": "generated\\partner-kakao-outreach\\partner-kakao-outreach_2026-05-24_1779631737284.txt"
+      },
+      {
+        "name": "🎯 오늘 발송 대상 TOP3 생성",
+        "platform": "partner_today_top",
+        "topic": "서울 아파트 담보대출 — 은행에서 거절당한 이유와 해결책",
+        "file": "generated\\partner-today-top\\partner-today-top_2026-05-24_1779631737297.txt"
+      }
+    ]
+  }
+]
