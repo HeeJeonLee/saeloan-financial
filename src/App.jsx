@@ -74,8 +74,8 @@ function App() {
             className="bg-yellow-400 text-blue-900 font-bold px-8 py-4 rounded-full text-lg hover:bg-yellow-300 shadow-lg transition">
             무료 사전검토 신청
           </a>
-          <a href="tel:10059279205"
-            className="bg-white text-blue-900 font-bold px-8 py-4 rounded-full text-lg hover:bg-blue-50 shadow-lg transition">
+            <a href="tel:01059279205"
+              className="bg-white text-blue-900 font-bold px-8 py-4 rounded-full text-lg hover:bg-blue-50 shadow-lg transition">
             📱 010-5927-9205 바로전화
           </a>
         </div>
